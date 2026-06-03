@@ -6,212 +6,333 @@
 <title>UPSC Prelims A2Z Sheet</title>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
-/* ── TOKENS ── */
+/* ─────────────────────────────────────────────
+   UPSC A2Z — Design System v3
+   Philosophy: Warm parchment at rest, crisp ink
+   on paper. Earthy greens for growth, terracotta
+   for urgency, gold for importance. Like a good
+   study notebook — inviting, never cold.
+───────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap');
+
 :root {
-  --bg:       #0d0f14;
-  --surf:     #13161e;
-  --surf2:    #1a1e28;
-  --surf3:    #212636;
-  --bdr:      #2a2f3d;
-  --bdr2:     #343a4d;
-  --acc:      #e84a2e;
-  --acc2:     #c73820;
-  --green:    #22c55e;
-  --gdim:     #166534;
-  --blue:     #60a5fa;
-  --bdim:     #1e3a5f;
-  --txt:      #e8eaf0;
-  --txt2:     #9ba3b8;
-  --txt3:     #626880;
-  --imp:      #f59e0b;
-  --rev:      #38bdf8;
-  --r:        10px;
-  --r2:       6px;
+  /* ── backgrounds: warm off-white to soft cream ── */
+  --bg:      #f5f0e8;        /* aged parchment */
+  --surf:    #faf7f2;        /* cream page */
+  --surf2:   #f0ebe0;        /* slightly deeper parchment */
+  --surf3:   #e8e1d4;        /* worn paper */
+
+  /* ── borders ── */
+  --bdr:     #ddd6c8;
+  --bdr2:    #ccc4b4;
+
+  /* ── accent: terracotta / saffron — India, urgency, action ── */
+  --acc:     #c0392b;        /* deep saffron-red — classic UPSC prep */
+  --acc2:    #a93226;
+  --acc-glow: rgba(192,57,43,.12);
+
+  /* ── success: forest green — growth, completion ── */
+  --green:   #1e7e4c;
+  --gdim:    rgba(30,126,76,.15);
+
+  /* ── info: warm indigo — knowledge, calm ── */
+  --blue:    #2563a8;
+  --bdim:    rgba(37,99,168,.12);
+
+  /* ── text: ink on paper ── */
+  --txt:     #1c1a16;        /* near-black ink */
+  --txt2:    #5a5446;        /* secondary ink */
+  --txt3:    #9a9082;        /* muted ink */
+
+  /* ── special ── */
+  --imp:     #b45309;        /* amber/gold — important */
+  --rev:     #0e6fa3;        /* teal-blue — revision */
+
+  /* ── shapes ── */
+  --r:       12px;
+  --r2:      7px;
+  --r3:      4px;
+
+  /* ── shadows: soft paper lift ── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.05);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,.1),  0 3px 8px rgba(0,0,0,.06);
 }
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: var(--bg);
-  background-image: repeating-linear-gradient(135deg,transparent,transparent 40px,rgba(255,255,255,.012) 40px,rgba(255,255,255,.012) 41px);
+  /* very subtle linen texture */
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(192,57,43,.03) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(37,99,168,.03) 0%, transparent 60%);
   color: var(--txt);
   min-height: 100vh;
   line-height: 1.6;
 }
 
-/* ── HEADER ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   HEADER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .hdr {
   position: sticky; top: 0; z-index: 100;
-  background: linear-gradient(135deg,#0d0f14,#131824);
+  background: rgba(245,240,232,.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--bdr);
+  /* tricolor top stripe — thin, elegant */
   border-top: 3px solid transparent;
-  border-image: linear-gradient(90deg,#FF9933 33%,#fff 33% 66%,#138808 66%) 1;
-  padding: 0 16px;
+  border-image: linear-gradient(90deg,#FF9933 33%,#ffffff 33% 66%,#138808 66%) 1;
+  box-shadow: var(--shadow-sm);
+  padding: 0 20px;
 }
 .hdr-inner {
-  max-width: 1280px; margin: 0 auto;
-  min-height: 56px;
-  display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
-  padding: 6px 0;
+  max-width: 1300px; margin: 0 auto;
+  min-height: 58px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  padding: 7px 0;
 }
-.logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .logo-icon {
-  width: 32px; height: 32px; flex-shrink: 0;
-  background: linear-gradient(135deg,var(--acc),var(--acc2));
-  border-radius: 7px; display: flex; align-items: center; justify-content: center; font-size: 16px;
+  width: 34px; height: 34px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--acc), var(--acc2));
+  border-radius: 9px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 17px;
+  box-shadow: 0 2px 8px rgba(192,57,43,.3);
 }
 .logo-txt {
   font-family: 'Bricolage Grotesque', sans-serif;
-  font-weight: 800; font-size: 1.1rem; color: var(--txt); letter-spacing: -.02em;
+  font-weight: 800; font-size: 1.15rem; color: var(--txt); letter-spacing: -.02em;
 }
 .logo-txt span { color: var(--acc); }
+
 .hdr-stats { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .pill {
-  display: flex; align-items: center; gap: 4px;
-  padding: 4px 10px;
-  background: var(--surf2); border: 1px solid var(--bdr); border-radius: 20px;
-  font-size: .72rem; color: var(--txt2);
+  display: flex; align-items: center; gap: 5px;
+  padding: 4px 11px;
+  background: var(--surf); border: 1px solid var(--bdr); border-radius: 20px;
+  font-size: .73rem; color: var(--txt2);
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s;
 }
+.pill:hover { transform: translateY(-1px); }
 .pill strong { color: var(--txt); font-weight: 600; }
-.pill.g { border-color: var(--gdim); } .pill.g strong { color: var(--green); }
-.pill.b { border-color: var(--bdim); } .pill.b strong { color: var(--blue); }
-.reset-btn {
-  padding: 5px 11px;
-  background: transparent; border: 1px solid var(--bdr2); border-radius: var(--r2);
-  color: var(--txt3); font-family: inherit; font-size: .72rem; cursor: pointer;
-  transition: border-color .15s, color .15s;
-}
-.reset-btn:hover { border-color: #e53e3e; color: #e53e3e; }
+.pill.g { border-color: rgba(30,126,76,.3); background: rgba(30,126,76,.06); }
+.pill.g strong { color: var(--green); }
+.pill.b { border-color: rgba(37,99,168,.3); background: rgba(37,99,168,.06); }
+.pill.b strong { color: var(--blue); }
 
-/* ── HERO ── */
-.hero { max-width: 1280px; margin: 0 auto; padding: 24px 16px 20px; }
+.reset-btn {
+  padding: 5px 13px;
+  background: transparent; border: 1px solid var(--bdr2); border-radius: var(--r2);
+  color: var(--txt3); font-family: inherit; font-size: .73rem; cursor: pointer;
+  transition: all .18s;
+}
+.reset-btn:hover { border-color: var(--acc); color: var(--acc); background: var(--acc-glow); }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   HERO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.hero { max-width: 1300px; margin: 0 auto; padding: 28px 20px 22px; }
+
 .hero-title {
   font-family: 'Bricolage Grotesque', sans-serif;
-  font-weight: 800; font-size: clamp(1.4rem,5vw,2.2rem);
-  letter-spacing: -.03em; line-height: 1.2; margin-bottom: 4px;
+  font-weight: 800; font-size: clamp(1.55rem, 5vw, 2.4rem);
+  letter-spacing: -.03em; line-height: 1.15; margin-bottom: 5px;
+  color: var(--txt);
 }
-.hero-sub { color: var(--txt2); font-size: .88rem; margin-bottom: 20px; }
+.hero-sub { color: var(--txt3); font-size: .9rem; margin-bottom: 22px; }
 
-/* ── OVERALL CARD ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   OVERALL PROGRESS CARD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .overall-card {
-  display: flex; gap: 20px; align-items: center; flex-wrap: wrap;
-  padding: 18px; margin-bottom: 20px;
-  background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r);
+  display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+  padding: 22px 24px; margin-bottom: 22px;
+  background: var(--surf);
+  border: 1px solid var(--bdr);
+  border-radius: var(--r);
+  box-shadow: var(--shadow-md);
+  position: relative; overflow: hidden;
 }
+/* subtle warm gradient wash */
+.overall-card::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(192,57,43,.04) 0%, transparent 55%);
+  pointer-events: none;
+}
+
 .big-pct {
   font-family: 'Bricolage Grotesque', sans-serif;
-  font-size: clamp(2.4rem,8vw,3rem); font-weight: 800; color: var(--acc); line-height: 1; flex-shrink: 0;
+  font-size: clamp(2.8rem, 8vw, 3.5rem); font-weight: 800;
+  color: var(--acc); line-height: 1; flex-shrink: 0;
+  position: relative; z-index: 1;
 }
-.big-pct span { font-size: 1.2rem; color: var(--txt2); }
-.overall-right { flex: 1; min-width: 180px; }
-.overall-lbl { font-size: .75rem; color: var(--txt2); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 7px; }
-.bar { height: 10px; background: var(--surf3); border-radius: 5px; overflow: hidden; margin-bottom: 5px; }
-.bar-fill { height: 100%; border-radius: 5px; width: 0%; transition: width .6s cubic-bezier(.4,0,.2,1); }
-.bar-fill.acc { background: linear-gradient(90deg,var(--acc2),var(--acc)); }
-.bar-fill.done { background: linear-gradient(90deg,var(--acc2),var(--acc)); }
-.bar-fill.rev  { background: linear-gradient(90deg,#0ea5e9,var(--rev)); }
-.overall-counts { font-size: .78rem; color: var(--txt3); margin-bottom: 10px; }
-.dual-bars { display: flex; flex-direction: column; gap: 5px; }
-.dual-row { display: flex; align-items: center; gap: 8px; font-size: .72rem; color: var(--txt3); }
-.dual-lbl { width: 65px; flex-shrink: 0; }
-.dual-track { flex: 1; height: 5px; background: var(--surf3); border-radius: 3px; overflow: hidden; }
+.big-pct span { font-size: 1.3rem; color: var(--txt3); }
+
+.overall-right { flex: 1; min-width: 200px; position: relative; z-index: 1; }
+.overall-lbl {
+  font-size: .73rem; color: var(--txt3); text-transform: uppercase;
+  letter-spacing: .09em; margin-bottom: 9px; font-weight: 600;
+}
+.bar {
+  height: 10px; background: var(--surf3); border-radius: 5px;
+  overflow: hidden; margin-bottom: 6px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.08);
+}
+.bar-fill { height: 100%; border-radius: 5px; width: 0%; transition: width .7s cubic-bezier(.4,0,.2,1); }
+.bar-fill.acc  { background: linear-gradient(90deg, var(--acc2), var(--acc)); }
+.bar-fill.done { background: linear-gradient(90deg, var(--acc2), var(--acc)); }
+.bar-fill.rev  { background: linear-gradient(90deg, #0e6fa3, var(--rev)); }
+
+.overall-counts { font-size: .8rem; color: var(--txt2); margin-bottom: 12px; }
+.dual-bars { display: flex; flex-direction: column; gap: 7px; }
+.dual-row { display: flex; align-items: center; gap: 10px; font-size: .74rem; color: var(--txt3); }
+.dual-lbl { width: 70px; flex-shrink: 0; font-weight: 500; }
+.dual-track {
+  flex: 1; height: 6px; background: var(--surf3); border-radius: 3px; overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.06);
+}
 .dual-count { width: 52px; text-align: right; flex-shrink: 0; }
 
-/* ── TABS ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   TABS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .tabs {
-  display: flex; gap: 4px; padding: 4px;
+  display: flex; gap: 3px; padding: 4px;
   background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r);
-  margin-bottom: 14px; flex-wrap: wrap;
+  margin-bottom: 16px; flex-wrap: wrap;
+  box-shadow: var(--shadow-sm);
 }
 .tab-btn {
-  flex: 1; min-width: 100px; padding: 8px 12px;
-  display: flex; align-items: center; justify-content: center; gap: 6px;
+  flex: 1; min-width: 110px; padding: 9px 14px;
+  display: flex; align-items: center; justify-content: center; gap: 7px;
   background: transparent; border: none; border-radius: var(--r2);
-  color: var(--txt2); font-family: inherit; font-size: .82rem; font-weight: 500;
-  white-space: nowrap; cursor: pointer; transition: color .15s, background .15s;
+  color: var(--txt3); font-family: inherit; font-size: .84rem; font-weight: 500;
+  white-space: nowrap; cursor: pointer;
+  transition: color .15s, background .15s, box-shadow .15s;
 }
-.tab-btn:hover  { color: var(--txt); background: var(--surf2); }
-.tab-btn.active { color: var(--txt); background: var(--surf3); font-weight: 600; }
+.tab-btn:hover { color: var(--txt); background: var(--surf2); }
+.tab-btn.active {
+  color: var(--txt); background: white;
+  font-weight: 600;
+  box-shadow: var(--shadow-sm), 0 0 0 1px var(--bdr);
+}
 .tab-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 
-/* ── CONTENT ── */
-.content { max-width: 1280px; margin: 0 auto; padding: 0 16px 60px; }
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   CONTENT / TAB PANES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.content { max-width: 1300px; margin: 0 auto; padding: 0 20px 72px; }
 .tab-pane        { display: none; }
 .tab-pane.active { display: block; }
 
-/* ── PAPER HEADER ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   PAPER HEADER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .paper-hdr {
   display: flex; align-items: flex-start; justify-content: space-between;
   gap: 12px; margin-bottom: 16px; flex-wrap: wrap;
 }
-.paper-title { font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.25rem; font-weight: 700; }
-.paper-meta  { font-size: .78rem; color: var(--txt3); margin-top: 2px; }
-.paper-prog  { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
-.paper-pct   { font-family: 'Bricolage Grotesque', sans-serif; font-size: 1rem; font-weight: 700; color: var(--acc); min-width: 44px; text-align: right; }
-.mini-bar    { width: 90px; height: 5px; background: var(--surf3); border-radius: 3px; overflow: hidden; }
+.paper-title { font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.3rem; font-weight: 700; }
+.paper-meta  { font-size: .79rem; color: var(--txt3); margin-top: 3px; }
+.paper-prog  { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.paper-pct   { font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--acc); min-width: 46px; text-align: right; }
+.mini-bar    { width: 96px; height: 6px; background: var(--surf3); border-radius: 3px; overflow: hidden; box-shadow: inset 0 1px 2px rgba(0,0,0,.07); }
 .mini-fill   { height: 100%; border-radius: 3px; width: 0%; transition: width .5s ease; }
 
-/* ── LEGEND ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LEGEND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .legend {
-  display: flex; gap: 12px; flex-wrap: wrap;
-  padding: 9px 12px; margin-bottom: 14px;
+  display: flex; gap: 14px; flex-wrap: wrap;
+  padding: 10px 14px; margin-bottom: 14px;
   background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r);
-  font-size: .72rem; color: var(--txt3);
+  font-size: .73rem; color: var(--txt2);
+  box-shadow: var(--shadow-sm);
 }
-.legend-item { display: flex; align-items: center; gap: 5px; }
+.legend-item { display: flex; align-items: center; gap: 6px; }
 .legend-dot  { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-/* ── FILTER BAR ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   FILTER BAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .filter-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
 .filter-btn {
-  display: flex; align-items: center; gap: 5px;
-  padding: 5px 13px; background: var(--surf2); border: 1px solid var(--bdr2);
-  border-radius: 20px; color: var(--txt3); font-family: inherit; font-size: .75rem;
-  white-space: nowrap; cursor: pointer; transition: all .15s;
+  display: flex; align-items: center; gap: 6px;
+  padding: 6px 14px; background: var(--surf); border: 1px solid var(--bdr);
+  border-radius: 20px; color: var(--txt2); font-family: inherit; font-size: .77rem;
+  white-space: nowrap; cursor: pointer;
+  transition: all .15s; box-shadow: var(--shadow-sm);
 }
-.filter-btn:hover { color: var(--txt); border-color: var(--txt2); }
-.filter-btn.active-filter { background: rgba(245,158,11,.15); border-color: var(--imp); color: var(--imp); font-weight: 600; }
+.filter-btn:hover { color: var(--txt); border-color: var(--bdr2); background: white; }
+.filter-btn.active-filter {
+  background: rgba(180,83,9,.1); border-color: rgba(180,83,9,.4);
+  color: var(--imp); font-weight: 600;
+  box-shadow: 0 0 0 2px rgba(180,83,9,.08);
+}
 .f-count {
-  padding: 1px 6px; background: var(--surf3); border-radius: 10px; font-size: .68rem;
+  padding: 1px 7px; background: var(--surf3); border-radius: 10px; font-size: .69rem;
 }
-.filter-btn.active-filter .f-count { background: rgba(245,158,11,.2); }
+.filter-btn.active-filter .f-count { background: rgba(180,83,9,.15); }
 
-/* ── SECTION CARD ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   SECTION CARDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .sec-card {
-  margin-bottom: 14px; background: var(--surf);
-  border: 1px solid var(--bdr); border-left: 4px solid transparent;
-  border-radius: var(--r); overflow: hidden;
+  margin-bottom: 10px;
+  background: var(--surf);
+  border: 1px solid var(--bdr);
+  border-left: 4px solid transparent;
+  border-radius: var(--r);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow .18s, transform .18s;
 }
-@keyframes shimmer { 0%{background-position:-200% center} 100%{background-position:200% center} }
+.sec-card:hover { box-shadow: var(--shadow-md); }
+
+@keyframes shimmer {
+  0%   { background-position: -200% center }
+  100% { background-position:  200% center }
+}
 .sec-card.complete .sec-hdr { background-size: 200% auto; animation: shimmer .6s linear 1; }
 
 .sec-hdr {
   position: relative; display: flex; align-items: center; justify-content: space-between;
-  gap: 10px; padding: 14px 16px; cursor: pointer; user-select: none; overflow: hidden;
+  gap: 10px; padding: 14px 18px; cursor: pointer; user-select: none; overflow: hidden;
 }
 .sec-hdr::before {
   content: ''; position: absolute; inset: 0;
-  background: rgba(255,255,255,.03); transform: translateX(-100%);
-  transition: transform .2s ease; pointer-events: none;
+  background: rgba(0,0,0,.018); transform: translateX(-100%);
+  transition: transform .22s ease; pointer-events: none;
 }
 .sec-hdr:hover::before { transform: translateX(0); }
 
-.sec-hdr-l { position: relative; z-index: 1; display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
-.sec-icon  { width: 36px; height: 36px; flex-shrink: 0; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
-.sec-name  { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: .95rem; line-height: 1.3; }
-.sec-desc  { font-size: .72rem; color: var(--txt3); margin-top: 1px; }
-.sec-hdr-r { position: relative; z-index: 1; display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
-.sec-counts { font-size: .72rem; color: var(--txt3); white-space: nowrap; }
-.sec-badge {
-  padding: 2px 8px; border-radius: 10px; font-size: .72rem; font-weight: 600; white-space: nowrap;
+.sec-hdr-l { position: relative; z-index: 1; display: flex; align-items: center; gap: 11px; flex: 1; min-width: 0; }
+.sec-icon  {
+  width: 38px; height: 38px; flex-shrink: 0; border-radius: 9px;
+  display: flex; align-items: center; justify-content: center; font-size: 17px;
+  box-shadow: var(--shadow-sm);
 }
-.p0   { background: var(--surf3);            color: var(--txt3);  }
-.plo  { background: rgba(232,74,46,.12);      color: var(--acc);   }
-.pmi  { background: rgba(232,74,46,.2);       color: var(--acc);   }
-.phi  { background: rgba(34,197,94,.15);      color: var(--green); }
-.pdo  { background: rgba(34,197,94,.2);       color: var(--green); }
+.sec-name  { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: .97rem; line-height: 1.3; }
+.sec-desc  { font-size: .73rem; color: var(--txt3); margin-top: 1px; }
+.sec-hdr-r { position: relative; z-index: 1; display: flex; align-items: center; gap: 9px; flex-shrink: 0; }
+.sec-counts { font-size: .73rem; color: var(--txt3); white-space: nowrap; }
 
-.chevron { width: 18px; height: 18px; flex-shrink: 0; color: var(--txt3); transition: transform .2s; }
+.sec-badge {
+  padding: 2px 9px; border-radius: 10px; font-size: .73rem; font-weight: 600; white-space: nowrap;
+}
+.p0  { background: var(--surf3);              color: var(--txt3);  }
+.plo { background: rgba(192,57,43,.1);         color: var(--acc);   }
+.pmi { background: rgba(192,57,43,.18);        color: var(--acc);   }
+.phi { background: rgba(30,126,76,.12);        color: var(--green); }
+.pdo { background: rgba(30,126,76,.2);         color: var(--green); }
+
+.chevron { width: 18px; height: 18px; flex-shrink: 0; color: var(--txt3); transition: transform .22s; }
 .sec-card.open .chevron { transform: rotate(180deg); }
 
 .sec-prog { height: 3px; background: var(--surf3); overflow: hidden; }
@@ -220,194 +341,559 @@ body {
 .topics-wrap { display: none; }
 .sec-card.open .topics-wrap { display: block; }
 
-/* ─────────────────────────────────────────────────────────
-   TOPIC ROWS — MOBILE CARD LAYOUT (default, mobile-first)
-   Each topic renders as a stacked card.
-   Checkboxes and star are in a flex row at the bottom.
-───────────────────────────────────────────────────────── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   TOPIC ROWS — MOBILE (default)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .topic-list { list-style: none; }
 
 .topic-item {
   position: relative;
-  padding: 11px 14px;
+  padding: 11px 16px;
   border-top: 1px solid var(--bdr);
   transition: background .12s;
 }
-.topic-item:hover { background: rgba(255,255,255,.02); }
-.topic-item.done  { background: rgba(34,197,94,.04); }
-.topic-item.imp   { border-left: 3px solid var(--imp); padding-left: 11px; }
+.topic-item:hover { background: rgba(0,0,0,.015); }
+.topic-item.done  { background: rgba(30,126,76,.04); }
+.topic-item.imp   { border-left: 3px solid var(--imp); padding-left: 13px; }
 .topic-item.hidden { display: none; }
 
-.topic-num  { font-size: .68rem; color: var(--txt3); font-weight: 500; margin-bottom: 3px; }
-.topic-name {
-  font-size: .86rem; color: var(--txt); line-height: 1.45; margin-bottom: 5px;
-}
-.topic-item.done .topic-name { color: var(--txt2); text-decoration: line-through; text-decoration-color: var(--txt3); }
-.rev-badge { font-size: .68rem; color: var(--rev); font-weight: 500; margin-left: 5px; }
+.topic-num  { font-size: .69rem; color: var(--txt3); font-weight: 500; margin-bottom: 3px; }
+.topic-name { font-size: .87rem; color: var(--txt); line-height: 1.45; margin-bottom: 5px; }
+.topic-item.done .topic-name { color: var(--txt2); text-decoration: line-through; text-decoration-color: var(--bdr2); }
+.rev-badge  { font-size: .68rem; color: var(--rev); font-weight: 600; margin-left: 6px; }
 
 .topic-source {
   display: inline-flex; align-items: center; gap: 4px;
-  padding: 2px 7px; background: var(--surf3); border-radius: 4px;
+  padding: 2px 8px; background: var(--surf3); border-radius: 4px;
   font-size: .68rem; color: var(--txt3); margin-bottom: 8px;
+  border: 1px solid var(--bdr);
 }
 
-/* action row: Done checkbox | Rev checkbox | Star — all on one line */
-.topic-actions {
-  display: flex; align-items: center; gap: 12px;
-}
-.action-item {
-  display: flex; align-items: center; gap: 5px;
-  font-size: .72rem; color: var(--txt2);
-}
+.topic-actions { display: flex; align-items: center; gap: 14px; }
+.action-item   { display: flex; align-items: center; gap: 5px; font-size: .73rem; color: var(--txt2); }
 .action-item label { cursor: pointer; display: flex; align-items: center; gap: 5px; }
 
-@keyframes checkPop { 0%{transform:scale(0)} 70%{transform:scale(1.2)} 100%{transform:scale(1)} }
+@keyframes checkPop { 0%{transform:scale(0)} 70%{transform:scale(1.25)} 100%{transform:scale(1)} }
 
 .cb {
   width: 17px; height: 17px; cursor: pointer; border-radius: 3px; flex-shrink: 0;
 }
-.cb.done-cb { accent-color: var(--green);  }
-.cb.rev-cb  { accent-color: var(--rev);    }
+.cb.done-cb { accent-color: var(--green); }
+.cb.rev-cb  { accent-color: var(--rev);   }
 .cb.popped  { animation: checkPop .25s ease forwards; }
 
 .star-btn {
   background: none; border: none; padding: 2px; cursor: pointer;
-  font-size: 1rem; line-height: 1; opacity: .45; transition: opacity .15s, transform .15s;
+  font-size: 1.05rem; line-height: 1; opacity: .35; transition: opacity .15s, transform .15s;
 }
-.star-btn:hover   { opacity: 1; transform: scale(1.2); }
-.star-btn.active  { opacity: 1; color: var(--imp); }
+.star-btn:hover  { opacity: 1; transform: scale(1.2); }
+.star-btn.active { opacity: 1; }
 
 /* select-all row */
-.sel-all-row {
-  padding: 8px 14px;
-  border-top: 1px solid var(--bdr); background: var(--surf2);
-}
+.sel-all-row { padding: 9px 16px; border-top: 1px solid var(--bdr); background: var(--surf2); }
 .sel-all-btn {
-  padding: 4px 11px; background: none; border: 1px solid var(--bdr2);
-  border-radius: 4px; color: var(--txt3); font-family: inherit; font-size: .72rem; cursor: pointer;
-  transition: color .15s, border-color .15s;
+  padding: 4px 12px; background: none; border: 1px solid var(--bdr2);
+  border-radius: var(--r3); color: var(--txt3); font-family: inherit; font-size: .73rem; cursor: pointer;
+  transition: all .15s;
 }
-.sel-all-btn:hover { color: var(--txt); border-color: var(--txt2); }
+.sel-all-btn:hover { color: var(--txt); border-color: var(--bdr2); background: var(--surf3); }
 
-/* ─────────────────────────────────────────────────────────
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    DESKTOP TABLE (≥680px)
-   On desktop we switch to a proper fixed-layout table.
-   The mobile .topic-item cards are hidden; the table is shown.
-───────────────────────────────────────────────────────── */
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .desktop-table { display: none; }
 
 @media (min-width: 680px) {
-  /* hide mobile cards, show table */
-  .mobile-list  { display: none !important; }
+  .mobile-list   { display: none !important; }
   .desktop-table { display: table; }
 
-  /*
-    table-layout:fixed + colgroup = browser uses ONLY the colgroup widths,
-    never negotiates. Same class on <th> and <td> for each column = identical
-    column box = perfect centre alignment guaranteed.
-  */
   .desktop-table {
     width: 100%; border-collapse: collapse; table-layout: fixed;
   }
 
-  /* colgroup widths — change here only, nowhere else */
   .desktop-table col.c-num  { width: 44px;  }
   .desktop-table col.c-src  { width: 195px; }
   .desktop-table col.c-done { width: 96px;  }
   .desktop-table col.c-rev  { width: 104px; }
   .desktop-table col.c-imp  { width: 54px;  }
-  /* c-name is the remaining flex column — no width needed */
 
   .desktop-table thead th {
-    padding: 8px 14px;
+    padding: 9px 16px;
     background: var(--surf2); border-top: 1px solid var(--bdr);
-    color: var(--txt3); font-size: .68rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: .07em;
+    color: var(--txt3); font-size: .69rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .08em;
     text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
-  /* action headers: centred */
   .desktop-table thead th.c-done,
   .desktop-table thead th.c-rev,
-  .desktop-table thead th.c-imp  { text-align: center; }
+  .desktop-table thead th.c-imp { text-align: center; }
 
   .desktop-table tbody tr {
     position: relative; border-top: 1px solid var(--bdr);
     transition: background .12s;
   }
-  .desktop-table tbody tr:hover { background: rgba(255,255,255,.02); }
-  .desktop-table tbody tr.done  { background: rgba(34,197,94,.04); }
+  .desktop-table tbody tr:hover { background: rgba(0,0,0,.018); }
+  .desktop-table tbody tr.done  { background: rgba(30,126,76,.04); }
   .desktop-table tbody tr.imp   { border-left: 3px solid var(--imp); }
 
   .desktop-table tbody td {
-    padding: 10px 14px; font-size: .84rem; vertical-align: middle;
+    padding: 11px 16px; font-size: .85rem; vertical-align: middle;
     overflow: hidden; text-overflow: ellipsis;
   }
 
-  /* action cells: same class as th = same column box = perfect centre */
   .desktop-table td.c-done,
   .desktop-table td.c-rev,
-  .desktop-table td.c-imp {
-    text-align: center; vertical-align: middle;
-  }
+  .desktop-table td.c-imp { text-align: center; vertical-align: middle; }
 
-  .desktop-table td.c-num  { color: var(--txt3); font-size: .72rem; font-weight: 500; }
-  .desktop-table td.c-src  { color: var(--txt3); font-size: .72rem; }
+  .desktop-table td.c-num { color: var(--txt3); font-size: .73rem; font-weight: 500; }
+  .desktop-table td.c-src { color: var(--txt3); font-size: .73rem; }
 
   .dt-src-tag {
     display: inline-flex; align-items: center; gap: 4px;
-    padding: 2px 7px; background: var(--surf3); border-radius: 4px; font-size: .68rem;
+    padding: 2px 8px; background: var(--surf3); border-radius: 4px; font-size: .68rem;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
+    border: 1px solid var(--bdr);
   }
 
-  .dt-name { font-size: .85rem; color: var(--txt); }
-  .desktop-table tbody tr.done .dt-name { color: var(--txt2); text-decoration: line-through; text-decoration-color: var(--txt3); }
+  .dt-name { font-size: .86rem; color: var(--txt); }
+  .desktop-table tbody tr.done .dt-name {
+    color: var(--txt2); text-decoration: line-through; text-decoration-color: var(--bdr2);
+  }
 
   .dt-check-wrap { display: flex; flex-direction: column; align-items: center; gap: 2px; }
   .dt-cb-lbl { font-size: .58rem; color: var(--txt3); line-height: 1; }
-
   .desktop-table .star-btn { font-size: .95rem; }
 
-  /* select-all spanning row */
-  .desktop-table .sel-all-td { padding: 8px 14px; background: var(--surf2); border-top: 1px solid var(--bdr); }
+  .desktop-table .sel-all-td {
+    padding: 9px 16px; background: var(--surf2); border-top: 1px solid var(--bdr);
+  }
 }
 
-/* ── BANNERS ── */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   BANNERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .done-banner {
-  display: none; margin-bottom: 20px; padding: 36px 20px; text-align: center;
-  background: linear-gradient(135deg,rgba(34,197,94,.08),rgba(34,197,94,.04));
-  border: 1px solid rgba(34,197,94,.2); border-radius: var(--r);
+  display: none; margin-bottom: 22px; padding: 40px 24px; text-align: center;
+  background: linear-gradient(135deg, rgba(30,126,76,.07), rgba(30,126,76,.03));
+  border: 1px solid rgba(30,126,76,.2); border-radius: var(--r);
+  box-shadow: var(--shadow-sm);
 }
 .done-banner.visible { display: block; }
-.done-emoji { font-size: 2.2rem; margin-bottom: 8px; }
-.done-banner h3 { font-family:'Bricolage Grotesque',sans-serif; font-size:1.2rem; font-weight:700; color:var(--green); margin-bottom:3px; }
-.done-banner p  { font-size:.82rem; color:var(--txt3); }
+.done-emoji { font-size: 2.4rem; margin-bottom: 10px; }
+.done-banner h3 {
+  font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.25rem;
+  font-weight: 700; color: var(--green); margin-bottom: 4px;
+}
+.done-banner p { font-size: .84rem; color: var(--txt3); }
 
-.no-imp { display: none; padding: 40px 20px; text-align: center; font-size: .88rem; color: var(--txt3); }
+.no-imp { display: none; padding: 44px 24px; text-align: center; font-size: .9rem; color: var(--txt3); }
 .no-imp.visible { display: block; }
 
-/* ── MODAL ── */
-.modal-bg { position: fixed; inset: 0; z-index: 200; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,.75); }
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   MODAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.modal-bg {
+  position: fixed; inset: 0; z-index: 200; display: none;
+  align-items: center; justify-content: center;
+  background: rgba(28,26,22,.6); backdrop-filter: blur(4px);
+}
 .modal-bg.open { display: flex; }
 .modal {
-  width: 90%; max-width: 400px; padding: 24px;
-  background: var(--surf); border: 1px solid var(--bdr2); border-radius: var(--r); text-align: center;
+  width: 90%; max-width: 400px; padding: 28px;
+  background: var(--surf); border: 1px solid var(--bdr2); border-radius: var(--r);
+  text-align: center; box-shadow: var(--shadow-lg);
 }
-.modal h3 { font-family:'Bricolage Grotesque',sans-serif; font-size:1.1rem; font-weight:700; margin-bottom:8px; }
-.modal p  { font-size:.84rem; color:var(--txt2); margin-bottom:20px; }
-.modal-btns { display: flex; gap: 8px; justify-content: center; }
+.modal h3 {
+  font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.15rem;
+  font-weight: 700; margin-bottom: 10px;
+}
+.modal p  { font-size: .86rem; color: var(--txt2); margin-bottom: 22px; }
+.modal-btns { display: flex; gap: 10px; justify-content: center; }
 .mbtn {
-  padding: 8px 20px; background: var(--surf2); border: 1px solid var(--bdr2);
-  border-radius: var(--r2); color: var(--txt); font-family: inherit; font-size: .83rem;
+  padding: 9px 22px; background: var(--surf2); border: 1px solid var(--bdr2);
+  border-radius: var(--r2); color: var(--txt); font-family: inherit; font-size: .85rem;
   font-weight: 500; cursor: pointer; transition: background .15s;
 }
 .mbtn:hover { background: var(--surf3); }
-.mbtn.danger { background: rgba(229,62,62,.12); border-color: rgba(229,62,62,.4); color: #e53e3e; }
-.mbtn.danger:hover { background: rgba(229,62,62,.2); }
+.mbtn.danger {
+  background: rgba(192,57,43,.08); border-color: rgba(192,57,43,.35); color: var(--acc);
+}
+.mbtn.danger:hover { background: rgba(192,57,43,.16); }
 
-/* ── SCROLLBAR ── */
-::-webkit-scrollbar       { width: 5px; height: 5px; }
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   SCROLLBAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--txt3); }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   STUDY PLANNER — tab layout
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.sp-wrap { background: transparent; }
+
+.sp-planner-page-hdr {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 12px; margin-bottom: 18px; flex-wrap: wrap;
+}
+
+/* date row */
+.sp-dates {
+  display: flex; gap: 10px; padding: 18px 20px 16px;
+  flex-wrap: wrap; align-items: flex-end;
+  background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r);
+  margin-bottom: 16px; box-shadow: var(--shadow-sm);
+}
+.sp-field { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 140px; }
+.sp-field label {
+  font-size: .68rem; color: var(--txt3); text-transform: uppercase;
+  letter-spacing: .08em; font-weight: 600;
+}
+.sp-field input[type="date"] {
+  padding: 7px 11px; background: white; border: 1px solid var(--bdr2);
+  border-radius: var(--r2); color: var(--txt); font-family: inherit; font-size: .84rem;
+  cursor: pointer; outline: none; transition: border-color .15s;
+  box-shadow: var(--shadow-sm);
+}
+.sp-field input[type="date"]:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37,99,168,.1); }
+
+.sp-save-btn {
+  padding: 8px 20px;
+  background: var(--blue); border: none;
+  border-radius: var(--r2); color: white; font-family: inherit; font-size: .82rem;
+  font-weight: 600; cursor: pointer; white-space: nowrap; align-self: flex-end;
+  box-shadow: 0 2px 8px rgba(37,99,168,.3);
+  transition: all .18s;
+}
+.sp-save-btn:hover { background: #1d4f8e; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(37,99,168,.35); }
+
+.sp-pdf-btn {
+  padding: 8px 18px;
+  background: var(--green); border: none;
+  border-radius: var(--r2); color: white; font-family: inherit; font-size: .82rem;
+  font-weight: 600; cursor: pointer; white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(30,126,76,.3);
+  transition: all .18s;
+}
+.sp-pdf-btn:hover { background: #186040; transform: translateY(-1px); }
+
+/* status badge */
+.sp-status {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 14px; border-radius: 20px; font-size: .76rem; font-weight: 600;
+  margin-bottom: 16px; transition: all .3s;
+}
+.sp-status.ahead  { background: rgba(30,126,76,.1);   border: 1px solid rgba(30,126,76,.25);  color: var(--green); }
+.sp-status.on     { background: rgba(37,99,168,.1);   border: 1px solid rgba(37,99,168,.25);  color: var(--blue);  }
+.sp-status.behind { background: rgba(192,57,43,.1);   border: 1px solid rgba(192,57,43,.25);  color: var(--acc);   }
+.sp-status.idle   { background: var(--surf3); border: 1px solid var(--bdr2); color: var(--txt3); }
+
+/* stat strip */
+.sp-stat-strip {
+  display: grid; grid-template-columns: repeat(6,1fr); gap: 10px; margin-bottom: 18px;
+}
+@media(max-width:900px) { .sp-stat-strip { grid-template-columns: repeat(3,1fr); } }
+@media(max-width:500px)  { .sp-stat-strip { grid-template-columns: repeat(2,1fr); } }
+
+.sp-stat-box {
+  background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r2);
+  padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;
+  box-shadow: var(--shadow-sm); transition: transform .15s, box-shadow .15s;
+}
+.sp-stat-box:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+.sp-streak-num {
+  font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.9rem; font-weight: 800;
+  line-height: 1; color: var(--imp);
+  display: flex; align-items: baseline; gap: 3px;
+}
+.sp-streak-num .sp-fire { font-size: 1.3rem; }
+.sp-countdown-num {
+  font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.9rem; font-weight: 800;
+  line-height: 1; color: var(--blue);
+}
+.sp-pace-val {
+  font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.3rem; font-weight: 800;
+  line-height: 1; color: var(--txt); margin-bottom: 2px; transition: color .3s;
+}
+.sp-pace-lbl { font-size: .64rem; color: var(--txt3); text-transform: uppercase; letter-spacing: .06em; }
+
+/* main two-col */
+.sp-main { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media(max-width:680px) { .sp-main { grid-template-columns: 1fr; } }
+
+.sp-left, .sp-right {
+  background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r);
+  padding: 18px 20px; box-shadow: var(--shadow-sm);
+}
+
+/* heatmap */
+.sp-heatmap-title {
+  font-size: .68rem; color: var(--txt3); text-transform: uppercase;
+  letter-spacing: .08em; font-weight: 600; margin-bottom: 9px;
+}
+.sp-heatmap { display: flex; gap: 3px; flex-wrap: wrap; }
+.sp-hm-cell {
+  width: 14px; height: 14px; border-radius: 3px; cursor: default;
+  transition: opacity .15s; flex-shrink: 0;
+}
+.sp-hm-cell:hover { opacity: .7; }
+.sp-hm-0      { background: var(--surf3); }
+.sp-hm-1      { background: rgba(37,99,168,.2); }
+.sp-hm-2      { background: rgba(37,99,168,.45); }
+.sp-hm-3      { background: rgba(37,99,168,.7); }
+.sp-hm-4      { background: var(--blue); }
+.sp-hm-future { background: var(--surf2); border: 1px solid var(--bdr); }
+.sp-heatmap-leg {
+  display: flex; align-items: center; gap: 4px; margin-top: 7px;
+  font-size: .61rem; color: var(--txt3);
+}
+.sp-heatmap-leg-cells { display: flex; gap: 3px; }
+
+/* subject bars */
+.sp-subj-title {
+  font-size: .68rem; color: var(--txt3); text-transform: uppercase;
+  letter-spacing: .08em; font-weight: 600; margin-bottom: 9px;
+}
+.sp-subj-list  { display: flex; flex-direction: column; gap: 8px; }
+.sp-subj-row   { display: flex; align-items: center; gap: 9px; }
+.sp-subj-icon  { font-size: .9rem; flex-shrink: 0; width: 18px; text-align: center; }
+.sp-subj-name  { font-size: .73rem; color: var(--txt2); flex-shrink: 0; width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sp-subj-bar-track { flex: 1; height: 6px; background: var(--surf3); border-radius: 3px; overflow: hidden; box-shadow: inset 0 1px 2px rgba(0,0,0,.06); }
+.sp-subj-bar-fill  { height: 100%; border-radius: 3px; transition: width .5s ease; }
+.sp-subj-pct   { font-size: .66rem; color: var(--txt3); width: 30px; text-align: right; flex-shrink: 0; }
+
+/* today's targets */
+.sp-today-title {
+  font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: .9rem;
+  margin-bottom: 7px; display: flex; align-items: center; justify-content: space-between;
+}
+.sp-today-date { font-size: .69rem; color: var(--txt3); font-weight: 400; font-family: 'IBM Plex Sans', sans-serif; }
+
+.sp-schedule-note {
+  font-size: .73rem; padding: 6px 11px; border-radius: var(--r2);
+  margin-bottom: 11px; display: none;
+}
+.sp-schedule-note.visible { display: block; }
+.sp-schedule-note.sn-ahead  { background: rgba(30,126,76,.08);  color: var(--green); border: 1px solid rgba(30,126,76,.2); }
+.sp-schedule-note.sn-behind { background: rgba(192,57,43,.08);  color: var(--acc);   border: 1px solid rgba(192,57,43,.2); }
+.sp-schedule-note.sn-on     { background: rgba(37,99,168,.08);  color: var(--blue);  border: 1px solid rgba(37,99,168,.2); }
+
+.sp-topic-list { display: flex; flex-direction: column; gap: 6px; }
+.sp-topic-row {
+  display: flex; align-items: center; gap: 9px;
+  padding: 9px 12px; background: var(--surf2); border: 1px solid var(--bdr);
+  border-radius: var(--r2); transition: all .15s;
+  box-shadow: var(--shadow-sm);
+}
+.sp-topic-row:hover { background: white; border-color: var(--bdr2); box-shadow: var(--shadow-md); transform: translateX(2px); }
+.sp-topic-row.spt-done { opacity: .45; }
+.sp-topic-row.spt-done .spt-name { text-decoration: line-through; color: var(--txt2); }
+.spt-icon  { font-size: .82rem; flex-shrink: 0; }
+.spt-body  { flex: 1; min-width: 0; }
+.spt-name  {
+  font-size: .79rem; color: var(--txt); line-height: 1.3;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.spt-cat   { font-size: .63rem; margin-top: 1px; }
+.spt-go {
+  padding: 3px 10px; background: none; border: 1px solid var(--bdr2);
+  border-radius: var(--r3); color: var(--txt3); font-family: inherit; font-size: .63rem;
+  cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  transition: all .15s;
+}
+.spt-go:hover { color: var(--blue); border-color: var(--blue); background: var(--bdim); }
+.sp-topic-empty { padding: 24px 0; text-align: center; font-size: .82rem; color: var(--txt3); }
+
+/* no-plan state */
+.sp-noplan {
+  padding: 40px 20px; text-align: center;
+  background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r);
+  margin-bottom: 16px; box-shadow: var(--shadow-sm);
+}
+.sp-noplan-emoji { font-size: 2.2rem; margin-bottom: 10px; }
+.sp-noplan-txt   { font-size: .84rem; color: var(--txt3); line-height: 1.6; }
+.sp-noplan-txt strong { color: var(--txt2); }
+
+@keyframes spPulse { 0%,100%{opacity:1} 50%{opacity:.45} }
+.sp-pulse { animation: spPulse .35s ease; }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ COLUMN — table + mobile
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.desktop-table col.c-quiz { width: 82px; }
+.desktop-table thead th.c-quiz,
+.desktop-table td.c-quiz { text-align: center; vertical-align: middle; }
+
+/* score chip colours */
+.quiz-score {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 2px 8px; border-radius: 10px; font-size: .72rem; font-weight: 700;
+  cursor: pointer; transition: opacity .15s; white-space: nowrap;
+}
+.quiz-score:hover { opacity: .75; }
+.qs-great  { background: rgba(30,126,76,.14);  color: var(--green); border: 1px solid rgba(30,126,76,.3); }
+.qs-ok     { background: rgba(180,83,9,.13);   color: var(--imp);   border: 1px solid rgba(180,83,9,.3); }
+.qs-low    { background: rgba(192,57,43,.12);  color: var(--acc);   border: 1px solid rgba(192,57,43,.3); }
+
+/* "N Qs" start button */
+.quiz-start-btn {
+  display: inline-flex; align-items: center; gap: 3px;
+  padding: 3px 9px; border-radius: 10px; font-size: .71rem; font-weight: 600;
+  background: rgba(37,99,168,.1); border: 1px solid rgba(37,99,168,.28); color: var(--blue);
+  cursor: pointer; white-space: nowrap; transition: all .15s;
+}
+.quiz-start-btn:hover { background: rgba(37,99,168,.2); transform: translateY(-1px); }
+
+/* coming soon */
+.quiz-soon {
+  font-size: .68rem; color: var(--txt3); font-style: italic;
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ MODAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.qmodal-bg {
+  position: fixed; inset: 0; z-index: 300;
+  display: none; align-items: center; justify-content: center;
+  background: rgba(28,26,22,.7); backdrop-filter: blur(6px);
+}
+.qmodal-bg.open { display: flex; }
+
+.qmodal {
+  width: 95%; max-width: 560px;
+  background: var(--surf); border: 1px solid var(--bdr);
+  border-radius: var(--r); box-shadow: var(--shadow-lg);
+  overflow: hidden; display: flex; flex-direction: column;
+  max-height: 92vh;
+}
+
+/* header bar */
+.qm-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px; border-bottom: 1px solid var(--bdr);
+  background: var(--surf2); flex-shrink: 0;
+}
+.qm-title { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: .95rem; }
+.qm-meta  { font-size: .71rem; color: var(--txt3); margin-top: 1px; }
+.qm-close {
+  background: none; border: none; cursor: pointer; font-size: 1.2rem;
+  color: var(--txt3); line-height: 1; padding: 2px 6px; border-radius: 4px;
+  transition: color .15s, background .15s;
+}
+.qm-close:hover { color: var(--acc); background: var(--acc-glow); }
+
+/* progress strip */
+.qm-progress {
+  height: 4px; background: var(--surf3); flex-shrink: 0;
+}
+.qm-progress-fill {
+  height: 100%; background: linear-gradient(90deg, var(--acc2), var(--acc));
+  transition: width .35s ease; border-radius: 0 2px 2px 0;
+}
+
+/* scrollable body */
+.qm-body {
+  padding: 22px 24px; overflow-y: auto; flex: 1;
+}
+
+/* question */
+.qm-q-num { font-size: .7rem; color: var(--txt3); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 8px; }
+.qm-q-year {
+  display: inline-block; padding: 1px 7px; border-radius: 8px;
+  background: rgba(180,83,9,.1); color: var(--imp); border: 1px solid rgba(180,83,9,.25);
+  font-size: .67rem; font-weight: 600; margin-bottom: 10px;
+}
+.qm-q-text { font-size: .92rem; color: var(--txt); line-height: 1.6; margin-bottom: 8px; font-weight: 500; }
+
+/* statements list (for multi-statement Qs) */
+.qm-statements {
+  background: var(--surf2); border: 1px solid var(--bdr); border-radius: var(--r2);
+  padding: 10px 14px; margin-bottom: 14px; font-size: .84rem; color: var(--txt2);
+}
+.qm-statements li { padding: 3px 0; line-height: 1.5; }
+.qm-statements li + li { border-top: 1px solid var(--bdr); }
+
+/* options */
+.qm-options { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+.qm-opt {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 11px 14px; border-radius: var(--r2);
+  border: 1.5px solid var(--bdr); background: var(--surf);
+  cursor: pointer; font-size: .87rem; color: var(--txt); line-height: 1.45;
+  transition: all .15s; text-align: left; width: 100%; font-family: inherit;
+}
+.qm-opt:hover:not(:disabled) { border-color: var(--blue); background: rgba(37,99,168,.05); transform: translateX(3px); }
+.qm-opt:disabled { cursor: default; }
+.qm-opt.correct  { border-color: var(--green); background: rgba(30,126,76,.08); color: var(--txt); }
+.qm-opt.wrong    { border-color: var(--acc);   background: rgba(192,57,43,.07); color: var(--txt2); }
+.qm-opt-key {
+  flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--surf3); border: 1px solid var(--bdr);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .72rem; font-weight: 700; color: var(--txt3);
+  transition: all .15s;
+}
+.qm-opt.correct .qm-opt-key { background: var(--green); border-color: var(--green); color: white; }
+.qm-opt.wrong   .qm-opt-key { background: var(--acc);   border-color: var(--acc);   color: white; }
+
+/* explanation box */
+.qm-explanation {
+  display: none; padding: 12px 14px;
+  background: rgba(37,99,168,.06); border: 1px solid rgba(37,99,168,.2);
+  border-radius: var(--r2); font-size: .82rem; color: var(--txt2); line-height: 1.6;
+  margin-bottom: 14px;
+}
+.qm-explanation.visible { display: block; }
+.qm-exp-lbl { font-size: .67rem; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 5px; }
+
+/* footer buttons */
+.qm-footer {
+  padding: 14px 24px; border-top: 1px solid var(--bdr);
+  display: flex; justify-content: flex-end; gap: 10px; flex-shrink: 0;
+  background: var(--surf2);
+}
+.qm-btn {
+  padding: 8px 22px; border-radius: var(--r2); font-family: inherit;
+  font-size: .84rem; font-weight: 600; cursor: pointer;
+  transition: all .15s; border: none;
+}
+.qm-btn-primary { background: var(--acc); color: white; box-shadow: 0 2px 8px rgba(192,57,43,.3); }
+.qm-btn-primary:hover { background: var(--acc2); transform: translateY(-1px); }
+.qm-btn-secondary { background: var(--surf3); color: var(--txt2); border: 1px solid var(--bdr2); }
+.qm-btn-secondary:hover { background: var(--surf); color: var(--txt); }
+
+/* ── RESULTS SCREEN ── */
+.qm-result {
+  text-align: center; padding: 10px 0;
+}
+.qm-result-ring {
+  width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 16px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.8rem; font-weight: 800;
+  border: 6px solid;
+}
+.qm-result-ring.great { border-color: var(--green); color: var(--green); background: rgba(30,126,76,.08); }
+.qm-result-ring.ok    { border-color: var(--imp);   color: var(--imp);   background: rgba(180,83,9,.08); }
+.qm-result-ring.low   { border-color: var(--acc);   color: var(--acc);   background: rgba(192,57,43,.08); }
+
+.qm-result-title { font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.2rem; font-weight: 700; margin-bottom: 4px; }
+.qm-result-sub   { font-size: .84rem; color: var(--txt3); margin-bottom: 20px; }
+
+.qm-result-breakdown {
+  display: flex; gap: 12px; justify-content: center; margin-bottom: 20px; flex-wrap: wrap;
+}
+.qm-rb-box {
+  background: var(--surf2); border: 1px solid var(--bdr); border-radius: var(--r2);
+  padding: 10px 18px; min-width: 80px;
+}
+.qm-rb-val { font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.4rem; font-weight: 800; }
+.qm-rb-lbl { font-size: .65rem; color: var(--txt3); text-transform: uppercase; letter-spacing: .06em; margin-top: 2px; }
+.qm-rb-val.c-green { color: var(--green); }
+.qm-rb-val.c-red   { color: var(--acc);   }
+.qm-rb-val.c-blue  { color: var(--blue);  }
+
 </style>
 </head>
 <body>
@@ -461,6 +947,9 @@ body {
     </button>
     <button class="tab-btn" onclick="switchTab('csat',this)">
       <span class="tab-dot" style="background:#c084fc"></span>GS Paper 2 — CSAT
+    </button>
+    <button class="tab-btn" onclick="switchTab('planner',this)" id="planner-tab-btn">
+      <span class="tab-dot" style="background:#60a5fa"></span>📅 Study Planner
     </button>
   </div>
 </div>
@@ -529,6 +1018,124 @@ body {
     </div>
   </div>
 
+  <!-- PLANNER TAB -->
+  <div class="tab-pane" id="tab-planner">
+    <div class="sp-wrap" id="sp-wrap">
+      <!-- planner header -->
+      <div class="sp-planner-page-hdr">
+        <div>
+          <div class="paper-title" style="color:var(--blue)">📅 Personal Study Planner</div>
+          <div class="paper-meta" id="sp-hdr-sub">Set your dates to generate your personalised dashboard</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <button class="sp-pdf-btn" onclick="spDownloadPDF()" id="sp-pdf-btn" style="display:none">⬇️ Download PDF</button>
+        </div>
+      </div>
+
+      <!-- date inputs -->
+      <div class="sp-dates">
+        <div class="sp-field">
+          <label for="sp-start">Start Date</label>
+          <input type="date" id="sp-start"/>
+        </div>
+        <div class="sp-field">
+          <label for="sp-exam">Exam / Target Date</label>
+          <input type="date" id="sp-exam"/>
+        </div>
+        <button class="sp-save-btn" onclick="spSave()">Save Dates</button>
+      </div>
+
+      <!-- no-plan state -->
+      <div class="sp-noplan" id="sp-noplan">
+        <div class="sp-noplan-emoji">📅</div>
+        <div class="sp-noplan-txt">Set a <strong>Start Date</strong> and <strong>Exam Date</strong> above, then hit <strong>Save Dates</strong> to generate your dashboard.</div>
+      </div>
+
+      <!-- main dashboard -->
+      <div id="sp-dashboard" style="display:none">
+        <div class="sp-status idle" id="sp-status">⏳ Set dates to begin</div>
+
+        <!-- stat row -->
+        <div class="sp-stat-strip">
+          <div class="sp-stat-box">
+            <div class="sp-streak-num"><span class="sp-fire">🔥</span><span id="sp-streak">0</span></div>
+            <div class="sp-pace-lbl">Day Streak</div>
+          </div>
+          <div class="sp-stat-box">
+            <div class="sp-countdown-num" id="sp-days">—</div>
+            <div class="sp-pace-lbl">Days to Exam</div>
+          </div>
+          <div class="sp-stat-box">
+            <div class="sp-pace-val" id="sp-pace-day">—</div>
+            <div class="sp-pace-lbl">Topics/Day needed</div>
+          </div>
+          <div class="sp-stat-box">
+            <div class="sp-pace-val" id="sp-pace-wk">—</div>
+            <div class="sp-pace-lbl">Topics/Week needed</div>
+          </div>
+          <div class="sp-stat-box">
+            <div class="sp-pace-val" id="sp-done-cnt">0</div>
+            <div class="sp-pace-lbl">Done so far</div>
+          </div>
+          <div class="sp-stat-box">
+            <div class="sp-pace-val" id="sp-rem-cnt">—</div>
+            <div class="sp-pace-lbl">Remaining</div>
+          </div>
+        </div>
+
+        <!-- main two-col layout -->
+        <div class="sp-main">
+
+          <!-- LEFT: heatmap + subject bars -->
+          <div class="sp-left">
+            <div class="sp-heatmap-title">Activity — Last 10 Weeks</div>
+            <div class="sp-heatmap" id="sp-heatmap"></div>
+            <div class="sp-heatmap-leg">
+              Less
+              <div class="sp-heatmap-leg-cells">
+                <div class="sp-hm-cell sp-hm-0" style="width:11px;height:11px"></div>
+                <div class="sp-hm-cell sp-hm-1" style="width:11px;height:11px"></div>
+                <div class="sp-hm-cell sp-hm-2" style="width:11px;height:11px"></div>
+                <div class="sp-hm-cell sp-hm-3" style="width:11px;height:11px"></div>
+                <div class="sp-hm-cell sp-hm-4" style="width:11px;height:11px"></div>
+              </div>
+              More
+            </div>
+            <div class="sp-subj-title" style="margin-top:18px">Subject Progress</div>
+            <div class="sp-subj-list" id="sp-subj-list"></div>
+          </div>
+
+          <!-- RIGHT: today's dynamic targets -->
+          <div class="sp-right">
+            <div class="sp-today-title">
+              Today's Targets
+              <span class="sp-today-date" id="sp-today-date"></span>
+            </div>
+            <div class="sp-schedule-note" id="sp-schedule-note"></div>
+            <div class="sp-topic-list" id="sp-today-topics"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUIZ MODAL -->
+<div class="qmodal-bg" id="qmodal">
+  <div class="qmodal">
+    <div class="qm-header">
+      <div>
+        <div class="qm-title" id="qm-title">Quiz</div>
+        <div class="qm-meta"  id="qm-meta"></div>
+      </div>
+      <button class="qm-close" onclick="qClose()">✕</button>
+    </div>
+    <div class="qm-progress"><div class="qm-progress-fill" id="qm-prog"></div></div>
+    <div class="qm-body" id="qm-body"></div>
+    <div class="qm-footer" id="qm-footer"></div>
+  </div>
 </div>
 
 <!-- MODAL -->
@@ -553,67 +1160,257 @@ const DATA = {
   gs1: [
     { id:'ancient',   name:'Ancient History',                    icon:'🏛️', color:'#fb923c', bg:'rgba(251,146,60,.12)',  desc:'Indus Valley to Gupta Empire',
       topics:[
-        {n:'Indus Valley / Harappan Civilization — Sites, Features, Trade, Decline',                       s:'NCERT + Spectrum'},
-        {n:'Vedic Period — Rigvedic & Later Vedic, Aryans, Literature (Vedas, Upanishads)',                s:'NCERT'},
-        {n:'Jainism — Mahavira, Principles, Sects (Digambara / Shvetambara)',                              s:'NCERT'},
-        {n:'Buddhism — Life of Buddha, Four Noble Truths, Buddhist Councils, Schools',                     s:'NCERT'},
-        {n:'Mauryan Empire — Chandragupta, Ashoka, Arthashastra, Administration, Decline',                 s:'NCERT + Spectrum'},
-        {n:'Post-Mauryan Period — Sungas, Kushanas, Indo-Greeks, Satavahanas',                             s:'NCERT'},
-        {n:'Sangam Age — Literature, Polity, Economy, Society of South India',                             s:'NCERT'},
-        {n:'Gupta Empire — Golden Age, Art, Literature, Science, Decline',                                 s:'NCERT + Spectrum'},
-        {n:'Post-Gupta Period — Harshavardhana, Chalukyas, Pallavas',                                     s:'NCERT'},
-        {n:'Ancient Economy — Trade Routes, Guilds (Shrenis), Coins, Ports',                               s:'NCERT'},
+        {n:'Indus Valley / Harappan Civilization — Sites, Features, Trade, Decline', s:'NCERT + Spectrum', q:[
+          {q:"Which ancient town is well-known for its elaborate water harvesting system of dams and reservoirs?",
+           opts:["Dholavira","Kalibangan","Rakhigarhi","Ropar"], ans:0, yr:2021,
+           exp:"Dholavira (Gujarat) had a sophisticated water conservation system with reservoirs, channels and dams — one of the most advanced hydraulic achievements of the Harappan Civilisation."},
+          {q:"Which one of the following is NOT a Harappan site?",
+           opts:["Chanhudaro","Kot Diji","Sohgaura","Desalpur"], ans:2, yr:2019,
+           exp:"Sohgaura is known for the Sohgaura copper plate inscription and is not a Harappan site. Chanhudaro, Kot Diji and Desalpur all belong to the Indus Valley Civilisation."},
+          {q:"Which of the following best characterises the Indus Civilisation people?\n\n1. They possessed great palaces and temples.\n2. They worshipped both male and female deities.\n3. They employed horse-drawn chariots in warfare.",
+           opts:["1 and 2 only","2 only","1, 2 and 3","None of the above"], ans:1, yr:2013,
+           exp:"Evidence supports worship of male and female deities. However, there is no clear evidence of grand palaces/temples comparable to later civilisations, and horse-drawn chariots were not a characteristic Harappan feature."},
+          {q:"Consider: (1) IVC was predominantly secular — religious element present but not dominant. (2) Cotton was used for manufacturing textiles in India during this period.",
+           opts:["1 only","2 only","Both 1 and 2","Neither 1 nor 2"], ans:2, yr:2011,
+           exp:"Both are correct. Urban planning, trade and civic organisation dominated Harappan society. Cotton textiles were also produced, making IVC one of the earliest cotton-producing cultures in the world."}
+        ]},
+        {n:'Vedic Period — Rigvedic & Later Vedic, Aryans, Literature (Vedas, Upanishads)', s:'NCERT', q:[
+          {q:"With reference to the difference between the culture of Rigvedic Aryans and Indus Valley people, which statements is/are correct?\n\n1. Rigvedic Aryans used coat of mail and helmet in warfare whereas IVC people did not leave evidence of using them.\n2. Rigvedic Aryans knew gold, silver and copper whereas Indus Valley people knew only copper and iron.\n3. Rigvedic Aryans had domesticated the horse whereas there is no evidence of IVC people having been aware of this animal.",
+           opts:["1 only","2 and 3 only","1 and 3 only","1, 2 and 3"], ans:2, yr:2017,
+           exp:"Statement 1 ✓ — Rigvedic Aryans used helmets and coats of mail; no such evidence from Harappan sites. Statement 2 ✗ — IVC knew gold, silver and copper, but NOT iron. Statement 3 ✓ — Horses were central to Rigvedic society; horse domestication in IVC remains absent or highly disputed."},
+          {q:"With reference to the cultural history of India, the memorising of chronicles, dynasty histories, and epic tales was the profession of who?",
+           opts:["Shramana","Parivraajaka","Agrahaarika","Magadha"], ans:3, yr:2016,
+           exp:"Magadhas were professional bards who preserved genealogies, heroic narratives and dynasty histories through oral recitation. Shramanas were ascetics, Parivrajakas were wandering philosophers, and Agraharikas were associated with land grants."},
+          {q:"The religion of early Vedic Aryans was primarily of:",
+           opts:["Bhakti","Image worship and Yajnas","Worship of nature and Yajnas","Worship of nature and Bhakti"], ans:2, yr:2012,
+           exp:"Early Vedic religion centred on worship of natural forces — Indra, Agni, Varuna, Surya — combined with ritual sacrifices (Yajnas). Idol worship and the Bhakti tradition became prominent much later."},
+          {q:"The 'dharma' and 'rita' depict a central idea of ancient Vedic civilisation. Consider:\n\n1. Dharma was a conception of obligations and of the discharge of one's duties to oneself and to others.\n2. Rita was the fundamental moral law governing the functioning of the universe and all it contained.",
+           opts:["1 only","2 only","Both 1 and 2","Neither 1 nor 2"], ans:2, yr:2011,
+           exp:"Both are correct. Dharma refers to righteous conduct, duties and ethical responsibilities. Rita is the key Rigvedic concept of cosmic order and universal moral law governing nature, society and the universe."}
+        ]},
+        {n:'Jainism — Mahavira, Principles, Sects (Digambara / Shvetambara)', s:'NCERT', q:[
+          {q:"With reference to the religious practices in India, the 'Sthanakvasi' sect belongs to:",
+           opts:["Buddhism","Jainism","Vaishnavism","Shaivism"], ans:1, yr:2018,
+           exp:"Sthanakvasi is a reformist sect of Jainism that emerged from the Shvetambara tradition. It rejects idol worship and emphasises meditation, self-discipline and scriptural study."},
+          {q:"Which of the following statements is/are applicable to Jain doctrine?\n\n1. The surest way of annihilating Karma is to practice penance.\n2. Every object, even the smallest particle, has a soul.\n3. Karma is the bane of the soul and must be ended.",
+           opts:["1 only","2 and 3 only","1 and 3 only","1, 2 and 3"], ans:3, yr:2013,
+           exp:"Jainism teaches that every living entity possesses a soul (jiva). Karma binds the soul and prevents liberation. Through asceticism, penance and right conduct, karmic particles are removed, leading to moksha. All three statements are correct."},
+          {q:"The Jain philosophy holds that the world is created and maintained by:",
+           opts:["Universal Law","Universal Truth","Universal Faith","Universal Soul"], ans:0, yr:2011,
+           exp:"Jainism does not believe in a creator God. The universe is eternal and functions according to natural and universal laws — not by divine will."},
+          {q:"With reference to the religious history of India, consider the following statements:\n\n1. Sautrantika and Sammitiya were the sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.",
+           opts:["1 only","2 only","Both 1 and 2","Neither 1 nor 2"], ans:1, yr:2017,
+           exp:"Statement 1 ✗ — Sautrantika and Sammitiya were Buddhist schools, not Jain sects. Statement 2 ✓ — Sarvastivadins believed dharmas exist in past, present and future forms simultaneously."}
+        ]},
+        {n:'Buddhism — Life of Buddha, Four Noble Truths, Buddhist Councils, Schools', s:'NCERT', q:[
+          {q:"With reference to ancient India, Gautama Buddha was generally known by which of the following epithets?\n\n1. Nayaputta\n2. Shakyamuni\n3. Tathagata",
+           opts:["1 only","2 and 3 only","1, 2 and 3","None of the above"], ans:1, yr:2024,
+           exp:"Shakyamuni (sage of the Shakya clan) and Tathagata are well-known epithets of Gautama Buddha. Nayaputta is associated with Mahavira in the Jain tradition."},
+          {q:"In which region was Dhanyakataka, a prominent Buddhist centre under the Mahasanghikas, located?",
+           opts:["Andhra","Gandhara","Kalinga","Magadha"], ans:0, yr:2023,
+           exp:"Dhanyakataka, identified with Amaravati in present-day Andhra Pradesh, was an important Buddhist centre associated with the Mahasanghika school."},
+          {q:"With reference to ancient India, consider the following statements:\n\n1. The concept of Stupa is Buddhist in origin.\n2. Stupa was generally a repository of relics.\n3. Stupa was a votive and commemorative structure in Buddhist tradition.",
+           opts:["Only one","Only two","All three","None"], ans:1, yr:2023,
+           exp:"Stupas predate Buddhism and were not originally Buddhist in origin. Buddhists extensively adopted them as relic repositories and commemorative structures — so statements 2 and 3 are correct, not 1."},
+          {q:"With reference to Indian history, who among the following is a future Buddha, yet to come to save the world?",
+           opts:["Avalokiteshvara","Lokesvara","Maitreya","Padmapani"], ans:2, yr:2018,
+           exp:"Maitreya is regarded in Buddhist tradition as the future Buddha who will appear on Earth after Gautama Buddha's teachings have disappeared."},
+          {q:"With reference to the religious history of India, consider the following statements:\n\n1. Sthaviravadins belong to Mahayana Buddhism.\n2. Lokottaravadin sect was an offshoot of Mahasanghika sect.\n3. The deification of Buddha by Mahasanghikas fostered Mahayana Buddhism.",
+           opts:["1 and 2 only","2 and 3 only","3 only","1, 2 and 3"], ans:1, yr:2015,
+           exp:"Sthaviravadins belong to early/Theravada Buddhism, not Mahayana. Lokottaravadins emerged from the Mahasanghika tradition, and Mahasanghika's elevation of Buddha's status contributed to the rise of Mahayana."},
+          {q:"With reference to the religious history of India, consider the following statements:\n\n1. The concept of Bodhisattva is central to the Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\n3. Bodhisattva delays achieving his own salvation to help all sentient beings.",
+           opts:["1 only","2 and 3 only","2 only","1, 2 and 3"], ans:1, yr:2014,
+           exp:"The Bodhisattva ideal is central to Mahayana Buddhism, not Hinayana/Theravada. A Bodhisattva seeks enlightenment while compassionately helping all beings attain liberation."},
+          {q:"Which one of the following describes best the concept of Nirvana in Buddhism?",
+           opts:["The extinction of the flame of desire","The complete annihilation of self","A state of bliss and rest","A mental stage beyond all comprehension"], ans:0, yr:2011,
+           exp:"Nirvana literally means 'blowing out' — extinction of the fires of greed, hatred and delusion. It represents liberation from suffering and the cycle of rebirth (samsara)."},
+          {q:"With reference to the cultural history of India, which one of the following correctly describes the term 'Paramitas'?",
+           opts:["The earliest Dharmashastra texts written in sutra style","Philosophical schools that did not accept the authority of Vedas","Perfections whose attainment led to the Bodhisattva path","Powerful merchant guilds of early medieval South India"], ans:2, yr:2020,
+           exp:"Paramitas are the virtues or perfections — generosity, morality, wisdom etc. — that a Bodhisattva cultivates on the path to Buddhahood in Mahayana tradition."}
+        ]},
+        {n:'Mauryan Empire — Chandragupta, Ashoka, Arthashastra, Administration, Decline', s:'NCERT + Spectrum', q:[
+          {q:"Who of the following was/were the contemporary/contemporaries of Alexander of Macedonia?\n\n1. Darius III\n2. Porus\n3. Chandragupta Maurya",
+           opts:["1 and 2 only","1 and 3 only","2 and 3 only","1, 2 and 3"], ans:3, yr:2015,
+           exp:"Alexander's campaigns overlapped with Darius III of Persia, King Porus of Punjab, and the young Chandragupta Maurya who later founded the Mauryan Empire. All three were contemporaries of Alexander."},
+          {q:"With reference to the history of India, which of the following pairs is/are correctly matched?\n\n1. Aurang — In-charge of treasury\n2. Sitaadhyaksha — Superintendent of agriculture\n3. Panyadhyaksha — Superintendent of trade",
+           opts:["1 only","2 and 3 only","3 only","1, 2 and 3"], ans:1, yr:2020,
+           exp:"Sitaadhyaksha (Superintendent of Agriculture) and Panyadhyaksha (Superintendent of Trade) are correctly described Arthashastra offices. Aurang was a workshop/manufactory, not the treasury in-charge."},
+          {q:"With reference to Indian history, consider the following statements:\n\n1. Ashoka made provisions for people's material welfare as well as spiritual welfare.\n2. Ashoka's Dhamma was propagated through inscriptions.",
+           opts:["1 only","2 only","Both 1 and 2","Neither 1 nor 2"], ans:2, yr:2012,
+           exp:"Both are correct. Ashoka's Dhamma emphasised moral conduct, welfare measures, tolerance and non-violence. These policies were communicated through rock and pillar edicts spread across the empire."}
+        ]},
+        {n:'Post-Mauryan Period — Sungas, Kushanas, Indo-Greeks, Satavahanas', s:'NCERT', q:[
+          {q:"With reference to the invaders in ancient India, which one of the following is the correct chronological order?",
+           opts:["Greeks → Sakas → Kushanas","Greeks → Kushanas → Sakas","Sakas → Greeks → Kushanas","Sakas → Kushanas → Greeks"], ans:0, yr:2006,
+           exp:"The correct chronological order is Indo-Greeks first (2nd century BC), followed by Sakas (Scythians), then Kushanas. This sequence is frequently tested in UPSC Post-Mauryan period questions."},
+          {q:"The practice of military governorship was first introduced in India by the:",
+           opts:["Greeks","Sakas","Parthians","Mughals"], ans:0, yr:2000,
+           exp:"The Indo-Greeks introduced the system of military governors (strategos) for administering conquered territories — a significant administrative innovation brought to India."},
+          {q:"The Indo-Greek kingdom set up in North Afghanistan in the beginning of the second century BC was:",
+           opts:["Bactria","Scythia","Zedrasia","Aria"], ans:0, yr:1999,
+           exp:"The Indo-Greek rulers emerged from Bactria, located north of the Hindu Kush in present-day northern Afghanistan. The Bactrian Greeks later pushed into northwestern India."},
+          {q:"Many of the Greeks, Kushanas and Shakas embraced Buddhism rather than Hinduism because:",
+           opts:["Buddhism was in the ascendant at that time","They had renounced the policy of war and violence","Caste-ridden Hinduism did not attract them","Buddhism provided easier access to Indian society"], ans:3, yr:1998,
+           exp:"Buddhism was more open and accessible to foreign groups entering India, offering a path to integration into Indian society without the rigid caste barriers of Brahmanical Hinduism."},
+          {q:"Which one of the following books of Ancient India has the love story of the son of the founder of the Sunga dynasty?",
+           opts:["Swapnavasavadatta","Malavikagnimitra","Meghadoota","Ratnavali"], ans:1, yr:2016,
+           exp:"Kalidasa's Malavikagnimitra narrates the love story of Agnimitra, son of Pushyamitra Shunga — the founder of the Shunga dynasty that succeeded the Mauryas."}
+        ]},
+        {n:'Sangam Age — Literature, Polity, Economy, Society of South India', s:'NCERT', q:[
+          {q:"Which one of the following explains the practice of 'Vattakirutal' as mentioned in Sangam poems?",
+           opts:["Kings employing women bodyguards","Learned persons assembling in royal courts to discuss religious and philosophical matters","Young girls keeping watch over agricultural fields and driving away birds and animals","A king defeated in a battle committing ritual suicide by starving himself to death"], ans:3, yr:2023,
+           exp:"Vattakirutal refers to ritual starvation unto death practiced by a defeated king — a concept mentioned in Sangam literature reflecting the honour code of ancient South Indian rulers."}
+        ]},
+        {n:'Gupta Empire — Golden Age, Art, Literature, Science, Decline', s:'NCERT + Spectrum', q:[
+          {q:"Who is the author of the Allahabad Pillar Inscription?",
+           opts:["Harisena","Banabhatta","Vishakhadatta","Kalidasa"], ans:0, yr:2016,
+           exp:"The Prayaga Prashasti (Allahabad Pillar Inscription) of Samudragupta was composed by his court poet Harisena. It is one of the most important sources for Gupta history and records Samudragupta's military campaigns."},
+          {q:"The Allahabad Pillar Inscription is associated with which Gupta ruler?",
+           opts:["Chandragupta I","Samudragupta","Chandragupta II","Kumaragupta"], ans:1, yr:2013,
+           exp:"The Allahabad Pillar Inscription (Prayaga Prashasti) records the achievements and military conquests of Samudragupta, often called the 'Napoleon of India'."},
+          {q:"The Gupta kings are best known for:",
+           opts:["Introduction of iron technology","Patronage of art, literature and science","Establishment of the first republics","Construction of Harappan cities"], ans:1, yr:2014,
+           exp:"The Gupta period (4th–6th century CE) is the Golden Age of ancient India — remarkable achievements in literature (Kalidasa), mathematics (Aryabhata), astronomy, art and temple architecture."},
+          {q:"With reference to the history of India, which of the following pairs is/are correctly matched?\n\n1. Eripatti — Land revenue assigned for maintenance of the village tank\n2. Taniyurs — Villages donated to a single Brahmin or a group of Brahmins\n3. Ghatikas — Colleges generally attached to the temples",
+           opts:["1 and 2 only","3 only","2 and 3 only","1, 2 and 3"], ans:3, yr:2020,
+           exp:"All three are correctly matched. Eripatti funded tank maintenance. Taniyurs were Brahmin-grant villages. Ghatikas were temple-attached colleges — all key features of the Gupta and post-Gupta administrative and cultural world."}
+        ]},
+                {n:'Post-Gupta Period — Harshavardhana, Chalukyas, Pallavas', s:'NCERT', q:[
+          {q:"The Chinese traveller Xuan Zang visited India during the reign of:",
+           opts:["Chandragupta II","Harshavardhana","Samudragupta","Skandagupta"], ans:1, yr:2017,
+           exp:"Xuanzang (Hiuen Tsang) visited India during the reign of Harshavardhana in the 7th century CE and left invaluable accounts of the political, social and religious conditions of the time."},
+          {q:"Who among the following was the author of Harshacharita?",
+           opts:["Kalidasa","Banabhatta","Dandin","Bhavabhuti"], ans:1, yr:2013,
+           exp:"Banabhatta was the court poet of Harshavardhana and authored Harshacharita — one of the most important literary sources for Harsha's reign and 7th century India."},
+          {q:"The Aihole inscription is associated with:",
+           opts:["Pulakeshin II","Harshavardhana","Narasimhavarman I","Mahendravarman I"], ans:0, yr:2013,
+           exp:"The Aihole inscription, composed by the poet Ravikirti, praises Pulakeshin II and is a major epigraphic source for the history of the Chalukyas of Vatapi."},
+          {q:"Who among the following defeated Harshavardhana on the banks of the Narmada?",
+           opts:["Pulakeshin II","Vikramaditya II","Narasimhavarman I","Mahendravarman I"], ans:0, yr:2016,
+           exp:"Pulakeshin II of the Chalukya dynasty successfully checked Harsha's southward expansion and defeated him near the Narmada River — halting the unification of north and south India."},
+          {q:"Consider the following temples:\n\n1. Kailasanatha Temple\n2. Shore Temple\n3. Pancha Rathas\n\nWhich of the above are associated with the Pallavas?",
+           opts:["1 only","1 and 2 only","1, 2 and 3","2 and 3 only"], ans:2, yr:2023,
+           exp:"All three are Pallava monuments. The Kailasanatha Temple (Kanchipuram) and the Shore Temple and Pancha Rathas (Mamallapuram) showcase the Pallavas' pioneering role in early Dravidian architecture."}
+        ]},
+                {n:'Ancient Economy — Trade Routes, Guilds (Shrenis), Coins, Ports', s:'NCERT', q:[
+          {q:"Consider the following statements about guilds in ancient India:\n\n1. Inscriptions of the guilds have been found at many places in ancient India.\n2. Guilds sometimes functioned as bankers and financial institutions.\n3. Guilds were exclusively controlled by the State.",
+           opts:["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"], ans:0, yr:2023,
+           exp:"Guilds (Shrenis) regulated crafts and trade, maintained funds and sometimes acted as financial intermediaries — essentially early banking. They were NOT exclusively state-controlled; they were largely autonomous bodies."},
+          {q:"With reference to ancient Indian trade, which of the following ports were important centres of maritime commerce?\n\n1. Bharukachcha\n2. Muziris\n3. Tamralipti",
+           opts:["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"], ans:3, yr:2021,
+           exp:"All three were major ancient Indian ports. Bharukachcha (Bharuch, Gujarat) and Tamralipti (Bengal) handled inland and coastal trade; Muziris (Kerala) was a key node in Indo-Roman maritime commerce."},
+          {q:"Which one of the following was an important trade route connecting north-western India with Central Asia?",
+           opts:["Dakshinapatha","Silk Route","Grand Trunk Road","Rajamarga"], ans:1, yr:2019,
+           exp:"The Silk Route connected India, Central Asia, China and the Mediterranean world, facilitating both trade in goods (spices, silk, cotton) and the exchange of ideas, religions and culture."},
+          {q:"Which of the following were characteristic features of ancient Indian guilds (Shrenis)?\n\n1. Regulation of trade and crafts\n2. Maintenance of collective funds\n3. Performance of social and religious functions",
+           opts:["1 only","1 and 2 only","2 and 3 only","1, 2 and 3"], ans:3, yr:2017,
+           exp:"Guilds performed economic, social and religious functions. They regulated production standards, managed collective wealth (sometimes as bankers) and often sponsored religious activities and temples."},
+          {q:"Roman gold coins found in large numbers in South India indicate:",
+           opts:["Roman political control over South India","Extensive maritime trade between India and the Roman Empire","Migration of Roman settlers","Spread of Roman religion"], ans:1, yr:2015,
+           exp:"Large numbers of Roman coins in South India are strong evidence of flourishing Indo-Roman maritime trade. South Indian ports like Muziris exported pepper, textiles and ivory to Rome in exchange for gold."}
+        ]},
       ]},
     { id:'medieval',  name:'Medieval History',                   icon:'🕌', color:'#fb923c', bg:'rgba(251,146,60,.12)',  desc:'Delhi Sultanate to Mughal Era',
       topics:[
-        {n:'Rajput Period — Major Dynasties, Culture, Polity',                                             s:'Spectrum'},
+                {n:'Rajput Period — Major Dynasties, Culture, Polity', s:'Spectrum', q:[
+          {q:"Who among the following rulers in ancient India had assumed the titles 'Mattavilasa', 'Vichitrachitta' and 'Gunabhara'?",
+           opts:["Mahendravarman I","Simhavishnu","Narasimhavarman I","Simhavarman"], ans:0, yr:2025,
+           exp:"Mahendravarman I of the Pallava dynasty assumed the titles Mattavilasa (jovial), Vichitrachitta (curious-minded) and Gunabhara (repository of virtues). He was also a playwright — author of Mattavilasa Prahasana."},
+          {q:"Consider the following pairs — King: Dynasty\n\n1. Nannuka — Chandela\n2. Jayashakti — Paramara\n3. Nagabhata II — Gurjara-Pratihara\n4. Bhoja — Rashtrakuta\n\nHow many pairs are correctly matched?",
+           opts:["Only one pair","Only two pairs","Only three pairs","All four pairs"], ans:1, yr:2022,
+           exp:"Nannuka ✓ founded the Chandela dynasty. Nagabhata II ✓ belonged to Gurjara-Pratihara. Jayashakti ✗ was a Chandela ruler, not Paramara. Bhoja ✗ was a Paramara ruler, not Rashtrakuta. So only two pairs are correct."},
+          {q:"Consider the following pairs — Medieval Indian State: Present Region\n\n1. Champaka — Central India\n2. Durgara — Jammu\n3. Kuluta — Malabar\n\nWhich pair(s) is/are correctly matched?",
+           opts:["1 and 2 only","2 only","1 and 3 only","3 only"], ans:1, yr:2015,
+           exp:"Only Durgara → Jammu is correct. Champaka refers to Chamba (Himachal Pradesh), not Central India. Kuluta refers to Kullu (Himachal Pradesh), not Malabar."},
+          {q:"In medieval India, the designations 'Mahattara' and 'Pattakila' were used for:",
+           opts:["Military officers","Village headmen","Specialists in Vedic rituals","Chiefs of craft guilds"], ans:1, yr:2014,
+           exp:"Mahattara and Pattakila were village-level functionaries and headmen in early medieval India, responsible for local administration and revenue collection."}
+        ]},
         {n:'Arab Conquest of Sindh & Turkish Invasions — Mahmud of Ghazni, Muhammad Ghori',               s:'Spectrum'},
-        {n:'Delhi Sultanate — Slave, Khilji, Tughlaq, Sayyid, Lodi Dynasties & Administration',           s:'NCERT + Spectrum'},
-        {n:'Bhakti Movement — Saints (Kabir, Mirabai, Tukaram, Chaitanya), Regional Spread',              s:'NCERT'},
-        {n:'Sufi Movement — Chishti, Suhrawardi, Qadri Orders; Key Saints',                               s:'NCERT'},
-        {n:'Vijayanagara Empire — Administration, Economy, Hampi, Culture',                               s:'NCERT'},
-        {n:'Bahmani Kingdom and Deccan Sultanates',                                                        s:'Spectrum'},
-        {n:'Mughal Empire — Babur to Aurangzeb, Administration, Mansabdari System',                       s:'NCERT + Spectrum'},
-        {n:'Mughal Art, Architecture (Red Fort, Taj Mahal) & Literature',                                 s:'Nitin Singhania'},
+        {n:'Delhi Sultanate — Slave, Khilji, Tughlaq, Sayyid, Lodi Dynasties & Administration',           s:'NCERT + Spectrum', q:[
+          {q:'With reference to medieval India, which one of the following sequences indicates the correct chronological order?',opts:['Alauddin Khilji – Muhammad bin Tughlaq – Firuz Shah Tughlaq','Muhammad bin Tughlaq – Alauddin Khilji – Firuz Shah Tughlaq','Firuz Shah Tughlaq – Alauddin Khilji – Muhammad bin Tughlaq','Alauddin Khilji – Firuz Shah Tughlaq – Muhammad bin Tughlaq'],ans:0,yr:2021,exp:'Alauddin Khilji ruled before Muhammad bin Tughlaq, who ruled before Firuz Shah Tughlaq.'},
+          {q:'With reference to the history of India, consider the following statements:\n\n1. Alauddin Khilji introduced market control measures.\n2. His reforms aimed at maintaining a large standing army.',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2020,exp:'Alauddin Khilji\'s market reforms were intended to keep prices low so that soldiers could be maintained on lower salaries.'},
+          {q:'Who among the following introduced the practice of maintaining detailed land revenue records during the Delhi Sultanate period?',opts:['Iltutmish','Alauddin Khilji','Muhammad bin Tughlaq','Firuz Shah Tughlaq'],ans:1,yr:2017,exp:'Alauddin Khilji strengthened revenue administration and measurement of cultivated land.'},
+          {q:'The system of \'Dagh\' and \'Chehra\' in medieval India was associated with',opts:['Revenue administration','Military administration','Judicial administration','Provincial administration'],ans:1,yr:2015,exp:'Dagh (branding of horses) and Chehra (descriptive rolls of soldiers) were military reforms introduced by Alauddin Khilji.'}
+        ]},
+        {n:'Bhakti Movement — Saints (Kabir, Mirabai, Tukaram, Chaitanya), Regional Spread',              s:'NCERT', q:[
+          {q:'Which one of the following is the correct chronological order in ascending order of the given Bhakti saints?',opts:['Kabir - Tulsidas - Chaitanya Mahaprabhu','Tulsidas - Kabir - Chaitanya Mahaprabhu','Chaitanya Mahaprabhu - Kabir - Tulsidas','Kabir - Chaitanya Mahaprabhu - Tulsidas'],ans:3,yr:2024,exp:'Kabir (15th century) preceded Chaitanya Mahaprabhu (1486–1534), who preceded Tulsidas (16th century).'},
+          {q:'With reference to Indian history, consider the following pairs:\n\n1. Aryadeva — Jaina scholar\n2. Dignaga — Buddhist scholar\n3. Nathamuni — Vaishnava scholar',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:1,yr:2022,exp:'Nathamuni was an important Vaishnava scholar associated with the Sri Vaishnava tradition. Aryadeva was a Buddhist philosopher, not a Jaina scholar.'},
+          {q:'With reference to the cultural history of India, consider the following pairs:\n\n1. Parivrajaka — Renunciant and wanderer\n2. Shramana — Priest with high status\n3. Upasaka — Lay follower',opts:['1 and 2 only','1 and 3 only','2 and 3 only','1, 2 and 3'],ans:1,yr:2020,exp:'Parivrajaka refers to a wandering ascetic and Upasaka to a lay devotee. Shramana refers to an ascetic tradition, not a priestly class.'},
+          {q:'Building \'Kalyana Mandapas\' was a notable feature in the temple construction in the kingdom of',opts:['Chalukyas','Cholas','Vijayanagara','Pallavas'],ans:2,yr:2019,exp:'Kalyana Mandapas became a prominent architectural feature under the Vijayanagara rulers, reflecting the growth of temple-centered devotional traditions.'},
+          {q:'With reference to the religious history of India, consider the following statements:\n\n1. The concept of Bhakti developed as a reaction against ritualism.\n2. Bhakti saints emphasized personal devotion over elaborate rituals.',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2016,exp:'The Bhakti movement emphasized personal devotion, equality and direct relationship with God while challenging excessive ritualism.'}
+        ]},
+        {n:'Sufi Movement — Chishti, Suhrawardi, Qadri Orders; Key Saints',                               s:'NCERT', q:[
+          {q:'Which one of the following foreign travellers elaborately discussed the Sufi saints and their khanqahs in India?',opts:['Francois Bernier','Jean-Baptiste Tavernier','Jean de Thevenot','Abbe Barthelemy Carre'],ans:3,yr:2018,exp:'Abbe Barthelemy Carre recorded observations regarding Sufi institutions and saints during his travels in India.'},
+          {q:'With reference to medieval religious movements in India, which of the following characteristics were common to both Bhakti and Sufi traditions?',opts:['Emphasis on personal devotion','Use of local languages','Opposition to excessive ritualism','All of the above'],ans:3,yr:2020,exp:'Both Bhakti and Sufi traditions stressed personal devotion, simplicity, and accessibility of spiritual teachings.'}
+        ]},
+        {n:'Vijayanagara Empire — Administration, Economy, Hampi, Culture',                               s:'NCERT', q:[
+          {q:'Who of the following rulers of medieval India gave the Portuguese permission to build a fort at Bhatkal?',opts:['Krishnadevaraya','Narasimha Saluva','Muhammad Shah III','Yusuf Adil Shah'],ans:0,yr:2024,exp:'Krishnadevaraya maintained diplomatic and commercial relations with the Portuguese and permitted them to build a fort at Bhatkal.'},
+          {q:'With reference to Indian history, which of the following statements is/are correct?\n\n1. The Nizamat of Arcot emerged out of Hyderabad State.\n2. The Mysore Kingdom emerged out of Vijayanagara Empire.\n3. Rohilkhand Kingdom was formed out of territories occupied by Ahmad Shah Durrani.',opts:['1 and 2','2 only','2 and 3','3 only'],ans:1,yr:2021,exp:'The Mysore Kingdom emerged from territories formerly under the Vijayanagara Empire.'},
+          {q:'Building \'Kalyana Mandapas\' was a notable feature in the temple construction in the kingdom of',opts:['Chalukyas','Cholas','Vijayanagara','Pallavas'],ans:2,yr:2019,exp:'Kalyana Mandapas became an important architectural feature during the Vijayanagara period.'},
+          {q:'Which one of the following foreign travellers elaborately discussed the kingdom of Vijayanagara?',opts:['Francois Bernier','Jean-Baptiste Tavernier','Domingo Paes','Abbe Barthelemy Carre'],ans:2,yr:2018,exp:'Domingo Paes left one of the most detailed accounts of the Vijayanagara Empire during the reign of Krishnadevaraya.'},
+          {q:'Regarding the taxation systems of Krishna Deva Raya, consider the following statements:\n\n1. The tax rate of land was fixed depending on the quality of land.\n2. Private owners of workshops paid an industry tax.',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2016,exp:'Land revenue varied according to quality of land and industry/commercial taxes were also levied during Krishnadevaraya\'s reign.'},
+          {q:'Who among the following founded a new city on the south bank of a tributary of the Krishna River and ruled the kingdom as the agent of a deity?',opts:['Amoghavarsha I','Ballala II','Harihara I','Prataparudra II'],ans:2,yr:2015,exp:'Harihara I, one of the founders of Vijayanagara, established the kingdom and ruled in the name of the deity Virupaksha.'}
+        ]},
+        {n:'Bahmani Kingdom and Deccan Sultanates',                                                        s:'Spectrum', q:[
+          {q:'Who of the following rulers of medieval India gave the Portuguese permission to build a fort at Bhatkal?',opts:['Krishnadevaraya','Narasimha Saluva','Muhammad Shah III','Yusuf Adil Shah'],ans:0,yr:2024,exp:'Although the answer is Krishnadevaraya, the question tests knowledge of Deccan politics and interactions among Vijayanagara, Bahmani successor states and the Portuguese.'},
+          {q:'With reference to Indian history, which of the following statements is/are correct?\n\n1. The Nizamat of Arcot emerged out of Hyderabad State.\n2. The Mysore Kingdom emerged out of Vijayanagara Empire.\n3. Rohilkhand Kingdom was formed out of territories occupied by Ahmad Shah Durrani.',opts:['1 and 2','2 only','2 and 3','3 only'],ans:1,yr:2021,exp:'The Nizamat of Arcot emerged from the Mughal-Deccan political structure and is important for understanding post-Bahmani developments.'},
+          {q:'Which one of the following was a very important seaport in the Kakatiya kingdom?',opts:['Kakinada','Motupalli','Machilipatnam','Nelluru'],ans:1,yr:2017,exp:'Motupalli was a major port of the Kakatiya kingdom and an important centre of overseas trade.'}
+        ]},
+        {n:'Mughal Empire — Babur to Aurangzeb, Administration, Mansabdari System',                       s:'NCERT + Spectrum', q:[
+          {q:'Who among the following travellers left detailed accounts of Mughal India and its economy?',opts:['Francois Bernier','Megasthenes','Fa-Hien','Al-Biruni'],ans:0,yr:2019,exp:'Francois Bernier\'s writings are an important source for understanding Mughal administration, economy and society.'},
+          {q:'Jean-Baptiste Tavernier is best known in Indian history for',opts:['His account of Vijayanagara','His account of Mughal diamonds and trade','His role in Mughal administration','His description of Gupta India'],ans:1,yr:2018,exp:'Tavernier was a French traveller and jewel merchant known for his observations on Mughal India and diamond trade.'},
+          {q:'The Mansabdari system reached its most developed form under',opts:['Babur','Humayun','Akbar','Aurangzeb'],ans:2,yr:2017,exp:'Akbar institutionalized the Mansabdari system, which became the backbone of Mughal military and civil administration.'},
+          {q:'With reference to Mughal administration, the terms \'Zat\' and \'Sawar\' were associated with',opts:['Land revenue','Judicial administration','Mansabdari ranks','Provincial administration'],ans:2,yr:2015,exp:'Zat denoted personal rank while Sawar indicated the cavalry quota a Mansabdar had to maintain.'}
+        ]},
+        {n:'Mughal Art, Architecture (Red Fort, Taj Mahal) & Literature',                                 s:'Nitin Singhania', q:[
+          {q:'With reference to Mughal architecture, which of the following monuments is associated with Shah Jahan?',opts:['Buland Darwaza','Taj Mahal','Humayun\'s Tomb','Agra Fort'],ans:1,yr:2023,exp:'The Taj Mahal was commissioned by Shah Jahan in memory of Mumtaz Mahal and represents the peak of Mughal architecture.'},
+          {q:'The Red Fort of Delhi was built during the reign of',opts:['Akbar','Jahangir','Shah Jahan','Aurangzeb'],ans:2,yr:2017,exp:'The Red Fort was constructed by Shah Jahan when he shifted the capital from Agra to Shahjahanabad.'}
+        ]},
         {n:'Maratha Empire — Shivaji, Peshwas, Ashtapradhan, Administration',                             s:'NCERT + Spectrum'},
-        {n:'Medieval Economy — Land Revenue Systems, Trade, Crafts, Textile',                             s:'Spectrum'},
+        {n:'Medieval Economy — Land Revenue Systems, Trade, Crafts, Textile',                             s:'Spectrum', q:[
+          {q:'The araghatta mentioned in Indian historical sources refers to:',opts:['A military formation','A water-lifting device','A type of land grant','A guild of merchants'],ans:1,yr:2025,exp:'Araghatta was an early water-lifting device used for irrigation and drawing water from wells.'},
+          {q:'In medieval India, the term \'Fanam\' referred to:',opts:['Clothing','Coins','Ornaments','Weapons'],ans:1,yr:2022,exp:'Fanam was a small gold coin widely used in South India.'},
+          {q:'In medieval India, the designations \'Mahattara\' and \'Pattakila\' were used for',opts:['Military officers','Village headmen','Specialists in Vedic rituals','Chiefs of craft guilds'],ans:1,yr:2014,exp:'Mahattara and Pattakila were village-level administrative officials.'},
+          {q:'Banjaras in medieval India were generally associated with',opts:['Agriculture','Temple administration','Trade and transport of goods','Coin minting'],ans:2,yr:2013,exp:'Banjaras were nomadic trading communities involved in transporting goods across regions.'}
+        ]},
       ]},
     { id:'modern',    name:'Modern History & Freedom Struggle',  icon:'🇮🇳', color:'#fb923c', bg:'rgba(251,146,60,.12)', desc:'British colonialism to Independence 1947',
       topics:[
-        {n:'European Advent — Portuguese, Dutch, French, British Rivalry in India',                        s:'Spectrum'},
-        {n:'British Expansion — Battles of Plassey & Buxar, Doctrine of Lapse, Subsidiary Alliance',      s:'Spectrum'},
-        {n:'British Economic Policies — Land Revenue (Zamindari, Ryotwari, Mahalwari), Drain of Wealth',  s:'Spectrum'},
-        {n:'Socio-Religious Reform Movements — Brahmo Samaj, Arya Samaj, Prarthana Samaj',                s:'Spectrum'},
-        {n:'Revolt of 1857 — Causes, Spread, Key Leaders, Consequences',                                  s:'Spectrum'},
-        {n:'Rise of Indian Nationalism — INC Formation (1885), Moderates vs Extremists (Surat Split)',    s:'Spectrum'},
-        {n:'Partition of Bengal 1905 & Swadeshi Movement',                                                s:'Spectrum'},
-        {n:'Gandhian Movements — Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942)',   s:'Spectrum'},
-        {n:'Revolutionary Nationalism — Bhagat Singh, Chandrashekhar Azad, Subhas Bose & INA',           s:'Spectrum'},
-        {n:'Constitutional Development — Govt of India Acts 1919 & 1935, Montague-Chelmsford',            s:'Spectrum + Laxmikanth'},
-        {n:'Communal Politics, Muslim League, Cabinet Mission Plan, Mountbatten Plan',                    s:'Spectrum'},
+        {n:'European Advent — Portuguese, Dutch, French, British Rivalry in India',                        s:'Spectrum', q:[{q:'With reference to the history of India, consider the following European trading centres:\n\n1. Surat\n2. Masulipatnam\n3. Madras\n4. Calcutta\n\nArrange them in chronological order of establishment by the English East India Company.',opts:['1-2-3-4','2-1-3-4','1-3-2-4','2-3-1-4'],ans:0,yr:2023,exp:'Surat was the first major English factory, followed by Masulipatnam, Madras and Calcutta.'},{q:'Which European power was the first to establish a trading centre in India?',opts:['British','French','Dutch','Portuguese'],ans:3,yr:2021,exp:'The Portuguese were the first Europeans to arrive in India by sea route under Vasco da Gama in 1498.'},{q:'Consider the following statements regarding European trading companies in India:\n\n1. The Dutch focused primarily on the spice trade.\n2. The French established their headquarters at Pondicherry.\n3. The British East India Company was founded in 1600.',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2019,exp:'All three statements are historically correct.'},{q:'Which of the following pairs is correctly matched?\n\nEuropean Power — Headquarters in India',opts:['Portuguese — Goa','Dutch — Pondicherry','French — Cochin','British — Chandernagore'],ans:0,yr:2017,exp:'Goa served as the headquarters of Portuguese power in India.'},{q:'The Battle of Wandiwash (1760) was fought between',opts:['British and Portuguese','British and Dutch','British and French','British and Marathas'],ans:2,yr:2015,exp:'The Battle of Wandiwash established British supremacy over the French in India.'},{q:'Who among the following reached India first by sea route from Europe?',opts:['Christopher Columbus','Vasco da Gama','Ferdinand Magellan','Marco Polo'],ans:1,yr:2014,exp:'Vasco da Gama reached Calicut in 1498 via the Cape Route.'}]},
+        {n:'British Expansion — Battles of Plassey & Buxar, Doctrine of Lapse, Subsidiary Alliance',      s:'Spectrum', q:[{q:'Which one of the following statements does not apply to the system of Subsidiary Alliance introduced by Lord Wellesley?',opts:['To maintain a large standing army at others expense','To keep India safe from Napoleonic danger','To secure a fixed income for the Company','To establish British paramountcy over the Indian States'],ans:2,yr:2018,exp:'The Subsidiary Alliance was intended to extend British control, establish paramountcy and counter foreign threats. Securing a fixed income was not its primary objective.'},{q:'Wellesley established the Fort William College, Calcutta because',opts:['He was asked by the Board of Directors at London to do so','He wanted to revive interest in oriental learning in India','He wanted to provide William Carey and his associates with employment','He wanted to train British civilians for administrative purpose in India'],ans:3,yr:2020,exp:'Fort William College was established in 1800 by Lord Wellesley to train East India Company civil servants in Indian languages and administration.'},{q:'Consider the following statements about the Charter Act of 1813:\n\n1. It ended the trade monopoly of the East India Company in India except for trade in tea and trade with China.\n2. It asserted the sovereignty of the British Crown over the Indian territories held by the Company.\n3. The revenues of India were now controlled by the British Parliament.\n\nWhich of the statements given above are correct?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:0,yr:2019,exp:'The Charter Act 1813 ended the Company\'s monopoly except for tea and China trade and clarified Crown sovereignty. Statement 3 is incorrect.'},{q:'The staple commodities of export by the English East India Company from Bengal in the middle of the 18th century were:',opts:['Raw cotton, oil-seeds and opium','Sugar, salt, zinc and lead','Copper, silver, gold, spices and tea','Cotton, silk, saltpetre and opium'],ans:3,yr:2018,exp:'The Company exported cotton textiles, silk, saltpetre and opium from Bengal in the eighteenth century.'}]},
+        {n:'British Economic Policies — Land Revenue (Zamindari, Ryotwari, Mahalwari), Drain of Wealth',  s:'Spectrum', q:[{q:'With reference to the history of India, consider the following pairs:\n\n1. Aurang : In-charge of treasury of the State\n2. Banian : Indian agent of the East India Company\n3. Mirasidar : Designated revenue payer to the State\n\nWhich of the pairs given above is/are correctly matched?',opts:['1 and 2 only','2 and 3 only','3 only','1, 2 and 3'],ans:1,yr:2020,exp:'Banian was an Indian agent of European companies. Mirasidars were recognized revenue-paying landholders. Aurang did not mean state treasurer.'},{q:'Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\n\nSelect the correct answer using the code given below:',opts:['1 only','1 and 3 only','2 and 3 only','1, 2 and 3'],ans:2,yr:2017,exp:'Ryotwari Settlement was developed by Alexander Read and Thomas Munro in the Madras Presidency.'},{q:'Which of the following statements correctly explains the impact of the Industrial Revolution on India during the first half of the nineteenth century?',opts:['Indian handicrafts were ruined','Machines were introduced in the Indian textile industry in large numbers','Railway lines were laid in many parts of the country','Heavy duties were imposed on the imports of British manufactures'],ans:0,yr:2020,exp:'British industrial goods flooded Indian markets, contributing significantly to the decline of traditional handicrafts.'}]},
+        {n:'Socio-Religious Reform Movements — Brahmo Samaj, Arya Samaj, Prarthana Samaj',                s:'Spectrum', q:[{q:'Who among the following founded the Atmiya Sabha in Calcutta in the first decade of the nineteenth century?',opts:['Debendranath Tagore','Raja Rammohan Roy','Keshab Chandra Sen','Ishwar Chandra Vidyasagar'],ans:1,yr:2025,exp:'Raja Rammohan Roy founded the Atmiya Sabha in 1815. It later contributed to the development of the Brahmo movement.'},{q:'Who among the following was the founder of the Self-Respect Movement?',opts:['C. N. Annadurai','M. Karunanidhi','E. V. Ramasamy Naicker','K. Kamaraj'],ans:2,yr:2025,exp:'E. V. Ramasamy (Periyar) founded the Self-Respect Movement in Tamil Nadu to challenge caste discrimination and social inequality.'},{q:'With reference to the history of India, consider the following pairs:\n\nMovement/Organization : Founder\n1. Brahmo Samaj : Raja Rammohan Roy\n2. Arya Samaj : Swami Dayanand Saraswati\n3. Prarthana Samaj : Atmaram Pandurang\n\nWhich of the pairs given above is/are correctly matched?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2019,exp:'All three founder-organization pairs are correctly matched.'},{q:'The founder of the Arya Samaj was',opts:['Swami Vivekananda','Raja Rammohan Roy','Swami Dayanand Saraswati','Ishwar Chandra Vidyasagar'],ans:2,yr:2014,exp:'Swami Dayanand Saraswati founded Arya Samaj in 1875 and advocated a return to the Vedas.'}]},
+        {n:'Revolt of 1857 — Causes, Spread, Key Leaders, Consequences',                                  s:'Spectrum', q:[{q:'With reference to 8th July 1858 in Indian history, which one of the following statements is correct?',opts:['The act of transferring power from the East India Company to the Crown was passed','The Viceroy\'s Executive Council was expanded','The Queen\'s Proclamation was issued','The first Indian was appointed to the Viceroy\'s Council'],ans:0,yr:2021,exp:'The Government of India Act, 1858 ended East India Company rule and transferred administration to the British Crown following the Revolt of 1857.'},{q:'After the Revolt of 1857, the British policy towards Indian princely states changed because',opts:['The Doctrine of Lapse was abandoned','The Company lost interest in Indian affairs','The princes demanded independence','The British Parliament withdrew support'],ans:0,yr:2018,exp:'After 1857, the British abandoned the Doctrine of Lapse and adopted a policy of cooperation with princely states.'},{q:'Who among the following was proclaimed the Emperor of India during the Revolt of 1857?',opts:['Bahadur Shah II','Nana Sahib','Kunwar Singh','Tatya Tope'],ans:0,yr:2017,exp:'Bahadur Shah Zafar (Bahadur Shah II) was declared the symbolic leader of the revolt by the rebels.'}]},
+        {n:'Rise of Indian Nationalism — INC Formation (1885), Moderates vs Extremists (Surat Split)',    s:'Spectrum', q:[{q:'Who among the following presided over the first session of the Indian National Congress held in Bombay in 1885?',opts:['A.O. Hume','W.C. Bonnerjee','Dadabhai Naoroji','Surendranath Banerjee'],ans:1,yr:2025,exp:'Womesh Chandra Bonnerjee (W.C. Bonnerjee) was the first President of the Indian National Congress at its inaugural session in Bombay in 1885.'},{q:'Which one of the following led to the split in the Indian National Congress at Surat in 1907?',opts:['Disagreement over participation in legislative councils','Differences between Moderates and Extremists regarding methods of struggle','Demand for complete independence','Opposition to the partition of Bengal'],ans:1,yr:2018,exp:'The Surat Split occurred because of growing differences between Moderates and Extremists regarding leadership and methods of political action.'},{q:'With reference to Dadabhai Naoroji, consider the following statements:\n\n1. He propounded the Drain Theory.\n2. He was associated with the Indian National Congress.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2017,exp:'Dadabhai Naoroji was one of the founding leaders of the INC and developed the Drain of Wealth Theory.'},{q:'The newspaper \'Kesari\' was founded by',opts:['Gopal Krishna Gokhale','Bal Gangadhar Tilak','Lala Lajpat Rai','Bipin Chandra Pal'],ans:1,yr:2014,exp:'Bal Gangadhar Tilak founded the Marathi newspaper Kesari, which became an important vehicle of nationalist thought.'}]},
+        {n:'Partition of Bengal 1905 & Swadeshi Movement',                                                s:'Spectrum', q:[{q:'With reference to the Swadeshi Movement, consider the following statements:\n\n1. It contributed to the revival of the indigenous artisan crafts and industries.\n2. The National Council of Education was established as a part of the Swadeshi Movement.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2019,exp:'The Swadeshi Movement promoted indigenous industries and led to the establishment of the National Council of Education in 1906.'},{q:'The \'Swadeshi\' and \'Boycott\' were adopted as methods of struggle for the first time during the',opts:['Agitation against the partition of Bengal','Home Rule Movement','Non-Cooperation Movement','Visit of Simon Commission to India'],ans:0,yr:2016,exp:'The anti-Partition movement in Bengal (1905) introduced Swadeshi and Boycott as organized methods of political struggle.'},{q:'Which one of the following movements has contributed to a split in the Indian National Congress resulting in emergence of \'moderates\' and \'extremists\'?',opts:['Swadeshi Movement','Quit India Movement','Non-Cooperation Movement','Civil Disobedience Movement'],ans:0,yr:2015,exp:'The Swadeshi Movement intensified differences between Moderates and Extremists, culminating in the Surat Split of 1907.'},{q:'The Partition of Bengal made by Lord Curzon in 1905 lasted until',opts:['The First World War when Indian troops were needed by the British and the partition was ended','King George V abrogated Curzon\'s Act at the Royal Durbar in Delhi in 1911','Gandhiji launched his Civil Disobedience Movement','The Partition of India in 1947 when East Bengal became East Pakistan'],ans:1,yr:2014,exp:'The partition implemented in 1905 was annulled in 1911 by King George V during the Delhi Durbar.'},{q:'What was the main reason for the split in the Indian National Congress at Surat in 1907?',opts:['Introduction of communalism into Indian politics by Lord Minto','Extremists\' lack of faith in the capacity of the moderates to negotiate with the British Government','Foundation of Muslim League','Aurobindo Ghosh\'s inability to be elected as the president of the Indian National Congress'],ans:1,yr:2016,exp:'The Surat Split reflected the growing ideological divide between Moderates and Extremists during the Swadeshi era.'}]},
+        {n:'Gandhian Movements — Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942)',   s:'Spectrum', q:[{q:'Consider the following subjects with regard to Non-Cooperation Programme:\n\nI. Boycott of law-courts and foreign cloth\nII. Observance of strict non-violence\nIII. Retention of titles and honours without using them in public\nIV. Establishment of Panchayats for settling disputes\n\nHow many of the above were parts of Non-Cooperation Programme?',opts:['Only one','Only two','Only three','All the four'],ans:2,yr:2025,exp:'Boycott of courts and foreign cloth, non-violence and Panchayats were part of the programme. Titles and honours were to be surrendered, not retained.'},{q:'With reference to 8th August 1942 in Indian history, which one of the following statements is correct?',opts:['The Quit India Resolution was adopted by the AICC','The Viceroy\'s Executive Council was expanded to include more Indians','The Congress ministries resigned in seven provinces','Cripps proposed an Indian Union with full Dominion Status once the Second World War was over'],ans:0,yr:2021,exp:'On 8 August 1942, the All India Congress Committee adopted the Quit India Resolution at Bombay.'},{q:'The Gandhi-Irwin Pact included which of the following?\n\n1. Invitation to Congress to participate in the Round Table Conference\n2. Withdrawal of Ordinances promulgated in connection with the Civil Disobedience Movement\n3. Acceptance of Gandhi\'s suggestion for enquiry into police excesses\n4. Release of only those prisoners who were not charged with violence',opts:['1 only','1, 2 and 4 only','3 only','2, 3 and 4 only'],ans:1,yr:2020,exp:'The Gandhi-Irwin Pact led to Congress participation in the Round Table Conference, withdrawal of ordinances and release of non-violent political prisoners.'},{q:'With reference to the British colonial rule in India, consider the following statements:\n\n1. Mahatma Gandhi was instrumental in the abolition of the system of \'indentured labour\'.\n2. In Lord Chelmsford\'s \'War Conference\', Mahatma Gandhi did not support the resolution on recruiting Indians for World War.\n3. Consequent upon the breaking of Salt Law by Indian people, the Indian National Congress was declared illegal by the colonial rulers.\n\nWhich of the statements given above are correct?',opts:['1 and 2 only','1 and 3 only','2 and 3 only','1, 2 and 3'],ans:1,yr:2019,exp:'Statements 1 and 3 are correct. Gandhi supported recruitment during World War I, making statement 2 incorrect.'},{q:'Which one of the following is a very significant aspect of the Champaran Satyagraha?',opts:['Active all-India participation of lawyers, students and women in the National Movement','Active involvement of Dalit and Tribal communities of India in the National Movement','Joining of peasant unrest to India\'s National Movement','Drastic decrease in the cultivation of plantation crops and commercial crops'],ans:2,yr:2018,exp:'Champaran linked peasant grievances with the wider national movement and marked Gandhi\'s first major satyagraha in India.'},{q:'Who of the following organised a march on the Tanjore coast to break the Salt Law in April 1930?',opts:['V.O. Chidambaram Pillai','C. Rajagopalachari','K. Kamaraj','Annie Besant'],ans:1,yr:2015,exp:'C. Rajagopalachari led the Vedaranyam Salt Satyagraha in Tamil Nadu during the Civil Disobedience Movement.'},{q:'With reference to Rowlatt Satyagraha, which of the following statements is/are correct?\n\n1. The Rowlatt Act was based on the recommendations of the \'Sedition Committee\'.\n2. In Rowlatt Satyagraha Gandhiji tried to use the Home Rule League.\n3. Demonstrations against the Simon Commission coincided with the Rowlatt Satyagraha.',opts:['1 only','1 and 2 only','2 and 3 only','1, 2 and 3'],ans:1,yr:2015,exp:'The Rowlatt Act was based on the Sedition Committee recommendations and Gandhi attempted to utilize the Home Rule League network. Statement 3 is incorrect.'}]},
+        {n:'Revolutionary Nationalism — Bhagat Singh, Chandrashekhar Azad, Subhas Bose & INA',           s:'Spectrum', q:[{q:'With reference to Indian freedom struggle, consider the following events:\n\n1. The first Indonesian invasion of Dutch East Indies.\n2. The formation of the Azad Hind Government.\n3. The arrival of Subhas Chandra Bose in Singapore.\n\nWhich of the above events happened during World War II?',opts:['1 and 2 only','2 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2021,exp:'The formation of the Provisional Government of Azad Hind and Bose\'s activities in Southeast Asia occurred during World War II.'},{q:'With reference to the history of Indian freedom struggle, Usha Mehta is well known for',opts:['Running the secret Congress Radio during the Quit India Movement','Participating in the Second Round Table Conference','Leading a contingent of the INA','Assassinating a British official'],ans:0,yr:2020,exp:'Usha Mehta operated the underground Congress Radio during the Quit India Movement.'},{q:'Who among the following founded the Forward Bloc?',opts:['Bhagat Singh','Subhas Chandra Bose','Chandrashekhar Azad','Jawaharlal Nehru'],ans:1,yr:2019,exp:'Subhas Chandra Bose founded the Forward Bloc in 1939 after resigning from the Congress presidency.'},{q:'The Indian National Army (INA) was originally founded by',opts:['Subhas Chandra Bose','Rash Behari Bose','Mohan Singh','Sachindra Nath Sanyal'],ans:2,yr:2017,exp:'Captain Mohan Singh first organized the INA in 1942. Later, Subhas Chandra Bose reorganized and led it.'},{q:'With reference to the activities of revolutionary leaders in India, which one of the following organizations was associated with Bhagat Singh?',opts:['Abhinav Bharat','Anushilan Samiti','Hindustan Socialist Republican Association','Ghadar Party'],ans:2,yr:2015,exp:'Bhagat Singh was a leading member of the Hindustan Socialist Republican Association (HSRA).'}]},
+        {n:'Constitutional Development — Govt of India Acts 1919 & 1935, Montague-Chelmsford',            s:'Spectrum + Laxmikanth', q:[{q:'Consider the following subjects under the Government of India Act, 1919:\n\n1. Police\n2. Education\n3. Public Health\n4. Land Revenue\n\nWhich of the above were transferred subjects under Dyarchy?',opts:['1 and 4 only','2 and 3 only','1, 2 and 3 only','2, 3 and 4 only'],ans:1,yr:2025,exp:'Under the Government of India Act, 1919, Education and Public Health were transferred subjects administered by Indian ministers. Police and Land Revenue remained reserved subjects.'},{q:'With reference to the Government of India Act, 1935, consider the following statements:\n\n1. It provided for an All-India Federation.\n2. It introduced provincial autonomy.\n3. It abolished Dyarchy in provinces.\n\nWhich of the statements given above are correct?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2023,exp:'The Act proposed an All-India Federation, introduced provincial autonomy and ended provincial dyarchy.'},{q:'The Montagu-Chelmsford Reforms are associated with',opts:['Government of India Act, 1909','Government of India Act, 1919','Government of India Act, 1935','Indian Councils Act, 1892'],ans:1,yr:2020,exp:'The Montagu-Chelmsford Reforms formed the basis of the Government of India Act, 1919.'},{q:'Which of the following was introduced by the Government of India Act, 1935?',opts:['Provincial Autonomy','Separate Electorates for Muslims','Dyarchy in Provinces','Portfolio System'],ans:0,yr:2018,exp:'Provincial Autonomy was one of the most important provisions of the Government of India Act, 1935.'},{q:'The term \'Dyarchy\' is associated with which of the following?',opts:['Government of India Act, 1909','Government of India Act, 1919','Government of India Act, 1935','Indian Councils Act, 1892'],ans:1,yr:2014,exp:'Dyarchy was introduced in the provinces by the Government of India Act, 1919.'}]},
+        {n:'Communal Politics, Muslim League, Cabinet Mission Plan, Mountbatten Plan',                    s:'Spectrum', q:[{q:'With reference to Cabinet Mission, which of the following statements is/are correct?\n\n1. It recommended a federal government.\n2. It enlarged the powers of the Indian courts.\n3. It provided for more Indians in the ICS.',opts:['1 only','2 and 3','1 and 3','None of the above'],ans:0,yr:2015,exp:'The Cabinet Mission proposed a federal structure with a weak Union handling defence, foreign affairs and communications. It did not deal with enlargement of court powers or ICS recruitment.'},{q:'With reference to the proposals of Cripps Mission, consider the following statements:\n\n1. The Constituent Assembly would have members nominated by the Provincial Assemblies as well as the Princely States.\n2. Any Province, which is not prepared to accept the new Constitution would have the right to sign a separate agreement with Britain regarding its future status.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2022,exp:'Both provisions formed part of the Cripps Proposals and later became important in constitutional negotiations leading to Partition.'},{q:'The plan of Sir Stafford Cripps envisaged that after the Second World War:',opts:['India should be granted complete independence','India should be partitioned into two before granting independence','India should be made a republic with the condition that she will join the Commonwealth','India should be given Dominion status'],ans:3,yr:2016,exp:'The Cripps Mission proposed Dominion Status after the war.'},{q:'Who was the Provisional President of the Constituent Assembly before Dr. Rajendra Prasad took over?',opts:['C. Rajagopalachari','Dr. B.R. Ambedkar','T.T. Krishnamachari','Dr. Sachchidananda Sinha'],ans:3,yr:2024,exp:'Dr. Sachchidananda Sinha served as the temporary President of the Constituent Assembly.'}]},
         {n:'Partition of India, Independence, Integration of Princely States — Role of Sardar Patel',     s:'Spectrum'},
       ]},
     { id:'art',       name:'Indian Art & Culture',               icon:'🎨', color:'#fbbf24', bg:'rgba(251,191,36,.1)',  desc:'Architecture, arts, literature, festivals',
       topics:[
-        {n:'Temple Architecture — Nagara (North), Dravidian (South), Vesara (Mixed) Styles',              s:'Nitin Singhania'},
-        {n:'Sculpture Schools — Gandhara, Mathura, Amaravati',                                            s:'Nitin Singhania'},
-        {n:'Indian Paintings — Ajanta, Mughal, Rajput, Pahari, Madhubani, Warli, Company School',         s:'Nitin Singhania'},
-        {n:'Classical Dance Forms — Bharatanatyam, Kathak, Odissi, Kuchipudi, Manipuri, Mohiniyattam, Kathakali, Sattriya', s:'Nitin Singhania'},
-        {n:'Classical Music — Hindustani vs Carnatic, Key Instruments, Ragas',                            s:'Nitin Singhania'},
-        {n:'Puppetry, Folk Art & Crafts — Region-wise (GI Tags, Craft Traditions)',                       s:'Nitin Singhania'},
-        {n:'Indian Literature — Vedas, Upanishads, Puranas, Epics, Sangam, Medieval Bhakti',             s:'Nitin Singhania'},
-        {n:'UNESCO World Heritage Sites in India — Cultural Sites',                                       s:'Nitin Singhania'},
-        {n:'Important Fairs & Festivals — Religious, Tribal, Regional',                                   s:'Nitin Singhania'},
+        {n:'Temple Architecture — Nagara (North), Dravidian (South), Vesara (Mixed) Styles',              s:'Nitin Singhania', q:[{q:'With reference to Chausath Yogini Temple situated near Morena, consider the following statements:\n\n1. It is a circular temple built during the reign of Kachchhapaghata Dynasty.\n2. It is the only circular temple built in India.\n3. It was meant to promote the Vaishnava cult in the region.\n4. Its design has given rise to a popular belief that it was the inspiration behind the Indian Parliament building.\n\nWhich of the statements given above are correct?',opts:['1 and 2','2 and 3 only','1 and 4','2, 3 and 4'],ans:2,yr:2021,exp:'The Chausath Yogini Temple was built during the Kachchhapaghata period and its circular design is popularly believed to have inspired the Parliament building. It is not the only circular temple in India and is associated with the Yogini/Shakta tradition rather than Vaishnavism.'},{q:'Building \'Kalyana Mandapam\' was a notable feature in the temple construction in the kingdom of:',opts:['Chalukya','Chandela','Rashtrakuta','Vijayanagara'],ans:3,yr:2019,exp:'Kalyana Mandapams were distinctive features of Vijayanagara temple architecture and were used for symbolic divine marriage ceremonies.'},{q:'Which of the following is/are famous for Sun temples?\n\n1. Arasavalli\n2. Amarkantak\n3. Omkareshwar',opts:['1 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:0,yr:2017,exp:'Arasavalli in Andhra Pradesh is famous for its Sun Temple. Amarkantak and Omkareshwar are important pilgrimage sites but not Sun Temple centers.'},{q:'With reference to the cultural history of India, the term \'Panchayatan\' refers to:',opts:['An assembly of village elders','A religious sect','A style of temple construction','An administrative functionary'],ans:2,yr:2014,exp:'Panchayatan is a temple layout in which the main shrine is surrounded by four subsidiary shrines at the corners.'}]},
+        {n:'Sculpture Schools — Gandhara, Mathura, Amaravati',                                            s:'Nitin Singhania', q:[{q:'With reference to ancient Indian sculpture, consider the following statements:\n\n1. Gandhara sculptures show strong Hellenistic influence.\n2. Mathura sculptures were primarily made using red sandstone.\n3. Amaravati sculptures are closely associated with Buddhist stupas.\n\nWhich of the statements given above are correct?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2024,exp:'Gandhara art was influenced by Greco-Roman traditions, Mathura art used red sandstone, and Amaravati art flourished around Buddhist monuments and stupas.'},{q:'With reference to the art and archaeological history of India, which one among the following was made the earliest?',opts:['Lingaraja Temple at Bhubaneswar','Rock-cut Elephant at Dhauli','Rock-cut Monuments at Mahabalipuram','Varaha Image at Udayagiri'],ans:1,yr:2020,exp:'The Rock-cut Elephant at Dhauli dates to the Mauryan period and is earlier than the other monuments listed.'},{q:'With reference to the Indian history of art and culture, consider the following pairs:\n\nFamous work of sculpture — Site\n1. A grand image of Buddha\'s Mahaparinirvana — Ajanta\n2. Varaha Avatar rescuing Goddess Earth — Mount Abu\n3. Arjuna\'s Penance/Descent of Ganga — Mamallapuram\n\nWhich of the pairs given above is/are correctly matched?',opts:['1 and 2 only','3 only','1 and 3 only','1, 2 and 3'],ans:2,yr:2014,exp:'The Mahaparinirvana image is at Ajanta and Arjuna\'s Penance is at Mamallapuram. The famous Varaha relief is at Udayagiri near Vidisha, not Mount Abu.'},{q:'Some Buddhist rock-cut caves are called Chaityas, while others are called Viharas. What is the difference between the two?',opts:['Vihara is a place of worship, while Chaitya is the dwelling place of monks','Chaitya is a place of worship, while Vihara is the dwelling place of monks','Chaitya is the stupa at the far end of the cave, while Vihara is the hall axial to it','There is no material difference between the two'],ans:1,yr:2013,exp:'Chaityas were prayer halls and places of worship, while Viharas functioned as monasteries and residences for monks.'}]},
+        {n:'Indian Paintings — Ajanta, Mughal, Rajput, Pahari, Madhubani, Warli, Company School',         s:'Nitin Singhania', q:[{q:'Who among the following Mughal emperors commissioned the illustrated manuscript known as the Hamzanama?',opts:['Babur','Humayun','Akbar','Jahangir'],ans:2,yr:2025,exp:'The Hamzanama was commissioned by Akbar and represents one of the earliest major projects of Mughal painting.'},{q:'With reference to Indian painting traditions, consider the following statements:\n\n1. Ajanta paintings primarily depict themes from Jataka tales.\n2. Mughal painting developed under strong Persian influence.\n3. Pahari paintings are associated mainly with the Himalayan hill kingdoms.\n\nWhich of the statements given above are correct?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2024,exp:'Ajanta paintings contain Jataka stories, Mughal painting evolved from Persian traditions, and Pahari painting flourished in the hill states of North India.'},{q:'The well-known painting \'Bani Thani\' belongs to which school of painting?',opts:['Mughal','Kangra','Kishangarh','Mewar'],ans:2,yr:2018,exp:'Bani Thani is regarded as the masterpiece of the Kishangarh school of Rajput painting.'},{q:'Satya Saint and Madhubani paintings are famous forms of',opts:['Temple mural painting','Folk painting','Miniature painting','Modern painting'],ans:1,yr:2016,exp:'Madhubani is one of India\'s most famous folk painting traditions originating in Bihar.'},{q:'Warli painting is traditionally associated with which state?',opts:['Gujarat','Odisha','Maharashtra','Rajasthan'],ans:2,yr:2015,exp:'Warli painting is a tribal folk art tradition practiced mainly in Maharashtra.'},{q:'With reference to Indian history of art and culture, consider the following pairs:\n\nTradition — Region\n1. Madhubani — Bihar\n2. Warli — Maharashtra\n3. Pattachitra — Odisha\n\nWhich of the pairs given above are correctly matched?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2014,exp:'All three painting traditions are correctly matched with their regions.'}]},
+        {n:'Classical Dance Forms — Bharatanatyam, Kathak, Odissi, Kuchipudi, Manipuri, Mohiniyattam, Kathakali, Sattriya', s:'Nitin Singhania', q:[{q:'With reference to Manipuri Sankirtana, consider the following statements:\n\n1. It is a song and dance performance.\n2. Cymbals are the only musical instruments used in the performance.\n3. It is performed to narrate the life and deeds of Lord Krishna.\n\nWhich of the statements given above is/are correct?',opts:['1, 2 and 3','1 and 3 only','2 and 3 only','1 only'],ans:1,yr:2017,exp:'Manipuri Nat-Sankirtana is a temple-centered song-and-dance tradition of Manipur\'s Vaishnava community. It narrates the life of Lord Krishna. Statement 2 is incorrect because instruments other than cymbals, including drums, are also used.'},{q:'With reference to the cultural history of India, the term \'Sattriya\' refers to:',opts:['A classical dance form of Assam','A classical music tradition of Bengal','A ritual theatre of Odisha','A folk dance of Manipur'],ans:0,yr:2015,exp:'Sattriya is a classical dance form preserved by the Vaishnava Sattras (monasteries) of Assam. It was introduced by Srimanta Sankaradeva to spread the Vaishnava faith.'},{q:'The dance form \'Garba\' is popular in which one of the following States?',opts:['Punjab','Rajasthan','Gujarat','Maharashtra'],ans:2,yr:2013,exp:'Garba is a traditional dance form of Gujarat, especially performed during Navratri.'},{q:'Which one of the following statements best describes the \'Tribhanga\' position of Indian classical dance?',opts:['One leg is bent, and the body is slightly but oppositely curved at waist and neck','Facial expressions, hand gestures and make-up are combined to symbolise certain epic or historic characters','Movements of body, face and hands are used to express oneself or to tell a story','A little smile, slightly curved waist and certain hand gestures are emphasised to express the feelings of love or eroticism'],ans:0,yr:2013,exp:'Tribhanga is a three-bend posture used prominently in Odissi dance and Indian sculpture. The body bends at the neck, waist and knee, creating an elegant S-shaped curve.'}]},
+        {n:'Classical Music — Hindustani vs Carnatic, Key Instruments, Ragas',                            s:'Nitin Singhania', q:[{q:'The first Gandharva Mahavidyalaya, a music training school, was set up in 1901 by Vishnu Digambar Paluskar in',opts:['Delhi','Gwalior','Ujjain','Lahore'],ans:3,yr:2025,exp:'Vishnu Digambar Paluskar founded the Gandharva Mahavidyalaya in Lahore in 1901. The institution played a major role in democratizing classical music education.'},{q:'With reference to cultural history of India, consider the following statements:\n\n1. Most of the Tyagaraja Kritis are devotional songs in praise of Lord Krishna.\n2. Tyagaraja created several new ragas.\n3. Annamacharya and Tyagaraja are contemporaries.\n4. Annamacharya Keertanas are devotional songs in praise of Lord Venkateshwara.\n\nWhich of the statements given above are correct?',opts:['1 and 3 only','2 and 4 only','1, 2 and 3','2, 3 and 4'],ans:1,yr:2018,exp:'Tyagaraja\'s compositions are mainly dedicated to Lord Rama, not Krishna. He introduced several new ragas. Annamacharya belonged to the 15th century and was not a contemporary of Tyagaraja. Annamacharya\'s compositions were devoted to Lord Venkateshwara.'}]},
+        {n:'Puppetry, Folk Art & Crafts — Region-wise (GI Tags, Craft Traditions)',                       s:'Nitin Singhania', q:[{q:'Which one of the following traditions of India is a continuation of the miniature painting tradition?',opts:['Pattachitra','Kalamkari','Phad','Pichwai'],ans:3,yr:2021,exp:'Pichwai paintings, associated with Nathdwara in Rajasthan, continue several elements of the miniature painting tradition.'},{q:'Which one of the following is not a folk painting tradition of India?',opts:['Madhubani','Warli','Pattachitra','Kangra'],ans:3,yr:2018,exp:'Kangra is a classical school of Pahari miniature painting, whereas Madhubani, Warli and Pattachitra are folk traditions.'}]},
+        {n:'Indian Literature — Vedas, Upanishads, Puranas, Epics, Sangam, Medieval Bhakti',             s:'Nitin Singhania', q:[{q:'Which one of the following was the latest inclusion in the UNESCO\'s Memory of the World Programme?',opts:['Rig Veda','Ramcharitmanas','Panchatantra','Arthashastra'],ans:1,yr:2024,exp:'Ramcharitmanas was included in UNESCO\'s Memory of the World Register.'},{q:'With reference to Indian history, consider the following texts:\n\n1. Netti Pakarana\n2. Parishishta Parvan\n3. Avadana Shataka\n4. Trishashti Shalaka Purusha Charitra\n\nWhich of the above are Jaina texts?',opts:['1, 2 and 3','2 and 4 only','1, 3 and 4','2, 3 and 4'],ans:1,yr:2022,exp:'Parishishta Parvan and Trishashti Shalaka Purusha Charitra are important Jain texts.'},{q:'With reference to the cultural history of India, consider the following statements:\n\n1. Most of the Tyagaraja Kritis are devotional songs in praise of Lord Rama.\n2. Tyagaraja created several new ragas.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2018,exp:'Tyagaraja\'s compositions are mainly devoted to Lord Rama and he is credited with creating several ragas.'},{q:'With reference to the cultural history of medieval India, consider the following statements:\n\n1. Lingayats of Kannada region questioned the theory of rebirth and rejected caste hierarchy.\n2. They encouraged widow remarriage.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2016,exp:'The Lingayat movement led by Basavanna rejected caste distinctions and supported social reforms including widow remarriage.'},{q:'Who of the following was/were famous for translating religious texts into Persian?\n\n1. Dara Shikoh\n2. Zain-ul-Abidin',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2015,exp:'Dara Shikoh translated the Upanishads into Persian, while Zain-ul-Abidin patronized translations of Sanskrit works into Persian.'},{q:'Which one of the following describes best the concept of Nirvana in Buddhism?',opts:['The extinction of the flame of desire','A heavenly abode after death','Union with God','Attainment of political freedom'],ans:0,yr:2013,exp:'Nirvana refers to liberation from suffering through the extinction of desire and ignorance.'}]},
+        {n:'UNESCO World Heritage Sites in India — Cultural Sites',                                       s:'Nitin Singhania', q:[{q:'Which one of the following statements is correct?',opts:['Ajanta Caves lie in the gorge of Waghora river','Sanchi Stupa lies in the gorge of Chambal river','Pandu-lena Cave Shrines lie in the gorge of Narmada river','Amaravati Stupa lies in the gorge of Godavari river'],ans:0,yr:2021,exp:'The Ajanta Caves, a UNESCO World Heritage Site, are located in a horseshoe-shaped gorge of the Waghora River in Maharashtra.'},{q:'With reference to the history of India, consider the following pairs:\n\nFamous Place — Region\n1. Bhitarkanika : Odisha\n2. Chand Baori : Rajasthan\n3. Gwalior Fort : Madhya Pradesh\n\nWhich of the pairs given above are correctly matched?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2020,exp:'All three places are correctly matched with their respective states. Gwalior Fort is a major cultural heritage monument.'},{q:'The well-known painting \'Bani Thani\' belongs to the',opts:['Bundi School','Jaipur School','Kangra School','Kishangarh School'],ans:3,yr:2017,exp:'Kishangarh is part of Rajasthan\'s rich cultural heritage traditions often associated with UNESCO-related cultural studies.'}]},
+        {n:'Important Fairs & Festivals — Religious, Tribal, Regional',                                   s:'Nitin Singhania', q:[{q:'The \'Maru Mahotsav\' is celebrated in which one of the following States of India?',opts:['Gujarat','Rajasthan','Madhya Pradesh','Haryana'],ans:1,yr:2024,exp:'Maru Mahotsav is a famous desert festival celebrated in Rajasthan, showcasing folk music, dance and regional culture.'},{q:'Which one of the following tribes celebrates the Hornbill Festival?',opts:['Naga tribes','Santhal tribes','Bhil tribes','Gond tribes'],ans:0,yr:2022,exp:'The Hornbill Festival is associated with the Naga tribes and is celebrated in Nagaland.'},{q:'The Chapchar Kut festival is celebrated in which State of India?',opts:['Assam','Mizoram','Manipur','Tripura'],ans:1,yr:2017,exp:'Chapchar Kut is a major harvest festival celebrated by the Mizo people of Mizoram.'}]},
         {n:'Intangible Cultural Heritage — UNESCO List, Indian Traditions',                               s:'Nitin Singhania'},
-        {n:'Cave Architecture — Ajanta, Ellora, Elephanta, Bhimbetka',                                   s:'Nitin Singhania'},
+        {n:'Cave Architecture — Ajanta, Ellora, Elephanta, Bhimbetka',                                   s:'Nitin Singhania', q:[{q:'With reference to the Indian history of art and culture, consider the following pairs:\n\nFamous work of sculpture — Site\n1. A grand image of Buddha\'s Mahaparinirvana — Ajanta\n2. Varaha Avatar rescuing Goddess Earth — Udayagiri\n3. Arjuna\'s Penance/Descent of Ganga — Mamallapuram\n\nWhich of the pairs given above is/are correctly matched?',opts:['1 and 2 only','3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2014,exp:'Ajanta contains the famous Mahaparinirvana Buddha image, Udayagiri has the Varaha relief, and Mamallapuram contains the monumental Arjuna\'s Penance panel.'}]},
       ]},
     { id:'igeo',      name:'Indian Geography',                   icon:'🗺️', color:'#34d399', bg:'rgba(52,211,153,.1)',  desc:'Physical, climatic, agricultural & economic',
       topics:[
         {n:'Physiographic Divisions — Northern Mountains, Plains, Deccan Plateau, Coastal Plains, Islands',s:'NCERT Class 11'},
-        {n:'Himalayan Rivers — Indus System, Ganga System, Brahmaputra & their Tributaries',              s:'NCERT Class 11'},
-        {n:'Peninsular Rivers — Krishna, Godavari, Kaveri, Narmada, Tapti, Mahanadi',                    s:'NCERT Class 11'},
-        {n:'Indian Climate — Factors (Monsoon, ITCZ), Seasons, El Niño / La Niña effects',              s:'NCERT Class 11'},
-        {n:'Natural Vegetation — Tropical, Deciduous, Montane, Mangrove Forests; Distribution',          s:'NCERT Class 11'},
+        {n:'Himalayan Rivers — Indus System, Ganga System, Brahmaputra & their Tributaries',              s:'NCERT Class 11', q:[{q:'With reference to the Indus river system, of the following four rivers, three of them pour into one of them which joins the Indus directly. Among the following, which one is such a river that joins the Indus directly?',opts:['Chenab','Jhelum','Ravi','Sutlej'],ans:0,yr:2021,exp:'Jhelum, Ravi and Sutlej ultimately join the Chenab, and Chenab then joins the Indus directly.'},{q:'Consider the following pairs:\n\nFamous Place — River\n1. Pandharpur — Chandrabhaga\n2. Tiruchirappalli — Cauvery\n3. Hampi — Malaprabha\n\nWhich of the pairs given above are correctly matched?',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:0,yr:2019,exp:'Pandharpur is situated on the Chandrabhaga River and Tiruchirappalli on the Cauvery. Hampi is located on the Tungabhadra River, not the Malaprabha.'},{q:'Which of the following statements is/are correct?\n\n1. The Brahmaputra flows eastward in Tibet.\n2. The Brahmaputra enters India through Arunachal Pradesh.\n3. The Brahmaputra is known as Tsangpo in Tibet.',opts:['1 and 2 only','2 and 3 only','1 and 3 only','1, 2 and 3'],ans:3,yr:2017,exp:'The Brahmaputra flows eastward across Tibet as the Tsangpo before entering India through Arunachal Pradesh.'},{q:'Recently, linking of which of the following rivers was undertaken?',opts:['Cauvery and Tungabhadra','Godavari and Krishna','Mahanadi and Son','Narmada and Tapti'],ans:1,yr:2016,exp:'The Godavari–Krishna river-link project was undertaken to transfer surplus water from the Godavari basin.'}]},
+        {n:'Peninsular Rivers — Krishna, Godavari, Kaveri, Narmada, Tapti, Mahanadi',                    s:'NCERT Class 11', q:[{q:'Which of the following rivers rise from the Eastern Ghats?\n\n1. Nagavali\n2. Vamsadhara\n3. Pennar\n4. Tungabhadra',opts:['1 and 2','2 and 4','3 and 4','1 and 3'],ans:0,yr:2021,exp:'Nagavali and Vamsadhara originate in the Eastern Ghats. Pennar originates in the Nandi Hills region and Tungabhadra is formed by Tunga and Bhadra rivers originating in the Western Ghats.'},{q:'Which of the following Protected Areas are located in the Cauvery basin?\n\n1. Nagarhole National Park\n2. Papikonda National Park\n3. Sathyamangalam Tiger Reserve\n4. Wayanad Wildlife Sanctuary',opts:['1 and 2 only','3 and 4 only','1, 3 and 4 only','1, 2, 3 and 4'],ans:2,yr:2020,exp:'Nagarhole, Sathyamangalam and Wayanad are situated in the Cauvery basin. Papikonda lies in the Godavari basin.'},{q:'The Narmada River originates from:',opts:['Mahadeo Hills','Amarkantak Hills','Aravalli Hills','Satmala Hills'],ans:1,yr:2017,exp:'The Narmada River originates from the Amarkantak Hills in Madhya Pradesh and flows westward through a rift valley.'}]},
+        {n:'Indian Climate — Factors (Monsoon, ITCZ), Seasons, El Niño / La Niña effects',              s:'NCERT Class 11', q:[{q:'With reference to \'water vapour\', which of the following statements is/are correct?\n\n1. It is a gas, the amount of which decreases with altitude.\n2. Its percentage is maximum at the poles.',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:0,yr:2024,exp:'Water vapour decreases with altitude and is most abundant in warm tropical regions, not at the poles.'},{q:'Consider the following description:\n\n1. Annual and daily range of temperatures is low.\n2. Precipitation occurs throughout the year.\n3. Precipitation varies between 50 cm and 250 cm.\n\nWhat is this type of climate?',opts:['Equatorial climate','Mediterranean climate','Monsoon climate','Savanna climate'],ans:0,yr:2024,exp:'Equatorial regions experience high rainfall throughout the year with very small annual and diurnal temperature ranges.'},{q:'On June 21, the Tropic of Cancer receives the maximum solar insolation because:',opts:['The Earth is nearest to the Sun','The Sun is directly overhead at noon','The Earth rotates faster','The atmosphere is thinner'],ans:1,yr:2024,exp:'June 21 is the Summer Solstice in the Northern Hemisphere when the Sun is directly overhead at the Tropic of Cancer.'},{q:'El Niño is associated with:',opts:['Cooling of sea surface temperatures in the equatorial Pacific','Warming of sea surface temperatures in the equatorial Pacific','Cooling of the Indian Ocean','Strengthening of monsoon winds'],ans:1,yr:2023,exp:'El Niño refers to abnormal warming of sea surface waters in the central and eastern equatorial Pacific Ocean.'},{q:'La Niña conditions generally lead to:',opts:['Weaker Indian monsoon','Failure of monsoon every year','Stronger than normal Indian monsoon','No impact on monsoon'],ans:2,yr:2023,exp:'La Niña is often associated with stronger monsoon rainfall over India.'}]},
+        {n:'Natural Vegetation — Tropical, Deciduous, Montane, Mangrove Forests; Distribution',          s:'NCERT Class 11', q:[{q:'Consider the following statements:\n\n1. Tropical Wet Evergreen Forests are generally found in areas receiving more than 200 cm annual rainfall.\n2. They occur in the Western Ghats, Northeastern India and Andaman & Nicobar Islands.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2024,exp:'Tropical Wet Evergreen Forests occur in regions of very high rainfall, particularly the Western Ghats, Northeastern India and Andaman & Nicobar Islands.'},{q:'With reference to mangrove forests in India, consider the following statements:\n\n1. Mangroves are found in saline coastal environments.\n2. Sundarbans constitute the largest mangrove forest region in India.\n\nWhich of the statements given above is/are correct?',opts:['1 only','2 only','Both 1 and 2','Neither 1 nor 2'],ans:2,yr:2021,exp:'Mangroves thrive in saline and tidal environments. The Sundarbans delta contains the largest mangrove forest in India.'},{q:'Which of the following forest types is most commonly associated with regions having moderate rainfall between approximately 100 and 200 cm annually?',opts:['Tropical Evergreen Forest','Tropical Deciduous Forest','Thorn Forest','Montane Forest'],ans:1,yr:2019,exp:'Tropical Deciduous Forests are generally found in regions receiving moderate rainfall and form the largest forest type in India.'},{q:'Montane forests in India are generally associated with:',opts:['Coastal plains','Desert regions','Mountainous areas with altitude-based vegetation zones','River deltas only'],ans:2,yr:2017,exp:'Montane forests occur in mountainous regions where vegetation changes with altitude.'},{q:'Tropical Wet Evergreen Forests are found in:',opts:['Western slope of the Western Ghats','Northeastern hill regions','Andaman and Nicobar Islands','All of the above'],ans:3,yr:2016,exp:'These forests are distributed across the Western Ghats, Northeastern India and Andaman & Nicobar Islands.'}]},
         {n:'Soils of India — Alluvial, Black (Regur), Red, Laterite, Desert Soils & Distribution',       s:'NCERT Class 11'},
         {n:'Agriculture — Cropping Patterns (Kharif/Rabi/Zaid), Irrigation Methods, Green Revolution',   s:'NCERT + Majid Hussain'},
         {n:'Minerals & Energy Resources — Coal, Petroleum, Iron Ore, Nuclear, Renewable Energy',         s:'NCERT'},
@@ -935,6 +1732,7 @@ function renderPaper(paper) {
               Revised
             </label>
             <button class="star-btn${im?' active':''}" onclick="onImp('${paper}','${sec.id}',${i},this)" title="Mark Important">⭐</button>
+            <span id="qcell-m-${paper}-${sec.id}-${i}">${quizCell(paper,sec.id,i,tp)}</span>
           </div>
         </li>`;
     }).join('');
@@ -966,6 +1764,7 @@ function renderPaper(paper) {
           <td class="c-imp">
             <button class="star-btn${im?' active':''}" onclick="onImp('${paper}','${sec.id}',${i},this)" title="Mark Important">⭐</button>
           </td>
+          <td class="c-quiz" id="qcell-${paper}-${sec.id}-${i}">${quizCell(paper,sec.id,i,tp)}</td>
         </tr>`;
     }).join('');
 
@@ -1007,6 +1806,7 @@ function renderPaper(paper) {
             <col class="c-done"/>
             <col class="c-rev"/>
             <col class="c-imp"/>
+            <col class="c-quiz"/>
           </colgroup>
           <thead>
             <tr>
@@ -1016,12 +1816,13 @@ function renderPaper(paper) {
               <th class="c-done">✅ Done</th>
               <th class="c-rev">🔄 Revision</th>
               <th class="c-imp">⭐</th>
+              <th class="c-quiz">📝 Test</th>
             </tr>
           </thead>
           <tbody>
             ${dtRows}
             <tr>
-              <td class="sel-all-td" colspan="6">
+              <td class="sel-all-td" colspan="7">
                 <button class="sel-all-btn" id="sabd-${paper}-${sec.id}"
                   onclick="markAll('${paper}','${sec.id}',${T},this)">${full?'Unmark All':'Mark All Done'}</button>
               </td>
@@ -1201,6 +2002,7 @@ function refreshUI() {
 
   const gi = document.getElementById('gs1-ic');  if (gi) gi.textContent  = countImpaper('gs1');
   const ci = document.getElementById('csat-ic'); if (ci) ci.textContent  = countImpaper('csat');
+  refreshPlanner();
 }
 
 /* ════════════════════════════════════
@@ -1211,6 +2013,7 @@ function switchTab(id, btn) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-' + id).classList.add('active');
   btn.classList.add('active');
+  if(id === 'planner') spRender();
 }
 function openModal()  { document.getElementById('modal').classList.add('open'); }
 function closeModal() { document.getElementById('modal').classList.remove('open'); }
@@ -1228,11 +2031,680 @@ function doReset() {
 }
 
 /* ════════════════════════════════════
+   STUDY PLANNER  v2
+════════════════════════════════════ */
+const SPK = 'upsc_sp_v2';            // localStorage key for planner prefs
+const SPH = 'upsc_sp_hist_v2';       // localStorage key for daily-completion history
+
+/* ── storage helpers ── */
+function spLoad()     { try{ const v=localStorage.getItem(SPK); return v?JSON.parse(v):{}; }catch{return {};} }
+function spSavePrefs(o){ try{ localStorage.setItem(SPK,JSON.stringify(o)); }catch{} }
+function spLoadHist() { try{ const v=localStorage.getItem(SPH); return v?JSON.parse(v):{}; }catch{return {};} }
+function spSaveHist(h){ try{ localStorage.setItem(SPH,JSON.stringify(h)); }catch{} }
+
+/* ── utils ── */
+function spToday(){ return new Date().toISOString().slice(0,10); }
+function spDaysBetween(a,b){ return Math.round((new Date(b)-new Date(a))/86400000); }
+function spAddDays(ds,n){ const d=new Date(ds); d.setDate(d.getDate()+n); return d.toISOString().slice(0,10); }
+function spFmt(ds){ return new Date(ds+'T00:00:00').toLocaleDateString('en-IN',{day:'numeric',month:'short'}); }
+
+/* flat list of all topics in roadmap order */
+function spAllTopics(){
+  const list=[];
+  ['gs1','csat'].forEach(paper=>{
+    DATA[paper].forEach(sec=>{
+      sec.topics.forEach((tp,i)=>{
+        list.push({paper,secId:sec.id,secName:sec.name,secIcon:sec.icon,secColor:sec.color,idx:i,name:tp.n});
+      });
+    });
+  });
+  return list;
+}
+
+/* ── toggle collapse (kept for compat) ── */
+function spToggle(){ }
+
+/* ── save dates and refresh ── */
+function spSave(){
+  const s=document.getElementById('sp-start').value;
+  const e=document.getElementById('sp-exam').value;
+  if(!s||!e){ alert('Please set both a start date and exam date.'); return; }
+  if(e<=s)  { alert('Exam date must be after start date.'); return; }
+  spSavePrefs({start:s,exam:e});
+  spRender();
+}
+
+/* ── record today's completion count to history ── */
+function spRecordToday(){
+  const topics = spAllTopics();
+  const done   = topics.filter(t=>isDone(t.paper,t.secId,t.idx)).length;
+  const h = spLoadHist();
+  h[spToday()] = done;
+  spSaveHist(h);
+}
+
+/* ── calculate streak ── */
+function spStreak(){
+  const h = spLoadHist();
+  let streak=0, d=spToday();
+  // count today first if any done
+  if((h[d]||0)>0) streak=1;
+  // walk backwards
+  for(let i=1;i<=365;i++){
+    const prev=spAddDays(d,-i);
+    if((h[prev]||0)>0) streak++;
+    else if(i>1) break; // allow today to have 0 without breaking streak from yesterday
+  }
+  // also handle: if today has 0 but yesterday had something
+  if((h[d]||0)===0){
+    streak=0;
+    for(let i=1;i<=365;i++){
+      const prev=spAddDays(d,-i);
+      if((h[prev]||0)>0) streak++;
+      else break;
+    }
+  }
+  return streak;
+}
+
+/* ── main render ── */
+function spRender(){
+  const prefs = spLoad();
+  const startEl = document.getElementById('sp-start');
+  const examEl  = document.getElementById('sp-exam');
+
+  if(prefs.start && startEl) startEl.value = prefs.start;
+  if(prefs.exam  && examEl)  examEl.value  = prefs.exam;
+
+  const noplan   = document.getElementById('sp-noplan');
+  const dashboard= document.getElementById('sp-dashboard');
+  const pdfBtn   = document.getElementById('sp-pdf-btn');
+
+  if(!prefs.start || !prefs.exam){
+    if(noplan)    noplan.style.display    = 'block';
+    if(dashboard) dashboard.style.display = 'none';
+    if(pdfBtn)    pdfBtn.style.display    = 'none';
+    const sub = document.getElementById('sp-hdr-sub');
+    if(sub) sub.textContent = 'Set start & exam dates to get your dashboard';
+    return;
+  }
+
+  if(noplan)    noplan.style.display    = 'none';
+  if(dashboard) dashboard.style.display = 'block';
+  if(pdfBtn)    pdfBtn.style.display    = 'inline-flex';
+
+  const today    = spToday();
+  const topics   = spAllTopics();
+  const total    = topics.length;
+  const done     = topics.filter(t=>isDone(t.paper,t.secId,t.idx)).length;
+  const rem      = total - done;
+  const daysLeft = Math.max(0, spDaysBetween(today, prefs.exam));
+  /* float pace for math; ceil for display */
+  const pace     = daysLeft > 0 ? rem / daysLeft : 0;
+  const paceCeil = Math.ceil(pace);          /* never show 0.9, always 1 */
+  const paceWk   = Math.ceil(pace * 7);
+
+  /* record today */
+  spRecordToday();
+
+  /* streak */
+  const streak = spStreak();
+
+  /* ── schedule status: how many topics ahead/behind ── */
+  const daysSinceStart  = Math.max(1, spDaysBetween(prefs.start, today));
+  const expectedByNow   = Math.round(pace * (daysLeft > 0 ? (total - rem) / total * (total / pace) : 0));
+  /* simpler: expected = (total / totalDays) * daysSinceStart */
+  const totalDays       = spDaysBetween(prefs.start, prefs.exam);
+  const expectedDone    = totalDays > 0 ? (total / totalDays) * daysSinceStart : 0;
+  const delta           = done - expectedDone;   /* + = ahead, - = behind */
+  const absDelta        = Math.abs(Math.round(delta));
+
+  let statusCls, statusTxt;
+  if(rem === 0){
+    statusCls='ahead'; statusTxt='🎉 All topics done — exam ready!';
+  } else if(daysLeft === 0){
+    statusCls='behind'; statusTxt='🔴 Exam date passed';
+  } else if(delta >= 1){
+    statusCls='ahead'; statusTxt=`🟢 Ahead by ~${absDelta} topic${absDelta>1?'s':''} — keep it up!`;
+  } else if(delta >= -2){
+    statusCls='on'; statusTxt='🟡 Right on track — steady pace';
+  } else {
+    statusCls='behind'; statusTxt=`🔴 Behind by ~${absDelta} topic${absDelta>1?'s':''} — push a bit harder`;
+  }
+
+  /* header subtitle */
+  const sub = document.getElementById('sp-hdr-sub');
+  if(sub) sub.textContent = `${done}/${total} done · ${daysLeft} days to exam · need ${paceCeil}/day`;
+
+  /* stat boxes */
+  spSetVal('sp-streak',   streak);
+  spSetVal('sp-days',     daysLeft);
+  spSetVal('sp-pace-day', paceCeil);
+  spSetVal('sp-pace-wk',  paceWk);
+  spSetVal('sp-done-cnt', done);
+  spSetVal('sp-rem-cnt',  rem);
+
+  /* color pace by urgency */
+  const pdEl = document.getElementById('sp-pace-day');
+  if(pdEl) pdEl.style.color = pace > 5 ? 'var(--acc)' : pace > 3 ? 'var(--imp)' : 'var(--green)';
+
+  /* status badge */
+  const sb = document.getElementById('sp-status');
+  if(sb){ sb.className = 'sp-status '+statusCls; sb.textContent = statusTxt; }
+
+  /* today date label */
+  const todayLabel = new Date().toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'});
+  const tdEl = document.getElementById('sp-today-date');
+  if(tdEl) tdEl.textContent = todayLabel;
+
+  /* ── heatmap ── */
+  const hmEl = document.getElementById('sp-heatmap');
+  if(hmEl){
+    hmEl.innerHTML = '';
+    const h = spLoadHist();
+    const histKeys = Object.keys(h).sort();
+    const delta2 = {};
+    for(let i=1;i<histKeys.length;i++){
+      const diff = (h[histKeys[i]]||0) - (h[histKeys[i-1]]||0);
+      if(diff>0) delta2[histKeys[i]] = diff;
+    }
+    if(histKeys.length>1){
+      const last=histKeys[histKeys.length-1];
+      if(last===today){
+        const prev=histKeys[histKeys.length-2];
+        const d2=(h[today]||0)-(h[prev]||0);
+        if(d2>0) delta2[today]=d2;
+      }
+    }
+    const maxDelta = Math.max(1,...Object.values(delta2));
+    for(let i=69;i>=0;i--){
+      const ds = spAddDays(today,-i);
+      const isFuture = ds > today;
+      const val = delta2[ds]||0;
+      const cell = document.createElement('div');
+      cell.title = ds + (val>0 ? `: ${val} topic${val>1?'s':''} completed` : ': no activity');
+      if(isFuture){
+        cell.className='sp-hm-cell sp-hm-future';
+      } else {
+        const lvl = val===0?0:val<=maxDelta*.25?1:val<=maxDelta*.5?2:val<=maxDelta*.75?3:4;
+        cell.className='sp-hm-cell sp-hm-'+lvl;
+        if(ds===today) cell.style.outline='2px solid var(--blue)';
+      }
+      hmEl.appendChild(cell);
+    }
+  }
+
+  /* ── subject breakdown ── */
+  const subjEl = document.getElementById('sp-subj-list');
+  if(subjEl){
+    subjEl.innerHTML = '';
+    ['gs1','csat'].forEach(paper=>{
+      DATA[paper].forEach(sec=>{
+        const T  = sec.topics.length;
+        const dn = sec.topics.filter((_,i)=>isDone(paper,sec.id,i)).length;
+        const pct= T?Math.round(dn/T*100):0;
+        const row= document.createElement('div');
+        row.className='sp-subj-row';
+        row.innerHTML=`
+          <span class="sp-subj-icon">${sec.icon}</span>
+          <span class="sp-subj-name">${sec.name}</span>
+          <div class="sp-subj-bar-track">
+            <div class="sp-subj-bar-fill" style="width:${pct}%;background:${sec.color}"></div>
+          </div>
+          <span class="sp-subj-pct">${pct}%</span>`;
+        subjEl.appendChild(row);
+      });
+    });
+  }
+
+  /* ── dynamic today's targets ── */
+  /*
+    Base = ceil(pace) so fractional paces always round up to whole topics.
+    If ahead: reduce today's load (min 1) — give a lighter day.
+    If behind: add catch-up topics (max pace*2 or 10, whichever is smaller).
+  */
+  const incomplete   = topics.filter(t=>!isDone(t.paper,t.secId,t.idx));
+  const roundedDelta = Math.round(delta);
+  let todayCount;
+  if(rem === 0){
+    todayCount = 0;
+  } else if(roundedDelta >= 3){
+    /* comfortably ahead — ease off */
+    todayCount = Math.max(1, paceCeil - Math.min(Math.floor(roundedDelta/3), paceCeil - 1));
+  } else if(roundedDelta <= -3){
+    /* behind — add catch-up (capped at 2x or 10) */
+    const catchUp = Math.min(Math.ceil(absDelta / Math.max(daysLeft,1)), paceCeil);
+    todayCount = Math.min(paceCeil + catchUp, Math.max(10, paceCeil * 2));
+  } else {
+    todayCount = Math.max(1, paceCeil);
+  }
+  todayCount = Math.min(todayCount, incomplete.length);
+
+  /* schedule note */
+  const noteEl = document.getElementById('sp-schedule-note');
+  if(noteEl){
+    if(roundedDelta >= 3){
+      noteEl.className='sp-schedule-note visible sn-ahead';
+      noteEl.textContent=`✅ You're ${absDelta} topics ahead — lighter load today (${todayCount} topic${todayCount!==1?'s':''})`;
+    } else if(roundedDelta <= -3){
+      noteEl.className='sp-schedule-note visible sn-behind';
+      noteEl.textContent=`⚡ You're ${absDelta} topics behind — catch-up mode (${todayCount} topic${todayCount!==1?'s':''})`;
+    } else {
+      noteEl.className='sp-schedule-note visible sn-on';
+      noteEl.textContent=`🎯 On track — ${todayCount} topic${todayCount!==1?'s':''} today`;
+    }
+  }
+
+  const todayTopics = incomplete.slice(0, todayCount);
+  const todayEl = document.getElementById('sp-today-topics');
+  if(!todayEl) return;
+  todayEl.innerHTML='';
+
+  if(todayTopics.length === 0){
+    todayEl.innerHTML='<div class="sp-topic-empty">🎉 All topics complete — exam ready!</div>';
+  } else {
+    todayTopics.forEach(t=>{
+      const dn  = isDone(t.paper,t.secId,t.idx);
+      const row = document.createElement('div');
+      row.className='sp-topic-row'+(dn?' spt-done':'');
+      const short = t.name.length>65 ? t.name.slice(0,62)+'…' : t.name;
+      row.innerHTML=`
+        <span class="spt-icon">${t.secIcon}</span>
+        <div class="spt-body">
+          <div class="spt-name" title="${t.name.replace(/"/g,'&quot;')}">${short}</div>
+          <div class="spt-cat" style="color:${t.secColor}">${t.secName}</div>
+        </div>
+        <button class="spt-go" onclick="spGoTo('${t.paper}','${t.secId}',${t.idx})">Go →</button>`;
+      todayEl.appendChild(row);
+    });
+  }
+}
+
+function spSetVal(id,val){
+  const el=document.getElementById(id); if(!el) return;
+  const s=String(val);
+  if(el.textContent!==s){
+    el.textContent=s;
+    el.classList.remove('sp-pulse'); void el.offsetWidth; el.classList.add('sp-pulse');
+    el.addEventListener('animationend',()=>el.classList.remove('sp-pulse'),{once:true});
+  }
+}
+
+function spGoTo(paper,secId,idx){
+  /* switch to correct paper tab */
+  document.querySelectorAll('.tab-btn').forEach(b=>{
+    const oc = b.getAttribute('onclick')||'';
+    if(oc.includes("'"+paper+"'") && !oc.includes('planner')){
+      if(!b.classList.contains('active')) switchTab(paper,b);
+    }
+  });
+  /* open section */
+  const card=document.getElementById(`card-${paper}-${secId}`);
+  if(card&&!card.classList.contains('open')) card.classList.add('open');
+  /* scroll */
+  setTimeout(()=>{
+    const el=document.getElementById(`dr-${paper}-${secId}-${idx}`)||
+             document.getElementById(`mi-${paper}-${secId}-${idx}`);
+    if(el){
+      el.scrollIntoView({behavior:'smooth',block:'center'});
+      el.style.transition='background .3s';
+      el.style.background='rgba(96,165,250,.12)';
+      setTimeout(()=>{ el.style.background=''; },1400);
+    }
+  },120);
+}
+
+/* ── PDF download — daily briefing card ── */
+function spDownloadPDF(){
+  const prefs = spLoad();
+  if(!prefs.start || !prefs.exam){ alert('Set your study dates first.'); return; }
+
+  const today    = spToday();
+  const topics   = spAllTopics();
+  const total    = topics.length;
+  const done     = topics.filter(t=>isDone(t.paper,t.secId,t.idx)).length;
+  const rem      = total - done;
+  const daysLeft = Math.max(0, spDaysBetween(today, prefs.exam));
+  const pace     = daysLeft > 0 ? rem / daysLeft : 0;
+  const paceCeil = Math.ceil(pace);
+
+  const totalDays     = spDaysBetween(prefs.start, prefs.exam);
+  const daysSinceStart= Math.max(1, spDaysBetween(prefs.start, today));
+  const expectedDone  = totalDays > 0 ? (total / totalDays) * daysSinceStart : 0;
+  const delta         = done - expectedDone;
+  const roundedDelta  = Math.round(delta);
+  const absDelta      = Math.abs(roundedDelta);
+
+  let todayCount;
+  const incomplete = topics.filter(t=>!isDone(t.paper,t.secId,t.idx));
+  if(rem===0){ todayCount=0; }
+  else if(roundedDelta>=3){ todayCount=Math.max(1, paceCeil-Math.min(Math.floor(roundedDelta/3),paceCeil-1)); }
+  else if(roundedDelta<=-3){ const cu=Math.min(Math.ceil(absDelta/Math.max(daysLeft,1)),paceCeil); todayCount=Math.min(paceCeil+cu,Math.max(10,paceCeil*2)); }
+  else { todayCount=Math.max(1,paceCeil); }
+  todayCount=Math.min(todayCount,incomplete.length);
+  const todayTopics=incomplete.slice(0,todayCount);
+
+  const todayLabel=new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  const pct = total ? Math.round(done/total*100) : 0;
+
+  let statusLine='';
+  if(roundedDelta>=3) statusLine=`✅ Ahead by ${absDelta} topic${absDelta>1?'s':''}`;
+  else if(roundedDelta<=-3) statusLine=`⚡ Behind by ${absDelta} topic${absDelta>1?'s':''}`;
+  else statusLine='🎯 Right on track';
+
+  /* subject progress rows */
+  let subjRows='';
+  ['gs1','csat'].forEach(paper=>{
+    DATA[paper].forEach(sec=>{
+      const T=sec.topics.length;
+      const dn=sec.topics.filter((_,i)=>isDone(paper,sec.id,i)).length;
+      const p=T?Math.round(dn/T*100):0;
+      const bar='█'.repeat(Math.round(p/10))+'░'.repeat(10-Math.round(p/10));
+      subjRows+=`<tr><td>${sec.icon} ${sec.name}</td><td style="font-family:monospace;font-size:10px;color:#555">${bar}</td><td style="text-align:right">${dn}/${T} (${p}%)</td></tr>`;
+    });
+  });
+
+  /* today's topic rows — with link back to site */
+  const siteUrl = window.location.href.split('#')[0];
+  let topicRows='';
+  if(todayTopics.length===0){
+    topicRows='<tr><td colspan="2" style="color:#16a34a;font-weight:600">🎉 All topics complete — exam ready!</td></tr>';
+  } else {
+    todayTopics.forEach((t,idx)=>{
+      topicRows+=`<tr>
+        <td style="padding:6px 4px">${idx+1}. <a href="${siteUrl}#card-${t.paper}-${t.secId}" style="color:#1d4ed8;text-decoration:none">${t.name}</a></td>
+        <td style="color:#6b7280;font-size:11px;padding:6px 4px">${t.secIcon} ${t.secName}</td>
+      </tr>`;
+    });
+  }
+
+  const html=`<!DOCTYPE html><html><head><meta charset="UTF-8">
+  <title>UPSC A2Z — Daily Briefing ${today}</title>
+  <style>
+    body{font-family:'Segoe UI',Arial,sans-serif;max-width:700px;margin:0 auto;padding:32px;color:#1a1a1a}
+    h1{font-size:22px;margin:0 0 2px}
+    .sub{color:#6b7280;font-size:13px;margin-bottom:20px}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+    .stat{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px;text-align:center}
+    .stat-val{font-size:22px;font-weight:700;color:#1e3a5f}
+    .stat-lbl{font-size:10px;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-top:2px}
+    .status{padding:7px 14px;border-radius:20px;font-size:13px;font-weight:600;display:inline-block;margin-bottom:20px}
+    .ahead{background:#dcfce7;color:#166534} .behind{background:#fee2e2;color:#991b1b} .on{background:#dbeafe;color:#1d4ed8}
+    table{width:100%;border-collapse:collapse;margin-bottom:20px}
+    th{background:#f1f5f9;padding:8px 6px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#64748b;text-align:left}
+    td{padding:7px 6px;border-bottom:1px solid #f1f5f9;font-size:13px;vertical-align:top}
+    h2{font-size:14px;font-weight:600;margin:20px 0 8px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
+    .footer{font-size:11px;color:#94a3b8;text-align:center;margin-top:24px;padding-top:16px;border-top:1px solid #e2e8f0}
+  </style>
+  </head><body>
+  <h1>📋 UPSC A2Z — Daily Study Briefing</h1>
+  <div class="sub">${todayLabel} &nbsp;·&nbsp; <a href="${siteUrl}" style="color:#1d4ed8">${siteUrl}</a></div>
+  
+  <div class="stats">
+    <div class="stat"><div class="stat-val">${pct}%</div><div class="stat-lbl">Overall Done</div></div>
+    <div class="stat"><div class="stat-val">${done}/${total}</div><div class="stat-lbl">Topics Done</div></div>
+    <div class="stat"><div class="stat-val">${daysLeft}</div><div class="stat-lbl">Days to Exam</div></div>
+    <div class="stat"><div class="stat-val">${paceCeil}/day</div><div class="stat-lbl">Pace Needed</div></div>
+  </div>
+  
+  <span class="status ${roundedDelta>=3?'ahead':roundedDelta<=-3?'behind':'on'}">${statusLine}</span>
+
+  <h2>📚 Today's ${todayTopics.length} Target${todayTopics.length!==1?'s':''}</h2>
+  <table><thead><tr><th>Topic</th><th>Subject</th></tr></thead><tbody>${topicRows}</tbody></table>
+  <p style="font-size:11px;color:#94a3b8">Click any topic to open it directly on the tracker →</p>
+
+  <h2>📊 Subject Progress</h2>
+  <table><thead><tr><th>Subject</th><th>Progress</th><th style="text-align:right">Done</th></tr></thead><tbody>${subjRows}</tbody></table>
+
+  <div class="footer">Generated by UPSC A2Z Sheet · <a href="${siteUrl}" style="color:#1d4ed8">Open Tracker</a> · Progress saved in your browser</div>
+  </body></html>`;
+
+  const blob=new Blob([html],{type:'text/html'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url; a.download=`UPSC-A2Z-Daily-${today}.html`;
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),2000);
+}
+
+/* hook into refreshUI so planner updates on every checkbox change */
+function refreshPlanner(){ spRender(); }
+
+/* ── init ── */
+(function spInit(){
+  // date inputs live-update — defer until DOM is ready
+  window.addEventListener('DOMContentLoaded', ()=>{
+    const sEl = document.getElementById('sp-start');
+    const eEl = document.getElementById('sp-exam');
+    if(sEl) sEl.addEventListener('change',()=>{
+      const s=sEl.value, e=eEl?eEl.value:'';
+      if(s&&e&&e>s){ spSavePrefs({start:s,exam:e}); spRender(); }
+    });
+    if(eEl) eEl.addEventListener('change',()=>{
+      const s=sEl?sEl.value:'', e=eEl.value;
+      if(s&&e&&e>s){ spSavePrefs({start:s,exam:e}); spRender(); }
+    });
+  });
+})();
+
+/* ════════════════════════════════════
    INIT
 ════════════════════════════════════ */
 renderPaper('gs1');
 renderPaper('csat');
 refreshUI();
+
+/* ════════════════════════════════════
+   QUIZ ENGINE
+════════════════════════════════════ */
+const QK = 'upsc_quiz_v1';   /* localStorage key — stores {paper_secId_idx: {score,total,date}} */
+
+function qLoad() { try { return JSON.parse(localStorage.getItem(QK) || '{}'); } catch { return {}; } }
+function qSave(d) { try { localStorage.setItem(QK, JSON.stringify(d)); } catch {} }
+function qKey(p, s, i) { return `${p}_${s}_${i}`; }
+function qGetScore(p, s, i) { return qLoad()[qKey(p, s, i)] || null; }
+function qSetScore(p, s, i, score, total) {
+  const d = qLoad();
+  d[qKey(p, s, i)] = { score, total, date: new Date().toISOString().slice(0, 10) };
+  qSave(d);
+}
+
+/* render the quiz cell chip / button */
+function quizCell(p, s, i, tp) {
+  if (!tp.q || !tp.q.length) return '<span class="quiz-soon">—</span>';
+  const saved = qGetScore(p, s, i);
+  const n = tp.q.length;
+  if (saved) {
+    const pct = Math.round(saved.score / saved.total * 100);
+    const cls = pct >= 70 ? 'qs-great' : pct >= 40 ? 'qs-ok' : 'qs-low';
+    return `<span class="quiz-score ${cls}" onclick="qOpen('${p}','${s}',${i})" title="Retake quiz">${saved.score}/${saved.total}</span>`;
+  }
+  return `<button class="quiz-start-btn" onclick="qOpen('${p}','${s}',${i})">📝 ${n} Qs</button>`;
+}
+
+/* refresh quiz cell after a test is saved */
+function qRefreshCell(p, s, i) {
+  const sec = DATA[p].find(x => x.id === s);
+  if (!sec) return;
+  const tp = sec.topics[i];
+  const html = quizCell(p, s, i, tp);
+  const dt = document.getElementById(`qcell-${p}-${s}-${i}`);
+  if (dt) dt.innerHTML = html;
+  const mb = document.getElementById(`qcell-m-${p}-${s}-${i}`);
+  if (mb) mb.innerHTML = html;
+}
+
+/* ── Quiz state ── */
+let QS = null;  /* { p, s, i, questions, cur, answers, answered } */
+
+function qOpen(p, s, i) {
+  const sec = DATA[p].find(x => x.id === s);
+  if (!sec) return;
+  const tp = sec.topics[i];
+  if (!tp.q || !tp.q.length) return;
+
+  QS = { p, s, i, questions: tp.q, cur: 0, answers: [], name: tp.n };
+  document.getElementById('qm-title').textContent = '📝 Topic Quiz';
+  document.getElementById('qm-meta').textContent = tp.n.length > 55 ? tp.n.slice(0, 52) + '…' : tp.n;
+  document.getElementById('qmodal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  qShowQuestion();
+}
+
+function qClose() {
+  document.getElementById('qmodal').classList.remove('open');
+  document.body.style.overflow = '';
+  QS = null;
+}
+
+function qShowQuestion() {
+  const q = QS.questions[QS.cur];
+  const total = QS.questions.length;
+  const prog = ((QS.cur) / total) * 100;
+
+  document.getElementById('qm-prog').style.width = prog + '%';
+  document.getElementById('qm-meta').textContent = `Q${QS.cur + 1} of ${total}`;
+
+  const optKeys = ['A', 'B', 'C', 'D'];
+
+  /* build statements HTML if present — detect 
+
+ pattern */
+  let statementsHtml = '';
+  let questionText = q.q;
+  if (questionText.includes('\n\n')) {
+    const parts = questionText.split('\n\n');
+    questionText = parts[0];
+    const stmtLines = parts[1].split('\n').filter(Boolean);
+    statementsHtml = `<div class="qm-statements"><ol>${stmtLines.map(l => `<li>${l.replace(/^\d+\.\s*/,'')}</li>`).join('')}</ol></div>`;
+  }
+
+  const optHtml = q.opts.map((opt, idx) => `
+    <button class="qm-opt" data-idx="${idx}" onclick="qAnswer(${idx})">
+      <span class="qm-opt-key">${optKeys[idx]}</span>
+      <span>${opt}</span>
+    </button>`).join('');
+
+  document.getElementById('qm-body').innerHTML = `
+    <div class="qm-q-num">Question ${QS.cur + 1} of ${total}</div>
+    ${q.yr ? `<span class="qm-q-year">UPSC ${q.yr}</span>` : ''}
+    <div class="qm-q-text">${questionText}</div>
+    ${statementsHtml}
+    <div class="qm-options">${optHtml}</div>
+    <div class="qm-explanation" id="qm-exp">
+      <div class="qm-exp-lbl">💡 Explanation</div>
+      ${q.exp || ''}
+    </div>`;
+
+  document.getElementById('qm-footer').innerHTML = `
+    <button class="qm-btn qm-btn-secondary" onclick="qClose()">Quit</button>
+    <button class="qm-btn qm-btn-primary" id="qm-next-btn" style="display:none" onclick="qNext()">
+      ${QS.cur + 1 < total ? 'Next Question →' : 'See Results'}
+    </button>`;
+}
+
+function qAnswer(chosen) {
+  if (!QS) return;
+  const q = QS.questions[QS.cur];
+  const correct = q.ans;
+  const isRight = chosen === correct;
+
+  QS.answers.push({ chosen, correct, isRight });
+
+  /* disable all buttons */
+  document.querySelectorAll('.qm-opt').forEach((btn, idx) => {
+    btn.disabled = true;
+    if (idx === correct) btn.classList.add('correct');
+    else if (idx === chosen && !isRight) btn.classList.add('wrong');
+  });
+
+  /* show explanation */
+  const expEl = document.getElementById('qm-exp');
+  if (expEl) expEl.classList.add('visible');
+
+  /* show next button */
+  const nextBtn = document.getElementById('qm-next-btn');
+  if (nextBtn) nextBtn.style.display = 'inline-flex';
+
+  /* scroll body to top gently */
+  const body = document.getElementById('qm-body');
+  if (body) body.scrollTop = 0;
+}
+
+function qNext() {
+  if (!QS) return;
+  QS.cur++;
+  if (QS.cur >= QS.questions.length) {
+    qShowResults();
+  } else {
+    qShowQuestion();
+  }
+}
+
+function qShowResults() {
+  const total   = QS.questions.length;
+  const score   = QS.answers.filter(a => a.isRight).length;
+  const wrong   = total - score;
+  const pct     = Math.round(score / total * 100);
+  const ringCls = pct >= 70 ? 'great' : pct >= 40 ? 'ok' : 'low';
+  const titles  = { great: '🎉 Excellent Work!', ok: '👍 Good Effort!', low: '📖 Keep Revising' };
+  const subs    = {
+    great: 'Strong grasp of this topic. Mark it done!',
+    ok:    'Decent attempt. A revision will solidify your understanding.',
+    low:   'This topic needs more attention. Review and retake.'
+  };
+
+  /* save score */
+  qSetScore(QS.p, QS.s, QS.i, score, total);
+  qRefreshCell(QS.p, QS.s, QS.i);
+
+  /* update progress bar to 100% */
+  document.getElementById('qm-prog').style.width = '100%';
+  document.getElementById('qm-meta').textContent = 'Completed';
+
+  document.getElementById('qm-body').innerHTML = `
+    <div class="qm-result">
+      <div class="qm-result-ring ${ringCls}">${pct}%</div>
+      <div class="qm-result-title">${titles[ringCls]}</div>
+      <div class="qm-result-sub">${subs[ringCls]}</div>
+      <div class="qm-result-breakdown">
+        <div class="qm-rb-box">
+          <div class="qm-rb-val c-blue">${total}</div>
+          <div class="qm-rb-lbl">Total</div>
+        </div>
+        <div class="qm-rb-box">
+          <div class="qm-rb-val c-green">${score}</div>
+          <div class="qm-rb-lbl">Correct</div>
+        </div>
+        <div class="qm-rb-box">
+          <div class="qm-rb-val c-red">${wrong}</div>
+          <div class="qm-rb-lbl">Wrong</div>
+        </div>
+      </div>
+    </div>`;
+
+  document.getElementById('qm-footer').innerHTML = `
+    <button class="qm-btn qm-btn-secondary" onclick="qClose()">Close</button>
+    <button class="qm-btn qm-btn-primary" onclick="qRetake()">🔄 Retake</button>`;
+}
+
+function qRetake() {
+  if (!QS) return;
+  QS.cur = 0;
+  QS.answers = [];
+  /* clear the saved score so they start fresh */
+  const d = qLoad();
+  delete d[qKey(QS.p, QS.s, QS.i)];
+  qSave(d);
+  qRefreshCell(QS.p, QS.s, QS.i);
+  qShowQuestion();
+}
+
+/* close quiz on backdrop click */
+document.getElementById('qmodal').addEventListener('click', function(e) {
+  if (e.target === this) qClose();
+});
+
 </script>
 </body>
 </html>
