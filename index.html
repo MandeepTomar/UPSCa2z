@@ -313,8 +313,8 @@ body {
   /* colgroup widths — change here only, nowhere else */
   .desktop-table col.c-num  { width: 44px;  }
   .desktop-table col.c-src  { width: 195px; }
-  .desktop-table col.c-done { width: 76px;  }
-  .desktop-table col.c-rev  { width: 76px;  }
+  .desktop-table col.c-done { width: 96px;  }
+  .desktop-table col.c-rev  { width: 104px; }
   .desktop-table col.c-imp  { width: 54px;  }
   /* c-name is the remaining flex column — no width needed */
 
@@ -638,29 +638,36 @@ const DATA = {
       ]},
     { id:'polity',    name:'Indian Polity & Constitution',       icon:'⚖️', color:'#60a5fa', bg:'rgba(96,165,250,.1)',  desc:'Complete M. Laxmikanth coverage for Prelims',
       topics:[
-        {n:'Historical Background of Indian Constitution — Constituent Assembly, Committees',             s:'Laxmikanth Ch.1-2'},
-        {n:'Salient Features of the Constitution — Preamble, Nature (Federal/Unitary), Secular',         s:'Laxmikanth Ch.3-4'},
-        {n:'Union and Its Territory — Formation of States, Reorganisation; Citizenship',                  s:'Laxmikanth Ch.5-6'},
-        {n:'Fundamental Rights — Articles 12–35; Types, Exceptions, Recent Cases',                       s:'Laxmikanth Ch.7'},
-        {n:'Directive Principles of State Policy — Articles 36–51; Classification, Importance',          s:'Laxmikanth Ch.8'},
-        {n:'Fundamental Duties — Article 51A; Importance, Verma Committee',                              s:'Laxmikanth Ch.9'},
-        {n:'Constitutional Amendments — Article 368; Types, Important Amendments',                       s:'Laxmikanth Ch.10'},
-        {n:'President of India — Election, Powers (Executive, Legislative, Judicial, Military, Emergency)',s:'Laxmikanth Ch.17'},
-        {n:'Vice President, Prime Minister, Council of Ministers, Cabinet Committees',                    s:'Laxmikanth Ch.18-19'},
-        {n:'Parliament — Lok Sabha, Rajya Sabha, Sessions, Bills, Joint Sitting, Budget Process',        s:'Laxmikanth Ch.22-23'},
-        {n:'State Government — Governor, Chief Minister, State Legislature, Legislative Council',         s:'Laxmikanth Ch.29-31'},
-        {n:'Supreme Court — Composition, Jurisdiction (Original, Appellate, Advisory), Judicial Review, PIL',s:'Laxmikanth Ch.26'},
-        {n:'High Courts, Subordinate Courts, Tribunals, Fast Track Courts',                              s:'Laxmikanth Ch.27-28'},
-        {n:'Centre-State Relations — Legislative, Administrative, Financial; Inter-State Relations',      s:'Laxmikanth Ch.15-16'},
-        {n:"Emergency Provisions — National Emergency (352), President's Rule (356), Financial (360)",   s:'Laxmikanth Ch.16'},
-        {n:'Panchayati Raj — 73rd Amendment, PESA, State Finance Commissions',                           s:'Laxmikanth Ch.33'},
-        {n:'Urban Local Bodies — 74th Amendment, Municipalities, Ward Committees',                       s:'Laxmikanth Ch.34'},
-        {n:'Constitutional Bodies — ECI, CAG, UPSC, Finance Commission, NHC, SC/ST/OBC Commissions',    s:'Laxmikanth Ch.38-45'},
-        {n:'Non-Constitutional Bodies — NITI Aayog, CBI, CVC, NIA, NHRC, Lokpal',                      s:'Laxmikanth Ch.46-50'},
-        {n:'Political Parties, Symbols, Anti-Defection Law (10th Schedule)',                             s:'Laxmikanth Ch.53-55'},
-        {n:'Important Constitutional Amendments — 42nd, 44th, 52nd, 73rd, 74th, 86th, 101st, 103rd',    s:'Laxmikanth Appendix'},
-        {n:'12 Schedules of the Constitution — Content & Significance',                                  s:'Laxmikanth Appendix'},
-        {n:'Emergency & Special Provisions for States — Art 370 (Abrogated), 371A-371J',                s:'Laxmikanth'},
+        {n:'Historical Background — Government of India Acts (1858–1935), Constituent Assembly, Drafting',s:'Laxmikanth Ch.1-2'},
+        {n:'Preamble — Keywords (Sovereign, Socialist, Secular, Democratic, Republic), Significance',     s:'Laxmikanth Ch.3'},
+        {n:'Salient Features of the Constitution — Federal with Unitary Bias, Rigidity vs Flexibility',   s:'Laxmikanth Ch.4'},
+        {n:'Union and Its Territory — Art 1–4, Formation & Reorganisation of States, Article 3',          s:'Laxmikanth Ch.5'},
+        {n:'Citizenship — Acquisition, Loss, Single Citizenship, Citizenship Amendment Act 2019',         s:'Laxmikanth Ch.6'},
+        {n:'Fundamental Rights I — Right to Equality (Art 14–18), Right to Freedom (Art 19–22)',          s:'Laxmikanth Ch.7'},
+        {n:'Fundamental Rights II — Right against Exploitation, Religious, Cultural, Educational; Art 32',s:'Laxmikanth Ch.7'},
+        {n:'Directive Principles of State Policy — Art 36–51; Socialist, Gandhian, Liberal-Intellectual',  s:'Laxmikanth Ch.8'},
+        {n:'Fundamental Duties — Art 51A; Verma Committee, DPSP vs FD conflict & balance',                s:'Laxmikanth Ch.9'},
+        {n:'Amendment of the Constitution — Art 368; Types (Simple, Special, Ratification), Key Amendments',s:'Laxmikanth Ch.10'},
+        {n:'President — Election, Qualifications, Powers: Executive, Legislative, Judicial, Emergency',    s:'Laxmikanth Ch.17'},
+        {n:'Vice President, Prime Minister & Council of Ministers — Powers, Collective Responsibility',    s:'Laxmikanth Ch.18-20'},
+        {n:'Cabinet Committees, PMO, Central Secretariat, NITI Aayog & Advisory Bodies',                  s:'Laxmikanth Ch.21'},
+        {n:'Parliament — Lok Sabha & Rajya Sabha: Composition, Powers, Special Powers of Each House',     s:'Laxmikanth Ch.22'},
+        {n:'Parliamentary Procedures — Sessions, Quorum, Bills (Ordinary, Money, Finance), Joint Sitting',s:'Laxmikanth Ch.23'},
+        {n:'Parliament — Budget Process, No-Confidence Motion, Question Hour, Parliamentary Committees',   s:'Laxmikanth Ch.23'},
+        {n:'Centre-State Relations — Legislative, Administrative & Financial; Inter-State Council, Zonal Councils',s:'Laxmikanth Ch.15'},
+        {n:'Emergency Provisions — National Emergency (352), President\'s Rule (356), Financial Emergency (360)',s:'Laxmikanth Ch.16'},
+        {n:'State Government — Governor: Role, Powers, Discretion; CM & Council of Ministers',            s:'Laxmikanth Ch.29-30'},
+        {n:'State Legislature — Vidhan Sabha & Vidhan Parishad; Anti-Defection Law (10th Schedule)',       s:'Laxmikanth Ch.31'},
+        {n:'Supreme Court — Composition, Original, Appellate & Advisory Jurisdiction, Judicial Review, PIL',s:'Laxmikanth Ch.26'},
+        {n:'High Courts & Subordinate Courts — Jurisdiction, Tribunals (Art 323A & 323B), Lok Adalats',   s:'Laxmikanth Ch.27-28'},
+        {n:'Panchayati Raj — 73rd Amendment, Gram Sabha, PESA 1996, State Finance Commission',            s:'Laxmikanth Ch.33'},
+        {n:'Urban Local Bodies — 74th Amendment, Municipalities, Smart Cities Mission, Ward Committees',  s:'Laxmikanth Ch.34'},
+        {n:'Constitutional Bodies — ECI, CAG, UPSC, Finance Commission, Attorney General',                s:'Laxmikanth Ch.38-42'},
+        {n:'Constitutional Commissions — SC/ST, OBC, Minorities, Women, Backward Classes Commissions',    s:'Laxmikanth Ch.43-45'},
+        {n:'Non-Constitutional Bodies — Lokpal, Lokayukta, CVC, CBI, NIA, NHRC, SHRCs',                  s:'Laxmikanth Ch.46-50'},
+        {n:'Political Parties & Elections — Registration, Symbols, EVM, NOTA, Model Code of Conduct',     s:'Laxmikanth Ch.53-55'},
+        {n:'Important Constitutional Amendments — 42nd, 44th, 52nd, 61st, 73rd, 74th, 86th, 101st, 103rd',s:'Laxmikanth Appendix'},
+        {n:'Schedules of the Constitution (1–12) — Content & Significance; Special Provisions (Art 371)',  s:'Laxmikanth Appendix'},
       ]},
     { id:'governance',name:'Governance & Social Justice',        icon:'🏛️', color:'#60a5fa', bg:'rgba(96,165,250,.1)',  desc:'Schemes, rights-based framework, welfare',
       topics:[
