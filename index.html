@@ -520,9 +520,380 @@ body {
 }
 .mbtn.danger:hover { background: rgba(192,57,43,.16); }
 
-/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   SCROLLBAR
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   MOBILE-FIRST  ≤ 679px
+   All rules here are additive — desktop
+   rules above are untouched.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+@media (max-width: 679px) {
+
+  /* ── Safe-area / notch support ── */
+  :root {
+    --safe-b: env(safe-area-inset-bottom, 0px);
+  }
+
+  /* ── Body: make room for bottom nav ── */
+  body { padding-bottom: calc(64px + var(--safe-b)); }
+
+  /* ─────────────────────────────
+     HEADER — slim, clean
+  ───────────────────────────── */
+  .hdr { padding: 0 16px; }
+  .hdr-inner { min-height: 50px; padding: 6px 0; gap: 8px; flex-wrap: nowrap; }
+  .logo-icon { width: 30px; height: 30px; font-size: 14px; border-radius: 8px; }
+  .logo-txt { font-size: 1rem; letter-spacing: -.025em; }
+
+  /* Show only done + pct pill in header, hide extras */
+  .hdr-stats { gap: 5px; }
+  .hdr-stats .pill:nth-child(2),
+  .hdr-stats .pill:nth-child(3) { display: none; }
+  .pill { padding: 4px 10px; font-size: .71rem; }
+  .reset-btn { display: none; } /* moved to bottom nav overflow or section */
+
+  /* ─────────────────────────────
+     HERO — compact, punchy
+  ───────────────────────────── */
+  .hero { padding: 12px 16px 0; }
+  .hero-title { font-size: 1.3rem; margin-bottom: 2px; }
+  .hero-sub { font-size: .78rem; margin-bottom: 12px; }
+
+  /* ─────────────────────────────
+     OVERALL PROGRESS CARD
+     — horizontal mini strip on mobile
+  ───────────────────────────── */
+  .overall-card {
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    gap: 12px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .big-pct {
+    font-size: 2.4rem;
+    flex-shrink: 0;
+  }
+  .overall-right { min-width: 0; flex: 1; }
+  .overall-lbl { font-size: .65rem; margin-bottom: 6px; }
+  .dual-bars { gap: 5px; }
+  .dual-row { font-size: .68rem; gap: 7px; }
+  .dual-lbl { width: 56px; font-size: .66rem; }
+  .dual-count { width: 44px; font-size: .66rem; }
+
+  /* ─────────────────────────────
+     TABS — hidden on mobile
+     (replaced by bottom nav)
+  ───────────────────────────── */
+  .tabs { display: none; }
+
+  /* ─────────────────────────────
+     BOTTOM NAVIGATION BAR
+  ───────────────────────────── */
+  .mob-nav {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 150;
+    display: flex;
+    background: rgba(250,247,242,.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid var(--bdr);
+    box-shadow: 0 -4px 20px rgba(0,0,0,.08);
+    padding-bottom: var(--safe-b);
+  }
+  .mob-nav-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 9px 4px 8px;
+    background: none;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: background .15s;
+    border-radius: 0;
+    position: relative;
+  }
+  .mob-nav-btn:active { background: var(--surf2); }
+  .mob-nav-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+    transition: transform .2s cubic-bezier(.34,1.56,.64,1);
+  }
+  .mob-nav-label {
+    font-size: .6rem;
+    font-weight: 600;
+    color: var(--txt3);
+    letter-spacing: .02em;
+    transition: color .15s;
+    text-transform: uppercase;
+  }
+  .mob-nav-btn.active .mob-nav-icon { transform: translateY(-2px) scale(1.15); }
+  .mob-nav-btn.active .mob-nav-label { color: var(--acc); }
+  .mob-nav-btn.active::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 20%; right: 20%;
+    height: 2px;
+    background: var(--acc);
+    border-radius: 0 0 2px 2px;
+  }
+
+  /* ─────────────────────────────
+     CONTENT PADDING
+  ───────────────────────────── */
+  .content { padding: 0 0 20px; }
+
+  /* ─────────────────────────────
+     PAPER HEADER
+  ───────────────────────────── */
+  .paper-hdr { margin-bottom: 10px; padding: 0 16px; }
+  .paper-title { font-size: 1.05rem; }
+  .paper-meta { font-size: .72rem; }
+
+  /* ─────────────────────────────
+     LEGEND — horizontal scroll
+  ───────────────────────────── */
+  .legend {
+    gap: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 8px 16px;
+  }
+  .legend::-webkit-scrollbar { display: none; }
+  .legend-item {
+    flex-shrink: 0;
+    padding: 4px 10px;
+    background: var(--surf);
+    border: 1px solid var(--bdr);
+    border-radius: 20px;
+    font-size: .68rem;
+    margin-right: 6px;
+  }
+
+  /* ─────────────────────────────
+     FILTER BAR
+  ───────────────────────────── */
+  .filter-bar { padding: 0 16px; margin-bottom: 12px; }
+
+  /* ─────────────────────────────
+     SECTION CARDS
+  ───────────────────────────── */
+  .sec-card { margin-bottom: 6px; border-radius: 0; border-left: none; border-right: none; }
+  .sec-card:first-child { border-top: none; }
+  .sec-hdr { padding: 14px 16px; min-height: 60px; }
+  .sec-icon { width: 36px; height: 36px; font-size: 16px; border-radius: 8px; }
+  .sec-name { font-size: .93rem; }
+  .sec-desc { font-size: .7rem; }
+  .sec-badge { font-size: .68rem; padding: 2px 8px; }
+
+  /* ─────────────────────────────
+     TOPIC ITEMS — bigger touch targets
+  ───────────────────────────── */
+  .topic-item { padding: 13px 16px; }
+  .topic-num { font-size: .67rem; margin-bottom: 2px; }
+  .topic-name { font-size: .9rem; line-height: 1.4; margin-bottom: 6px; }
+  .topic-source { font-size: .66rem; padding: 2px 7px; margin-bottom: 9px; }
+
+  /* Bigger checkboxes for fat fingers */
+  .cb { width: 20px; height: 20px; }
+  .topic-actions { gap: 18px; }
+  .action-item { font-size: .76rem; gap: 6px; }
+  .star-btn { font-size: 1.2rem; padding: 4px; }
+
+  /* ─────────────────────────────
+     QUIZ START BUTTON
+  ───────────────────────────── */
+  .quiz-start-btn {
+    padding: 5px 12px;
+    font-size: .75rem;
+    border-radius: 12px;
+  }
+
+  /* ─────────────────────────────
+     QUIZ MODAL — full-screen sheet
+  ───────────────────────────── */
+  .qmodal-bg { align-items: flex-end; }
+  .qmodal {
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--r) var(--r) 0 0;
+    max-height: 94vh;
+    /* Drag handle feel */
+    padding-top: 4px;
+  }
+  /* drag handle indicator */
+  .qmodal::before {
+    content: '';
+    display: block;
+    width: 36px; height: 4px;
+    background: var(--bdr2);
+    border-radius: 2px;
+    margin: 6px auto 0;
+    flex-shrink: 0;
+  }
+  .qm-header { padding: 10px 16px 12px; }
+  .qm-body { padding: 16px 16px 12px; }
+  .qm-footer { padding: 12px 16px; gap: 8px; }
+  .qm-btn { padding: 10px 20px; font-size: .86rem; flex: 1; }
+  .qm-q-text { font-size: .95rem; }
+  .qm-opt { padding: 13px 14px; font-size: .9rem; }
+  .qm-opt:hover:not(:disabled) { transform: none; } /* no hover shift on mobile */
+
+  /* ─────────────────────────────
+     STUDY PLANNER
+  ───────────────────────────── */
+  .sp-planner-page-hdr { padding: 0 16px; margin-bottom: 14px; flex-wrap: nowrap; gap: 8px; }
+  .sp-planner-page-hdr .paper-title { font-size: 1.05rem; }
+  .sp-planner-page-hdr .paper-meta { font-size: .7rem; }
+
+  .sp-dates {
+    margin: 0 16px 14px;
+    padding: 14px 16px 12px;
+    gap: 10px;
+  }
+  .sp-field { min-width: 0; }
+  .sp-field input[type="date"] {
+    font-size: .9rem;
+    padding: 9px 12px;
+    /* Ensure iOS renders date picker properly */
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .sp-save-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: .86rem;
+    margin-top: 2px;
+  }
+  .sp-pdf-btn {
+    padding: 7px 14px;
+    font-size: .76rem;
+    white-space: nowrap;
+  }
+
+  .sp-noplan { margin: 0 16px; }
+
+  /* Stat strip: 2×3 grid on mobile */
+  .sp-stat-strip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 0 16px 14px;
+  }
+  .sp-stat-box { padding: 12px 10px; }
+  .sp-streak-num { font-size: 1.5rem; }
+  .sp-countdown-num { font-size: 1.5rem; }
+  .sp-pace-val { font-size: 1.1rem; }
+  .sp-pace-lbl { font-size: .58rem; }
+
+  /* Main two-col: stack vertically */
+  .sp-main { grid-template-columns: 1fr; gap: 12px; margin: 0 16px; }
+  .sp-left, .sp-right { padding: 14px 16px; }
+
+  /* Status badge */
+  .sp-status { font-size: .74rem; padding: 6px 12px; margin: 0 16px 14px; display: flex; }
+
+  /* Dashboard container */
+  #sp-dashboard { padding-top: 2px; }
+
+  /* Today's targets topics */
+  .sp-topic-row { padding: 10px 12px; }
+  .spt-name { font-size: .82rem; }
+  .spt-go {
+    padding: 5px 12px;
+    font-size: .68rem;
+    min-width: 54px;
+    text-align: center;
+  }
+
+  /* Heatmap cells a touch bigger */
+  .sp-hm-cell { width: 16px; height: 16px; }
+
+  /* Subject bars name truncation */
+  .sp-subj-name { width: 100px; font-size: .7rem; }
+
+  /* ─────────────────────────────
+     RESET BUTTON — put it at
+     bottom of planner page
+  ───────────────────────────── */
+  .mob-reset-row {
+    display: flex;
+    justify-content: center;
+    padding: 20px 16px 0;
+  }
+  .mob-reset-btn {
+    padding: 8px 20px;
+    background: none;
+    border: 1px solid var(--bdr2);
+    border-radius: var(--r2);
+    color: var(--txt3);
+    font-family: inherit;
+    font-size: .78rem;
+    cursor: pointer;
+    transition: all .18s;
+  }
+  .mob-reset-btn:active { border-color: var(--acc); color: var(--acc); }
+
+  /* ─────────────────────────────
+     DONE BANNER
+  ───────────────────────────── */
+  .done-banner { margin: 0 16px 16px; padding: 28px 18px; }
+
+  /* ─────────────────────────────
+     MODAL (reset confirm)
+  ───────────────────────────── */
+  .modal { padding: 24px 20px; }
+  .modal-btns { flex-direction: column; gap: 8px; }
+  .mbtn { padding: 12px; font-size: .88rem; }
+
+  /* ─────────────────────────────
+     SELECT ALL ROW
+  ───────────────────────────── */
+  .sel-all-row { padding: 10px 16px; }
+  .sel-all-btn { padding: 6px 14px; font-size: .76rem; }
+
+  /* ─────────────────────────────
+     SECTION PROGRESS
+  ───────────────────────────── */
+  .sec-counts { font-size: .69rem; }
+  .sec-prog { height: 2px; }
+
+  /* ─────────────────────────────
+     PAPER PROGRESS BAR
+  ───────────────────────────── */
+  .mini-bar { width: 70px; }
+  .paper-pct { font-size: .95rem; }
+
+  /* ─────────────────────────────
+     SCROLL RESTORATION — ensure
+     tapped sections scroll into view
+  ───────────────────────────── */
+  .sec-card.open .topics-wrap {
+    animation: fadeSlideIn .18s ease forwards;
+  }
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Hide bottom nav on desktop ── */
+@media (min-width: 680px) {
+  .mob-nav { display: none !important; }
+  body { padding-bottom: 0 !important; }
+}
 ::-webkit-scrollbar       { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 3px; }
@@ -923,9 +1294,9 @@ body {
   <div class="overall-card">
     <div class="big-pct" id="big-pct">0<span>%</span></div>
     <div class="overall-right">
-      <div class="overall-lbl">Overall Prelims Progress</div>
+      <div class="overall-lbl" id="big-lbl">0 / 0 Topics Completed</div>
       <div class="bar"><div class="bar-fill acc" id="big-bar"></div></div>
-      <div class="overall-counts" id="big-counts">0 of 0 topics completed</div>
+      <div class="overall-counts" id="big-counts" style="display:none"></div>
       <div class="dual-bars">
         <div class="dual-row">
           <span class="dual-lbl">✅ Done</span>
@@ -1028,7 +1399,7 @@ body {
           <div class="paper-meta" id="sp-hdr-sub">Set your dates to generate your personalised dashboard</div>
         </div>
         <div style="display:flex;gap:8px;align-items:center;">
-          <button class="sp-pdf-btn" onclick="spDownloadPDF()" id="sp-pdf-btn" style="display:none">⬇️ Download PDF</button>
+          <button class="sp-pdf-btn" onclick="spDownloadPDF()" id="sp-pdf-btn" style="display:none">🖨️ Download Roadmap (PDF)</button>
         </div>
       </div>
 
@@ -1122,7 +1493,27 @@ body {
 
 </div>
 
-<!-- QUIZ MODAL -->
+<!-- BOTTOM NAV (mobile only — hidden on desktop via CSS) -->
+<nav class="mob-nav" id="mob-nav" aria-label="Main navigation">
+  <button class="mob-nav-btn active" id="mbn-gs1" onclick="mobSwitchTab('gs1',this)" aria-label="GS Paper 1">
+    <span class="mob-nav-icon">📖</span>
+    <span class="mob-nav-label">GS Paper 1</span>
+  </button>
+  <button class="mob-nav-btn" id="mbn-csat" onclick="mobSwitchTab('csat',this)" aria-label="GS Paper 2 CSAT">
+    <span class="mob-nav-icon">🧮</span>
+    <span class="mob-nav-label">CSAT</span>
+  </button>
+  <button class="mob-nav-btn" id="mbn-planner" onclick="mobSwitchTab('planner',this)" aria-label="Study Planner">
+    <span class="mob-nav-icon">📅</span>
+    <span class="mob-nav-label">Planner</span>
+  </button>
+  <button class="mob-nav-btn" id="mbn-reset" onclick="openModal()" aria-label="Reset progress">
+    <span class="mob-nav-icon">⚙️</span>
+    <span class="mob-nav-label">Reset</span>
+  </button>
+</nav>
+
+
 <div class="qmodal-bg" id="qmodal">
   <div class="qmodal">
     <div class="qm-header">
@@ -2233,7 +2624,7 @@ function refreshUI() {
 
   document.getElementById('big-pct').innerHTML    = `${pct}<span>%</span>`;
   document.getElementById('big-bar').style.width  = pct + '%';
-  document.getElementById('big-counts').textContent = `${d} of ${t} topics completed`;
+  document.getElementById('big-lbl').textContent  = `${d} / ${t} Topics Completed`;
   document.getElementById('h-done').textContent   = d;
   document.getElementById('h-rev').textContent    = r;
   document.getElementById('h-total').textContent  = t;
@@ -2289,9 +2680,29 @@ function spLoadHist() { try{ const v=localStorage.getItem(SPH); return v?JSON.pa
 function spSaveHist(h){ try{ localStorage.setItem(SPH,JSON.stringify(h)); }catch{} }
 
 /* ── utils ── */
-function spToday(){ return new Date().toISOString().slice(0,10); }
-function spDaysBetween(a,b){ return Math.round((new Date(b)-new Date(a))/86400000); }
-function spAddDays(ds,n){ const d=new Date(ds); d.setDate(d.getDate()+n); return d.toISOString().slice(0,10); }
+function spToday(){
+  /* Use local date — toISOString() is UTC and shows yesterday before 5:30 AM in IST */
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+function spDaysBetween(a,b){
+  /* Parse as local midnight to avoid UTC-offset drift */
+  const da = new Date(a+'T00:00:00');
+  const db = new Date(b+'T00:00:00');
+  return Math.round((db-da)/86400000);
+}
+function spAddDays(ds,n){
+  /* Parse as local midnight, add days, return local YYYY-MM-DD */
+  const d = new Date(ds+'T00:00:00');
+  d.setDate(d.getDate()+n);
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
 function spFmt(ds){ return new Date(ds+'T00:00:00').toLocaleDateString('en-IN',{day:'numeric',month:'short'}); }
 
 /* flat list of all topics in roadmap order */
@@ -2314,7 +2725,7 @@ function spToggle(){ }
 function spSave(){
   const s=document.getElementById('sp-start').value;
   const e=document.getElementById('sp-exam').value;
-  if(!s||!e){ alert('Please set both a start date and exam date.'); return; }
+  if(!s||!e){ alert('Please set valid dates for both fields.\n\nTip: Make sure the date exists — e.g. June has only 30 days, not 31.'); return; }
   if(e<=s)  { alert('Exam date must be after start date.'); return; }
   spSavePrefs({start:s,exam:e});
   spRender();
@@ -2331,24 +2742,30 @@ function spRecordToday(){
 
 /* ── calculate streak ── */
 function spStreak(){
+  /* A streak = consecutive days ending today (or yesterday) where done count increased.
+     - If topics were done today: count today + consecutive previous days.
+     - If nothing done today yet: count consecutive days ending yesterday (streak still alive).
+     - A day "counts" if its done total is greater than the previous day's done total. */
   const h = spLoadHist();
-  let streak=0, d=spToday();
-  // count today first if any done
-  if((h[d]||0)>0) streak=1;
-  // walk backwards
-  for(let i=1;i<=365;i++){
-    const prev=spAddDays(d,-i);
-    if((h[prev]||0)>0) streak++;
-    else if(i>1) break; // allow today to have 0 without breaking streak from yesterday
+  const today = spToday();
+  const todayDone   = h[today]   || 0;
+  const yesterdone  = h[spAddDays(today,-1)] || 0;
+
+  /* Build a list of active days (days where progress was made) */
+  function madeProgress(ds){
+    const cur  = h[ds] || 0;
+    const prev = h[spAddDays(ds,-1)] || 0;
+    return cur > prev;
   }
-  // also handle: if today has 0 but yesterday had something
-  if((h[d]||0)===0){
-    streak=0;
-    for(let i=1;i<=365;i++){
-      const prev=spAddDays(d,-i);
-      if((h[prev]||0)>0) streak++;
-      else break;
-    }
+
+  let streak = 0;
+  /* Start from today if progress made, else from yesterday */
+  const startOffset = madeProgress(today) ? 0 : 1;
+
+  for(let i=startOffset; i<=365; i++){
+    const ds = spAddDays(today,-i);
+    if(madeProgress(ds)) streak++;
+    else break;
   }
   return streak;
 }
@@ -2356,11 +2773,6 @@ function spStreak(){
 /* ── main render ── */
 function spRender(){
   const prefs = spLoad();
-  const startEl = document.getElementById('sp-start');
-  const examEl  = document.getElementById('sp-exam');
-
-  if(prefs.start && startEl) startEl.value = prefs.start;
-  if(prefs.exam  && examEl)  examEl.value  = prefs.exam;
 
   const noplan   = document.getElementById('sp-noplan');
   const dashboard= document.getElementById('sp-dashboard');
@@ -2384,10 +2796,16 @@ function spRender(){
   const total    = topics.length;
   const done     = topics.filter(t=>isDone(t.paper,t.secId,t.idx)).length;
   const rem      = total - done;
-  const daysLeft = Math.max(0, spDaysBetween(today, prefs.exam));
-  /* float pace for math; ceil for display */
-  const pace     = daysLeft > 0 ? rem / daysLeft : 0;
-  const paceCeil = Math.ceil(pace);          /* never show 0.9, always 1 */
+  const daysLeft      = Math.max(0, spDaysBetween(today, prefs.exam));
+  const totalDays     = Math.max(1, spDaysBetween(prefs.start, prefs.exam));
+  const notStartedYet = today < prefs.start;  /* start date is in the future */
+
+  /* pace = remaining topics ÷ days left in the STUDY WINDOW
+     If not started yet, study window = start→exam (full window).
+     If already started, study window = today→exam (days remaining). */
+  const studyDaysLeft = notStartedYet ? totalDays : Math.max(1, daysLeft);
+  const pace     = studyDaysLeft > 0 ? rem / studyDaysLeft : 0;
+  const paceCeil = Math.ceil(pace);
   const paceWk   = Math.ceil(pace * 7);
 
   /* record today */
@@ -2396,20 +2814,20 @@ function spRender(){
   /* streak */
   const streak = spStreak();
 
-  /* ── schedule status: how many topics ahead/behind ── */
-  const daysSinceStart  = Math.max(1, spDaysBetween(prefs.start, today));
-  const expectedByNow   = Math.round(pace * (daysLeft > 0 ? (total - rem) / total * (total / pace) : 0));
-  /* simpler: expected = (total / totalDays) * daysSinceStart */
-  const totalDays       = spDaysBetween(prefs.start, prefs.exam);
-  const expectedDone    = totalDays > 0 ? (total / totalDays) * daysSinceStart : 0;
-  const delta           = done - expectedDone;   /* + = ahead, - = behind */
-  const absDelta        = Math.abs(Math.round(delta));
+  /* ── schedule status ── */
+  const daysSinceStart = spDaysBetween(prefs.start, today); /* raw, can be negative */
+  const expectedDone   = notStartedYet ? 0 : (total / totalDays) * Math.max(0, daysSinceStart);
+  const delta          = done - expectedDone;   /* + = ahead, - = behind */
+  const absDelta       = Math.abs(Math.round(delta));
+  const daysUntilStart = notStartedYet ? spDaysBetween(today, prefs.start) : 0;
 
   let statusCls, statusTxt;
   if(rem === 0){
     statusCls='ahead'; statusTxt='🎉 All topics done — exam ready!';
   } else if(daysLeft === 0){
     statusCls='behind'; statusTxt='🔴 Exam date passed';
+  } else if(notStartedYet){
+    statusCls='on'; statusTxt=`📅 Study starts in ${daysUntilStart} day${daysUntilStart!==1?'s':''} — get ready!`;
   } else if(delta >= 1){
     statusCls='ahead'; statusTxt=`🟢 Ahead by ~${absDelta} topic${absDelta>1?'s':''} — keep it up!`;
   } else if(delta >= -2){
@@ -2420,7 +2838,11 @@ function spRender(){
 
   /* header subtitle */
   const sub = document.getElementById('sp-hdr-sub');
-  if(sub) sub.textContent = `${done}/${total} done · ${daysLeft} days to exam · need ${paceCeil}/day`;
+  if(notStartedYet){
+    if(sub) sub.textContent = `Starts in ${daysUntilStart}d · ${daysLeft} days to exam · need ${paceCeil}/day from ${prefs.start}`;
+  } else {
+    if(sub) sub.textContent = `${done}/${total} done · ${daysLeft} days to exam · need ${paceCeil}/day`;
+  }
 
   /* stat boxes */
   spSetVal('sp-streak',   streak);
@@ -2514,6 +2936,8 @@ function spRender(){
   let todayCount;
   if(rem === 0){
     todayCount = 0;
+  } else if(notStartedYet){
+    todayCount = 0;
   } else if(roundedDelta >= 3){
     /* comfortably ahead — ease off */
     todayCount = Math.max(1, paceCeil - Math.min(Math.floor(roundedDelta/3), paceCeil - 1));
@@ -2529,7 +2953,10 @@ function spRender(){
   /* schedule note */
   const noteEl = document.getElementById('sp-schedule-note');
   if(noteEl){
-    if(roundedDelta >= 3){
+    if(notStartedYet){
+      noteEl.className='sp-schedule-note visible sn-on';
+      noteEl.textContent=`📅 Study starts ${prefs.start} — plan to cover ${paceCeil} topic${paceCeil!==1?'s':''}/day`;
+    } else if(roundedDelta >= 3){
       noteEl.className='sp-schedule-note visible sn-ahead';
       noteEl.textContent=`✅ You're ${absDelta} topics ahead — lighter load today (${todayCount} topic${todayCount!==1?'s':''})`;
     } else if(roundedDelta <= -3){
@@ -2546,7 +2973,9 @@ function spRender(){
   if(!todayEl) return;
   todayEl.innerHTML='';
 
-  if(todayTopics.length === 0){
+  if(notStartedYet){
+    todayEl.innerHTML=`<div class="sp-topic-empty">📅 Study begins on ${prefs.start} — ${daysUntilStart} day${daysUntilStart!==1?'s':''} to go. Use this time to set up your schedule!</div>`;
+  } else if(todayTopics.length === 0){
     todayEl.innerHTML='<div class="sp-topic-empty">🎉 All topics complete — exam ready!</div>';
   } else {
     todayTopics.forEach(t=>{
@@ -2577,140 +3006,678 @@ function spSetVal(id,val){
 }
 
 function spGoTo(paper,secId,idx){
-  /* switch to correct paper tab */
+  /* switch to correct paper tab — works for both desktop tab-btn and mobile nav */
+  let tabSwitched = false;
   document.querySelectorAll('.tab-btn').forEach(b=>{
     const oc = b.getAttribute('onclick')||'';
     if(oc.includes("'"+paper+"'") && !oc.includes('planner')){
-      if(!b.classList.contains('active')) switchTab(paper,b);
+      if(!b.classList.contains('active')){ switchTab(paper,b); tabSwitched = true; }
+      else tabSwitched = true;
     }
   });
-  /* open section */
+  /* also sync mobile bottom nav */
+  const mbn = document.getElementById('mbn-'+paper);
+  if(mbn && !mbn.classList.contains('active')){
+    document.querySelectorAll('.mob-nav-btn').forEach(b=>b.classList.remove('active'));
+    mbn.classList.add('active');
+    if(!tabSwitched){
+      /* force tab pane switch without needing a visible tab-btn */
+      document.querySelectorAll('.tab-pane').forEach(p=>p.classList.remove('active'));
+      const pane = document.getElementById('tab-'+paper);
+      if(pane) pane.classList.add('active');
+    }
+  }
+
+  /* open section card */
   const card=document.getElementById(`card-${paper}-${secId}`);
   if(card&&!card.classList.contains('open')) card.classList.add('open');
-  /* scroll */
-  setTimeout(()=>{
+
+  /* scroll to the exact topic — use requestAnimationFrame after a small delay
+     so the DOM has fully painted (section open + tab switch) before we measure */
+  const doScroll = () => {
     const el=document.getElementById(`dr-${paper}-${secId}-${idx}`)||
              document.getElementById(`mi-${paper}-${secId}-${idx}`);
     if(el){
       el.scrollIntoView({behavior:'smooth',block:'center'});
       el.style.transition='background .3s';
-      el.style.background='rgba(96,165,250,.12)';
-      setTimeout(()=>{ el.style.background=''; },1400);
+      el.style.background='rgba(96,165,250,.18)';
+      setTimeout(()=>{ el.style.background=''; },1600);
     }
-  },120);
+  };
+  /* Two-frame wait: first rAF lets tab pane become visible,
+     second rAF lets section expand and topic rows render */
+  requestAnimationFrame(()=>requestAnimationFrame(()=>setTimeout(doScroll, 80)));
 }
 
-/* ── PDF download — daily briefing card ── */
+/* ── PDF download — Full Roadmap + Checklist ── */
 function spDownloadPDF(){
   const prefs = spLoad();
-  if(!prefs.start || !prefs.exam){ alert('Set your study dates first.'); return; }
+  if(!prefs.start || !prefs.exam){ alert('Please save valid start and exam dates first.\n\nTip: Make sure dates are valid — e.g. June has only 30 days, not 31.'); return; }
 
-  const today    = spToday();
-  const topics   = spAllTopics();
-  const total    = topics.length;
-  const done     = topics.filter(t=>isDone(t.paper,t.secId,t.idx)).length;
-  const rem      = total - done;
-  const daysLeft = Math.max(0, spDaysBetween(today, prefs.exam));
-  const pace     = daysLeft > 0 ? rem / daysLeft : 0;
-  const paceCeil = Math.ceil(pace);
+  const siteUrl   = 'https://upsca2z.netlify.app/';
+  const today     = spToday();
+  const allTopics = spAllTopics();
+  const total     = allTopics.length;
+  const done      = allTopics.filter(t=>isDone(t.paper,t.secId,t.idx)).length;
+  const daysLeft   = Math.max(0, spDaysBetween(today, prefs.exam));
+  const totalDays  = Math.max(1, spDaysBetween(prefs.start, prefs.exam));
+  const notStarted = today < prefs.start;
+  const studyDays  = notStarted ? totalDays : Math.max(1, daysLeft);
+  const rem        = total - done;
+  const pace       = studyDays > 0 ? rem / studyDays : 0;
+  const paceCeil   = Math.ceil(pace);
+  const pct        = total ? Math.round(done/total*100) : 0;
 
-  const totalDays     = spDaysBetween(prefs.start, prefs.exam);
-  const daysSinceStart= Math.max(1, spDaysBetween(prefs.start, today));
-  const expectedDone  = totalDays > 0 ? (total / totalDays) * daysSinceStart : 0;
-  const delta         = done - expectedDone;
-  const roundedDelta  = Math.round(delta);
-  const absDelta      = Math.abs(roundedDelta);
-
-  let todayCount;
-  const incomplete = topics.filter(t=>!isDone(t.paper,t.secId,t.idx));
-  if(rem===0){ todayCount=0; }
-  else if(roundedDelta>=3){ todayCount=Math.max(1, paceCeil-Math.min(Math.floor(roundedDelta/3),paceCeil-1)); }
-  else if(roundedDelta<=-3){ const cu=Math.min(Math.ceil(absDelta/Math.max(daysLeft,1)),paceCeil); todayCount=Math.min(paceCeil+cu,Math.max(10,paceCeil*2)); }
-  else { todayCount=Math.max(1,paceCeil); }
-  todayCount=Math.min(todayCount,incomplete.length);
-  const todayTopics=incomplete.slice(0,todayCount);
-
-  const todayLabel=new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
-  const pct = total ? Math.round(done/total*100) : 0;
-
-  let statusLine='';
-  if(roundedDelta>=3) statusLine=`✅ Ahead by ${absDelta} topic${absDelta>1?'s':''}`;
-  else if(roundedDelta<=-3) statusLine=`⚡ Behind by ${absDelta} topic${absDelta>1?'s':''}`;
-  else statusLine='🎯 Right on track';
-
-  /* subject progress rows */
-  let subjRows='';
-  ['gs1','csat'].forEach(paper=>{
-    DATA[paper].forEach(sec=>{
-      const T=sec.topics.length;
-      const dn=sec.topics.filter((_,i)=>isDone(paper,sec.id,i)).length;
-      const p=T?Math.round(dn/T*100):0;
-      const bar='█'.repeat(Math.round(p/10))+'░'.repeat(10-Math.round(p/10));
-      subjRows+=`<tr><td>${sec.icon} ${sec.name}</td><td style="font-family:monospace;font-size:10px;color:#555">${bar}</td><td style="text-align:right">${dn}/${T} (${p}%)</td></tr>`;
+  /* ── Build week-by-week roadmap ── */
+  /* Collect all subjects in order with their topics */
+  const allSections = [];
+  ['gs1','csat'].forEach(paper => {
+    DATA[paper].forEach(sec => {
+      allSections.push({ paper, sec });
     });
   });
 
-  /* today's topic rows — with link back to site */
-  const siteUrl = window.location.href.split('#')[0];
-  let topicRows='';
-  if(todayTopics.length===0){
-    topicRows='<tr><td colspan="2" style="color:#16a34a;font-weight:600">🎉 All topics complete — exam ready!</td></tr>';
-  } else {
-    todayTopics.forEach((t,idx)=>{
-      topicRows+=`<tr>
-        <td style="padding:6px 4px">${idx+1}. <a href="${siteUrl}#card-${t.paper}-${t.secId}" style="color:#1d4ed8;text-decoration:none">${t.name}</a></td>
-        <td style="color:#6b7280;font-size:11px;padding:6px 4px">${t.secIcon} ${t.secName}</td>
-      </tr>`;
+  /* Distribute topics across weeks — min 1 topic/week, sensible cap */
+  const numWeeks = Math.max(1, Math.round(totalDays / 7));
+  const topicsPerWeek = Math.max(1, Math.ceil(total / numWeeks));
+  const weeks = [];
+  let weekTopics = [];
+  let weekNum = 1;
+  let startDay = 0;
+
+  allSections.forEach(({ paper, sec }) => {
+    sec.topics.forEach((tp, idx) => {
+      weekTopics.push({ name: tp.n, section: sec.name, icon: sec.icon, color: sec.color, paper, secId: sec.id, idx });
+      if(weekTopics.length >= topicsPerWeek) {
+        const wStart = new Date(prefs.start);
+        wStart.setDate(wStart.getDate() + startDay);
+        const wEnd   = new Date(wStart);
+        wEnd.setDate(wEnd.getDate() + 6);
+        weeks.push({ num: weekNum, topics: weekTopics, startDay, wStart, wEnd });
+        weekNum++;
+        startDay += 7;
+        weekTopics = [];
+      }
     });
+  });
+  if(weekTopics.length > 0) {
+    const wStart = new Date(prefs.start);
+    wStart.setDate(wStart.getDate() + startDay);
+    const wEnd   = new Date(wStart);
+    wEnd.setDate(wEnd.getDate() + 6);
+    weeks.push({ num: weekNum, topics: weekTopics, startDay, wStart, wEnd });
   }
 
-  const html=`<!DOCTYPE html><html><head><meta charset="UTF-8">
-  <title>UPSC A2Z — Daily Briefing ${today}</title>
-  <style>
-    body{font-family:'Segoe UI',Arial,sans-serif;max-width:700px;margin:0 auto;padding:32px;color:#1a1a1a}
-    h1{font-size:22px;margin:0 0 2px}
-    .sub{color:#6b7280;font-size:13px;margin-bottom:20px}
-    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
-    .stat{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:12px;text-align:center}
-    .stat-val{font-size:22px;font-weight:700;color:#1e3a5f}
-    .stat-lbl{font-size:10px;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-top:2px}
-    .status{padding:7px 14px;border-radius:20px;font-size:13px;font-weight:600;display:inline-block;margin-bottom:20px}
-    .ahead{background:#dcfce7;color:#166534} .behind{background:#fee2e2;color:#991b1b} .on{background:#dbeafe;color:#1d4ed8}
-    table{width:100%;border-collapse:collapse;margin-bottom:20px}
-    th{background:#f1f5f9;padding:8px 6px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#64748b;text-align:left}
-    td{padding:7px 6px;border-bottom:1px solid #f1f5f9;font-size:13px;vertical-align:top}
-    h2{font-size:14px;font-weight:600;margin:20px 0 8px;padding-bottom:6px;border-bottom:2px solid #e2e8f0}
-    .footer{font-size:11px;color:#94a3b8;text-align:center;margin-top:24px;padding-top:16px;border-top:1px solid #e2e8f0}
-  </style>
-  </head><body>
-  <h1>📋 UPSC A2Z — Daily Study Briefing</h1>
-  <div class="sub">${todayLabel} &nbsp;·&nbsp; <a href="${siteUrl}" style="color:#1d4ed8">${siteUrl}</a></div>
-  
-  <div class="stats">
-    <div class="stat"><div class="stat-val">${pct}%</div><div class="stat-lbl">Overall Done</div></div>
-    <div class="stat"><div class="stat-val">${done}/${total}</div><div class="stat-lbl">Topics Done</div></div>
-    <div class="stat"><div class="stat-val">${daysLeft}</div><div class="stat-lbl">Days to Exam</div></div>
-    <div class="stat"><div class="stat-val">${paceCeil}/day</div><div class="stat-lbl">Pace Needed</div></div>
+  /* ── Date formatter ── */
+  const fmtDate = d => d.toLocaleDateString('en-IN',{day:'numeric',month:'short'});
+  const fmtDateLong = d => d.toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric'});
+  const genDate = new Date().toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric'});
+
+  /* ── Exam date label ── */
+  const examDate = new Date(prefs.exam);
+  const startDate = new Date(prefs.start);
+
+  /* ── Roadmap weeks HTML ── */
+  const roadmapHtml = weeks.map(w => {
+    /* group this week's topics by section */
+    const bySection = {};
+    w.topics.forEach(t => {
+      if(!bySection[t.section]) bySection[t.section] = { icon: t.icon, color: t.color, topics: [] };
+      bySection[t.section].topics.push(t);
+    });
+
+    const sectionBlocks = Object.entries(bySection).map(([secName, data]) => {
+      const topicList = data.topics.map(t => {
+        const dn = isDone(t.paper, t.secId, t.idx);
+        return `<li class="${dn ? 'wt-done' : ''}">${dn ? '✓ ' : ''}${t.name}</li>`;
+      }).join('');
+      return `<div class="week-section">
+        <div class="week-section-label" style="color:${data.color}">${data.icon} ${secName}</div>
+        <ul class="week-topic-list">${topicList}</ul>
+      </div>`;
+    }).join('');
+
+    /* how many done in this week? */
+    const weekDone = w.topics.filter(t => isDone(t.paper, t.secId, t.idx)).length;
+    const weekPct  = Math.round(weekDone / w.topics.length * 100);
+    const isPast   = w.wEnd < new Date();
+    const isCurrent = !isPast && w.wStart <= new Date();
+
+    return `
+      <div class="week-card ${isPast ? 'week-past' : isCurrent ? 'week-current' : ''}">
+        <div class="week-card-header">
+          <div class="week-left">
+            <span class="week-badge ${isPast ? 'wbadge-past' : isCurrent ? 'wbadge-current' : 'wbadge-future'}">
+              Week ${w.num}
+            </span>
+            <span class="week-dates">${fmtDate(w.wStart)} – ${fmtDate(w.wEnd)}</span>
+            ${isCurrent ? '<span class="week-now-tag">THIS WEEK</span>' : ''}
+          </div>
+          <div class="week-right">
+            <span class="week-count">${w.topics.length} topics</span>
+            <div class="week-bar"><div class="week-bar-fill" style="width:${weekPct}%"></div></div>
+            <span class="week-pct">${weekPct}%</span>
+          </div>
+        </div>
+        <div class="week-body">${sectionBlocks}</div>
+      </div>`;
+  }).join('');
+
+  /* ── Subject summary for cover ── */
+  const summaryRows = ['gs1','csat'].map(paper => {
+    return DATA[paper].map(sec => {
+      const T  = sec.topics.length;
+      const dn = sec.topics.filter((_,i)=>isDone(paper,sec.id,i)).length;
+      const p  = T ? Math.round(dn/T*100) : 0;
+      return `<tr>
+        <td>${sec.icon} ${sec.name}</td>
+        <td>${T}</td>
+        <td><div class="summ-bar"><div class="summ-fill" style="width:${p}%;background:${sec.color}"></div></div></td>
+        <td class="summ-pct">${dn}/${T}</td>
+      </tr>`;
+    }).join('');
+  }).join('');
+
+  /* ── Full HTML ── */
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>UPSC A2Z — Study Roadmap</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet"/>
+<style>
+/* ─────────── RESET ─────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+
+/* ─────────── BASE ─────────── */
+body{
+  font-family:'IBM Plex Sans',sans-serif;
+  background:#f5f0e8;
+  color:#1c1a16;
+  font-size:13px;
+  line-height:1.55;
+}
+
+/* ─────────── PAGE BREAKS ─────────── */
+@media print {
+  .page-break { page-break-before: always; }
+  .no-break { page-break-inside: avoid; }
+  body { background: white; font-size: 11px; }
+  .cover { min-height: 100vh; }
+}
+
+/* ─────────── COVER PAGE ─────────── */
+.cover {
+  min-height: 100vh;
+  background: linear-gradient(160deg, #1c1a16 0%, #2d2720 55%, #3d2b1a 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 48px;
+  position: relative;
+  overflow: hidden;
+}
+.cover::before {
+  content:'';
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse at 15% 20%, rgba(192,57,43,.18) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 80%, rgba(37,99,168,.15) 0%, transparent 50%);
+  pointer-events:none;
+}
+.cover-tricolor {
+  position:absolute; top:0; left:0; right:0;
+  height:5px;
+  background: linear-gradient(90deg, #FF9933 33.3%, #ffffff 33.3% 66.6%, #138808 66.6%);
+}
+.cover-watermark {
+  position:absolute;
+  font-family:'Crimson Pro',serif;
+  font-size:220px;
+  font-weight:700;
+  color:rgba(255,255,255,.03);
+  letter-spacing:-10px;
+  pointer-events:none;
+  user-select:none;
+  white-space:nowrap;
+}
+.cover-logo {
+  display:flex;align-items:center;gap:14px;
+  margin-bottom:48px;
+  position:relative;z-index:1;
+}
+.cover-logo-icon {
+  width:52px;height:52px;
+  background:linear-gradient(135deg,#c0392b,#a93226);
+  border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:26px;
+  box-shadow:0 4px 20px rgba(192,57,43,.4);
+}
+.cover-logo-txt {
+  font-family:'Bricolage Grotesque',sans-serif;
+  font-size:1.6rem;font-weight:800;color:white;letter-spacing:-.02em;
+}
+.cover-logo-txt span{color:#fb923c}
+.cover-main { text-align:center;position:relative;z-index:1;max-width:640px; }
+.cover-eyebrow {
+  font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+  color:#fb923c;font-weight:600;margin-bottom:16px;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+}
+.cover-eyebrow::before,.cover-eyebrow::after{
+  content:''; display:block; height:1px; width:40px; background:#fb923c; opacity:.4;
+}
+.cover-title {
+  font-family:'Crimson Pro',serif;
+  font-size:3.2rem;font-weight:700;
+  color:white;line-height:1.15;
+  margin-bottom:12px;letter-spacing:-.01em;
+}
+.cover-title em { color:#fb923c;font-style:italic; }
+.cover-subtitle {
+  font-size:1.05rem;color:rgba(255,255,255,.55);
+  margin-bottom:48px;line-height:1.6;
+}
+.cover-stats-row {
+  display:flex;gap:2px;justify-content:center;
+  margin-bottom:48px;
+}
+.cover-stat {
+  flex:1;max-width:130px;
+  padding:18px 14px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:10px;
+  text-align:center;
+}
+.cover-stat-val {
+  font-family:'Bricolage Grotesque',sans-serif;
+  font-size:1.9rem;font-weight:800;color:white;
+  line-height:1;
+}
+.cover-stat-val.accent { color:#fb923c; }
+.cover-stat-lbl {
+  font-size:.62rem;color:rgba(255,255,255,.4);
+  text-transform:uppercase;letter-spacing:.1em;
+  margin-top:5px;
+}
+.cover-progress-wrap { margin-bottom:48px; width:100%; max-width:420px; }
+.cover-bar-label {
+  display:flex;justify-content:space-between;
+  font-size:.72rem;color:rgba(255,255,255,.4);
+  margin-bottom:8px;letter-spacing:.04em;
+  text-transform:uppercase;
+}
+.cover-bar {
+  height:8px;background:rgba(255,255,255,.1);border-radius:4px;overflow:hidden;
+}
+.cover-bar-fill {
+  height:100%;border-radius:4px;
+  background:linear-gradient(90deg,#c0392b,#fb923c);
+  transition:width .5s ease;
+}
+.cover-meta {
+  font-size:.75rem;color:rgba(255,255,255,.3);
+  text-align:center;position:relative;z-index:1;
+  margin-top:auto;
+  line-height:1.8;
+}
+.cover-meta a { color:rgba(251,146,60,.7);text-decoration:none; }
+.cover-dates-pill {
+  display:inline-flex;align-items:center;gap:10px;
+  padding:10px 22px;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);
+  border-radius:30px;
+  font-size:.78rem;color:rgba(255,255,255,.6);
+  margin-bottom:32px;
+}
+.cover-dates-pill strong { color:white; }
+
+/* ─────────── SECTION HEADER ─────────── */
+.section-title-page {
+  background:linear-gradient(135deg,#1c1a16 0%,#2d2720 100%);
+  padding:56px 60px;
+  position:relative;overflow:hidden;
+}
+.section-title-page::after {
+  content:'';position:absolute;bottom:0;left:0;right:0;
+  height:4px;background:linear-gradient(90deg,#c0392b 0%,#fb923c 50%,transparent 100%);
+}
+.stp-eyebrow {
+  font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;
+  color:#fb923c;font-weight:600;margin-bottom:10px;
+}
+.stp-num {
+  font-family:'Crimson Pro',serif;
+  font-size:5rem;font-weight:700;
+  color:rgba(255,255,255,.06);
+  position:absolute;top:20px;right:48px;
+  line-height:1;
+}
+.stp-title {
+  font-family:'Crimson Pro',serif;
+  font-size:2.2rem;font-weight:700;color:white;
+  line-height:1.2;margin-bottom:8px;
+}
+.stp-sub { font-size:.82rem;color:rgba(255,255,255,.4); }
+
+/* ─────────── ROADMAP ─────────── */
+.roadmap-wrap { padding:48px 52px;background:#f5f0e8; }
+.roadmap-intro {
+  font-family:'Crimson Pro',serif;
+  font-size:1.05rem;color:#5a5446;
+  margin-bottom:32px;line-height:1.7;
+  max-width:700px;
+  border-left:3px solid #c0392b;
+  padding-left:16px;
+}
+.week-card {
+  background:#faf7f2;
+  border:1px solid #ddd6c8;
+  border-radius:12px;
+  margin-bottom:18px;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+.week-card.week-past { opacity:.72; }
+.week-card.week-current {
+  border-color:#c0392b;
+  box-shadow:0 0 0 2px rgba(192,57,43,.12), 0 4px 16px rgba(0,0,0,.08);
+}
+.week-card-header {
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 20px;
+  background:#f0ebe0;
+  border-bottom:1px solid #e8e1d4;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.week-left { display:flex;align-items:center;gap:10px; }
+.week-badge {
+  font-family:'Bricolage Grotesque',sans-serif;
+  font-size:.72rem;font-weight:700;
+  padding:3px 10px;border-radius:12px;
+  letter-spacing:.04em;text-transform:uppercase;
+}
+.wbadge-future { background:#e8e1d4;color:#5a5446; }
+.wbadge-current { background:#c0392b;color:white; }
+.wbadge-past { background:rgba(30,126,76,.12);color:#1e7e4c; }
+.week-dates { font-size:.76rem;color:#9a9082;font-weight:500; }
+.week-now-tag {
+  font-size:.6rem;font-weight:700;letter-spacing:.12em;
+  color:#c0392b;text-transform:uppercase;
+  padding:2px 8px;border:1px solid rgba(192,57,43,.3);border-radius:8px;
+}
+.week-right { display:flex;align-items:center;gap:10px; }
+.week-count { font-size:.72rem;color:#9a9082; }
+.week-bar {
+  width:80px;height:5px;background:#ddd6c8;border-radius:3px;overflow:hidden;
+}
+.week-bar-fill { height:100%;background:#1e7e4c;border-radius:3px; }
+.week-pct { font-size:.72rem;font-weight:600;color:#1c1a16;width:30px;text-align:right; }
+.week-body { padding:16px 20px;display:flex;flex-wrap:wrap;gap:16px; }
+.week-section { flex:1;min-width:260px; }
+.week-section-label {
+  font-size:.7rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;margin-bottom:7px;
+}
+.week-topic-list { list-style:none;display:flex;flex-direction:column;gap:4px; }
+.week-topic-list li {
+  font-size:.78rem;color:#1c1a16;padding:4px 8px 4px 10px;
+  border-left:2px solid #e8e1d4;
+  line-height:1.4;
+}
+.week-topic-list li.wt-done {
+  color:#9a9082;text-decoration:line-through;
+  border-left-color:#1e7e4c;
+}
+
+/* ─────────── CHECKLIST ─────────── */
+.checklist-wrap { padding:48px 52px;background:#f5f0e8; }
+.paper-title-bar {
+  padding:14px 20px;border-radius:8px;
+  margin-bottom:20px;display:flex;align-items:center;
+}
+.paper-section { margin-bottom:40px; }
+.sec-block { margin-bottom:22px; }
+.sec-header {
+  display:flex;align-items:center;gap:12px;
+  padding:11px 16px;
+  background:#faf7f2;border:1px solid #ddd6c8;
+  border-radius:8px 8px 0 0;
+  margin-bottom:0;
+}
+.sec-icon { font-size:1.1rem; }
+.sec-header-body { flex:1; }
+.sec-name { font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:.88rem;display:block; }
+.sec-meta { font-size:.65rem;color:#9a9082;display:block;margin-top:1px; }
+.sec-mini-bar {
+  width:70px;height:5px;background:#e8e1d4;border-radius:3px;overflow:hidden;flex-shrink:0;
+}
+.sec-mini-fill { height:100%;border-radius:3px; }
+.topic-table {
+  width:100%;border-collapse:collapse;
+  border:1px solid #ddd6c8;border-top:none;border-radius:0 0 8px 8px;overflow:hidden;
+}
+.topic-table thead th {
+  background:#f0ebe0;padding:7px 10px;
+  font-size:.62rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.07em;color:#9a9082;text-align:left;
+  border-bottom:1px solid #ddd6c8;
+}
+.topic-table tbody tr { border-bottom:1px solid #f0ebe0; }
+.topic-table tbody tr:last-child { border-bottom:none; }
+.topic-table tbody tr.done-row { background:rgba(30,126,76,.03); }
+.topic-table tbody tr:hover { background:rgba(0,0,0,.015); }
+.topic-table td { padding:8px 10px;vertical-align:middle; }
+.cb-cell { width:28px;text-align:center; }
+.num-cell { width:28px;font-size:.65rem;color:#9a9082;font-weight:500; }
+.topic-cell { font-size:.8rem;color:#1c1a16;line-height:1.4; }
+.src-cell { font-size:.65rem;color:#9a9082;width:110px; }
+.status-cell { width:60px;text-align:center; }
+.checkbox {
+  display:inline-block;width:14px;height:14px;
+  border:1.5px solid #9a9082;border-radius:3px;
+  vertical-align:middle;
+}
+.checkbox.checked {
+  background:#1e7e4c;border-color:#1e7e4c;
+  position:relative;
+}
+.checkbox.checked::after {
+  content:'✓';
+  position:absolute;top:-2px;left:1px;
+  font-size:10px;color:white;font-weight:700;
+}
+.status-done { font-size:.65rem;font-weight:600;color:#1e7e4c; }
+.status-pending { font-size:.65rem;color:#ddd6c8; }
+.done-row .topic-cell { color:#9a9082;text-decoration:line-through;text-decoration-color:#ddd6c8; }
+
+/* ─────────── SUBJECT SUMMARY TABLE ─────────── */
+.summ-table { width:100%;border-collapse:collapse;margin-bottom:32px; }
+.summ-table th {
+  background:#f0ebe0;padding:8px 12px;
+  font-size:.63rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.08em;color:#9a9082;text-align:left;
+  border-bottom:2px solid #ddd6c8;
+}
+.summ-table td { padding:9px 12px;border-bottom:1px solid #f0ebe0;font-size:.82rem;vertical-align:middle; }
+.summ-bar {
+  width:120px;height:6px;background:#e8e1d4;border-radius:3px;overflow:hidden;
+}
+.summ-fill { height:100%;border-radius:3px; }
+.summ-pct { font-weight:600;font-size:.76rem;width:50px;text-align:right; }
+
+/* ─────────── FOOTER STRIP ─────────── */
+.doc-footer {
+  background:#1c1a16;
+  padding:22px 52px;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;
+  border-top:3px solid transparent;
+  border-image:linear-gradient(90deg,#FF9933 33%,#ffffff 33% 66%,#138808 66%) 1;
+}
+.df-left { font-size:.72rem;color:rgba(255,255,255,.35);line-height:1.7; }
+.df-left strong { color:rgba(255,255,255,.7); }
+.df-right a {
+  display:inline-flex;align-items:center;gap:7px;
+  padding:8px 18px;
+  background:#c0392b;border-radius:6px;
+  color:white;font-size:.76rem;font-weight:600;text-decoration:none;
+  letter-spacing:.02em;
+}
+
+/* ─────────── PRINT UTILITIES ─────────── */
+@media print {
+  .week-card { break-inside: avoid; }
+  .sec-block { break-inside: avoid; }
+  .roadmap-wrap, .checklist-wrap { padding: 24px 32px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════
+     COVER PAGE
+═══════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-tricolor"></div>
+  <div class="cover-watermark">UPSC</div>
+
+  <div class="cover-logo">
+    <div class="cover-logo-icon">📋</div>
+    <div class="cover-logo-txt">UPSC <span>A2Z</span></div>
   </div>
-  
-  <span class="status ${roundedDelta>=3?'ahead':roundedDelta<=-3?'behind':'on'}">${statusLine}</span>
 
-  <h2>📚 Today's ${todayTopics.length} Target${todayTopics.length!==1?'s':''}</h2>
-  <table><thead><tr><th>Topic</th><th>Subject</th></tr></thead><tbody>${topicRows}</tbody></table>
-  <p style="font-size:11px;color:#94a3b8">Click any topic to open it directly on the tracker →</p>
+  <div class="cover-main">
+    <div class="cover-eyebrow">Personalised Study Plan</div>
+    <div class="cover-title">Your <em>Complete</em><br>UPSC Prelims Roadmap</div>
+    <div class="cover-subtitle">Week-by-week schedule · Full topic checklist<br>Tailored to your exam date</div>
 
-  <h2>📊 Subject Progress</h2>
-  <table><thead><tr><th>Subject</th><th>Progress</th><th style="text-align:right">Done</th></tr></thead><tbody>${subjRows}</tbody></table>
+    <div class="cover-dates-pill">
+      <span>📅 Start: <strong>${fmtDateLong(startDate)}</strong></span>
+      <span style="opacity:.4">→</span>
+      <span>🎯 Exam: <strong>${fmtDateLong(examDate)}</strong></span>
+    </div>
 
-  <div class="footer">Generated by UPSC A2Z Sheet · <a href="${siteUrl}" style="color:#1d4ed8">Open Tracker</a> · Progress saved in your browser</div>
-  </body></html>`;
+    <div class="cover-stats-row">
+      <div class="cover-stat">
+        <div class="cover-stat-val accent">${total}</div>
+        <div class="cover-stat-lbl">Total Topics</div>
+      </div>
+      <div class="cover-stat">
+        <div class="cover-stat-val">${weeks.length}</div>
+        <div class="cover-stat-lbl">Weeks Planned</div>
+      </div>
+      <div class="cover-stat">
+        <div class="cover-stat-val">${done}</div>
+        <div class="cover-stat-lbl">Done So Far</div>
+      </div>
+      <div class="cover-stat">
+        <div class="cover-stat-val">${daysLeft}</div>
+        <div class="cover-stat-lbl">Days Left</div>
+      </div>
+    </div>
 
-  const blob=new Blob([html],{type:'text/html'});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');
-  a.href=url; a.download=`UPSC-A2Z-Daily-${today}.html`;
-  a.click();
-  setTimeout(()=>URL.revokeObjectURL(url),2000);
+    <div class="cover-progress-wrap">
+      <div class="cover-bar-label">
+        <span>Overall Progress</span>
+        <span>${pct}%</span>
+      </div>
+      <div class="cover-bar">
+        <div class="cover-bar-fill" style="width:${pct}%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-meta">
+    Generated on ${genDate}<br>
+    Track your progress digitally at <a href="${siteUrl}">${siteUrl}</a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     PART 1: SUBJECT OVERVIEW
+═══════════════════════════════════ -->
+<div class="page-break">
+  <div class="section-title-page">
+    <div class="stp-eyebrow">Part One</div>
+    <div class="stp-num">01</div>
+    <div class="stp-title">Subject Overview<br>&amp; Current Progress</div>
+    <div class="stp-sub">A bird's eye view of all subjects and how far along you are</div>
+  </div>
+  <div class="roadmap-wrap">
+    <p class="roadmap-intro">
+      You have <strong>${total} topics</strong> spread across <strong>2 papers</strong> and <strong>${['gs1','csat'].reduce((a,p)=>a+DATA[p].length,0)} subjects</strong>.
+      Below is a snapshot of completion per subject — use this to identify where to focus.
+    </p>
+    <table class="summ-table">
+      <thead><tr><th>Subject</th><th>Topics</th><th>Progress</th><th style="text-align:right">Done</th></tr></thead>
+      <tbody>${summaryRows}</tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     PART 2: WEEK-BY-WEEK ROADMAP
+═══════════════════════════════════ -->
+<div class="page-break">
+  <div class="section-title-page">
+    <div class="stp-eyebrow">Part Two</div>
+    <div class="stp-num">02</div>
+    <div class="stp-title">Week-by-Week<br>Study Roadmap</div>
+    <div class="stp-sub">${weeks.length} weeks · ${Math.round(total/Math.max(weeks.length,1))} topics/week avg · Stick this on your wall</div>
+  </div>
+  <div class="roadmap-wrap">
+    <p class="roadmap-intro">
+      Each week is a self-contained sprint. Complete the assigned topics, tick them off on the tracker,
+      and move forward. Weeks you've already completed are shown in green — keep the momentum going.
+    </p>
+    ${roadmapHtml}
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     FOOTER
+═══════════════════════════════════ -->
+<div class="doc-footer">
+  <div class="df-left">
+    <strong>UPSC A2Z Sheet</strong> — Your Complete Prelims Tracker<br>
+    Generated ${genDate} · Progress reflects data saved in your browser
+  </div>
+  <a href="${siteUrl}">🔗 Open Digital Tracker →</a>
+</div>
+
+<script>
+/* Auto-open print dialog so the user can Save as PDF */
+window.addEventListener('load', function() {
+  setTimeout(function() { window.print(); }, 800);
+});
+<\/script>
+
+</body>
+</html>`;
+
+  const blob = new Blob([html], {type:'text/html'});
+  const url  = URL.createObjectURL(blob);
+
+  /* Open in new tab — works reliably on all browsers including Safari and file:// */
+  const newTab = window.open(url, '_blank');
+  if(!newTab) {
+    /* Popup blocked — fall back to download link */
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `UPSC-A2Z-Roadmap-${today}.html`;
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  setTimeout(() => URL.revokeObjectURL(url), 8000);
 }
 
 /* hook into refreshUI so planner updates on every checkbox change */
@@ -2718,10 +3685,16 @@ function refreshPlanner(){ spRender(); }
 
 /* ── init ── */
 (function spInit(){
-  // date inputs live-update — defer until DOM is ready
   window.addEventListener('DOMContentLoaded', ()=>{
     const sEl = document.getElementById('sp-start');
     const eEl = document.getElementById('sp-exam');
+
+    /* Populate inputs once from storage on load — spRender no longer touches them */
+    const saved = spLoad();
+    if(sEl && saved.start) sEl.value = saved.start;
+    if(eEl && saved.exam)  eEl.value = saved.exam;
+
+    /* Live-save when either date picker changes */
     if(sEl) sEl.addEventListener('change',()=>{
       const s=sEl.value, e=eEl?eEl.value:'';
       if(s&&e&&e>s){ spSavePrefs({start:s,exam:e}); spRender(); }
@@ -2818,7 +3791,7 @@ function qGetScore(p, s, i) { return _qMem[qKey(p, s, i)] || null; }
 
 function qSetScore(p, s, i, score, total) {
   const k = qKey(p, s, i);
-  const v = { score, total, date: new Date().toISOString().slice(0, 10) };
+  const _qd=new Date(); const v = { score, total, date: `${_qd.getFullYear()}-${String(_qd.getMonth()+1).padStart(2,'0')}-${String(_qd.getDate()).padStart(2,'0')}` };
   _qMem[k] = v;
   _qIDBPut(k, v).catch(() => {});
   /* also mirror to localStorage as belt-and-suspenders */
@@ -3032,6 +4005,36 @@ document.getElementById('qmodal').addEventListener('click', function(e) {
   if (e.target === this) qClose();
 });
 
+
+/* ════════════════════════════════════
+   MOBILE NAV BRIDGE
+════════════════════════════════════ */
+function mobSwitchTab(id, btn) {
+  /* sync the existing desktop tab system */
+  const desktopBtn = document.querySelector(`.tab-btn[onclick*="'${id}'"]`);
+  if (desktopBtn) switchTab(id, desktopBtn);
+
+  /* update bottom nav active state */
+  document.querySelectorAll('.mob-nav-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  /* scroll to top smoothly */
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* Keep desktop tabs and bottom nav in sync */
+const _origSwitchTab = switchTab;
+// already defined above — patch after definition via override
+(function patchSwitchTab() {
+  const orig = window.switchTab;
+  window.switchTab = function(id, btn) {
+    orig(id, btn);
+    /* sync mobile nav */
+    document.querySelectorAll('.mob-nav-btn').forEach(b => b.classList.remove('active'));
+    const mbn = document.getElementById('mbn-' + id);
+    if (mbn) mbn.classList.add('active');
+  };
+})();
 
 qInitStorage().finally(_initApp);
 
