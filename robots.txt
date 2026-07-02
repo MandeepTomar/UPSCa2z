@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://upsca2z.com/sitemap.xml
