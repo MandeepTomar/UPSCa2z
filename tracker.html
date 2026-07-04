@@ -1341,7 +1341,7 @@ body {
 <!-- HEADER -->
 <header class="hdr">
   <div class="hdr-inner">
-    <a class="logo" href="#">
+    <a class="logo" href="index.html">
       <div class="logo-icon">📋</div>
       <div class="logo-txt">UPSC <span>A2Z</span></div>
     </a>
@@ -1604,7 +1604,7 @@ body {
 <div class="modal-bg" id="modal">
   <div class="modal">
     <h3>⚠️ Reset All Progress?</h3>
-    <p>This will erase all completed topics, revisions, and important marks. Cannot be undone.</p>
+    <p>This will erase all completed topics, revisions, important marks, quiz scores, and your study planner (dates, streak, history). Cannot be undone.</p>
     <div class="modal-btns">
       <button class="mbtn" onclick="closeModal()">Cancel</button>
       <button class="mbtn danger" onclick="doReset()">Yes, Reset</button>
@@ -2492,6 +2492,21 @@ function totals() {
   return { d, r, t };
 }
 
+/* ── Cross-tab sync: if progress changes in another tab, reload it here
+   instead of silently overwriting it on our next save. Without this, having
+   the tracker open in two tabs can cause one tab's progress to vanish. ── */
+window.addEventListener('storage', function(e) {
+  if (!e.key) return; // storage.clear() case — ignore, too broad to safely handle
+  if (e.key === K.d) { D = load(K.d); renderPaper('gs1'); renderPaper('csat'); refreshUI(); }
+  else if (e.key === K.r) { R = load(K.r); renderPaper('gs1'); renderPaper('csat'); refreshUI(); }
+  else if (e.key === K.i) { I = load(K.i); renderPaper('gs1'); renderPaper('csat'); refreshUI(); }
+  else if (e.key === SPK || e.key === SPH) { spRender(); }
+  else if (e.key === QK) {
+    try { Object.assign(_qMem, JSON.parse(e.newValue || '{}')); } catch {}
+    renderPaper('gs1'); renderPaper('csat');
+  }
+});
+
 /* ════════════════════════════════════
    FILTER STATE
 ════════════════════════════════════ */
@@ -2864,6 +2879,19 @@ function doReset() {
   ['gs1','csat'].forEach(p => {
     const fb = document.getElementById(p + '-fb'); if (fb) fb.classList.remove('active-filter');
   });
+
+  /* also clear quiz scores — both the in-memory mirror and IndexedDB/localStorage */
+  Object.keys(_qMem).forEach(k => { delete _qMem[k]; _qIDBDelete(k).catch(() => {}); });
+  try { localStorage.removeItem(QK); } catch {}
+
+  /* also clear planner: start/exam dates, streak history */
+  try { localStorage.removeItem(SPK); } catch {}
+  try { localStorage.removeItem(SPH); } catch {}
+  const sEl = document.getElementById('sp-start');
+  const eEl = document.getElementById('sp-exam');
+  if (sEl) sEl.value = '';
+  if (eEl) eEl.value = '';
+
   closeModal();
   renderPaper('gs1');
   renderPaper('csat');
@@ -3394,6 +3422,13 @@ function spDownloadPDF(){
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 
+/* Force a real, consistent page size for print/Save-as-PDF regardless of
+   the device's screen width — without this, mobile browsers lay the
+   document out at phone-screen width instead of page width, which is
+   what squeezes the cards and clips table text. */
+@page { size: A4; margin: 14mm 12mm; }
+html, body { max-width: 100%; overflow-x: hidden; }
+
 /* ─────────── BASE ─────────── */
 body{
   font-family:'IBM Plex Sans',sans-serif;
@@ -3633,6 +3668,7 @@ body{
   font-size:.78rem;color:#1c1a16;padding:4px 8px 4px 10px;
   border-left:2px solid #e8e1d4;
   line-height:1.4;
+  overflow-wrap:break-word;word-break:break-word;
 }
 .week-topic-list li.wt-done {
   color:#9a9082;text-decoration:line-through;
@@ -3679,8 +3715,8 @@ body{
 .topic-table td { padding:8px 10px;vertical-align:middle; }
 .cb-cell { width:28px;text-align:center; }
 .num-cell { width:28px;font-size:.65rem;color:#9a9082;font-weight:500; }
-.topic-cell { font-size:.8rem;color:#1c1a16;line-height:1.4; }
-.src-cell { font-size:.65rem;color:#9a9082;width:110px; }
+.topic-cell { font-size:.8rem;color:#1c1a16;line-height:1.4;overflow-wrap:break-word;word-break:break-word; }
+.src-cell { font-size:.65rem;color:#9a9082;max-width:110px;overflow-wrap:break-word; }
 .status-cell { width:60px;text-align:center; }
 .checkbox {
   display:inline-block;width:14px;height:14px;
@@ -3739,6 +3775,37 @@ body{
   .week-card { break-inside: avoid; }
   .sec-block { break-inside: avoid; }
   .roadmap-wrap, .checklist-wrap { padding: 24px 32px; }
+}
+
+/* ─────────── MOBILE-FRIENDLY FALLBACK ───────────
+   Applies when this file is viewed on a phone screen (not just printed) —
+   e.g. if the print dialog is dismissed, or the browser renders the
+   print-to-PDF output at screen width instead of true page width. */
+@media screen and (max-width: 640px), print and (max-width: 640px) {
+  .cover { padding: 40px 20px; }
+  .cover-title { font-size: 2rem; }
+  .cover-subtitle { font-size: .9rem; margin-bottom: 32px; }
+  .cover-stats-row { flex-wrap: wrap; gap: 10px; margin-bottom: 32px; }
+  .cover-stat { flex: 1 1 40%; max-width: none; }
+  .cover-dates-pill { flex-wrap: wrap; justify-content: center; text-align: center; }
+  .cover-watermark { font-size: 110px; }
+
+  .section-title-page { padding: 32px 20px; }
+  .stp-title { font-size: 1.5rem; }
+  .stp-num { font-size: 3rem; right: 20px; top: 12px; }
+
+  .roadmap-wrap, .checklist-wrap { padding: 24px 16px; }
+  .roadmap-intro { padding-left: 12px; font-size: .92rem; }
+
+  .week-card-header { padding: 12px 14px; }
+  .week-body { padding: 12px 14px; flex-direction: column; }
+  .week-section { min-width: 0; width: 100%; }
+
+  .summ-table, .topic-table { font-size: .72rem; }
+  .summ-bar, .sec-mini-bar { width: 60px; }
+  .src-cell { max-width: 70px; }
+
+  .doc-footer { padding: 18px 20px; flex-direction: column; align-items: flex-start; }
 }
 </style>
 </head>
@@ -3973,16 +4040,21 @@ function _qIDBDelete(k) {
 function qInitStorage() {
   return _qIDBGetAll().then(data => {
     Object.assign(_qMem, data);
-    /* If IDB was empty, try migrating from localStorage */
-    if (!Object.keys(data).length) {
-      try {
-        const ls = JSON.parse(localStorage.getItem(QK) || '{}');
-        Object.entries(ls).forEach(([k, v]) => {
+    /* Reconcile with localStorage every time (not just when IDB is empty) —
+       a previously-failed IDB write (private browsing, quota, etc.) would
+       otherwise leave IDB silently stale forever, since IDB is treated as
+       primary. Compare by date and keep whichever side is newer/present. */
+    try {
+      const ls = JSON.parse(localStorage.getItem(QK) || '{}');
+      Object.entries(ls).forEach(([k, v]) => {
+        const existing = _qMem[k];
+        const lsIsNewer = !existing || (v && v.date && (!existing.date || v.date >= existing.date));
+        if (lsIsNewer) {
           _qMem[k] = v;
-          _qIDBPut(k, v).catch(() => {});
-        });
-      } catch {}
-    }
+          _qIDBPut(k, v).catch(err => console.warn('Quiz score IDB resync failed for', k, err));
+        }
+      });
+    } catch {}
   }).catch(() => {
     /* IDB unavailable — fall back to localStorage only */
     try { Object.assign(_qMem, JSON.parse(localStorage.getItem(QK) || '{}')); } catch {}
@@ -3996,7 +4068,7 @@ function qSetScore(p, s, i, score, total) {
   const k = qKey(p, s, i);
   const _qd=new Date(); const v = { score, total, date: `${_qd.getFullYear()}-${String(_qd.getMonth()+1).padStart(2,'0')}-${String(_qd.getDate()).padStart(2,'0')}` };
   _qMem[k] = v;
-  _qIDBPut(k, v).catch(() => {});
+  _qIDBPut(k, v).catch(err => console.warn('Quiz score IDB write failed, localStorage mirror still saved:', err));
   /* also mirror to localStorage as belt-and-suspenders */
   try { localStorage.setItem(QK, JSON.stringify(_qMem)); } catch {}
 }
@@ -4004,10 +4076,10 @@ function qSetScore(p, s, i, score, total) {
 /* Legacy stubs kept so nothing else breaks */
 function qLoad() { return { ..._qMem }; }
 function qSave(d) {
-  Object.keys(_qMem).forEach(k => { if (!(k in d)) { delete _qMem[k]; _qIDBDelete(k).catch(() => {}); } });
+  Object.keys(_qMem).forEach(k => { if (!(k in d)) { delete _qMem[k]; _qIDBDelete(k).catch(err => console.warn('Quiz score IDB delete failed:', err)); } });
   Object.entries(d).forEach(([k, v]) => {
     _qMem[k] = v;
-    _qIDBPut(k, v).catch(() => {});
+    _qIDBPut(k, v).catch(err => console.warn('Quiz score IDB write failed, localStorage mirror still saved:', err));
   });
   try { localStorage.setItem(QK, JSON.stringify(_qMem)); } catch {}
 }
