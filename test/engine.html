@@ -7,10 +7,10 @@
 <meta name="description" content="Attempt the official UPSC Prelims 2026 GS Paper 1 online with a 2-hour timer, negative marking, score analysis, and answer review. Free, no signup needed. All 100 questions with explanations."/>
 <meta name="keywords" content="UPSC Prelims 2026 question paper, UPSC 2026 GS Paper 1, UPSC Prelims 2026 online attempt, UPSC previous year paper 2026, UPSC 2026 answer key"/>
 <meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://upsca2z.com/upsc-prelims-2026-question-paper/"/>
-<meta property="og:title" content="UPSC Prelims 2026 Question Paper – Attempt Online Free | UPSC A2Z"/>
+<link rel="canonical" href="https://upsca2z.com/upsc-prelims-2026-question-paper/" id="canonical-link"/>
+<meta property="og:title" content="UPSC Prelims 2026 Question Paper – Attempt Online Free | UPSC A2Z" id="og-title"/>
 <meta property="og:description" content="Attempt the full UPSC Prelims 2026 GS Paper 1 online — 100 questions, 2-hour timer, score card with subject analysis. Free, no login."/>
-<meta property="og:url" content="https://upsca2z.com/upsc-prelims-2026-question-paper/"/>
+<meta property="og:url" content="https://upsca2z.com/upsc-prelims-2026-question-paper/" id="og-url"/>
 <meta property="og:site_name" content="UPSC A2Z"/>
 <meta property="og:locale" content="en_IN"/>
 <meta property="og:image" content="https://upsca2z.com/og-image.jpg"/>
@@ -561,8 +561,26 @@
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     background: var(--green);
     display: flex; align-items: center; justify-content: space-between;
-    padding: 12px 20px;
+    padding: 12px 20px; gap: 12px; flex-wrap: wrap;
   }
+  .review-filters {
+    display: flex; gap: 6px; flex-wrap: wrap;
+  }
+  .rf-btn {
+    background: rgba(255,255,255,0.15); color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 5px 12px; border-radius: 20px;
+    font-size: 12px; font-weight: 600; cursor: pointer;
+    font-family: var(--font-body);
+    transition: all 0.15s;
+  }
+  .rf-btn:hover { background: rgba(255,255,255,0.25); }
+  .rf-btn.active { background: white; color: var(--dark); }
+  .p-btn.result-correct { background: var(--green); color: white; }
+  .p-btn.result-wrong { background: var(--red); color: white; }
+  .p-btn.result-skipped { background: #D1D5DB; color: #6B7280; }
+  .p-btn.filtered-out { opacity: 0.25; pointer-events: none; }
+  .p-btn.was-flagged { box-shadow: inset 0 0 0 2px var(--orange); }
   .review-banner span {
     color: white; font-family: var(--font-heading);
     font-weight: 600; font-size: 14px;
@@ -688,8 +706,6 @@
       <div class="question-inner">
         <div class="q-header">
           <div class="q-num-badge" id="q-num-badge">Q 1 / 100</div>
-          <div class="q-subject-tag" id="q-subject-tag">Subject</div>
-          <div class="q-topic-tag" id="q-topic-tag">Topic</div>
         </div>
         <div class="q-card">
           <div class="q-text" id="q-text"></div>
@@ -752,6 +768,13 @@
 <!-- Review Mode Banner (shown during review) -->
 <div class="review-banner" id="review-banner" style="display:none">
   <span>📖 Review Mode — Answers shown</span>
+  <div class="review-filters" id="review-filters">
+    <button class="rf-btn active" data-filter="all" onclick="setReviewFilter('all')">All</button>
+    <button class="rf-btn" data-filter="correct" onclick="setReviewFilter('correct')">✓ Correct</button>
+    <button class="rf-btn" data-filter="wrong" onclick="setReviewFilter('wrong')">✕ Wrong</button>
+    <button class="rf-btn" data-filter="skipped" onclick="setReviewFilter('skipped')">Skipped</button>
+    <button class="rf-btn" data-filter="flagged" onclick="setReviewFilter('flagged')">🔖 Marked</button>
+  </div>
   <button class="btn-back-results" onclick="showResults()">← Back to Results</button>
 </div>
 
@@ -884,6 +907,21 @@ async function init() {
     document.getElementById('test-paper-sub').textContent = `${data.paper} · Set ${data.set || 'A'}`;
     document.getElementById('results-title').textContent = `UPSC Prelims ${data.year} — ${data.paper}`;
 
+    // Fix: canonical/OG tags were hardcoded to the 2026 page even when
+    // this same engine is loaded for other years via ?year=2010..2025.
+    // Point each year's crawl at its own canonical URL instead.
+    const isDefaultYear = String(data.year) === '2026';
+    const canonicalUrl = isDefaultYear
+      ? 'https://upsca2z.com/upsc-prelims-2026-question-paper/'
+      : `https://upsca2z.com/test/engine.html?year=${data.year}`;
+    const canonicalEl = document.getElementById('canonical-link');
+    if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
+    const ogUrlEl = document.getElementById('og-url');
+    if (ogUrlEl) ogUrlEl.setAttribute('content', canonicalUrl);
+    const ogTitleEl = document.getElementById('og-title');
+    if (ogTitleEl) ogTitleEl.setAttribute('content', `UPSC Prelims ${data.year} Question Paper – Attempt Online Free | UPSC A2Z`);
+    document.title = `UPSC Prelims ${data.year} Mock Test – UPSC A2Z`;
+
     State.timeRemaining = data.duration;
 
     // Hide loading, show intro
@@ -973,8 +1011,9 @@ function renderQuestion(idx) {
   State.currentQ = idx;
 
   document.getElementById('q-num-badge').textContent = `Q ${idx + 1} / ${State.questions.length}`;
-  document.getElementById('q-subject-tag').textContent = q.subject;
-  document.getElementById('q-topic-tag').textContent = q.topic;
+  // Subject/topic intentionally hidden from students during the test
+  // (avoids giving away hints — real UPSC papers show no such labels).
+  // q.subject is still used later for the results-screen subject breakdown.
   document.getElementById('q-text').textContent = q.question;
   document.getElementById('mob-qinfo').textContent = `Q ${idx + 1} / ${State.questions.length}`;
 
@@ -1031,10 +1070,18 @@ function renderQuestion(idx) {
   const next = document.getElementById('btn-next');
   if (prev) prev.disabled = idx === 0;
   if (next) {
-    next.textContent = idx === State.questions.length - 1 ? 'Submit →' : 'Next →';
-    if (idx === State.questions.length - 1 && !locked) {
+    const isLast = idx === State.questions.length - 1;
+    if (isLast && !locked) {
+      next.textContent = 'Submit →';
       next.onclick = openSubmitModal;
+    } else if (isLast && locked) {
+      // Review mode on the last question — nothing further to navigate to.
+      next.textContent = 'Last Question';
+      next.disabled = true;
+      next.onclick = null;
     } else {
+      next.textContent = 'Next →';
+      next.disabled = false;
       next.onclick = () => navigate(1);
     }
   }
@@ -1096,6 +1143,33 @@ function goToQuestion(idx) {
 // ============================================================
 // PALETTE
 // ============================================================
+function getQuestionResult(idx) {
+  const q = State.questions[idx];
+  const ans = State.answers[idx];
+  if (ans === undefined) return 'skipped';
+  return ans === q.correct ? 'correct' : 'wrong';
+}
+
+function questionMatchesFilter(idx) {
+  const filter = State.reviewFilter || 'all';
+  if (filter === 'all') return true;
+  if (filter === 'flagged') return State.flagged.has(idx);
+  return getQuestionResult(idx) === filter;
+}
+
+function setReviewFilter(filter) {
+  State.reviewFilter = filter;
+  document.querySelectorAll('.rf-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === filter);
+  });
+  renderPalette();
+  // Jump to the first question matching the filter, if current one doesn't match
+  if (!questionMatchesFilter(State.currentQ)) {
+    const firstMatch = State.questions.findIndex((_, i) => questionMatchesFilter(i));
+    if (firstMatch !== -1) renderQuestion(firstMatch);
+  }
+}
+
 function renderPalette() {
   ['palette-grid', 'palette-grid-mobile'].forEach(id => {
     const el = document.getElementById(id);
@@ -1110,10 +1184,18 @@ function renderPalette() {
       const flagged = State.flagged.has(idx);
       const visited = State.visited.has(idx);
 
-      if (answered && flagged) btn.classList.add('answered-flagged');
-      else if (answered) btn.classList.add('answered');
-      else if (flagged) btn.classList.add('flagged-only');
-      else if (visited) btn.classList.add('visited');
+      if (State.reviewMode) {
+        // In review mode, color by actual result rather than answered/visited state.
+        const result = getQuestionResult(idx);
+        btn.classList.add('result-' + result);
+        if (flagged) btn.classList.add('was-flagged');
+        if (!questionMatchesFilter(idx)) btn.classList.add('filtered-out');
+      } else {
+        if (answered && flagged) btn.classList.add('answered-flagged');
+        else if (answered) btn.classList.add('answered');
+        else if (flagged) btn.classList.add('flagged-only');
+        else if (visited) btn.classList.add('visited');
+      }
 
       if (idx === State.currentQ) btn.classList.add('current');
 
@@ -1130,17 +1212,33 @@ function updatePaletteCurrent() {
 }
 
 function renderPaletteStats() {
-  const answered = Object.keys(State.answers).length;
-  const flagged = State.flagged.size;
-  const visited = State.visited.size;
-  const unanswered = State.questions.length - answered;
-
-  const html = `
-    <div class="stat-row"><span class="stat-label">Answered</span><span class="stat-val" style="color:var(--blue)">${answered}</span></div>
-    <div class="stat-row"><span class="stat-label">Unanswered</span><span class="stat-val">${unanswered}</span></div>
-    <div class="stat-row"><span class="stat-label">Marked for Review</span><span class="stat-val" style="color:var(--orange)">${flagged}</span></div>
-    <div class="stat-row"><span class="stat-label">Visited</span><span class="stat-val">${visited}</span></div>
-  `;
+  let html;
+  if (State.reviewMode) {
+    let correct = 0, wrong = 0, skipped = 0;
+    State.questions.forEach((_, idx) => {
+      const r = getQuestionResult(idx);
+      if (r === 'correct') correct++;
+      else if (r === 'wrong') wrong++;
+      else skipped++;
+    });
+    html = `
+      <div class="stat-row"><span class="stat-label">Correct</span><span class="stat-val" style="color:var(--green)">${correct}</span></div>
+      <div class="stat-row"><span class="stat-label">Wrong</span><span class="stat-val" style="color:var(--red)">${wrong}</span></div>
+      <div class="stat-row"><span class="stat-label">Skipped</span><span class="stat-val">${skipped}</span></div>
+      <div class="stat-row"><span class="stat-label">Marked for Review</span><span class="stat-val" style="color:var(--orange)">${State.flagged.size}</span></div>
+    `;
+  } else {
+    const answered = Object.keys(State.answers).length;
+    const flagged = State.flagged.size;
+    const visited = State.visited.size;
+    const unanswered = State.questions.length - answered;
+    html = `
+      <div class="stat-row"><span class="stat-label">Answered</span><span class="stat-val" style="color:var(--blue)">${answered}</span></div>
+      <div class="stat-row"><span class="stat-label">Unanswered</span><span class="stat-val">${unanswered}</span></div>
+      <div class="stat-row"><span class="stat-label">Marked for Review</span><span class="stat-val" style="color:var(--orange)">${flagged}</span></div>
+      <div class="stat-row"><span class="stat-label">Visited</span><span class="stat-val">${visited}</span></div>
+    `;
+  }
 
   ['palette-stats', 'palette-stats-mobile'].forEach(id => {
     const el = document.getElementById(id);
@@ -1279,6 +1377,7 @@ function showResults(score, correct, wrong, skip, accuracy, subjectMap) {
 // ============================================================
 function startReview() {
   State.reviewMode = true;
+  State.reviewFilter = 'all';
   document.getElementById('results-screen').style.display = 'none';
   document.getElementById('test-screen').style.display = 'block';
   document.getElementById('review-banner').style.display = 'flex';
@@ -1286,6 +1385,10 @@ function startReview() {
   // Hide submit button and flag/clear in review
   const submitBtn = document.querySelector('.btn-submit-top');
   if (submitBtn) submitBtn.style.display = 'none';
+
+  document.querySelectorAll('.rf-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === 'all');
+  });
 
   renderPalette();
   renderPaletteStats();
@@ -1329,6 +1432,18 @@ document.addEventListener('keydown', (e) => {
 setInterval(() => {
   if (!State.submitted) Storage.save();
 }, 30000);
+
+// ============================================================
+// WARN BEFORE LEAVING MID-TEST (progress is saved, but confirm anyway)
+// ============================================================
+window.addEventListener('beforeunload', (e) => {
+  const started = document.getElementById('test-screen').style.display === 'block';
+  if (started && !State.submitted) {
+    Storage.save();
+    e.preventDefault();
+    e.returnValue = '';
+  }
+});
 
 // ============================================================
 // START
