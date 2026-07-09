@@ -1,0 +1,187 @@
+{
+  "topic": "Political Theory",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Which one of the following best defines the term ‘State’?",
+      "options": [
+        "A community of persons permanently occupying a definite territory independent of external control and possessing an organized government",
+        "A politically organized people of a definite territory and possessing an authority to govern them, maintain law and order, protect their natural rights and safeguard their means of sustenance",
+        "A number of persons who have been living in a definite territory for a very long time with their own culture, tradition and government",
+        "A society permanently living in a definite territory with a central authority, an executive responsible to the central authority and an independent judiciary"
+      ],
+      "correct": "A",
+      "explanation": "The classical definition of a 'State' identifies it as a community of people permanently occupying a definite territory, organised under a government, and free from external control — encompassing the essential elements of population, territory, government, and sovereignty.",
+      "year": 2021
+    },
+    {
+      "question": "In the context of polity, which one of the following would you accept as the most appropriate definition of liberty?",
+      "options": [
+        "Protection of domination by the political rulers",
+        "Absence of restraints",
+        "Opportunity to do whatever one likes",
+        "Opportunity to develop oneself fully"
+      ],
+      "correct": "D",
+      "explanation": "In political theory, liberty is most meaningfully understood not as mere absence of restraint but as the positive opportunity and enabling conditions for an individual to develop their personality and capacities fully.",
+      "year": 2019
+    },
+    {
+      "question": "Which one of the following reflects the most appropriate relationship between law and liberty?",
+      "options": [
+        "If there are more laws, there is less liberty.",
+        "If there are no laws, there is no liberty.",
+        "If there is liberty, laws have to be made by the people.",
+        "If laws are changed too often, liberty is in danger."
+      ],
+      "correct": "B",
+      "explanation": "Rather than more laws necessarily reducing liberty, the absence of any law altogether would mean the absence of any ordered framework protecting individual freedoms — reflecting the classical liberal view that liberty is meaningful and secure only within a rule-governed system, not in a lawless state of nature.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following are regarded as the main features of the 'Rule of Law'?\n1. Limitation of powers\n2. Equality before law\n3. People's responsibility to the Government\n4. Liberty and civil rights\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The Rule of Law is generally understood to comprise limitation of governmental powers, equality before the law, and protection of liberty and civil rights — 'people's responsibility to the government' is not typically identified as one of its defining features (if anything, it is government's accountability to the people that matters), so the answer credits Statements 1, 2, and 4 as its main features.",
+      "year": 2018
+    },
+    {
+      "question": "In the context of solving pollution problems, what is/are the advantage/advantages of bioremediation technique?\n1. It is a technique for cleaning up pollution by enhancing the same biodegradation process that occurs in nature.\n2. Any contaminant with heavy metals such as cadmium and lead can be readily and completely treated by bioremediation using microorganisms.\n3. Genetic engineering can be used to create microorganisms specifically designed for bioremediation.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Bioremediation works by enhancing the natural biodegradation processes already occurring in the environment — Statement 1 is correct. Genetic engineering can indeed be used to develop microorganisms tailored for specific bioremediation tasks — Statement 3 is correct. However, heavy metals like cadmium and lead cannot be readily and completely broken down (biodegraded) by microorganisms in the way organic pollutants can, since metals are elements that cannot be metabolised away — Statement 2 is incorrect.",
+      "year": 2017
+    },
+    {
+      "question": "Democracy’s superior virtue lies in the fact that it calls into activity",
+      "options": [
+        "the intelligence and character of ordinary men and women.",
+        "the methods for strengthening executive leadership.",
+        "a superior individual with dynamism and vision.",
+        "a band of dedicated party workers."
+      ],
+      "correct": "A",
+      "explanation": "Democracy's distinctive strength lies in engaging the intelligence, judgment, and character of ordinary citizens in the process of self-governance, rather than relying on a single dynamic leader or an elite cadre.",
+      "year": 2017
+    },
+    {
+      "question": "In the context of India, which one of the following is the correct relationship between Rights and Duties?",
+      "options": [
+        "Rights are correlative with Duties.",
+        "Rights are personal and hence independent of society and Duties.",
+        "Rights, not Duties, are important for the advancement of the personality of the citizen.",
+        "Duties, not Rights, are important for the stability of the State."
+      ],
+      "correct": "A",
+      "explanation": "In the Indian constitutional context, Rights and Duties are seen as correlative — every right enjoyed by a citizen carries with it a corresponding responsibility, and the two are mutually reinforcing rather than independent of each other.",
+      "year": 2017
+    },
+    {
+      "question": "Karl Marx explained the process of class struggle with the help of which one of the following theories?",
+      "options": [
+        "Empirical liberalism",
+        "Existentialism",
+        "Darwin’s theory of evolution",
+        "Dialectical materialism"
+      ],
+      "correct": "D",
+      "explanation": "Karl Marx explained the historical process of class struggle through dialectical materialism, applying Hegel's dialectical method to material economic conditions and class relations to explain social and historical change.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following:\n1. Right to education.\n2. Right to equal access to public service.\n3. Right to food.\nWhich of the above is/are Human Right/Human Rights under “Universal Declaration of Human Rights”?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The Universal Declaration of Human Rights (1948) recognises the right to education, the right to equal access to public service, and the right to an adequate standard of living (including food) — all three are encompassed among its enumerated rights.",
+      "year": 2011
+    },
+    {
+      "question": "What is the number of spokes in the Dharmachakra in the National Flag of India?",
+      "options": [
+        "16",
+        "18",
+        "22",
+        "24"
+      ],
+      "correct": "D",
+      "explanation": "The Dharmachakra (Ashoka Chakra) depicted on the National Flag of India has 24 spokes, symbolising the eternal wheel of law/dharma.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. The Constitution of the United States of America came into force in the year 1810.\n2. All revenue bills must originate in the House of Representatives of the US Congress.\n3. George W. Bush is the only President in the history of the United States of America whose father was also the President of the United States of America.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The US Constitution actually came into force in 1789, not 1810, making Statement 1 incorrect. Revenue (money) bills are indeed constitutionally required to originate in the House of Representatives, not the Senate, making Statement 2 correct. George W. Bush's father, George H. W. Bush, was also a US President, but he was not the only such case — John Quincy Adams's father, John Adams, had also been President earlier — making Statement 3 incorrect.",
+      "year": 2005
+    },
+    {
+      "question": "Match List I (Organisation) with List II (Location) and select the correct answer using the codes given below the list:\nList I (Organisation)\nA. National Sugar Institute\nB. Mishra Dhatu Nigam Limited\nC. Institute of Military Law\nD. Institute of National Integration\nList II (Location)\n1. Dehradun\n2. Kamptee\n3. Pune\n4. Hyderabad\nCodes: A B C D",
+      "options": [
+        "3 1 4 2",
+        "5 1 4 3",
+        "3 4 5 2",
+        "5 4 2 3"
+      ],
+      "correct": "D",
+      "explanation": "The National Sugar Institute is located in Kanpur; Mishra Dhatu Nigam Limited (a defence metals and alloys company) is located in Hyderabad; the Institute of Military Law is located in Kamptee (Maharashtra); and the Institute of National Integration is located in Pune.",
+      "year": 2003
+    },
+    {
+      "question": "In which of the following countries will the no-confidence motion to bring down the government passed by the legislature be valid only when the legislature is able to find simultaneously a majority to elect a successor government?",
+      "options": [
+        "France",
+        "Germany",
+        "Italy",
+        "Portugal"
+      ],
+      "correct": "B",
+      "explanation": "In Germany, a vote of no-confidence against the Chancellor is valid only if the Bundestag simultaneously elects a successor Chancellor by an absolute majority — a mechanism known as the 'constructive vote of no-confidence,' designed to ensure governmental stability.",
+      "year": 1997
+    },
+    {
+      "question": "The Prime Minister of which one of the following countries is chosen by the ruling prince from a slate of three candidates put up to him by the President of France?",
+      "options": [
+        "San Marius",
+        "Liechtenstein",
+        "Malta",
+        "Monaco"
+      ],
+      "correct": "D",
+      "explanation": "In Monaco, the Prince selects the Minister of State (effectively the head of government) from a list of candidates proposed by the French Government, reflecting the close constitutional relationship between Monaco and France.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following countries has more or less evolved a two-party system?",
+      "options": [
+        "Sri Lanka",
+        "Bangladesh",
+        "Pakistan",
+        "Myanmar"
+      ],
+      "correct": "B",
+      "explanation": "Bangladesh has broadly evolved a two-party dominant political system, historically centred around rivalry between two major parties, unlike the more fragmented or dominant-party systems seen in some of its neighbours.",
+      "year": 1996
+    }
+  ]
+}

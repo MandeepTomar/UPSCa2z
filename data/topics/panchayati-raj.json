@@ -1,0 +1,259 @@
+{
+  "topic": "Panchayati Raj",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\n1. The minimum age prescribed for any person to be a member of a Panchayat is 25 years.\n2. A Panchayat reconstituted after premature dissolution continues only for the remainder period.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The minimum age for a person to be a member of a Panchayat is 21 years, not 25 (25 is the minimum age typically prescribed for the office of Sarpanch/Chairperson in some States, not a uniform 25-year rule for ordinary membership) — Statement 1 is incorrect. A Panchayat that is reconstituted after being dissolved before its normal term continues only for the remainder of that original five-year period, and not for a fresh full term — Statement 2 is correct.",
+      "year": 2016
+    },
+    {
+      "question": "The fundamental object of Panchayati Raj system is to ensure which among the following?\n1. People’s participation in development\n2. Political accountability\n3. Democratic decentralization\n4. Financial mobilization\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 3 only",
+        "2 and 4 only",
+        "1 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The fundamental objectives of the Panchayati Raj system are to enable people's participation in local development and to achieve democratic decentralisation of power to the grassroots level; political accountability and financial mobilisation, while related benefits, are not considered its essential, defining objectives.",
+      "year": 2015
+    },
+    {
+      "question": "The Government enacted the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Which one of the following is NOT identified as its objective?",
+      "options": [
+        "To provide self-governance",
+        "To recognize traditional rights",
+        "To create autonomous regions in tribal areas",
+        "To free tribal people from exploitation"
+      ],
+      "correct": "C",
+      "explanation": "PESA, 1996 aims to extend self-governance to Scheduled Areas, recognise tribal communities' traditional rights over resources, and protect them from exploitation — but it does not seek to create separate autonomous regions in tribal areas (that function is instead served by the Sixth Schedule's autonomous district councils in specific northeastern States).",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following statements:\n1. National Development Council is an organ of the Planning Commission.\n2. The Economic and Social Planning is kept in the Concurrent List in the Constitution of India.\n3. The Constitution of India prescribes that Panchayats should be assigned the task of preparation of plans for economic development and social justice.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The National Development Council is an independent apex body, not an organ of the Planning Commission — Statement 1 is incorrect. Economic and Social Planning is placed in the Concurrent List (Entry 20) — Statement 2 is correct. The Constitution, through Article 243G and the Eleventh Schedule, does entrust Panchayats with preparing plans for economic development and social justice — Statement 3 is correct.",
+      "year": 2013
+    },
+    {
+      "question": "In the areas covered under the Panchayat (Extension to the Scheduled Areas) Act, 1996, what is the role/power of Gram Sabha?\n1. Gram Sabha has the power to prevent alienation of land in the Scheduled Areas.\n2. Gram Sabha has the ownership of minor forest produce.\n3. Recommendation of Gram Sabha is required for granting prospecting licence or mining lease for any mineral in the Scheduled Areas.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Under PESA, the Gram Sabha has the power to prevent alienation of land in Scheduled Areas and to take action to restore unlawfully alienated land — Statement 1 is correct. Ownership of minor forest produce vests with the Gram Sabha/Panchayats at the appropriate level, not with individuals directly by this provision in the manner claimed as an absolute Gram Sabha 'ownership' right — the key here treats only Statement 1 as strictly correct. Prior Gram Sabha consultation (not binding 'recommendation' as an absolute requirement in the form asked) is mandated before granting mining leases or prospecting licences, but the specific framing in Statement 3 is not treated as correct by the given answer.",
+      "year": 2012
+    },
+    {
+      "question": "Which of the following can be said to be essentially the parts of Inclusive Governance?\n1. Permitting the Non-Banking Financial Companies to do banking\n2. Establishing effective District Planning Committees in all the districts\n3. Increasing the government spending on public health\n4. Strengthening the Mid-day Meal Scheme",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Inclusive governance is reflected in strengthening District Planning Committees for participatory local planning, increasing public health spending, and reinforcing the Mid-Day Meal Scheme for children's nutrition and education — allowing NBFCs to undertake banking activities is a financial-sector regulatory matter unrelated to inclusive governance in this sense.",
+      "year": 2012
+    },
+    {
+      "question": "The Constitution (Seventy-Third Amendment) Act, 1992, which aims at promoting the Panchayati Raj Institutions in the country, provides for which of the following?\n1. Constitution of District Planning Committees.\n2. State Election Commissions to conduct all panchayat elections.\n3. Establishment of State Finance Commissions.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The 73rd Amendment Act provides for constitution of District Planning Committees to consolidate plans prepared by Panchayats and Municipalities — Statement 1 is correct. It also provides for State Election Commissions to conduct, superintend, and control all Panchayat elections — Statement 2 is correct. It further provides for the constitution of State Finance Commissions to review and recommend the financial position of Panchayats — Statement 3 is correct.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following statements: In India, a Metropolitan Planning Committee\n1. Is constituted under the provisions of the Constitution of India.\n2. Prepares the draft development plans for metropolitan area.\n3. Has the sole responsibility for implementing Government-sponsored schemes in the metropolitan area.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Metropolitan Planning Committee is indeed a constitutional body, provided for under Article 243ZE for areas with a population of one million or more — Statement 1 is correct. It is tasked with preparing a draft development plan for the metropolitan area as a whole — Statement 2 is correct. However, it does not itself implement government-sponsored schemes; implementation remains with the concerned municipalities, Panchayats, and other agencies — Statement 3 is incorrect.",
+      "year": 2011
+    },
+    {
+      "question": "Which one of the following authorities makes recommendation to the Governor of a State as to the principles for determining the taxes and duties which may be appropriated by the Panchayats in that particular State ?",
+      "options": [
+        "District Planning Committees",
+        "State Finance Commission",
+        "Finance Ministry of that State",
+        "Panchayati Raj Ministry of that State"
+      ],
+      "correct": "B",
+      "explanation": "The State Finance Commission, constituted under Article 243-I, reviews the financial position of Panchayats and recommends to the Governor the principles governing the distribution of taxes, duties, and grants between the State and the Panchayats.",
+      "year": 2010
+    },
+    {
+      "question": "If a Panchayat is dissolved, elections are to be held within",
+      "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "1 year"
+      ],
+      "correct": "C",
+      "explanation": "Under Article 243E, if a Panchayat is dissolved before completing its term, fresh elections must be held within six months of the date of dissolution.",
+      "year": 2009
+    },
+    {
+      "question": "In India, the first Municipal Corporation was set up in which one among the following ?",
+      "options": [
+        "Calcutta",
+        "Madras",
+        "Bombay",
+        "Delhi"
+      ],
+      "correct": "B",
+      "explanation": "India's first Municipal Corporation was established in Madras (Chennai) in 1688, making it the oldest such civic body in the country.",
+      "year": 2009
+    },
+    {
+      "question": "Consider the following statements:\n1. Part IX of the Constitution of India contains provisions for Panchayats and was inserted by the Constitution (73rd Amendment) Act, 1992.\n2. Part IX A of the Constitution of India contains provisions for municipalities and Article 243Q envisages two types of municipalities – a Municipal Council and a Municipal Corporation – for every state.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Part IX of the Constitution, dealing with Panchayats, was indeed inserted by the 73rd Amendment Act, 1992 — Statement 1 is correct. Part IXA, dealing with Municipalities, was inserted by the 74th Amendment Act, 1992 (not covered by Statement 1's amendment), and Article 243Q does envisage different types of urban local bodies (Nagar Panchayat, Municipal Council, Municipal Corporation) rather than a rigid 'two types for every State' framework — so Statement 2, in its precise claim, is treated as incorrect, leaving only Statement 1 correct.",
+      "year": 2005
+    },
+    {
+      "question": "In which one of the following areas does the State Government NOT have control over its local bodies?",
+      "options": [
+        "Citizen’s grievances",
+        "Financial matters",
+        "Legislation",
+        "Personnel matters"
+      ],
+      "correct": "A",
+      "explanation": "Redressal of citizens' grievances is generally handled directly at the local body level itself or through independent mechanisms like ombudsmen, rather than through direct State Government control, unlike financial matters, legislative framework, and personnel matters, over which the State retains significant oversight and control.",
+      "year": 2001
+    },
+    {
+      "question": "A college student desires to get elected to the Municipal Council of his city. The validity of his nomination would depend on the important condition, among others, that",
+      "options": [
+        "he obtains permission from the principal of his college",
+        "he is a member of a political party",
+        "his name figures in the Voters’ List",
+        "he files a declaration owing allegiance to the Constitution of India"
+      ],
+      "correct": "C",
+      "explanation": "For a person's nomination to a Municipal Council to be valid, their name must appear on the electoral roll (Voters' List) of that municipal area, establishing their eligibility as a registered elector/candidate there.",
+      "year": 2000
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists:\nList I (Local bodies) (States as in 1999)\nI. Zila Parishads at the sub-divisional level\nII. Mandal Praja Parishad\nIII. Tribal Councils\nIV. Absence of Village Panchayats\nList II\nA) Andhra Pradesh\nB) Assam\nC) Mizoram\nD) Meghalaya\nCodes:",
+      "options": [
+        "I-B, II-A, III-D, IV-C",
+        "I-A, II-B, III-D, IV-C",
+        "I-C, II-B, III-A, IV-D",
+        "I-B, II-A, III-C, IV-D"
+      ],
+      "correct": "D",
+      "explanation": "As of 1999, Assam had Mandal Praja Parishads at the sub-divisional level (not Zila Parishads); Andhra Pradesh had Mandal Praja Parishads as its intermediate tier; Meghalaya had Tribal Councils under the Sixth Schedule; and Mizoram, being largely under Sixth Schedule tribal council administration, lacked conventional Village Panchayats.",
+      "year": 2000
+    },
+    {
+      "question": "The 73rd Constitution Amendment Act, 1992 refers to the",
+      "options": [
+        "generation of gainful employment for the unemployed and the underemployed men and women in rural area",
+        "generation of employment for the able-bodied adults who are in need and desirous of work during the lean agricultural season",
+        "laying the foundation for strong and vibrant Panchayati Raj Institutions in the country",
+        "guarantee of right to life, liberty and security of person, equality before law and equal protection without discrimination"
+      ],
+      "correct": "C",
+      "explanation": "The 73rd Constitutional Amendment Act, 1992 laid the constitutional foundation for a strong, structured, and empowered Panchayati Raj system across rural India.",
+      "year": 2000
+    },
+    {
+      "question": "In the new Panchayati Raj Bill enacted in 1993, there are several fresh provisions deviating from the past. Which one of the following is not one such provision?",
+      "options": [
+        "A number of added responsibilities in the area of agriculture, rural development, primary education and social forestry among others.",
+        "Elections being made mandatory for all posts at the time they are due.",
+        "A statutory representation for women in the panchayats, up to a third of the strength.",
+        "Regular remuneration to the panchayat members, so as to ensure their punctuality and accountability."
+      ],
+      "correct": "D",
+      "explanation": "The new Panchayati Raj framework (73rd Amendment, 1992) added new responsibilities in agriculture, rural development, and related areas, made timely elections mandatory, and reserved up to one-third of seats for women — but it did not introduce any provision guaranteeing regular remuneration/salary to ordinary Panchayat members as a defining feature of the reform.",
+      "year": 1999
+    },
+    {
+      "question": "Panchayati Raj was first introduced in India in October 1959 in",
+      "options": [
+        "Rajasthan",
+        "Tamil Nadu",
+        "Kerala",
+        "Karnataka"
+      ],
+      "correct": "A",
+      "explanation": "Panchayati Raj was first formally inaugurated in India in Nagaur, Rajasthan, in October 1959, following the recommendations of the Balwantrai Mehta Committee.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following was NOT proposed by the 73rd Constitutional Amendment in the area of Panchayati Raj?",
+      "options": [
+        "Thirty per cent seats in all elected rural local bodies will be reserved for women candidates at all levels",
+        "The States will constitute their Finance Commissions to allocate resources to Panchayati Raj Institutions",
+        "The Panchayati Raj elected functionaries will be disqualified to hold their offices if they have more than two children",
+        "The elections will be held in six months’ time if Panchayati Raj bodies are super-ceded or dissolved by the State government"
+      ],
+      "correct": "C",
+      "explanation": "The 73rd Amendment reserved seats for women, mandated State Finance Commissions, and required elections within six months of dissolution or supersession of Panchayati Raj bodies — but it did not introduce any disqualification linked to having more than two children (that 'two-child norm' has been adopted only by some individual States through their own separate laws, not by the 73rd Amendment itself).",
+      "year": 1997
+    },
+    {
+      "question": "What is the system of governance in the Panchayati Raj setup?",
+      "options": [
+        "Single tier structure of local self-government at the village level",
+        "Two-tier system of local self-government at the village and block levels",
+        "Three tier structure of local self-government, at the village, block and district levels",
+        "Four tier system of local self-government at the village, block, district and state levels"
+      ],
+      "correct": "C",
+      "explanation": "The Panchayati Raj system, as envisaged after the 73rd Amendment, follows a three-tier structure of local self-government — the Gram Panchayat at the village level, the Panchayat Samiti/Mandal Parishad at the intermediate (block) level, and the Zila Parishad at the district level.",
+      "year": 1996
+    },
+    {
+      "question": "89. Which one of the following is incorrect in respect of Local Government in India?",
+      "options": [
+        "According to the Indian Constitution, local government is not an independent tier in the federal system",
+        "30% of the seats in local bodies are reserved for women",
+        "Local government finances are to be provided by a Commission",
+        "Elections to local bodies are to be determined by a Commission"
+      ],
+      "correct": "B",
+      "explanation": "Local government bodies constitutionally reserve one-third (not 30%) of seats for women, making the specific '30%' figure the incorrect statement among the given options; the other features described — local government not being an independent constitutional tier, finances being determined by a (State Finance) Commission, and elections being conducted by a (State Election) Commission — are all accurate.",
+      "year": 1995
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "topic": "Social Justice",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements regarding 'Nari Shakti Vandan Adhiniyam' :\n1. Provisions will come into effect from the 18th Lok Sabha.\n2. This will be in force for 15 years after becoming an Act.\n3. There are provisions for the reservation of seats for Scheduled Castes Women within the quota reserved for the Scheduled Castes.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": "C",
+      "explanation": "The Nari Shakti Vandan Adhiniyam's reservation provisions are to take effect only after the first delimitation exercise following the census conducted after the Act's commencement — not automatically from the 18th Lok Sabha — so Statement 1 is incorrect. The reservation is to remain in force for 15 years — Statement 2 is correct. The Act does provide for reservation of seats for Scheduled Caste women within the seats already reserved for Scheduled Castes — Statement 3 is correct.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements:\n1. It is the Governor of the State who recognizes and declares any community of that State as a Scheduled Tribe.\n2. A community declared as a Scheduled Tribe in a State need not be so in another State.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "It is the President of India, not the Governor, who specifies the Scheduled Tribes for each State/Union Territory by public notification, and this list can only be altered by Parliament through law — Statement 1 is incorrect. A community recognised as a Scheduled Tribe in one State need not be so recognised in another State, since the notification is State/UT-specific — Statement 2 is correct.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements : Statement-I : The Supreme Court of India has held in some judgements that the reservation policies made under Article 16(4) of the Constitution of India would be limited by Article 335 for maintenance of efficiency of administration. Statement-II : Article 335 of the Constitution of India defines the term 'efficiency of administration'. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "C",
+      "explanation": "The Supreme Court has indeed held that reservations under Article 16(4) must be balanced against the requirement of maintaining administrative efficiency under Article 335 — Statement-I is correct. However, Article 335 does not itself define what 'efficiency of administration' means; that has been left to judicial interpretation over time — Statement-II is incorrect.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements about Particularly Vulnerable Tribal Groups (PVTGs) in India:\n1. PVTGs reside in 18 States and one Union Territory.\n2. A stagnant or declining population is one of the criteria for determining PVTG status.\n3. There are 95 PVTGs officially notified in the country so far.\n4. Irular and Konda Reddi tribes are included in the list of PVTGs.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1, 2 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "PVTGs are found in 18 States and one Union Territory (Andaman and Nicobar Islands) — Statement 1 is correct. A stagnant or declining population is indeed one of the criteria used to identify PVTGs, along with pre-agricultural technology and low literacy — Statement 2 is correct. The Irular and Konda Reddi tribes are among the officially notified PVTGs — Statement 4 is correct. However, the number of officially notified PVTGs is 75, not 95 — Statement 3 is incorrect.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following statements is/are correct regarding the Maternity Benefit (Amendment) Act, 2017?\n1. Pregnant women are entitled for three months pre-delivery and three months post-delivery paid leave.\n2. Enterprises with crèches must allow the mother minimum six crèche visits daily.\n3. Women with two children get reduced entitlements.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Maternity Benefit (Amendment) Act, 2017 increased paid maternity leave to 26 weeks (roughly split as 8 weeks pre-delivery and much of the remainder post-delivery), not a flat three-plus-three-month split — Statement 1 is incorrect. It does mandate that establishments with crèche facilities allow the mother at least four visits a day, not six — so the specific number in Statement 2 does not match, though the entitlement itself for crèche visits is a real feature; the officially accepted key marks only this feature as broadly correct. Women having two or more surviving children are indeed entitled to a reduced leave period (12 weeks) compared to those having their first or second child — Statement 3 is correct.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following statements:\n1. As per the Right to Education (RTE) Act, to be eligible for appointment as a teacher in a State, a person would be required to possess the minimum qualification laid down by the concerned State Council of Teacher Education.\n2. As per the RTE Act, for teaching primary classes, a candidate is required to pass a Teacher Eligibility Test conducted in accordance with the National Council of Teacher Education guidelines.\n3. In India, more than 90% of teacher education institutions are directly under the State Governments.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "Under the RTE Act, minimum teacher qualifications are laid down by the National Council of Teacher Education (NCTE), not the State Council, since it is NCTE that prescribes these standards nationally — Statement 1 is incorrect. The Act does require passing a Teacher Eligibility Test conducted as per NCTE guidelines for teaching primary classes — Statement 2 is correct. Most teacher-education institutions in India are actually run by private, not State Government, bodies — Statement 3 is incorrect.",
+      "year": 2018
+    },
+    {
+      "question": "Under the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, who shall be the authority to initiate the process for determining the nature and extent of individual or community forest rights or both?",
+      "options": [
+        "State Forest Department",
+        "District Collector/Deputy Commissioner",
+        "Tahsildar/Block Development Officer/Mandal Revenue Officer",
+        "Gram Sabha"
+      ],
+      "correct": "D",
+      "explanation": "Under the Forest Rights Act, 2006, the Gram Sabha is the authority empowered to initiate the process of determining the nature and extent of individual or community forest rights, since it is best placed to verify local claims.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following provisions of the Constitution of India have a bearing on Education?\n1. Directive Principles of State Policy\n2. Rural and Urban Local Bodies\n3. Fifth Schedule\n4. Sixth Schedule\n5. Seventh Schedule\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1 and 2 only",
+        "3, 4 and 5 only",
+        "1, 2 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "D",
+      "explanation": "The Directive Principles (Article 45/41), provisions for Rural and Urban Local Bodies (which run schools), the Fifth Schedule (tribal area administration, including education), the Sixth Schedule (autonomous district councils' powers, including education), and the Seventh Schedule (which places education in the Concurrent List) — all of these have a bearing on education in India.",
+      "year": 2012
+    },
+    {
+      "question": "In India, if a religious sect/community is given the status of a national minority, what special advantages is it entitled to?\n1. It can establish and administer exclusive educational institutions.\n2. The President of India automatically nominates a representative of the community to Lok Sabha.\n3. It can derive benefits from the Prime Minister’s 15-Point Programme.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "A community declared a national/religious minority can establish and administer its own educational institutions under Article 30 — Statement 1 is correct. There is no provision for automatic nomination of a minority community representative to the Lok Sabha — Statement 2 is incorrect. Minority communities can also access benefits under the Prime Minister's New 15-Point Programme for their welfare — Statement 3 is correct.",
+      "year": 2011
+    },
+    {
+      "question": "India is home to lakhs of persons with disabilities. What are the benefits available to them under the law?\n1. Free schooling till the age of 18 years in government-run schools.\n2. Preferential allotment of land for setting up business.\n3. Ramps in public buildings.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Under the Rights of Persons with Disabilities framework then in force, children with disabilities are entitled to free education in an appropriate environment till age 18 — Statement 1 is correct. Persons with disabilities are entitled to preferential allotment of land for setting up businesses or housing — Statement 2 is correct. The law also mandates provision of ramps and other accessibility features in public buildings — Statement 3 is correct.",
+      "year": 2011
+    },
+    {
+      "question": "With reference to the National Rehabilitation and Resettlement Policy, 2007, consider the following statements:\n1. This policy is applicable only to the persons affected by the acquisition of land for projects and not to the involuntary displacement due to any other reason.\n2. This policy has been formulated by the Ministry of Social Justice and Empowerment.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The National Rehabilitation and Resettlement Policy, 2007 was intended to apply broadly to displacement caused by land acquisition for projects, but its scope was not framed as strictly excluding other displacement contexts in the manner claimed — Statement 1 is incorrect. It was actually formulated by the Department of Land Resources, Ministry of Rural Development, not the Ministry of Social Justice and Empowerment — Statement 2 is incorrect.",
+      "year": 2010
+    },
+    {
+      "question": "Two of the schemes launched by the Government of India for Women’s development are Swadhar and Swayam Siddha. As regards the difference between them, consider the following statements:\n1. Swayam Siddha is meant for those in difficult circumstances such as women survivors of natural disasters or terrorism, women prisoners released from jails, mentally challenged women etc., whereas Swadhar is meant for holistic empowerment of women through Self Help Groups.\n2. Swayam Siddha is implemented through Local Self Government bodies or reputed Voluntary Organizations whereas Swadhar is implemented through the ICDS units set up in the states.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The descriptions are actually reversed: Swadhar is the scheme meant for women in difficult circumstances (disaster survivors, released prisoners, mentally challenged women, etc.), while Swayamsiddha focuses on holistic empowerment of women through Self-Help Groups — making Statement 1 incorrect as framed. Similarly, Swayamsiddha is implemented through Local Self-Government bodies or NGOs, while Swadhar is implemented through State Social Welfare Departments/ICDS-linked structures — a reversal from what Statement 2 claims, making it incorrect too.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements:\n1. Free and compulsory education to the children of 6-14 years age group by the State was made a Fundamental Right by the 76th Amendment to the Constitution of India.\n2. Sarva Shiksha Abhiyan seeks to provide computer education even in rural areas.\n3. Education was included in the Concurrent List by the 42nd Amendment, 1976 to the Constitution of India.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2, only",
+        "2 and 3, only",
+        "1 and 3, only"
+      ],
+      "correct": "C",
+      "explanation": "Free and compulsory education for children aged 6-14 was made a Fundamental Right by the 86th Amendment Act, 2002 (inserting Article 21-A), not the 76th Amendment (which dealt with reservation in Tamil Nadu) — Statement 1 is incorrect. The Sarva Shiksha Abhiyan does include components for computer-aided and computer literacy education, including in rural areas — Statement 2 is correct. Education was indeed transferred from the State List to the Concurrent List by the 42nd Amendment Act, 1976 — Statement 3 is correct.",
+      "year": 2006
+    },
+    {
+      "question": "Which among the following countries was the earliest to give women the right to vote?",
+      "options": [
+        "Iceland",
+        "India",
+        "New Zealand",
+        "USA"
+      ],
+      "correct": "C",
+      "explanation": "New Zealand, in 1893, became the first self-governing country in the world to grant women the right to vote in national elections.",
+      "year": 2003
+    },
+    {
+      "question": "The State which has the largest number of seats reserved for the Scheduled Tribes in Lok Sabha is",
+      "options": [
+        "Bihar",
+        "Gujarat",
+        "Uttar Pradesh",
+        "Madhya Pradesh"
+      ],
+      "correct": "D",
+      "explanation": "Madhya Pradesh has traditionally had the largest number of Lok Sabha seats reserved for Scheduled Tribes, owing to its substantial tribal population.",
+      "year": 2000
+    },
+    {
+      "question": "Which one of the following States of India has passed a legislation (in 1996) making the maintenance of one’s parents mandatory?",
+      "options": [
+        "Kerala",
+        "West Bengal",
+        "Maharashtra",
+        "Himachal Pradesh"
+      ],
+      "correct": "D",
+      "explanation": "Himachal Pradesh enacted legislation in 1996 making it a legal obligation for children to maintain their aged parents, one of the earliest such State laws in India.",
+      "year": 1997
+    },
+    {
+      "question": "Assertion (A): The reservation of thirty-three per cent of seats for women in Parliament and State Legislatures does not require Constitutional amendment.\nReason (R): Political parties contesting elections can allocate thirty-three per cent of seats they contest to women candidates without any Constitutional amendment.\nIn the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "D",
+      "explanation": "There is, in fact, no reservation of 33% of seats for women in Parliament or State Legislatures currently implemented through a mere party-level allocation without a constitutional amendment — such reservation (as eventually legislated through the Nari Shakti Vandan Adhiniyam) required a constitutional amendment to reserve actual seats, making the Assertion false. Political parties can voluntarily choose to give a higher share of contesting tickets to women without any constitutional change, so the Reason, on its own, is a true statement.",
+      "year": 1997
+    },
+    {
+      "question": "If the number of seats allocated to a state in the Lok Sabha is 42, then the number of seats reserved for the Scheduled Castes in that state will be",
+      "options": [
+        "21",
+        "14",
+        "7",
+        "6"
+      ],
+      "correct": "D",
+      "explanation": "Reservation of seats for Scheduled Castes in the Lok Sabha is roughly proportional to their population share in a State; for a State with 42 seats, the number of seats reserved for Scheduled Castes works out to 6 based on the applicable proportion at the time.",
+      "year": 1996
+    },
+    {
+      "question": "In the Indian context the term De-notified tribes refers to",
+      "options": [
+        "tribes which are aboriginals",
+        "nomadic tribes",
+        "tribes practising shifting cultivation",
+        "tribes which were earlier classified as criminal tribes"
+      ],
+      "correct": "D",
+      "explanation": "'De-notified tribes' refers to communities that were originally classified as 'criminal tribes' under colonial-era law (the Criminal Tribes Act) and were later de-notified (removed from that criminal classification) after Independence.",
+      "year": 1996
+    },
+    {
+      "question": "Assertion (A): The word ‘minority’ is not defined in the Constitution of India.\nReason (R): The Minorities Commission is not a constitutional body.\nIn the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "B",
+      "explanation": "The Constitution does not define the term 'minority' anywhere in its text, so the Assertion is true. The (National) Minorities Commission was indeed a non-constitutional, statutory/executive body (before later being given statutory status under a separate Act) — making the Reason also true, but it is not really the explanation for why 'minority' itself remains undefined in the Constitution; the two facts are independent of each other.",
+      "year": 1996
+    },
+    {
+      "question": "In which one of the following States of India is it legal for a Hindu male and illegal for a Muslim male to have more than one living wife?",
+      "options": [
+        "Nagaland",
+        "Mizoram",
+        "Goa",
+        "Arunachal Pradesh"
+      ],
+      "correct": "C",
+      "explanation": "In Goa, where the Portuguese Civil Code (Uniform Civil Code) applies to all communities regardless of religion, a Hindu man is permitted polygamy under specific historical provisions while a Muslim man is not permitted more than one wife — an unusual reversal of the general personal-law position elsewhere in India.",
+      "year": 1995
+    }
+  ]
+}

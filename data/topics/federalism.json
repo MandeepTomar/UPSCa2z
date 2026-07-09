@@ -1,0 +1,247 @@
+{
+  "topic": "Centre-State Relations",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements: With reference to the Constitution of India, if an area in a State is declared as Scheduled Area under the Fifth Schedule\nI. the State Government loses its executive power in such areas and a local body assumes total administration.\nII. the Union Government can take over the total administration of such areas under certain circumstances on the recommendations of the Governor.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I only",
+        "II only",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "correct": "D",
+      "explanation": "Declaring an area a Scheduled Area under the Fifth Schedule does not strip the State Government of its executive power there; the State continues to administer it, subject to special provisions and gubernatorial oversight, so Statement I is incorrect. The Union Government also does not take over total administration of Scheduled Areas merely on the Governor's recommendation; the Fifth Schedule instead empowers the Governor to make special regulations and requires an annual report to the President, without transferring administration to the Union in the manner claimed — Statement II is incorrect.",
+      "year": 2025
+    },
+    {
+      "question": "Which one of the following statements is correct as per the Constitution of India ?",
+      "options": [
+        "Inter-State trade and commerce is a State subject under the State List",
+        "Inter-State migration is a State subject under the State List",
+        "Inter-State quarantine is a Union subject under the Union List.",
+        "Corporation tax is a State subject under the State List"
+      ],
+      "correct": "C",
+      "explanation": "Inter-State trade and commerce falls under the Union List (with Article 301-304 provisions), not the State List — Statement (a) is incorrect. Inter-State migration is also a Union List subject, not State — Statement (b) is incorrect. Inter-State quarantine is indeed a Union List subject, given its cross-boundary public health implications — Statement (c) is correct. Corporation tax is a Union List subject, not State — Statement (d) is incorrect.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements: Statement-I: In India, prisons are managed by State Governments with their own rules and regulations for the day-to-day administration of prisons. Statement-II: In India, prisons are governed by the Prisons Act, 1894 which expressly kept the subject of prisons in the control of Provincial Governments. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "A",
+      "explanation": "Prisons are indeed managed by State Governments under their own administrative rules for daily operations — Statement-I is correct. This traces back to the Prisons Act, 1894, which placed prison administration under the control of Provincial (now State) Governments, providing the historical and legal basis for the present arrangement — Statement-II correctly explains Statement-I.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to 'Scheduled Areas' in India, consider the following statements:\n1. Within a State, the notification of an area as Scheduled Area takes place through an Order of the President.\n2. The largest administrative unit forming the Scheduled Area is the District and the lowest is the cluster of villages in the Block.\n3. The Chief Ministers of the concerned States are required to submit annual reports to the Union Home Ministry on the administration of Scheduled Areas in the States.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Notification of an area as a Scheduled Area within a State is indeed done through an Order of the President — Statement 1 is correct. However, the administrative hierarchy of Scheduled Areas typically has the State as the largest unit and the village (not a cluster of villages in a Block) as the smallest identifiable unit in the usual description — Statement 2 is incorrect. It is the Governor, not the Chief Minister, who is required to submit an annual report to the President regarding the administration of Scheduled Areas — Statement 3 is incorrect.",
+      "year": 2023
+    },
+    {
+      "question": "If a particular area is brought under the Fifth Schedule of the Constitution of India, which one of the following statements best reflects the consequence of it?",
+      "options": [
+        "This would prevent the transfer of land of tribal people to non-tribal people.",
+        "This would create a local self-governing body in that area.",
+        "This would convert that area into a Union Territory.",
+        "The State having such areas would be declared a Special Category State."
+      ],
+      "correct": "A",
+      "explanation": "Bringing an area under the Fifth Schedule primarily empowers the Governor to regulate or prohibit the transfer of land from tribal people to non-tribal people, safeguarding tribal land rights, which is its most direct and significant consequence.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following in Indian polity is an essential feature that indicates that it is federal in character?",
+      "options": [
+        "The independence of judiciary is safeguarded.",
+        "The Union Legislature has elected representatives from constituent units.",
+        "The Union Cabinet can have elected representatives from regional parties.",
+        "The Fundamental Rights are enforceable by Courts of Law."
+      ],
+      "correct": "A",
+      "explanation": "An essential federal feature is the presence of an independent judiciary capable of adjudicating disputes between the Union and the States (and interpreting the division of powers), since this impartial umpire mechanism is central to maintaining the federal balance.",
+      "year": 2021
+    },
+    {
+      "question": "Under which Schedule of the Constitution of India can the transfer of tribal land to private parties for mining be declared null and void?",
+      "options": [
+        "Third Schedule",
+        "Fifth Schedule",
+        "Ninth Schedule",
+        "Twelfth Schedule"
+      ],
+      "correct": "B",
+      "explanation": "The Fifth Schedule empowers the Governor to make regulations prohibiting or restricting the transfer of tribal land to non-tribal persons in Scheduled Areas, and such unauthorised transfers, including for mining, can be declared null and void under these provisions.",
+      "year": 2019
+    },
+    {
+      "question": "Which one of the following is not a feature of Indian federalism?",
+      "options": [
+        "There is an independent judiciary in India.",
+        "Powers have been clearly divided between the Centre and the States.",
+        "The federating units have been given unequal representation in the Rajya Sabha.",
+        "It is the result of an agreement among the federating units."
+      ],
+      "correct": "D",
+      "explanation": "Indian federalism was not formed through an agreement among previously independent federating units (unlike, say, the USA); it was instead created by a single Constituent Assembly through the Constitution itself, making this the feature NOT present in Indian federalism.",
+      "year": 2017
+    },
+    {
+      "question": "The Parliament of India acquires the power to legislate on any item in the State List in the national interest if a resolution to that effect is passed by the",
+      "options": [
+        "Lok Sabha by a simple majority of its total membership",
+        "Lok Sabha by a majority of not less than two-thirds of its total membership",
+        "Rajya Sabha by a simple majority of its total membership",
+        "Rajya Sabha by a majority of not less than two-thirds of its members present and voting"
+      ],
+      "correct": "D",
+      "explanation": "Under Article 249, Parliament can legislate on a State List subject in the national interest if the Rajya Sabha passes a resolution to that effect, supported by not less than two-thirds of the members present and voting.",
+      "year": 2016
+    },
+    {
+      "question": "The provisions in Fifth Schedule and Sixth Schedule in the Constitution of India are made in order to",
+      "options": [
+        "protect the interests of Scheduled Tribes",
+        "determine the boundaries between States",
+        "determine the powers, authority and responsibilities of Panchayats",
+        "protect the interests of all the border States"
+      ],
+      "correct": "A",
+      "explanation": "The Fifth and Sixth Schedules contain special provisions for the administration of tribal areas, designed primarily to protect the distinct social, cultural, and economic interests of Scheduled Tribes.",
+      "year": 2015
+    },
+    {
+      "question": "The distribution of powers between the Centre and the States in the Indian Constitution is based on the scheme provided in the:",
+      "options": [
+        "Morley-Minto Reforms, 1909",
+        "Montagu-Chelmsford Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947"
+      ],
+      "correct": "C",
+      "explanation": "The scheme of distribution of legislative powers between the Centre and the States in the Indian Constitution — the Union, State, and Concurrent Lists — closely follows the framework first introduced by the Government of India Act, 1935.",
+      "year": 2012
+    },
+    {
+      "question": "Which Schedule of the Constitution of India contains special provisions for the administration and control of Scheduled Areas in several States?",
+      "options": [
+        "Third",
+        "Fifth",
+        "Seventh",
+        "Ninth"
+      ],
+      "correct": "B",
+      "explanation": "The Fifth Schedule contains special provisions relating to the administration and control of Scheduled Areas and Scheduled Tribes in various States (other than the northeastern states covered by the Sixth Schedule).",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following is the correct chronological order of the formation of the following as full States of the Indian Union?",
+      "options": [
+        "Sikkim – Arunachal Pradesh – Nagaland – Haryana",
+        "Nagaland – Haryana – Sikkim – Arunachal Pradesh",
+        "Sikkim – Haryana – Nagaland – Arunachal Pradesh",
+        "Nagaland – Arunachal Pradesh – Sikkim – Haryana"
+      ],
+      "correct": "B",
+      "explanation": "Nagaland became a full State in 1963, Haryana in 1966, Sikkim in 1975, and Arunachal Pradesh in 1987 — reflecting this chronological order of statehood.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following subjects is under the Union List in the Seventh Schedule of the Constitution of India?",
+      "options": [
+        "Regulation of labour and safety in mines and oilfields",
+        "Agriculture",
+        "Fisheries",
+        "Public health"
+      ],
+      "correct": "A",
+      "explanation": "Regulation of labour and safety in mines and oilfields falls under the Union List, given its association with mineral resource development, which the Centre regulates; agriculture, fisheries, and public health are State List subjects.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. Articles 371A to 371I were inserted in the Constitution of India to meet regional demands of Nagaland, Assam, Manipur, Andhra Pradesh, Sikkim, Mizoram, Arunachal Pradesh and Goa.\n2. Constitution of India and the United States of America can envisage a dual policy (the Union and the States) but a single citizenship.\n3. A naturalized citizen of India can never be deprived of his citizenship.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 3",
+        "3 only",
+        "1 only"
+      ],
+      "correct": "D",
+      "explanation": "Articles 371A to 371I provide special provisions for various States including Nagaland, Assam, Manipur, Andhra Pradesh, Sikkim, Mizoram, Arunachal Pradesh, and Goa, among others — Statement 1 is correct in its broad listing, though the US actually has dual citizenship (federal and State), unlike India's single citizenship, making the comparison in Statement 2 incorrect. A naturalised Indian citizen's citizenship can in fact be terminated/revoked under provisions of the Citizenship Act, so Statement 3, claiming it 'can never' be taken away, is incorrect — leaving only Statement 1 correct.",
+      "year": 2005
+    },
+    {
+      "question": "With reference to the Constitution of India, which one of the following pairs is not correctly matched?",
+      "options": [
+        "Forests : Concurrent List",
+        "Stock Exchanges : Concurrent List",
+        "Post Office Savings Bank : Union List",
+        "Public Health : State List"
+      ],
+      "correct": "B",
+      "explanation": "Stock Exchanges and futures markets fall under the Union List (Entry 48), not the Concurrent List, making this the incorrectly matched pair; Forests is indeed in the Concurrent List, Post Office Savings Bank correctly falls under the Union List, and Public Health correctly falls under the State List.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following Articles of the Constitution of India says that the executive power of every State shall be so exercised as not to impede or prejudice the exercise of the executive power of the Union?",
+      "options": [
+        "Article 257",
+        "Article 258",
+        "Article 355",
+        "Article 356"
+      ],
+      "correct": "A",
+      "explanation": "Article 257 provides that the executive power of every State must be exercised so as not to impede or prejudice the exercise of the executive power of the Union, and further empowers the Union to give directions to States for this purpose.",
+      "year": 2004
+    },
+    {
+      "question": "Consider the following events:\n1. Fourth general elections in India\n2. Formation of Haryana State\n3. Mysore named as Karnataka State\n4. Meghalaya and Tripura become full States Which one of the following is the correct chronological order of the above?",
+      "options": [
+        "2 ‑ 1 ‑ 4 ‑ 3",
+        "4 ‑ 3 ‑ 2 ‑ 1",
+        "2 ‑ 3 ‑ 4 ‑ 1",
+        "4 ‑ 1 ‑ 2 ‑ 3"
+      ],
+      "correct": "A",
+      "explanation": "Haryana was formed as a State in 1966, the fourth general elections in India were held in 1967, Meghalaya and Tripura became full States in 1972, and Mysore was renamed Karnataka in 1973 — giving this chronological sequence.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following statements is incorrect?",
+      "options": [
+        "Goa attained full statehood in 1987",
+        "Diu is an island in the Gulf of Khambhat",
+        "Daman and Diu were separated from Goa by the 56th Amendment of the Constitution of India",
+        "Dadra and Nagar Haveli were under French colonial rule till 1954"
+      ],
+      "correct": "D",
+      "explanation": "Dadra and Nagar Haveli was actually under Portuguese colonial rule (not French) until it was liberated in 1954, making this the incorrect statement among the given options; Goa attaining statehood in 1987, Diu being an island in the Gulf of Khambhat, and Daman and Diu's separation from Goa via the 56th Amendment are all accurate.",
+      "year": 2000
+    },
+    {
+      "question": "Which of the following is/are extra-constitutional and extra-legal device(s) for securing cooperation and coordination between the States in India?\nI. The National Development Council\nII. The Governors’ Conference\nIII. Zonal Councils\nIV. The Interstate Council\nChoose the correct answer from the codes given below:",
+      "options": [
+        "I, II and III",
+        "I, III and IV",
+        "III and IV",
+        "IV only"
+      ],
+      "correct": "A",
+      "explanation": "The National Development Council, the Governors' Conference, and the Zonal Councils are all extra-constitutional, extra-legal bodies for facilitating cooperation between States, created through executive resolutions or ordinary statute rather than any specific constitutional provision — unlike the Inter-State Council, which is a body constituted under Article 263, a specific constitutional provision.",
+      "year": 1995
+    }
+  ]
+}

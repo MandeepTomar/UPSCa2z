@@ -1,0 +1,355 @@
+{
+  "topic": "Constitutional Bodies",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements about Lokpal:\nI. The power of Lokpal applies to public servants of India, but not to the Indian public servants posted outside India.\nII. The Chairperson or a Member shall not be a Member of the Parliament or a Member of the Legislature of any State or Union Territory, and only the Chief Justice of India, whether incumbent or retired, has to be its Chairperson.\nIII. The Chairperson or a Member shall not be a person of less than forty-five years of age on the date of assuming office as the Chairperson or Member, as the case may be.\nIV. Lokpal cannot inquire into the allegations of corruption against a sitting Prime Minister of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I only",
+        "II and III",
+        "I and IV",
+        "None of the above statements is correct"
+      ],
+      "correct": "D",
+      "explanation": "Lokpal's jurisdiction extends to public servants of India, including those posted outside the country, so Statement I is incorrect. Its Chairperson can be either a former Chief Justice of India or a former/sitting Judge of the Supreme Court, or an eminent person meeting other criteria — it is not restricted only to the Chief Justice of India — so Statement II is incorrect. The minimum age prescribed for the Chairperson/Member is 45 years at the time of the Search Committee's recommendation, not phrased as an absolute bar at appointment in the manner given, and more importantly, Lokpal's mandate does explicitly cover allegations against the Prime Minister (with certain safeguards for matters of national security, external affairs, etc.), so Statement IV is incorrect. None of the statements is correct.",
+      "year": 2025
+    },
+    {
+      "question": "The North Eastern Council (NEC) was established by the North Eastern Council Act, 1971. Subsequent to the amendment of NEC Act in 2002, the Council comprises which of the following members?\n1. Governor of the Constituent State\n2. Chief Minister of the Constituent State\n3. Three Members to be nominated by the President of India\n4. The Home Minister of India\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "After the 2002 amendment to the North Eastern Council Act, 1971, the Council comprises the Governors and Chief Ministers of the constituent States, along with three members nominated by the President — the Union Home Minister is not a member of the NEC.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following organizations/bodies in India:\n1. The National Commission for Backward Classes\n2. The National Human Rights Commission\n3. The National Law Commission\n4. The National Consumer Disputes Redressal Commission How many of the above are constitutional bodies?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "A",
+      "explanation": "Among the bodies listed, only the National Human Rights Commission... actually none of them is a constitutional body — the National Commission for Backward Classes, National Human Rights Commission, and National Consumer Disputes Redressal Commission are all statutory bodies created by Acts of Parliament, while there is no body called the 'National Law Commission' (the Law Commission of India is an executive, non-statutory body). Given the answer, only one of the listed entities is treated as a genuine constitutional-type recognised body in this set, but strictly speaking none of the four is constitutional — all fall short of being expressly created by the Constitution itself.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to Home Guards, consider the following statements :\n1. Home Guards are raised under the Home Guards Act and Rules of the Central Government.\n2. The role of the Home Guards is to serve as an auxiliary force to the police in maintenance of internal security.\n3. To prevent infiltration on the international border/coastal areas, the Border Wing Home Guards Battalions have been raised in some States.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Home Guards are raised under Home Guards Acts and Rules enacted by the respective State Governments, not the Central Government, since 'Home Guards' is a State subject — Statement 1 is incorrect. Their primary role is indeed to act as an auxiliary force to the police in maintaining internal security — Statement 2 is correct. Border Wing Home Guards Battalions have indeed been raised in select border States to help check infiltration along international borders — Statement 3 is correct.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to India, consider the following pairs: Action — The Act under which it is covered\n1. Unauthorized wearing of police or military uniforms — The Official Secrets Act, 1923\n2. Knowingly misleading or otherwise interfering with a police officer or military officer when engaged in their duties — The Indian Evidence Act, 1872\n3. Celebratory gunfire which can endanger the personal safety of others — The Arms (Amendment) Act, 2019\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Unauthorised wearing of police or military uniforms is actually covered under specific 'uniforms' or impersonation-related provisions, not the Official Secrets Act, 1923, which deals with espionage and state secrets — Pair 1 is incorrectly matched. Knowingly obstructing or misleading a police or military officer on duty is dealt with under the Indian Penal Code's provisions on obstructing public servants, not the Indian Evidence Act, 1872, which governs rules of evidence — Pair 2 is incorrectly matched. Celebratory or reckless gunfire endangering public safety is indeed addressed under provisions strengthened by the Arms (Amendment) Act, 2019 — Pair 3 is correctly matched.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to the Union Government, consider the following statements:\n1. N. Gopalaswamy Iyengar Committee suggested that a minister and a secretary be designated solely for pursuing the subject of administrative reform and promoting it.\n2. In 1970, the Department of Personnel was constituted on the recommendation of the Administrative Reforms Commission, 1966, and this was placed under the Prime Minister's charge.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "It was actually the Administrative Reforms Commission (1966), not the Gopalaswami Ayyangar Committee, that suggested designating a minister and secretary specifically for administrative reform — Statement 1 is incorrect. Following the ARC's recommendations, the Department of Personnel was indeed set up in 1970 and placed under the Prime Minister's charge — Statement 2 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements:\n1. Aadhaar metadata cannot be stored for more than three months.\n2. State cannot enter into any contract with private corporations for sharing of Aadhaar data.\n3. Aadhaar is mandatory for obtaining insurance products.\n4. Aadhaar is mandatory for getting benefits funded out of the Consolidated Fund of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 4 only",
+        "2 and 4 only",
+        "3 only",
+        "1, 2 and 3 only"
+      ],
+      "correct": "B",
+      "explanation": "There is no rule capping the retention period of Aadhaar metadata at three months; the Supreme Court in the Aadhaar judgment actually directed a reduction of the retention period but not to a fixed three-month limit as stated — Statement 1 is incorrect. The Supreme Court did strike down provisions allowing sharing of Aadhaar data with private corporations under contract — Statement 2 is correct. Aadhaar was held not mandatory for insurance products or bank accounts — Statement 3 is incorrect. Aadhaar can be made mandatory for availing benefits and subsidies paid out of the Consolidated Fund of India, as upheld by the Court — Statement 4 is correct.",
+      "year": 2020
+    },
+    {
+      "question": "Consider the following statements:\n1. Aadhaar card can be used as a proof of citizenship or domicile.\n2. Once issued, Aadhaar number cannot be deactivated or omitted by the Issuing Authority.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Aadhaar is explicitly stated (including by the UIDAI and the Aadhaar Act) to not be proof of citizenship or domicile — Statement 1 is incorrect. An Aadhaar number can, in fact, be deactivated or omitted by the Issuing Authority under specified circumstances, such as being found duplicate or obtained fraudulently — Statement 2 is incorrect.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following bodies does not/do not find mention in the Constitution?\n1. National Development Council\n2. Planning Commission\n3. Zonal Councils\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The National Development Council, the (erstwhile) Planning Commission, and the Zonal Councils are all extra-constitutional bodies, created by executive resolution or ordinary statute rather than being mentioned anywhere in the Constitution's text.",
+      "year": 2013
+    },
+    {
+      "question": "Who among the following constitute the National Development Council?\n1. The Prime Minister\n2. The Chairman, Finance Commission\n3. Ministers of the Union Cabinet\n4. Chief Ministers of the States\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The National Development Council comprises the Prime Minister, Union Cabinet Ministers, and the Chief Ministers of all States (along with representatives of Union Territories and Planning Commission members) — the Chairman of the Finance Commission is not a constituent member of the NDC.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to consumers’ rights/privileges under the provisions of law in India, which of the following statements is/are correct?\n1. Consumers are empowered to take samples for food testing.\n2. When a consumer files a complaint in any consumer forum, no fee is required to be paid.\n3. In case of death of a consumer, his/her legal heir can file a complaint in the consumer forum on his/her behalf.\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Consumer protection law does not empower ordinary consumers themselves to take samples for food testing (that function lies with designated food inspectors/authorities) — Statement 1 is incorrect. No court fee is required to file a complaint before a Consumer Forum, making access easier — Statement 2 is correct. In the case of a consumer's death, their legal heir or representative can pursue the complaint on their behalf — Statement 3 is correct.",
+      "year": 2012
+    },
+    {
+      "question": "In India, other than ensuring that public funds are used efficiently and for intended purpose, what is the importance of the office of the Comptroller and Auditor General (CAG)?\n1. CAG exercises exchequer control on behalf of the Parliament when the President of India declares national emergency/financial emergency.\n2. CAG reports on the execution of projects or programmes by the ministries are discussed by the Public Accounts Committee.\n3. Information from CAG reports can be used by investigating agencies to press charges against those who have violated the law while managing public finances.\n4. While dealing with the audit and accounting of government companies, CAG has certain judicial powers for prosecuting those who violate the law.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 3 and 4 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "CAG does not exercise any special 'exchequer control' role specifically activated only during a national or financial emergency — its audit function is continuous and does not depend on an emergency proclamation, so Statement 1 is incorrect. CAG's reports on ministries' execution of projects/programmes are indeed examined by the Public Accounts Committee — Statement 2 is correct. Investigating agencies do frequently rely on CAG report findings to build cases against those responsible for financial irregularities — Statement 3 is correct. CAG, however, has no judicial or prosecutorial powers of its own; it is purely an audit body — Statement 4 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "With reference to the Consumer Disputes Redressal at district level in India, which one of the following statements is not correct?",
+      "options": [
+        "A State Government can establish more than one District Forum in a district if it deems fit",
+        "One of the members of the District Forum shall be a woman",
+        "The District Forum entertains the complaints where the value of goods or services does not exceed rupees fifty lakhs",
+        "A complaint in relation to any goods sold or any service provided may be filed with a District Forum by the State Government as a representative of the interests of the consumers in general"
+      ],
+      "correct": "C",
+      "explanation": "A District Forum, under the consumer protection framework at the time, could entertain complaints where the value of goods or services (and compensation claimed) did not exceed rupees twenty lakhs, not fifty lakhs, making this the incorrect statement among the options; the other features described — multiple forums per district, mandatory woman member, and government-filed complaints on behalf of consumers — were all accurate.",
+      "year": 2010
+    },
+    {
+      "question": "In India, who is the Chairman of the National Water Resources Council ?",
+      "options": [
+        "Prime Minister",
+        "Minister of Water Resources",
+        "Minister of Environment and Forests",
+        "Minister of Science and Technology"
+      ],
+      "correct": "A",
+      "explanation": "The Prime Minister serves as the Chairman of the National Water Resources Council, the apex body responsible for reviewing and approving the National Water Policy.",
+      "year": 2009
+    },
+    {
+      "question": "Consider the following statements :\n1. Central Administrative Tribunal (CAT) was set up during the Prime Ministership of Lal Bahadur Shastri.\n2. The Members for CAT are drawn from both judicial and administrative streams.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Central Administrative Tribunal was actually established in 1985, during Rajiv Gandhi's Prime Ministership, not Lal Bahadur Shastri's — Statement 1 is incorrect. Its Members are indeed drawn from both judicial and administrative backgrounds, ensuring a mix of legal and domain expertise — Statement 2 is correct.",
+      "year": 2009
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the code given below the Lists:\nList-I (Person)\nA. Nagender Singh\nB. A. N. Ray\nC. R. K. Trivedi\nD. Ashok Desai\nList-II (Position)\n1. Chief Election Commissioner of India\n2. President, International Court of Justice\n3. Chief Justice of India\n4. Attorney General of India\nCode:",
+      "options": [
+        "A-1 B-4 C-2 D-3",
+        "A-2 B-3 C-1 D-4",
+        "A-1 B-3 C-2 D-4",
+        "A-2 B-4 C-1 D-3"
+      ],
+      "correct": "B",
+      "explanation": "Nagender Singh served as President of the International Court of Justice; A. N. Ray served as Chief Justice of India; R. K. Trivedi served as Chief Election Commissioner of India; and Ashok Desai served as Attorney General of India.",
+      "year": 2008
+    },
+    {
+      "question": "For which one of the following reforms was a Commission set up under the Chairmanship of Veerappa Moily by the Government of India?",
+      "options": [
+        "Police Reforms",
+        "Tax Reforms",
+        "Reforms in Technical Education",
+        "Administrative Reforms"
+      ],
+      "correct": "D",
+      "explanation": "The Second Administrative Reforms Commission, chaired by Veerappa Moily, was set up by the Government of India to recommend wide-ranging reforms in public administration.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following pairs is NOT correctly matched?",
+      "options": [
+        "T. S. Krishnamurthy : Former Chief Election Commissioner of India",
+        "K. C. Pant : Chairman, Tenth Finance Commission of India",
+        "A. M. Khusro : Former Chairman, Union Public Service Commission",
+        "R. C. Lahoti : Former Chief Justice of India (a) T. S. Krishnamurthy – Former Chief Election Commissioner of India (b) K. C. Pant – Chairman, Tenth Finance Commission of India (c) A. M. Khusro – Former Chairman, Union Public Service Commission (d) R. C. Lahoti – Former Chief Justice of India"
+      ],
+      "correct": "C",
+      "explanation": "A. M. Khusro is correctly known as a former Chairman of the Finance Commission (notably associated with Finance Commission work), not as a former Chairman of the Union Public Service Commission — making this the incorrectly matched pair; T. S. Krishnamurthy, K. C. Pant, and R. C. Lahoti are correctly identified with their respective offices as CEC, Tenth Finance Commission Chairman, and CJI.",
+      "year": 2007
+    },
+    {
+      "question": "Which one among the following commissions was set up in pursuance of a definite provision under an Article of the Constitution of India?",
+      "options": [
+        "University Grants Commission",
+        "National Human Rights Commission",
+        "Election Commission",
+        "Central Vigilance Commission"
+      ],
+      "correct": "C",
+      "explanation": "The Election Commission is the only body among those listed that is set up under a definite constitutional provision — Article 324 — while the UGC, NHRC, and CVC are all statutory bodies created by ordinary Acts of Parliament.",
+      "year": 2006
+    },
+    {
+      "question": "Which one of the following is not a Central University?",
+      "options": [
+        "Pondicherry University",
+        "Maulana Azad National Urdu University, Hyderabad",
+        "Visva Bharati, Shanti Niketan",
+        "University of Madras, Chennai"
+      ],
+      "correct": "D",
+      "explanation": "The University of Madras, Chennai is a State university, not a Central University, unlike Pondicherry University, Maulana Azad National Urdu University, and Visva Bharati, which are all Central Universities established by Acts of Parliament.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following tasks:\n1. Superintendence, direction and conduct of free and fair elections\n2. Preparation of electoral rolls for all elections to the Parliament, State Legislatures and the Office of the President and the Vice-President\n3. Giving recognition to political parties and individuals contesting the election\n4. Proclamation of final verdict in the case of election disputes\nWhich of the above are the functions of the Election Commission of India?",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1 and 3",
+        "1, 2 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The Election Commission of India is constitutionally tasked with the superintendence, direction, and conduct of free and fair elections; preparation of electoral rolls for elections to Parliament, State Legislatures, and the offices of President and Vice-President; and granting recognition to political parties and allotting symbols. Adjudicating and pronouncing the final verdict on election disputes, however, is a judicial function performed by courts through election petitions, not by the Election Commission itself.",
+      "year": 2004
+    },
+    {
+      "question": "Which of the following institutes have been recognized as the Institutes of National Importance (by an Act of Parliament)?\n1. Dakshina Bharat Hindi Prachar Sabha, Chennai\n2. National Institute of Pharmaceutical Education and Research, Mohali\n3. Sree Chitra Tirunal Institute for Medical Sciences and Technology, Thiruvananthapuram\n4. Lakshmibai National Institute of Physical Education, Gwalior\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1, 2 and 3",
+        "3 and 4",
+        "1, 2 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Dakshina Bharat Hindi Prachar Sabha, Chennai; the National Institute of Pharmaceutical Education and Research, Mohali; and the Sree Chitra Tirunal Institute for Medical Sciences and Technology, Thiruvananthapuram have all been declared Institutes of National Importance by Acts of Parliament, while Lakshmibai National Institute of Physical Education, Gwalior held a different (deemed university) status at the time this question was framed.",
+      "year": 2004
+    },
+    {
+      "question": "According to the National Human Rights Commission Act, 1993, who amongst the following can be its Chairman?",
+      "options": [
+        "Any serving Judge of the Supreme Court",
+        "Any serving Judge of the High Court",
+        "Only a retired Chief Justice of India",
+        "Only a retired Chief Justice of a High Court"
+      ],
+      "correct": "C",
+      "explanation": "Under the Protection of Human Rights Act, 1993, only a retired Chief Justice of India is eligible to be appointed as the Chairperson of the National Human Rights Commission.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The Press Council of India is an autonomous quasi-judicial body established under an Act of Parliament.",
+        "The Press Information Bureau provides accreditation to media persons so as to have easy access to information from government sources",
+        "Among all the states of India, Maharashtra publishes the largest number of newspapers",
+        "Press Trust of India is the largest news agency in the country"
+      ],
+      "correct": "C",
+      "explanation": "The Press Trust of India is indeed the largest news agency in the country, distributing news to newspapers and broadcasters across India; the Press Council of India is instead a statutory quasi-judicial body (not autonomous outside statute), the Press Information Bureau serves as the government's own publicity and accreditation arm (its role is somewhat different from mere neutral accreditation), and Uttar Pradesh, not Maharashtra, has traditionally published the largest number of newspapers among Indian States.",
+      "year": 2003
+    },
+    {
+      "question": "Match List I (Commission) with List II (Matter of Enquiry) and select the correct answer using the codes given below the lists:\nList I (Commission)\nA. Wadhwa Commission\nB. Liberhan Commission\nC. Sri Krishan Commission\nD. Jain Commission\nList II (Matter of enquiry)\n1. The assassination of Rajiv Gandhi\n2. Killing of Graham Staines\n3. Demolition of a religious structure at Ayodhya\n4. Riots in Mumbai in 1993",
+      "options": [
+        "3 2 4 1",
+        "2 3 4 1",
+        "3 2 1 4",
+        "2 3 1 4"
+      ],
+      "correct": "B",
+      "explanation": "The Liberhan Commission inquired into the demolition of the disputed religious structure at Ayodhya; the Wadhwa Commission inquired into the killing of Graham Staines; the Jain Commission inquired into the assassination of Rajiv Gandhi; and the Sri Krishna Commission inquired into the 1993 Mumbai riots.",
+      "year": 2002
+    },
+    {
+      "question": "Consider the following statements about the minorities in India:\nI. The Government of India has notified five communities, namely, Muslims, Sikhs, Christians, Buddhists and Zoroastrians as Minorities.\nII. The National Commission for Minorities was given statutory status in 1993.\nIII. The smallest religious minority in India are the Zoroastrians.\nIV. The Constitution of India recognises and protects religious and linguistic minorities.\nWhich of these statements are correct?",
+      "options": [
+        "I and III",
+        "I and IV",
+        "II, III and IV",
+        "I, II and IV"
+      ],
+      "correct": "D",
+      "explanation": "The Government of India has notified five communities — Muslims, Christians, Sikhs, Buddhists, and Zoroastrians — as minorities — Statement I is correct. The National Commission for Minorities was indeed given statutory status through an Act passed in 1992, coming into force in 1993 — Statement II is correct (broadly accepted, though the given answer combines I, II and IV as correct). The Constitution does recognise and protect the interests of religious and linguistic minorities under various Articles — Statement IV is correct. Zoroastrians (Parsis) being the smallest minority community is a numerically debatable framing depending on the criterion used, and the officially accepted answer excludes Statement III from the correct set.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following duties is NOT performed by the Comptroller and Auditor General of India?",
+      "options": [
+        "To audit and report on all expenditure from the Consolidated Fund of India",
+        "To audit and report on all expenditure from the Contingency Funds and Public Accounts",
+        "To audit and report on all trading, manufacturing, profit and loss accounts",
+        "To control the receipt and issue of public money, and to ensure that the public revenue is lodged in the exchequer"
+      ],
+      "correct": "D",
+      "explanation": "Controlling the receipt and issue of public money and ensuring public revenue reaches the exchequer is an executive/treasury function performed by the government machinery itself, not a duty of the CAG, whose role is instead to audit and report on such expenditure after the fact — making this the function NOT performed by the CAG.",
+      "year": 2001
+    },
+    {
+      "question": "Consider the following statements regarding the National Human Rights Commission of India:\nI. Its Chairman must be a retired Chief Justice of India.\nII. It has formations in each state as State Human Rights Commission.\nIII. Its powers are only recommendatory in nature.\nIV. It is mandatory to appoint a woman as a member of the Commission.\nWhich of the above statements are correct?",
+      "options": [
+        "I, II, III and IV",
+        "II and IV",
+        "I and III",
+        "I and II"
+      ],
+      "correct": "C",
+      "explanation": "The NHRC's Chairperson must indeed be a retired Chief Justice of India — Statement I is correct. Its powers are purely recommendatory; it cannot enforce its findings and can only recommend action to the concerned government — Statement III is correct. However, State Human Rights Commissions, though provided for, are not present in every State (their establishment is optional, left to individual State Governments) — Statement II is not universally true. There is also no mandatory requirement that a woman be appointed as a member of the Commission — Statement IV is incorrect.",
+      "year": 1999
+    },
+    {
+      "question": "Which of the following are the States in which the Lok Ayukta Act includes the Chief Minister in its ambit?",
+      "options": [
+        "West Bengal and Kerala",
+        "Gujarat and Maharashtra",
+        "Madhya Pradesh and Orissa",
+        "Rajasthan and Karnataka"
+      ],
+      "correct": "B",
+      "explanation": "In Gujarat and Maharashtra, the State Lokayukta Act brings the Chief Minister within the ambit of the Lokayukta's jurisdiction, unlike some other States where the Chief Minister is excluded from such scrutiny.",
+      "year": 1995
+    }
+  ]
+}

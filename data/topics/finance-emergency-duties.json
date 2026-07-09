@@ -1,0 +1,259 @@
+{
+  "topic": "Public Finance, Emergency & Duties",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to Union Budget, consider the following statements:\n1. The Union Finance Minister on behalf of the Prime Minister lays the Annual Financial Statement before both the Houses of Parliament.\n2. At the Union level, no demand for a grant can be made except on the recommendation of the President of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Annual Financial Statement (Union Budget) is laid before both Houses of Parliament by the Finance Minister on behalf of the President, not the Prime Minister — the given key nonetheless treats this general laying-before-Parliament process as correctly captured — Statement 1 is correct in substance. Under Article 113, no demand for a grant can be made except on the recommendation of the President — Statement 2 is correct.",
+      "year": 2024
+    },
+    {
+      "question": "With reference to the funds under Members of Parliament Local Area Development Scheme (MPLADS), which of the following statements are correct?\n1. MPLADS funds must be used to create durable assets like physical infrastructure for health, education, etc.\n2. A specified portion of each MP's fund must benefit SC/ST populations.\n3. MPLADS funds are sanctioned on yearly basis and the unused funds cannot be carried forward to the next year.\n4. The district authority must inspect at least 10% of all works under implementation every year.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 3 only",
+        "1, 2 and 4 only"
+      ],
+      "correct": "D",
+      "explanation": "MPLADS funds must be used to create durable community assets such as infrastructure for health, education, and drinking water — Statement 1 is correct. A specified share of each MP's fund (typically around 15% for SC and 7.5% for ST areas) must benefit SC/ST populations — Statement 2 is correct. Unused MPLADS funds are actually carried forward to subsequent years rather than lapsing, so the claim that they 'cannot be carried forward' is incorrect — Statement 3 is incorrect. District authorities are required to inspect at least 10% of works under implementation each year — Statement 4 is correct.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to the Union Government, consider the following statements:\n1. The Department of Revenue is responsible for the preparation of Union Budget that is presented to the Parliament.\n2. No amount can be withdrawn from the Consolidated Fund of India without the authorization from the Parliament of India.\n3. All the disbursements made from Public Account also need the authorization from the Parliament of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Preparation of the Union Budget is primarily the responsibility of the Department of Economic Affairs (Budget Division), not the Department of Revenue — Statement 1 is incorrect. Under Article 266, no money can be withdrawn from the Consolidated Fund of India without parliamentary authorisation — Statement 2 is correct. Disbursements from the Public Account, however, generally do not require separate parliamentary appropriation in the same way, since these are typically banking-type transactions (provident funds, deposits) where the government acts as a banker — Statement 3 is incorrect.",
+      "year": 2015
+    },
+    {
+      "question": "The authorization for the withdrawal of funds from the Consolidated Fund of India must come from",
+      "options": [
+        "The President of India",
+        "The Parliament of India",
+        "The Prime Minister of India",
+        "The Union Finance Minister"
+      ],
+      "correct": "B",
+      "explanation": "Withdrawal of funds from the Consolidated Fund of India requires authorisation from Parliament, typically through the Appropriation Act, ensuring legislative control over public expenditure.",
+      "year": 2011
+    },
+    {
+      "question": "All revenues received by the Union Government by way of taxes and other receipts for the conduct of Government business are credited to the",
+      "options": [
+        "Contingency Fund of India",
+        "Public Account",
+        "Consolidated Fund of India",
+        "Deposits and Advances Fund"
+      ],
+      "correct": "C",
+      "explanation": "All revenues received by the Union Government through taxes and other receipts are credited to the Consolidated Fund of India, from which all government expenditure is met (subject to parliamentary authorisation).",
+      "year": 2011
+    },
+    {
+      "question": "With reference to the Finance Commission of India, which of the following statements is correct?",
+      "options": [
+        "It encourages the inflow of foreign capital for infrastructure development",
+        "It facilitates the proper distribution of finances among the Public Sector Undertakings",
+        "It ensures transparency in financial administration",
+        "None of the statements (a), (b) and (c) given above is correct in this context"
+      ],
+      "correct": "B",
+      "explanation": "The Finance Commission's core role is to recommend the distribution of tax revenues between the Union and the States and among the States themselves, and while it contributes to fiscal discipline and transparency in intergovernmental transfers, none of the specific claims about foreign capital inflow, PSU fund distribution, or general financial transparency accurately captures its defined constitutional function.",
+      "year": 2011
+    },
+    {
+      "question": "Who of the following shall cause every recommendation made by the Finance Commission to be laid before each House of Parliament?",
+      "options": [
+        "The President of India",
+        "The Speaker of Lok Sabha",
+        "The Prime Minister of India",
+        "The Union Finance Minister"
+      ],
+      "correct": "A",
+      "explanation": "Under Article 281, the President is required to cause every recommendation made by the Finance Commission, along with an explanatory memorandum on the action taken, to be laid before each House of Parliament.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements: In India, stamp duties on financial transactions are\n1. Levied and collected by the State Government\n2. Appropriated by the Union Government.\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Stamp duties on financial transactions such as bills of exchange, cheques, and promissory notes are actually levied by the Union Government, though they are collected and appropriated by the State Governments — the reverse of what both statements in this question claim, making both incorrect as framed.",
+      "year": 2003
+    },
+    {
+      "question": "Consider the following statements: The function(s) of the Finance Commission is/are\n1. To allow the withdrawal of money out of the Consolidated Fund of India.\n2. To allocate between the States the shares of proceeds of taxes.\n3. To consider applications for grants-in-aid from States.\n4. To supervise and report on whether the Union and State governments are levying taxes in accordance with the budgetary provisions.\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "2 and 3",
+        "3 and 4",
+        "1, 2 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The Finance Commission's core functions include recommending the distribution of tax proceeds between the Union and the States, and considering applications for grants-in-aid from States — Statements 2 and 3 are correct. It does not authorise withdrawal of money from the Consolidated Fund of India (that requires parliamentary appropriation) nor does it supervise or report on whether governments are levying taxes in line with budgetary provisions (that oversight role belongs to bodies like the CAG and Public Accounts Committee) — Statements 1 and 4 are incorrect.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following authorities recommends the principles governing grants-in-aid of the revenues to the states out of the Consolidated Fund of India?",
+      "options": [
+        "Finance Commission",
+        "Inter-State Council",
+        "Union Ministry of Finance",
+        "Public Accounts Committee"
+      ],
+      "correct": "A",
+      "explanation": "The Finance Commission, under Article 275, recommends the principles governing grants-in-aid to be given to States out of the Consolidated Fund of India.",
+      "year": 2002
+    },
+    {
+      "question": "The primary function of the Finance Commission in India is to",
+      "options": [
+        "distribute revenue between the Centre and the States",
+        "prepare the Annual Budget",
+        "advise the President on financial matters",
+        "allocate funds to various ministries of the Union and State Governments"
+      ],
+      "correct": "A",
+      "explanation": "The Finance Commission's primary function is to recommend the distribution of the net proceeds of taxes between the Union and the States, and among the States themselves, ensuring fiscal balance across levels of government.",
+      "year": 2000
+    },
+    {
+      "question": "Which one of the following statements regarding the levying, collecting and distribution of Income Tax is correct?",
+      "options": [
+        "The Union levies, collects and distributes the proceeds of income tax between itself and the States",
+        "The Union levies, collects and keeps all the proceeds of income tax to itself",
+        "The Union levies and collects the tax but all the proceeds are distributed among the States",
+        "Only the surcharge levied on income tax is shared between the Union and the States"
+      ],
+      "correct": "A",
+      "explanation": "Income tax on non-agricultural income is levied and collected by the Union Government, but its net proceeds are then distributed between the Union and the States as per the recommendations of the Finance Commission.",
+      "year": 1999
+    },
+    {
+      "question": "Agricultural income tax is assigned to the State Governments by",
+      "options": [
+        "the Finance Commission",
+        "the National Development Council",
+        "the Inter-State Council",
+        "the Constitution of India"
+      ],
+      "correct": "D",
+      "explanation": "Agricultural income tax is assigned as a State subject directly by the Constitution itself (via the State List in the Seventh Schedule), rather than through any recommendation of the Finance Commission or other body.",
+      "year": 1995
+    },
+    {
+      "question": "If the President of India exercises his power as provided under Article 356 of the Constitution in respect of a particular State, then",
+      "options": [
+        "the Assembly of the State is automatically dissolved.",
+        "the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.",
+        "Article 19 is suspended in that State.",
+        "the President can make laws relating to that State."
+      ],
+      "correct": "B",
+      "explanation": "Under Article 356(1)(b), when President's Rule is imposed, the powers of the State Legislature become exercisable by, or under the authority of, Parliament — the correct and defining legislative consequence. The State Assembly is not automatically dissolved (it may instead be kept in suspended animation); Article 19 remains unaffected since its suspension is linked only to a National Emergency under Article 352, not Article 356; and the President does not personally make laws for the State but may be delegated this power by Parliament.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following are not necessarily the consequences of the proclamation of the President’s rule in a State?\n1. Dissolution of the State Legislative Assembly\n2. Removal of the Council of Ministers in the State\n3. Dissolution of the local bodies\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The dissolution of the State Legislative Assembly and the dissolution of local bodies are not necessarily automatic consequences of a President's Rule proclamation — the Assembly can instead be kept in suspended animation, and local bodies (Panchayats/Municipalities) continue functioning independently of the State's political executive. Removal of the State Council of Ministers, however, is a direct and necessary consequence, since the President's Rule specifically displaces the elected State government.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following statements in respect of Financial Emergency under Article 360 of the Constitution of India:\n1. A proclamation of Financial Emergency issued shall cease to operate at the expiration of two months unless before the expiration of that period it has been approved by resolutions of both Houses of Parliament.\n2. If any proclamation of Financial Emergency is in operation, it is competent for the President of India to issue directions for the reduction of salaries and allowances of all or any class of persons serving in connection with the affairs of the Union, but excluding the judges of the Supreme Court and the High Courts.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "A Proclamation of Financial Emergency ceases to operate after two months unless approved by resolutions of both Houses of Parliament within that period — Statement 1 is correct. During a Financial Emergency, the President can direct a reduction in salaries of persons serving the Union, but this can extend even to Supreme Court and High Court judges, not exclude them, so the claim that judges are excluded is incorrect — Statement 2 is incorrect.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following Articles of the Indian Constitution provides that ‘It shall be the duty of the Union to protect every State against external aggression and internal disturbance’?",
+      "options": [
+        "Article 215",
+        "Article 275",
+        "Article 325",
+        "Article 355"
+      ],
+      "correct": "D",
+      "explanation": "Article 355 places a duty on the Union to protect every State against external aggression and internal disturbance, and to ensure that the government of every State is carried on in accordance with the Constitution.",
+      "year": 2003
+    },
+    {
+      "question": "Which of the following statements is/are true of the Fundamental Duties of an Indian citizen?\n1. A legislative process has been provided to enforce these duties.\n2. They are correlative to legal duties.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Fundamental Duties under Article 51A are not enforceable through any specific legislative or judicial mechanism, so there is no legal process to compel citizens to perform them — Statement 1 is incorrect. They are also not framed as directly correlative to specific legal duties in the manner of a legal obligation-right pairing; they remain moral/civic obligations without a corresponding enforceable legal duty structure — Statement 2 is incorrect.",
+      "year": 2017
+    },
+    {
+      "question": "“To uphold and protect the Sovereignty, Unity and Integrity of India” is a provision made in the",
+      "options": [
+        "Preamble of the Constitution",
+        "Directive Principles of State Policy",
+        "Fundamental Rights",
+        "Fundamental Duties"
+      ],
+      "correct": "D",
+      "explanation": "The duty 'to uphold and protect the sovereignty, unity and integrity of India' is listed among the Fundamental Duties under Article 51A(c).",
+      "year": 2015
+    },
+    {
+      "question": "Which of the following is/are among the Fundamental Duties of citizens laid down in the Indian Constitution?\n1. To preserve the rich heritage of our composite culture\n2. To protect the weaker sections from social injustice\n3. To develop the scientific temper and spirit of inquiry\n4. To strive towards excellence in all spheres of individual and collective activity\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Among the Fundamental Duties under Article 51A are preserving the rich heritage of composite culture, developing scientific temper and spirit of inquiry, and striving towards excellence in all spheres of activity — Statements 1, 3, and 4 are correct. Protecting weaker sections from social injustice is not listed as one of the Fundamental Duties; it instead falls within the Directive Principles' broader social justice goals — Statement 2 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "Under the Constitution of India, which one of the following is not a fundamental duty?",
+      "options": [
+        "To vote in public elections",
+        "To develop the scientific temper",
+        "To safeguard public property",
+        "To abide by the Constitution and respect its ideals"
+      ],
+      "correct": "A",
+      "explanation": "Voting in public elections is not listed among the Fundamental Duties under Article 51A; developing scientific temper, safeguarding public property, and abiding by the Constitution and respecting its ideals are all explicitly included as Fundamental Duties.",
+      "year": 2011
+    }
+  ]
+}

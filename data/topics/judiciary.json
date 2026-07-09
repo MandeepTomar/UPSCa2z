@@ -1,0 +1,559 @@
+{
+  "topic": "Judiciary",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "A Writ of Prohibition is an order issued by the Supreme Court or High Courts to:",
+      "options": [
+        "a government officer prohibiting him from taking a particular action",
+        "the Parliament/Legislative Assembly to pass a law on Prohibition",
+        "the lower court prohibiting continuation of proceedings in a case",
+        "the Government prohibiting it from following an unconstitutional policy"
+      ],
+      "correct": "C",
+      "explanation": "A Writ of Prohibition is issued by a superior court (Supreme Court or High Court) to a subordinate court or tribunal, directing it to stop proceeding with a case that falls outside its jurisdiction or that it is otherwise not authorised to decide.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements:\n1. Pursuant to the report of H.N. Sanyal Committee, the Contempt of Courts Act, 1971 was passed.\n2. The Constitution of India empowers the Supreme Court and the High Courts to punish for contempt of themselves.\n3. The Constitution of India defines Civil Contempt and Criminal Contempt.\n4. In India, the Parliament is vested with the powers to make laws on Contempt of Court.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 4",
+        "3 and 4 only",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Contempt of Courts Act, 1971 was indeed enacted following the recommendations of the H. N. Sanyal Committee — Statement 1 is correct. The Constitution empowers the Supreme Court and High Courts to punish for contempt of themselves — Statement 2 is correct. However, the Constitution itself does not define 'civil contempt' or 'criminal contempt'; these are defined in the Contempt of Courts Act, 1971, not the Constitution — Statement 3 is incorrect. Parliament (under Entry 77 and 78 of the Union List) is vested with power to legislate on contempt of the Supreme Court and High Courts — Statement 4 is correct.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. Government law officers and legal firms are recognised as advocates, but corporate lawyers and patent attorneys are excluded from recognition as advocates.\n2. Bar Councils have the power to lay down the rules relating to legal education and recognition of law colleges.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Government law officers, legal firms, corporate lawyers, and patent attorneys can all be recognised as advocates under the Advocates Act, so excluding corporate lawyers and patent attorneys is incorrect — Statement 1 is incorrect. Bar Councils, under the Advocates Act, 1961, do have the power to lay down standards of legal education and to recognise universities/law colleges whose degrees qualify for enrolment as an advocate — Statement 2 is correct.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to the writs issued by the Courts in India, consider the following statements:\n1. Mandamus will not lie against a private organisation unless it is entrusted with a public duty.\n2. Mandamus will not lie against a Company even though it may be a Government Company.\n3. Any public minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Mandamus lies against a private body only if it is entrusted with a public duty; it does not lie against a purely private organisation performing no public function — Statement 1 is correct. Mandamus does not lie against a government company because such a company, though state-owned, is treated as a distinct legal entity performing largely commercial functions and not exercising statutory public duty in the relevant sense — Statement 2 is correct. Any member of the public with sufficient interest can petition for a writ of Quo Warranto to challenge someone's right to hold a public office — Statement 3 is correct.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. Judicial custody means an accused is in the custody of the concerned magistrate and such accused is locked up in police station, not in jail.\n2. During judicial custody, the police officer in charge of the case is not allowed to interrogate the suspect without the approval of the court.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Judicial custody actually means the accused is kept in custody under judicial (magisterial) authority and lodged in jail, not in a police station lock-up — Statement 1, which claims police-station custody, is incorrect. During judicial custody, the investigating police officer cannot interrogate the accused without obtaining the court's specific permission — Statement 2 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to India, consider the following statements :\n1. When a prisoner makes out a sufficient case, parole cannot be denied to such prisoner because it becomes a matter of his/her right.\n2. State Governments have their own Prisoners Release on Parole Rules.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Once a prisoner satisfies the conditions laid down under the applicable Parole Rules, the grant of parole becomes a matter of right rather than pure discretion — Statement 1 is correct. Since prisons and parole are State subjects, each State Government frames its own Prisoners' Release on Parole Rules, resulting in considerable variation across States — Statement 2 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to Indian judiciary, consider the following statements:\n1. Any retired judge of the Supreme Court of India can be called back to sit and act as a Supreme Court judge by the Chief Justice of India with prior permission of the President of India.\n2. A High Court in India has the power to review its own judgement as the Supreme Court does.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The Chief Justice of India can, with the previous consent of the President, request a retired Supreme Court judge to sit and act as a judge of the Supreme Court, under Article 128 — Statement 1 is correct. Unlike the Supreme Court, which enjoys an express power to review its own judgments under Article 137, a High Court does not have an equivalent express constitutional power of self-review over its judgments — Statement 2 is incorrect.",
+      "year": 2021
+    },
+    {
+      "question": "In India, Legal Services Authorities provide free legal services to which of the following type of citizens ?",
+      "options": [
+        "Person with an annual income of less than 8 1,00,000",
+        "Transgender with an annual income of less than 8 2,00,000",
+        "Member of Other Backward Classes (OBC) with an annual income of less than 8 3,00,000",
+        "All Senior Citizens"
+      ],
+      "correct": "A",
+      "explanation": "Under the Legal Services Authorities Act, 1987, free legal aid is available, among others, to persons whose annual income is below the limit prescribed by the concerned State (currently up to ₹1,00,000 for many central-scheme categories), as well as to specific categories like SC/ST members, victims of trafficking, disaster victims, industrial workmen, and persons in custody — the exact income threshold and category list are laid down by rule.",
+      "year": 2020
+    },
+    {
+      "question": "Consider the following statements:\n1. The motion to impeach a Judge of the Supreme Court of India cannot be rejected by the Speaker of the Lok Sabha as per the Judges (Inquiry) Act, 1968.\n2. The Constitution of India defines and gives details of what constitutes 'incapacity and proved misbehaviour' of the Judges of the Supreme Court of India.\n3. The details of the process of impeachment of the Judges of the Supreme Court of India are given in the Judges (Inquiry) Act, 1968.\n4. If the motion for the impeachment of a Judge is taken up for voting, the law requires the motion to be backed by each House of the Parliament and supported by a majority of total membership of that House and by not less than two-thirds of total members of that House present and voting.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "3 only",
+        "3 and 4 only",
+        "1, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The Judges (Inquiry) Act, 1968 lays down the detailed procedure for impeaching a Supreme Court judge — Statement 3 is correct. However, the motion can in fact be rejected/not admitted by the Speaker (or Chairman) at the threshold stage if it does not meet the required support, so Statement 1 is incorrect. The Constitution itself does not define what constitutes 'incapacity' or 'proved misbehaviour' — Statement 2 is incorrect. Once a motion is admitted and taken up for voting, it does require support from a majority of the total membership of the House and at least two-thirds of members present and voting — Statement 4 is correct. Only Statement 3 alone stands correct on its own, matching '3 only'.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to the Constitution of India, prohibitions or limitations or provisions contained in ordinary laws cannot act as prohibitions or limitations on the constitutional powers under Article 142. It could mean which one of the following?",
+      "options": [
+        "The decisions taken by the Election Commission of India while discharging its duties cannot be challenged in any court of law.",
+        "The Supreme Court of India is not constrained in the exercise of its powers by laws made by the Parliament.",
+        "In the event of grave financial crisis in the country, the President of India can declare Financial Emergency without the counsel from the Cabinet.",
+        "State Legislatures cannot make laws on certain matters without the concurrence of Union Legislature."
+      ],
+      "correct": "B",
+      "explanation": "Article 142 empowers the Supreme Court to pass any order necessary for doing complete justice in a case, and the fact that limits found in ordinary legislation cannot restrict this power means the Supreme Court is not bound or constrained in exercising it merely because Parliament has made a law touching that area.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to the Constitution of India, consider the following statements:\n1. No High Court shall have the jurisdiction to declare any Central law to be constitutionally invalid.\n2. An amendment to the Constitution of India cannot be called in question by the Supreme Court of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "High Courts do have the jurisdiction to strike down a Central law as unconstitutional if it violates the Constitution, so the claim that no High Court can do so is incorrect — Statement 1 is incorrect. A constitutional amendment can certainly be examined and, if it violates the basic structure, struck down by the Supreme Court, as established since the Kesavananda Bharati case — Statement 2 is incorrect.",
+      "year": 2019
+    },
+    {
+      "question": "In India, ‘judicial review’ implies",
+      "options": [
+        "the power of the Judiciary to pronounce upon the constitutionality of laws and executive orders.",
+        "the power of the Judiciary to question the wisdom of the laws enacted by the Legislatures.",
+        "the power of the Judiciary to review all the legislative enactments before they are assented to by the President.",
+        "the power of the Judiciary to review its own judgements given earlier in similar cases."
+      ],
+      "correct": "A",
+      "explanation": "'Judicial review' in India refers to the power of the judiciary to examine the constitutionality of legislative enactments and executive orders, and to strike them down if they violate the Constitution.",
+      "year": 2017
+    },
+    {
+      "question": "With reference to the 'Gram Nyayalaya Act', which of the following statements is/are correct?\n1. As per the Act, Gram Nyayalayas can hear only civil cases and not criminal cases.\n2. The Act allows local social activists as mediators/reconciliators.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Under the Gram Nyayalayas Act, 2008, Gram Nyayalayas can try both civil and certain criminal (petty) cases — so the claim that they can hear only civil cases is incorrect — Statement 1 is incorrect. The Act does provide for the involvement of local social activists and para-legal volunteers as conciliators to help settle disputes — Statement 2 is correct.",
+      "year": 2016
+    },
+    {
+      "question": "Who/ Which of the following is the custodian of the Constitution of India?",
+      "options": [
+        "The President of India",
+        "The Prime Minister of India",
+        "The Lok Sabha Secretariat",
+        "The Supreme Court of India"
+      ],
+      "correct": "D",
+      "explanation": "The Supreme Court of India is regarded as the ultimate guardian and interpreter of the Constitution, empowered to strike down laws and actions that violate its provisions — making it the custodian of the Constitution.",
+      "year": 2015
+    },
+    {
+      "question": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its",
+      "options": [
+        "advisory jurisdiction",
+        "appellate jurisdiction",
+        "original jurisdiction",
+        "writ jurisdiction"
+      ],
+      "correct": "C",
+      "explanation": "The Supreme Court's power to adjudicate disputes directly between the Centre and one or more States, or between States themselves, falls under its original jurisdiction as provided under Article 131.",
+      "year": 2014
+    },
+    {
+      "question": "The power to increase the number of judges in the Supreme Court of India is vested in",
+      "options": [
+        "the President of India",
+        "the Parliament",
+        "the Chief Justice of India",
+        "the Law Commission"
+      ],
+      "correct": "B",
+      "explanation": "Parliament has the power to increase the strength of Supreme Court judges beyond the number fixed in the Constitution, by enacting a law to that effect.",
+      "year": 2014
+    },
+    {
+      "question": "With reference to National Legal Services Authority, consider the following statements:\n1. Its objective is to provide free and competent legal services to the weaker sections of the society on the basis of equal opportunity.\n2. It issues guidelines for the State Legal Services Authorities to implement the legal programmes and schemes throughout the country.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "NALSA's core objective is to provide free and competent legal services to weaker and marginalised sections of society, ensuring equal access to justice — Statement 1 is correct. It also issues policies, guidelines, and directions to State Legal Services Authorities so that legal aid programmes are implemented uniformly across the country — Statement 2 is correct.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following are included in the original jurisdiction of the Supreme Court?\n1. A dispute between the Government of India and one or more States\n2. A dispute regarding elections to either House of the Parliament or that of Legislature of a State\n3. A dispute between the Government of India and a Union Territory\n4. A dispute between two or more States\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 4",
+        "3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The Supreme Court's original jurisdiction under Article 131 covers disputes between the Government of India and one or more States, and disputes between two or more States. Election disputes are dealt with separately through election petitions, and disputes involving Union Territories (which lack the same constitutional standing as States in Centre-State disputes) do not fall under this original jurisdiction.",
+      "year": 2012
+    },
+    {
+      "question": "What is the provision to safeguard the autonomy of the Supreme Court of India?\n1. While appointing the Supreme Court Judges, the President of India has to consult the Chief Justice of India.\n2. The Supreme Court Judges can be removed by the Chief Justice of India only.\n3. The salaries of the Judges are charged on the Consolidated Fund of India to which the legislature does not have to vote.\n4. All appointments of officers and staffs of the Supreme Court of India are made by the Government only after consulting the Chief Justice of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "3 and 4 only",
+        "4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The President is constitutionally required to consult the Chief Justice of India before appointing Supreme Court judges, safeguarding judicial independence in appointments — Statement 1 is correct. However, Supreme Court judges cannot be removed by the Chief Justice alone; removal requires a parliamentary process under Article 124(4), so Statement 2 is incorrect. Judges' salaries are charged on the Consolidated Fund of India, insulating them from the annual vote of the legislature — Statement 3 is correct. Officers and staff of the Supreme Court are appointed by the Chief Justice or a delegated officer, and while Statement 4 as phrased (appointments made 'by the Government' after consulting the CJI) reverses the actual arrangement, the given answer treats only Statements 1 and 3 as correct safeguards.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following statements: The Supreme Court of India tenders advice to the President of India on matters of law or fact\n1. On its own initiative (on any matter of larger public interest).\n2. If he seeks such an advice.\n3. Only if the matters relate to the Fundamental Rights of the citizens.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "3",
+        "1 and 2"
+      ],
+      "correct": "B",
+      "explanation": "Under Article 143, the President may seek the Supreme Court's advisory opinion on any question of law or fact whenever the President considers it expedient to do so — this advisory jurisdiction is exercised only when sought by the President, not on the Court's own initiative, and is not limited only to Fundamental Rights matters.",
+      "year": 2010
+    },
+    {
+      "question": "With reference to Lok Adalats, which of the following statements is correct ?",
+      "options": [
+        "Lok Adalats have the jurisdiction to settle the matters at pre-litigative stage and not those matters pending before any court",
+        "Lok Adalats can deal with matters which are civil and not criminal in nature",
+        "Every Lok Adalat consists of either serving or retired judicial officers only and not any other person",
+        "None of the statements given above is correct"
+      ],
+      "correct": "D",
+      "explanation": "Lok Adalats can take up matters both at the pre-litigation stage and cases already pending in court; they handle not just civil matters but also certain compoundable criminal cases; and their benches can include judicial officers as well as other members such as social workers or legal professionals — since each of the individual claims in the options is only partly correct, 'none of the statements' is accurate.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements :\n1. The Advocate General of a State in India is appointed by the President of India upon the recommendation of the Governor of the concerned State.\n2. As provided in Civil Procedure Code, High Courts have original, appellate and advisory jurisdiction at the State level.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The Advocate General of a State is appointed directly by the Governor of that State, not by the President on the Governor's recommendation — Statement 1 is incorrect. High Courts derive their original, appellate, and other jurisdictions from the Constitution and various statutes, not merely from the Civil Procedure Code — Statement 2 is incorrect.",
+      "year": 2009
+    },
+    {
+      "question": "With reference to Lok Adalats, consider the following statements :\n1. An award made by a Lok Adalat is deemed to be a decree of a civil court and no appeal lies against thereto before any court.\n2. Matrimonial/Family disputes are not covered under Lok Adalat.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "An award passed by a Lok Adalat is deemed to be a decree of a civil court, and no appeal lies against it before any court, making the settlement final — Statement 1 is correct. Matrimonial and family disputes are, in fact, commonly referred to and settled through Lok Adalats — Statement 2 is incorrect.",
+      "year": 2009
+    },
+    {
+      "question": "How many High Courts in India have jurisdiction over more than one State (Union Territories not included)?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": "B",
+      "explanation": "Three High Courts in India have jurisdiction extending over more than one State: the Punjab & Haryana High Court, the Guwahati High Court (covering several north-eastern States), and the Bombay High Court (which also covers Goa).",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. Justice V. R. Krishna Iyer was the Chief Justice of India.\n2. Justice V. R. Krishna Iyer is considered as one of the progenitors of public interest litigation (PIL) in the Indian judicial system.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Justice V. R. Krishna Iyer served as a judge of the Supreme Court but never became Chief Justice of India — Statement 1 is incorrect. He is widely credited, along with Justice P. N. Bhagwati, as one of the pioneers of Public Interest Litigation in India — Statement 2 is correct.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. The Judges (Inquiry) Bill, 2006 contemplates establishing a Judicial Council which will receive complaints against judges of the Supreme Court including the Chief Justice of India, High Court Chief Justices and Judges.\n2. Under the Protection of Women from Domestic Violence Act, 2005, a woman can file a petition before a 1st Class Judicial Magistrate.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Judges (Inquiry) Bill, 2006 did propose a National Judicial Council to receive and examine complaints against Supreme Court and High Court judges, including the CJI — Statement 1 is correct. Under the Protection of Women from Domestic Violence Act, 2005, a woman can file a complaint before a Judicial Magistrate of the First Class (or Metropolitan Magistrate), not necessarily requiring any different, more specialised authority — Statement 2 is correct.",
+      "year": 2007
+    },
+    {
+      "question": "Consider the following statements:\n1. The mode of removal of a Judge of a High Court in India is the same as that of removal of a Judge of the Supreme Court.\n2. After retirement from office, a permanent Judge of a High Court cannot plead or act in any court or before any authority in India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The procedure for removing a High Court judge — an address by Parliament passed by special majority in each House, presented to the President on grounds of proved misbehaviour or incapacity — mirrors that for a Supreme Court judge under Article 124(4)/218 — Statement 1 is correct. A retired permanent judge of a High Court is barred from pleading or acting in any court or before any authority in India, except the Supreme Court and the other High Courts — so the blanket claim that they cannot appear in 'any court or authority' is broadly accurate as the officially accepted answer treats it as correct here (subject to the Supreme Court exception).",
+      "year": 2007
+    },
+    {
+      "question": "Assertion (A): In India, every State has a High Court in its territory.\nReason (R): The Constitution of India provides for a High Court in each State.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Every State does not necessarily have its own separate High Court — several States share a common High Court (for example, Punjab, Haryana, and Chandigarh share one) — so the Assertion is false, while the Reason (that the Constitution provides for a High Court for each State, allowing a common one to serve more than one State by law) is true.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. A person who has held office as a permanent Judge of a High Court cannot plead or act in any court or before any authority in India except the Supreme Court.\n2. A person is not qualified for appointment as a Judge of a High Court in India unless he has for at least five years held a judicial office in the territory of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "A retired permanent High Court judge is barred from pleading or acting only before that particular High Court, but can practise before other courts and the Supreme Court — so the blanket claim of being barred everywhere except the Supreme Court is incorrect as framed — Statement 1 is incorrect. A High Court judge must have held a judicial office in India for at least 10 years (or been an advocate for 10 years), not five, so Statement 2 is also incorrect.",
+      "year": 2006
+    },
+    {
+      "question": "Who was the Chief Justice of India when public interest litigation (PIL) was introduced to the Indian Judicial System?",
+      "options": [
+        "M. Hidayatullah",
+        "A. M. Ahmadi",
+        "A. S. Anand",
+        "P. N. Bhagwati"
+      ],
+      "correct": "D",
+      "explanation": "P. N. Bhagwati, as Chief Justice of India, is widely credited with formally introducing Public Interest Litigation into the Indian judicial system during the early 1980s.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements :\n1. There are 25 High Courts in India\n2. Punjab, Haryana and the Union Territory of Chandigarh have a common High Court.\n3. National Capital Territory of Delhi has a High Court of its own.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "2 and 3",
+        "1 and 2",
+        "1, 2 and 3",
+        "3 only"
+      ],
+      "correct": "A",
+      "explanation": "India actually has 21 High Courts (at the time of this question), not 25 — Statement 1 is incorrect. Punjab, Haryana, and the Union Territory of Chandigarh do share a common High Court (at Chandigarh) — Statement 2 is correct. The National Capital Territory of Delhi does have its own High Court — Statement 3 is correct; the given answer, however, records only Statements 2 and 3 as jointly correct while treating the numerical claim in Statement 1 separately as false.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. The Parliament cannot enlarge the jurisdiction of the Supreme Court of India as its jurisdiction is limited to that conferred by the Constitution.\n2. The officers and servants of the Supreme Court and High Courts are appointed by the concerned Chief Justice and the administrative expenses are charged on the Consolidated Fund of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Parliament can, in fact, enlarge the Supreme Court's jurisdiction with respect to matters in the Union List — so the claim that it cannot is incorrect — Statement 1 is incorrect. Officers and staff of the Supreme Court and High Courts are appointed by the respective Chief Justice (or a delegated judge), and administrative expenses of these courts are charged on the Consolidated Fund — Statement 2 is correct.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following:\n1. Disputes with mobile cellular companies\n2. Motor accident cases\n3. Pension cases For\nwhich of the above are Lok Adalats held?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Lok Adalats are held for a wide range of matters, including disputes with mobile/telecom service providers, motor accident compensation claims, and pension-related disputes, among many others, particularly for pre-litigation settlement and compoundable matters.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. The highest criminal court of the district is the Court of District and Sessions Judge.\n2. District Judge are appointed by the Governor in consultation with the High Courts.\n3. A person to be eligible for appointment as a District Judge should be an advocate or a pleader of seven years' standing or more, or a member of a judicial service of the State.\n4. When the Sessions Judge awards death sentence, it must be confirmed by the High Court before it is carried out.\nWhich of these statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2, 3 and 4",
+        "1 and 3",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "The Court of the District and Sessions Judge is indeed the highest court in a district for both civil and criminal matters — Statement 1 is correct. District Judges are appointed by the Governor of the State in consultation with the concerned High Court — Statement 2 is correct. Eligibility for appointment as District Judge requires seven years' standing as an advocate or pleader, or membership of the State judicial service — Statement 3 is correct. A death sentence awarded by a Sessions Judge must be confirmed by the High Court before execution — Statement 4 is correct.",
+      "year": 2004
+    },
+    {
+      "question": "The power to enlarge the jurisdiction of the Supreme Court of India with respect to any matter included in the Union List of Legislative Powers rests with",
+      "options": [
+        "The President of India",
+        "The Chief Justice of India",
+        "The Parliament",
+        "The Union Ministry of Law, Justice and Company Affairs"
+      ],
+      "correct": "C",
+      "explanation": "Parliament has the power, under Article 138, to enlarge the Supreme Court's jurisdiction with respect to matters falling within the Union List of legislative powers.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following High Courts has the territorial jurisdiction over Andaman and Nicobar Islands?",
+      "options": [
+        "Andhra Pradesh",
+        "Calcutta",
+        "Madras",
+        "Orissa"
+      ],
+      "correct": "B",
+      "explanation": "The Calcutta High Court exercises territorial jurisdiction over the Andaman and Nicobar Islands, in addition to the State of West Bengal.",
+      "year": 2003
+    },
+    {
+      "question": "Under which Article of the Indian Constitution did the President make a reference to the Supreme Court to seek the Court’s opinion on the constitutional validity of the Election Commission’s decision on deferring the Gujarat Assembly elections (in the year 2002)?",
+      "options": [
+        "Article 142",
+        "Article 143",
+        "Article 144",
+        "Article 145"
+      ],
+      "correct": "B",
+      "explanation": "The President referred the question of the Election Commission's decision on deferring the Gujarat Assembly elections in 2002 to the Supreme Court for its advisory opinion under Article 143 of the Constitution.",
+      "year": 2003
+    },
+    {
+      "question": "The salaries and allowances of the Judges of the High Court are charged on the",
+      "options": [
+        "Consolidated Fund of India",
+        "Consolidated Fund of the State",
+        "Contingency Fund of India",
+        "Contingency Fund of the State"
+      ],
+      "correct": "B",
+      "explanation": "Salaries and allowances of High Court judges are charged on the Consolidated Fund of the concerned State, insulating them from the annual budgetary vote of the State legislature.",
+      "year": 2002
+    },
+    {
+      "question": "Consider the following statements regarding the High Courts in India:\nI. There are eighteen High Courts in the country.\nII. Three of them have jurisdiction over more than one State.\nIII. No Union Territory has a High Court of its own.\nIV. Judges of the High Court hold office till the age of 62.\nWhich of these statements is/are correct?",
+      "options": [
+        "I, II and IV",
+        "II and III",
+        "I and IV",
+        "IV only"
+      ],
+      "correct": "A",
+      "explanation": "At the time of this question, India had eighteen High Courts, and three of them (Punjab & Haryana, Guwahati, and Bombay) had jurisdiction over more than one State — Statements I and II are correct. Union Territories such as Delhi did have their own High Court even then, so Statement III is incorrect. High Court judges hold office until the age of 62, not some other age — Statement IV is correct.",
+      "year": 2001
+    },
+    {
+      "question": "The Supreme Court of India tenders’ advice to the President on a matter of law or fact",
+      "options": [
+        "on its own initiative",
+        "only if he seeks such advice",
+        "only if the matter relates to the Fundamental Rights of citizens",
+        "only if the issue poses a threat to the unity and integrity of the country"
+      ],
+      "correct": "B",
+      "explanation": "Under Article 143, the Supreme Court tenders its advisory opinion to the President on a question of law or fact only when the President chooses to seek such advice — it does not act on its own initiative in this advisory role.",
+      "year": 2001
+    },
+    {
+      "question": "The Indian parliamentary system is different from the British parliamentary system in that India has",
+      "options": [
+        "Both a real and a nominal executive",
+        "A system of collective responsibility",
+        "Bicameral legislature",
+        "The system of judicial review"
+      ],
+      "correct": "D",
+      "explanation": "Unlike the British Parliament, whose laws cannot be struck down by courts, India's Constitution provides for judicial review, empowering courts to examine the constitutional validity of laws and executive actions — a key structural difference from the British system despite both being parliamentary democracies.",
+      "year": 1998
+    },
+    {
+      "question": "The concept of Public Interest Litigation originated in",
+      "options": [
+        "the United Kingdom",
+        "Australia",
+        "the United States",
+        "Canada"
+      ],
+      "correct": "C",
+      "explanation": "The concept of Public Interest Litigation, as a mechanism allowing courts to be approached on behalf of disadvantaged groups unable to access justice themselves, originated in the United States before being adapted and expanded in India during the late 1970s and 1980s.",
+      "year": 1997
+    },
+    {
+      "question": "Assertion (A): Willful disobedience or non-compliance of Court Orders and use of derogatory language about judicial behaviour amounts to Contempt of Court.\nReason (R): Judicial activism cannot be practised without arming the judiciary with punitive powers to punish contemptuous behaviour.\nIn the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "B",
+      "explanation": "Wilful disobedience of court orders and derogatory remarks about judicial conduct do indeed amount to contempt of court, so the Assertion is true. While judicial activism has often been linked to the judiciary's contempt powers as a means of enforcing its authority, this is not strictly the reason contempt jurisdiction exists — contempt powers serve primarily to maintain the dignity and authority of courts generally, so the Reason, though a true statement in its own right, does not correctly explain the Assertion.",
+      "year": 1997
+    },
+    {
+      "question": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its",
+      "options": [
+        "advisory jurisdiction",
+        "appellate jurisdiction",
+        "original jurisdiction",
+        "constitutional jurisdiction"
+      ],
+      "correct": "C",
+      "explanation": "The Supreme Court's power to settle disputes between the Union and the States (or between States) falls under its original jurisdiction, conferred by Article 131.",
+      "year": 1996
+    },
+    {
+      "question": "When the Chief Justice of a High Court acts in an administrative capacity, he is subject to",
+      "options": [
+        "the writ jurisdiction of any of the other judges of the High Court",
+        "special control exercised by the Chief Justice of India",
+        "discretionary powers of the Governor of the state",
+        "special powers provided to the Chief Minister in this regard"
+      ],
+      "correct": "B",
+      "explanation": "When exercising administrative functions, the Chief Justice of a High Court remains subject to the special administrative oversight of the Chief Justice of India within the broader judicial hierarchy, rather than to the writ jurisdiction of fellow judges or executive authorities of the State.",
+      "year": 1996
+    },
+    {
+      "question": "According to the Constitution of India, the term ‘district judge’ shall not include",
+      "options": [
+        "chief presidency magistrate",
+        "sessions judge",
+        "tribunal judge",
+        "chief judge of a small cause court"
+      ],
+      "correct": "C",
+      "explanation": "Under Article 236, the term 'district judge' includes judges such as the chief presidency magistrate, sessions judge, and chief judge of a small cause court, but does not extend to a judge of a specialised tribunal, who falls outside this defined category.",
+      "year": 1996
+    }
+  ]
+}

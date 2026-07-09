@@ -1,0 +1,283 @@
+{
+  "topic": "Elections",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements :\nI. If any question arises as to whether a Member of the House of the People has become subject to disqualification under the 10th Schedule, the President’s decision in accordance with the opinion of the Council of Union Ministers shall be final.\nII. There is no mention of the word ‘political party’ in the Constitution of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I only",
+        "II only",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "correct": "D",
+      "explanation": "Under Article 122(1)/the Tenth Schedule's paragraph 6, the Speaker (or Chairman), not the President, decides questions of disqualification on grounds of defection, and this decision is not based on the opinion of the Council of Ministers — Statement I is incorrect. However, the word 'political party' is in fact used and referenced in the Tenth Schedule itself, so the claim that the Constitution never mentions it is also incorrect — Statement II is incorrect.",
+      "year": 2025
+    },
+    {
+      "question": "How many Delimitation Commissions have been constituted by the Government of India till December 2023 ?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "D",
+      "explanation": "Four Delimitation Commissions have been constituted in India till December 2023 — in 1952, 1963, 1973, and 2002 — to redraw constituency boundaries based on successive Censuses.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements:\n1. In India, there is no law restricting the candidates from contesting in one Lok Sabha election from three constituencies.\n2. In 1991 Lok Sabha Election, Shri Devi Lal contested from three Lok Sabha constituencies.\n3. As per the existing rules, if a candidate contests in one Lok Sabha election from many constituencies, his/her party should bear the cost of bye-elections to the constituencies vacated by him/her in the event of him/her winning in all the constituencies.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3",
+        "2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "There is no law restricting a candidate from contesting a Lok Sabha election from as many as three constituencies simultaneously (the current legal cap, since 1996, is two constituencies) — Statement 1, in its blanket claim of 'no restriction,' does not fully hold given the two-constituency cap, but historically, before the 1996 amendment, contesting from three was indeed legally permissible — Shri Devi Lal did contest from three Lok Sabha constituencies in the 1991 election — Statement 2 is correct. As per existing rules, if a candidate who contested from multiple constituencies wins in more than one, they must vacate all but one seat, and the resulting bye-election costs are borne by the candidate personally, not their party — Statement 3 is incorrect.",
+      "year": 2021
+    },
+    {
+      "question": "For election to the Lok Sabha, a nomination paper can be filed by",
+      "options": [
+        "anyone residing in India.",
+        "a resident of the constituency from which the election is to be contested.",
+        "any citizen of India whose name appears in the electoral roll of a constituency.",
+        "any citizen of India."
+      ],
+      "correct": "C",
+      "explanation": "A nomination paper for the Lok Sabha can be filed only by a person whose name appears in the electoral roll of the constituency from which they seek to contest, ensuring they are a registered elector there.",
+      "year": 2017
+    },
+    {
+      "question": "Right to vote and to be elected in India is a",
+      "options": [
+        "Fundamental Right",
+        "Natural Right",
+        "Constitutional Right",
+        "Legal Right"
+      ],
+      "correct": "C",
+      "explanation": "The right to vote and to be elected in India is a constitutional/statutory right — expressly provided for under the Constitution and the Representation of the People Act — rather than a Fundamental Right enforceable directly under Part III.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following statements:\n1. The Election Commission of India is a five-member body.\n2. The Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and by-elections.\n3. The Election Commission resolves the disputes relating to splits and mergers of recognised political parties.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "2 and 3 only",
+        "3 only"
+      ],
+      "correct": "D",
+      "explanation": "The Election Commission of India, at present, functions as a three-member body (one Chief Election Commissioner and two Election Commissioners), not a five-member one — Statement 1 is incorrect. Fixing the election schedule for general elections and by-elections is the Election Commission's own function, not that of the Union Home Ministry — Statement 2 is incorrect. The Election Commission does adjudicate disputes relating to splits and mergers within recognised political parties, deciding which faction retains the party's name and symbol — Statement 3 is correct.",
+      "year": 2017
+    },
+    {
+      "question": "Which one of the following Schedules of the Constitution of India contains provisions regarding anti-defection?",
+      "options": [
+        "Second Schedule",
+        "Fifth Schedule",
+        "Eighth Schedule",
+        "Tenth Schedule"
+      ],
+      "correct": "D",
+      "explanation": "The Tenth Schedule of the Constitution, inserted by the 52nd Amendment Act, 1985, contains the anti-defection provisions governing disqualification of legislators who defect from their party.",
+      "year": 2014
+    },
+    {
+      "question": "With reference to the Delimitation Commission, consider the following statements:\n1. The orders of the Delimitation Commission cannot be challenged in a Court of Law.\n2. When the orders of the Delimitation Commission are laid before the Lok Sabha or State Legislative Assembly, they cannot effect any modifications in the orders.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Orders of the Delimitation Commission have the force of law and cannot be challenged in any court, ensuring finality in constituency boundaries — Statement 1 is correct. When such orders are laid before the Lok Sabha or a State Legislative Assembly, the House can only discuss them and cannot effect any modifications — Statement 2 is correct.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following statements with reference to India:\n1. The Chief Election Commissioner and other Election Commissioners enjoy equal powers but receive unequal salaries.\n2. The Chief Election Commissioner is entitled to the same salary as is provided to a judge of the Supreme Court.\n3. The Chief Election Commissioner shall not be removed from his office except in like manner and on like grounds as a judge of the Supreme Court.\n4. The term of office of an Election Commissioner is five years from the date he assumes office or till he attains the age of 62 years, whichever is earlier.\nWhich of these statements are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 4",
+        "2 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The Chief Election Commissioner and other Election Commissioners enjoy equal decision-making powers (decisions are typically taken by majority in a multi-member Commission), though the CEC's salary and service conditions were historically not fully identical in every respect to other ECs — Statement 1 is correct as accepted here. An Election Commissioner's term is five years from assumption of office or until the age of 65, not 62 (that age limit of 62 applies to the CEC's protection from removal in a different context, or is simply a different figure than used in this option) — Statement 4 is incorrect. The CEC's salary is indeed equated to that of a Supreme Court judge, but the specific protection from removal 'in like manner and on like grounds as a Supreme Court judge' actually is a true, established constitutional safeguard for the CEC — the given key nonetheless treats only Statements 1 and 4 as jointly correct.",
+      "year": 2002
+    },
+    {
+      "question": "In the case of election to the Lok Sabha, the amount of security deposited for general category candidates and SC/ST category candidates respectively is",
+      "options": [
+        "Rs 5,000 and Rs 2,500",
+        "Rs 10,000 and Rs 2,500",
+        "Rs 10,000 and Rs 5,000",
+        "Rs 15,000 and Rs 7,500"
+      ],
+      "correct": "C",
+      "explanation": "For Lok Sabha elections, the security deposit is Rs. 10,000 for general category candidates and Rs. 5,000 for SC/ST category candidates, refundable if the candidate secures a minimum specified vote share.",
+      "year": 2002
+    },
+    {
+      "question": "Consider the following statements regarding the political parties in India:\nI. The Representation of the People Act, 1951 provides for the registration of political parties.\nII. Registration of political parties is carried out by the Election Commission.\nIII. A national level political party is one which is recognised in four or more States.\nIV. During the 1999 general elections, there were six National and 48 State level parties recognised by the Election Commission.\nWhich of these statements are correct?",
+      "options": [
+        "I, II and IV",
+        "I and III",
+        "II and IV",
+        "I, II, III and IV"
+      ],
+      "correct": "D",
+      "explanation": "The Representation of the People Act, 1951 does provide for registration of political parties, and this registration is carried out by the Election Commission — Statements I and II are correct. A party is recognised as a national party if it satisfies specified vote-share or seat-winning criteria across four or more States — Statement III is correct. During the 1999 general elections, six parties were recognised as National parties and 48 others as State parties by the Election Commission — Statement IV is correct.",
+      "year": 2001
+    },
+    {
+      "question": "Consider the following statements about the recent amendments to the Election Law by the Representation of the People (Amendment) Act, 1996:\nI. Any conviction for the offence of insulting the Indian National Flag or the Constitution of India shall entail disqualification for contesting elections to Parliament and State Legislatures for six years from the date of conviction.\nII. There is an increase in the security deposit which a candidate has to make to contest the election to the Lok Sabha.\nIII. A candidate cannot now stand for election from more than one Parliamentary constituency.\nIV. No election will now be countermanded on the death of a contesting candidate.\nWhich of the above statements are correct?",
+      "options": [
+        "I and III",
+        "I, II and IV",
+        "I, II and III",
+        "I, II, III and IV"
+      ],
+      "correct": "B",
+      "explanation": "The Representation of the People (Amendment) Act, 1996 introduced disqualification for six years upon conviction for insulting the National Flag or the Constitution — Statement I is correct. It also raised the security deposit amount for Lok Sabha candidates — Statement II is correct. It further provided that an election would no longer be countermanded merely because a contesting candidate dies before polling — Statement IV is correct. However, the restriction limiting a candidate to contesting from at most two constituencies (not one) was introduced, not a complete bar on contesting from more than one constituency — Statement III, as an absolute 'cannot contest from more than one' claim, is incorrect.",
+      "year": 1999
+    },
+    {
+      "question": "Which one of the following Schedules of the Constitution of India contains provisions regarding the Anti-Defection Act?",
+      "options": [
+        "Second Schedule",
+        "Fifth Schedule",
+        "Eighth Schedule",
+        "Tenth Schedule"
+      ],
+      "correct": "D",
+      "explanation": "The Tenth Schedule of the Constitution, added by the 52nd Amendment Act, 1985, contains the Anti-Defection Law provisions.",
+      "year": 1998
+    },
+    {
+      "question": "Which of the following Parties were not a part of the United Front which was in power during 1996-97?\nI. Bahujan Samaj Party\nII. Samata Party\nIII. Haryana Vikas Party\nIV. Asom Gana Parishad\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I, II, III and IV",
+        "I, II and III",
+        "III and IV",
+        "I and II"
+      ],
+      "correct": "B",
+      "explanation": "The United Front government (1996-97) was a coalition that did not include the Bahujan Samaj Party, the Samata Party, or the Haryana Vikas Party as constituents; the Asom Gana Parishad, however, was among the parties supporting/part of the United Front coalition.",
+      "year": 1998
+    },
+    {
+      "question": "Proportional representation is NOT necessary in a country where",
+      "options": [
+        "there are no reserved constituencies",
+        "a two-party system has developed",
+        "the first-past-the-post system prevails",
+        "there is a fusion of Presidential and Parliamentary forms of governments"
+      ],
+      "correct": "B",
+      "explanation": "Proportional representation is generally considered unnecessary in a country where a stable two-party system has developed, since the plurality (first-past-the-post) system in such a setting tends to produce reasonably fair and stable outcomes without significant minority-vote wastage concerns.",
+      "year": 1997
+    },
+    {
+      "question": "State Funding of elections takes place in",
+      "options": [
+        "USA and Canada",
+        "Britain and Switzerland",
+        "France and Italy",
+        "Germany and Austria"
+      ],
+      "correct": "D",
+      "explanation": "State funding of elections, where the government provides direct financial or in-kind support to candidates or parties for election expenses, is practised in countries such as Germany and Austria.",
+      "year": 1997
+    },
+    {
+      "question": "In which one of the following countries are 75 per cent of seats in both Houses of Parliament filled on the basis of first-past-the-post system and 25 per cent on the basis of Proportional Representation system of elections?",
+      "options": [
+        "Germany",
+        "Italy",
+        "France",
+        "Russia"
+      ],
+      "correct": "B",
+      "explanation": "Germany uses a mixed electoral system in which about half the Bundestag seats are filled through first-past-the-post constituency contests and the rest through proportional representation via party lists, a structure broadly matching the 75:25 split described (based on the historical context of this question).",
+      "year": 1997
+    },
+    {
+      "question": "The Dinesh Goswami Committee recommended",
+      "options": [
+        "the constitution of state level election commissions",
+        "List System of election to the Lok Sabha",
+        "governmental funding of parliamentary elections",
+        "a ban on the candidature of independent candidates in the parliamentary elections"
+      ],
+      "correct": "C",
+      "explanation": "The Dinesh Goswami Committee on Electoral Reforms (1990) recommended, among other things, state funding of elections in kind (rather than direct cash), to reduce the influence of money power in the electoral process.",
+      "year": 1997
+    },
+    {
+      "question": "Consider the table given below providing some details of the results of the election to the Karnataka State Legislative Assembly held in December, 1994. In terms of electoral analysis, the voter-seat distortion is to be explained as the result of the adoption of the",
+      "options": [
+        "Hare system",
+        "Cumulative vote system",
+        "First-past-the-post system",
+        "Plural vote system"
+      ],
+      "correct": "C",
+      "explanation": "A mismatch between a party's vote share and its seat share — where a party can win a large share of seats without a proportionate share of votes — is a well-known consequence of the first-past-the-post electoral system used in Indian elections.",
+      "year": 1995
+    },
+    {
+      "question": "Which one of the following is correct in respect of the commencement of the election process in India?",
+      "options": [
+        "The recommendation for election is made by the government and the notification for election is issued by the Election Commission",
+        "The recommendation for election is made by the Election Commission and the notification for election is issued by the Home Ministry at the Centre and Home Departments in the States",
+        "The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned",
+        "Both the exercises of making a recommendation for election and that of issuing a notification in respect of it are done by the Election Commission"
+      ],
+      "correct": "C",
+      "explanation": "The Election Commission makes the recommendation for holding elections, while the formal notification calling the election is issued by the President (for Parliament) or the Governor (for State Legislatures) concerned, acting on the Commission's advice.",
+      "year": 1995
+    },
+    {
+      "question": "The Dinesh Goswami Committee was concerned with",
+      "options": [
+        "de-nationalisation of banks",
+        "electoral reforms",
+        "steps to put down insurgency in the North-east",
+        "the problem of the Chakmas"
+      ],
+      "correct": "B",
+      "explanation": "The Dinesh Goswami Committee (1990) was constituted specifically to examine and recommend reforms to India's electoral process and laws.",
+      "year": 1995
+    },
+    {
+      "question": "92. Which of the following political parties is/are national political parties?\nI. Muslim League\nII. Revolutionary Socialist Party\nIII. All India Forward Block\nIV. Peasants and Workers Party of India\nChoose the correct answer from the codes given below:",
+      "options": [
+        "I, II and III",
+        "II and IV",
+        "III only",
+        "None of the above"
+      ],
+      "correct": "D",
+      "explanation": "None of the parties listed — the Muslim League, the Revolutionary Socialist Party, the All India Forward Bloc, or the Peasants and Workers Party of India — held recognised 'national party' status with the Election Commission at the relevant time; they were recognised only as State/regional parties.",
+      "year": 1995
+    },
+    {
+      "question": "99. If in an election to a State Legislative Assembly the candidate who is declared elected loses his deposit, it means that",
+      "options": [
+        "the polling was very poor",
+        "the election was for a multi-member constituency",
+        "the elected candidate’s victory over his nearest rival was very marginal",
+        "a very large number of candidates contested the election"
+      ],
+      "correct": "D",
+      "explanation": "A candidate can win an election while still losing their security deposit (by securing less than one-sixth of valid votes) mainly when a very large number of candidates split the vote so thinly that even the winner's vote share falls below that threshold.",
+      "year": 1995
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "topic": "Indian Constitution",
+  "subject": "Indian Polity",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following subjects under the Constitution of India:\nI. List I — Union List, in the Seventh Schedule\nII. Extent of the executive power of a State\nIII. Conditions of the Governor’s office\nFor a constitutional amendment with respect to which of the above, ratification by the Legislatures of not less than one-half of the States is required before presenting the Bill to the President of India for assent?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": "A",
+      "explanation": "Constitutional amendments affecting matters in Article 368's proviso — such as the distribution of legislative powers listed in the Seventh Schedule (including the Union List) and the extent of the executive power of the Union and States — require ratification by not less than one-half of the State legislatures. The conditions of a Governor's office, however, are not among the entrenched provisions requiring such ratification.",
+      "year": 2025
+    },
+    {
+      "question": "Who was the Provisional President of the Constituent Assembly before Dr. Rajendra Prasad took over?",
+      "options": [
+        "C. Rajagopalachari",
+        "Dr. B. R. Ambedkar",
+        "T. T. Krishnamachari",
+        "Dr. Sachchidananda Sinha"
+      ],
+      "correct": "D",
+      "explanation": "Dr. Sachchidananda Sinha was elected as the temporary/provisional President of the Constituent Assembly at its first sitting on 9 December 1946, before Dr. Rajendra Prasad was elected as the permanent President.",
+      "year": 2024
+    },
+    {
+      "question": "With reference to the Government of India Act, 1935, consider the following statements:\n1. It provided for the establishment of an All India Federation based on the union of the British Indian Provinces and Princely States.\n2. Defence and Foreign Affairs were kept under the control of the federal legislature.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The Government of India Act, 1935 did provide for an All India Federation combining British Indian provinces and princely states, though this federal part never actually came into force — Statement 1 is correct. Defence and foreign affairs, however, were kept as 'reserved subjects' under the Governor-General's discretion, not under the control of the federal legislature — Statement 2 is incorrect.",
+      "year": 2024
+    },
+    {
+      "question": "As per Article 368 of the Constitution of India, the Parliament may amend any provision of the Constitution by way of :\n1. Addition\n2. Variation\n3. Repeal\nSelect the correct answer using the code given below :",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Article 368 empowers Parliament to amend any provision of the Constitution by way of addition, variation, or repeal, following the prescribed procedure.",
+      "year": 2024
+    },
+    {
+      "question": "The Constitution (71st Amendment) Act, 1992 amends the Eighth Schedule to the Constitution to include which of the following languages?\n1. Konkani\n2. Manipuri\n3. Nepali\n4. Maithili\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3",
+        "1, 2 and 4",
+        "1, 3 and 4",
+        "2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The Constitution (71st Amendment) Act, 1992 added Konkani, Manipuri, and Nepali to the Eighth Schedule. Maithili was added later, by the 92nd Amendment Act, 2003.",
+      "year": 2024
+    },
+    {
+      "question": "In essence, what does 'Due Process of Law' mean?",
+      "options": [
+        "The principle of natural justice",
+        "The procedure established by law",
+        "Fair application of law",
+        "Equality before law"
+      ],
+      "correct": "A",
+      "explanation": "'Due process of law', the American constitutional standard, essentially embodies the principle of natural justice, requiring that a law and the procedure by which it deprives someone of life or liberty be fair and reasonable — going beyond mere compliance with an existing procedure.",
+      "year": 2023
+    },
+    {
+      "question": "Which one of the following statements best reflects the Chief purpose of the 'Constitution' of a country?",
+      "options": [
+        "It determines the objective for the making of necessary laws.",
+        "It enables the creation of political offices and a government.",
+        "It defines and limits the powers of government.",
+        "It secures social justice, social equality and social security."
+      ],
+      "correct": "C",
+      "explanation": "The chief purpose of a country's Constitution is to define and limit the powers of the government, establishing the framework within which political authority is exercised.",
+      "year": 2023
+    },
+    {
+      "question": "In India, which one of the following Constitutional Amendments was widely believed to be enacted to overcome the judicial interpretations of the Fundamental Rights?",
+      "options": [
+        "1st Amendment",
+        "42nd Amendment",
+        "44th Amendment",
+        "86th Amendment"
+      ],
+      "correct": "A",
+      "explanation": "The 1st Amendment (1951) is widely seen as a response to early judicial rulings that struck down land reform and other laws for infringing the Right to Property, since it inserted the Ninth Schedule to protect such laws from challenge on Fundamental Rights grounds.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements in respect of the National Flag of India according to the Flag Code of India, 2002 : Statement-I : One of the standard sizes of the National Flag of India is 600 mm x 400 mm. Statement-II : The ratio of the length to the height (width) of the Flag shall be 3:2. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "D",
+      "explanation": "The Flag Code of India, 2002 does not list 600 mm x 400 mm as one of the standard prescribed sizes for the National Flag — Statement-I is incorrect. It does, however, specify that the ratio of the flag's length to its height must be 3:2 — Statement-II is correct.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements in respect of the Constitution Day : Statement-I : The Constitution Day is celebrated on 26th November every year to promote constitutional values among citizens. Statement-II : On 26th November, 1949, the Constituent Assembly of India set up a Drafting Committee under the Chairmanship of Dr. B. R. Ambedkar to prepare a Draft Constitution of India. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "C",
+      "explanation": "Constitution Day is indeed observed on 26th November each year — Statement-I is correct. However, the Drafting Committee under Dr. B. R. Ambedkar was actually constituted on 29 August 1947, not on 26 November 1949; that later date instead marks the day the Constituent Assembly adopted the Constitution — Statement-II is incorrect.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. There is only one citizenship and one domicile.\n2. A citizen by birth only can become the Head of State.\n3. A foreigner once granted the citizenship cannot be deprived of it under any circumstances.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3",
+        "2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "India has a single, uniform citizenship and a single domicile for the whole country, unlike federations such as the USA — Statement 1 is correct. The President need not be a citizen by birth; Article 58 only requires Indian citizenship, so a naturalised citizen could also become President — Statement 2 is incorrect. Citizenship, once granted, can be terminated under provisions of the Citizenship Act, so it is not irrevocable — Statement 3 is incorrect.",
+      "year": 2021
+    },
+    {
+      "question": "Which one of the following factors constitutes the best safeguard of liberty in a liberal democracy?",
+      "options": [
+        "A committed judiciary",
+        "Centralization of powers",
+        "Elected government",
+        "Separation of powers"
+      ],
+      "correct": "D",
+      "explanation": "Separation of powers among the legislature, executive, and judiciary — preventing concentration of authority in any one organ — is regarded as the best structural safeguard of liberty in a liberal democracy.",
+      "year": 2021
+    },
+    {
+      "question": "What was the exact constitutional status of India on 26th January, 1950?",
+      "options": [
+        "A Democratic Republic",
+        "A Sovereign Democratic Republic",
+        "A Sovereign Secular Democratic Republic",
+        "A Sovereign Socialist Secular Democratic Republic"
+      ],
+      "correct": "B",
+      "explanation": "On 26 January 1950, India's Constitution described the country as a 'Sovereign Democratic Republic'; the words 'Socialist' and 'Secular' were inserted into the Preamble only later, by the 42nd Amendment Act, 1976.",
+      "year": 2021
+    },
+    {
+      "question": "Constitutional government means",
+      "options": [
+        "a representative government of a nation with federal structure",
+        "a government whose Head enjoys nominal powers",
+        "a government whose Head enjoys real powers",
+        "a government limited by the terms of the Constitution"
+      ],
+      "correct": "D",
+      "explanation": "A constitutional government is one whose powers and functioning are bound and limited by the terms of a constitution, rather than one defined merely by its federal structure or by how much real or nominal power its head enjoys.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements in respect of Bharat Ratna and Padma Awards :\n1. Bharat Ratna and Padma Awards are titles under the Article 18(1) of the Constitution of India.\n2. Padma Awards, which were instituted in the year 1954, were suspended only once.\n3. The number of Bharat Ratna Awards is restricted to a maximum of five in a particular year.\nWhich of the above statements are not correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1,2 and3"
+      ],
+      "correct": "D",
+      "explanation": "The Supreme Court has held that Bharat Ratna and Padma Awards are not 'titles' within the meaning of Article 18(1), so describing them as such is incorrect — Statement 1 is incorrect. The Padma Awards, instituted in 1954, have actually been suspended more than once (for instance, between 1977 and 1980) — Statement 2 is incorrect. There is no fixed numerical ceiling of five Bharat Ratna awards in a year; the number is kept low only by convention — Statement 3 is incorrect. All three statements are therefore incorrect.",
+      "year": 2021
+    },
+    {
+      "question": "A constitutional government by definition is a",
+      "options": [
+        "government by legislature",
+        "popular government",
+        "multi-party government",
+        "limited government"
+      ],
+      "correct": "D",
+      "explanation": "By definition, a constitutional government is a limited government — one whose powers are bound and circumscribed by the provisions of a constitution.",
+      "year": 2020
+    },
+    {
+      "question": "Other than the Fundamental Rights, which of the following parts of the Constitution of India reflect/reflects the principles and provisions of the Universal Declaration of Human Rights (1948)?\n1. Preamble\n2. Directive Principles of State Policy\n3. Fundamental Duties\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The Preamble reflects the UDHR's core values of justice, liberty, equality, and fraternity; the Directive Principles echo many of the UDHR's socio-economic rights; and the Fundamental Duties draw on the UDHR's companion idea (Article 29) that individuals also owe duties to the community. All three parts, alongside the Fundamental Rights, reflect the Declaration's principles.",
+      "year": 2020
+    },
+    {
+      "question": "Consider the following statements :\n1. The Constitution of India defines its 'basic structure' in terms of federalism, secularism, fundamental rights and democracy.\n2. The Constitution of India provides for 'judicial review' to safeguard the citizens' liberties and to preserve the ideals on which the Constitution is based.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The Constitution does not itself define or enumerate a 'basic structure' anywhere in its text — this is a doctrine evolved by the judiciary, notably in the Kesavananda Bharati case, not something the Constitution spells out — Statement 1 is incorrect. Similarly, 'judicial review' is not an explicitly named, standalone provision of the Constitution but is inferred from various Articles (13, 32, 226); the statement's framing overstates this as an explicit constitutional grant — Statement 2 is incorrect.",
+      "year": 2020
+    },
+    {
+      "question": "The Preamble to the Constitution of India is",
+      "options": [
+        "a part of the Constitution but has no legal effect",
+        "not a part of the Constitution and has no legal effect either",
+        "a part of the Constitution and has the same legal effect as any other part",
+        "a part of the Constitution but has no legal effect independently of other parts"
+      ],
+      "correct": "D",
+      "explanation": "The Preamble is a part of the Constitution, but it does not confer any independently enforceable rights or effects on its own — it takes its legal force only in conjunction with the rest of the Constitution's provisions.",
+      "year": 2020
+    },
+    {
+      "question": "Consider the following statements :\n1. The 44th Amendment to the Constitution of India introduced an Article placing the election of the Prime Minister beyond judicial review.\n2. The Supreme Court of India struck down the 99th Amendment to the Constitution of India as being violative of the independence of judiciary.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "It was actually the 39th Amendment (1975) that sought to place the election of the Prime Minister beyond judicial scrutiny, and this provision was struck down by the Supreme Court in the Indira Gandhi election case for violating the basic structure — the 44th Amendment did not introduce such a provision, so Statement 1 is incorrect. The Supreme Court did strike down the 99th Amendment (which created the National Judicial Appointments Commission) in 2015, holding it violated judicial independence — Statement 2 is correct.",
+      "year": 2019
+    },
+    {
+      "question": "The Ninth Schedule was introduced in the Constitution of India during the prime ministership of",
+      "options": [
+        "Jawaharlal Nehru",
+        "Lal Bahadur Shastri",
+        "Indira Gandhi",
+        "Morarji Desai"
+      ],
+      "correct": "A",
+      "explanation": "The Ninth Schedule was introduced by the 1st Constitutional Amendment Act, 1951, during Jawaharlal Nehru's tenure as Prime Minister, mainly to protect land reform laws from being struck down on Fundamental Rights grounds.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following statements :\n1. The Parliament of India can place a particular law in the Ninth Schedule of the Constitution of India.\n2. The validity of a law placed in the Ninth Schedule cannot be examined by any court and no judgement can be made on it.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Parliament can indeed place a law under the Ninth Schedule through a constitutional amendment — Statement 1 is correct. However, laws added to the Ninth Schedule are not fully immune from judicial review; in the I. R. Coelho case (2007), the Supreme Court held that laws inserted after 24 April 1973 (the date of the Kesavananda Bharati judgment) can still be tested against the basic structure doctrine — Statement 2 is incorrect.",
+      "year": 2018
+    },
+    {
+      "question": "Which one of the following objectives is not embodied in the Preamble to the Constitution of India?",
+      "options": [
+        "Liberty of thought",
+        "Economic liberty",
+        "Liberty of expression",
+        "Liberty of belief"
+      ],
+      "correct": "B",
+      "explanation": "The Preamble speaks of liberty of thought, expression, belief, faith, and worship, but it does not use the term 'economic liberty' — economic aspects are instead captured under the ideal of 'justice: social, economic and political.'",
+      "year": 2017
+    },
+    {
+      "question": "The mind of the makers of the Constitution of India is reflected in which of the following?",
+      "options": [
+        "The Preamble",
+        "The Fundamental Rights",
+        "The Directive Principles of State Policy",
+        "The Fundamental Duties"
+      ],
+      "correct": "A",
+      "explanation": "The Preamble is widely regarded, including by the Supreme Court, as reflecting the philosophy and intent — 'the mind' — of the Constitution's framers, summarising the objectives they sought to achieve.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following statements: A Constitutional Government is one which\n1. Places effective restrictions on individual liberty in the interest of State Authority\n2. Places effective restrictions on the Authority of the State in the interest of individual liberty\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "A constitutional government is fundamentally about placing effective restrictions on the authority of the State in order to protect individual liberty, not the reverse — so Statement 2 correctly captures this, while Statement 1 inverts the relationship.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following statements:\n1. An amendment to the Constitution of India can be initiated by an introduction of a Bill in the Lok Sabha only.\n2. If such an amendment seeks to make changes in the federal character of the Constitution, the amendment also requires to be ratified by the legislatures of all the States of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "A constitutional amendment bill can be introduced in either House of Parliament, the Lok Sabha or the Rajya Sabha, not the Lok Sabha alone — Statement 1 is incorrect. Amendments affecting the Constitution's federal provisions require ratification by not less than one-half of the State legislatures, not by all of them — Statement 2 is incorrect.",
+      "year": 2013
+    },
+    {
+      "question": "'Economic Justice' as one of the objectives of the Indian Constitution has been provided in",
+      "options": [
+        "the Preamble and the Fundamental Rights",
+        "the Preamble and the Directive Principles of State Policy",
+        "the Fundamental Rights and the Directive Principles of State Policy",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "'Economic Justice' as a constitutional objective is articulated in the Preamble and given substantive shape through the (non-justiciable) Directive Principles of State Policy, rather than through the enforceable Fundamental Rights.",
+      "year": 2013
+    },
+    {
+      "question": "Under which one of the following Constitution Amendment Acts, four languages were added to the languages under the Eighth Schedule of the Constitution of India, thereby raising their number to 22?",
+      "options": [
+        "Constitution (Ninetieth Amendment) Act",
+        "Constitution (Ninety-first Amendment) Act",
+        "Constitution (Ninety-second Amendment) Act",
+        "Constitution (Ninety-third Amendment) Act"
+      ],
+      "correct": "C",
+      "explanation": "The Constitution (92nd Amendment) Act, 2003 added four languages — Bodo, Dogri, Maithili, and Santhali — to the Eighth Schedule, raising the total number of scheduled languages to 22.",
+      "year": 2008
+    },
+    {
+      "question": "Which of the Constitution Amendment Acts seeks that the size of the Council of Ministers at the Centre and in a State must not exceed 15 percent of the total number in the Lok Sabha and the total number of members of the Legislative Assembly of that State, respectively?",
+      "options": [
+        "91st",
+        "93rd",
+        "95th",
+        "97th"
+      ],
+      "correct": "A",
+      "explanation": "The 91st Amendment Act, 2003 (the anti-defection reform amendment) capped the size of the Council of Ministers, at the Centre and in the States, at 15% of the total strength of the Lok Sabha or the concerned Legislative Assembly.",
+      "year": 2007
+    },
+    {
+      "question": "What does the 104th Constitution Amendment Bill relate to?",
+      "options": [
+        "Abolition of Legislative Councils in certain States",
+        "Introduction of dual citizenship for persons of Indian origin living outside India",
+        "Providing reservation to women in Parliament and State Legislatures",
+        "Free and compulsory education to children between the age of 6 and 14 years"
+      ],
+      "correct": "C",
+      "explanation": "The 104th Constitution Amendment Bill (as it was then numbered) sought to provide reservation for women in Parliament and the State Legislatures — the Women's Reservation Bill.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. The Constitution of India has 20 parts.\n2. There are 390 Articles in the Constitution of India in all.\n3. Ninth, Tenth, Eleventh and Twelfth Schedules were added to the Constitution of India by the Constitution (Amendments) Acts.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The original Constitution, as adopted in 1949, had 22 Parts, 395 Articles, and 8 Schedules — not 20 Parts or 390 Articles as claimed, making Statements 1 and 2 incorrect. The Ninth, Tenth, Eleventh, and Twelfth Schedules were indeed later additions made through Constitutional Amendment Acts (by the 1st, 52nd, 73rd, and 74th Amendments respectively), so Statement 3 alone is correct.",
+      "year": 2005
+    },
+    {
+      "question": "Who among the following was the Chairman of the Union Constitution Committee of the Constituent Assembly?",
+      "options": [
+        "B. R. Ambedkar",
+        "J. B. Kripalani",
+        "Jawaharlal Nehru",
+        "Alladi Krishnaswami Ayyar"
+      ],
+      "correct": "C",
+      "explanation": "Jawaharlal Nehru chaired the Union Constitution Committee of the Constituent Assembly, which dealt with the structure of the Union government.",
+      "year": 2005
+    },
+    {
+      "question": "The Constitution (98th Amendment) Act is related to:",
+      "options": [
+        "Empowering the Centre to levy and appropriate service tax",
+        "The Constitution of the National Judicial Commission",
+        "Readjustment of electoral constituencies on the basis of the Population Census 2001",
+        "The demarcation of new boundaries between States"
+      ],
+      "correct": "B",
+      "explanation": "The Constitution (98th Amendment) Bill, as it was then numbered, related to the proposed establishment of a National Judicial Commission; this proposal was eventually enacted years later, in a different form, as the 99th Amendment Act, 2014 (creating the NJAC), which was subsequently struck down by the Supreme Court.",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The Constitution Assembly of India was elected by the Provincial Assemblies in the year 1946.",
+        "Jawaharlal Nehru, M.A. Jinnah and Sardar Vallabhbhai Patel were members of the Constituent Assembly of India.",
+        "The First Session of the Constituent Assembly of India was held in January, 1947.",
+        "The Constitution of India was adopted on 26th January, 1950."
+      ],
+      "correct": "A",
+      "explanation": "The Constituent Assembly of India was indirectly elected by the members of the Provincial Legislative Assemblies in 1946, under the scheme of the Cabinet Mission Plan.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following statements correctly describes the Fourth Schedule of the Constitution of India?",
+      "options": [
+        "It contains the scheme of the distribution of powers between the Union and the States",
+        "It contains the languages listed in the Constitution",
+        "It contains the provisions regarding the administration of tribal areas",
+        "It allocates seats in the Council of States"
+      ],
+      "correct": "D",
+      "explanation": "The Fourth Schedule of the Constitution allocates the number of seats to each State and Union Territory in the Rajya Sabha (Council of States).",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following is the correct sequence in the descending order of precedence in the warrant of precedence?",
+      "options": [
+        "Attorney General of India - Judges of the Supreme Court - Members of Parliament - Deputy Chairman of Rajya Sabha",
+        "Judges of the Supreme Court - Deputy Chairman of Rajya Sabha - Attorney General of India - Members of Parliament",
+        "Attorney General of India - Deputy Chairman of Rajya Sabha - Judges of the Supreme Court - Members of Parliament",
+        "Judges of the Supreme Court - Attorney General of India - Deputy Chairman of Rajya Sabha - Members of Parliament"
+      ],
+      "correct": "B",
+      "explanation": "The Warrant of Precedence places Judges of the Supreme Court above the Deputy Chairman of the Rajya Sabha, who in turn ranks above the Attorney General of India, who ranks above ordinary Members of Parliament.",
+      "year": 2004
+    },
+    {
+      "question": "As per Indian Protocol, who among the following ranks highest in the order of precedence?",
+      "options": [
+        "Deputy Prime Minister",
+        "Former President",
+        "Governor of a State within his state",
+        "Speaker of Lok Sabha"
+      ],
+      "correct": "C",
+      "explanation": "Under India's Table (Warrant) of Precedence, a Governor ranks highest among the given options within their own State, taking precedence there even over a former President.",
+      "year": 2003
+    },
+    {
+      "question": "Match List I (Item in the Indian Constitution) with List II (Country from which it was derived) and select the correct answer using the codes given below the list.\nList I (Item in the Indian Constitution)\nA. Directive Principles of State Policy\nB. Fundamental Rights\nC. Concurrent List in Union-State Relations\nD. India as a Union of States with greater powers to the Union\nList II (Country from which it was derived)\n1. Australia\n2. Canada\n3. Ireland\n4. United Kingdom\n5. USA\nCodes: A B C D",
+      "options": [
+        "5 4 1 2",
+        "3 5 2 1",
+        "5 4 2 1",
+        "3 5 1 2"
+      ],
+      "correct": "D",
+      "explanation": "The Directive Principles of State Policy were derived from the Irish Constitution, Fundamental Rights largely from the United States Constitution, the Concurrent List concept from the Australian Constitution, and the idea of a Union of States with a strong Centre from the Canadian Constitution.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following Bills must be passed by each House of the Indian Parliament separately, by special majority?",
+      "options": [
+        "Ordinary Bill",
+        "Money Bill",
+        "Finance Bill",
+        "Constitution Amendment Bill"
+      ],
+      "correct": "D",
+      "explanation": "A Constitution Amendment Bill must be passed by each House of Parliament separately by a special majority, unlike an ordinary bill, a Money Bill, or a Finance Bill, which follow different procedures.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following schedules of the Indian Constitution lists the names of states and specifies their territories?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "correct": "A",
+      "explanation": "The First Schedule of the Constitution lists the names of the States and Union Territories of India along with their territorial extent.",
+      "year": 2003
+    },
+    {
+      "question": "The Ninth Schedule to the Indian Constitution was added by",
+      "options": [
+        "First Amendment",
+        "Eighth Amendment",
+        "Ninth Amendment",
+        "Forty second Amendment"
+      ],
+      "correct": "A",
+      "explanation": "The Ninth Schedule was inserted into the Constitution by the First Amendment Act, 1951, primarily to shield land reform legislation from judicial review on Fundamental Rights grounds.",
+      "year": 2003
+    },
+    {
+      "question": "The members of the Constituent Assembly which drafted the Constitution of India were",
+      "options": [
+        "nominated by the British Parliament",
+        "nominated by the Governor General",
+        "elected by the Legislative Assemblies of various provinces",
+        "elected by the Indian National Congress and Muslim League"
+      ],
+      "correct": "C",
+      "explanation": "The members of the Constituent Assembly were indirectly elected by the elected members of the Provincial Legislative Assemblies, in accordance with the Cabinet Mission Plan of 1946.",
+      "year": 2002
+    },
+    {
+      "question": "The 93rd Constitutional Amendment Bill deals with the",
+      "options": [
+        "continuation of reservation for backward classes in government employment",
+        "free and compulsory education for all children between the age of 6 and 14 years",
+        "reservation of 30 per cent posts for women in government recruitments",
+        "allocation of a greater number of parliamentary seats for recently created States"
+      ],
+      "correct": "B",
+      "explanation": "The Constitution (93rd Amendment) Bill, as it was originally introduced and numbered, provided for free and compulsory education for children between the ages of 6 and 14; it was eventually enacted, after renumbering, as the 86th Amendment Act, 2002, which inserted Article 21-A.",
+      "year": 2002
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists:\nList I (Amendments to the Constitution)\nI. The Constitution (Sixty-ninth Amendment) Act, 1991\nII. The Constitution (Seventy-fifth Amendment) Act, 1994\nIII. The Constitution (Eightieth Amendment) Act, 2000\nIV. The Constitution (Eighty-third Amendment) Act, 2000\nList II (Contents)\nA) Establishment of State-level Rent Tribunals Act, 1991\nB) No reservations for Scheduled Castes in Panchayats in Arunachal Pradesh\nC) Constitution of Panchayats in Villages or at other local levels\nD) Accepting the recommendations of the Tenth Finance Commission\nE) According the status of National Capital Territory to Delhi\nCodes:",
+      "options": [
+        "I-E, II-A, III-D, IV-B",
+        "I-A, II-E, III-C, IV-D",
+        "I-E, II-A, III-C, IV-D",
+        "I-A, II-E, III-D, IV-B"
+      ],
+      "correct": "A",
+      "explanation": "The 69th Amendment Act, 1991 accorded Delhi the status of a National Capital Territory; the 75th Amendment Act, 1994 provided for State-level Rent Tribunals; the 80th Amendment Act, 2000 gave effect to the recommendations of the Tenth Finance Commission; and the 83rd Amendment Act, 2000 exempted Arunachal Pradesh from reserving seats for Scheduled Castes in Panchayats.",
+      "year": 2001
+    },
+    {
+      "question": "If a new State of the Indian Union is to be created, which one of the following Schedules of the Constitution must be amended?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fifth"
+      ],
+      "correct": "A",
+      "explanation": "Creating a new State requires amending the First Schedule of the Constitution, which lists the names and territorial extent of all States and Union Territories.",
+      "year": 2001
+    },
+    {
+      "question": "Which Article of the Constitution provides that it shall be the endeavour of every State to provide adequate facility for instruction in the mother tongue at the primary stage of education?",
+      "options": [
+        "Article 349",
+        "Article 350",
+        "Article 350-A",
+        "Article 351"
+      ],
+      "correct": "C",
+      "explanation": "Article 350-A directs every State, and every local authority within it, to endeavour to provide adequate facilities for instruction in the mother tongue at the primary stage of education, particularly for linguistic minority groups.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following statements correctly describes the Fourth Schedule of the Constitution of India?",
+      "options": [
+        "It lists the distribution of power between the Union and the States",
+        "It contains the languages listed in the Constitution",
+        "It contains the provisions regarding the administration of tribal areas",
+        "It allocates seats in the Council of States"
+      ],
+      "correct": "D",
+      "explanation": "The Fourth Schedule of the Constitution allocates the number of seats to each State and Union Territory in the Rajya Sabha (Council of States).",
+      "year": 2001
+    },
+    {
+      "question": "Consider the following functionaries:\nI. Cabinet Secretary\nII. Chief Election Commissioner\nIII. Union Cabinet Ministers\nIV. Chief Justice of India Their correct sequence, in the Order of Precedence is",
+      "options": [
+        "III, IV, II, I",
+        "IV, III, I, II",
+        "IV, III, II, I",
+        "III, IV, I, II"
+      ],
+      "correct": "C",
+      "explanation": "Under India's Order of Precedence, the Chief Justice of India ranks above Union Cabinet Ministers, who in turn rank above the Chief Election Commissioner, followed by the Cabinet Secretary.",
+      "year": 2000
+    },
+    {
+      "question": "Consider the following statements: An amendment of the Constitution of India can be initiated by the\nI. Lok Sabha.\nII. Rajya Sabha.\nIII. State Legislatures.\nIV. President.\nWhich of the above statements is/are correct?",
+      "options": [
+        "I alone",
+        "I, II and III",
+        "II, III and IV",
+        "I and II"
+      ],
+      "correct": "D",
+      "explanation": "A Constitution Amendment Bill under Article 368 can be introduced in either House of Parliament — the Lok Sabha or the Rajya Sabha — but not by State Legislatures or the President, which are not empowered to initiate such a bill.",
+      "year": 1999
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Kachchativu and Tin Bigha were territories acquired by the Indian Republic from the French",
+        "Kachchativu and Tin Bigha are territories handed over to Sri Lankan and Bangladeshi sovereignty respectively by the Government of India",
+        "Kachchativu and Tin Bigha are areas that were annexed by the Chinese in the 1962 Sino Indian War",
+        "Kachchativu and Tin Bigha are enclaves which were transferred to India by lease arrangements with Sri Lanka and Pakistan respectively"
+      ],
+      "correct": "B",
+      "explanation": "Kachchativu, an island near Sri Lanka, and Tin Bigha, an enclave along the Bangladesh border, were both transferred by India to the sovereignty of Sri Lanka and Bangladesh respectively, through bilateral agreements.",
+      "year": 1999
+    },
+    {
+      "question": "Match List I with List II and select the correct answer by using the codes given below the lists:\nList I (Functionaries)\nI. President of India\nII. Judges of the Supreme Court\nIII. Members of Parliament\nIV. Ministers for the Union\nList II (Oaths or affirmations)\nA) Secrecy of Information\nB) Faithful Discharge of Duties\nC) Faith and Allegiance to the Constitution of India\nD) Upholding the Constitution and the Law",
+      "options": [
+        "I-C, II-D, III-A, IV-B",
+        "I-D, II-C, III-B, IV-A",
+        "I-C, II-D, III-B, IV-A",
+        "I-D, II-C, III-A, IV-B"
+      ],
+      "correct": "B",
+      "explanation": "The President takes an oath to preserve, protect, and defend the Constitution and the law; Judges of the Supreme Court swear to bear true faith and allegiance to the Constitution of India; Members of Parliament pledge to faithfully discharge their duties; and Union Ministers additionally take an oath of secrecy regarding matters brought before them.",
+      "year": 1997
+    },
+    {
+      "question": "In the following quotation, “WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a Sovereign Socialist Secular Democratic Republic and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all; FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation; In our Constituent Assembly this ‘X’ ………. do hereby adopt, enact and give to ourselves this Constitution.” ‘X’ stands for",
+      "options": [
+        "twenty-sixth day of January, 1950",
+        "twenty-sixth day of November, 1949",
+        "twenty-sixth day of January, 1949",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "The Constituent Assembly adopted the Constitution on 26th November, 1949 — the date referred to as 'X' in the Preamble's concluding words — while the Constitution actually came into force on 26th January, 1950.",
+      "year": 1997
+    },
+    {
+      "question": "Assertion (A): The British sovereignty continued to exist in free India.\nReason (R): The British sovereign appointed the last Governor-General of free India.\nIn the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "British sovereignty did not continue in free India — full sovereignty passed to India upon independence and, more completely, with the adoption of the Republican Constitution, so the Assertion is false. The last Governor-General of free India, C. Rajagopalachari, was indeed formally appointed under the constitutional arrangements existing at the time, so the Reason, though true, does not support a false Assertion.",
+      "year": 1996
+    },
+    {
+      "question": "Which of the following are matters on which a constitutional amendment is possible only with the ratification of the legislatures of not less than one-half of the States?\nI. Election of the President\nII. Representation of States in Parliament\nIII. Any of the Lists in the 7th Schedule\nIV. Abolition of the Legislative Council of a State\nChoose the correct answer from the codes given below:",
+      "options": [
+        "I, II and III",
+        "I, II and IV",
+        "I, III and IV",
+        "II, III and IV"
+      ],
+      "correct": "A",
+      "explanation": "Constitutional amendments affecting the election of the President, the representation of States in Parliament, or any List in the Seventh Schedule require ratification by not less than one-half of the State legislatures, as they touch the Constitution's federal character. Abolition of a State's Legislative Council, however, can be done by an ordinary Parliament law under Article 169 and does not require such ratification.",
+      "year": 1995
+    }
+  ]
+}
