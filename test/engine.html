@@ -807,7 +807,7 @@
     <div class="score-hero">
       <div class="score-circle">
         <div class="score-val" id="rs-score">0</div>
-        <div class="score-total">/200</div>
+        <div class="score-total" id="rs-score-total">/200</div>
       </div>
       <h2 id="rs-headline">Your Score</h2>
       <p id="rs-subtext">Here's your performance breakdown</p>
@@ -837,6 +837,11 @@ const State = {
   questions: [],
   year: null,
   paper: null,
+  mode: null,            // 'practice' for topic-wise tests, null for full official papers
+  topic: null,            // raw topic param, e.g. "polity/dpsp"
+  saveKeyId: null,         // unique id used to match saved progress (year or topic)
+  totalQuestions: 0,
+  totalMarks: 0,
   answers: {},          // { qIndex: "A"|"B"|"C"|"D" }
   flagged: new Set(),
   visited: new Set(),
@@ -862,7 +867,7 @@ const Storage = {
         visited: [...State.visited],
         timeRemaining: State.timeRemaining,
         currentQ: State.currentQ,
-        year: State.year
+        saveKeyId: State.saveKeyId
       }));
     } catch(e) {}
   },
@@ -883,9 +888,16 @@ const Storage = {
 async function init() {
   const params = new URLSearchParams(window.location.search);
   const year = params.get('year') || '2026';
+  const mode = params.get('mode');
+  const topic = params.get('topic');
+  const isTopicMode = mode === 'practice' && !!topic;
 
-  // Determine data path — works both locally and on netlify
-  const dataPath = `../data/${year}.json`;
+  // Determine data path — works both locally and on netlify.
+  // Topic-wise practice tests load from data/topics/{topicname}.json instead
+  // of the full year paper. Topic files live flat (no subject subfolder), so
+  // a "polity/dpsp" topic param needs just its last segment ("dpsp").
+  const topicFileName = isTopicMode ? topic.split('/').pop() : null;
+  const dataPath = isTopicMode ? `../data/topics/${topicFileName}.json` : `../data/${year}.json`;
 
   try {
     const res = await fetch(dataPath);
@@ -893,50 +905,86 @@ async function init() {
     const data = await res.json();
 
     State.questions = data.questions;
-    State.year = data.year;
-    State.paper = data.paper;
+    State.mode = isTopicMode ? 'practice' : null;
+    State.topic = isTopicMode ? topic : null;
     State.markingScheme = data.markingScheme || State.markingScheme;
 
-    // Update intro UI
-    document.getElementById('intro-title').textContent = `UPSC Prelims ${data.year} — ${data.paper}`;
-    document.getElementById('intro-subtitle').textContent = `Set ${data.set || 'A'} · ${data.totalQuestions} Questions · ${data.totalMarks} Marks · ${Math.floor(data.duration/3600)} Hours`;
-    document.getElementById('ic-qs').textContent = data.totalQuestions;
-    document.getElementById('ic-marks').textContent = data.totalMarks;
-    document.getElementById('ic-time').textContent = `${Math.floor(data.duration/3600)}:00`;
-    document.getElementById('test-paper-title').textContent = `UPSC Prelims ${data.year}`;
-    document.getElementById('test-paper-sub').textContent = `${data.paper} · Set ${data.set || 'A'}`;
-    document.getElementById('results-title').textContent = `UPSC Prelims ${data.year} — ${data.paper}`;
+    // Topic JSON has no totalQuestions/totalMarks — derive them.
+    State.totalQuestions = data.totalQuestions || data.questions.length;
+    State.totalMarks = data.totalMarks || Math.round(State.totalQuestions * State.markingScheme.correct * 10) / 10;
 
-    // Fix: canonical/OG tags were hardcoded to the 2026 page even when
-    // this same engine is loaded for other years via ?year=2010..2025.
-    // Point each year's crawl at its own canonical URL instead.
-    const isDefaultYear = String(data.year) === '2026';
-    const canonicalUrl = isDefaultYear
-      ? 'https://upsca2z.com/upsc-prelims-2026-question-paper/'
-      : `https://upsca2z.com/test/engine.html?year=${data.year}`;
-    const canonicalEl = document.getElementById('canonical-link');
-    if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
-    const ogUrlEl = document.getElementById('og-url');
-    if (ogUrlEl) ogUrlEl.setAttribute('content', canonicalUrl);
-    const ogTitleEl = document.getElementById('og-title');
-    if (ogTitleEl) ogTitleEl.setAttribute('content', `UPSC Prelims ${data.year} Question Paper – Attempt Online Free | UPSC A2Z`);
-    document.title = `UPSC Prelims ${data.year} Mock Test – UPSC A2Z`;
+    if (isTopicMode) {
+      State.year = null;
+      State.paper = null;
+      State.saveKeyId = `topic:${topicFileName}`;
 
-    State.timeRemaining = data.duration;
+      // Topic JSON's duration is 0 (untimed data) — give practice tests a
+      // sensible computed duration instead of the year-paper timer breaking
+      // immediately. ~1.5 min/question, minimum 5 minutes.
+      const computedDuration = data.duration && data.duration > 0
+        ? data.duration
+        : Math.max(300, Math.round(State.totalQuestions * 90));
+
+      const heading = `${data.subject || 'Practice'} — ${data.topic || topicFileName}`;
+      document.getElementById('intro-title').textContent = heading;
+      document.getElementById('intro-subtitle').textContent = `${State.totalQuestions} Questions · ${State.totalMarks} Marks · ${Math.floor(computedDuration/3600)}h ${Math.floor((computedDuration%3600)/60)}m`;
+      document.getElementById('ic-qs').textContent = State.totalQuestions;
+      document.getElementById('ic-marks').textContent = State.totalMarks;
+      document.getElementById('ic-time').textContent = `${Math.floor(computedDuration/3600)}:${String(Math.floor((computedDuration%3600)/60)).padStart(2,'0')}`;
+      document.getElementById('test-paper-title').textContent = heading;
+      document.getElementById('test-paper-sub').textContent = `Topic Practice · ${State.totalQuestions} Qs`;
+      document.getElementById('results-title').textContent = heading;
+      document.title = `${data.topic || topicFileName} Practice Test – UPSC A2Z`;
+
+      State.timeRemaining = computedDuration;
+    } else {
+      State.year = data.year;
+      State.paper = data.paper;
+      State.saveKeyId = `year:${year}`;
+
+      // Update intro UI
+      document.getElementById('intro-title').textContent = `UPSC Prelims ${data.year} — ${data.paper}`;
+      document.getElementById('intro-subtitle').textContent = `Set ${data.set || 'A'} · ${State.totalQuestions} Questions · ${State.totalMarks} Marks · ${Math.floor(data.duration/3600)} Hours`;
+      document.getElementById('ic-qs').textContent = State.totalQuestions;
+      document.getElementById('ic-marks').textContent = State.totalMarks;
+      document.getElementById('ic-time').textContent = `${Math.floor(data.duration/3600)}:00`;
+      document.getElementById('test-paper-title').textContent = `UPSC Prelims ${data.year}`;
+      document.getElementById('test-paper-sub').textContent = `${data.paper} · Set ${data.set || 'A'}`;
+      document.getElementById('results-title').textContent = `UPSC Prelims ${data.year} — ${data.paper}`;
+
+      // Fix: canonical/OG tags were hardcoded to the 2026 page even when
+      // this same engine is loaded for other years via ?year=2010..2025.
+      // Point each year's crawl at its own canonical URL instead.
+      const isDefaultYear = String(data.year) === '2026';
+      const canonicalUrl = isDefaultYear
+        ? 'https://upsca2z.com/upsc-prelims-2026-question-paper/'
+        : `https://upsca2z.com/test/engine.html?year=${data.year}`;
+      const canonicalEl = document.getElementById('canonical-link');
+      if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
+      const ogUrlEl = document.getElementById('og-url');
+      if (ogUrlEl) ogUrlEl.setAttribute('content', canonicalUrl);
+      const ogTitleEl = document.getElementById('og-title');
+      if (ogTitleEl) ogTitleEl.setAttribute('content', `UPSC Prelims ${data.year} Question Paper – Attempt Online Free | UPSC A2Z`);
+      document.title = `UPSC Prelims ${data.year} Mock Test – UPSC A2Z`;
+
+      State.timeRemaining = data.duration;
+    }
 
     // Hide loading, show intro
     setTimeout(() => {
       document.getElementById('loading-screen').style.display = 'none';
       document.getElementById('intro-screen').style.display = 'block';
 
-      // Check for saved progress
+      // Check for saved progress — compared against a mode-aware key so a
+      // topic-mode attempt is never matched against a year-mode save (or
+      // vice versa).
       const saved = Storage.load();
-      if (saved && saved.year == year && !State.submitted) {
+      if (saved && saved.saveKeyId === State.saveKeyId && !State.submitted) {
         if (confirm('Resume your previous attempt?')) {
           State.answers = saved.answers || {};
           State.flagged = new Set(saved.flagged || []);
           State.visited = new Set(saved.visited || []);
-          State.timeRemaining = saved.timeRemaining || data.duration;
+          State.timeRemaining = saved.timeRemaining || State.timeRemaining;
           State.currentQ = saved.currentQ || 0;
           startTest(true);
         }
@@ -944,11 +992,12 @@ async function init() {
     }, 1300);
 
   } catch(e) {
+    const notFoundLabel = isTopicMode ? `topic "${topicFileName}"` : `UPSC ${year} paper`;
     document.getElementById('loading-screen').innerHTML = `
       <div style="color:white;text-align:center;padding:24px">
         <div style="font-size:2rem;margin-bottom:16px">❌</div>
-        <div style="font-family:var(--font-heading);font-size:1.2rem;margin-bottom:8px">Paper not found</div>
-        <div style="color:rgba(255,255,255,0.5);font-size:14px">Could not load UPSC ${year} paper data.</div>
+        <div style="font-family:var(--font-heading);font-size:1.2rem;margin-bottom:8px">${isTopicMode ? 'Topic test not found' : 'Paper not found'}</div>
+        <div style="color:rgba(255,255,255,0.5);font-size:14px">Could not load ${notFoundLabel} data.</div>
         <a href="/test/" style="color:#F87171;margin-top:16px;display:block">← Back to Test Hub</a>
       </div>`;
   }
@@ -1302,18 +1351,22 @@ function submitTest(autoSubmit = false) {
   const attempted = correct + wrong;
   const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
 
-  // Subject analysis
+  // Subject analysis — topic-mode quizzes are already a single topic, so a
+  // subject-wise breakdown is redundant (and per-question q.subject doesn't
+  // exist on topic JSON anyway); skip it in that case.
   const subjectMap = {};
-  State.questions.forEach((q, idx) => {
-    const s = q.subject;
-    if (!subjectMap[s]) subjectMap[s] = { total: 0, correct: 0, attempted: 0 };
-    subjectMap[s].total++;
-    const ans = State.answers[idx];
-    if (ans) {
-      subjectMap[s].attempted++;
-      if (ans === q.correct) subjectMap[s].correct++;
-    }
-  });
+  if (!State.mode) {
+    State.questions.forEach((q, idx) => {
+      const s = q.subject;
+      if (!subjectMap[s]) subjectMap[s] = { total: 0, correct: 0, attempted: 0 };
+      subjectMap[s].total++;
+      const ans = State.answers[idx];
+      if (ans) {
+        subjectMap[s].attempted++;
+        if (ans === q.correct) subjectMap[s].correct++;
+      }
+    });
+  }
 
   showResults(score, correct, wrong, skip, accuracy, subjectMap);
 }
@@ -1336,23 +1389,37 @@ function showResults(score, correct, wrong, skip, accuracy, subjectMap) {
     correct = c; wrong = w; skip = s;
     accuracy = c + w > 0 ? Math.round((c / (c + w)) * 100) : 0;
     const sm = {};
-    State.questions.forEach((q, idx) => {
-      const sub = q.subject;
-      if (!sm[sub]) sm[sub] = { total: 0, correct: 0, attempted: 0 };
-      sm[sub].total++;
-      const ans = State.answers[idx];
-      if (ans) { sm[sub].attempted++; if (ans === q.correct) sm[sub].correct++; }
-    });
+    if (!State.mode) {
+      State.questions.forEach((q, idx) => {
+        const sub = q.subject;
+        if (!sm[sub]) sm[sub] = { total: 0, correct: 0, attempted: 0 };
+        sm[sub].total++;
+        const ans = State.answers[idx];
+        if (ans) { sm[sub].attempted++; if (ans === q.correct) sm[sub].correct++; }
+      });
+    }
     subjectMap = sm;
   }
 
+  // Scale the headline/max-score to the actual quiz size instead of the
+  // hardcoded 200-mark, 100-question official-paper assumptions — a short
+  // topic quiz would otherwise show a misleading "/200" and thresholds.
+  const maxScore = State.totalMarks || 200;
+  const excellentCut = maxScore * 0.65;
+  const goodCut = maxScore * 0.5;
+
   document.getElementById('rs-score').textContent = score;
+  document.getElementById('rs-score-total').textContent = `/${maxScore}`;
   document.getElementById('rs-correct').textContent = correct;
   document.getElementById('rs-wrong').textContent = wrong;
   document.getElementById('rs-skip').textContent = skip;
   document.getElementById('rs-accuracy').textContent = accuracy + '%';
-  document.getElementById('rs-headline').textContent = score >= 130 ? '🎉 Excellent Performance!' : score >= 100 ? '👍 Good Attempt!' : '💪 Keep Practicing!';
-  document.getElementById('rs-subtext').textContent = `You scored ${score}/200 with ${accuracy}% accuracy on attempted questions.`;
+  document.getElementById('rs-headline').textContent = score >= excellentCut ? '🎉 Excellent Performance!' : score >= goodCut ? '👍 Good Attempt!' : '💪 Keep Practicing!';
+  document.getElementById('rs-subtext').textContent = `You scored ${score}/${maxScore} with ${accuracy}% accuracy on attempted questions.`;
+
+  // Subject-wise breakdown is redundant for a single-topic practice quiz.
+  const subjectAnalysisEl = document.querySelector('.subject-analysis');
+  if (subjectAnalysisEl) subjectAnalysisEl.style.display = State.mode ? 'none' : '';
 
   // Subject rows
   const subjectEl = document.getElementById('subject-rows');
