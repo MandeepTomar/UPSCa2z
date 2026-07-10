@@ -121,7 +121,10 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
 /* ── Take as Test CTA ── */
 .test-cta-wrap { margin-top: 20px; }
-.test-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding: 14px 20px; min-height: 44px; background: var(--blue); color: #fff; border-radius: var(--r-md); box-shadow: var(--sh-sm); transition: background 0.15s var(--ease), transform 0.1s var(--ease); }
+.test-cta { display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 20px; min-height: 44px; background: var(--blue); color: #fff; border-radius: var(--r-md); box-shadow: var(--sh-sm); transition: background 0.15s var(--ease), transform 0.1s var(--ease); }
+.test-cta-content { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; }
+.test-cta-arrow { font-size: 1.15rem; line-height: 1; flex-shrink: 0; transition: transform 0.15s var(--ease); }
+.test-cta:hover .test-cta-arrow, .test-cta:focus-visible .test-cta-arrow { transform: translateX(4px); }
 .test-cta:hover { background: var(--blue2); }
 .test-cta:active { transform: scale(0.99); }
 .test-cta-text { font-family: var(--serif); font-weight: 700; font-size: 1rem; }
@@ -256,8 +259,11 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
   <div class="test-cta-wrap">
   <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=environment/pollution">
-    <span class="test-cta-text">Take as Test</span>
-    <span class="test-cta-sub">Timed, negative marking, year-wise scoring</span>
+    <span class="test-cta-content">
+      <span class="test-cta-text">Take as Test</span>
+      <span class="test-cta-sub">Timed, negative marking, year-wise scoring</span>
+    </span>
+    <span class="test-cta-arrow" aria-hidden="true">&rarr;</span>
   </a>
   </div>
 </section>
