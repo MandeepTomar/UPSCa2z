@@ -1,0 +1,547 @@
+{
+  "topic": "Biodiversity & Conservation",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following:\n1. Carabid beetles\n2. Centipedes\n3. Flies\n4. Termites\n5. Wasps Parasitoid species are found in how many of the above kind of organisms?",
+      "options": [
+        "Only two",
+        "Only three",
+        "Only four",
+        "All five"
+      ],
+      "correct": "B",
+      "explanation": "Parasitoid species, whose larvae develop on or inside a host insect eventually killing it, are found among wasps and flies (notably parasitic wasps and tachinid flies), giving only two of the listed groups as parasitoid-bearing; carabid beetles, centipedes, and termites are not typically parasitoids.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following plants :\n1. Groundnut\n2. Horse-gram\n3. Soybean How many of the above belong to the pea family ?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "Groundnut, horse-gram, and soybean all belong to the Fabaceae (pea/legume) family, characterised by their pod-bearing fruit and nitrogen-fixing root nodules.",
+      "year": 2024
+    },
+    {
+      "question": "The organisms \"Cicada, Froghopper and Pond skater\" are:",
+      "options": [
+        "Birds",
+        "Fish",
+        "Insects",
+        "Reptiles"
+      ],
+      "correct": "C",
+      "explanation": "Cicadas, froghoppers, and pond skaters are all insects, belonging to different orders within the class Insecta.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following:\n1. Cashew\n2. Papaya\n3. Red sanders How many of the above trees are actually native to India?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "A",
+      "explanation": "Cashew, papaya, and red sanders are all considered non-native to India in the specific framing of this question; cashew and papaya originated in the Americas, brought to India by the Portuguese, and red sanders is regarded as native only to a specific part of South India rather than more broadly, though the officially accepted key treats none of the three as meeting the 'native to India' criterion being tested.",
+      "year": 2024
+    },
+    {
+      "question": "Which one of the following makes a tool with a stick to scrape insects from a hole in a tree or a log of wood?",
+      "options": [
+        "Fishing cat",
+        "Orangutan",
+        "Otter",
+        "Sloth bear"
+      ],
+      "correct": "B",
+      "explanation": "The orangutan, a great ape found in the forests of Borneo and Sumatra, is known for its tool-using behaviour, including fashioning sticks to extract insects from tree holes or logs.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to \"Gucchi\" sometimes mentioned in the news, consider the following statements:\n1. It is a fungus.\n2. It grows in some Himalayan forest areas.\n3. It is commercially cultivated in the Himalayan foothills of north-eastern India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Gucchi (morel mushroom) is indeed a fungus — Statement 1 is correct. It grows wild in certain Himalayan forest areas, particularly in Jammu and Kashmir and Himachal Pradesh — Statement 2 is correct. However, it is not commercially cultivated at scale in the northeastern Himalayan foothills, since it largely resists artificial cultivation and is mostly wild-harvested — Statement 3 is incorrect.",
+      "year": 2022
+    },
+    {
+      "question": "Which of the following is not a bird ?",
+      "options": [
+        "Golden Mahseer",
+        "Indian Nightjar",
+        "Spoonbill",
+        "White Ibis"
+      ],
+      "correct": "A",
+      "explanation": "The Golden Mahseer is a freshwater fish, not a bird, unlike the Indian Nightjar, Spoonbill, and White Ibis, which are all bird species.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to India's biodiversity, Ceylon frogmouth, Coppersmith barbet, Gray-chinned minivet and White-throated redstart are",
+      "options": [
+        "Birds",
+        "Primates",
+        "Reptiles",
+        "Amphibians"
+      ],
+      "correct": "A",
+      "explanation": "The Ceylon Frogmouth, Coppersmith Barbet, Gray-chinned Minivet, and White-throated Redstart are all bird species found in India's diverse avifauna.",
+      "year": 2020
+    },
+    {
+      "question": "Recently, there was a growing awareness in our country about the importance of Himalayan nettle (Girardinia diversifolia) because it is found to be a sustainable source of",
+      "options": [
+        "anti-malarial drug",
+        "biodiesel",
+        "pulp for paper industry",
+        "textile fibre"
+      ],
+      "correct": "D",
+      "explanation": "The Himalayan nettle (Girardinia diversifolia) has gained attention as a sustainable natural source of strong textile fibre, traditionally used for weaving in Himalayan communities and now explored for wider textile applications.",
+      "year": 2019
+    },
+    {
+      "question": "The term \"sixth mass extinction/sixth extinction\" is often mentioned in the news in the context of the discussion of",
+      "options": [
+        "Widespread monoculture practices in agriculture and large-scale commercial farming with indiscriminate use of chemicals in many parts of the world that may result in the loss of good native ecosystems.",
+        "Fears of a possible collision of a meteorite with the Earth in the near future in the manner it happened 65 million years ago that caused the mass extinction of many species including those of dinosaurs.",
+        "Large-scale cultivation of genetically modified crops in many parts of the world and promoting their cultivation in other parts of the world which may cause the disappearance of good native crop plants and the loss of food biodiversity.",
+        "Mankind's over-exploitation/misuse of natural resources, fragmentation/loss of natural habitats, destruction of ecosystems, pollution and global climate change."
+      ],
+      "correct": "D",
+      "explanation": "The term 'sixth mass extinction' refers to the ongoing, human-driven loss of biodiversity through over-exploitation of resources, habitat fragmentation and destruction, pollution, and climate change — a extinction event comparable in scale to the five great mass extinctions in Earth's history, but driven by human activity rather than natural causes.",
+      "year": 2018
+    },
+    {
+      "question": "Why is a plant called Prosopis juliflora often mentioned in news?",
+      "options": [
+        "Its extract is widely used in cosmetics.",
+        "It tends to reduce the biodiversity in the area in which it grows.",
+        "Its extract is used in the synthesis of pesticides.",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "Prosopis juliflora, an introduced invasive shrub/tree species, tends to outcompete native vegetation and reduce local biodiversity wherever it establishes itself, making it a subject of ecological concern.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following statements in respect of Trade Related Analysis of Fauna and Flora in Commerce (TRAFFIC) :\n1. TRAFFIC is a bureau under United Nations Environment Programme (UNEP).\n2. The mission of TRAFFIC is to ensure that trade in wild plants and animals is not a threat to the conservation of nature.\nWhich of the above statements is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "TRAFFIC is not a UNEP bureau; it operates as a joint programme of WWF and IUCN, making Statement 1 incorrect. Its mission is indeed to ensure that trade in wild plants and animals does not threaten the conservation of nature — Statement 2 is correct.",
+      "year": 2017
+    },
+    {
+      "question": "What is/are unique about 'Kharai camel', a breed found in India?\n1. It is capable of swimming up to three kilometres in seawater.\n2. It survives by grazing on mangroves.\n3. It lives in the wild and cannot be domesticated.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Kharai camel, found in Gujarat's coastal Kachchh region, is uniquely capable of swimming in seawater for several kilometres and grazes on mangrove vegetation for sustenance — both distinctive unique traits — but it is a domesticated breed, not a wild, non-domesticable animal.",
+      "year": 2016
+    },
+    {
+      "question": "Recently, our scientists have discovered a new and distinct species of banana plant which attains a height of about 11 metres and has orange-coloured fruit pulp. In which part of India has it been discovered?",
+      "options": [
+        "Andaman Islands",
+        "Anaimalai Forests",
+        "Maikal Hills",
+        "Tropical rain forests of northeast"
+      ],
+      "correct": "A",
+      "explanation": "A new, tall banana species with orange fruit pulp was discovered in the Andaman Islands, notable for both its unusual height and distinctive fruit colour.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to 'Red Sanders', sometimes seen in the news, consider the following statements:\n1. It is a tree species found in a part of South India.\n2. It is one of the most important trees in the tropical rain forest areas of South India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Red Sanders is indeed a tree species found in a specific part of South India (mainly Andhra Pradesh) — Statement 1 is correct. However, it is not a tree of tropical rain forests; it instead grows in dry deciduous scrub forest habitats — Statement 2 is incorrect.",
+      "year": 2016
+    },
+    {
+      "question": "Recently, for the first time in our country, which of the following States has declared a particular butterfly as ‘State Butterfly’?",
+      "options": [
+        "Arunachal Pradesh",
+        "Himachal Pradesh",
+        "Karnataka",
+        "Maharashtra"
+      ],
+      "correct": "D",
+      "explanation": "Maharashtra became the first Indian state to declare an official 'State Butterfly', selecting the Blue Mormon for this distinction.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to ‘dugong’, a mammal found in India, which of the following statements is/are correct?\n1. It is a herbivorous marine animal.\n2. It is found along the entire coast of India.\n3. It is given legal protection under Schedule I of the Wildlife (Protection) Act, 1972.",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "C",
+      "explanation": "The dugong is a herbivorous marine mammal, feeding mainly on seagrass — Statement 1 is correct. It is given legal protection under Schedule I of the Wildlife (Protection) Act, 1972, the highest level of protection — Statement 3 is correct. However, it is not found along the entire Indian coastline, being restricted to specific areas like the Gulf of Mannar and Gulf of Kachchh — Statement 2 is incorrect.",
+      "year": 2015
+    },
+    {
+      "question": "Which one of the following is the national aquatic animal of India?",
+      "options": [
+        "Saltwater crocodile",
+        "Olive ridley turtle",
+        "Gangetic dolphin",
+        "Gharial"
+      ],
+      "correct": "C",
+      "explanation": "The Gangetic River Dolphin has been designated as India's National Aquatic Animal, reflecting its significance and endangered status.",
+      "year": 2015
+    },
+    {
+      "question": "Other than poaching, what are the possible reasons for the decline in the population of Ganges River Dolphins?\n1. Construction of dams and barrages on rivers\n2. Increase in the population of crocodiles in rivers\n3. Getting trapped in fishing nets accidentally\n4. Use of synthetic fertilizers and other agricultural chemicals in crop-fields in the vicinity of rivers\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Dam and barrage construction fragments river habitats and disrupts dolphin movement — Statement 1 is correct. Accidental entanglement in fishing nets is a significant cause of dolphin mortality — Statement 3 is correct. Agricultural chemical runoff pollutes river water, harming dolphin health and prey availability — Statement 4 is correct. Crocodile populations, however, do not compete with or threaten Gangetic dolphins in a way that drives their decline — Statement 2 is incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following animals:\n1. Sea cow\n2. Sea horse\n3. Sea lion\nWhich of the above is/are mammal/mammals?",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The sea cow (dugong) and sea lion are both marine mammals; the sea horse, despite its name, is actually a fish, not a mammal.",
+      "year": 2013
+    },
+    {
+      "question": "In which of the following States is lion-tailed macaque found in its natural habitat?\n1. Tamil Nadu\n2. Kerala\n3. Karnataka\n4. Andhra Pradesh\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 3 only",
+        "2 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The lion-tailed macaque is found in the rainforest fragments of the Western Ghats spanning Tamil Nadu, Kerala, and Karnataka, but not in Andhra Pradesh.",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following fauna of India:\n1. Gharial\n2. Leatherback turtle\n3. Swamp deer\nWhich of the above is/are endangered?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "The gharial, leatherback turtle, and swamp deer (barasingha) are all classified as endangered species of India's fauna.",
+      "year": 2013
+    },
+    {
+      "question": "Government of India encourages the cultivation of ‘sea buckthorn’. What is the importance of this plant?\n1. It helps in controlling soil erosion and in preventing desertification.\n2. It is a rich source of biodiesel.\n3. It has nutritional value and is well-adapted to live in cold areas of high altitudes.\n4. Its timber is of great commercial value.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2, 3 and 4 only",
+        "1 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Sea buckthorn helps control soil erosion and combat desertification in cold, arid high-altitude areas — Statement 1 is correct. It is a valuable source of biodiesel — Statement 2 is correct. It also has significant nutritional value and is well-adapted to survive in cold, high-altitude climates — Statement 3 is correct. Its timber, however, is not of major commercial value — Statement 4 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "Which one of the following groups of animals belongs to the category of endangered species?",
+      "options": [
+        "Great Indian Bustard, Musk Deer, Red Panda and Asiatic Wild Ass",
+        "Kashmir Stag, Cheetal, Blue Bull and Great Indian Bustard",
+        "Snow Leopard, Swamp Deer, Rhesus Monkey and Saras (Crane)",
+        "Lion-tailed Macaque, Blue Bull, Hanuman Langur and Cheetal"
+      ],
+      "correct": "A",
+      "explanation": "The Great Indian Bustard, Musk Deer, Red Panda, and Asiatic Wild Ass are all classified as endangered species, unlike the other listed groupings which mix endangered species with more common ones like the Blue Bull, Cheetal, or Rhesus Monkey.",
+      "year": 2012
+    },
+    {
+      "question": "What is the difference between the antelopes Oryx and Chiru?",
+      "options": [
+        "Oryx is adapted to live in hot and arid areas whereas Chiru is adapted to live in steppes and semi-desert areas of cold high mountains",
+        "Oryx is poached for its antlers whereas Chiru is poached for its musk",
+        "Oryx exists in western India only whereas Chiru exists in north-east India only",
+        "None of the statements (a), (b) and (c) given above is correct"
+      ],
+      "correct": "A",
+      "explanation": "The Oryx is adapted to hot, arid desert environments, while the Chiru (Tibetan antelope) is adapted to cold, high-altitude steppe and semi-desert regions — reflecting fundamentally different habitat adaptations between the two antelope species.",
+      "year": 2012
+    },
+    {
+      "question": "Which of the following can be threats to the biodiversity of a geographical area?\n1. Global warming\n2. Fragmentation of habitat\n3. Invasion of alien species\n4. Promotion of vegetarianism\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1, 2 and 3 only",
+        "2 and 3 only",
+        "1 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Global warming, habitat fragmentation, and invasion of alien species are all recognised threats to regional biodiversity; promotion of vegetarianism is not considered a threat to biodiversity in this context.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following agricultural practices:\n1. Contour bunding\n2. Relay cropping\n3. Zero tillage In the context of global climate change,\nwhich of the above helps/help in carbon sequestration/storage in the soil?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3",
+        "None of them"
+      ],
+      "correct": "C",
+      "explanation": "Contour bunding, relay cropping, and zero tillage all contribute, in different ways, to increasing organic carbon retention in agricultural soils, helping with carbon sequestration in the context of climate change mitigation.",
+      "year": 2012
+    },
+    {
+      "question": "Vultures, which used to be very common in Indian countryside some years ago, are rarely seen nowadays. This is attributed to",
+      "options": [
+        "the destruction of their nesting sites by new invasive species",
+        "a drug used by cattle owners for treating their diseased cattle",
+        "scarcity of food available to them",
+        "a widespread, persistent and fatal disease among them"
+      ],
+      "correct": "B",
+      "explanation": "The dramatic decline in Indian vulture populations has been primarily attributed to Diclofenac, a veterinary drug used to treat cattle, which proves fatally toxic to vultures that feed on the carcasses of treated animals.",
+      "year": 2012
+    },
+    {
+      "question": "Three of the following criteria have contributed to the recognition of Western Ghats-Sri Lanka and Indo-Burma regions as hotspots of biodiversity:\n1. Species richness\n2. Vegetation density\n3. Endemism\n4. Ethno-botanical importance\n5. Threat perception\n6. Adaptation of flora and fauna to warm and humid conditions Which three of the above are correct criteria in this context?",
+      "options": [
+        "1, 2 and 6",
+        "2, 4 and 6",
+        "1, 3 and 5",
+        "3, 4 and 6"
+      ],
+      "correct": "C",
+      "explanation": "The Western Ghats-Sri Lanka and Indo-Burma regions were recognised as biodiversity hotspots based on their high species richness, high endemism (species found nowhere else), and significant threat perception (extent of habitat loss), rather than vegetation density, ethno-botanical importance, or climatic adaptation alone.",
+      "year": 2011
+    },
+    {
+      "question": "The Himalayan Range is very rich in species diversity. Which one among the following is the most appropriate reason for this phenomenon?",
+      "options": [
+        "It has a high rainfall that supports luxuriant vegetative growth",
+        "It is a confluence of different bio-geographical zones",
+        "Exotic and invasive species have not been introduced in this region",
+        "It has less human interference"
+      ],
+      "correct": "B",
+      "explanation": "The Himalayan range's rich species diversity is largely attributed to it being a meeting point (confluence) of different biogeographic zones — Palearctic, Indo-Malayan, and others — allowing a mix of species from multiple realms.",
+      "year": 2011
+    },
+    {
+      "question": "Which one of the following is not a site for in-situ method of conservation of flora?",
+      "options": [
+        "Biosphere Reserve",
+        "Botanical Garden",
+        "National Park",
+        "Wildlife Sanctuary"
+      ],
+      "correct": "B",
+      "explanation": "A Botanical Garden is an ex-situ conservation method, since plants are conserved outside their natural habitat, unlike Biosphere Reserves, National Parks, and Wildlife Sanctuaries, which are all in-situ conservation sites.",
+      "year": 2011
+    },
+    {
+      "question": "The \"Red Data Books\" published by the International Union for Conservation of Nature and Natural Resources (IUCN) contain lists of\n1. Endemic plant and animal species present in the biodiversity hotspots.\n2. Threatened plant and animal species.\n3. Protected sites for conservation of nature and natural resources in various countries.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 3",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The IUCN Red Data Books primarily list threatened plant and animal species, assessing their conservation status; they do not catalogue endemic species specific to biodiversity hotspots or list protected conservation sites, which are documented through other frameworks.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following statements:\n1. Biodiversity is normally greater in the lower latitudes as compared to the higher latitudes.\n2. Along the mountain gradients, biodiversity is normally greater in the lower altitudes as compared to the higher altitudes.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Biodiversity is indeed generally richer at lower (tropical) latitudes compared to higher (polar) latitudes — Statement 1 is correct. Similarly, along mountain gradients, biodiversity tends to be greater at lower altitudes than at higher, more extreme altitudes — Statement 2 is correct.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following statements :\n1. Biodiversity hotspots are located only in tropical regions.\n2. India has four biodiversity hotspots i.e., Eastern Himalayas, Western Himalayas, Western Ghats and Andaman and Nicobar Islands.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Biodiversity hotspots are not confined only to tropical regions; some hotspots exist in temperate and Mediterranean climate zones too — Statement 1 is incorrect. India is recognised as having only two biodiversity hotspots (originally), later expanded to include parts like Indo-Burma and Sundaland, but not the specific four listed together as claimed — Statement 2 is incorrect as precisely framed.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements:\n1. The Taxus tree naturally found in the Himalayas.\n2. The Taxus tree is listed in the Red Data Book.\n3. A drug called “taxol” is obtained from Taxus tree is effective against Parkinson’s disease.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The Taxus (yew) tree is indeed naturally found in Himalayan forests — Statement 1 is correct. It is listed in the Red Data Book due to overexploitation — Statement 2 is correct. However, the drug 'taxol' derived from Taxus is actually used in cancer treatment (as a chemotherapy agent), not for Parkinson's disease — Statement 3 is incorrect.",
+      "year": 2010
+    },
+    {
+      "question": "The marine animal called dugong which is vulnerable to extinction is a/an",
+      "options": [
+        "Amphibian",
+        "Bony fish",
+        "Shark",
+        "Mammal"
+      ],
+      "correct": "D",
+      "explanation": "The dugong, a vulnerable marine species, is classified as a mammal, feeding on seagrass in shallow coastal waters.",
+      "year": 2009
+    },
+    {
+      "question": "Consider the following regions:\n1. Eastern Himalayas\n2. Eastern Mediterranean region\n3. North-western Australia\nWhich of the above is/are Biodiversity Hotspot(s)?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The Eastern Himalayas is recognised as a global biodiversity hotspot — Statement 1 is correct. The Eastern Mediterranean region also qualifies as part of the broader Mediterranean Basin biodiversity hotspot — Statement 2 is correct. North-western Australia, however, is not classified among the world's recognised biodiversity hotspots — Statement 3 is incorrect.",
+      "year": 2009
+    },
+    {
+      "question": "The Panda belongs to the same family as that of",
+      "options": [
+        "Bear",
+        "Cat",
+        "Dog",
+        "Rabbit"
+      ],
+      "correct": "A",
+      "explanation": "The Giant Panda is classified within the bear family (Ursidae), based on genetic and anatomical studies, despite earlier debates linking it to raccoons.",
+      "year": 2009
+    },
+    {
+      "question": "Among the following, which one is not an ape?",
+      "options": [
+        "Gibbon",
+        "Gorilla",
+        "Langur",
+        "Orangutan"
+      ],
+      "correct": "C",
+      "explanation": "The Langur is a monkey, not an ape, distinguishing it from the Gibbon, Gorilla, and Orangutan, which are all true apes.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following animals of India:\n1. Crocodile\n2. Elephant Which of these is/are endangered species?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Both the crocodile (specifically certain species like the gharial) and the elephant are classified as endangered species in India, facing threats from habitat loss and poaching/human conflict.",
+      "year": 2003
+    },
+    {
+      "question": "Consider the following statements:\n1. The common blue green algae Spirogyra and Ulothrix are found in both fresh water ponds and oceans.\n2. The chameleon can look ahead with one eye, and at the same time look behind with another.\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Spirogyra and Ulothrix are freshwater green algae and are not typically found in oceans, making Statement 1 incorrect. The chameleon's eyes can indeed move independently, allowing it to look in two different directions simultaneously, including forward and backward — Statement 2 is correct.",
+      "year": 2003
+    },
+    {
+      "question": "The sea coast of which one of the following states has become famous as a nesting place for the giant Olive Ridley turtles from South America?",
+      "options": [
+        "Goa",
+        "Gujarat",
+        "Orissa",
+        "Tamil Nadu"
+      ],
+      "correct": "C",
+      "explanation": "The Odisha (Orissa) coast, particularly Gahirmatha, is world-famous as a mass nesting site for Olive Ridley sea turtles.",
+      "year": 2002
+    },
+    {
+      "question": "A tree species in Mauritius failed to reproduce because of the extinction of a fruit-eating bird. Which one of the following was that bird?",
+      "options": [
+        "Dove",
+        "Dodo",
+        "Condor",
+        "Skua"
+      ],
+      "correct": "B",
+      "explanation": "The Dodo, a flightless bird native to Mauritius, went extinct in the 17th century, and its disappearance is linked to the reproductive decline of certain native tree species (like the tambalacoque tree) that relied on the Dodo to process their seeds for germination.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following regions of India is now regarded as an 'ecological hot spot'?",
+      "options": [
+        "Western Himalayas",
+        "Eastern Himalayas",
+        "Western Ghats",
+        "Eastern Ghats"
+      ],
+      "correct": "C",
+      "explanation": "The Western Ghats is recognised as one of India's key ecological hotspots, owing to its exceptional levels of species richness and endemism.",
+      "year": 1996
+    },
+    {
+      "question": "Ecologists have so far found and certified a large number of species in the plant and animal kingdoms. In terms of members, the largest group identified so far is among the",
+      "options": [
+        "Fungi",
+        "Plants",
+        "Insects",
+        "Bacteria"
+      ],
+      "correct": "C",
+      "explanation": "Insects form the largest identified group of species among all plant and animal kingdoms, vastly outnumbering species in other groups like fungi, plants, or bacteria in terms of described species count.",
+      "year": 1996
+    }
+  ]
+}

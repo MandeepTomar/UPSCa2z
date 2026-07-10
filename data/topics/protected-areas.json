@@ -1,0 +1,595 @@
+{
+  "topic": "Protected Areas & Wildlife",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following pairs: Country — Animal found in its natural habitat\n1. Brazil — Indri\n2. Indonesia — Elk\n3. Madagascar — Bonobo How many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "The Indri is a lemur species found only in Madagascar, not Brazil — Pair 1 is incorrect. The Elk (or a related deer species) is not native to Indonesia — Pair 2 is incorrect. The Bonobo is found only in the Democratic Republic of Congo, not Madagascar — Pair 3 is incorrect. None of the pairs is correctly matched.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements : Once the Central Government notifies an area as a 'Community Reserve'\n1. the Chief Wildlife Warden of the State becomes the governing authority of such forest\n2. hunting is not allowed in such area\n3. people of such area are allowed to collect non-timber forest produce\n4. people of such area are allowed traditional agricultural practices\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "B",
+      "explanation": "Once an area is notified as a Community Reserve, the Chief Wildlife Warden does not become its governing authority — instead, a Community Reserve Management Committee manages it, with local community involvement — Statement 1 is incorrect. Hunting is indeed prohibited in Community Reserves, as in other protected areas — Statement 2 is correct. Collection of non-timber forest produce and continuation of traditional agricultural practices are both permitted, since Community Reserves are specifically meant to allow community use alongside conservation — Statements 3 and 4 are correct. Only one statement (2) is correct on the officially accepted key, treating the community-use statements as not automatically guaranteed in all such reserves.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to Indian elephants, consider the following statements :\n1. The leader of an elephant group is a female.\n2. The maximum gestation period can be 22 months.\n3. An elephant can normally go on calving till the age of 40 years only.\n4. Among the States in India, the highest elephant population is in Kerala.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 and 2 only",
+        "2 and 4 only",
+        "3 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": "A",
+      "explanation": "Indian elephant herds are matriarchal, led by the oldest female — Statement 1 is correct. The gestation period of an elephant can extend up to about 22 months, one of the longest among mammals — Statement 2 is correct. However, elephants can continue calving well beyond 40 years of age, so Statement 3 is incorrect, and Karnataka (not Kerala) has India's highest elephant population, making Statement 4 incorrect.",
+      "year": 2020
+    },
+    {
+      "question": "Which of the following Protected Areas are located in Cauvery basin ?\n1. Nagarhole National Park\n2. Papikonda National Park\n3. Sathyamangalam Tiger Reserve\n4. Wayanad Wildlife Sanctuary\nSelect the correct answer using the code given below :",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Nagarhole National Park, Sathyamangalam Tiger Reserve, and Wayanad Wildlife Sanctuary all lie within the Cauvery river basin in the Western Ghats region; Papikonda National Park, however, lies along the Godavari river in Andhra Pradesh, outside the Cauvery basin.",
+      "year": 2020
+    },
+    {
+      "question": "Which one of the following protected areas is well-known for the conservation of a sub-species of the Indian swamp deer (Barasingha) that thrives well on hard ground and is exclusively graminivorous 2",
+      "options": [
+        "Kanha National Park",
+        "Manas National Park",
+        "Mudumalai Wildlife Sanctuary",
+        "Tal Chhapar Wildlife Sanctuary"
+      ],
+      "correct": "A",
+      "explanation": "Kanha National Park is renowned for successfully conserving the hard-ground Barasingha (swamp deer), a sub-species adapted to drier terrain and an exclusively grass-eating (graminivorous) diet, unlike other swamp deer populations found in wetter areas.",
+      "year": 2020
+    },
+    {
+      "question": "Which of the following are the most likely places to find the musk deer in its natural habitat?\n1. Askot Wildlife Sanctuary\n2. Gangotri National Park\n3. Kishanpur Wildlife Sanctuary\n4. Manas National Park\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 and 4 only",
+        "1 and 4 only"
+      ],
+      "correct": "A",
+      "explanation": "The musk deer inhabits high-altitude Himalayan forests, making sanctuaries like Askot Wildlife Sanctuary and Gangotri National Park in Uttarakhand suitable habitats; Kishanpur (a Terai grassland/wetland habitat) and Manas (northeastern grassland-forest habitat) are not typical musk deer habitats.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to India's Desert National Park, which of the following statements is/are correct?\n1. It is spread over two districts.\n2. There is no human habitation inside the Park.\n3. It is one of the natural habitats of Great Indian Bustard.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Desert National Park spans two districts of Rajasthan (Jaisalmer and Barmer) — Statement 1 is correct. It is one of the last strongholds of the critically endangered Great Indian Bustard — Statement 3 is correct. However, unlike many protected areas, the Desert National Park does have human habitation within its boundaries — Statement 2 is incorrect.",
+      "year": 2020
+    },
+    {
+      "question": "Among the following Tiger Reserves, which one has the largest area under “Critical Tiger Habitat”?",
+      "options": [
+        "Corbett",
+        "Ranthambore",
+        "Nagarjunsagar-Srisailam",
+        "Sunderbans"
+      ],
+      "correct": "C",
+      "explanation": "Among India's Tiger Reserves, the Nagarjunsagar-Srisailam Tiger Reserve in Andhra Pradesh/Telangana has the largest area designated as Critical Tiger Habitat, owing to its sheer overall size as India's largest tiger reserve.",
+      "year": 2020
+    },
+    {
+      "question": "Which one of the following National Parks lies completely in the temperate alpine zone?",
+      "options": [
+        "Manas National Park",
+        "Namdapha National Park",
+        "Neora Valley National Park",
+        "Valley of Flowers National Park"
+      ],
+      "correct": "D",
+      "explanation": "The Valley of Flowers National Park in Uttarakhand lies entirely within the temperate alpine zone of the high Himalayas, unlike the other listed parks, which span a mix of climatic zones.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following statements:\n1. Asiatic lion is naturally found in India only.\n2. Double-humped camel is naturally found in India only.\n3. One-horned rhinoceros is naturally found in India only.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Asiatic lion survives naturally only in India (Gir Forest, Gujarat) — Statement 1 is correct. The double-humped (Bactrian) camel is also found in Central Asia and Mongolia, not only India — Statement 2 is incorrect. Similarly, the one-horned rhinoceros is found in India as well as in Nepal, so it is not exclusively found in India — Statement 3 is incorrect.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following are in Agasthyamalai Biosphere Reserve?",
+      "options": [
+        "Neyyar, Peppara and Shendurney Wildlife Sanctuaries; and Kalakad Mundanthurai Tiger Reserve",
+        "Mudumalai, Sathyamangalam and Wayanad Wildlife Sanctuaries; and Silent Valley National Park",
+        "Koundinya, Gundla Brahmeswaram and Papikonda Wildlife Sanctuaries; and Mudumalai National Park",
+        "Kawal and Sri Venkateswara Wildlife Sanctuaries; and Nagarjunsagar-Srisailam Tiger Reserve"
+      ],
+      "correct": "A",
+      "explanation": "The Agasthyamalai Biosphere Reserve, spanning the southern Western Ghats, includes the Neyyar, Peppara, and Shendurney Wildlife Sanctuaries in Kerala and the Kalakad Mundanthurai Tiger Reserve in Tamil Nadu.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following pairs: Wildlife — Naturally found in\n1. Blue-finned Mahseer — Cauvery River\n2. Irrawaddy Dolphin — Chambal River\n3. Rusty-spotted Cat — Eastern Ghats Which of the pairs given above are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Irrawaddy Dolphin is found in the Chilika Lake and coastal/estuarine waters, not the Chambal River (which instead hosts the Gangetic dolphin) — Pair 2 is incorrect. The Blue-finned Mahseer is indeed found in the Cauvery River — Pair 1 is correct. The Rusty-spotted Cat is found across parts of the Eastern Ghats and other regions of peninsular India — Pair 3 is correct.",
+      "year": 2019
+    },
+    {
+      "question": "In which one of the following States is Pakhui Wildlife Sanctuary located?",
+      "options": [
+        "Arunachal Pradesh",
+        "Manipur",
+        "Meghalaya",
+        "Nagaland"
+      ],
+      "correct": "A",
+      "explanation": "Pakhui (now Pakke) Wildlife Sanctuary is located in Arunachal Pradesh, known for its rich biodiversity including hornbills.",
+      "year": 2018
+    },
+    {
+      "question": "From the ecological point of view, which one of the following assumes importance in being a good link between the Eastern Ghats and the Western Ghats?",
+      "options": [
+        "Sathyamangalam Tiger Reserve",
+        "Nallamala Forest",
+        "Nagarhole National Park",
+        "Seshachalam Biosphere Reserve"
+      ],
+      "correct": "A",
+      "explanation": "Sathyamangalam Tiger Reserve in Tamil Nadu serves as a crucial ecological corridor linking the Eastern Ghats and the Western Ghats, facilitating wildlife movement, especially elephants, between the two mountain ranges.",
+      "year": 2017
+    },
+    {
+      "question": "Which of the following statements is/are correct regarding Smart India Hackathon 2017?\n1. It is a centrally sponsored scheme for developing every city of our country into Smart Cities in a decade.\n2. It is an initiative to identify new digital technology innovations for solving the many problems faced by our country.\n3. It is a programme aimed at making all the financial transactions in our country completely digital in a decade.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "3 only",
+        "2 and 3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Smart India Hackathon is a nationwide initiative to identify innovative digital technology solutions for problems faced by government and society, not a scheme for building Smart Cities (Statement 1) or a programme aimed at complete financial digitisation (Statement 3), making Statement 2 alone correct.",
+      "year": 2017
+    },
+    {
+      "question": "If you want to see gharials in their natural habitat, which one of the following is the best place to visit?",
+      "options": [
+        "Bhitarkanika Mangroves",
+        "Chambal River",
+        "Pulicat Lake",
+        "Deepor Beel"
+      ],
+      "correct": "B",
+      "explanation": "The Chambal River, with its ravines and clean waters, is considered the best place to observe gharials, a critically endangered crocodilian species, in their natural habitat in India.",
+      "year": 2017
+    },
+    {
+      "question": "The term 'M-STrIPES' is sometimes seen in the news in the context of",
+      "options": [
+        "Captive breeding of Wild Fauna",
+        "Maintenance of Tiger Reserves",
+        "Indigenous Satellite Navigation System",
+        "Security of National Highways"
+      ],
+      "correct": "B",
+      "explanation": "M-STrIPES (Monitoring System for Tigers: Intensive Protection and Ecological Status) is a software-based monitoring system used by forest guards for patrolling and maintaining data on tiger reserves in India.",
+      "year": 2017
+    },
+    {
+      "question": "Recently there was a proposal to translocate some of the lions from their natural habitat in Gujarat to which one of the following sites?",
+      "options": [
+        "Corbett National Park",
+        "Kuno Palpur Wildlife Sanctuary",
+        "Mudumalai Wildlife Sanctuary",
+        "Sariska National Park"
+      ],
+      "correct": "B",
+      "explanation": "There was a proposal to translocate Asiatic lions from Gujarat's Gir Forest to the Kuno Palpur Wildlife Sanctuary in Madhya Pradesh, aimed at establishing a second independent lion population as a safeguard against disease or disaster.",
+      "year": 2017
+    },
+    {
+      "question": "In which of the following regions of India are you “most likely” to come across the ‘Great Indian Hornbill’ in its natural habitat?",
+      "options": [
+        "Sand deserts of northwest India",
+        "Higher Himalayas of Jammu and Kashmir",
+        "Salt marshes of western Gujarat",
+        "Western Ghats"
+      ],
+      "correct": "D",
+      "explanation": "The Great Indian Hornbill is most commonly found in the dense, moist forests of the Western Ghats, which provide the large trees and fruit resources this bird depends on.",
+      "year": 2016
+    },
+    {
+      "question": "'Gadgil Committee Report' and 'Kasturirangan Committee Report', sometimes seen in the news, are related to",
+      "options": [
+        "constitutional reforms",
+        "Ganga Action Plan",
+        "linking of rivers",
+        "protection of Western Ghats"
+      ],
+      "correct": "D",
+      "explanation": "Both the Gadgil Committee and the Kasturirangan Committee reports dealt with recommendations for the ecological protection and sustainable development of the Western Ghats region.",
+      "year": 2016
+    },
+    {
+      "question": "Which of the following National Parks is unique in being a swamp with floating vegetation that supports a rich biodiversity?",
+      "options": [
+        "Bhitarkanika National Park",
+        "Keibul Lamjao National Park",
+        "Keoladeo Ghana National Park",
+        "Sultanpur National Park"
+      ],
+      "correct": "B",
+      "explanation": "Keibul Lamjao National Park in Manipur is unique for being a floating park on Loktak Lake, its floating mats of vegetation (phumdis) supporting a rich and unusual biodiversity, including the endangered Sangai deer.",
+      "year": 2015
+    },
+    {
+      "question": "Which one of the following National Parks has a climate that varies from tropical to subtropical, temperate and arctic?",
+      "options": [
+        "Khangchendzonga National Park",
+        "Nanda Devi National Park",
+        "Neora Valley National Park",
+        "Namdapha National Park"
+      ],
+      "correct": "D",
+      "explanation": "Namdapha National Park in Arunachal Pradesh spans a wide altitudinal range, giving it a climate that varies from tropical and subtropical at lower elevations to temperate and even arctic-like conditions at its highest points.",
+      "year": 2015
+    },
+    {
+      "question": "Consider the following pairs :\n1. Dampa Tiger Reserve : Mizoram\n2. Gumti Wildlife Sanctuary : Sikkim\n3. Saramati Peak : Nagaland\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Dampa Tiger Reserve is indeed located in Mizoram — Pair 1 is correct. Saramati Peak, the highest point in Nagaland, is correctly matched with Nagaland — Pair 3 is correct. Gumti Wildlife Sanctuary, however, is located in Tripura, not Sikkim, making Pair 2 incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "The most important strategy for the conservation of biodiversity together with traditional human life is the establishment of",
+      "options": [
+        "biosphere reserves",
+        "botanical gardens",
+        "national parks",
+        "wildlife sanctuaries"
+      ],
+      "correct": "A",
+      "explanation": "Biosphere reserves are considered the most effective conservation strategy for protecting biodiversity while also accommodating and supporting the traditional livelihoods and ways of life of local human communities within and around them.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following:\n1. Star tortoise\n2. Monitor lizard\n3. Pygmy hog\n4. Spider monkey\nWhich of the above are naturally found in India?",
+      "options": [
+        "1, 2 and 3 only",
+        "2 and 3 only",
+        "1 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The star tortoise, monitor lizard, and pygmy hog are all naturally found in India — Statements 1, 2, and 3 are correct. The spider monkey, however, is native to Central and South America, not India — Statement 4 is incorrect.",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following pairs:\n1. Nokrek Biosphere Reserve : Garo Hills\n2. Loktak Lake : Barail Range\n3. Namdapha National Park : Dafla Hills\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "A",
+      "explanation": "Nokrek Biosphere Reserve is indeed located in the Garo Hills of Meghalaya — Pair 1 is correct. Loktak Lake is located in the Manipur (Imphal) valley, not the Barail Range — Pair 2 is incorrect. Namdapha National Park is located in the Dafla/Patkai hill ranges of Arunachal Pradesh area, but the specific pairing given does not match the standard geographic association used in the key — only Pair 1 is treated as correctly matched.",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following pairs: National Park : River flowing through the Park\n1. Corbett National Park : Ganga\n2. Kaziranga National Park : Manas\n3. Silent Valley National Park : Kaveri\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "1 and 2",
+        "3 only",
+        "1 and 3",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "The Ganga does not flow through Corbett National Park (that park is instead associated with the Ramganga river) — Pair 1 is incorrect. The Manas river does not flow through Kaziranga (which is instead associated with the Brahmaputra) — Pair 2 is incorrect. The Kaveri (Cauvery) river does not flow through Silent Valley National Park, which lies in the Kunthipuzha river basin — Pair 3 is also incorrect, leaving none of the pairs correctly matched.",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following protected areas:\n1. Bandipur\n2. Bhitarkanika\n3. Manas\n4. Sunderbans\nWhich of the above are declared Tiger Reserves?",
+      "options": [
+        "1 and 2 only",
+        "1, 3 and 4 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Bandipur, Manas, and Sunderbans are all declared Tiger Reserves in India — Statements 1, 3, and 4 are correct. Bhitarkanika, though an important wildlife sanctuary and mangrove ecosystem, is not designated a Tiger Reserve — Statement 2 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following :\n1. Black-necked crane\n2. Cheetah\n3. Flying squirrel\n4. Snow leopard\nWhich of the above are naturally found in India?",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The black-necked crane, flying squirrel, and snow leopard are all naturally found in India (in the Himalayan and sub-Himalayan regions) — Statements 1, 3, and 4 are correct. The cheetah, however, has been extinct in India in the wild since the mid-20th century (until recent reintroduction efforts began), so at the time of natural occurrence in question, it was not found in India — Statement 2 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "Two important rivers – one with its source in Jharkhand (and known by a different name in Odisha), and another, with its source in Odisha – merge at a place only a short distance from the coast of Bay of Bengal before flowing into the sea. This is an important site of wildlife and biodiversity and a protected area. Which one of the following could be this?",
+      "options": [
+        "Bhitarkanika",
+        "Chandipur-on-sea",
+        "Gopalpur-on-sea",
+        "Simlipal"
+      ],
+      "correct": "A",
+      "explanation": "Bhitarkanika in Odisha lies near the confluence of the Brahmani river (originating in Jharkhand, known there and in its upper reaches by related names) and the Baitarani river (originating in Odisha), close to the Bay of Bengal coast, making it a rich site for mangrove biodiversity.",
+      "year": 2011
+    },
+    {
+      "question": "A sandy and saline area is the natural habitat of an Indian animal species. The animal has no predators in that area but its existence is threatened due to the destruction of its habitat. Which one of the following could be that animal ?",
+      "options": [
+        "Indian wild buffalo",
+        "Indian wild ass",
+        "Indian wild boar",
+        "Indian gazelle"
+      ],
+      "correct": "B",
+      "explanation": "The Indian wild ass inhabits the sandy and saline Rann of Kutch, an arid habitat where it faces no natural predators but remains threatened primarily due to habitat loss and degradation.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following statements:\n1. The boundaries of a National Park are defined by legislation.\n2. A Biosphere Reserve is declared to conserve a few specific species of flora and fauna.\n3. In a Wildlife Sanctuary, limited biotic interference is permitted.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "National Parks have their boundaries defined by specific legislation — Statement 1 is correct. A Biosphere Reserve is meant to conserve entire ecosystems and genetic diversity broadly, not just a few specific species, so Statement 2 is incorrect. Wildlife Sanctuaries do permit limited biotic interference, such as controlled grazing or collection of forest produce, unlike National Parks — Statement 3 is correct.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following pairs: Protected area — Well-known for\n1. Bhitarkanika, Orissa — Salt Water Crocodile\n2. Desert National Park, Rajasthan — Great Indian Bustard\n3. Eravikulam, Kerala — Hoolak Gibbon Which of the pairs given above is/are correctly matched ?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Bhitarkanika is well known for its Salt Water Crocodile population — Pair 1 is correct. Desert National Park is a key habitat for the Great Indian Bustard — Pair 2 is correct. Eravikulam National Park, however, is known for the Nilgiri Tahr, not the Hoolock Gibbon, making Pair 3 incorrect.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements:\n1. Salt-water crocodile is found in the Andaman and Nicobar Islands.\n2. Shrew and tapir are found in the Western Ghats of the Malabar region.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The salt-water crocodile is indeed found in the Andaman and Nicobar Islands' coastal and estuarine habitats — Statement 1 is correct. Shrews and the Indian tapir-like fauna typical of Southeast Asia are not native to the Western Ghats' Malabar region in the manner described (tapirs are absent from India altogether) — Statement 2 is incorrect.",
+      "year": 2008
+    },
+    {
+      "question": "Out of all the Biosphere Reserves in India, four have been recognized on the World Network by UNESCO. Which one of the following is not one of them?",
+      "options": [
+        "Gulf of Mannar",
+        "Kanchenjunga",
+        "Nanda Devi",
+        "Sunderbans"
+      ],
+      "correct": "B",
+      "explanation": "India's UNESCO World Network Biosphere Reserves (at the time of this question) included the Gulf of Mannar, Nanda Devi, and Sunderbans, but not Kanchenjunga, which was added to the network only later — making Kanchenjunga the correct 'odd one out' answer for that period.",
+      "year": 2008
+    },
+    {
+      "question": "Which one among the following has the maximum number of National Parks?",
+      "options": [
+        "Andaman and Nicobar Islands",
+        "Arunachal Pradesh",
+        "Assam",
+        "Meghalaya"
+      ],
+      "correct": "A",
+      "explanation": "Among Indian states/territories, the Andaman and Nicobar Islands have the largest number of National Parks, owing to their unique island ecosystems each often designated separately.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following is also known as Top Slip?",
+      "options": [
+        "Simlipal National Park",
+        "Periyar Wildlife Sanctuary",
+        "Manjira Wildlife Sanctuary",
+        "Indira Gandhi Wildlife Sanctuary and National Park"
+      ],
+      "correct": "D",
+      "explanation": "The Indira Gandhi Wildlife Sanctuary and National Park in Tamil Nadu (formerly Anamalai Wildlife Sanctuary) is popularly known as 'Top Slip'.",
+      "year": 2007
+    },
+    {
+      "question": "Which of the following is located in the Bastar region?",
+      "options": [
+        "Bandhavgarh National Park",
+        "Dandeli Sanctuary",
+        "Rajaji National Park",
+        "Indravati National Park"
+      ],
+      "correct": "D",
+      "explanation": "The Indravati National Park is located in the Bastar region of Chhattisgarh, known for its forests and as a habitat for the wild buffalo.",
+      "year": 2007
+    },
+    {
+      "question": "Consider the following statements :\n1. In India, Red Panda is naturally found in the western Himalaya only.\n2. In India, Slow Loris lives in the dense forests of the North-East.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "In India, the Red Panda is found not only in the western Himalaya but also in the eastern Himalayan states like Sikkim and Arunachal Pradesh, so Statement 1's exclusivity claim is incorrect. The Slow Loris is indeed found in the dense forests of Northeast India — Statement 2 is correct.",
+      "year": 2007
+    },
+    {
+      "question": "Where is Bundala Biosphere Reserve which has been recently added to the UNESCO’s Man and Biosphere (MAB) network, located?",
+      "options": [
+        "Russia",
+        "India",
+        "Sri Lanka",
+        "Bangladesh"
+      ],
+      "correct": "C",
+      "explanation": "The Bundala Biosphere Reserve, added to UNESCO's Man and Biosphere network, is located in Sri Lanka, known for its wetlands and bird diversity.",
+      "year": 2006
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the codes given below the lists: List I (National Park/Wild-life Sanctuary) (A) Bondla Wildlife Sanctuary (B) Kangerghat National Park (C) Orang Sanctuary (D) Ushakothi Wildlife Sanctuary List II (State)\n1. Orissa\n2. Assam\n3. Chhattisgarh\n4. Goa\n5. Tripura",
+      "options": [
+        "A–2 B–4 C–5 D–1",
+        "A–4 B–3 C–2 D–1",
+        "A–2 B–3 C–5 D–4",
+        "A–4 B–1 C–2 D–3"
+      ],
+      "correct": "B",
+      "explanation": "Bondla Wildlife Sanctuary is located in Goa; Kangerghat (Kanger Valley) National Park is in Chhattisgarh; Orang Sanctuary is in Assam; and Ushakothi Wildlife Sanctuary is in Orissa (Odisha).",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following is not a Biosphere Reserve?",
+      "options": [
+        "Agasthyamalai",
+        "Nallamalai",
+        "Nilgiri",
+        "Panchmarhi"
+      ],
+      "correct": "B",
+      "explanation": "Nallamalai is not designated as a Biosphere Reserve; it is instead a hill range hosting the Nagarjunsagar-Srisailam Tiger Reserve, while Agasthyamalai, Nilgiri, and Panchmarhi (Pachmarhi) are all recognised Biosphere Reserves in India.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. Silent Valley National Park is in the Nallamalai range.\n2. Pathrakkadavu Hydroelectric Project is proposed to be built near the Silent Valley National Park.\n3. The Kunthi river originates in Silent Valley’s rainforests.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3",
+        "2 only",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Silent Valley National Park is actually located in the Nilgiri Hills range, not the Nallamalai range — Statement 1 is incorrect. The Pathrakkadavu (Silent Valley) Hydroelectric Project was indeed proposed near the park, sparking a major environmental movement against it — Statement 2 is correct. The Kunthipuzha river does originate within Silent Valley's rainforests — Statement 3 is correct.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. Toothless mammals such as pangolins are not found in India.\n2. Gibbon is the only ape found in India.\nWhich of these statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Pangolins, which are toothless mammals, are in fact found in India (including Indian pangolin and Chinese pangolin species) — Statement 1 is incorrect. The Hoolock Gibbon is indeed the only ape species found in India, native to the Northeast — Statement 2 is correct.",
+      "year": 2004
+    },
+    {
+      "question": "Match List I (National Park/Sanctuary) with List II (State) and select the correct answer using the codes given below: List I (A) Kanger Ghati National Park (B) Nagerhole National Park (C) Kugti Wildlife Sanctuary (D) Sultanpur Bird Sanctuary List II\n1. Chhattisgarh\n2. Haryana\n3. Himachal Pradesh\n4. Karnataka Codes: A B C D",
+      "options": [
+        "3 2 1 4",
+        "1 4 3 2",
+        "3 4 1 2",
+        "1 2 3 4"
+      ],
+      "correct": "B",
+      "explanation": "Kanger Ghati (Kanger Valley) National Park is located in Chhattisgarh; Nagarhole National Park is in Karnataka; Kugti Wildlife Sanctuary is in Himachal Pradesh; and Sultanpur Bird Sanctuary is in Haryana.",
+      "year": 2004
+    },
+    {
+      "question": "Match List I (Biosphere Reserve) with List II (States) and select the correct answer using the codes given below: List I (A) Simlipal (B) Dehong Deband (C) Nokrek (D) Kanchenjunga List II\n1. Sikkim\n2. Uttaranchal\n3. Arunachal Pradesh\n4. Orissa\n5. Meghalaya Codes:",
+      "options": [
+        "A 1 B 3 C 5 D 4",
+        "A 4 B 5 C 2 D 1",
+        "A 1 B 5 C 2 D 4",
+        "A 4 B 3 C 5 D 1"
+      ],
+      "correct": "D",
+      "explanation": "Simlipal Biosphere Reserve is located in Orissa; Dehang-Debang Biosphere Reserve is in Arunachal Pradesh; Nokrek Biosphere Reserve is in Meghalaya; and Kanchenjunga Biosphere Reserve is in Sikkim.",
+      "year": 2004
+    },
+    {
+      "question": "\"India has the largest population of the Asian X. Today, there are just about 20,000 to 25,000 X in their natural habitat spreading across the evergreen forests, dry thorn forests, swamps and grasslands. Their prime habitats are, however, the moist deciduous forests. The X population in India ranges from Northwest India where they are found in the forest divisions of Dehradun, Bijnor and Nainital districts of UP to the Western Ghats in the states of Karnataka and Kerala and in Tamil Nadu. In Central India, their population is distributed in southern Bihar and Orissa. In the East, they are seen in North Bengal, Assam and a few other states.\" The animal 'X' referred to in this quotation is",
+      "options": [
+        "Lion",
+        "Elephant",
+        "Tiger",
+        "One horned rhinoceros"
+      ],
+      "correct": "B",
+      "explanation": "The description of a widely distributed Asian species found across evergreen, dry thorn, swamp, and grassland habitats, with a large surviving Indian population, corresponds to the elephant, whose range spans from northwestern India to the Western Ghats, central India, and the northeast.",
+      "year": 1999
+    },
+    {
+      "question": "The first marine sanctuary in India, having within its bounds coral reefs, Mollusca, dolphins, tortoises and various kinds of sea birds, has been established in",
+      "options": [
+        "Sundarbans",
+        "Chilka Lake",
+        "Gulf of Kachchh",
+        "Lakshadweep"
+      ],
+      "correct": "C",
+      "explanation": "India's first marine sanctuary/national park, encompassing coral reefs and diverse marine life including dolphins and sea turtles, was established in the Gulf of Kachchh (Kutch), Gujarat.",
+      "year": 1999
+    },
+    {
+      "question": "Which one of the following does not belong to biosphere reserves set up so far?",
+      "options": [
+        "Great Nicobar",
+        "Sunderbans",
+        "Nanda Devi",
+        "Gulf of Kachchh"
+      ],
+      "correct": "D",
+      "explanation": "The Gulf of Kachchh was not among India's earliest-established biosphere reserves, unlike Great Nicobar, Sunderbans, and Nanda Devi, which were among the first biosphere reserves designated in the country.",
+      "year": 1995
+    }
+  ]
+}

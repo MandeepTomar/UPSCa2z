@@ -1,0 +1,247 @@
+{
+  "topic": "Water & Wetland Conservation",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements : Statement-I : According to the United Nations' 'World Water Development Report, 2022', India extracts more than a quarter of the world's groundwater withdrawal each year. Statement-II : India needs to extract more than a quarter of the world's groundwater each year to satisfy the drinking water and sanitation needs of almost 18% of world's population living in its territory. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "C",
+      "explanation": "India does extract over a quarter of the world's groundwater annually, making Statement-I correct. However, this extraction level far exceeds what would be needed merely to meet drinking water and sanitation needs — much of it is driven by irrigation-intensive agriculture rather than basic drinking/sanitation requirements — so Statement-II's justification is incorrect.",
+      "year": 2023
+    },
+    {
+      "question": "\"If rainforests and tropical forests are the lungs of the Earth, then surely wetlands function as its kidneys.\" Which one of the following functions of wetlands best reflects the above statement?",
+      "options": [
+        "The water cycle in wetlands involves surface runoff, subsoil percolation and evaporation.",
+        "Algae form the nutrient base upon which fish, crustaceans, molluscs, birds, reptiles and mammals thrive.",
+        "Wetlands play a vital role in maintaining sedimentation balance and soil stabilization.",
+        "Aquatic plants absorb heavy metals and excess nutrients."
+      ],
+      "correct": "D",
+      "explanation": "Just as kidneys filter and remove waste from blood, aquatic plants in wetlands absorb and filter out heavy metals and excess nutrients from water, purifying it — the function that best matches the 'kidneys of the Earth' analogy.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following statements:\n1. 36% of India’s districts are classified as “overexploited” or “critical” by the Central Ground Water Authority (CGWA).\n2. CGWA was formed under the Environment (Protection) Act.\n3. India has the largest area under groundwater irrigation in the world.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "2 only",
+        "1 and 3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Central Ground Water Authority was indeed constituted under the Environment (Protection) Act, 1986 — Statement 2 is correct. India does have the largest area under groundwater irrigation in the world — Statement 3 is correct. However, the exact figure of '36% of districts' as overexploited/critical does not precisely match CGWA's documented classification data — Statement 1 is incorrect.",
+      "year": 2020
+    },
+    {
+      "question": "Which of the following is/are the possible consequence/s of heavy sand mining in riverbeds?\n1. Decreased salinity in the river\n2. Pollution of groundwater\n3. Lowering of the water-table\nSelect the correct answer using the code given below :",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Heavy sand mining in riverbeds can pollute groundwater by altering the riverbed's natural filtration and increasing turbidity — Statement 2 is correct. It also lowers the water table by disturbing the riverbed structure and increasing water seepage/loss — Statement 3 is correct. However, sand mining does not typically decrease river salinity; if anything it can disturb the natural salinity balance in unpredictable ways — Statement 1 is incorrect.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following are the key features of ‘National Ganga River Basin Authority (NGRBA)’?\n1. River basin is the unit of planning and management.\n2. It spearheads the river conservation efforts at the national level.\n3. One of the Chief Ministers of the States through which the Ganga flows becomes the Chairman of NGRBA on rotation basis.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The NGRBA treats the river basin as the fundamental unit of planning and management — Statement 1 is correct. It spearheads Ganga river conservation efforts at the national level — Statement 2 is correct. However, the NGRBA is chaired by the Prime Minister of India, not by a rotating Chief Minister of a Ganga-basin state — Statement 3 is incorrect.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to a conservation organization called ‘Wetlands International’, which of the following statements is/are correct?\n1. It is an intergovernmental organization formed by the countries which are signatories to Ramsar Convention.\n2. It works at the field level to develop and mobilize knowledge, and use the practical experience to advocate for better policies.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Wetlands International is not an intergovernmental organisation of Ramsar signatory states; it is an independent global NGO — Statement 1 is incorrect. It does work at the field level to develop and mobilise knowledge and advocate for improved wetland policies — Statement 2 is correct.",
+      "year": 2014
+    },
+    {
+      "question": "What are the benefits of implementing the ‘Integrated Watershed Development Programme’?\n1. Prevention of soil runoff\n2. Linking the country’s perennial rivers with seasonal rivers\n3. Rainwater harvesting and recharge of groundwater table\n4. Regeneration of natural vegetation\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The Integrated Watershed Development Programme helps prevent soil runoff — Statement 1 is correct. It facilitates rainwater harvesting and groundwater recharge — Statement 3 is correct. It also promotes regeneration of natural vegetation cover — Statement 4 is correct. However, it has nothing to do with linking perennial and seasonal rivers, which is the objective of a separate river-interlinking programme — Statement 2 is incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "Which of the following can be found as pollutants in the drinking water in some parts of India?\n1. Arsenic\n2. Sorbitol\n3. Fluoride\n4. Formaldehyde\n5. Uranium\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 and 3 only",
+        "2, 4 and 5 only",
+        "1, 3 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "C",
+      "explanation": "Arsenic, fluoride, and uranium are all known to occur as natural or anthropogenic contaminants in groundwater in various parts of India; sorbitol and formaldehyde are not typical drinking water pollutants found in this context.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to the wetlands of India, consider the following statements :\n1. The country’s total geographical area under the category of wetlands is recorded more in Gujarat as compared to other States.\n2. In India, the total geographical area of coastal wetlands is larger than that of inland wetlands.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Gujarat does have the largest recorded total wetland area among Indian states, owing to its extensive coastal and saline wetland systems like the Rann of Kutch — Statement 1 is correct. However, in India, inland wetlands actually cover a larger total area than coastal wetlands — Statement 2 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "There is a concern over the increase in harmful algal blooms in the seawaters of India. What could be the causative factors for this phenomenon?\n1. Discharge of nutrients from the estuaries.\n2. Run-off from the land during the monsoon.\n3. Upwelling in the seas. Select the correct answer from the codes given below:",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Harmful algal blooms in Indian coastal waters can be triggered by nutrient discharge from estuaries, agricultural and land runoff during monsoons, and upwelling of nutrient-rich deep water — all three factors contribute to conditions favouring excessive algal growth.",
+      "year": 2011
+    },
+    {
+      "question": "The 2004 Tsunami made people realize that mangroves can serve as a reliable safety hedge against coastal calamities. How do mangroves function as a safety hedge?",
+      "options": [
+        "The mangrove swamps separate the human settlements from the sea by a wide zone in which people neither live nor venture out",
+        "The mangroves provide both food and medicines which people are in need of after any natural disaster",
+        "The mangrove trees are tall with dense canopies and serve as an excellent shelter during a cyclone or tsunami",
+        "The mangrove trees do not get uprooted by storms and tides because of their extensive roots"
+      ],
+      "correct": "D",
+      "explanation": "Mangrove trees have extensive, interlocking root systems that anchor them firmly in soft coastal soil, allowing them to withstand storm surges and tsunami waves without being uprooted, thereby dissipating wave energy and protecting inland areas.",
+      "year": 2011
+    },
+    {
+      "question": "In India, which one of the following States has the largest inland saline wetland?",
+      "options": [
+        "Gujarat",
+        "Haryana",
+        "Madhya Pradesh",
+        "Rajasthan"
+      ],
+      "correct": "D",
+      "explanation": "The Sambhar Salt Lake in Rajasthan is India's largest inland saline wetland.",
+      "year": 2009
+    },
+    {
+      "question": "Virtual water trade is being looked at by experts as a solution to the world’s water crisis. What does virtual water (VW) imply?",
+      "options": [
+        "Volume of heavy water required to replace ordinary water.",
+        "Volume of water required to produce a commodity or service.",
+        "Volume of water saved by using rainwater harvesting.",
+        "Volume of water utilized by an effective flood control."
+      ],
+      "correct": "B",
+      "explanation": "Virtual water refers to the volume of water actually consumed or used in producing a good, crop, or service, a concept used to assess the hidden water footprint embedded in traded goods.",
+      "year": 2005
+    },
+    {
+      "question": "Tarun Bharat Sangh, an organization based in a village near Alwar (Rajasthan) has become famous because of",
+      "options": [
+        "Cultivation of genetically modified cotton",
+        "Rehabilitation of women victims of AIDS",
+        "Livelihood projects for destitute rural women",
+        "Rain-water harvesting"
+      ],
+      "correct": "D",
+      "explanation": "Tarun Bharat Sangh, led by Rajendra Singh, became renowned for its rainwater harvesting and traditional water conservation structure (johad) revival work in the Alwar region of Rajasthan.",
+      "year": 2004
+    },
+    {
+      "question": "Estuaries possess distinct blooms of excessive growth of a pigmented dinoflagellate. These blooms are called",
+      "options": [
+        "red tides",
+        "sea tides",
+        "black tides",
+        "sea flowers"
+      ],
+      "correct": "A",
+      "explanation": "Dense, pigmented dinoflagellate blooms in estuarine and coastal waters, which can discolour the water reddish-brown, are commonly known as 'red tides.'",
+      "year": 1998
+    },
+    {
+      "question": "Some people in Manipur live in houses built on floating islands of weeds and decaying vegetation held together by suspended silt. These islands are called",
+      "options": [
+        "Tipis",
+        "Barkhans",
+        "Phumdis",
+        "Izba"
+      ],
+      "correct": "C",
+      "explanation": "The floating islands made of weeds, vegetation, and silt found in Manipur's Loktak Lake, on which some communities build houses, are known as 'phumdis.'",
+      "year": 1998
+    },
+    {
+      "question": "The water pollution in river is measured by the dissolved amount of",
+      "options": [
+        "Chlorine",
+        "Ozone",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correct": "D",
+      "explanation": "Water pollution in rivers is commonly measured through the level of dissolved oxygen present, since lower dissolved oxygen indicates higher organic pollution load.",
+      "year": 1998
+    },
+    {
+      "question": "Assertion (A): Mangroves are very specialised forest ecosystems of tropical and subtropical regions bordering certain sea coasts.\nReason (R): They stabilise the shoreline and act as bulwark against encroachments by sea.\nIn the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Mangroves are indeed specialised forest ecosystems found along tropical and subtropical coastlines — the Assertion is true. They do stabilise shorelines and act as a natural barrier against sea encroachment and erosion — the Reason is true and correctly explains the Assertion.",
+      "year": 1996
+    },
+    {
+      "question": "Physico-chemical characteristics of water in water sources undergo changes due to",
+      "options": [
+        "aquatic macrophytes",
+        "aquatic fungi",
+        "effluents",
+        "evapotranspiration"
+      ],
+      "correct": "C",
+      "explanation": "Effluents discharged from industrial, agricultural, or domestic sources are a primary cause of changes in the physico-chemical characteristics (pH, dissolved oxygen, temperature, etc.) of water bodies.",
+      "year": 1996
+    },
+    {
+      "question": "“Monoculture of commercially viable trees is destroying the unique natural profile of ……… Thoughtless exploitation of timber, deforesting vast tracts for palm cultivation, destruction of mangroves, illegal logging by tribals and poaching only compound the problem. Fresh water pockets are fast drying up due to deforestation and destruction of mangroves.” The place referred to in this quotation is",
+      "options": [
+        "Sundarbans",
+        "Kerala Coast",
+        "Orissa Coast",
+        "Andaman and Nicobar Islands"
+      ],
+      "correct": "A",
+      "explanation": "The description of monoculture plantations, mangrove destruction, and freshwater depletion due to deforestation corresponds to the Sundarbans region, known for its unique mangrove ecosystem under environmental threat.",
+      "year": 1995
+    }
+  ]
+}

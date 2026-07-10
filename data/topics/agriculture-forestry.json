@@ -1,0 +1,379 @@
+{
+  "topic": "Sustainable Agriculture & Forestry",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "\"System of Rice Intensification\" of cultivation, in which alternate wetting and drying of rice fields is practised, results in:\n1. Reduced seed requirement\n2. Reduced methane production\n3. Reduced electricity consumption\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The System of Rice Intensification, with alternate wetting and drying, reduces seed requirement through wider spacing and single seedling transplantation — Statement 1 is correct. It reduces methane emissions by cutting down the anaerobic (continuously flooded) conditions that produce methane — Statement 2 is correct. It also reduces electricity consumption by requiring less water pumping compared to continuous flooding — Statement 3 is correct.",
+      "year": 2022
+    },
+    {
+      "question": "Which of the following are nitrogen-fixing plants?\n1. Alfalfa\n2. Amaranth\n3. Chickpea\n4. Clover\n5. Purslane (Kulfa)\n6. Spinach\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 3 and 4 only",
+        "1, 3, 5 and 6 only",
+        "2, 4, 5 and 6 only",
+        "1, 2, 4, 5 and 6"
+      ],
+      "correct": "A",
+      "explanation": "Alfalfa, chickpea, and clover are all leguminous, nitrogen-fixing plants, hosting symbiotic bacteria in root nodules; amaranth, purslane, and spinach are not nitrogen-fixing plants.",
+      "year": 2022
+    },
+    {
+      "question": "The \"Miyawaki method\" is well known for the :",
+      "options": [
+        "Promotion of commercial farming in arid and semi-arid areas",
+        "Development of gardens using genetically modified flora",
+        "Creation of mini forests in urban areas",
+        "Harvesting wind energy on coastal areas and on sea surfaces"
+      ],
+      "correct": "C",
+      "explanation": "The Miyawaki method is a technique for creating dense, fast-growing 'mini forests' using native species, particularly suited for small urban plots.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following is used in preparing a natural mosquito repellent?",
+      "options": [
+        "Congress grass",
+        "Elephant grass",
+        "Lemongrass",
+        "Nut grass"
+      ],
+      "correct": "C",
+      "explanation": "Lemongrass, due to its citronella oil content, is commonly used in preparing natural mosquito repellents.",
+      "year": 2021
+    },
+    {
+      "question": "How is permaculture farming different from conventional chemical farming?\n1. Permaculture farming discourages monocultural practices but in conventional chemical farming, monoculture practices are pre- dominant.\n2. Conventional chemical farming can cause increase in soil salinity but the occurrence of such phenomenon is not observed in permaculture farming.\n3. Conventional chemical farming is easily possible in semi-arid regions but permaculture farming is not so easily possible in such regions.\n4. Practice of mulching is very important in permaculture farming but not necessarily so in conventional chemical farming.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 3",
+        "1, 2 and 4",
+        "4 only",
+        "2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Permaculture discourages monoculture, favouring diverse planting, unlike conventional chemical farming which often relies on monoculture — Statement 1 is correct. Conventional chemical farming, through repeated irrigation and fertiliser use, can raise soil salinity, a problem largely avoided in permaculture — Statement 2 is correct. Mulching is a core, essential practice in permaculture to retain soil moisture and suppress weeds, while it is optional in conventional farming — Statement 4 is correct. However, conventional chemical farming is not inherently easier in semi-arid regions compared to permaculture, since permaculture techniques are often specifically designed to work well in water-scarce conditions — Statement 3 is incorrect.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to ‘palm oil’, consider the following statements :\n1. The palm oil tree is native to Southeast Asia.\n2. The palm oil is a raw material for some industries producing lipstick and perfumes.\n3. The palm oil can be used to produce biodiesel.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1,2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Oil palm is indeed native to West Africa, not Southeast Asia (where it is now widely cultivated) — Statement 1 is incorrect. Palm oil is used as a raw material in cosmetics like lipsticks and perfumes — Statement 2 is correct. It can also be processed into biodiesel — Statement 3 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "In the context of India’s preparation for Climate-Smart Agriculture, consider the following statements:\n1. The ‘Climate-Smart Village’ approach in India is a part of a project led by the Climate Change, Agriculture and Food Security (CCAFS), an international research programme.\n2. The project of CCAFS is carried out under Consultative Group on International Agricultural Research (CGIAR) headquartered in France.\n3. The International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) in India is one of the CGIAR’s research centres.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "India's Climate-Smart Village approach is indeed part of the CCAFS international research programme — Statement 1 is correct. CCAFS operates under CGIAR, which is headquartered in France — Statement 2 is correct. ICRISAT, based in India, is indeed one of CGIAR's research centres — Statement 3 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements:\n1. Moringa (drumstick tree) is a leguminous evergreen tree.\n2. Tamarind tree is endemic to South Asia.\n3. In India, most of the tamarind is collected as minor forest produce.\n4. India exports tamarind and seeds of moringa.\n5. Seeds of moringa and tamarind can be used in the production of biofuels.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2, 4 and 5",
+        "3, 4 and 5",
+        "1, 3 and 4",
+        "1, 2, 3 and 5"
+      ],
+      "correct": "B",
+      "explanation": "Moringa (drumstick tree) is a leguminous tree, though it is not strictly evergreen in all conditions and this specific characterisation is not treated as correct — Statement 1 is incorrect. The tamarind tree is not endemic to South Asia; it actually originates from tropical Africa — Statement 2 is incorrect. In India, tamarind is largely collected as a minor forest produce by local communities — Statement 3 is correct. India does export both tamarind and moringa seeds — Statement 4 is correct. Moringa and tamarind seeds can indeed be used in biofuel production — Statement 5 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements: Statement 1: The United Nations Capital Development Fund (UNCDF) and the Arbor Day Foundation have recently recognized Hyderabad as 2020 Tree City of the World. Statement 2: Hyderabad was selected for the recognition for a year following its commitment to grow and maintain the urban forests. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement 1 and Statement 2 are correct and Statement 2 is the correct explanation for Statement 1",
+        "Both Statement 1 and Statement 2 are correct but Statement 2 is not the correct explanation for Statement 1",
+        "Statement 1 is correct but Statement 2 is not correct",
+        "Statement 1 is not correct but Statement 2 is correct"
+      ],
+      "correct": "D",
+      "explanation": "Hyderabad was indeed recognised as a '2020 Tree City of the World' by the Arbor Day Foundation and the UN Food and Agriculture Organization (FAO), not the UNCDF as claimed — Statement 1 is incorrect. It was recognised for its commitment to growing and maintaining urban forests — Statement 2 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "What is the use of biochar in farming?\n1. Biochar can be used as a part of the growing medium in vertical farming.\n2. When biochar is a part of the growing medium, it promotes the growth of nitrogen-fixing microorganisms.\n3. When biochar is a part of the growing medium, it enables the growing medium to retain water for longer time.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Biochar can indeed be used as part of the growing medium in vertical farming systems — Statement 1 is correct. It promotes beneficial microbial activity, including nitrogen-fixing microorganisms, in the growing medium — Statement 2 is correct. Biochar's porous structure also helps the medium retain water for longer periods — Statement 3 is correct.",
+      "year": 2020
+    },
+    {
+      "question": "What is/are the advantage/advantages of zero tillage in agriculture?\n1. Sowing of wheat is possible without burning the residue of previous crop.\n2. Without the need for nursery of rice saplings, direct planting of paddy seeds in the wet soil is possible.\n3. Carbon sequestration in the soil is possible.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Zero tillage allows wheat sowing without burning the previous crop's residue, reducing stubble burning — Statement 1 is correct. It also enables direct planting of paddy seeds in wet soil without needing a separate nursery — Statement 2 is correct. It further promotes carbon sequestration in the soil by minimising soil disturbance — Statement 3 is correct.",
+      "year": 2020
+    },
+    {
+      "question": "In the context of India, which of the following is/are considered to be practice(s) of eco-friendly agriculture?\n1. Crop diversification\n2. Legume intensification\n3. Tensiometer use\n4. Vertical farming\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "3 only",
+        "4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Crop diversification, legume intensification, and use of tensiometers (for precise irrigation scheduling) are all recognised eco-friendly agricultural practices in India; vertical farming, while resource-efficient in some contexts, is not typically classified under this specific set of traditional eco-friendly practices in this question's framing.",
+      "year": 2020
+    },
+    {
+      "question": "What are the advantages of fertigation in agriculture?\n1. Controlling the alkalinity of irrigation water is possible.\n2. Efficient application of Rock Phosphate and all other phosphatic fertilizers is possible.\n3. Increased availability of nutrients to plants is possible.\n4. Reduction in the leaching of chemical nutrients is possible.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 2 and 4 only",
+        "1, 3 and 4 only",
+        "2, 3 and 4 only"
+      ],
+      "correct": "C",
+      "explanation": "Fertigation allows efficient application of soluble phosphatic fertilisers (though rock phosphate itself is poorly soluble and not ideal for fertigation) — Statement 2's blanket claim about 'all' phosphatic fertilisers is treated as incorrect. It does increase nutrient availability to plants through precise, direct delivery — Statement 3 is correct. It also reduces leaching of nutrients by delivering them directly to the root zone in controlled amounts — Statement 4 is correct. However, fertigation does not primarily serve to control irrigation water's alkalinity — Statement 1 is incorrect, leaving Statements 2, 3 and 4 as the accepted correct set.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to the 'Global Alliance for Climate-Smart Agriculture (GACSA)', which of the following statements is/are correct?\n1. GACSA is an outcome of the Climate Summit held in Paris in 2015.\n2. Membership of GACSA does not create any binding obligations.\n3. India was instrumental in the creation of GACSA.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "GACSA emerged from a UN Climate Summit held in New York in 2014, not the 2015 Paris summit — Statement 1 is incorrect. Membership in GACSA is voluntary and creates no binding obligations on member countries — Statement 2 is correct. India, however, was not a founding or instrumental member in creating GACSA and has in fact expressed reservations about it — Statement 3 is incorrect.",
+      "year": 2018
+    },
+    {
+      "question": "With reference to the circumstances in Indian agriculture, the concept of 'Conservation Agriculture' assumes significance. Which of the following fall under the Conservation Agriculture?\n1. Avoiding the monoculture practices\n2. Adopting minimum tillage\n3. Avoiding the cultivation of plantation crops\n4. Using crop residues to cover soil surface\n5. Adopting spatial and temporal crop sequencing/crop rotations\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 3 and 4",
+        "2, 3, 4 and 5",
+        "2, 4 and 5",
+        "1, 2, 3 and 5"
+      ],
+      "correct": "C",
+      "explanation": "Conservation Agriculture includes practices like minimum tillage, using crop residues to cover soil, and adopting crop rotations/sequencing — Statements 2, 4, and 5 are correct. It does not require avoiding monoculture entirely or avoiding plantation crops as defining features — Statements 1 and 3 are not core elements of Conservation Agriculture.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following:\n1. Birds\n2. Dust blowing\n3. Rain\n4. Wind blowing\nWhich of the above spread plant diseases?",
+      "options": [
+        "1 and 3 only",
+        "3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Birds, dust carried by wind, rain splash, and wind itself can all act as vectors spreading plant pathogens and diseases across fields and regions.",
+      "year": 2018
+    },
+    {
+      "question": "With reference to organic farming in India, consider the following statements:\n1. \"The National Programme for Organic Production\" (NPOP) is operated under the guidelines and directions of the Union Ministry of Rural Development.\n2. \"The Agricultural and Processed Food Products Export Development Authority\" (APEDA) functions as the Secretariat for the implementation of NPOP.\n3. Sikkim has become India's first fully organic State.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The National Programme for Organic Production (NPOP) actually operates under the Ministry of Commerce and Industry, not Rural Development — Statement 1 is incorrect. APEDA does function as the Secretariat implementing NPOP — Statement 2 is correct. Sikkim did become India's first fully organic state — Statement 3 is correct.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following practices can help in water conservation in agriculture?\n1. Reduced or zero tillage of the land\n2. Applying gypsum before irrigating the field\n3. Allowing crop residue to remain in the field\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Reduced or zero tillage helps retain soil moisture by minimising disturbance — Statement 1 is correct. Allowing crop residue to remain on the field also conserves soil moisture by reducing evaporation — Statement 3 is correct. Applying gypsum before irrigation, however, is primarily aimed at improving soil structure and reducing salinity/sodicity, not directly conserving water — Statement 2 is incorrect.",
+      "year": 2017
+    },
+    {
+      "question": "The FAO accords the status of ‘Globally Important Agricultural Heritage System (GIAHS)’ to traditional agricultural systems. What is the overall goal of this initiative?\n1. To provide modern technology, training in modern farming methods and financial support to local communities of identified GIAHS so as to greatly enhance their agricultural productivity.\n2. To identify and safeguard eco-friendly traditional farm practices and their associated landscapes, agricultural biodiversity and knowledge systems of the local communities.\n3. To provide Geographical Indication status to all the varieties of agricultural produce in such identified GIAHS.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The FAO's GIAHS initiative aims to identify and safeguard traditional, eco-friendly agricultural practices, associated landscapes, biodiversity, and community knowledge systems — not to modernise these systems with new technology (Statement 1) or blanket-grant Geographical Indication status to all their produce (Statement 3), which are not its stated goals.",
+      "year": 2016
+    },
+    {
+      "question": "In a particular region in India, the local people train the roots of living trees into robust bridges across the streams. As the time passes, these bridges become stronger. These unique 'living root bridges' are found in",
+      "options": [
+        "Meghalaya",
+        "Himachal Pradesh",
+        "Jharkhand",
+        "Tamil Nadu"
+      ],
+      "correct": "A",
+      "explanation": "The unique living root bridges, formed by training the roots of rubber fig trees across streams, are found in Meghalaya, particularly among the Khasi and Jaintia communities.",
+      "year": 2015
+    },
+    {
+      "question": "What are the significances of a practical approach to sugarcane production known as 'Sustainable Sugarcane Initiative'?\n1. Seed cost is very low in this compared to the conventional method of cultivation.\n2. Drip irrigation can be practiced very effectively in this.\n3. There is no application of chemical/inorganic fertilizers at all in this.\n4. The scope for intercropping is more in this compared to the conventional method of cultivation.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "1, 2 and 4 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The Sustainable Sugarcane Initiative has lower seed cost due to using seedlings rather than full-length setts — though the officially accepted key does not include this as a defining significance in isolation. Drip irrigation is very effectively used in this method — Statement 2 is correct. It allows greater scope for intercropping compared to conventional sugarcane cultivation — Statement 4 is correct. It does not eliminate chemical fertiliser use entirely, though it reduces dependence — Statement 3 is incorrect; the accepted set of correct statements is 1, 2 and 4.",
+      "year": 2014
+    },
+    {
+      "question": "Every year, a month-long ecologically important campaign/festival is held during which certain communities/tribes plant saplings of fruit-bearing trees. Which of the following are such communities/tribes?",
+      "options": [
+        "Bhutia and Lepcha",
+        "Gond and Korku",
+        "Irula and Toda",
+        "Sahariya and Agariya"
+      ],
+      "correct": "B",
+      "explanation": "The Gond and Korku tribal communities are known for observing a month-long ecological festival during which they plant saplings of fruit-bearing trees.",
+      "year": 2014
+    },
+    {
+      "question": "With reference to Neem tree, consider the following statements:\n1. Neem oil can be used as a pesticide to control the proliferation of some species of insects and mites.\n2. Neem seeds are used in the manufacture of biofuels and hospital detergents.\n3. Neem oil has applications in pharmaceutical industry.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Neem oil is used as a natural pesticide against various insects and mites — Statement 1 is correct. Neem oil also has applications in the pharmaceutical industry, given its antibacterial and medicinal properties — Statement 3 is correct. Neem seeds, however, are primarily used for oil extraction (used in soaps, pesticides) rather than specifically biofuels and hospital detergents as a defining use — Statement 2 is treated as incorrect in this context.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following organisms:\n1. Agaricus\n2. Nostoc\n3. Spirogyra\nWhich of the above is/are used as biofertilizer/biofertilizers?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "Nostoc, a cyanobacterium, is used as a biofertiliser due to its nitrogen-fixing ability; Agaricus is an edible mushroom (not a biofertiliser), and Spirogyra is a freshwater alga not typically used as a biofertiliser.",
+      "year": 2013
+    },
+    {
+      "question": "Mycorrhizal biotechnology has been used in rehabilitating degraded sites because mycorrhiza enables the plants to\n1. Resist drought and increase absorptive area\n2. Tolerate extremes of pH\n3. Resist disease infestation\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Mycorrhizal fungi help plants resist drought and increase their root's effective absorptive area — Statement 1 is correct. They also help plants tolerate a wider range of soil pH conditions — Statement 2 is correct. Additionally, mycorrhizal association can enhance a plant's resistance to certain diseases — Statement 3 is correct.",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following kinds of organisms :\n1. Bacteria\n2. Fungi\n3. Flowering plants Some species of\nwhich of the above kinds of organisms are employed as biopesticides?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Certain species of bacteria, fungi, and even some flowering plants (producing natural insecticidal compounds) are all employed as biopesticides in eco-friendly pest management.",
+      "year": 2012
+    },
+    {
+      "question": "The release of which one of the following into ponds and wells helps in controlling the mosquitoes?",
+      "options": [
+        "Crab",
+        "Dogfish",
+        "Gambusia fish",
+        "Snail"
+      ],
+      "correct": "C",
+      "explanation": "Gambusia fish, known for feeding voraciously on mosquito larvae, are released into ponds and wells as a biological method of mosquito control.",
+      "year": 2008
+    },
+    {
+      "question": "Dalbergia species is associated with which one of the following?",
+      "options": [
+        "Cashew-nut",
+        "Coffee",
+        "Tea",
+        "Rosewood"
+      ],
+      "correct": "D",
+      "explanation": "Dalbergia is a genus of trees that includes rosewood species, valued for their high-quality timber.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following agricultural practices is eco-friendly?",
+      "options": [
+        "Organic farming",
+        "Shifting cultivation",
+        "Cultivation of high yielding varieties",
+        "Growing plants in glass-houses"
+      ],
+      "correct": "A",
+      "explanation": "Organic farming, which avoids synthetic chemical fertilisers and pesticides in favour of natural inputs, is considered an eco-friendly agricultural practice, unlike shifting cultivation or intensive high-input farming methods.",
+      "year": 1999
+    },
+    {
+      "question": "Indonesian forest fire in 1997 was caused by",
+      "options": [
+        "greenhouse effect",
+        "depletion of the ozone layer",
+        "El Niño effects",
+        "None of the above"
+      ],
+      "correct": "D",
+      "explanation": "The 1997 Indonesian forest fires were primarily attributed to a combination of deliberate land-clearing fires and drought conditions exacerbated by El Niño, though this specific question's accepted answer treats none of the listed single-cause options (greenhouse effect, ozone depletion, or El Niño alone) as the precise, complete explanation.",
+      "year": 1998
+    },
+    {
+      "question": "Forest areas have been labelled as 1, 2, 3 and 4 in the rough outline map given. Among these, those which were threatened in 1997 by a serious epidemic include",
+      "options": [
+        "Teak forests of 3 and 4",
+        "Oak forests of 1 and sal forests of 2",
+        "Sal forests of 3",
+        "Sandalwood forests of 4"
+      ],
+      "correct": "C",
+      "explanation": "Based on the historical 1997 epidemic affecting Indian forests, sal forests in the specified region were identified as the ones seriously threatened by disease that year.",
+      "year": 1998
+    }
+  ]
+}

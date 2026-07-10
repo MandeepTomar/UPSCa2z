@@ -1,0 +1,463 @@
+{
+  "topic": "Pollution & Waste Management",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements: Statement I: Activated carbon is a good and an attractive tool to remove pollutants from effluent streams and to remediate contaminants from various industries. Statement II: Activated carbon exhibits a large surface area and a strong potential for adsorbing heavy metals. Statement III: Activated carbon can be easily synthesized from environmental wastes with high carbon content. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement II and Statement III are correct and both of them explain Statement I",
+        "Both Statement II and Statement III are correct but only one of them explains Statement I",
+        "Only one of the Statements II and III is correct and that explains Statement I",
+        "Neither Statement II nor Statement III is correct"
+      ],
+      "correct": "A",
+      "explanation": "Activated carbon is indeed widely used to remove pollutants from industrial effluents — Statement I is correct, explained by both following statements. Its large surface area gives it strong adsorption capacity for heavy metals — Statement II is correct. It can also be synthesised from carbon-rich waste materials like agricultural residues — Statement III is correct, and together both statements explain why activated carbon is such an effective remediation tool.",
+      "year": 2025
+    },
+    {
+      "question": "With reference to perfluoroalkyl and polyfluoroalkyl substances (PFAS) that are used in making many consumer products, consider the following statements:\n1. PFAS are found to be widespread in drinking water, food and food packaging materials.\n2. PFAS are not easily degraded in the environment.\n3. Persistent exposure to PFAS can lead to bioaccumulation in animal bodies.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "PFAS chemicals are indeed found widely in drinking water, food, and food packaging — Statement 1 is correct. They are highly persistent and resist environmental degradation, earning the nickname 'forever chemicals' — Statement 2 is correct. Ongoing exposure leads to their accumulation in animal (and human) bodies over time — Statement 3 is correct.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements : Statement-I : Many chewing gums found in the market are considered a source of environmental pollution. Statement-II : Many chewing gums contain plastic as gum base. Which one of the following is correct in respect of the above statements ?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "correct": "A",
+      "explanation": "Many chewing gums are indeed considered a pollution source due to their non-biodegradable nature — Statement-I is correct, and this is explained by Statement-II: many chewing gums use synthetic plastic-based polymers (like polyvinyl acetate) as their gum base, contributing to persistent litter and pollution.",
+      "year": 2024
+    },
+    {
+      "question": "According to the Environmental Protection Agency (EPA), which one of the following is the largest source of sulphur dioxide emissions ?",
+      "options": [
+        "Locomotives using fossil fuels",
+        "Ships using fossil fuels",
+        "Extraction of metals from ores",
+        "Power plants using fossil fuels"
+      ],
+      "correct": "D",
+      "explanation": "According to the EPA, fossil-fuel-burning power plants are the largest source of sulphur dioxide emissions, owing to the sulphur content in coal and oil used for electricity generation.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements regarding mercury pollution :\n1. Gold mining activity is a source of mercury pollution in the world.\n2. Coal-based thermal power plants cause mercury pollution.\n3. There is no known safe level of exposure to mercury.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Gold mining, particularly artisanal small-scale mining using mercury amalgamation, is a significant source of mercury pollution worldwide — Statement 1 is correct. Coal-based thermal power plants also release mercury present in coal during combustion — Statement 2 is correct. There is indeed no known safe level of mercury exposure for humans, as per health authorities — Statement 3 is correct, making all three correct.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to coal-based thermal power plants in India, consider the following statements :\n1. None of them uses seawater.\n2. None of them is set up in water-stressed district.\n3. None of them is privately owned.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "Several coal-based thermal power plants in India do use seawater for cooling (particularly coastal plants) — Statement 1 is incorrect. Some plants are indeed located in water-stressed districts, a matter of policy concern — Statement 2 is incorrect. India also has privately-owned coal power plants alongside public sector ones — Statement 3 is incorrect, making none of the statements correct.",
+      "year": 2023
+    },
+    {
+      "question": "In the context of WHO Air Quality Guidelines, consider the following statements:\n1. The 24-hour mean of PM2.5 should not exceed 15 μg/m³ and annual mean of PM2.5 should not exceed 5 μg/m³.\n2. In a year, the highest levels of ozone pollution occur during the periods of inclement weather.\n3. PM10 can penetrate the lung barrier and enter the bloodstream.\n4. Excessive ozone in the air can trigger asthma.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 3 and 4",
+        "1 and 4 only",
+        "2, 3 and 4",
+        "1 and 2 only"
+      ],
+      "correct": "B",
+      "explanation": "The WHO Air Quality Guidelines actually specify that 24-hour mean PM2.5 should not exceed 15 μg/m³, and the annual mean should not exceed 5 μg/m³ — Statement 1 is correct as stated. Ground-level ozone pollution actually peaks during hot, sunny weather, not inclement weather — Statement 2 is incorrect. PM10, being larger particulate matter, does not penetrate as deeply into the bloodstream as finer PM2.5 does — Statement 3 is incorrect. Excess ozone exposure is indeed known to trigger asthma and respiratory issues — Statement 4 is correct, giving Statements 1 and 4 as correct.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following:\n1. Carbon monoxide\n2. Nitrogen oxide\n3. Ozone\n4. Sulphur dioxide Excess of\nwhich of the above in the environment is/are cause(s) of acid rain?",
+      "options": [
+        "1, 2 and 3",
+        "2 and 4 only",
+        "4 only",
+        "1, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Acid rain is primarily caused by excess nitrogen oxides and sulphur dioxide in the atmosphere, which combine with atmospheric moisture to form nitric and sulphuric acids; carbon monoxide and ozone are not primary contributors to acid rain formation.",
+      "year": 2022
+    },
+    {
+      "question": "‘R2 Code of Practices’ constitutes a tool available for promoting the adoption of",
+      "options": [
+        "environmentally responsible prac- tices in electronics recycling industry",
+        "ecological management of ‘Wetlands of International Importance’ under the Ramsar Convention",
+        "sustainable practices in the cultivation of agricultural crops in degraded lands",
+        "Environmental Impact Assessment’ in the exploitation of natural resources"
+      ],
+      "correct": "A",
+      "explanation": "The R2 (Responsible Recycling) Code of Practices is a certification standard promoting environmentally responsible practices in the electronics recycling industry, particularly for handling e-waste safely.",
+      "year": 2021
+    },
+    {
+      "question": "Why is there a concern about copper smelting plants?\n1. They may release lethal quantities of carbon monoxide into environment.\n2. The copper slag can cause the leaching of some heavy metals into environment.\n3. They may release sulphur dioxide as a pollutant.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Copper smelting can release sulphur dioxide as a byproduct of ore processing — Statement 3 is correct. Copper slag can leach heavy metals into the surrounding environment, posing contamination risks — Statement 2 is correct. However, copper smelting is not primarily a concern for releasing lethal quantities of carbon monoxide — Statement 1 is incorrect.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to furnace oil, consider the following statements:\n1. It is a product of oil refineries.\n2. Some industries use it to generate power.\n3. Its use causes sulphur emissions into environment.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Furnace oil is indeed a byproduct of oil refining — Statement 1 is correct. It is used by various industries to generate power/heat — Statement 2 is correct. Being a heavy, high-sulphur fuel, its combustion causes significant sulphur emissions — Statement 3 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "Magnetite particles, suspected to cause neurodegenerative problems, are generated as environmental pollutants from which of the following?\n1. Brakes of motor vehicles\n2. Engines of motor vehicles\n3. Microwave stoves within homes\n4. Power plants\n5. Telephone lines\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2, 3 and 5 only",
+        "1, 2 and 4 only",
+        "3, 4 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "B",
+      "explanation": "Magnetite particles linked to neurodegenerative concerns are generated from vehicle brake wear, vehicle engine combustion, and power plant emissions, but not significantly from microwave stoves or telephone lines, which are not notable magnetite pollution sources.",
+      "year": 2021
+    },
+    {
+      "question": "Bisphenol A (BPA), a cause of concern, is a structural/key component in the manufacture of which of the following kinds of plastics?",
+      "options": [
+        "Low-density polyethylene",
+        "Polycarbonate",
+        "Polyethylene terephthalate",
+        "Polyvinyl chloride"
+      ],
+      "correct": "B",
+      "explanation": "Bisphenol A (BPA) is a key structural component used in manufacturing polycarbonate plastics, commonly found in items like water bottles and food containers.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements:\n1. Coal ash contains arsenic, lead and mercury.\n2. Coal-fired power plants release sulphur dioxide and oxides of nitrogen into the environment.\n3. High ash content is observed in Indian coal.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Coal ash does contain toxic elements like arsenic, lead, and mercury — Statement 1 is correct. Coal-fired power plants release sulphur dioxide and nitrogen oxides during combustion — Statement 2 is correct. Indian coal is indeed known for having a comparatively high ash content — Statement 3 is correct.",
+      "year": 2020
+    },
+    {
+      "question": "Why is there a great concern about the 'microbeads' that are released into environment?",
+      "options": [
+        "They are considered harmful to marine ecosystems.",
+        "They are considered to cause skin cancer in children.",
+        "They are small enough to be absorbed by crop plants in irrigated fields.",
+        "They are often found to be used as food adulterants."
+      ],
+      "correct": "A",
+      "explanation": "Microbeads, tiny plastic particles used in personal care products, are a major concern because they are not filtered out by water treatment and end up harming marine ecosystems, being ingested by marine organisms and entering the food chain.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following:\n1. Carbon monoxide\n2. Methane\n3. Ozone\n4. Sulphur dioxide\nWhich of the above are released into atmosphere due to the burning of crop/biomass residue?",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Burning of crop residue and biomass releases carbon monoxide, methane, ozone precursors (contributing to ground-level ozone formation), and sulphur dioxide, among other pollutants, contributing significantly to air pollution episodes.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following statements :\n1. Agricultural soils release nitrogen oxides into environment.\n2. Cattle release ammonia into environment.\n3. Poultry industry releases reactive nitrogen compounds into environment.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Agricultural soils release nitrogen oxides through microbial processes involving nitrogenous fertilisers — Statement 1 is correct. Cattle release ammonia through their waste and digestive processes — Statement 2 is correct. The poultry industry also releases reactive nitrogen compounds through waste management — Statement 3 is correct.",
+      "year": 2019
+    },
+    {
+      "question": "As per the Solid Waste Management Rules, 2016 in India, which one of the following statements is correct?",
+      "options": [
+        "Waste generator has to segregate waste into five categories.",
+        "The Rules are applicable to notified urban local bodies, notified towns and all industrial townships only.",
+        "The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities.",
+        "It is mandatory on the part of waste generator that the waste generated in one district cannot be moved to another district."
+      ],
+      "correct": "C",
+      "explanation": "The Solid Waste Management Rules, 2016 provide detailed and specific criteria for identifying suitable sites for landfills and waste processing facilities, ensuring scientific site selection for waste infrastructure.",
+      "year": 2019
+    },
+    {
+      "question": "In India, ‘extended producer responsibility’ was introduced as an important feature in which of the following?",
+      "options": [
+        "The Bio-medical Waste (Management and Handling) Rules, 1998",
+        "The Recycled Plastic (Manufacturing and Usage) Rules, 1999",
+        "The e-Waste (Management and Handling) Rules, 2011",
+        "The Food Safety and Standard Regulations, 2011"
+      ],
+      "correct": "C",
+      "explanation": "The e-Waste (Management and Handling) Rules, 2011 in India introduced the concept of 'extended producer responsibility,' making manufacturers responsible for the environmentally sound disposal of their electronic products.",
+      "year": 2019
+    },
+    {
+      "question": "In the cities of our country, which among the following atmospheric gases are normally considered in calculating the value of Air Quality Index?\n1. Carbon dioxide\n2. Carbon monoxide\n3. Nitrogen dioxide\n4. Sulfur dioxide\n5. Methane\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 4 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "B",
+      "explanation": "India's Air Quality Index calculations typically consider carbon monoxide, nitrogen dioxide, and sulphur dioxide (among other pollutants like PM2.5, PM10, and ozone), but not carbon dioxide or methane, which are greenhouse gases rather than direct air quality pollutants tracked in AQI.",
+      "year": 2016
+    },
+    {
+      "question": "What can be the impact of excessive/inappropriate use of nitrogenous fertilizers in agriculture?\n1. Proliferation of nitrogen-fixing microorganisms in soil can occur.\n2. Increase in the acidity of soil can take place.\n3. Leaching of nitrate to the groundwater can occur.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Excessive nitrogenous fertiliser use can increase soil acidity over time due to the nitrification process — Statement 2 is correct. It can also lead to leaching of excess nitrates into groundwater, causing contamination — Statement 3 is correct. However, it does not cause proliferation of nitrogen-fixing microorganisms; if anything, excess synthetic nitrogen can suppress natural nitrogen-fixing bacterial activity — Statement 1 is incorrect.",
+      "year": 2015
+    },
+    {
+      "question": "With reference to ‘fly ash’ produced by the power plants using coal as fuel, which of the following statements is/are correct?\n1. Fly ash can be used in the production of bricks for building construction.\n2. Fly ash can be used as a replacement for some of the Portland cement contents of concrete.\n3. Fly ash is made up of silicon dioxide and calcium oxide only, and does not contain any toxic elements.",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "A",
+      "explanation": "Fly ash can indeed be used in brick manufacturing for construction — Statement 1 is correct. It can also replace a portion of Portland cement in concrete production, improving durability — Statement 2 is correct. However, fly ash is not composed solely of silicon dioxide and calcium oxide; it also contains trace toxic elements like heavy metals — Statement 3 is incorrect.",
+      "year": 2015
+    },
+    {
+      "question": "Brominated flame retardants are used in many household products like mattresses and upholstery. Why is there some concern about their use?\n1. They are highly resistant to degradation in the environment.\n2. They are able to accumulate in humans and animals.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Brominated flame retardants are indeed highly persistent and resistant to environmental degradation — Statement 1 is correct. They are also known to bioaccumulate in humans and animals over time, raising health concerns — Statement 2 is correct.",
+      "year": 2014
+    },
+    {
+      "question": "Which of the following are some important pollutants released by steel industry in India?\n1. Oxides of sulphur\n2. Oxides of nitrogen\n3. Carbon monoxide\n4. Carbon dioxide\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "The steel industry releases oxides of sulphur, oxides of nitrogen, carbon monoxide, and carbon dioxide as significant pollutants during its production processes, particularly from coke ovens and blast furnaces.",
+      "year": 2014
+    },
+    {
+      "question": "Due to improper/indiscriminate disposal of old and used computers or their parts, which of the following are released into the environment as e-waste?\n1. Beryllium\n2. Cadmium\n3. Chromium\n4. Heptachlor\n5. Mercury\n6. Lead\n7. Plutonium\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1, 3, 4, 6 and 7 only",
+        "1, 2, 3, 5 and 6 only",
+        "2, 4, 5 and 7 only",
+        "1, 2, 3, 4, 5, 6 and 7"
+      ],
+      "correct": "B",
+      "explanation": "E-waste from discarded computers releases toxic substances including beryllium, cadmium, chromium, mercury, and lead into the environment; heptachlor (a pesticide) and plutonium (a radioactive element) are not typical components of computer e-waste.",
+      "year": 2013
+    },
+    {
+      "question": "Acid rain is caused by the pollution of environment by",
+      "options": [
+        "carbon dioxide and nitrogen",
+        "carbon monoxide and carbon dioxide",
+        "ozone and carbon dioxide",
+        "nitrous oxide and sulphur dioxide"
+      ],
+      "correct": "D",
+      "explanation": "Acid rain is primarily caused by atmospheric pollution from nitrous oxide (nitrogen oxides) and sulphur dioxide, which react with water vapour to form nitric and sulphuric acids.",
+      "year": 2013
+    },
+    {
+      "question": "Photochemical smog is a resultant of the reaction among",
+      "options": [
+        "NO₂, O₃ and peroxyacetyl nitrate in the presence of sunlight",
+        "CO, O₂ and peroxyacetyl nitrate in the presence of sunlight",
+        "CO, CO₂ and NO₂ at low temperature",
+        "high concentration of NO₂, O₃ and CO in the evening"
+      ],
+      "correct": "A",
+      "explanation": "Photochemical smog results from the reaction of nitrogen dioxide, ozone, and peroxyacetyl nitrate (PAN) in the presence of sunlight, typically over urban areas with high vehicular emissions.",
+      "year": 2013
+    },
+    {
+      "question": "Lead, ingested or inhaled, is a health hazard. After the addition of lead to petrol has been banned, what still are the sources of lead poisoning?\n1. Smelting units\n2. Pens and pencils\n3. Paints\n4. Hair oils and cosmetics\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1, 2 and 3 only",
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Even after leaded petrol was banned, lead exposure continues from sources like smelting units (which process lead-containing materials) and lead-based paints, both significant ongoing sources of lead poisoning.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following statements: Chlorofluorocarbons, known as ozone-depleting substances, are used\n1. In the production of plastic foams\n2. In the production of tubeless tyres\n3. In cleaning certain electronic components\n4. As pressurizing agents in aerosol cans\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3 only",
+        "4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Chlorofluorocarbons are used in producing plastic foams, cleaning electronic components, and as pressurising agents in aerosol cans; they are not typically used in manufacturing tubeless tyres.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following:\n1. Carbon dioxide\n2. Oxides of Nitrogen\n3. Oxides of Sulphur\nWhich of the above is/are the emission/emissions from coal combustion at thermal power plants?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Coal combustion at thermal power plants releases carbon dioxide, oxides of nitrogen, and oxides of sulphur as key emissions, all byproducts of burning coal for electricity generation.",
+      "year": 2011
+    },
+    {
+      "question": "The formation of ozone hole in the Antarctic region has been a cause of concern. What could be the reason for the formation of this hole?",
+      "options": [
+        "Presence of prominent tropospheric turbulence; and inflow of chlorofluorocarbons",
+        "Presence of prominent polar front and stratospheric clouds; and inflow of chlorofluorocarbons",
+        "Absence of polar front and stratospheric clouds; and inflow of methane and chlorofluorocarbons",
+        "Increased temperature at polar region due to global warming"
+      ],
+      "correct": "B",
+      "explanation": "The Antarctic ozone hole forms due to a combination of the polar vortex, extremely cold stratospheric temperatures that create polar stratospheric clouds, and the presence of chlorofluorocarbons, which react on the surface of these clouds to destroy ozone.",
+      "year": 2011
+    },
+    {
+      "question": "A pesticide which is a chlorinated hydrocarbon is sprayed on a food crop. The food chain is: Food crop – Rat – Snake – Hawk. In this food chain, the highest concentration of the pesticide would accumulate in which one of the following?",
+      "options": [
+        "Food crop",
+        "Rat",
+        "Snake",
+        "Hawk"
+      ],
+      "correct": "D",
+      "explanation": "Through the process of biomagnification, chlorinated hydrocarbon pesticides accumulate at progressively higher concentrations up the food chain, reaching their highest concentration in the top predator — the hawk in this food chain.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following:\n1. Oxides of Hydrogen\n2. Oxides of Nitrogen\n3. Oxides of Sulphur\nWhich of the above causes/cause acid rain?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Acid rain is primarily caused by oxides of nitrogen and oxides of sulphur reacting with atmospheric moisture to form acidic compounds; 'oxides of hydrogen' is not a recognised acid rain-causing pollutant category.",
+      "year": 2010
+    },
+    {
+      "question": "Assertion (A): Coal-based thermal power stations contribute to acid rain.\nReason (R): Oxides of carbon are emitted when the coal burns.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "B",
+      "explanation": "Coal-based thermal power stations do contribute to acid rain, primarily due to sulphur dioxide and nitrogen oxide emissions — the Assertion is true. However, it is oxides of sulphur and nitrogen, not oxides of carbon, that are the primary acid rain precursors from coal combustion — the Reason is false.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of following is produced during the formation of photochemical smog?",
+      "options": [
+        "Hydrocarbons",
+        "Nitrogen Oxides",
+        "Ozone",
+        "Methane"
+      ],
+      "correct": "C",
+      "explanation": "Ozone is a key secondary pollutant produced during the formation of photochemical smog, resulting from reactions between nitrogen oxides and volatile organic compounds in sunlight.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following organisms is likely to show the highest concentration of DDT once it has been introduced into the ecosystem?",
+      "options": [
+        "Grasshopper",
+        "Toad",
+        "Snake",
+        "Cattle"
+      ],
+      "correct": "C",
+      "explanation": "Through biomagnification, DDT concentrations increase at each successive trophic level; among the given options, the snake, being higher up the food chain (predator of smaller organisms like toads), would show the highest DDT concentration.",
+      "year": 1997
+    },
+    {
+      "question": "“The final Agent Orange raid in Vietnam took place in 1970…. areas have begun to bloom again. But 19 years after the war’s end, it seems plain that Agent Orange is killing and maiming human beings, something it never intended to do. The apparent toxic fall-out from those clouds ... is a crop of human miseries including cancers, miscarriages and birth defects — that may persist for decades.” The offensive substance referred to in the above quotation is",
+      "options": [
+        "DDT used as insecticide",
+        "a complex mixture of herbicides and weedicides used to increase agricultural output in the then South Vietnam under the US aid programme",
+        "a complex mixture of DDT and other insecticides used as aerial sprays for protection against malaria and other tropical diseases",
+        "dioxin used as defoliants"
+      ],
+      "correct": "D",
+      "explanation": "The substance described — used as an aerial defoliant during the Vietnam War and later linked to long-term human health effects including cancers and birth defects — is dioxin, a highly toxic contaminant present in Agent Orange.",
+      "year": 1995
+    },
+    {
+      "question": "Consider the table given below providing details of traffic volume per hour for four locations (showing total traffic volume, % of heavy vehicles, average noise level in dB(A) and noise-pollution level in dB(A)). When the total traffic volume is the same, the factor(s) which affect(s) the noise-pollution level is/are",
+      "options": [
+        "% of heavy vehicles",
+        "noise-pollution level and average noise level",
+        "average noise level and % of heavy vehicles",
+        "indeterminable on the basis of details given"
+      ],
+      "correct": "A",
+      "explanation": "When total traffic volume remains constant across locations, the noise-pollution level is primarily affected by the percentage of heavy vehicles in the traffic mix, since heavier vehicles generate disproportionately more noise.",
+      "year": 1995
+    }
+  ]
+}

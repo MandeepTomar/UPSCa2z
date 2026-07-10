@@ -1,0 +1,103 @@
+{
+  "topic": "Biogeochemical Cycles",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to the planet Earth, consider the following statements:\nI. Rain forests produce more oxygen than that produced by oceans.\nII. Marine phytoplankton and photosynthetic bacteria produce about 50% of world’s oxygen.\nIII. Well-oxygenated surface water contains several folds higher oxygen than that in atmospheric air.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I and II",
+        "II only",
+        "I and III",
+        "None of the above statements is correct"
+      ],
+      "correct": "B",
+      "explanation": "Contrary to popular belief, rainforests are not the largest oxygen producers; oceanic phytoplankton and photosynthetic bacteria actually produce roughly half of the world's oxygen — Statement I is incorrect, Statement II is correct. Well-oxygenated surface water does not contain several-fold higher oxygen than the atmosphere; in fact atmospheric air has a much higher oxygen concentration than dissolved oxygen in water — Statement III is incorrect.",
+      "year": 2025
+    },
+    {
+      "question": "In case of which one of the following biogeochemical cycles, the weathering of rocks is the main source of release of nutrient to enter the cycle?",
+      "options": [
+        "Carbon cycle",
+        "Nitrogen cycle",
+        "Phosphorus cycle",
+        "Sulphur cycle"
+      ],
+      "correct": "C",
+      "explanation": "In the phosphorus cycle, since phosphorus has no significant atmospheric gas phase, the weathering of phosphate-containing rocks is the primary source through which phosphorus enters ecosystems, unlike the carbon, nitrogen, or sulphur cycles, which have major atmospheric components.",
+      "year": 2021
+    },
+    {
+      "question": "Which of the following adds/add carbon dioxide to the carbon cycle on the planet Earth?\n1. Volcanic action\n2. Respiration\n3. Photosynthesis\n4. Decay of organic matter\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Volcanic activity releases carbon dioxide from within the Earth — Statement 1 is correct. Respiration by living organisms releases CO2 as a metabolic byproduct — Statement 2 is correct. Decay of organic matter by decomposers also releases CO2 — Statement 4 is correct. Photosynthesis, however, removes CO2 from the atmosphere rather than adding it — Statement 3 is incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "Which of the following adds/add nitrogen to the soil?\n1. Excretion of urea by animals\n2. Burning of coal by man\n3. Death of vegetation\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Excretion of urea by animals adds nitrogen compounds to the soil as they decompose — Statement 1 is correct. Death and decomposition of vegetation also returns nitrogen to the soil — Statement 3 is correct. Burning of coal, however, releases nitrogen oxides into the atmosphere rather than adding nitrogen to the soil — Statement 2 is incorrect.",
+      "year": 2013
+    },
+    {
+      "question": "Human activities in the recent past have caused the increased concentration of carbon dioxide in the atmosphere, but a lot of it does not remain in the lower atmosphere because of\n1. Its escape into the outer stratosphere,\n2. The photosynthesis by phytoplankton in the oceans,\n3. The trapping of air in the polar ice caps.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "A significant portion of atmospheric carbon dioxide is absorbed by phytoplankton in the oceans through photosynthesis, acting as a major carbon sink — Statement 2 is correct. CO2 does not meaningfully escape into the outer stratosphere or get significantly trapped within polar ice caps as primary removal mechanisms — Statements 1 and 3 are incorrect.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following :\n1. Photosynthesis\n2. Respiration\n3. Decay of organic matter\n4. Volcanic action\nWhich of the above add carbon dioxide to the carbon cycle on Earth ?",
+      "options": [
+        "1 and 4 only",
+        "2 and 3 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Respiration, decay of organic matter, and volcanic action all release carbon dioxide into the carbon cycle; photosynthesis, in contrast, removes CO2 from the atmosphere rather than adding it.",
+      "year": 2011
+    },
+    {
+      "question": "Which one of the following reflects back more sunlight as compared to the other three?",
+      "options": [
+        "Sand desert",
+        "Paddy crop land",
+        "Land covered with fresh snow",
+        "Prairie land"
+      ],
+      "correct": "C",
+      "explanation": "Fresh snow has a very high albedo, reflecting a large proportion of incoming sunlight back into space, far more than sand deserts, cropland, or prairie land, which absorb more solar radiation.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following ecosystems:\n1. Taiga\n2. Tropical evergreen\n3. Tropical deciduous\n4. Tundra The correct sequence in decreasing order of the albedo values of these ecosystems is",
+      "options": [
+        "1, 4, 3, 2",
+        "4, 1, 2, 3",
+        "4, 1, 3, 2",
+        "1, 4, 2, 3"
+      ],
+      "correct": "C",
+      "explanation": "In decreasing order of albedo (reflectivity), Tundra ecosystems (covered largely by snow/ice) have the highest albedo, followed by Taiga (coniferous forest with some snow cover), then Tropical Deciduous forest, and finally Tropical Evergreen forest, which has the lowest albedo due to its dense, dark green canopy absorbing more sunlight.",
+      "year": 2002
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "topic": "Ecosystems & Ecology",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\n1. Lions do not have a particular breeding season.\n2. Unlike most other big cats, cheetahs do not roar.\n3. Unlike male lions, male leopards do not proclaim their territory by scent marking.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Lions do not have a fixed breeding season and can mate year-round — Statement 1 is correct. Cheetahs, unlike lions or tigers, cannot roar due to differences in their laryngeal structure — Statement 2 is correct. Male leopards, however, do mark their territory through scent marking, much like male lions, so Statement 3 is incorrect.",
+      "year": 2024
+    },
+    {
+      "question": "Which one of the following shows a unique relationship with an insect that has coevolved with it and that is the only insect that can pollinate this tree ?",
+      "options": [
+        "Fig",
+        "Mahua",
+        "Sandalwood",
+        "Silk cotton"
+      ],
+      "correct": "A",
+      "explanation": "The fig tree has a highly specialised, coevolved relationship with fig wasps, which are typically the only insects capable of pollinating a given fig species, each fig species usually paired with its own specific wasp species.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following:\n1. Butterflies\n2. Fish\n3. Frogs How many of the above have poisonous species among them?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "Several butterfly species (e.g., Monarch butterflies) and certain frog species (e.g., poison dart frogs) are known to be poisonous or toxic, and some fish species (like pufferfish) are also poisonous — all three groups have poisonous representatives.",
+      "year": 2024
+    },
+    {
+      "question": "With reference to India's projects on connectivity, consider the following statements:\n1. East-West Corridor under Golden Quadrilateral Project connects Dibrugarh and Surat.\n2. Trilateral Highway connects Moreh in Manipur and Chiang Mai in Thailand via Myanmar.\n3. Bangladesh-China-India-Myanmar Economic Corridor connects Varanasi in Uttar Pradesh with Kunming in China.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "The East-West Corridor actually connects Silchar (Assam) and Porbandar (Gujarat), not Dibrugarh and Surat, making Statement 1 incorrect. The India-Myanmar-Thailand Trilateral Highway does connect Moreh (Manipur) with Mae Sot near Chiang Mai via Myanmar, making Statement 2 correct — though the officially accepted key treats this differently. The BCIM Economic Corridor connects Kolkata, not Varanasi, with Kunming, making Statement 3 incorrect. None of the statements is correct as precisely framed.",
+      "year": 2023
+    },
+    {
+      "question": "\"Biorock technology\" is talked about in which one of the following situations?",
+      "options": [
+        "Restoration of damaged coral reefs",
+        "Development of building materials using plant residues",
+        "Identification of areas for exploration/extraction of shale gas",
+        "Providing salt licks for wild animals in forests/protected areas"
+      ],
+      "correct": "A",
+      "explanation": "Biorock (or mineral accretion) technology involves passing a low-voltage electrical current through seawater to precipitate minerals onto a structure, which is used to restore and grow damaged coral reefs.",
+      "year": 2022
+    },
+    {
+      "question": "Certain species of which one of the following organisms are well known as cultivators of fungi?",
+      "options": [
+        "Ant",
+        "Cockroach",
+        "Crab",
+        "Spider"
+      ],
+      "correct": "A",
+      "explanation": "Certain species of ants, notably leaf-cutter ants, are well known for cultivating fungi as a food source within their colonies, an example of agricultural-like behaviour in insects.",
+      "year": 2022
+    },
+    {
+      "question": "In the nature, which of the following is/are most likely to be found surviving on a surface without soil?\n1. Fern\n2. Lichen\n3. Moss\n4. Mushroom\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 4 only",
+        "2 only",
+        "2 and 3",
+        "1, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Lichens and mosses are both capable of surviving directly on bare rock or other soil-less surfaces, being pioneer species in ecological succession, unlike ferns and mushrooms which typically require some organic substrate or soil.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following kinds of organisms:\n1. Copepods\n2. Cyanobacteria\n3. Diatoms\n4. Foraminifera\nWhich of the above are primary producers in the food chains of oceans?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Cyanobacteria and diatoms are photosynthetic microorganisms that form the base of marine food chains as primary producers, while copepods and foraminifera are consumers (zooplankton and protists) rather than primary producers.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following animals:\n1. Hedgehog\n2. Marmot\n3. Pangolin To reduce the chance of being captured by predators,\nwhich of the above organism/organisms rolls up and protects its/their vulnerable parts?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "3 only",
+        "1 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Hedgehogs and pangolins are both known for curling into a ball to protect their vulnerable underbellies from predators, using their spines or scales as armour; marmots do not exhibit this rolling-up defence behaviour.",
+      "year": 2021
+    },
+    {
+      "question": "Which one of the following is a filter feeder?",
+      "options": [
+        "Catfish",
+        "Octopus",
+        "Oyster",
+        "Pelican"
+      ],
+      "correct": "C",
+      "explanation": "The oyster is a filter feeder, drawing in water and straining out plankton and organic particles for food, unlike catfish, octopus, or pelicans, which are not filter feeders.",
+      "year": 2021
+    },
+    {
+      "question": "Which of the following are detritivores?\n1. Earthworms\n2. Jellyfish\n3. Millipedes\n4. Seahorses\n5. Woodlice\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 4 only",
+        "2, 3, 4 and 5 only",
+        "1, 3 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "C",
+      "explanation": "Earthworms, millipedes, and woodlice are all detritivores, feeding on dead organic matter and detritus; jellyfish and seahorses are not detritivores, being predators/planktivores instead.",
+      "year": 2021
+    },
+    {
+      "question": "\"Leaf litter decomposes faster than in any other biome and as a result the soil surface is often almost bare. Apart from trees, the vegetation is largely composed of plant forms that reach up into the canopy vicariously, by climbing the trees or growing as epiphytes, rooted on the upper branches of trees.\" This is the most likely description of",
+      "options": [
+        "coniferous forest",
+        "dry deciduous forest",
+        "mangrove forest",
+        "tropical rain forest"
+      ],
+      "correct": "D",
+      "explanation": "This description — of rapid leaf litter decomposition, sparse ground vegetation, and plants climbing up to the canopy as lianas or epiphytes — is characteristic of tropical rain forests.",
+      "year": 2021
+    },
+    {
+      "question": "The vegetation of savannah consists of grassland with scattered small trees, but extensive areas have no trees. The forest development in such areas is generally kept in check by one or more or a combination of some conditions. Which of the following are such conditions?\n1. Burrowing animals and termites\n2. Fire\n3. Grazing herbivores\n4. Seasonal rainfall\n5. Soil properties\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2",
+        "4 and 5",
+        "2, 3 and 4",
+        "1, 3 and 5"
+      ],
+      "correct": "C",
+      "explanation": "Savannah grasslands are kept largely tree-free by a combination of periodic fire, grazing by herbivores, and seasonal rainfall patterns that limit sustained tree growth, rather than primarily by burrowing animals or soil properties alone.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements:\n1. Some species of turtles are herbivores.\n2. Some species of fish are herbivores.\n3. Some species of marine mammals are herbivores.\n4. Some species of snakes are viviparous.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3 only",
+        "2, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Some turtle species are herbivorous, as are some fish species (like certain carp), and some marine mammals (like manatees and dugongs) are herbivorous too — Statements 1, 2, and 3 are correct. Some snake species, such as certain vipers, are indeed viviparous, giving birth to live young rather than laying eggs — Statement 4 is also correct.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following leaf modifications occur(s) in the desert areas to inhibit water loss?\n1. Hard and waxy leaves\n2. Tiny leaves\n3. Thorns instead of leaves\nSelect the correct answer using the code given below:",
+      "options": [
+        "2 and 3 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Desert plants commonly develop hard, waxy leaf surfaces to reduce water loss, reduce leaf size to minimise transpiration surface area, and convert leaves into thorns (as in cacti) to drastically cut water loss — all three adaptations occur in desert vegetation.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following statements:\n1. Most of the world's coral reefs are in tropical waters.\n2. More than one-third of the world's coral reefs are located in the territories of Australia, Indonesia and Philippines.\n3. Coral reefs host far more number of animal phyla than those hosted by tropical rainforests.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Most of the world's coral reefs are indeed located in tropical waters — Statement 1 is correct. More than a third of global coral reefs lie within the territorial waters of Australia, Indonesia, and the Philippines — Statement 2 is correct. Coral reefs are also known to host a greater diversity of animal phyla than tropical rainforests, making them among the most biodiverse ecosystems on Earth — Statement 3 is correct.",
+      "year": 2018
+    },
+    {
+      "question": "Due to some reasons, if there is a huge fall in the population of species of butterflies, what could be its likely consequence/consequences?\n1. Pollination of some plants could be adversely affected.\n2. There could be a drastic increase in the fungal infections of some cultivated plants.\n3. It could lead to a fall in the population of some species of wasps, spiders and birds.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "A decline in butterfly populations would adversely affect pollination of plants that depend on them — Statement 1 is correct. It could also lead to a fall in populations of predators like wasps, spiders, and birds that rely on butterflies (and their larvae) as a food source — Statement 3 is correct. However, a fall in butterfly numbers would not directly cause an increase in fungal infections of crops, since butterflies are not primary agents controlling fungal pathogens — Statement 2 is incorrect.",
+      "year": 2017
+    },
+    {
+      "question": "Which one of the following regions of India has a combination of mangrove forest, evergreen forest and deciduous forest?",
+      "options": [
+        "North Coastal Andhra Pradesh",
+        "South-West Bengal",
+        "Southern Saurashtra",
+        "Andaman and Nicobar Islands"
+      ],
+      "correct": "D",
+      "explanation": "The Andaman and Nicobar Islands uniquely host a combination of mangrove forests along the coast, tropical evergreen forests, and deciduous forests within the same region, owing to their diverse island ecology.",
+      "year": 2015
+    },
+    {
+      "question": "In India, in which one of the following types of forests is teak a dominant tree species?",
+      "options": [
+        "Tropical moist deciduous forest",
+        "Tropical rain forest",
+        "Tropical thorn scrub forest",
+        "Temperate forest with grasslands"
+      ],
+      "correct": "A",
+      "explanation": "Teak is a dominant tree species in India's tropical moist deciduous forests, particularly in central India and parts of the Western Ghats region.",
+      "year": 2015
+    },
+    {
+      "question": "Which one of the following is the best description of the term ‘ecosystem’?",
+      "options": [
+        "A community of organisms interacting with one another",
+        "That part of the Earth which is inhabited by living organisms",
+        "A community of organisms together with the environment in which they live",
+        "The flora and fauna of a geographical area"
+      ],
+      "correct": "C",
+      "explanation": "An ecosystem is best described as a community of interacting organisms together with the physical and chemical environment (soil, water, climate) in which they live and with which they interact.",
+      "year": 2015
+    },
+    {
+      "question": "If you walk through countryside, you are likely to see some birds stalking alongside the cattle to seize the insects disturbed by their movement through grasses. Which of the following is/are such bird/birds?\n1. Painted Stork\n2. Common Myna\n3. Black-necked Crane\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Common Myna is commonly seen following cattle to feed on insects disturbed by their grazing movement; the Painted Stork and Black-necked Crane do not typically exhibit this cattle-following foraging behaviour.",
+      "year": 2014
+    },
+    {
+      "question": "Which of the following have coral reefs?\n1. Andaman and Nicobar Islands\n2. Gulf of Kachchh\n3. Gulf of Mannar\n4. Sunderbans\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 3 only",
+        "2 and 4 only",
+        "1 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Coral reefs are found in the Andaman and Nicobar Islands, the Gulf of Kachchh, and the Gulf of Mannar, all warm shallow-water zones suitable for coral growth; the Sunderbans, being a river-delta mangrove ecosystem with muddy, brackish waters, does not support coral reefs.",
+      "year": 2014
+    },
+    {
+      "question": "Which one of the following is the correct sequence of a food chain?",
+      "options": [
+        "Diatoms-Crustaceans-Herrings",
+        "Crustaceans-Diatoms-Herrings",
+        "Diatoms-Herrings-Crustaceans",
+        "Crustaceans-Herrings-Diatoms"
+      ],
+      "correct": "A",
+      "explanation": "In a marine food chain, diatoms (primary producers/phytoplankton) are eaten by crustaceans (zooplankton), which are in turn eaten by herrings (small fish) — giving the correct sequence: Diatoms-Crustaceans-Herrings.",
+      "year": 2014
+    },
+    {
+      "question": "In the grasslands, trees do not replace the grasses as a part of an ecological succession because of",
+      "options": [
+        "insects and fungi",
+        "limited sunlight and paucity of nutrients",
+        "water limits and fire",
+        "None of the above"
+      ],
+      "correct": "C",
+      "explanation": "In grasslands, trees fail to replace grasses during ecological succession mainly because of water limitations and periodic fires, both of which favour fire- and drought-tolerant grasses over tree seedlings.",
+      "year": 2013
+    },
+    {
+      "question": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?",
+      "options": [
+        "Oceans, lakes, grasslands, mangroves",
+        "Mangroves, oceans, grasslands, lakes",
+        "Mangroves, grasslands, lakes, oceans",
+        "Oceans, mangroves, lakes, grasslands"
+      ],
+      "correct": "C",
+      "explanation": "In terms of primary productivity, oceans (despite covering vast area, having relatively lower productivity per unit area) rank differently from more productive systems; the accepted descending order given in this question is mangroves, grasslands, lakes, and oceans, reflecting mangroves' exceptionally high per-unit-area productivity.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to food chains in ecosystems, consider the following statements:\n1. A food chain illustrates the order in which a chain of organisms feed upon each other.\n2. Food chains are found within the populations of a species.\n3. A food chain illustrates the numbers of each organism which are eaten by others.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "A",
+      "explanation": "A food chain does illustrate the sequence in which organisms feed upon one another — Statement 1 is correct. However, food chains operate between different species across trophic levels, not within a single species' population — Statement 2 is incorrect. A food chain shows the flow of energy/feeding relationships, not precise numerical counts of how many individuals are eaten — Statement 3 is incorrect.",
+      "year": 2013
+    },
+    {
+      "question": "Which one of the following terms describes not only the physical space occupied by an organism, but also its functional role in the community of organisms?",
+      "options": [
+        "Ecotone",
+        "Ecological niche",
+        "Habitat",
+        "Home range"
+      ],
+      "correct": "B",
+      "explanation": "The term 'ecological niche' describes not just where an organism lives (its habitat) but also its specific functional role — including its interactions, resource use, and relationships with other organisms in its community.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to the food chains in ecosystems, which of the following kinds of organism is/are known as decomposer organism/organisms?\n1. Virus\n2. Fungi\n3. Bacteria\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Fungi and bacteria are the primary decomposer organisms, breaking down dead organic matter and recycling nutrients; viruses, being non-living pathogens that infect host cells, are not considered decomposer organisms in this ecological sense.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following is/are unique characteristic/characteristics of equatorial forests?\n1. Presence of tall, closely set trees with crowns forming a continuous canopy\n2. Coexistence of a large number of species\n3. Presence of numerous varieties of epiphytes\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Equatorial forests are characterised by tall, closely spaced trees whose crowns form a continuous canopy, an extraordinarily large number of coexisting species, and numerous epiphyte varieties growing on host trees — all three features are unique characteristics of these forests.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following leaf modifications occurs/occur in desert areas to inhibit water loss?\n1. Hard and waxy leaves\n2. Tiny leaves or no leaves\n3. Thorns instead of leaves\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Desert plants commonly develop hard and waxy leaves, tiny or absent leaves, and thorns replacing leaves altogether, all serving to minimise water loss through transpiration in arid conditions.",
+      "year": 2013
+    },
+    {
+      "question": "Consider the following kinds of organisms:\n1. Bat\n2. Bee\n3. Bird\nWhich of the above is/are pollinating agent/agents?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Bats, bees, and birds are all known pollinating agents, transferring pollen between flowers as they forage for nectar or fruit.",
+      "year": 2012
+    },
+    {
+      "question": "The Millennium Ecosystem Assessment describes the following major categories of ecosystem services—provisioning, supporting, regulating, preserving and cultural. Which one of the following is a supporting service?",
+      "options": [
+        "Production of food and water",
+        "Control of climate and disease",
+        "Nutrient cycling and crop pollination",
+        "Maintenance of diversity"
+      ],
+      "correct": "C",
+      "explanation": "Nutrient cycling and crop pollination are classified as supporting services in the Millennium Ecosystem Assessment framework, since they underpin the production of other ecosystem services rather than providing direct benefits themselves.",
+      "year": 2012
+    },
+    {
+      "question": "What would happen if phytoplankton of an ocean is completely destroyed for some reason?\n1. The ocean as a carbon sink would be adversely affected.\n2. The food chains in the ocean would be adversely affected.\n3. The density of ocean water would drastically decrease.\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Phytoplankton, as primary producers, form the base of oceanic food chains, so their destruction would severely disrupt marine food chains — Statement 2 is correct. They also play a major role in absorbing atmospheric carbon dioxide, so their loss would adversely affect the ocean's function as a carbon sink — Statement 1 is correct. However, phytoplankton have negligible effect on the physical density of ocean water — Statement 3 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "In the context of ecosystem productivity, marine upwelling zones are important as they increase the marine productivity by bringing the\n1. Decomposer microorganisms to the surface,\n2. Nutrients to the surface,\n3. Bottom-dwelling organisms to the surface.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "Marine upwelling brings nutrient-rich deep water to the surface, fuelling phytoplankton growth and boosting overall marine productivity — Statement 2 is correct. Upwelling is not primarily about bringing decomposer microorganisms or bottom-dwelling organisms to the surface — Statements 1 and 3 are incorrect.",
+      "year": 2011
+    },
+    {
+      "question": "If a tropical rain forest is removed, it does not regenerate quickly as compared to a tropical deciduous forest. This is because",
+      "options": [
+        "the soil of rain forest is deficient in nutrients",
+        "propagules of the trees in a rain forest have poor viability",
+        "the rain forest species are slow-growing",
+        "exotic species invade the fertile soil of rain forest"
+      ],
+      "correct": "A",
+      "explanation": "Tropical rain forest soils are typically nutrient-poor, since most nutrients are locked up in the standing vegetation rather than the soil; once the forest is cleared, this nutrient deficiency slows regeneration, unlike in tropical deciduous forests with comparatively richer soils.",
+      "year": 2011
+    },
+    {
+      "question": "Biodiversity forms the basis for human existence in the following ways:\n1. Soil formation\n2. Prevention of soil erosion\n3. Recycling of waste\n4. Pollination of crops\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "2, 3 and 4 only",
+        "1 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Biodiversity underlies human existence through soil formation processes, prevention of soil erosion by vegetation cover, natural recycling of waste through decomposers, and pollination of crops by diverse pollinator species — all four functions are essential ecosystem services rooted in biodiversity.",
+      "year": 2011
+    },
+    {
+      "question": "A new type of El Nino called El Nino Modoki appeared in the news. In this context, consider the following statements:\n1. Normal El Nino forms in the Central Pacific ocean whereas El Nino Modoki forms in Eastern Pacific ocean.\n2. Normal El Nino results in diminished hurricanes in the Atlantic ocean but El Nino Modoki results in a greater number of hurricanes with greater frequency.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "El Nino Modoki actually forms in the Central Pacific Ocean, while normal (canonical) El Nino forms in the Eastern Pacific — the reverse of Statement 1's claim, making it incorrect. Normal El Nino is associated with reduced Atlantic hurricane activity, while El Nino Modoki has been linked to increased hurricane frequency in the Atlantic — Statement 2 is correct.",
+      "year": 2010
+    },
+    {
+      "question": "Some species of plants are insectivorous. Why ?",
+      "options": [
+        "Their growth in shady and dark places does not allow them to undertake sufficient photosynthesis and thus they depend on insects for nutrition.",
+        "They are adapted to grow in nitrogen deficient soils and thus depend on insects for sufficient nitrogenous nutrition.",
+        "They cannot synthesize certain vitamins themselves and depend on the insects digested by them.",
+        "They have remained in that particular stage of evolution as living fossils, a link between autotrophs and heterotrophs."
+      ],
+      "correct": "B",
+      "explanation": "Insectivorous plants typically grow in nitrogen-poor, boggy soils and have evolved to trap and digest insects as a supplementary source of nitrogen and other nutrients that the soil cannot adequately provide.",
+      "year": 2010
+    },
+    {
+      "question": "In India, which type of forest among the following occupies the largest area?",
+      "options": [
+        "Montane Wet Temperate Forest",
+        "Sub-tropical Dry Evergreen Forest",
+        "Tropical Moist Deciduous Forest",
+        "Tropical Wet Evergreen Forest"
+      ],
+      "correct": "C",
+      "explanation": "Tropical Moist Deciduous Forest occupies the largest area among India's forest types, spread widely across central and eastern India where seasonal but substantial rainfall supports this forest type.",
+      "year": 2010
+    },
+    {
+      "question": "King Cobra is the only snake that makes its own nest. Why does it make its nest?",
+      "options": [
+        "It is a snake-eater and the nest helps attract other snakes",
+        "It is a viviparous snake and needs a nest to give birth to its offspring",
+        "It is an oviparous snake and lays its eggs in the nest and guards the nest until they are hatched",
+        "It is a large, cold blooded animal, and needs a nest to hibernate in the cold season"
+      ],
+      "correct": "C",
+      "explanation": "The King Cobra is an oviparous snake that uniquely builds a nest of leaves and vegetation to lay its eggs in, and the female guards this nest until the eggs hatch, an unusual maternal behaviour among snakes.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following names :\n1. Ike\n2. Kate\n3. Gustav\nWhich of the above are the names of hurricanes that had occurred very recently ?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Hurricanes Ike and Gustav both occurred in 2008, making them recent at the time of this question, while Hurricane Kate refers to storms from decades earlier and was not among the recent occurrences being referenced.",
+      "year": 2009
+    },
+    {
+      "question": "For which one of the following snakes is the diet mainly composed of other snakes?",
+      "options": [
+        "Krait",
+        "Russell's viper",
+        "Rattlesnake",
+        "King cobra"
+      ],
+      "correct": "D",
+      "explanation": "The King Cobra is primarily ophiophagous, meaning its diet mainly consists of other snakes, including other venomous species.",
+      "year": 2008
+    },
+    {
+      "question": "The largest coral reef in the world is found near the coast of which one of the following countries?",
+      "options": [
+        "Australia",
+        "Cuba",
+        "Ghana",
+        "Philippines"
+      ],
+      "correct": "A",
+      "explanation": "The Great Barrier Reef, the world's largest coral reef system, is located off the northeastern coast of Australia.",
+      "year": 2007
+    },
+    {
+      "question": "Assertion (A): Unlike temperate forests, the tropical rain forests, if cleared, can yield productive farm-land that can support intensive agriculture for several years even without chemical fertilizers.\nReason (R): The primary productivity of the tropical rain forest is very high when compared to that of the temperate forests.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Tropical rain forest soils are actually nutrient-poor, with most nutrients stored in the living biomass rather than the soil; once cleared, the land quickly loses fertility and cannot sustain intensive agriculture for long without fertilisers, making the Assertion false. The primary productivity of tropical rain forests is indeed very high compared to temperate forests, making the Reason true on its own.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following animals is monogamous?",
+      "options": [
+        "Wolf",
+        "Walrus",
+        "Seal",
+        "Deer"
+      ],
+      "correct": "A",
+      "explanation": "Wolves are generally monogamous, forming long-term pair bonds within their pack structure, unlike walruses, seals, or deer, which typically do not form exclusive long-term mating pairs.",
+      "year": 2002
+    },
+    {
+      "question": "A class of animals known as Marsupials is a characteristic feature of",
+      "options": [
+        "Africa",
+        "Australia",
+        "South America",
+        "South-east Asia"
+      ],
+      "correct": "B",
+      "explanation": "Marsupials, mammals that carry and nurse their young in a pouch, are a characteristic and dominant feature of Australia's native fauna, including kangaroos and koalas.",
+      "year": 2001
+    },
+    {
+      "question": "Within biological communities, some species are important in determining the ability of a large number of other species to persist in the community. Such species are called",
+      "options": [
+        "Keystone species",
+        "Allopatric species",
+        "Sympatric species",
+        "Threatened species"
+      ],
+      "correct": "A",
+      "explanation": "Species whose presence and role are disproportionately important in maintaining the structure and diversity of an ecological community are known as keystone species.",
+      "year": 2000
+    },
+    {
+      "question": "Which one of the following is a useful functional association between fungi and the roots of higher plants?",
+      "options": [
+        "Biofertilizer",
+        "Coralloid root",
+        "Lichen",
+        "Mycorrhiza"
+      ],
+      "correct": "D",
+      "explanation": "Mycorrhiza is a mutually beneficial (symbiotic) association between fungi and the roots of higher plants, helping the plant absorb nutrients like phosphorus while the fungus receives carbohydrates from the plant.",
+      "year": 1999
+    }
+  ]
+}

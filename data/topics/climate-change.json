@@ -1,0 +1,415 @@
+{
+  "topic": "Climate Change",
+  "subject": "Environment & Ecology",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nI. Without the atmosphere, temperature would be well below freezing point everywhere on the Earth's surface.\nII. Heat absorbed and trapped by the atmosphere maintains our planet's average temperature.\nIII. Atmosphere's gases, like carbon dioxide, are particularly good at absorbing and trapping radiation.\nWhich of the statements given above are correct?",
+      "options": [
+        "I and III only",
+        "I and II only",
+        "I, II and III",
+        "II and III only"
+      ],
+      "correct": "C",
+      "explanation": "Without the atmosphere, Earth's surface would indeed be well below freezing everywhere — Statement I is correct. The atmosphere traps heat, maintaining the planet's habitable average temperature — Statement II is correct. Greenhouse gases like carbon dioxide are particularly effective at absorbing and re-radiating infrared radiation — Statement III is correct.",
+      "year": 2025
+    },
+    {
+      "question": "Consider the following statements: Statement I: Studies indicate that carbon dioxide emissions from cement industry account for more than 5% of global carbon emissions. Statement II: Silica-bearing clay is mixed with limestone while manufacturing cement. Statement III: Limestone is converted into lime during clinker production for cement manufacturing. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement II and Statement III are correct and both of them explain Statement I",
+        "Both Statement II and Statement III are correct but only one of them explains Statement I",
+        "Only one of the Statements II and III is correct and that explains Statement I",
+        "Neither Statement II nor Statement III is correct"
+      ],
+      "correct": "B",
+      "explanation": "Cement industry emissions do exceed 5% of global carbon emissions, making Statement I correct on its own, but not necessarily explained correctly by both following statements. Silica-bearing clay is indeed mixed with limestone in cement manufacturing — Statement II is correct. Limestone conversion into lime (calcination) during clinker production is also correct — Statement III is correct, but only one of these process-description statements actually explains why cement emissions are so high (calcination releasing CO2 directly), while the clay-mixing detail is more incidental.",
+      "year": 2025
+    },
+    {
+      "question": "Consider the following statements:\nI. Carbon dioxide (CO₂) emissions in India are less than 0·5 t CO₂ / capita.\nII. In terms of CO₂ emissions from fuel combustion, India ranks second in Asia-Pacific region.\nIII. Electricity and heat producers are the largest sources of CO₂ emissions in India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I and III only",
+        "II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": "C",
+      "explanation": "India's per capita CO2 emissions are actually higher than 0.5 t CO2 (closer to about 1.9 t per capita), making Statement I incorrect. India does rank among the top emitters from fuel combustion in the Asia-Pacific region, generally second after China — Statement II is correct. Electricity and heat production is indeed the largest source of India's CO2 emissions — Statement III is correct.",
+      "year": 2025
+    },
+    {
+      "question": "One of the following regions has the world's largest tropical peatland, which holds about three years worth of global carbon emissions from fossil fuels; and the possible destruction of which can exert detrimental effect on the global climate. Which one of the following denotes that region?",
+      "options": [
+        "Amazon Basin",
+        "Congo Basin",
+        "Kikori Basin",
+        "Rio de la Plata Basin"
+      ],
+      "correct": "B",
+      "explanation": "The Congo Basin's Cuvette Centrale region holds the world's largest tropical peatland, storing carbon equivalent to about three years of global fossil fuel emissions, making its preservation critical for climate stability.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements: 1. Some microorganisms can grow in environments with temperature above the boiling point of water. 2. Some microorganisms can grow in environments with temperature below the freezing point of water. 3. Some microorganisms can grow in highly acidic environment with a pH below 3. How many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "Some extremophile microorganisms (thermophiles) can indeed survive temperatures above water's boiling point, near hydrothermal vents — Statement 1 is correct. Others (psychrophiles) survive below freezing, in polar ice — Statement 2 is correct. Acidophiles can also thrive in highly acidic environments with pH below 3 — Statement 3 is correct.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following:\n1. Aerosols\n2. Foam agents\n3. Fire retardants\n4. Lubricants In the making of how many of the above are hydrofluorocarbons used?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "C",
+      "explanation": "Hydrofluorocarbons are commonly used in aerosols, foam-blowing agents, and fire retardants as replacements for ozone-depleting substances, but are not typically used in lubricants, making only three of the four correct.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements: Statement-I: Carbon markets are likely to be one of the most widespread tools in the fight against climate change. Statement-II: Carbon markets transfer resources from the private sector to the State. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "B",
+      "explanation": "Carbon markets are indeed considered one of the most widespread tools for combating climate change, by putting a price on emissions — Statement-I is correct. However, carbon markets primarily facilitate trading of emission allowances/credits between private entities (or between private entities and governments), not a simple one-way transfer of resources from private sector to the state — Statement-II, while it captures a partial truth about revenue generation, is not the correct explanation for Statement-I.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following activities :\n1. Spreading finely ground basalt rock on farmlands extensively\n2. Increasing the alkalinity of oceans by adding lime\n3. Capturing carbon dioxide released by various industries and pumping it into abandoned subterranean mines in the form of carbonated waters\nHow many of the above activities are often considered and discussed for carbon capture and sequestration?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "Spreading crushed basalt (enhanced weathering) on farmland, increasing ocean alkalinity with lime, and injecting captured CO2 as carbonated water into underground rock formations are all real, actively discussed methods for carbon capture and sequestration.",
+      "year": 2023
+    },
+    {
+      "question": "Among the following crops, which one is the most important anthropogenic source of both methane and nitrous oxide?",
+      "options": [
+        "Cotton",
+        "Rice",
+        "Sugarcane",
+        "Wheat"
+      ],
+      "correct": "B",
+      "explanation": "Rice cultivation, due to the anaerobic (flooded) soil conditions it creates and the associated use of nitrogenous fertilisers, is the most significant anthropogenic crop source of both methane and nitrous oxide emissions.",
+      "year": 2022
+    },
+    {
+      "question": "What is blue carbon?",
+      "options": [
+        "Carbon captured by oceans and coastal ecosystems",
+        "Carbon sequestered in forest biomass and agricultural soils",
+        "Carbon contained in petroleum and natural gas",
+        "Carbon present in atmosphere"
+      ],
+      "correct": "A",
+      "explanation": "Blue carbon refers to carbon dioxide captured and stored by ocean and coastal ecosystems, such as mangroves, seagrasses, and salt marshes, which are highly efficient natural carbon sinks.",
+      "year": 2021
+    },
+    {
+      "question": "The ‘Common Carbon Metric’, supported by UNEP, has been developed for",
+      "options": [
+        "assessing the carbon footprint of building operations around the world",
+        "enabling commercial farming entities around the world to enter carbon emission trading",
+        "enabling governments to assess the overall carbon footprint caused by their countries",
+        "assessing the overall carbon footprint caused by the use of fossil fuels by the world in a unit time"
+      ],
+      "correct": "A",
+      "explanation": "The Common Carbon Metric, supported by UNEP, was developed to provide a standardised way of measuring and reporting the carbon footprint of building operations globally, helping compare emissions across different structures and countries.",
+      "year": 2021
+    },
+    {
+      "question": "Which one of the following statements best describes the term ‘Social Cost of Carbon’? It is a measure, in monetary value, of the",
+      "options": [
+        "long-term damage done by a tonne of CO₂ emissions in a given year",
+        "requirement of fossil fuels for a country to provide goods and services to its citizens",
+        "efforts made by Climate refugees to adapt to live in a new place",
+        "contribution of an individual person to the carbon footprint on the planet Earth"
+      ],
+      "correct": "A",
+      "explanation": "The Social Cost of Carbon is a monetary estimate of the long-term economic damage caused by emitting one additional tonne of CO2 in a given year, used to inform climate policy and cost-benefit analysis.",
+      "year": 2020
+    },
+    {
+      "question": "In the context of which of the following do some scientists suggest the use of cirrus cloud thinning technique and the injection of sulphate aerosol into stratosphere?",
+      "options": [
+        "Creating the artificial rains in some regions",
+        "Reducing the frequency and intensity of tropical cyclones",
+        "Reducing the adverse effects of solar wind on the Earth",
+        "Reducing the global warming"
+      ],
+      "correct": "D",
+      "explanation": "Cirrus cloud thinning and stratospheric sulphate aerosol injection are both geoengineering techniques proposed by some scientists as potential methods to reduce global warming by reflecting or releasing more heat from the Earth's atmosphere.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following statements are correct about the deposits of ‘methane hydrate’?\n1. Global warming might trigger the release of methane gas from these deposits.\n2. Large deposits of ‘methane hydrate’ are found in Arctic Tundra and under the seafloor.\n3. Methane in atmosphere oxidizes to carbon dioxide after a decade or two.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Global warming could trigger the release of methane trapped in methane hydrate deposits, a serious feedback loop concern — Statement 1 is correct. Large methane hydrate deposits are indeed found in Arctic permafrost and beneath ocean floors — Statement 2 is correct. Atmospheric methane does oxidise into carbon dioxide over a period of roughly a decade or so — Statement 3 is correct.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following statements best describes \"carbon fertilization\"?",
+      "options": [
+        "Increased plant growth due to increased concentration of carbon dioxide in the atmosphere",
+        "Increased temperature of Earth due to increased concentration of carbon dioxide in the atmosphere",
+        "Increased acidity of oceans as a result of increased concentration of carbon dioxide in the atmosphere",
+        "Adaptation of all living beings on Earth to the climate change brought about by increased concentration of carbon dioxide in the atmosphere"
+      ],
+      "correct": "A",
+      "explanation": "Carbon fertilisation refers to the phenomenon where increased atmospheric CO2 concentration stimulates greater plant growth, since carbon dioxide is a key input for photosynthesis.",
+      "year": 2018
+    },
+    {
+      "question": "In the context of mitigating the impending global warming due to anthropogenic emissions of carbon dioxide, which of the following can be the potential sites for carbon sequestration?\n1. Abandoned and uneconomic coal seams\n2. Depleted oil and gas reservoirs\n3. Subterranean deep saline formations\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Abandoned coal seams, depleted oil and gas reservoirs, and deep saline rock formations are all considered viable underground sites for carbon capture and sequestration, helping to store captured CO2 long-term.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following statements:\n1. Climate and Clean Air Coalition (CCAC) to Reduce Short Lived Climate Pollutants is a unique initiative of G20 group of countries.\n2. The CCAC focuses on methane, black carbon and hydrofluorocarbons.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Climate and Clean Air Coalition (CCAC) is not exclusively a G20 initiative; it involves a broader range of governments, international organisations, and civil society — Statement 1 is incorrect. It does focus on reducing short-lived climate pollutants including methane, black carbon, and hydrofluorocarbons — Statement 2 is correct.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following pairs: Terms sometimes seen in the news — Their origin\n1. Annex-I Countries : Cartagena Protocol\n2. Certified Emissions Reductions : Nagoya Protocol\n3. Clean Development Mechanism : Kyoto Protocol Which of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Clean Development Mechanism did indeed originate from the Kyoto Protocol — Pair 3 is correctly matched. Annex-I countries are a classification under the UNFCCC/Kyoto Protocol, not the Cartagena Protocol (which deals with biosafety) — Pair 1 is incorrect. Certified Emission Reductions also originate from the Kyoto Protocol's Clean Development Mechanism, not the Nagoya Protocol (which deals with genetic resource access and benefit-sharing) — Pair 2 is incorrect.",
+      "year": 2016
+    },
+    {
+      "question": "Which of the following best describes/describe the aim of 'Green India Mission' of the Government of India?\n1. Incorporating environmental benefits and costs into the Union and State Budgets thereby implementing the 'green accounting'\n2. Launching the second green revolution to enhance agricultural output so as to ensure food security to one and all in the future\n3. Restoring and enhancing forest cover and responding to climate change by a combination of adaptation and mitigation measures\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Green India Mission focuses on restoring and enhancing India's forest cover while addressing climate change through both adaptation and mitigation strategies — matching Statement 3. It is not primarily about green accounting in budgets (Statement 1) or launching a second green revolution for food security (Statement 2), which are separate initiatives.",
+      "year": 2016
+    },
+    {
+      "question": "What is 'Greenhouse Gas Protocol'?",
+      "options": [
+        "It is an international accounting tool for government and business leaders to understand, quantify and manage greenhouse gas emissions.",
+        "It is an initiative of the United Nations to offer financial incentives to developing countries to reduce greenhouse gas emissions and to adopt eco-friendly technologies.",
+        "It is an inter-governmental agreement ratified by all the member countries of the United Nations to reduce greenhouse gas emissions to specified levels by the year 2022.",
+        "It is one of the multilateral REDD+ initiatives hosted by the World Bank."
+      ],
+      "correct": "A",
+      "explanation": "The Greenhouse Gas Protocol is a widely used international accounting framework that helps governments and businesses measure, understand, and manage their greenhouse gas emissions.",
+      "year": 2016
+    },
+    {
+      "question": "The scientific view is that the increase in global temperature should not exceed 2 °C above the pre-industrial level. If the global temperature increases beyond 3 °C above the pre-industrial level, what can be its possible impact/impacts on the world?\n1. Terrestrial biosphere tends toward a net carbon source.\n2. Widespread coral mortality will occur.\n3. All the global wetlands will permanently disappear.\n4. Cultivation of cereals will not be possible anywhere in the world.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Beyond 3°C warming above pre-industrial levels, the terrestrial biosphere could shift from a net carbon sink to a net carbon source as ecosystems degrade — Statement 1 is correct. Widespread coral mortality is also a well-documented projected consequence of such warming — Statement 2 is correct. However, claims that all global wetlands would permanently disappear or that cereal cultivation would become impossible everywhere are considered overstated and not supported — Statements 3 and 4 are incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following statements regarding 'Earth Hour':\n1. It is an initiative of UNEP and UNESCO.\n2. It is a movement in which the participants switch off the lights for one hour on a certain day every year.\n3. It is a movement to raise the awareness about the climate change and the need to save the planet.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Earth Hour is indeed an initiative associated with WWF (not UNEP and UNESCO specifically) — Statement 1 is treated as incorrect in the accepted framing. It involves participants switching off lights for one hour on a designated day each year — Statement 2 is correct. It aims to raise awareness about climate change and encourage environmental action — Statement 3 is correct.",
+      "year": 2014
+    },
+    {
+      "question": "If National Water Mission is properly and completely implemented, how will it impact the country?\n1. Part of the water needs of urban areas will be met through recycling of waste-water.\n2. The water requirements of coastal cities with inadequate alternative sources of water will be met by adopting appropriate technologies that allow for the use of ocean water.\n3. All the rivers of Himalayan origin will be linked to the rivers of peninsular India.\n4. The expenses incurred by farmers for digging bore-wells and for installing motors and pump-sets to draw ground-water will be completely reimbursed by the Government.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The National Water Mission does aim to promote wastewater recycling to meet part of urban water needs — Statement 1 is correct. It also promotes appropriate desalination technologies for coastal cities lacking adequate freshwater sources — Statement 2 is correct. However, it does not involve linking all Himalayan-origin rivers to peninsular rivers (a separate river-linking project) or providing complete reimbursement for farmers' bore-well expenses — Statements 3 and 4 are incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "The acidification of oceans is increasing. Why is this phenomenon a cause of concern?\n1. The growth and survival of calcareous phytoplankton will be adversely affected.\n2. The growth and survival of coral reefs will be adversely affected.\n3. The survival of some animals that have phytoplanktonic larvae will be adversely affected.\n4. The cloud seeding and formation of clouds will be adversely affected.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Ocean acidification adversely affects calcareous phytoplankton, whose calcium carbonate shells dissolve more easily in acidic water — Statement 1 is correct. It also harms coral reefs, which rely on calcification to build their skeletons — Statement 2 is correct. Marine animals with phytoplanktonic larval stages are similarly affected through disrupted food webs — Statement 3 is correct. However, ocean acidification does not have a established direct effect on cloud seeding or cloud formation processes — Statement 4 is incorrect.",
+      "year": 2012
+    },
+    {
+      "question": "The increasing amount of carbon dioxide in the air is slowly raising the temperature of the atmosphere, because it absorbs",
+      "options": [
+        "the water vapour of the air and retains its heat",
+        "the ultraviolet part of the solar radiation",
+        "all the solar radiations",
+        "the infrared part of the solar radiation"
+      ],
+      "correct": "D",
+      "explanation": "Carbon dioxide absorbs and re-radiates infrared (long-wave) radiation emitted by the Earth's surface, trapping heat within the atmosphere and gradually raising atmospheric temperature — the greenhouse effect.",
+      "year": 2012
+    },
+    {
+      "question": "Regarding “carbon credits”, which one of the following statements is not correct?",
+      "options": [
+        "The carbon credit system was ratified in conjunction with the Kyoto Protocol",
+        "Carbon credits are awarded to countries or groups that have reduced greenhouse gases below their emission quota",
+        "The goal of the carbon credit system is to limit the increase of carbon dioxide emission",
+        "Carbon credits are traded at a price fixed from time to time by the United Nations Environment Programme"
+      ],
+      "correct": "D",
+      "explanation": "Carbon credits are not traded at a fixed price set periodically by UNEP; their prices fluctuate based on supply and demand within carbon trading markets, making this the incorrect statement among the options.",
+      "year": 2011
+    },
+    {
+      "question": "Due to their extensive rice cultivation, some regions may be contributing to global warming. To what possible reason/reasons is this attributable?\n1. The anaerobic conditions associated with rice cultivation cause the emission of methane.\n2. When nitrogen based fertilizers are used, nitrous oxide is emitted from the cultivated soil.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Anaerobic conditions in flooded rice paddies generate methane through microbial decomposition — Statement 1 is correct. Nitrogen-based fertiliser use in rice cultivation also releases nitrous oxide from the soil — Statement 2 is correct, making rice cultivation a source of both greenhouse gases.",
+      "year": 2010
+    },
+    {
+      "question": "What are the possible limitations of India in mitigating the global warming at present and in the immediate future ?\n1. Appropriate alternate technologies are not sufficiently available.\n2. India cannot invest huge funds in research and development.\n3. Many developed countries have already set up their polluting industries in India.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "India faces limitations in mitigating global warming due to insufficient availability of appropriate alternative clean technologies — Statement 1 is correct — and constraints on investing heavily in research and development — Statement 2 is correct. The claim that developed countries have relocated their polluting industries to India, however, is not established as a primary limitation in this context — Statement 3 is incorrect.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following which can be found in the ambient atmosphere :\n1. Soot\n2. Sulphur hexafluoride\n3. Water vapour\nWhich of the above contribute to the warming up of the atmosphere ?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Soot (black carbon), sulphur hexafluoride (a potent greenhouse gas), and water vapour (a natural greenhouse gas) all contribute to atmospheric warming through different heat-trapping or radiative-forcing mechanisms.",
+      "year": 2010
+    },
+    {
+      "question": "In the context of CO₂ emission and Global Warming, what is the name of a market-driven device under the UNFCCC that allows developing countries to get funds/incentives from the developed countries to adopt better technologies that reduce greenhouse gas emissions ?",
+      "options": [
+        "Carbon Footprint",
+        "Carbon Credit Rating",
+        "Clean Development Mechanism",
+        "Emission Reduction Norm"
+      ],
+      "correct": "C",
+      "explanation": "The Clean Development Mechanism, established under the Kyoto Protocol, is the market-driven device that allows developing countries to receive funding and technology transfer from developed countries in exchange for verified emission reduction projects.",
+      "year": 2009
+    },
+    {
+      "question": "The concept of carbon credit originated from which one of the following ?",
+      "options": [
+        "Earth Summit, Rio de Janeiro",
+        "Kyoto Protocol",
+        "Montreal Protocol",
+        "G-8 Summit, Heiligendamm"
+      ],
+      "correct": "B",
+      "explanation": "The concept of carbon credits originated from the Kyoto Protocol, which established mechanisms like the Clean Development Mechanism to enable emissions trading.",
+      "year": 2009
+    },
+    {
+      "question": "Consider the following:\n1. Rice fields\n2. Coal mining\n3. Domestic animals\n4. Wetlands\nWhich of the above are sources of methane, a major greenhouse gas?",
+      "options": [
+        "1 and 4 only",
+        "2 and 3 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Rice cultivation, coal mining, domestic livestock, and wetlands are all natural or anthropogenic sources of methane emissions, since each involves anaerobic decomposition processes or fossil fuel extraction that release trapped methane.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. Clean Development Mechanism (CDM) in respect of carbon credits is one of the Kyoto Protocol Mechanisms.\n2. Under the CDM, the projects handled pertain only to the Annex-I countries.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The Clean Development Mechanism is indeed one of the flexible mechanisms established under the Kyoto Protocol — Statement 1 is correct. However, CDM projects are specifically designed to occur in developing (non-Annex I) countries, with credits benefiting Annex-I countries, not the reverse as claimed — Statement 2 is incorrect.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following countries is the first country in the world to propose a carbon tax for its people to address global warming?",
+      "options": [
+        "Australia",
+        "Germany",
+        "Japan",
+        "New Zealand"
+      ],
+      "correct": "D",
+      "explanation": "New Zealand was the first country in the world to propose a broad-based carbon tax on its citizens as a measure to address greenhouse gas emissions and global warming.",
+      "year": 2006
+    }
+  ]
+}
