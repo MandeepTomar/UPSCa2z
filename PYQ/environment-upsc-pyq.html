@@ -395,6 +395,9 @@ mark {
   box-shadow: var(--sh-sm);
   scroll-margin-top: calc(var(--header-h) + 100px);
   transition: box-shadow 0.18s var(--ease), border-color 0.18s var(--ease), transform 0.18s var(--ease);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .topic-card:hover {
   box-shadow: var(--sh-card-hover);
@@ -435,6 +438,7 @@ mark {
 .tc-samples {
   border-top: 1px dashed var(--bdr); padding-top: 13px; margin-top: 2px;
   display: flex; flex-direction: column; gap: 10px;
+  flex: 1;
 }
 .tc-sample {
   display: flex; gap: 8px; font-size: 0.78rem; color: var(--txt2); line-height: 1.5;
@@ -540,7 +544,7 @@ mark {
   .topic-list {
     padding: 26px 40px 56px;
     display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;
-    align-items: start;
+    align-items: stretch;
   }
   .related-section, .breadcrumb, .quicknav { padding-left: 40px; padding-right: 40px; }
   .topic-card { padding: 22px; }
