@@ -826,6 +826,7 @@
 
     <button class="results-review-btn" onclick="startReview()">📖 Review All Answers</button>
     <button class="results-review-btn outline" onclick="retakeTest()">🔄 Retake Test</button>
+    <button class="results-review-btn outline" onclick="goHome()">🏠 Back to Home</button>
   </div>
 </div>
 
@@ -1460,6 +1461,14 @@ function startReview() {
   renderPalette();
   renderPaletteStats();
   renderQuestion(0);
+}
+
+function goHome() {
+  // Works no matter how deep the current page is nested (PYQ/, topics/, etc.)
+  const path = window.location.pathname;
+  const marker = '/UPSCa2z/';
+  const idx = path.indexOf(marker);
+  window.location.href = idx !== -1 ? path.slice(0, idx + marker.length) : '/';
 }
 
 function retakeTest() {
