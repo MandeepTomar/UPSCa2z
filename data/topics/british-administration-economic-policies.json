@@ -1,0 +1,451 @@
+{
+  "topic": "British Administration & Economic Policies",
+  "subject": "Modern History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to revenue collection by Cornwallis, consider the following statements:\n1. Under the Ryotwari Settlement of revenue collection, the peasants were exempted from revenue payment in case of bad harvests or natural calamities.\n2. Under the Permanent Settlement in Bengal, if the Zamindar failed to pay his revenues to the state, on or before the fixed date, he would be removed from his Zamindari.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Under the Ryotwari Settlement, peasants were not automatically exempted from revenue in bad harvests, so that statement is false; under the Permanent Settlement, a zamindar who failed to pay revenue by the fixed date could indeed lose his zamindari, which is true.",
+      "year": 2024
+    },
+    {
+      "question": "With reference to the history of India, consider the following pairs:\n1. Aurang — In-charge of treasury of the State\n2. Banian — Indian agent of the East India Company\n3. Mirasidar — Designated revenue payer to the State Which of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "'Banian' correctly refers to an Indian agent who worked for East India Company officials, and 'Mirasidar' correctly denotes a designated hereditary revenue-payer to the state in south Indian villages, both true; 'Aurang,' however, actually referred to a manufacturing or trading centre rather than an in-charge of the state treasury — so only pairs 2 and 3 hold.",
+      "year": 2020
+    },
+    {
+      "question": "Which of the following statements correctly explains the impact of Industrial Revolution on India during the first half of the nineteenth century?",
+      "options": [
+        "Indian handicrafts were ruined.",
+        "Machines were introduced in the Indian textile industry in large numbers.",
+        "Railway lines were laid in many parts of the country.",
+        "Heavy duties were imposed on the imports of British manufactures."
+      ],
+      "correct": "A",
+      "explanation": "The Industrial Revolution in Britain flooded India with cheap machine-made goods, ruining traditional Indian handicrafts and artisan industries.",
+      "year": 2020
+    },
+    {
+      "question": "Indigo cultivation in India declined by the beginning of the 20th century because of",
+      "options": [
+        "peasant resistance to the oppressive conduct of planters",
+        "its unprofitability in the world market because of new inventions",
+        "national leaders' opposition to the cultivation of indigo",
+        "Government control over the planters"
+      ],
+      "correct": "B",
+      "explanation": "Indigo cultivation declined by the early 20th century mainly because newly invented synthetic dyes in Europe made natural indigo unprofitable on the world market.",
+      "year": 2020
+    },
+    {
+      "question": "Wellesley established the Fort William College at Calcutta because",
+      "options": [
+        "he was asked by the Board of Directors at London to do so",
+        "he wanted to revive interest in oriental learning in India",
+        "he wanted to provide William Carey and his associates with employment",
+        "he wanted to train British civilians for administrative purpose in India"
+      ],
+      "correct": "D",
+      "explanation": "Wellesley established Fort William College in Calcutta (1800) primarily to train British civil servants in Indian languages and administration.",
+      "year": 2020
+    },
+    {
+      "question": "Regarding Wood's Dispatch, which of the following statements are true?\n1. Grants-in-Aid system was introduced.\n2. Establishment of universities was recommended.\n3. English as a medium of instruction at all levels of education was recommended.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Wood's Despatch (1854) introduced the grants-in-aid system for schools and recommended establishing universities in the Presidency towns, both true; it recommended vernacular languages, not English, as the medium at lower levels of education, so that statement is false — leaving only 1 and 2.",
+      "year": 2018
+    },
+    {
+      "question": "Economically, one of the results of the British rule in India in the 19th century was the",
+      "options": [
+        "increase in the export of Indian handicrafts",
+        "growth in the number of Indian owned factories",
+        "commercialization of Indian agriculture",
+        "rapid increase in the urban population"
+      ],
+      "correct": "C",
+      "explanation": "One key economic result of 19th-century British rule was the marked commercialisation of Indian agriculture, shifting cultivation toward cash crops for export.",
+      "year": 2018
+    },
+    {
+      "question": "The staple commodities of export by the English East India Company from Bengal in the middle of the 18th century were",
+      "options": [
+        "Raw cotton, oil-seeds and opium",
+        "Sugar, salt, zinc and lead",
+        "Copper, silver, gold, spices and tea",
+        "Cotton, silk, saltpetre and opium"
+      ],
+      "correct": "D",
+      "explanation": "Bengal's staple export commodities handled by the East India Company in the mid-18th century included cotton, silk, saltpetre, and opium.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following led to the introduction of English Education in India?\n1. Charter Act of 1813\n2. General Committee of Public Instruction, 1823\n3. Orientalist and Anglicist Controversy\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The spread of English education in India was driven by the Charter Act of 1813's funding provisions, the 1823 General Committee of Public Instruction, and was decisively shaped by the Orientalist-Anglicist controversy resolved through Macaulay's Minute — all three contributed.",
+      "year": 2018
+    },
+    {
+      "question": "With reference to educational institutions during colonial rule in India, consider the following pairs: Institution — Founder\n1. Sanskrit College at Benaras — William Jones\n2. Calcutta Madarsa — Warren Hastings\n3. Fort William College — Arthur Wellesley Which of the pairs given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Calcutta Madrasa was indeed founded by Warren Hastings, true; the Sanskrit College at Benares, however, was founded by Jonathan Duncan rather than William Jones, and Fort William College was founded by Lord Wellesley, not his brother Arthur Wellesley — so only the second pair is correct.",
+      "year": 2018
+    },
+    {
+      "question": "Who of the following was/were economic critic/critics of colonialism in India?\n1. Dadabhai Naoroji\n2. G. Subramania Iyer\n3. R.C. Dutt",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Dadabhai Naoroji, G. Subramania Iyer, and R.C. Dutt were all prominent early economic critics of British colonial exploitation in India.",
+      "year": 2015
+    },
+    {
+      "question": "The Ilbert Bill controversy was related to the",
+      "options": [
+        "imposition of certain restrictions to carry arms by the Indians",
+        "imposition of restrictions on newspapers and magazines published in Indian languages",
+        "removal of disqualifications imposed on the Indian magistrates with regard to the trial of the Europeans",
+        "removal of a duty on imported cotton cloth"
+      ],
+      "correct": "C",
+      "explanation": "The Ilbert Bill controversy (1883) centred on removing the legal disqualification that barred Indian magistrates from trying European offenders.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to Ryotwari Settlement, consider the following statements:\n1. The rent was paid directly by the peasants to the Government.\n2. The Government gave Pattas to the Ryots.\n3. The lands were surveyed and assessed before being taxed.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "Under the Ryotwari Settlement, peasants paid rent directly to the government, received pattas (land titles), and land was surveyed and assessed before taxation — all three statements are correct.",
+      "year": 2012
+    },
+    {
+      "question": "The tendency for increased litigation was visible after the introduction of the land settlement system of Lord Cornwallis in 1793. The reason for this is normally traced to which of the following provisions ?",
+      "options": [
+        "Making Zamindar's position stronger vis-a-vis the ryot",
+        "Making East India Company an overlord of Zamindars",
+        "Making judicial system more efficient",
+        "None of the (a), (b) and (c) above"
+      ],
+      "correct": "C",
+      "explanation": "Cornwallis's 1793 land settlement, by hiving off judicial functions to make the justice system more efficient and impartial, inadvertently encouraged a sharp rise in litigation as landholders and tenants increasingly turned to the courts.",
+      "year": 2011
+    },
+    {
+      "question": "Who among the following Governor Generals created the Covenanted Civil Service of India which later came to be known as the Indian Civil Service?",
+      "options": [
+        "Warren Hastings",
+        "Wellesley",
+        "Cornwallis",
+        "William Bentinck"
+      ],
+      "correct": "C",
+      "explanation": "Lord Cornwallis created the Covenanted Civil Service, the direct precursor to what later became the Indian Civil Service.",
+      "year": 2010
+    },
+    {
+      "question": "By a regulation in 1793, the District Collector was deprived of his judicial powers and made the collecting agent only. What was the reason for such regulation?",
+      "options": [
+        "Lord Cornwallis felt that the District Collector's efficiency of revenue collection would enormously increase without the burden of other work",
+        "Lord Cornwallis felt that Judicial power should compulsorily be in the hands of Europeans while Indians can be given the job of revenue collection in the districts",
+        "Lord Cornwallis was alarmed at the extent of power concentrated in the District Collector and felt that such absolute power was undesirable in one person",
+        "The judicial work demanded a deep knowledge of India and a good training in law and Lord Cornwallis felt that District Collector should be only a revenue collector"
+      ],
+      "correct": "C",
+      "explanation": "Cornwallis's 1793 regulation stripped the District Collector of judicial powers because he was alarmed at how much revenue and judicial power had become concentrated in a single official.",
+      "year": 2010
+    },
+    {
+      "question": "Who among the following used the phrase ‘Un-British’ to criticize the English colonial control of India?",
+      "options": [
+        "Anandmohan Bose",
+        "Badruddin Tyabji",
+        "Dadabhai Naoroji",
+        "Pherozeshah Mehta"
+      ],
+      "correct": "C",
+      "explanation": "Dadabhai Naoroji used the term 'Un-British' to describe and criticise the exploitative character of British colonial rule.",
+      "year": 2008
+    },
+    {
+      "question": "Who was the Viceroy of India when the Rowlatt Act was passed?",
+      "options": [
+        "Lord Irwin",
+        "Lord Reading",
+        "Lord Chelmsford",
+        "Lord Wavell"
+      ],
+      "correct": "C",
+      "explanation": "Lord Chelmsford was Viceroy when the repressive Rowlatt Act was passed in 1919.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. Robert Clive was the first Governor-General of Bengal.\n2. William Bentinck was the first Governor-General of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "William Bentinck, not Robert Clive, was formally the first Governor-General of India under that specific constitutional title — Clive's role predated it — so only the second statement is correct.",
+      "year": 2007
+    },
+    {
+      "question": "The first Factory Act restricting the working hours of women and children and authorizing local governments to make necessary rules was adopted during whose time?",
+      "options": [
+        "Lord Lytton",
+        "Lord Bentinck",
+        "Lord Ripon",
+        "Lord Canning"
+      ],
+      "correct": "C",
+      "explanation": "The first Factory Act restricting the working hours of women and children was introduced during Lord Ripon's tenure in 1881.",
+      "year": 2007
+    },
+    {
+      "question": "Consider the following statements :\n1. Warren Hastings was the first Governor General who established a regular police force in India on the British pattern\n2. A Supreme Court was established at Calcutta by the Regulating Act, 1773.\n3. The Indian Penal Code came into effect in the year 1860.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Warren Hastings did not establish a regular British-pattern police force — that credit generally goes to Cornwallis, so the first statement is false; the Supreme Court at Calcutta was indeed set up under the Regulating Act of 1773, and the Indian Penal Code did come into force in 1860, both true — so 2 and 3.",
+      "year": 2005
+    },
+    {
+      "question": "Who among the following repealed the Vernacular Press Act?",
+      "options": [
+        "Lord Dufferin",
+        "Lord Ripon",
+        "Lord Curzon",
+        "Lord Hardinge"
+      ],
+      "correct": "B",
+      "explanation": "Lord Ripon repealed the repressive Vernacular Press Act, originally imposed under Lord Lytton, in 1882.",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched?",
+      "options": [
+        "Pitt's India Act — Warren Hastings",
+        "Doctrine of Lapse — Dalhousie",
+        "Vernacular Press Act — Curzon",
+        "Ilbert Bill — Ripon"
+      ],
+      "correct": "C",
+      "explanation": "The Vernacular Press Act (1878) was actually enacted under Lord Lytton, not Lord Curzon, making this pair incorrectly matched.",
+      "year": 2004
+    },
+    {
+      "question": "Consider the following Viceroys of India during the British rule:\n1. Lord Curzon\n2. Lord Chelmsford\n3. Lord Hardinge\n4. Lord Irwin\nWhich one of the following is the correct chronological order of their tenure?",
+      "options": [
+        "1 ‑ 3 ‑ 2 ‑ 4",
+        "2 ‑ 4 ‑ 1 ‑ 3",
+        "1 ‑ 4 ‑ 2 ‑ 3",
+        "2 ‑ 3 ‑ 1 ‑ 4"
+      ],
+      "correct": "A",
+      "explanation": "The correct chronological order of these Viceroys' tenures is Curzon, then Hardinge, then Chelmsford, then Irwin, giving the sequence 1, 3, 2, 4.",
+      "year": 2004
+    },
+    {
+      "question": "The aim of education as stated by the Wood’s Despatch of 1854 was",
+      "options": [
+        "The creation of employment opportunities for native Indians",
+        "The spread of western culture in India",
+        "The promotion of literacy among the people using English medium of language",
+        "The introduction of scientific research and rationalism in the traditional Indian education"
+      ],
+      "correct": "B",
+      "explanation": "Wood's Despatch (1854) explicitly aimed at spreading Western culture and knowledge through English and vernacular education in India.",
+      "year": 2003
+    },
+    {
+      "question": "With reference to colonial rule in India, what was sought by the Ilbert Bill in 1883?",
+      "options": [
+        "To bring Indians and Europeans on par as far as the criminal jurisdiction of courts was concerned",
+        "To impose severe restrictions on the freedom of the native press as it was perceived to be hostile to colonial rulers",
+        "To encourage the native Indians to appear for civil service examinations by conducting them in India",
+        "To allow native Indians to possess arms by amending the Arms Act"
+      ],
+      "correct": "A",
+      "explanation": "The Ilbert Bill (1883) sought to remove racial discrimination in the judiciary by allowing Indian judges and magistrates to try European offenders on an equal footing.",
+      "year": 2003
+    },
+    {
+      "question": "Under the Permanent Settlement, 1793, the zamindars were required to issue pattas to the farmers which were not issued by many of the zamindars. The reason was",
+      "options": [
+        "the zamindars were trusted by the farmers",
+        "there was no official check upon the zamindars",
+        "it was the responsibility of the British Government",
+        "the farmers were not interested in getting pattas"
+      ],
+      "correct": "B",
+      "explanation": "Many zamindars simply failed to issue pattas to tenant farmers under the Permanent Settlement because there was no effective official mechanism to compel them to do so.",
+      "year": 2001
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists:\nList I – Land system\nI. Land allotted to big feudal landlords\nII. Land allotted to revenue farmers or rent collectors\nIII. Land allotted to each peasant with the right to sublet, mortgage, transfer, gift or sell\nIV. Revenue settlements made at village level\nList II\nA) Jagirdari System\nB) Ryotwari System\nC) Mahalwari System\nD) Zamindari System\nCodes:",
+      "options": [
+        "I-A, II-C, III-B, IV-D",
+        "I-A, II-D, III-B, IV-C",
+        "I-C, II-D, III-A, IV-B",
+        "I-B, II-A, III-C, IV-D"
+      ],
+      "correct": "B",
+      "explanation": "Land allotted to big feudal landlords corresponds to the Jagirdari System (I-A); land given to revenue farmers or rent collectors matches the Zamindari System (II-D); land allotted directly to peasants with transfer rights matches the Ryotwari System (III-B); and village-level revenue settlements match the Mahalwari System (IV-C).",
+      "year": 2000
+    },
+    {
+      "question": "There was no independent development of industries in India during British rule because of the",
+      "options": [
+        "absence of heavy industries",
+        "scarcity of foreign capital",
+        "scarcity of natural resources",
+        "preference of the rich to invest in land"
+      ],
+      "correct": "A",
+      "explanation": "India saw no independent development of heavy industry under British rule largely because colonial policy actively discouraged the capital-goods industries needed for self-sustaining industrialisation.",
+      "year": 1999
+    },
+    {
+      "question": "The Governor General who followed a spirited \"Forward\" policy towards Afghanistan was",
+      "options": [
+        "Minto",
+        "Dufferin",
+        "Elgin",
+        "Lytton"
+      ],
+      "correct": "D",
+      "explanation": "Lord Lytton pursued an aggressive 'Forward Policy' toward Afghanistan, which led to the Second Anglo-Afghan War.",
+      "year": 1999
+    },
+    {
+      "question": "At a time when empires in Europe were crumbling before the might of Napoleon which one of the following Governors-General kept the British flag flying high in India?",
+      "options": [
+        "Warren Hastings",
+        "Lord Cornwallis",
+        "Lord Wellesley",
+        "Lord Hastings"
+      ],
+      "correct": "C",
+      "explanation": "Lord Wellesley expanded and consolidated British power in India through the Subsidiary Alliance system even as Napoleon's conquests were reshaping Europe.",
+      "year": 1999
+    },
+    {
+      "question": "The term \"imperial preference\" was applied to the",
+      "options": [
+        "special privileges on British imports in India",
+        "racial discrimination by the Britishers",
+        "subordination of Indian interest to that of the British",
+        "preference given to British political agents over Indian Princes"
+      ],
+      "correct": "A",
+      "explanation": "'Imperial preference' referred to the special tariff privileges given to British goods imported into India over goods from other countries.",
+      "year": 1999
+    },
+    {
+      "question": "“The Congress is tottering to its fall and one of my great ambitions while in India, is to assist it to a peaceful demise.” This statement is attributed to",
+      "options": [
+        "Lord Dufferin",
+        "Lord Curzon",
+        "Lord Lytton",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "This dismissive remark about Congress 'tottering to its fall' is attributed to Lord Curzon.",
+      "year": 1998
+    },
+    {
+      "question": "Who among the following was associated with the suppression of Thugs?",
+      "options": [
+        "General Henry Prendergast",
+        "Captain Sleeman",
+        "Alexander Burnes",
+        "Captain Robert Pemberton"
+      ],
+      "correct": "B",
+      "explanation": "Captain William Sleeman led the British campaign to suppress the Thuggee network across central India during the 1830s.",
+      "year": 1997
+    },
+    {
+      "question": "What is the correct chronological sequence of the following?\nI. Wood's Education Despatch\nII. Macaulay's Minute on Education\nIII. The Sargeant Education Report\nIV. Indian Education (Hunter Commission)",
+      "options": [
+        "II, I, IV, III",
+        "II, I, III, IV",
+        "I, II, IV, III",
+        "IV, III, I, II"
+      ],
+      "correct": "A",
+      "explanation": "The correct chronological sequence is Macaulay's Minute on Education (1835), Wood's Education Despatch (1854), the Indian Education (Hunter) Commission (1882), and the Sargent Education Report (1944), giving II, I, IV, III.",
+      "year": 1997
+    },
+    {
+      "question": "Consider the following landmarks in Indian education: I) Hindu College, Calcutta II) University of Calcutta III) Adam’s Report IV) Wood’s Despatch The correct chronological order of these landmarks is",
+      "options": [
+        "I, III, IV, II",
+        "I, IV, III, II",
+        "III, I, IV, II",
+        "III, II, IV, I"
+      ],
+      "correct": "A",
+      "explanation": "The correct chronological order is Hindu College, Calcutta (1817), Adam's Report (1835-38), Wood's Despatch (1854), and the University of Calcutta (1857), giving I, III, IV, II.",
+      "year": 1996
+    },
+    {
+      "question": "Who among the following leaders did not believe in the drain theory of Dadabhai Naoroji?",
+      "options": [
+        "B. G. Tilak",
+        "R.\nC. Dutt",
+        "M. G. Ranade",
+        "Sir Syed Ahmed Khan"
+      ],
+      "correct": "D",
+      "explanation": "Sir Syed Ahmed Khan did not subscribe to Dadabhai Naoroji's 'Drain of Wealth' theory, favouring instead a policy of cooperation with British rule for Muslim advancement.",
+      "year": 1996
+    }
+  ]
+}

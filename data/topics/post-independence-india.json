@@ -1,0 +1,103 @@
+{
+  "topic": "Post-Independence India",
+  "subject": "Modern History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following pairs: Party — Its Leader\n1. Bharatiya Jana Sangh — Dr. Shyama Prasad Mukherjee\n2. Socialist Party — C. Rajagopalachari\n3. Congress for Democracy — Jagjivan Ram\n4. Swatantra Party — Acharya Narendra Dev\nHow many of the above are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "B",
+      "explanation": "Only two pairs are correctly matched here: the Jana Sangh was indeed founded by Syama Prasad Mookerjee, and the Congress for Democracy was formed by Jagjivan Ram; the Socialist Party was led by figures like Jayaprakash Narayan and Ram Manohar Lohia, not Rajagopalachari, and the Swatantra Party was founded by Rajagopalachari himself, not Acharya Narendra Dev.",
+      "year": 2024
+    },
+    {
+      "question": "Who among the following were the founders of the “Hind Mazdoor Sabha” established in 1948?",
+      "options": [
+        "B. Krishna Pillai, E.M.S. Namboodiripad and K.C. George",
+        "Jayaprakash Narayan, Deen Dayal Upadhyay and M.N. Roy",
+        "C.P. Ramaswamy Iyer, K. Kamaraj and Veeresalingam Pantulu",
+        "Ashok Mehta, T.S. Ramanujam and G.G. Mehta"
+      ],
+      "correct": "D",
+      "explanation": "The Hind Mazdoor Sabha was founded in 1948 by socialist trade unionists including Ashok Mehta, as a rival labour federation to the communist-led AITUC.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following events:\n1. The first democratically elected communist party government formed in a State in India.\n2. India's then largest bank, 'Imperial Bank of India', was renamed 'State Bank of India'.\n3. Air India was nationalised and became the national carrier.\n4. Goa became a part of independent India.\nWhich of the following is the correct chronological sequence of the above events?",
+      "options": [
+        "4 – 1 – 2 – 3",
+        "3 – 2 – 1 – 4",
+        "4 – 2 – 1 – 3",
+        "3 – 1 – 2 – 4"
+      ],
+      "correct": "B",
+      "explanation": "Chronologically: Air India was nationalised in 1953, the Imperial Bank was renamed the State Bank of India in 1955, the first elected Communist government took office in Kerala in 1957, and Goa was liberated in 1961 — giving the sequence 3, 2, 1, 4.",
+      "year": 2018
+    },
+    {
+      "question": "Which was the Capital of Andhra State when it was made a separate State in the year 1953?",
+      "options": [
+        "Guntur",
+        "Kurnool",
+        "Nellore",
+        "Warangal"
+      ],
+      "correct": "B",
+      "explanation": "Kurnool served as the capital of the short-lived Andhra State (1953-56) before Hyderabad became the capital of the newly formed Andhra Pradesh in 1956.",
+      "year": 2008
+    },
+    {
+      "question": "Who wrote the book \"The Story of the Integration of Indian States\"?",
+      "options": [
+        "B. N. Rau",
+        "C. Rajagopalachari",
+        "Krishna Menon",
+        "V. P. Menon"
+      ],
+      "correct": "D",
+      "explanation": "V.P. Menon, who worked closely with Sardar Patel on the integration of the princely states, authored this account of the process.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following was associated with Acharya Vinoba Bhave’s Bhoodan Movement at the beginning of the movement?",
+      "options": [
+        "Udayagiri",
+        "Rapur",
+        "Pochampalli",
+        "Venkatagiri"
+      ],
+      "correct": "C",
+      "explanation": "Vinoba Bhave began the Bhoodan (land-gift) Movement in 1951 at Pochampalli in present-day Telangana.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched?",
+      "options": [
+        "States Reorganization Act : Andhra Pradesh",
+        "Treaty of Yandabu : Assam",
+        "State of Bilaspur : Himachal Pradesh",
+        "Year 1966 : Gujarat becomes a State"
+      ],
+      "correct": "D",
+      "explanation": "Gujarat was actually carved out as a separate state in 1960 under the Bombay Reorganisation Act, not 1966, making this the incorrectly matched pair.",
+      "year": 2006
+    },
+    {
+      "question": "Who among the following suggested the winding up of the Indian National Congress after India attained independence?",
+      "options": [
+        "C. Rajagopalachari",
+        "Acharya Kripalani",
+        "Mahatma Gandhi",
+        "Jayaprakash Narain"
+      ],
+      "correct": "C",
+      "explanation": "In what is often called his last testament, Gandhi suggested that the Congress, having achieved independence, should be dissolved as a political party and reconstituted as a Lok Sevak Sangh for social service.",
+      "year": 1996
+    }
+  ]
+}

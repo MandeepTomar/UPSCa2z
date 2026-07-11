@@ -1,0 +1,403 @@
+{
+  "topic": "Advent of Europeans & British Expansion",
+  "subject": "Modern History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to Indian history, consider the following statements :\n1. The Dutch established their factories/warehouses on the east coast on lands granted to them by Gajapati rulers.\n2. Alfonso de Albuquerque captured Goa from the Bijapur Sultanate.\n3. The English East India Company established a factory at Madras on a plot of land leased from a representative of the Vijayanagara empire.\nWhich of the statements given above are correct ?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The Dutch did not set up their east-coast factories on land granted specifically by Gajapati rulers, making statement 1 false; Albuquerque did capture Goa from the Bijapur Sultanate in 1510, true; and the English East India Company's Madras factory (1639) was indeed established on land leased from a local representative linked to the declining Vijayanagara order, true — so 2 and 3 only.",
+      "year": 2022
+    },
+    {
+      "question": "During the first half of the 17th century, at which of the following places was/were the English East India Company factory/factories located?\n1. Broach\n2. Chicacole\n3. Trichinopoly\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "3 only",
+        "2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "In the early 17th century, the English East India Company had a factory at Broach (Bharuch) in Gujarat; its factories at Chicacole and Trichinopoly came only later, so only statement 1 holds.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to Indian history, which of the following statements is/are correct?\n1. The Nizamat of Arcot emerged out of Hyderabad State.\n2. The Mysore Kingdom emerged out of Vijayanagara Empire.\n3. Rohilkhand Kingdom was formed out of the territories occupied by Ahmad Shah Durrani.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Mysore Kingdom genuinely did emerge from territory of the declining Vijayanagara Empire, true; the Nizamat of Arcot was actually a Mughal Deccan/Carnatic subordinate rather than an offshoot of Hyderabad, and Rohilkhand was carved out by Afghan Rohilla chieftains rather than from Ahmad Shah Durrani's territories — so only statement 2 is correct.",
+      "year": 2021
+    },
+    {
+      "question": "Which one of the following statements does not apply to the system of Subsidiary Alliance introduced by Lord Wellesley ?",
+      "options": [
+        "To maintain a large standing army at other’s expense",
+        "To keep India safe from Napoleonic danger",
+        "To secure a fixed income for the Company",
+        "To establish British paramountcy over the Indian States"
+      ],
+      "correct": "C",
+      "explanation": "The Subsidiary Alliance system, introduced by Wellesley, was mainly aimed at extending British military and political control over Indian states, not at securing a fixed Company income, which is better associated with revenue-farming arrangements.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following :\n1. Assessment of land revenue on the basis of nature of the soil and the quality of crops\n2. Use of mobile cannons in warfare\n3. Cultivation of tobacco and red chillies\nWhich of the above was/were introduced into India by the English?",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "2 and 3",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "None of these three — soil-based revenue assessment, mobile cannon warfare, or tobacco and chilli cultivation — were actually introduced to India by the English; each predates their arrival, brought earlier by other regimes or the Portuguese.",
+      "year": 2012
+    },
+    {
+      "question": "What was the immediate reason for Ahmad Shah Abdali to invade India and fight the Third Battle of Panipat ?",
+      "options": [
+        "He wanted to avenge the expulsion by Marathas of his viceroy Timur Shah from Lahore",
+        "The frustrated governor of Jullundhar Adina Beg Khan invited him to invade Punjab",
+        "He wanted to punish Mughal administration for non-payment of the revenues of the Chahar Mahal (Gujarat, Aurangabad, Sialkot and Pasrur)",
+        "He wanted to annex all the fertile plains of Punjab up to the borders of Delhi to his kingdom"
+      ],
+      "correct": "A",
+      "explanation": "Ahmad Shah Abdali invaded India for the Third Battle of Panipat (1761) mainly to avenge the Marathas' expulsion of his appointed viceroy, Timur Shah, from Lahore.",
+      "year": 2010
+    },
+    {
+      "question": "With reference to Pondicherry (now Puducherry), consider the following statements :\n1. The first European power to occupy Pondicherry were the Portuguese.\n2. The second European power to occupy Pondicherry were the French.\n3. The English never occupied Pondicherry.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Portuguese were indeed the first Europeans to occupy Pondicherry, and the French did later take it over, both true; the English, however, did briefly hold Pondicherry at points too, making the third statement false — leaving only the first statement correct.",
+      "year": 2010
+    },
+    {
+      "question": "The ruler of which one of the following States was removed from power by the British on the pretext of misgovernance?",
+      "options": [
+        "Awadh",
+        "Jhansi",
+        "Nagpur",
+        "Satara"
+      ],
+      "correct": "A",
+      "explanation": "The Nawab of Awadh, Wajid Ali Shah, was deposed by the British in 1856 on the pretext of misgovernance, deepening resentment ahead of 1857.",
+      "year": 2007
+    },
+    {
+      "question": "Who among the following Europeans were the last to come to pre-independence India as traders?",
+      "options": [
+        "Dutch",
+        "English",
+        "French",
+        "Portuguese"
+      ],
+      "correct": "C",
+      "explanation": "The French were the last of the major European trading powers to arrive in India, establishing themselves only in the mid-17th century, after the Portuguese, Dutch, and English.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following was the first fort constructed by the British in India?",
+      "options": [
+        "Fort William",
+        "Fort St. George",
+        "Fort St. David",
+        "Fort St. Angelo"
+      ],
+      "correct": "B",
+      "explanation": "Fort St. George at Madras (1644) was the first fort constructed by the British in India.",
+      "year": 2007
+    },
+    {
+      "question": "Who was the Governor-General of India during the Sepoy Mutiny?",
+      "options": [
+        "Lord Canning",
+        "Lord Dalhousie",
+        "Lord Hardinge",
+        "Lord Lytton"
+      ],
+      "correct": "A",
+      "explanation": "Lord Canning was Governor-General of India during the 1857 Revolt and went on to become the first Viceroy after the Crown assumed direct rule in 1858.",
+      "year": 2006
+    },
+    {
+      "question": "In the year 1613, where was the English East India Company given permission to set up a factory (trading post)?",
+      "options": [
+        "Bangalore",
+        "Madras",
+        "Masulipatnam",
+        "Surat"
+      ],
+      "correct": "D",
+      "explanation": "In 1613, the English East India Company received Mughal permission to establish its first factory at Surat.",
+      "year": 2006
+    },
+    {
+      "question": "With reference to the revolt of the year 1857, who of the following was betrayed by a friend; captured and put to death by the British?",
+      "options": [
+        "Nana Sahib",
+        "Kunwar Singh",
+        "Khan Bahadur Khan",
+        "Tantia Tope"
+      ],
+      "correct": "D",
+      "explanation": "Tantia Tope, a leading figure of the 1857 Revolt, was betrayed by an associate, captured, and executed by the British in 1859.",
+      "year": 2006
+    },
+    {
+      "question": "Which one of the following is the correct chronological order of the battles fought in India in the 18th Century?",
+      "options": [
+        "Battle of Wandawash - Battle of Buxar - Battle of Ambur - Battle of Plassey",
+        "Battle of Ambur - Battle of Plassey - Battle of Wandawash - Battle of Buxar",
+        "Battle of Wandawash - Battle of Plassey - Battle of Ambur - Battle of Buxar",
+        "Battle of Ambur - Battle of Buxar - Battle of Wandawash - Battle of Plassey"
+      ],
+      "correct": "B",
+      "explanation": "The correct chronological order of these 18th-century battles is: Battle of Ambur (1749), Battle of Plassey (1757), Battle of Wandiwash (1760), and Battle of Buxar (1764).",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following territories was not affected by the Revolt of 1857?",
+      "options": [
+        "Jhansi",
+        "Chittor",
+        "Jagdishpur",
+        "Lucknow"
+      ],
+      "correct": "B",
+      "explanation": "Chittor, in Rajasthan, remained largely untouched by the major centres of the 1857 Revolt in North and Central India.",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following places did Kunwar Singh, a prominent leader of the Revolt of 1857, belong to?",
+      "options": [
+        "Bihar",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "correct": "A",
+      "explanation": "Kunwar Singh, a prominent leader of the 1857 Revolt, belonged to Jagdishpur in Bihar.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following princely States of the British rule in India:\n1. Jhansi\n2. Sambalpur\n3. Satara The correct chronological order in which they were annexed by the British is",
+      "options": [
+        "1, 2, 3",
+        "1, 3, 2",
+        "3, 2, 1",
+        "3, 1, 2"
+      ],
+      "correct": "C",
+      "explanation": "The correct order of annexation was Satara (1848), then Sambalpur (1849), then Jhansi (1854) — giving the sequence 3, 2, 1.",
+      "year": 2004
+    },
+    {
+      "question": "Which of the following pairs are correctly matched?\nList I (Period) :\nList II (Wars)\n1. AD 1767-69 : First Anglo-Maratha War\n2. AD 1790-92 : Third Mysore War\n3. AD 1824-26 : First Anglo-Burmese War\n4. AD 1845-46 : Second Sikh War\nSelect the correct answer using the codes given below:",
+      "options": [
+        "2 and 4",
+        "3 and 4",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The First Anglo-Maratha War is usually dated 1775-82 rather than 1767-69, making that pairing incorrect; the Third Anglo-Mysore War (1790-92) and First Anglo-Burmese War (1824-26) are correctly matched; and the Second Sikh War actually ran 1848-49, not 1845-46 — so only pairs 2 and 3 hold.",
+      "year": 2004
+    },
+    {
+      "question": "Consider the following statements:\n1. In the Third Battle of Panipat, Ahmed Shah Abdali defeated Ibrahim Lodi.\n2. Tipu Sultan was killed in the Third Anglo-Mysore War.\n3. Mir Jafar entered in a conspiracy with the English for the defeat of Nawab Siraj-ud-daulah in the Battle of Plassey.\nWhich of these statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3",
+        "3 only",
+        "2 and 3",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Ahmad Shah Abdali actually defeated the Marathas, not Ibrahim Lodi, at the Third Battle of Panipat, so statement 1 is false; Tipu Sultan died in the Fourth, not Third, Anglo-Mysore War (1799), so statement 2 is also false; Mir Jafar's conspiracy with the English did indeed help seal Siraj-ud-Daulah's defeat at Plassey (1757), making only statement 3 correct.",
+      "year": 2004
+    },
+    {
+      "question": "In India, among the following locations, the Dutch established their earliest factory at",
+      "options": [
+        "Surat",
+        "Pullicat",
+        "Cochin",
+        "Cassimbazar"
+      ],
+      "correct": "B",
+      "explanation": "The Dutch established their earliest Indian factory at Pulicat on the Coromandel coast, around 1610.",
+      "year": 2003
+    },
+    {
+      "question": "With reference to the entry of European powers into India, which one of the following statements is correct?",
+      "options": [
+        "The Portuguese captured Goa in 1499",
+        "The English opened their first factory in South India at Masulipatnam",
+        "In Eastern India, the English Company opened its first factory in Orissa in 1633",
+        "Under the leadership of Dupleix, the French occupied Madras in 1746"
+      ],
+      "correct": "A",
+      "explanation": "The Portuguese are credited here with capturing Goa in 1510 under Afonso de Albuquerque, marking the consolidation of their early Indian foothold.",
+      "year": 2003
+    },
+    {
+      "question": "Assertion (A): Shah Alam II spent the initial years as an Emperor far away from his capital. Reason (R): There was always a lurking danger of foreign invasion from the north-west frontier.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Shah Alam II genuinely did spend his early reign away from Delhi, his actual capital, largely due to the persistent threat of invasions from the north-west frontier, which the given reason correctly explains.",
+      "year": 2003
+    },
+    {
+      "question": "Assertion (A): Marathas emerged as the strongest native power in India after the decline of Mughal empire. Reason (R): Marathas were the first to have clear concept of a united Indian nation.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "B",
+      "explanation": "The Marathas did emerge as the strongest post-Mughal Indian power, true; but their polity functioned as a loose regional confederacy pursuing expansion rather than embodying any clear, unified concept of an Indian nation, so the reason given does not correctly explain their strength.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following statements is NOT correct?",
+      "options": [
+        "Ali Mardan Khan introduced the system of revenue farming in Bengal",
+        "Maharaja Ranjit Singh set up modern foundries to manufacture cannons at Lahore",
+        "Sawai Jai Singh of Amber had Euclid’s ‘Elements of Geometry’ translated into Sanskrit",
+        "Sultan Tipu of Mysore gave money for the construction of the idol of Goddess Sarda in the Sringeri temple"
+      ],
+      "correct": "A",
+      "explanation": "It was not Ali Mardan Khan who introduced revenue farming in Bengal — his own legacy instead lies chiefly in Mughal-era canal and irrigation works in Punjab and Delhi — making this the statement that is not correct.",
+      "year": 2003
+    },
+    {
+      "question": "With which one of the following mountain tribes did the British first come into contact with after the grant of Diwani in the year 1765?",
+      "options": [
+        "Garo",
+        "Khasis",
+        "Kukis",
+        "Tipperahs"
+      ],
+      "correct": "B",
+      "explanation": "Following the Diwani grant of Bengal in 1765, the British first came into direct contact with the Khasi hill tribes of the north-eastern frontier.",
+      "year": 2002
+    },
+    {
+      "question": "Who among the following Indian rulers established embassies in foreign countries on modern lines?",
+      "options": [
+        "Haider Ali",
+        "Mir Qasim",
+        "Shah Alam II",
+        "Tipu Sultan"
+      ],
+      "correct": "D",
+      "explanation": "Tipu Sultan set up embassies in foreign courts, including France, Ottoman Turkey, and Persia, on modern diplomatic lines to seek allies against the British.",
+      "year": 2001
+    },
+    {
+      "question": "“In this instance we could not play off the Mohammedans against the Hindus”. To which one of the following events did this remark of Aitchison relate?",
+      "options": [
+        "Revolt of 1857",
+        "Champaran Satyagraha (1917)",
+        "Khilafat and Non-cooperation Movement (1919-22)",
+        "August Movement of 1942"
+      ],
+      "correct": "A",
+      "explanation": "Aitchison's remark referred to the largely united Hindu-Muslim participation seen during the Revolt of 1857.",
+      "year": 2000
+    },
+    {
+      "question": "The last major extension of British Indian territory took place during the time of",
+      "options": [
+        "Dufferin",
+        "Dalhousie",
+        "Lytton",
+        "Curzon"
+      ],
+      "correct": "B",
+      "explanation": "The last major territorial expansion of British India took place under Lord Dalhousie, through wars and Doctrine of Lapse annexations between 1848 and 1856.",
+      "year": 2000
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists:\nList I (Year)\nI. 1775\nII. 1780\nIII. 1824\nIV. 1838\nList II (Event)\nA) First Anglo-Burmese War\nB) First Anglo-Afghan War\nC) First Anglo-Maratha War\nD) Second Anglo-Mysore War",
+      "options": [
+        "I-D, II-C, III-B, IV-A",
+        "I-D, II-C, III-A, IV-B",
+        "I-C, II-D, III-A, IV-B",
+        "I-C, II-D, III-B, IV-A"
+      ],
+      "correct": "C",
+      "explanation": "Matching years to events: 1775 saw the First Anglo-Maratha War, 1780 the Second Anglo-Mysore War, 1824 the First Anglo-Burmese War, and 1838 the First Anglo-Afghan War — giving I-C, II-D, III-A, IV-B.",
+      "year": 1999
+    },
+    {
+      "question": "The educated middle class in India",
+      "options": [
+        "opposed the revolt of 1857",
+        "supported the revolt of 1857",
+        "remained neutral to the revolt of 1857",
+        "fought against native rulers"
+      ],
+      "correct": "C",
+      "explanation": "India's educated middle class, largely shaped by Western education and urban life, remained mostly neutral to the 1857 Revolt, viewing it as a backward-looking rebellion rather than their own cause.",
+      "year": 1998
+    },
+    {
+      "question": "Who among the following was the first European to initiate the policy of taking part in the quarrels of Indian princes with a view to acquire territories?",
+      "options": [
+        "Clive",
+        "Dupleix",
+        "Albuquerque",
+        "Warren Hastings"
+      ],
+      "correct": "B",
+      "explanation": "Dupleix, the French Governor-General in India, pioneered the policy of intervening in the succession disputes of Indian princely states to extend French territorial influence.",
+      "year": 1996
+    },
+    {
+      "question": "Examine the map given below: The places marked 1, 2, 3 and 4 were respectively the seats of powers of the",
+      "options": [
+        "Scindias, Holkars, Gaekwads and Bhonsles",
+        "Holkars, Scindias, Gaekwads and Bhonsles",
+        "Gaekwads, Bhonsles, Scindias and Holkars",
+        "Scindias, Holkars, Bhonsles and Gaekwads"
+      ],
+      "correct": "A",
+      "explanation": "On the standard map of Maratha confederacy territories, these regions correspond to the Scindias (Gwalior), Holkars (Indore), Gaekwads (Baroda), and Bhonsles (Nagpur).",
+      "year": 1995
+    },
+    {
+      "question": "Which one of the following pairs is correctly matched?",
+      "options": [
+        "Battle of Buxar — Mir Jafar vs. Clive",
+        "Battle of Wandiwash — French vs. East India Company",
+        "Battle of Chilianwala — Dalhousie vs. Marathas",
+        "Battle of Kharda — Nizam vs. East India Company"
+      ],
+      "correct": "B",
+      "explanation": "The Battle of Wandiwash (1760) was fought between the French and the English East India Company, a decisive English victory that effectively ended French ambitions in India.",
+      "year": 1995
+    }
+  ]
+}
