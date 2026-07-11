@@ -309,6 +309,7 @@ h1 .sub {
 .hero-stats {
   display: flex; flex-wrap: wrap; gap: 8px;
   position: relative;
+  margin-bottom: 20px;
 }
 .hstat {
   display: flex; flex-direction: column; gap: 2px;
@@ -323,6 +324,18 @@ h1 .sub {
 .hstat span {
   font-size: 0.68rem; color: rgba(244,237,224,0.58);
 }
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 46px; padding: 0 20px;
+  background: var(--acc); color: #fff;
+  font-size: 0.88rem; font-weight: 600;
+  border-radius: var(--r-sm);
+  position: relative;
+  transition: background 0.15s var(--ease);
+}
+.hero-cta:hover, .hero-cta:focus-visible { background: var(--acc2); }
+.hero-cta .arrow { transition: transform 0.15s var(--ease); }
+.hero-cta:hover .arrow { transform: translateX(3px); }
 
 /* ═══ SEARCH / FILTER BAR ═══ */
 .filter-bar {
@@ -388,6 +401,7 @@ mark {
   list-style: none;
   padding: 22px 16px 40px;
   display: flex; flex-direction: column; gap: 14px;
+  scroll-margin-top: calc(var(--header-h) + 220px);
 }
 .topic-card {
   background: var(--surf);
@@ -395,7 +409,7 @@ mark {
   border-radius: var(--r-lg);
   padding: 18px;
   box-shadow: var(--sh-sm);
-  scroll-margin-top: calc(var(--header-h) + 100px);
+  scroll-margin-top: calc(var(--header-h) + 220px);
   transition: box-shadow 0.18s var(--ease), border-color 0.18s var(--ease), transform 0.18s var(--ease);
 }
 .topic-card:hover {
@@ -447,15 +461,18 @@ mark {
   padding: 2px 6px; border-radius: 4px; flex-shrink: 0;
   height: fit-content; margin-top: 1px;
 }
-.tc-view {
+.tc-buttons { display: flex; gap: 8px; margin-top: 15px; }
+.tc-view, .tc-browse {
   display: flex; align-items: center; justify-content: center; gap: 6px;
-  margin-top: 15px; min-height: 44px;
-  font-size: 0.83rem; font-weight: 600; color: #fff;
-  background: var(--blue);
+  min-height: 44px; flex: 1;
+  font-size: 0.83rem; font-weight: 600;
   border-radius: var(--r-sm);
-  transition: background 0.15s var(--ease);
+  transition: background 0.15s var(--ease), border-color 0.15s var(--ease), color 0.15s var(--ease);
 }
+.tc-view { color: #fff; background: var(--blue); }
 .tc-view:hover, .tc-view:focus-visible { background: var(--blue2); }
+.tc-browse { color: var(--blue); background: var(--surf); border: 1.5px solid var(--blue-mid); }
+.tc-browse:hover, .tc-browse:focus-visible { background: var(--blue-light); border-color: var(--blue); }
 .tc-view .arrow { transition: transform 0.15s var(--ease); }
 .tc-view:hover .arrow, .tc-view:focus-visible .arrow { transform: translateX(3px); }
 
@@ -623,6 +640,7 @@ mark {
     <div class="hstat"><strong>31 yrs</strong><span>Coverage, 1995–2025</span></div>
     <div class="hstat"><strong>Free</strong><span>No signup required</span></div>
   </div>
+  <a class="hero-cta" href="#topicList">Start practising <span class="arrow">→</span></a>
 </section>
 
 <!-- ═══ FILTER BAR (progressive enhancement — hidden with JS disabled) ═══ -->
@@ -671,7 +689,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Which of the following statements about the Ethics Committee in the Lok Sabha are correct?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/parliament.html">Practice 63 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/parliament.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/parliament">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="constitutional-framework" data-name="constitution making sources preamble amendments">
@@ -687,7 +708,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Who was the Provisional President of the Constituent Assembly before Dr. Rajendra Prasad took over?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/constitutional-framework.html">Practice 54 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/constitutional-framework.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/constitutional-framework">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="judiciary" data-name="judiciary supreme court high court writs pil judicial review">
@@ -703,7 +727,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>A Writ of Prohibition is an order issued by the Supreme Court or High Courts to:</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/judiciary.html">Practice 46 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/judiciary.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/judiciary">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="executive" data-name="president prime minister governor council of ministers executive">
@@ -719,7 +746,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2018</span><span>With reference to the election of the President of India, consider the following statements.</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/executive.html">Practice 44 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/executive.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/executive">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="constitutional-bodies" data-name="commissions authorities cag nhrc regulatory bodies">
@@ -735,7 +765,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2009</span><span>In India, who is the Chairman of the National Water Resources Council?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/constitutional-bodies.html">Practice 29 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/constitutional-bodies.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/constitutional-bodies">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="elections" data-name="election commission eci representation of people act delimitation political parties">
@@ -751,7 +784,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>How many Delimitation Commissions have been constituted by the Government of India till December 2023?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/elections.html">Practice 23 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/elections.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/elections">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="social-justice" data-name="social justice sc st obc women minorities reservation welfare">
@@ -767,7 +803,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Consider the following statements regarding 'Nari Shakti Vandan Adhiniyam'.</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/social-justice.html">Practice 21 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/social-justice.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/social-justice">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="panchayati-raj" data-name="panchayati raj local government 73rd 74th amendment gram sabha pesa municipal">
@@ -783,7 +822,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2015</span><span>The fundamental object of Panchayati Raj system is to ensure which among the following?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/panchayati-raj.html">Practice 21 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/panchayati-raj.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/panchayati-raj">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="federalism" data-name="federalism centre state relations scheduled areas union list state list">
@@ -799,7 +841,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2021</span><span>Which one of the following in Indian polity is an essential feature that indicates that it is federal in character?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/federalism.html">Practice 20 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/federalism.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/federalism">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="fundamental-rights" data-name="fundamental rights article 12 to 35 equality freedom">
@@ -815,7 +860,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Under which of the following Articles of the Constitution of India has the Supreme Court placed the Right to Privacy?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/fundamental-rights.html">Practice 18 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/fundamental-rights.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/fundamental-rights">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="dpsp" data-name="dpsp directive principles state policy article 36 to 51">
@@ -831,7 +879,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2020</span><span>Which part of the Constitution of India declares the ideal of Welfare State?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/dpsp.html">Practice 16 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/dpsp.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/dpsp">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="political-theory" data-name="political theory state liberty democracy rule of law comparative polity">
@@ -847,7 +898,10 @@ mark {
       <div class="tc-sample"><span class="tc-sample-yr">2021</span><span>Which one of the following best defines the term 'State'?</span></div>
       
     </div>
-    <a class="tc-view" href="./polity/political-theory.html">Practice 15 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/political-theory.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/political-theory">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="finance-emergency-duties" data-name="public finance emergency provisions fundamental duties finance commission article 352 356 360 51a">
@@ -862,7 +916,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2018</span><span>If the President of India exercises his power as provided under Article 356 of the Constitution in respect of a particular State, then…</span></div>
     </div>
-    <a class="tc-view" href="./polity/finance-emergency-duties.html">Practice 21 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./polity/finance-emergency-duties.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=polity/finance-emergency-duties">Timed Test</a>
+    </div>
   </li>
 
 </ol>
