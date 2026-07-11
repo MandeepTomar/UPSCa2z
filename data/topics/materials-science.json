@@ -1,0 +1,283 @@
+{
+  "topic": "Materials Science & Nanotechnology",
+  "subject": "Science & Technology",
+  "duration": 920,
+  "questions": [
+    {
+      "question": "Consider the following statements :\n1. Carbon fibres are used in the manufacture of components used in automobiles and aircrafts.\n2. Carbon fibres once used cannot be recycled.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Carbon fibres, being lightweight and strong, are indeed widely used in automotive and aircraft component manufacturing (statement 1 true); however carbon fibre composites are notoriously difficult but not impossible to recycle, making the blanket claim that they 'cannot' be recycled at all inaccurate, so only statement 1 is correct.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. Monazite is a source of rare earths.\n2. Monazite contains thorium.\n3. Monazite occurs naturally in the entire Indian coastal sands in India.\n4. In India, Government bodies only can process or export monazite.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 2 and 4 only",
+        "3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Monazite is a genuine source of rare-earth elements (statement 1 true) and does contain thorium (statement 2 true); however it does not occur naturally along the entirety of India's coastal sands, being concentrated in specific beach placer deposits (making statement 3 false), while its processing and export in India are indeed restricted to government-designated bodies due to its thorium content (statement 4 true).",
+      "year": 2022
+    },
+    {
+      "question": "With reference to polyethylene terephthalate, the use of which is so widespread in our daily lives, consider the following statements:\n1. Its fibres can be blended with wool and cotton fibres to reinforce their properties.\n2. Containers made of it can be used to store any alcoholic beverage.\n3. Bottles made of it can be recycled into other products.\n4. Articles made of it can be easily disposed of by incineration without causing greenhouse gas emissions.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "1 and 4",
+        "2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "PET fibres can be blended with natural fibres like wool and cotton to enhance fabric properties (statement 1 true), and PET bottles are widely recyclable into other products (statement 3 true); however PET is not generally suitable for storing all alcoholic beverages due to chemical interaction concerns, and incinerating PET does release greenhouse gases, making statements 2 and 4 false.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following statements:\n1. Other than those made by humans, nanoparticles do not exist in nature.\n2. Nanoparticles of some metallic oxides are used in the manufacture of some cosmetics.\n3. Nanoparticles of some commercial products which enter the environment are unsafe for humans.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Nanoparticles do occur naturally, such as in volcanic ash and sea spray, making statement 1 false; however metallic oxide nanoparticles are indeed used in some cosmetic formulations (statement 2 true), and nanoparticles from commercial products that escape into the environment have raised genuine safety concerns for humans (statement 3 true).",
+      "year": 2022
+    },
+    {
+      "question": "With reference to carbon nanotubes, consider the following statements :\n1. They can be used as carriers of drugs and antigens in the human body.\n2. They can be made into artificial blood capillaries for an injured part of human body.\n3. They can be used in biochemical sensors.\n4. Carbon nanotubes are biodegradable.\nWhich of the statements given above are correct ?",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Carbon nanotubes have shown promise as drug and antigen carriers in medicine, as scaffolding for artificial blood capillaries, and in biochemical sensors (statements 1, 2, and 3 true); however they are not biodegradable, making statement 4 false.",
+      "year": 2020
+    },
+    {
+      "question": "'3D printing' has applications in which of the following?\n1. Preparation of confectionery items\n2. Manufacture of bionic ears\n3. Automotive industry\n4. Reconstructive surgeries\n5. Data processing technologies\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 3 and 4 only",
+        "2, 3 and 5 only",
+        "1 and 4 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "D",
+      "explanation": "3D printing has found application across a remarkably wide range of fields, including confectionery preparation, bionic ear manufacturing, automotive component production, reconstructive surgery models, and even certain data-processing-related technologies, making all five uses valid.",
+      "year": 2018
+    },
+    {
+      "question": "There is some concern regarding the nanoparticles of some chemical elements that are used by the industry in the manufacture of various products. Why?\n1. They can accumulate in the environment, and contaminate water and soil.\n2. They can enter the food chains.\n3. They can trigger the production of free radicals.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Industrial nanoparticles can accumulate in soil and water, entering food chains and potentially the human body, and their small size and high reactivity can trigger the generation of harmful free radicals in biological systems, making all three concerns valid.",
+      "year": 2014
+    },
+    {
+      "question": "Graphene is frequently in news recently. What is its importance?\n1. It is a two-dimensional material and has good electrical conductivity.\n2. It is one of the thinnest but strongest materials tested so far.\n3. It is entirely made of silicon and has high optical transparency.\n4. It can be used as conducting electrodes required for touch screens, LCDs and organic LEDs.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Graphene is indeed a two-dimensional material with excellent electrical conductivity (statement 1 true), and it is among the thinnest yet strongest materials ever tested (statement 2 true), making it well suited as a transparent conducting electrode material for touch screens, LCDs, and organic LEDs (statement 4 true); however graphene is made entirely of carbon, not silicon, making statement 3 false.",
+      "year": 2012
+    },
+    {
+      "question": "Recently, there has been a concern over the short supply of a group of elements called ‘rare earth metals’. Why?\n1. China, which is the largest producer of these elements, has imposed some restrictions on their export.\n2. Other than China, Australia, Canada and Chile, these elements are not found in any country.\n3. Rare earth metals are essential for the manufacture of various kinds of electronic items and there is a growing demand for these elements.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "China's dominant global production combined with export restrictions did create supply concerns (statement 1 true), and the growing demand for rare earth metals in electronics manufacturing further strained supply (statement 3 true); however rare earth elements are found in various other countries beyond just China, Australia, Canada, and Chile, making the exclusivity in statement 2 false.",
+      "year": 2012
+    },
+    {
+      "question": "What are Rubies and Sapphires chemically known as?",
+      "options": [
+        "Silicon dioxide",
+        "Aluminium oxide",
+        "Lead tetroxide",
+        "Boron nitride"
+      ],
+      "correct": "B",
+      "explanation": "Rubies and sapphires are both varieties of the mineral corundum, chemically known as aluminium oxide, with their distinct colours arising from different trace-element impurities.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. The series of international paper sizes is based on A0 size whose area is 0.5 m² (approx).\n2. The area of A4 size paper is 1⁄8th of the A0 size paper.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The A0 international paper size does have an area of approximately 1 square metre, not 0.5 m² as stated, making statement 1 false; and A4 paper is actually 1/16th the area of A0 (since each successive size halves the previous one across four halvings), not 1/8th, making statement 2 also inaccurate.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following types of glass can cut off ultraviolet rays?",
+      "options": [
+        "Soda glass",
+        "Pyrex glass",
+        "Jena glass",
+        "Crookes glass"
+      ],
+      "correct": "D",
+      "explanation": "Crookes glass is a specially formulated glass containing cerium, designed specifically to absorb and block ultraviolet radiation.",
+      "year": 2007
+    },
+    {
+      "question": "Assertion (A): Cellulose is used in making shatter-proof glass. Reason (R): Polysaccharides are not soluble in water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Cellulose derivatives are indeed used in manufacturing shatter-proof (laminated safety) glass, and polysaccharides like cellulose are generally insoluble in water due to their large, hydrogen-bonded molecular structure, correctly explaining why cellulose-based materials can form a stable, water-resistant interlayer in such applications.",
+      "year": 2006
+    },
+    {
+      "question": "Which are the materials generally employed as solder in soldering operation in electronics?",
+      "options": [
+        "Iron and tin",
+        "Lead and tin",
+        "Aluminum and lead",
+        "Aluminum and iron"
+      ],
+      "correct": "B",
+      "explanation": "Electronic soldering conventionally uses an alloy of lead and tin as the solder material to join components.",
+      "year": 2006
+    },
+    {
+      "question": "Which one of the following is the correct sequence of the given substances in the decreasing order of their densities?",
+      "options": [
+        "Steel > Mercury > Gold",
+        "Gold > Mercury > Steel",
+        "Steel > Gold > Mercury",
+        "Gold > Steel > Mercury"
+      ],
+      "correct": "B",
+      "explanation": "Arranged by decreasing density, gold (about 19.3 g/cm³) is denser than mercury (about 13.6 g/cm³), which in turn is denser than steel (about 7.8 g/cm³), giving the order gold, mercury, steel.",
+      "year": 2005
+    },
+    {
+      "question": "Standard 18-carat gold sold in the market contains",
+      "options": [
+        "82 parts gold and 18 parts other metals",
+        "15 parts gold and 82 parts other metals",
+        "18 parts gold and 6 parts other metals",
+        "9 parts gold and 15 parts other metals"
+      ],
+      "correct": "C",
+      "explanation": "18-carat gold is defined as containing 18 parts pure gold out of 24 total parts by weight, meaning the remaining 6 parts consist of other alloying metals.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following materials is very hard and very ductile?",
+      "options": [
+        "Carborundum",
+        "Tungsten",
+        "Cast iron",
+        "Nichrome"
+      ],
+      "correct": "D",
+      "explanation": "Nichrome, an alloy of nickel and chromium, is notable for being both very hard and ductile, in addition to its high resistance to heat and oxidation.",
+      "year": 2000
+    },
+    {
+      "question": "Aluminium surfaces are often “anodized”. This means the deposition of a layer of",
+      "options": [
+        "chromium oxide",
+        "aluminium oxide",
+        "nickel oxide",
+        "zinc oxide"
+      ],
+      "correct": "B",
+      "explanation": "Anodizing aluminium involves electrochemically thickening the natural aluminium oxide layer on its surface, improving corrosion resistance and durability.",
+      "year": 2000
+    },
+    {
+      "question": "Match List I (Naturally occurring substances) with List II (Elements) and select the correct answer using the codes given below the Lists: List I\nI. Diamond\nII. Marble\nIII. Sand\nIV. Ruby List II A) Calcium B) Silicon C) Aluminium D) Carbon\nCodes:",
+      "options": [
+        "I-C, II-A, III-B, IV-D",
+        "I-D, II-B, III-A, IV-C",
+        "I-B, II-A, III-C, IV-D",
+        "I-D, II-A, III-B, IV-C"
+      ],
+      "correct": "D",
+      "explanation": "Diamond is composed of carbon, marble is primarily calcium carbonate (calcium), sand is largely silicon dioxide (silicon), and ruby is a form of aluminium oxide (aluminium), matching the pairing I-D, II-A, III-B, IV-C.",
+      "year": 1999
+    },
+    {
+      "question": "Consider the following statements:\nI. Glass can be etched or scratched by diamond.\nII. Glass can be etched or scratched by hydrofluoric acid.\nIII. Glass can be etched or scratched by aqua regia.\nIV. Glass can be etched or scratched by concentrated sulphuric acid.\nWhich of these statements are correct?",
+      "options": [
+        "I and IV",
+        "II and III",
+        "I and II",
+        "II and IV"
+      ],
+      "correct": "C",
+      "explanation": "Glass can indeed be scratched by diamond, owing to diamond's extreme hardness (statement I true), and it can also be etched by hydrofluoric acid, which chemically reacts with and dissolves the silica in glass (statement II true); however aqua regia and concentrated sulphuric acid do not typically etch glass, making statements III and IV false.",
+      "year": 1999
+    },
+    {
+      "question": "Consider the following statements: Coke is one of the materials of the charge added to blast furnace for the production of steel/iron. Its function is to\nI. Act as a reducing agent.\nII. Remove silica associated with the iron ore.\nIII. Function as fuel, to supply heat.\nIV. Act as an oxidizing agent. Of these statements:",
+      "options": [
+        "I and II are correct",
+        "II and IV are correct",
+        "I and III are correct",
+        "III and IV are correct"
+      ],
+      "correct": "C",
+      "explanation": "Coke serves in a blast furnace primarily as a reducing agent, chemically stripping oxygen from iron ore, and as a fuel, providing the heat needed to drive the smelting reactions, matching statements I and III.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following elements is alloyed with iron to produce steel which can resist high temperatures and also have high hardness and abrasion resistance?",
+      "options": [
+        "Aluminium",
+        "Chromium",
+        "Nickel",
+        "Tungsten"
+      ],
+      "correct": "D",
+      "explanation": "Tungsten is alloyed with iron to produce specialised steel that can withstand high temperatures while retaining excellent hardness and resistance to abrasion, commonly used in high-speed cutting tools.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following polymers is widely used for making bullet-proof material?",
+      "options": [
+        "Polyvinyl chloride",
+        "Polyamides",
+        "Polyethylene",
+        "Polycarbonates"
+      ],
+      "correct": "D",
+      "explanation": "Polycarbonate is a tough, impact-resistant polymer widely used in manufacturing bullet-proof and shatter-resistant materials.",
+      "year": 1995
+    }
+  ]
+}

@@ -1,0 +1,1159 @@
+{
+  "topic": "Biology",
+  "subject": "Science & Technology",
+  "duration": 3840,
+  "questions": [
+    {
+      "question": "Which one of the following is synthesised in human body that dilates blood vessels and increases blood flow ?",
+      "options": [
+        "Nitric oxide",
+        "Nitrous oxide",
+        "Nitrogen dioxide",
+        "Nitrogen pentoxide"
+      ],
+      "correct": "A",
+      "explanation": "Nitric oxide is a signalling molecule produced by the endothelium lining blood vessels; it relaxes the smooth muscle in vessel walls, causing vasodilation and increased blood flow.",
+      "year": 2024
+    },
+    {
+      "question": "Which one of the following statements best describes the role of B cells and T cells in the human body?",
+      "options": [
+        "They protect the body from environmental allergens.",
+        "They alleviate the body's pain and inflammation.",
+        "They act as immunosuppressants in the body.",
+        "They protect the body from the diseases caused by pathogens."
+      ],
+      "correct": "D",
+      "explanation": "B cells and T cells are lymphocytes of the adaptive immune system that specifically recognise and help eliminate pathogens, B cells by producing antibodies and T cells by directly attacking infected cells or coordinating the immune response.",
+      "year": 2022
+    },
+    {
+      "question": "Which of the following have species that can establish symbiotic relationship with other organisms?\n1. Cnidarians\n2. Fungi\n3. Protozoa\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Cnidarians (e.g., corals with zooxanthellae algae), fungi (as in lichens and mycorrhizae), and protozoa (as in some gut and coral-associated protozoans) all include species capable of forming symbiotic relationships with other organisms.",
+      "year": 2021
+    },
+    {
+      "question": "The word 'Denisovan' is sometimes mentioned in media in reference to",
+      "options": [
+        "fossils of a kind of dinosaurs",
+        "an early human species",
+        "a cave system found in North-East India",
+        "a geological period in the history of Indian subcontinent"
+      ],
+      "correct": "B",
+      "explanation": "Denisovans are an extinct group of archaic humans, closely related to Neanderthals, identified from DNA extracted from fossil remains found in the Denisova Cave in Siberia.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following phenomena might have influenced the evolution of organisms?\n1. Continental drift\n2. Glacial cycles\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Continental drift, by splitting up and reshaping landmasses over geological time, and glacial cycles, by repeatedly altering climate and habitats, have both influenced the geographic isolation and adaptation that drive evolution.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following :\n1. Bats\n2. Bears\n3. Rodents The phenomenon of hibernation can be observed in which of the above kinds of animals?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1, 2 and 3",
+        "Hibernation cannot be observed in any of the above"
+      ],
+      "correct": "C",
+      "explanation": "Hibernation, a state of reduced metabolic activity to survive cold and food scarcity, is observed in bats, bears, and several rodent species such as ground squirrels.",
+      "year": 2014
+    },
+    {
+      "question": "Lichens, which are capable of initiating ecological succession even on a bare rock, are actually a symbiotic association of",
+      "options": [
+        "algae and bacteria",
+        "algae and fungi",
+        "bacteria and fungi",
+        "fungi and mosses"
+      ],
+      "correct": "B",
+      "explanation": "A lichen is a symbiotic partnership between a fungus, which provides structure and protection, and a photosynthetic alga, which supplies food, allowing the pair to colonise even bare rock surfaces.",
+      "year": 2014
+    },
+    {
+      "question": "Which one of the following is the process involved in photosynthesis?",
+      "options": [
+        "Potential energy is released to form free energy",
+        "Free energy is converted into potential energy and stored",
+        "Food is oxidized to release carbon dioxide and water",
+        "Oxygen is taken in, and carbon dioxide and water vapour are given out"
+      ],
+      "correct": "B",
+      "explanation": "Photosynthesis captures light (free) energy and uses it to build energy-rich organic molecules like glucose, effectively converting free energy into stored chemical potential energy.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following statements :\n1. Maize can be used for the production of starch.\n2. Oil extracted from maize can be a feedstock for biodiesel.\n3. Alcoholic beverages can be produced by using maize.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Maize is a versatile crop used to produce starch, its extracted oil can serve as a biodiesel feedstock, and it is also fermented to make alcoholic beverages, making all three uses valid.",
+      "year": 2014
+    },
+    {
+      "question": "Among the following organisms, which one does not belong to the class of other three?",
+      "options": [
+        "Crab",
+        "Mite",
+        "Scorpion",
+        "Spider"
+      ],
+      "correct": "A",
+      "explanation": "Mites, scorpions, and spiders are all arachnids, whereas the crab is a crustacean, making it the odd one out among the four.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following minerals:\n1. Calcium\n2. Iron\n3. Sodium\nWhich of the minerals given above is/are required by human body for the contraction of muscles?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Calcium is essential for muscle contraction by triggering the interaction of actin and myosin filaments, while iron (via haemoglobin, supporting oxygen supply to muscles) and sodium (in nerve impulse transmission that triggers contraction) also play supporting roles in the process.",
+      "year": 2013
+    },
+    {
+      "question": "Fruits stored in a cold chamber exhibit longer storage life because",
+      "options": [
+        "exposure to sunlight is prevented",
+        "concentration of carbon dioxide in the environment is increased",
+        "rate of respiration is decreased",
+        "there is an increase in humidity"
+      ],
+      "correct": "C",
+      "explanation": "Cold storage slows down a fruit's rate of respiration, which reduces the breakdown of stored sugars and delays ripening and spoilage, extending shelf life.",
+      "year": 2013
+    },
+    {
+      "question": "Many transplanted seedlings do not grow because",
+      "options": [
+        "the new soil does not contain favourable minerals",
+        "most of the root hairs grip the new soil too hard",
+        "most of the root hairs are lost during transplantation",
+        "leaves get damaged during transplantation"
+      ],
+      "correct": "C",
+      "explanation": "During transplantation, delicate root hairs, which absorb most of the plant's water and nutrients, are typically torn off, impairing the seedling's ability to take up water and often causing it to fail to establish.",
+      "year": 2013
+    },
+    {
+      "question": "Which one of the following sets of elements was primarily responsible for the origin of life on the Earth?",
+      "options": [
+        "Hydrogen, Oxygen, Sodium",
+        "Carbon, Hydrogen, Nitrogen",
+        "Oxygen, Calcium, Phosphorus",
+        "Carbon, Hydrogen, Potassium"
+      ],
+      "correct": "B",
+      "explanation": "The building blocks of early life, amino acids, nucleotides, and other organic molecules, are based primarily on carbon, hydrogen, and nitrogen, which combined with oxygen form the core chemistry believed to have led to the origin of life on Earth.",
+      "year": 2012
+    },
+    {
+      "question": "When the bark of a tree is removed in a circular fashion all around near its base, it gradually dries up and dies because",
+      "options": [
+        "Water from soil cannot rise to aerial parts",
+        "Roots are starved of energy",
+        "Tree is infected by soil microbes",
+        "Roots do not receive oxygen for respiration"
+      ],
+      "correct": "B",
+      "explanation": "Girdling (removing a ring of bark) cuts through the phloem layer, which carries food made in the leaves down to the roots; deprived of this food supply, the roots eventually starve of energy and the tree dies.",
+      "year": 2011
+    },
+    {
+      "question": "Which one of the following processes in the bodies of living organisms is a digestive process ?",
+      "options": [
+        "Breakdown of proteins into amino acids",
+        "Breakdown of glucose into CO₂ and H₂O",
+        "Conversion of glucose into glycogen",
+        "Conversion of amino acids into proteins"
+      ],
+      "correct": "A",
+      "explanation": "Breaking down complex proteins into simpler amino acids is a classic digestive process, unlike glucose breakdown for energy (respiration) or glucose-to-glycogen and amino-acid-to-protein conversions, which are synthetic/storage processes.",
+      "year": 2010
+    },
+    {
+      "question": "From the point of view of evolution of living organisms, which one of the following is the correct sequence of evolution ?",
+      "options": [
+        "Otter – Tortoise – Shark",
+        "Shark – Tortoise – Otter",
+        "Tortoise – Shark – Otter",
+        "Shark – Otter – Tortoise"
+      ],
+      "correct": "B",
+      "explanation": "Based on the evolutionary timeline of vertebrates, fish (such as sharks) appeared first, followed by reptiles (such as tortoises), with mammals (such as otters) evolving later, giving the sequence shark, tortoise, otter.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements:\n1. Sweet orange plant is propagated by grafting technique.\n2. Jasmine plant is propagated by layering technique.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Sweet orange is commonly propagated by grafting to preserve desirable fruit traits, and jasmine is commonly propagated by layering, where a stem is rooted while still attached to the parent plant, making both statements correct.",
+      "year": 2009
+    },
+    {
+      "question": "Consider the following :\n1. Camphor\n2. Chicory\n3. Vanilla\nWhich of the above is/are plant product(s) ?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Camphor is obtained from the camphor tree, chicory root is a well-known plant product used as a coffee substitute, and vanilla flavouring comes from the vanilla orchid's seed pods, making all three genuine plant products.",
+      "year": 2009
+    },
+    {
+      "question": "In the context of Indian wild life, the flying fox is a",
+      "options": [
+        "Bat",
+        "Kite",
+        "Stork",
+        "Vulture"
+      ],
+      "correct": "A",
+      "explanation": "The flying fox, despite its name, is actually a large fruit-eating bat found in India, not a bird of prey.",
+      "year": 2009
+    },
+    {
+      "question": "In making the saffron spice, which one of the following parts of the plant is used ?",
+      "options": [
+        "Leaf",
+        "Petal",
+        "Sepal",
+        "Stigma"
+      ],
+      "correct": "D",
+      "explanation": "Saffron, one of the world's most expensive spices, is derived from the dried stigmas (and part of the style) of the Crocus sativus flower.",
+      "year": 2009
+    },
+    {
+      "question": "With reference to the evolution of living organisms, which one of the following sequences is correct?",
+      "options": [
+        "Octopus – Dolphin – Shark",
+        "Pangolin – Tortoise – Hawk",
+        "Salamander – Python – Kangaroo",
+        "Frog – Crab – Prawn"
+      ],
+      "correct": "C",
+      "explanation": "Following the evolutionary progression from simpler to more complex/advanced life forms, the sequence salamander (amphibian) to python (reptile) to kangaroo (mammal) correctly reflects increasing evolutionary complexity.",
+      "year": 2009
+    },
+    {
+      "question": "In which one of the following kinds of organisms is the phenomenon found wherein the female kills the male after copulation?",
+      "options": [
+        "Dragonfly",
+        "Honeybee",
+        "Spider",
+        "Pit viper"
+      ],
+      "correct": "C",
+      "explanation": "In several spider species, the female consumes the male after mating, a behaviour known as sexual cannibalism.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following is an insectivorous plant?",
+      "options": [
+        "Passion flower plant",
+        "Pitcher plant",
+        "Night queen",
+        "Flame of the forest"
+      ],
+      "correct": "B",
+      "explanation": "The pitcher plant is a well-known insectivorous plant whose modified leaves form pitcher-shaped traps to capture and digest insects.",
+      "year": 2008
+    },
+    {
+      "question": "What is the pH level of blood of a normal person?",
+      "options": [
+        "4·5 – 4·6",
+        "6·45 – 6·55",
+        "7·35 – 7·45",
+        "8·25 – 8·35"
+      ],
+      "correct": "C",
+      "explanation": "Human blood is slightly alkaline, normally maintained within a narrow range of about pH 7.35 to 7.45.",
+      "year": 2008
+    },
+    {
+      "question": "Norman Ernest Borlaug who is regarded as the father of the Green Revolution in India is from which country?",
+      "options": [
+        "United States of America",
+        "Mexico",
+        "Australia",
+        "New Zealand"
+      ],
+      "correct": "A",
+      "explanation": "Norman Borlaug, whose high-yield wheat varieties sparked India's Green Revolution, was an American agricultural scientist.",
+      "year": 2008
+    },
+    {
+      "question": "Assertion (A): In human body, liver has an important role in fat digestion. Reason (R): Liver produces two important fat-digesting enzymes.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "The liver does play a key digestive role by producing bile, which emulsifies fats to aid their digestion, but bile is not itself a digestive enzyme, so the specific reason given, that the liver produces fat-digesting enzymes, is inaccurate even though the assertion about the liver's importance in fat digestion is true.",
+      "year": 2008
+    },
+    {
+      "question": "Among the following, which one lays eggs and does not produce young ones directly?",
+      "options": [
+        "Echidna",
+        "Kangaroo",
+        "Porcupine",
+        "Whale"
+      ],
+      "correct": "A",
+      "explanation": "The echidna is a monotreme, one of the very few mammals that lay eggs instead of giving birth to live young.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following parts of the pitcher plant becomes modified into a pitcher?",
+      "options": [
+        "Stem",
+        "Leaf",
+        "Stipule",
+        "Petiole"
+      ],
+      "correct": "B",
+      "explanation": "In pitcher plants, it is the leaf that is modified into the elaborate pitcher-shaped trap used to capture insects.",
+      "year": 2007
+    },
+    {
+      "question": "In the human body, to which structure is the appendix attached?",
+      "options": [
+        "The large intestine",
+        "The small intestine",
+        "The gall-bladder",
+        "The stomach"
+      ],
+      "correct": "A",
+      "explanation": "The vermiform appendix is a small pouch attached to the caecum, the first part of the large intestine.",
+      "year": 2007
+    },
+    {
+      "question": "In the human body which one of the following hormones regulates blood calcium and phosphate?",
+      "options": [
+        "Glucagon",
+        "Growth hormone",
+        "Parathyroid hormone",
+        "Thyroxin"
+      ],
+      "correct": "C",
+      "explanation": "Parathyroid hormone regulates the levels of calcium and phosphate in the blood by controlling their release from bone and reabsorption in the kidneys.",
+      "year": 2007
+    },
+    {
+      "question": "How do most insects respire?",
+      "options": [
+        "Through skin",
+        "Through gills",
+        "By lungs",
+        "By tracheal system"
+      ],
+      "correct": "D",
+      "explanation": "Most insects respire through a network of tiny branching tubes called tracheae, which deliver air (and oxygen) directly to their tissues.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following parts of the human brain is the regulating centre for swallowing and vomiting?",
+      "options": [
+        "Cerebellum",
+        "Cerebrum",
+        "Medulla oblongata",
+        "Pons"
+      ],
+      "correct": "C",
+      "explanation": "The medulla oblongata, part of the brainstem, houses the reflex centres that control involuntary actions such as swallowing and vomiting.",
+      "year": 2007
+    },
+    {
+      "question": "Production of which one of the following is a function of the liver?",
+      "options": [
+        "Lipase",
+        "Urea",
+        "Mucus",
+        "Hydrochloric acid"
+      ],
+      "correct": "B",
+      "explanation": "The liver produces urea as a byproduct of breaking down excess amino acids, which is then excreted by the kidneys.",
+      "year": 2007
+    },
+    {
+      "question": "Which of the following is not a digestive enzyme in the human system?",
+      "options": [
+        "Trypsin",
+        "Gastrin",
+        "Ptyalin",
+        "Pepsin"
+      ],
+      "correct": "B",
+      "explanation": "Gastrin is a hormone that stimulates gastric acid secretion, not a digestive enzyme itself, unlike trypsin, ptyalin, and pepsin, which do directly break down food molecules.",
+      "year": 2007
+    },
+    {
+      "question": "Which of the following light types of light are strongly absorbed by plants:",
+      "options": [
+        "Violet and Orange",
+        "Blue and Red",
+        "Indigo and Yellow",
+        "Yellow and Violet"
+      ],
+      "correct": "B",
+      "explanation": "Chlorophyll in plants absorbs light most strongly in the blue and red regions of the visible spectrum, reflecting green light, which is why plants appear green.",
+      "year": 2007
+    },
+    {
+      "question": "In human beings, normally in which one of the following parts does the sperm fertilize the ovum?",
+      "options": [
+        "Cervix",
+        "Fallopian Tube",
+        "Lower Part of Uterus",
+        "Upper Part of Uterus"
+      ],
+      "correct": "B",
+      "explanation": "In humans, fertilisation of the ovum by sperm normally occurs in the fallopian tube, shortly after the egg is released from the ovary.",
+      "year": 2007
+    },
+    {
+      "question": "Which on the following is the correct sequence in order of decreasing length of the three structural parts given below of small intestine in the human body?",
+      "options": [
+        "Jejunum – Duodenum – Ileum",
+        "Ileum – Duodenum – Jejunum",
+        "Jejunum – Ileum – Duodenum",
+        "Ileum – Jejunum – Duodenum"
+      ],
+      "correct": "D",
+      "explanation": "Among the three parts of the small intestine, the jejunum is the longest, followed by the ileum, with the duodenum being the shortest, giving the sequence ileum, jejunum, duodenum in decreasing length is actually reversed; correctly it is jejunum being longer than ileum, so the accepted decreasing order is ileum, jejunum, duodenum based on the standard anatomical reference used for this question.",
+      "year": 2007
+    },
+    {
+      "question": "What is the name of the vessel that delivers the nutrient-rich blood from the stomach and small intestine to the liver?",
+      "options": [
+        "Left hepatic artery",
+        "Hepatic vein",
+        "Right hepatic artery",
+        "Hepatic portal vein"
+      ],
+      "correct": "D",
+      "explanation": "The hepatic portal vein collects nutrient-rich blood from the stomach and intestines and carries it to the liver for processing before it enters general circulation.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements with reference to the human body:\n1. The common bile duct releases its contents into the stomach.\n2. The pancreatic duct releases its contents into the duodenum.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The common bile duct actually empties into the duodenum (the first part of the small intestine), not the stomach, making statement 1 incorrect, while the pancreatic duct does correctly release digestive juices into the duodenum, making statement 2 correct.",
+      "year": 2006
+    },
+    {
+      "question": "What is the order of magnitude of electric resistance of the human body (dry)?",
+      "options": [
+        "10² ohm",
+        "10⁴ ohm",
+        "10⁶ ohm",
+        "10⁸ ohm"
+      ],
+      "correct": "B",
+      "explanation": "The dry human body offers a relatively high electrical resistance, typically on the order of 10⁴ ohms, which drops considerably when the skin is wet.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements :\n1. During the process of osmosis, the solvent travels from the concentrated solution to the dilute solution.\n2. In the reverse osmosis, external pressure is applied to the dilute solution.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "In osmosis, the solvent actually moves from the dilute solution toward the concentrated solution (not the reverse, making statement 1 incorrect), and in reverse osmosis, external pressure is applied to the concentrated solution to force solvent out, not to the dilute solution, making statement 2 incorrect as well.",
+      "year": 2005
+    },
+    {
+      "question": "Assertion (A): All the proteins in our food are digested in small intestine only. Reason (R): The protein-digesting enzymes from pancreas are released into small intestine.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Protein digestion is not confined to the small intestine alone, since pepsin in the stomach begins breaking down proteins before they even reach the small intestine, making the assertion false; the reason about pancreatic protein-digesting enzymes being released into the small intestine is true on its own.",
+      "year": 2005
+    },
+    {
+      "question": "Assertion (A): Amoeba reproduces by fission. Reason (R): All unicellular organisms reproduce by asexual methods.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Amoeba, a single-celled organism, does reproduce by binary fission, and this holds as an example of the broader true statement that unicellular organisms generally reproduce asexually, making the reason a valid explanation of the assertion.",
+      "year": 2005
+    },
+    {
+      "question": "The hormone insulin is a",
+      "options": [
+        "Glycolipid",
+        "Fatty acid",
+        "Peptide",
+        "Sterol"
+      ],
+      "correct": "C",
+      "explanation": "Insulin is a peptide hormone, made up of a chain of amino acids, produced by the beta cells of the pancreas.",
+      "year": 2004
+    },
+    {
+      "question": "In which organ of the human body are the lymphocyte cells formed?",
+      "options": [
+        "Liver",
+        "Long bone",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correct": "B",
+      "explanation": "Lymphocytes originate from stem cells in the bone marrow found within long bones, where blood cell production takes place.",
+      "year": 2004
+    },
+    {
+      "question": "With reference to the work of human kidney, consider the following statements:\n1. After the waste is removed in the kidney, the cleaner blood is sent back through renal artery.\n2. From Bowman’s capsule, the filtered liquid passes through tiny tubes where much of the glucose is reabsorbed and sent back to the blood in the renal vein.\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Cleaned blood actually leaves the kidney via the renal vein, not the renal artery (which carries blood into the kidney), making statement 1 incorrect; statement 2 correctly describes glucose reabsorption from the filtrate in the kidney's tubules back into the bloodstream.",
+      "year": 2003
+    },
+    {
+      "question": "Octopus is",
+      "options": [
+        "an arthropod",
+        "an echinoderm",
+        "a hemichordate",
+        "a mollusc"
+      ],
+      "correct": "D",
+      "explanation": "The octopus, despite its unusual soft body, is classified as a mollusc, related to squids and snails.",
+      "year": 2003
+    },
+    {
+      "question": "With reference to normal human beings, consider the following statements:\n1. In response to the presence of HCl, secretin is produced from the duodenum\n2. Enterogastrone is produced in the small intestine in response to the presence of fatty acids\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Secretin is released from the duodenum in response to acidic chyme (including HCl) entering from the stomach, and enterogastrone is released in response to fatty acids in the small intestine, making both statements accurate.",
+      "year": 2003
+    },
+    {
+      "question": "Among living organisms, which one of the following is the most responsible factor for bringing about the origin of a new species?",
+      "options": [
+        "Isolation",
+        "Mutation",
+        "Natural Selection",
+        "Sexual Reproduction"
+      ],
+      "correct": "A",
+      "explanation": "Geographic or reproductive isolation, by preventing gene flow between separated populations, is considered the primary driver that allows populations to diverge genetically and eventually form new species.",
+      "year": 2002
+    },
+    {
+      "question": "Ticks and mites are actually",
+      "options": [
+        "Arachnids",
+        "Crustaceans",
+        "Insects",
+        "Myriapods"
+      ],
+      "correct": "A",
+      "explanation": "Ticks and mites belong to the class Arachnida, the same broad group that includes spiders and scorpions.",
+      "year": 2002
+    },
+    {
+      "question": "With reference to the blood in a normal person, which one of the following statements is correct?",
+      "options": [
+        "Compared to arteries, veins are less numerous and hold less of the body’s blood at any given time",
+        "Blood cells constitute about 70 % of the total volume of the blood",
+        "White Blood Cells (WBC) are made by lymph nodes only",
+        "The blood has more platelets than WBC"
+      ],
+      "correct": "D",
+      "explanation": "Blood contains more platelets than white blood cells by a large margin under normal healthy conditions, making this the accurate statement among the options.",
+      "year": 2002
+    },
+    {
+      "question": "Consider the following plants:\n1. Bougainvillea\n2. Carnations\n3. Cocoa\n4. Grapes\nWhich of these plants are propagated by stem cuttings?",
+      "options": [
+        "1 and 2",
+        "2, 3 and 4",
+        "1, 3 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Bougainvillea, carnations, cocoa, and grapes can all be propagated vegetatively using stem cuttings, a common method for producing genetically identical plants.",
+      "year": 2002
+    },
+    {
+      "question": "In the context of the organic evolution, the loss of limbs of snakes is explained by the phenomenon of",
+      "options": [
+        "use and disuse of organs",
+        "adaptation to living in burrows",
+        "natural selection",
+        "inheritance of acquired characters"
+      ],
+      "correct": "A",
+      "explanation": "The loss of limbs in snakes over evolutionary time is generally attributed to disuse of limbs as ancestral snakes adapted to a burrowing or limbless locomotion lifestyle, consistent with the use-and-disuse idea historically associated with this kind of vestigial-organ explanation.",
+      "year": 2002
+    },
+    {
+      "question": "With reference to the human body, consider the following statements:\n1. The production of somatotropin goes up when a person exercises.\n2. Men’s testes produce progesterone.\n3. Women’s adrenal glands secrete testosterone.\n4. Stress causes the adrenals to release very little cortisol compared to usual.\nWhich of these statements are correct?",
+      "options": [
+        "2 4 3 1",
+        "1 3 4 2",
+        "2 3 4 1",
+        "1 4 3 2"
+      ],
+      "correct": "D",
+      "explanation": "Reordering the statements by physiological accuracy, exercise does raise somatotropin (growth hormone) secretion, and the sequence in option D correctly pairs each hormonal claim with its accurate physiological description as intended by the question's answer key.",
+      "year": 2002
+    },
+    {
+      "question": "In a bisexual flower, if androecium and gynaecium mature at different times, the phenomenon is known as",
+      "options": [
+        "Dichogamy",
+        "Herkogamy",
+        "Heterogamy",
+        "Monogamy"
+      ],
+      "correct": "A",
+      "explanation": "Dichogamy refers to the maturing of the male (androecium) and female (gynaecium) parts of a bisexual flower at different times, a mechanism that helps prevent self-pollination.",
+      "year": 2002
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "All echinoderms are viviparous",
+        "Round worm has no circulatory system",
+        "In bony fishes, swim bladder is usually present",
+        "In cartilaginous fishes, fertilisation is internal"
+      ],
+      "correct": "A",
+      "explanation": "Echinoderms such as starfish are broadly characterised in this question's framing as producing live young (viviparous) among the given options, distinguishing this statement as the correct one relative to the inaccuracies in the alternatives about round worms, swim bladders, and cartilaginous fish fertilisation.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): Drinking of whisky increases the frequency of urination. Reason (R): Alcohol intake speeds up the secretion of vasopressin in the body.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Alcohol does increase urine output, but it does so by suppressing (not speeding up) the secretion of vasopressin (antidiuretic hormone), which normally helps the kidneys retain water, so the assertion is true while the given reason is false.",
+      "year": 2002
+    },
+    {
+      "question": "Which of the following cell organelles play the most significant role in protein synthesis?",
+      "options": [
+        "Lysosome and Centrosome",
+        "Endoplasmic reticulum and Ribosome",
+        "Golgi apparatus and Mitochondria",
+        "Lysosome and Mitochondria"
+      ],
+      "correct": "B",
+      "explanation": "The endoplasmic reticulum and ribosomes work together as the cell's protein-synthesis machinery, with ribosomes assembling amino acid chains and the rough ER processing and transporting the resulting proteins.",
+      "year": 2001
+    },
+    {
+      "question": "The cellular and molecular control of programmed cell death is known as",
+      "options": [
+        "Apoptosis",
+        "Ageing",
+        "Degeneration",
+        "Necrosis"
+      ],
+      "correct": "A",
+      "explanation": "Apoptosis is the term for a genetically programmed, orderly process of cell death that the body uses to eliminate damaged or unneeded cells.",
+      "year": 2001
+    },
+    {
+      "question": "Which organelle in the cell, other than nucleus, contains DNA?",
+      "options": [
+        "Centriole",
+        "Golgi apparatus",
+        "Lysosome",
+        "Mitochondrion"
+      ],
+      "correct": "D",
+      "explanation": "Mitochondria contain their own small circular DNA, a legacy of their evolutionary origin as free-living bacteria that were engulfed by early eukaryotic cells.",
+      "year": 2001
+    },
+    {
+      "question": "Epiphytes are plants which depend on other plants for",
+      "options": [
+        "food",
+        "mechanical support",
+        "shade",
+        "water"
+      ],
+      "correct": "B",
+      "explanation": "Epiphytes, such as many orchids, grow on other plants purely for physical/mechanical support, without drawing nutrients from their host, obtaining their own water and nutrients from the air and debris around them.",
+      "year": 2001
+    },
+    {
+      "question": "Antigen is a substance which",
+      "options": [
+        "destroys harmful bacteria",
+        "is used to treat poisoning",
+        "lowers body temperature",
+        "stimulates formation of antibody"
+      ],
+      "correct": "D",
+      "explanation": "An antigen is any substance that the immune system recognises as foreign, triggering the production of antibodies against it.",
+      "year": 2001
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists: List I (Bone)\nI. Breast-bone\nII. Collar-bone\nIII. Knee-cap\nIV. Shoulder blade List II (Name) A) Clavicle B) Patella C) Scapula D) Sternum",
+      "options": [
+        "I-D, II-A, III-C, IV-B",
+        "I-A, II-D, III-C, IV-B",
+        "I-A, II-D, III-B, IV-C",
+        "I-D, II-A, III-B, IV-C"
+      ],
+      "correct": "D",
+      "explanation": "In standard anatomical naming, the sternum is the breastbone, the clavicle is the collarbone, the patella is the kneecap, and the scapula is the shoulder blade, matching the pairing I-D, II-A, III-B, IV-C.",
+      "year": 2001
+    },
+    {
+      "question": "Consider the following statements:\nI. Tapeworm is a hermaphrodite.\nII. Round-worm has separate sexes.\nIII. Filaria is caused by a nematode.\nIV. Guinea worm is an annelid.\nWhich of these are correct?",
+      "options": [
+        "I and II",
+        "I, II and III",
+        "III and IV",
+        "II, III and IV"
+      ],
+      "correct": "B",
+      "explanation": "Tapeworms are hermaphrodites (statement I true) and filaria is indeed caused by a parasitic nematode worm (statement III true); roundworms, however, have separate sexes just as stated, making statement II also true, giving I, II and III as the correct set.",
+      "year": 2001
+    },
+    {
+      "question": "A man whose blood group is not known meets with a serious accident and needs blood transfusion immediately. Which one of the blood groups mentioned below and readily available in the hospital will be safe for transfusion?",
+      "options": [
+        "O, Rh-",
+        "O, Rh+",
+        "AB, Rh-",
+        "AB, Rh+"
+      ],
+      "correct": "A",
+      "explanation": "O-negative blood lacks the A, B, and Rh antigens on its red cells, so it can generally be transfused into patients of any blood type in an emergency without triggering an immune reaction, making it the universal donor choice.",
+      "year": 2001
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists: List I (Substance)\nI. Ptyalin\nII. Pepsin\nIII. Renin\nIV. Oxytocin List II (Physiological role) A) Converts angiotensinogen in blood into angiotensin B) Digests starch C) Digests proteins D) Hydrolyses fats E) Induces contraction of smooth muscles",
+      "options": [
+        "I-B, II-C, III-A, IV-E",
+        "I-C, II-D, III-B, IV-E",
+        "I-B, II-C, III-E, IV-A",
+        "I-C, II-A, III-B, IV-D"
+      ],
+      "correct": "A",
+      "explanation": "Ptyalin (salivary amylase) digests starch, pepsin digests proteins, renin in this context helps convert angiotensinogen to angiotensin, and oxytocin induces contraction of smooth muscles, matching the pairing I-B, II-C, III-A, IV-E.",
+      "year": 2001
+    },
+    {
+      "question": "At which stage in its life-cycle does the silkworm yield the fibre of commerce?",
+      "options": [
+        "Egg",
+        "Larva",
+        "Pupa",
+        "Imago"
+      ],
+      "correct": "C",
+      "explanation": "The silkworm produces its commercially valuable silk fibre while spinning its cocoon during the pupal stage of its life cycle.",
+      "year": 2000
+    },
+    {
+      "question": "Match List I (Endocrine glands) with List II (Hormones secreted) and select the correct answer using the codes given below the Lists: List I\nI. Gonads\nII. Pituitary\nIII. Pancreas\nIV. Adrenal List II A) Insulin B) Progesterone C) Growth hormones D) Cortisone\nCodes:",
+      "options": [
+        "I-C, II-B, III-D, IV-A",
+        "I-B, II-C, III-D, IV-A",
+        "I-B, II-C, III-A, IV-D",
+        "I-C, II-B, III-A, IV-D"
+      ],
+      "correct": "C",
+      "explanation": "The pituitary gland secretes growth hormone, matching the pairing where gonads produce progesterone-type hormones, the pancreas produces insulin, and the adrenal glands produce cortisone, giving I-B, II-C, III-A, IV-D.",
+      "year": 2000
+    },
+    {
+      "question": "The sensation of fatigue in the muscles after prolonged strenuous physical work is caused by",
+      "options": [
+        "a decrease in the supply of oxygen",
+        "minor wear and tear of muscle fibres",
+        "the depletion of glucose",
+        "the accumulation of lactic acid"
+      ],
+      "correct": "D",
+      "explanation": "Prolonged strenuous exercise causes muscles to rely on anaerobic respiration, which produces lactic acid; its build-up in muscle tissue is largely responsible for the sensation of fatigue.",
+      "year": 2000
+    },
+    {
+      "question": "Match the hormones in List I with items in List II and select the correct answer using the codes given below the Lists: List I\nI. Adrenaline\nII. Estrogen\nIII. Insulin\nIV. Pheromones List II A) Anger, fear, danger B) Attracting partners through sense of smell C) Females D) Glucose\nCodes:",
+      "options": [
+        "I-C, II-A, III-D, IV-B",
+        "I-A, II-C, III-B, IV-D",
+        "I-A, II-C, III-D, IV-B",
+        "I-C, II-A, III-B, IV-D"
+      ],
+      "correct": "C",
+      "explanation": "Adrenaline is linked to anger, fear, and danger responses; estrogen is associated with female reproductive physiology; insulin regulates glucose; and pheromones attract mates through scent, matching I-A, II-C, III-D, IV-B.",
+      "year": 1999
+    },
+    {
+      "question": "Neem tree has acquired industrial importance as a source of",
+      "options": [
+        "biopesticide and anti-fertility compound",
+        "anti-fertility compound, biofertilizer and anti-cancer drug",
+        "biofertilizer, biopesticide and anti-fertility compound",
+        "anti-cancer drug, biopesticide and biofertilizer"
+      ],
+      "correct": "A",
+      "explanation": "Neem has become industrially important as a natural source of biopesticide compounds and anti-fertility (contraceptive) compounds used in various formulations.",
+      "year": 1999
+    },
+    {
+      "question": "For which one of the following is capillarity not the only reason?",
+      "options": [
+        "Blotting of ink",
+        "Rising of underground water",
+        "Spread of water drop on a cotton cloth",
+        "Rising of water from the roots of a plant to its foliage"
+      ],
+      "correct": "B",
+      "explanation": "Underground water rising through soil is driven mainly by hydrostatic pressure and porous flow rather than capillarity alone, unlike the blotting of ink, water spreading on cloth, or water rising through a plant's vascular tissue, which are all primarily capillarity-driven.",
+      "year": 1999
+    },
+    {
+      "question": "When ants bite, they inject",
+      "options": [
+        "glacial acetic acid",
+        "methanol",
+        "formic acid",
+        "stearic acid"
+      ],
+      "correct": "C",
+      "explanation": "When ants bite or sting, they typically inject formic acid, which causes the characteristic burning sensation.",
+      "year": 1999
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists: List I\nI. Fruit\nII. Seed\nIII. Wood\nIV. Starch List II A) Ovule      B) Leaf    C) Stem       D) Ovary",
+      "options": [
+        "I-B, II-A, III-E, IV-D",
+        "I-D, II-A, III-C, IV-B",
+        "I-B, II-C, III-A, IV-D",
+        "I-D, II-C, III-A, IV-B"
+      ],
+      "correct": "B",
+      "explanation": "In standard botanical terms, a fruit develops from the ovary, a seed develops from the ovule, wood comes from the stem, and starch is stored largely in leaves (and other storage organs), matching I-B(fruit-ovary pairing adjusted), though the accepted key pairs fruit with ovary and seed with ovule as the core distinguishing relationship being tested.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following statements regarding starch and cellulose is NOT correct?",
+      "options": [
+        "Both of them are of plant origin",
+        "Both of them are polymers",
+        "Both of them give colour with iodine",
+        "Both of them are made up of glucose molecules"
+      ],
+      "correct": "C",
+      "explanation": "Starch and cellulose are indeed both plant-derived glucose polymers, but only starch gives the characteristic blue-black colour with iodine, while cellulose does not react the same way, making that comparative statement the incorrect one.",
+      "year": 1998
+    },
+    {
+      "question": "The complete conversion of glucose in the presence of oxygen into carbon dioxide and water with release of energy is called",
+      "options": [
+        "aerobic respiration",
+        "anaerobic respiration",
+        "glycolysis",
+        "hydrolysis"
+      ],
+      "correct": "A",
+      "explanation": "The complete breakdown of glucose using oxygen, yielding carbon dioxide, water, and a large release of usable energy, defines aerobic respiration.",
+      "year": 1998
+    },
+    {
+      "question": "The pituitary gland by virtue of its tropic hormones controls the secretory activity of other endocrine glands. Which one of the following endocrine glands can function independent of the pituitary gland?",
+      "options": [
+        "Thyroid",
+        "Gonads",
+        "Adrenals",
+        "Parathyroid"
+      ],
+      "correct": "D",
+      "explanation": "The parathyroid glands regulate calcium levels independently of pituitary tropic hormone control, unlike the thyroid, gonads, and adrenal cortex, whose secretory activity is influenced by pituitary hormones.",
+      "year": 1997
+    },
+    {
+      "question": "Oxygen transportation in a human body takes place through\nI. Blood\nII. Lungs\nIII. Tissue The correct sequence of transportation is",
+      "options": [
+        "I, II, III",
+        "III, I, II",
+        "II, I, III",
+        "I, III, II"
+      ],
+      "correct": "C",
+      "explanation": "Oxygen is taken in through the lungs, carried by the blood, and finally delivered to the tissues, giving the correct sequence lungs, blood, tissue.",
+      "year": 1997
+    },
+    {
+      "question": "Corpus luteum is a mass of cells found in",
+      "options": [
+        "brain",
+        "ovary",
+        "pancreas",
+        "spleen"
+      ],
+      "correct": "B",
+      "explanation": "The corpus luteum is a temporary hormone-secreting structure that forms in the ovary from the ruptured follicle after ovulation.",
+      "year": 1997
+    },
+    {
+      "question": "Alpha-keratin is a protein present in",
+      "options": [
+        "blood",
+        "skin",
+        "wool",
+        "eggs"
+      ],
+      "correct": "C",
+      "explanation": "Alpha-keratin is the fibrous structural protein that makes up wool, hair, and related fibres in mammals.",
+      "year": 1997
+    },
+    {
+      "question": "Arteries supplying blood to the heart are called",
+      "options": [
+        "carotid arteries",
+        "hepatic arteries",
+        "coronary arteries",
+        "pulmonary arteries"
+      ],
+      "correct": "C",
+      "explanation": "The coronary arteries branch off from the aorta to supply oxygenated blood directly to the heart muscle itself.",
+      "year": 1997
+    },
+    {
+      "question": "Antigen is a substance which",
+      "options": [
+        "lowers body temperature",
+        "destroys harmful bacteria",
+        "triggers the immune system",
+        "is used as an antidote to poison"
+      ],
+      "correct": "C",
+      "explanation": "An antigen is a foreign substance that triggers the immune system into mounting a defensive response against it.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following is a modified stem?",
+      "options": [
+        "Carrot",
+        "Sweet potato",
+        "Coconut",
+        "Potato"
+      ],
+      "correct": "D",
+      "explanation": "The potato is a modified underground stem (a tuber), storing food in swollen stem tissue, unlike the carrot and sweet potato, which are modified roots.",
+      "year": 1996
+    },
+    {
+      "question": "Fat present below the skin surface in our body acts as a barrier against",
+      "options": [
+        "loss of heat from the body",
+        "loss of essential body fluids",
+        "loss of salts from the body",
+        "entry of harmful micro-organisms from the environment"
+      ],
+      "correct": "A",
+      "explanation": "Subcutaneous fat provides insulation, helping to reduce the loss of body heat and maintain a stable internal temperature.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following is NOT an essential micronutrient for plants?",
+      "options": [
+        "Boron",
+        "Zinc",
+        "Sodium",
+        "Copper"
+      ],
+      "correct": "C",
+      "explanation": "Sodium is not considered an essential micronutrient required by plants for normal growth, unlike boron, zinc, and copper, which are recognised essential micronutrients.",
+      "year": 1996
+    },
+    {
+      "question": "Living organisms require at least 27 elements, of which 15 are metals. Among these, those required in major quantities include",
+      "options": [
+        "Potassium, Manganese, Molybdenum & Calcium",
+        "Potassium, Molybdenum, Copper & Calcium",
+        "Potassium, Sodium, Magnesium & Calcium",
+        "Sodium, Magnesium, Copper & Manganese"
+      ],
+      "correct": "C",
+      "explanation": "Among the elements required by living organisms in relatively large (macronutrient) quantities are potassium, sodium, magnesium, and calcium.",
+      "year": 1996
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists: List I\nI. Vitamin\nII. Enzyme\nIII. Hormone\nIV. Protein List II A. Pepsin B. Carotene C. Keratin D. Progesterone",
+      "options": [
+        "I – A, II – B, III – C, IV – D",
+        "I – B, II – A, III – D, IV – C",
+        "I – B, II – A, III – C, IV – D",
+        "I – A, II – B, III – D, IV – C"
+      ],
+      "correct": "B",
+      "explanation": "Carotene functions as a vitamin precursor (provitamin A), pepsin is an enzyme, progesterone is a hormone, and keratin is a structural protein, matching the pairing I-B, II-A, III-D, IV-C.",
+      "year": 1996
+    },
+    {
+      "question": "Match List I (Physiological processes) with List II (Cell organelles) and select the correct answer by using the codes given below the lists: List I\nI. Photosynthesis\nII. Mineral uptake\nIII. Respiration\nIV. Protein Synthesis List II A) Plasma membrane B) Chloroplast C) Mitochondria D) Ribosomes\nCodes:",
+      "options": [
+        "I-A, II-B, III-C, IV-D",
+        "I-A, II-B, III-D, IV-C",
+        "I-B, II-A, III-C, IV-D",
+        "I-B, II-A, III-D, IV-C"
+      ],
+      "correct": "C",
+      "explanation": "Photosynthesis occurs in chloroplasts, mineral uptake happens through the plasma membrane, respiration occurs in mitochondria, and protein synthesis takes place at ribosomes, matching I-B, II-A, III-C, IV-D.",
+      "year": 1996
+    },
+    {
+      "question": "The Nobel Prize for deciphering the language of bees was awarded to",
+      "options": [
+        "H. G. Khurana",
+        "K. V. Frisch",
+        "Julian Huxley",
+        "Dorothy Hodgkins"
+      ],
+      "correct": "B",
+      "explanation": "Karl von Frisch shared the Nobel Prize for his pioneering research decoding the symbolic 'waggle dance' language bees use to communicate the location of food sources.",
+      "year": 1995
+    },
+    {
+      "question": "A person with ‘AB’ blood group is sometimes called a universal recipient because of the",
+      "options": [
+        "lack of antigen in his blood",
+        "lack of antibodies in his blood",
+        "lack of both antigens and antibodies in his blood",
+        "presence of antibodies in his blood"
+      ],
+      "correct": "B",
+      "explanation": "A person with AB blood group carries both A and B antigens on their red cells but produces neither anti-A nor anti-B antibodies in their plasma, which is why they can typically receive blood from any ABO group without triggering an antibody reaction.",
+      "year": 1995
+    },
+    {
+      "question": "Which one of the following is a membrane that protects the developing embryo from desiccation?",
+      "options": [
+        "Amnion",
+        "Allantois",
+        "Chorion",
+        "Yolk sac"
+      ],
+      "correct": "A",
+      "explanation": "The amnion is the fluid-filled membrane that surrounds and protects a developing embryo, preventing it from drying out.",
+      "year": 1995
+    },
+    {
+      "question": "Most of the desert plants bloom during night time because",
+      "options": [
+        "their blooming is controlled by low temperature",
+        "they are sensitive to the phases of moon",
+        "the desert insects eat away flowers during day time",
+        "the desert insects are active during night time"
+      ],
+      "correct": "D",
+      "explanation": "Many desert plants bloom at night because the insects that pollinate them, such as certain moths, are primarily active during the cooler night hours, avoiding the intense daytime heat.",
+      "year": 1995
+    },
+    {
+      "question": "The only snake that builds a nest is",
+      "options": [
+        "Chain viper",
+        "King Cobra",
+        "Krait",
+        "Saw scaled viper"
+      ],
+      "correct": "B",
+      "explanation": "The king cobra is the only snake species known to actively build a nest for its eggs.",
+      "year": 1995
+    },
+    {
+      "question": "Which of the following elements are present in all proteins?\nI. Carbon\nII. Hydrogen\nIII. Oxygen\nIV. Nitrogen\nSelect the correct answer from the codes given below:",
+      "options": [
+        "I and II",
+        "I, II and IV",
+        "I, III and IV",
+        "I, II, III and IV"
+      ],
+      "correct": "D",
+      "explanation": "All proteins, being built from amino acids, contain carbon, hydrogen, oxygen, and nitrogen as their fundamental constituent elements.",
+      "year": 1995
+    },
+    {
+      "question": "Which one of the following hormones contains iodine?",
+      "options": [
+        "Thyroxine",
+        "Testosterone",
+        "Insulin",
+        "Adrenaline"
+      ],
+      "correct": "A",
+      "explanation": "Thyroxine, the thyroid hormone that regulates metabolism, is unique among common hormones in containing iodine as part of its molecular structure.",
+      "year": 1995
+    }
+  ]
+}

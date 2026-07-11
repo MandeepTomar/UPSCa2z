@@ -1,0 +1,799 @@
+{
+  "topic": "Space Technology & Astronomy",
+  "subject": "Science & Technology",
+  "duration": 2640,
+  "questions": [
+    {
+      "question": "Consider the following statements: Statement-I: Giant stars live much longer than dwarf stars. Statement-II: Compared to dwarf stars, giant stars have a greater rate of nuclear reactions. Which one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "correct": "D",
+      "explanation": "Giant stars actually burn through their fuel much faster and have shorter, not longer, lifespans than smaller dwarf stars, making Statement-I false; giant stars do have a far greater rate of nuclear fusion due to their much higher core temperatures and pressures, making Statement-II correct.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following pairs : Objects in space — Description\n1. Cepheids : Giant clouds of dust and gas in space\n2. Nebulae : Stars which brighten and dim periodically\n3. Pulsars : Neutron stars that are formed when massive stars run out of fuel and collapse\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "A",
+      "explanation": "Cepheids are actually pulsating stars that brighten and dim periodically (matching the description given for nebulae), nebulae are giant clouds of dust and gas (matching the description given for Cepheids), and pulsars are indeed collapsed neutron star remnants of massive stars, so only the third pairing, pulsars, is correctly matched.",
+      "year": 2023
+    },
+    {
+      "question": "Which one of the following countries has its own Satellite Navigation System?",
+      "options": [
+        "Australia",
+        "Canada",
+        "Israel",
+        "Japan"
+      ],
+      "correct": "D",
+      "explanation": "Japan operates its own regional satellite navigation system, the Quasi-Zenith Satellite System (QZSS), designed to augment GPS coverage over Japan and the Asia-Oceania region.",
+      "year": 2023
+    },
+    {
+      "question": "If a major solar storm (solar flare) reaches the Earth, which of the following are the possible effects on the Earth?\n1. GPS and navigation systems could fail.\n2. Tsunamis could occur at equatorial regions.\n3. Power grids could be damaged.\n4. Intense auroras could occur over much of the Earth.\n5. Forest fires could take place over much of the planet.\n6. Orbits of the satellites could be disturbed.\n7. Shortwave radio communication of the aircraft flying over polar regions could be interrupted.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2, 4 and 5 only",
+        "2, 3, 5, 6 and 7 only",
+        "1, 3, 4, 6 and 7 only",
+        "1, 2, 3, 4, 5, 6 and 7"
+      ],
+      "correct": "C",
+      "explanation": "A major solar storm can disrupt GPS and navigation systems, damage power grids through induced currents, trigger intense auroras at unusually low latitudes, disturb satellite orbits through atmospheric heating, and interrupt shortwave radio communication for polar flights, but it does not cause tsunamis or forest fires, which are unrelated geological/terrestrial phenomena.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following is a reason why astronomical distances are measured in light-years?",
+      "options": [
+        "Distances among stellar bodies do not change.",
+        "Gravity of stellar bodies does not change.",
+        "Light always travels in straight line.",
+        "Speed of light is always same."
+      ],
+      "correct": "D",
+      "explanation": "Because the speed of light in a vacuum is a universal constant, using the distance light travels in a year (a light-year) provides a convenient, fixed unit for expressing the enormous distances between stars.",
+      "year": 2021
+    },
+    {
+      "question": "“The experiment will employ a trio of spacecraft flying in formation in the shape of an equilateral triangle that has sides one million kilometres long, with lasers shining between the craft.” The experiment in question refers to",
+      "options": [
+        "Voyager-2",
+        "New Horizons",
+        "LISA Pathfinder",
+        "Evolved LISA"
+      ],
+      "correct": "D",
+      "explanation": "The description of three spacecraft in a giant equilateral-triangle formation using lasers to detect gravitational waves precisely matches the (e)LISA (Laser Interferometer Space Antenna) mission concept.",
+      "year": 2020
+    },
+    {
+      "question": "For the measurement/estimation of which of the following are satellite images/remote sensing data used?\n1. Chlorophyll content in the vegetation of a specific location\n2. Greenhouse gas emissions from rice paddies of a specific location\n3. Land surface temperatures of a specific location\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Satellite remote sensing is routinely used to estimate vegetation chlorophyll content, monitor greenhouse gas emissions such as methane from rice paddies, and measure land surface temperatures, making all three valid applications.",
+      "year": 2019
+    },
+    {
+      "question": "Recently, scientists observed the merger of giant 'blackholes' billions of light-years away from the Earth. What is the significance of this observation?",
+      "options": [
+        "'Higgs boson particles' were detected.",
+        "'Gravitational waves' were detected.",
+        "Possibility of inter-galactic space travel through 'wormhole' was confirmed.",
+        "It enabled the scientists to understand 'singularity'."
+      ],
+      "correct": "B",
+      "explanation": "The 2015 detection of a black hole merger by LIGO confirmed the direct observation of gravitational waves, ripples in space-time predicted by Einstein's General Theory of Relativity.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to the Indian Regional Navigation Satellite System (IRNSS), consider the following statements:\n1. IRNSS has three satellites in geostationary and four satellites in geosynchronous orbits.\n2. IRNSS covers entire India and about 5500 sq. km beyond its borders.\n3. India will have its own satellite navigation system with full global coverage by the middle of 2019.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "None"
+      ],
+      "correct": "A",
+      "explanation": "IRNSS (now NavIC) does have three satellites in geostationary orbit and four in geosynchronous orbits (statement 1 true); however its coverage extends primarily over India and a surrounding region of roughly 1500 km, not 5500 sq km, and it is a regional (not global) system, making statements 2 and 3 inaccurate.",
+      "year": 2018
+    },
+    {
+      "question": "With reference to India's satellite launch vehicles, consider the following statements:\n1. PSLVs launch the satellites useful for Earth resources monitoring whereas GSLVs are designed mainly to launch communication satellites.\n2. Satellites launched by PSLV appear to remain permanently fixed in the same position in the sky, as viewed from a particular location on Earth.\n3. GSLV Mk III is a four-stage launch vehicle with the first and third stages using solid rocket motors; and the second and fourth stages using liquid rocket engines.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3",
+        "1 and 2",
+        "3 only"
+      ],
+      "correct": "A",
+      "explanation": "PSLV is indeed used mainly for earth-observation satellites while GSLV is designed for heavier communication satellites (statement 1 true); satellites in a geostationary orbit, not typical PSLV payload orbits, appear fixed in the sky, making statement 2 false as a general claim about PSLV satellites, and GSLV Mk III's actual stage configuration doesn't match the alternating solid/liquid pattern described, making statement 3 inaccurate too.",
+      "year": 2018
+    },
+    {
+      "question": "The terms 'Event Horizon', 'Singularity', 'String Theory' and 'Standard Model' are sometimes seen in the news in the context of",
+      "options": [
+        "Observation and understanding of the Universe",
+        "Study of the solar and the lunar eclipses",
+        "Placing satellites in the orbit of the Earth",
+        "Origin and evolution of living organisms on the Earth"
+      ],
+      "correct": "A",
+      "explanation": "Event horizon, singularity, string theory, and the standard model are all key concepts used in astrophysics and cosmology to describe and understand black holes, fundamental particles, and the structure of the universe.",
+      "year": 2017
+    },
+    {
+      "question": "What is the purpose of ‘evolved Laser Interferometer Space Antenna (eLISA)’ project?",
+      "options": [
+        "To detect neutrinos",
+        "To detect gravitational waves",
+        "To detect the effectiveness of missile defence system",
+        "To study the effect of solar flares on our communication systems"
+      ],
+      "correct": "A",
+      "explanation": "The eLISA project is designed to detect gravitational waves in space using laser interferometry between spacecraft, extending the same detection principle used by ground-based observatories like LIGO.",
+      "year": 2017
+    },
+    {
+      "question": "With reference to ‘Astrosat’, the astronomical observatory launched by India, which of the following statements is/are correct?\n1. Other than USA and Russia, India is the only country to have launched a similar observatory into space.\n2. Astrosat is a 2000 kg satellite placed in an orbit at 1650 km above the surface of the Earth.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Besides the USA and Russia, other countries and agencies (such as the European Space Agency and Japan) have also launched dedicated multi-wavelength astronomy satellites, so India is not uniquely the only additional country to do so, and Astrosat's actual mass and orbital altitude also differ from the figures given, making both statements incorrect.",
+      "year": 2016
+    },
+    {
+      "question": "Consider the following statements: The Mangalyaan launched by ISRO\n1. Is also called the Mars Orbiter Mission\n2. Made India the second country to have a spacecraft orbit the Mars after USA\n3. Made India the only country to be successful in making its spacecraft orbit the Mars in its very first attempt\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Mangalyaan (the Mars Orbiter Mission) is indeed ISRO's mission (statement 1 true), and it made India the fourth country overall to reach Mars but the first nation to succeed in its very first attempt, unlike statement 2's claim of being 'the second country' after the USA, which is inaccurate, while statement 3 about succeeding on the first attempt is correct.",
+      "year": 2016
+    },
+    {
+      "question": "The term ‘Goldilocks Zone’ is often seen in the news in the context of",
+      "options": [
+        "the limits of habitable zone above the surface of the Earth",
+        "regions inside the Earth where shale gas is available",
+        "search for the Earth-like planets in outer space",
+        "search for meteorites containing precious metals"
+      ],
+      "correct": "C",
+      "explanation": "The 'Goldilocks Zone' refers to the range of distances from a star where conditions could be neither too hot nor too cold for liquid water to exist, making it a key concept in the search for potentially habitable, Earth-like exoplanets.",
+      "year": 2015
+    },
+    {
+      "question": "In which of the following activities are Indian Remote Sensing (IRS) satellites used?\n1. Assessment of crop productivity\n2. Locating groundwater resources\n3. Mineral exploration\n4. Telecommunications\n5. Traffic studies",
+      "options": [
+        "1, 2 and 3 only",
+        "4 and 5 only",
+        "1 and 2 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "A",
+      "explanation": "Indian Remote Sensing satellites are widely used for assessing crop productivity, locating groundwater resources, and mineral exploration, but telecommunications and traffic studies are not primary Earth-observation applications of these particular satellites.",
+      "year": 2015
+    },
+    {
+      "question": "Which of the following pairs is/are correctly matched? Spacecraft : Purpose\n1. Cassini-Huygens : Orbiting the Venus and transmitting data to the Earth\n2. Messenger : Mapping and investigating the Mercury\n3. Voyager 1 and 2 : Exploring the outer solar system\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Cassini-Huygens actually explored Saturn (not Venus, making statement 1 false), the Messenger mission did map and study Mercury (statement 2 true), and Voyager 1 and 2 did explore the outer solar system and beyond (statement 3 true).",
+      "year": 2014
+    },
+    {
+      "question": "Which of the following is/are cited by the scientists as evidence/evidences for the continued expansion of universe?\n1. Detection of microwaves in space\n2. Observation of redshift phenomenon in space\n3. Movement of asteroids in space\n4. Occurrence of supernova explosions in space",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1, 3 and 4",
+        "None of the above can be cited as evidence"
+      ],
+      "correct": "A",
+      "explanation": "Cosmic microwave background radiation and the redshift observed in distant galaxies' light are the two classic pieces of evidence scientists cite for the universe's continued expansion, unrelated to asteroid movement or supernova occurrence.",
+      "year": 2012
+    },
+    {
+      "question": "Electrically charged particles from space travelling at speeds of several hundred km/sec can severely harm living beings if they reach the surface of the Earth. What prevents them from reaching the surface of the Earth ?",
+      "options": [
+        "The Earth's magnetic field diverts them towards its poles",
+        "Ozone layer around the Earth reflects them back to outer space",
+        "Moisture in the upper layers of atmosphere prevents them from reaching the surface of the Earth",
+        "None of the statements (a), (b) and (c) given above is correct"
+      ],
+      "correct": "A",
+      "explanation": "The Earth's magnetic field deflects most charged particles from space (such as those in the solar wind) toward the polar regions, protecting most of the planet's surface from their harmful effects.",
+      "year": 2012
+    },
+    {
+      "question": "Satellites used for telecommunication relay are kept in a geostationary orbit. A satellite is said to be in such an orbit when:\n1. The orbit is geosynchronous.\n2. The orbit is circular.\n3. The orbit lies in the plane of the Earth’s equator.\n4. The orbit is at an altitude of 22,236 km.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "A true geostationary orbit must be geosynchronous (matching Earth's rotation period), circular, positioned directly over the equator, and located at an altitude of about 35,786 km, but not the 22,236 km figure historically miscited in this particular option set, though the accepted key regards the first three characteristics as jointly defining the geostationary condition.",
+      "year": 2011
+    },
+    {
+      "question": "An artificial satellite orbiting around the Earth does not fall down. This is so because the attraction of Earth",
+      "options": [
+        "does not exist at such distance",
+        "is neutralized by the attraction of the moon",
+        "provides the necessary speed for its steady motion",
+        "provides the necessary acceleration for its motion"
+      ],
+      "correct": "D",
+      "explanation": "An orbiting satellite is in continuous free-fall, with Earth's gravitational pull providing exactly the centripetal acceleration needed to keep it moving along its curved orbital path rather than flying off in a straight line.",
+      "year": 2011
+    },
+    {
+      "question": "What is the difference between asteroids and comets?\n1. Asteroids are small rocky planetoids, while comets are formed of frozen gases held together by rocky and metallic material.\n2. Asteroids are found mostly between the orbits of Jupiter and Mars, while comets are found mostly between Venus and Mercury.\n3. Comets show a perceptible glowing tail, while asteroids do not.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Asteroids are indeed small rocky bodies while comets are icy bodies of frozen gases and dust (statement 1 true), and comets do develop visible glowing tails as they approach the Sun, unlike asteroids (statement 3 true); however most asteroids orbit between Mars and Jupiter, not Venus and Mercury as claimed for comets, making statement 2 false.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following statements: The satellite Oceansat-2 launched by India helps in\n1. Estimating the water vapour content in the atmosphere.\n2. Predicting the onset of monsoons.\n3. Monitoring the pollution of coastal waters.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Oceansat-2 is equipped with instruments that help estimate atmospheric water vapour, monitor ocean-related indicators relevant to predicting monsoon onset, and track coastal water pollution, making all three uses valid.",
+      "year": 2010
+    },
+    {
+      "question": "In the context of space technology, what is “Bhuvan”, recently in the news?",
+      "options": [
+        "A mini satellite launched by ISRO for promoting the distance education in India",
+        "The name given to the next Moon Impact Probe, for Chandrayaan-II",
+        "A geoportal of ISRO with 3-D imaging capabilities of India",
+        "A space telescope developed by India"
+      ],
+      "correct": "C",
+      "explanation": "Bhuvan is ISRO's web-based geoportal that provides detailed 3D satellite imagery and geospatial information covering India.",
+      "year": 2010
+    },
+    {
+      "question": "Who of the following scientists proved that the stars with mass less than 1·44 times the mass of the Sun end up as White Dwarfs when they die ?",
+      "options": [
+        "Edwin Hubble",
+        "S. Chandrashekhar",
+        "Stephen Hawking",
+        "Steven Weinberg"
+      ],
+      "correct": "B",
+      "explanation": "Subrahmanyan Chandrasekhar showed that stars below approximately 1.44 solar masses (the Chandrasekhar limit) end their lives as white dwarfs rather than collapsing further into neutron stars or black holes.",
+      "year": 2009
+    },
+    {
+      "question": "India has recently landed its Moon Impact Probe on the Moon. Among the following countries, which one landed such probe on the Moon earlier ?",
+      "options": [
+        "Australia",
+        "Canada",
+        "China",
+        "Japan"
+      ],
+      "correct": "D",
+      "explanation": "China's Chang'e-1 mission successfully impacted the Moon before India's Moon Impact Probe (part of Chandrayaan-1) did so.",
+      "year": 2009
+    },
+    {
+      "question": "Selene-1, the lunar orbiter mission belongs to which one of the following?",
+      "options": [
+        "China",
+        "European Union",
+        "Japan",
+        "USA"
+      ],
+      "correct": "C",
+      "explanation": "Selene-1 (Kaguya) was a Japanese lunar orbiter mission launched to study the Moon.",
+      "year": 2008
+    },
+    {
+      "question": "ISRO successfully conducted a rocket test using cryogenic engines in the year 2007. Where is the test-stand used for the purpose, located?",
+      "options": [
+        "Balasore",
+        "Thiruvananthapuram",
+        "Mahendragiri",
+        "Karwar"
+      ],
+      "correct": "C",
+      "explanation": "ISRO's cryogenic engine test facility used for the 2007 test is located at Mahendragiri in Tamil Nadu.",
+      "year": 2008
+    },
+    {
+      "question": "In order of their distances from the Sun, which of the following planets lie between Mars and Uranus?",
+      "options": [
+        "Earth and Jupiter",
+        "Jupiter and Saturn",
+        "Saturn and Earth",
+        "Saturn and Neptune"
+      ],
+      "correct": "B",
+      "explanation": "Moving outward from the Sun, the order of planets is Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, so the planets lying between Mars and Uranus are Jupiter and Saturn.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following is a spacecraft?",
+      "options": [
+        "Apophis",
+        "Cassini",
+        "Spitzer",
+        "TechSar"
+      ],
+      "correct": "B",
+      "explanation": "Cassini was a NASA-ESA spacecraft that explored Saturn and its moons, unlike Apophis (an asteroid), Spitzer (a space telescope), or TechSAR (an Israeli radar satellite).",
+      "year": 2008
+    },
+    {
+      "question": "What is the purpose of the US Space Agency's Themis Mission, which was recently in the news?",
+      "options": [
+        "To study the possibility of life on Mars",
+        "To study the satellites of Saturn",
+        "To study the colourful display of high latitude skies",
+        "To build a space laboratory to study the stellar explosions"
+      ],
+      "correct": "C",
+      "explanation": "NASA's THEMIS mission was designed to study the substorms responsible for the colourful auroral displays seen in high-latitude night skies.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements in respect of a jet engine and a rocket:\n1. A jet engine uses the surrounding air for its oxygen supply and so is unsuitable for motion in space.\n2. A rocket carries its own supply of oxygen in the gas form, and fuel.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "A jet engine draws in surrounding air for combustion oxygen and therefore cannot operate in the vacuum of space (statement 1 true), while a rocket carries its own oxidiser along with its fuel, allowing it to function outside the atmosphere (statement 2 true).",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. In the year 2006, India successfully tested a full-fledged cryogenic stage in rocketry.\n2. After USA, Russia and China, India is the only country to have acquired the capability for use of cryogenic stage in rocketry.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "India did successfully test a full cryogenic upper stage in 2006 (statement 1 true); however by that time several other countries beyond just USA, Russia, and China had also developed cryogenic stage capability, making statement 2's exclusivity claim inaccurate.",
+      "year": 2007
+    },
+    {
+      "question": "NASA’s Deep Impact space mission was employed to take detailed pictures of which comet nucleus?",
+      "options": [
+        "Halley’s comet",
+        "Hale-Bopp",
+        "Hyakutake",
+        "Temple 1"
+      ],
+      "correct": "D",
+      "explanation": "NASA's Deep Impact mission released an impactor into Comet Tempel 1 to study the material ejected from its nucleus.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched?",
+      "options": [
+        "Cosmic Background : Satellite Programme Explorer (COBE)",
+        "Falcon : Under-sea cable system",
+        "Discovery : Space shuttle",
+        "Atlantis : Space station"
+      ],
+      "correct": "D",
+      "explanation": "Atlantis was a NASA Space Shuttle orbiter, not a space station, making the pairing of Atlantis with 'space station' the incorrect match among the options.",
+      "year": 2007
+    },
+    {
+      "question": "What is the Galileo project which has been in news recently?",
+      "options": [
+        "An inter-country programme of missile shield developed by the United States of America",
+        "A project developed by India with assistance from Canada",
+        "An environmental protection project being developed by Japan",
+        "A multi-satellite navigation project being developed by the European Union"
+      ],
+      "correct": "D",
+      "explanation": "Galileo is the European Union's own global satellite navigation system, developed to provide an independent alternative to the US GPS system.",
+      "year": 2007
+    },
+    {
+      "question": "Assertion (A): To orbit around the Sun, the planet Mars takes lesser time than the time taken by the Earth. Reason (R): The diameter of the planet Mars is less than that of the Earth.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Mars actually takes longer than Earth to orbit the Sun (not less time as the assertion claims, making it false), since it orbits at a greater distance; Mars does have a smaller diameter than Earth, so the reason statement is true even though it does not correctly explain the (false) assertion.",
+      "year": 2006
+    },
+    {
+      "question": "What is the approximate mean velocity with which the Earth moves round the Sun in its orbit?",
+      "options": [
+        "20 km/s",
+        "30 km/s",
+        "40 km/s",
+        "50 km/s"
+      ],
+      "correct": "B",
+      "explanation": "Earth orbits the Sun at an average speed of approximately 30 kilometres per second.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements in respect of India's advanced satellite INSAT–4A :\n1. INSAT–4A was launched in December, 2005 from New Mexico.\n2. The European commercial launch service provider Arianespace was associated with the launch of INSAT–4A.\n3. Tata-Sky—a digital cable service provider is associated with DTH television broadcasting services from INSAT-4A.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2, only",
+        "2 and 3, only",
+        "1 and 3, only"
+      ],
+      "correct": "C",
+      "explanation": "INSAT-4A was actually launched from Kourou, French Guiana (not New Mexico, making statement 1 false), by the European launch provider Arianespace (statement 2 true), and Tata Sky did use INSAT-4A's transponders for its DTH broadcasting services (statement 3 true).",
+      "year": 2006
+    },
+    {
+      "question": "Assertion (A): Existence of human life on Venus is highly improbable. Reason (R): Venus has extremely high level of carbon dioxide in its atmosphere.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "The extremely high concentration of carbon dioxide in Venus's atmosphere creates a runaway greenhouse effect and searing surface temperatures, making it correctly cited as the reason human life there is essentially impossible.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. India launched its first full-fledged meteorological satellite (METSAT) in September 2002.\n2. For the first time, the space vehicle PSLV-C4 carried a payload of more than 1000 kg into a geosynchronous orbit.\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "India did launch METSAT (later renamed Kalpana-1), its first dedicated meteorological satellite, in September 2002 (statement 1 true), and PSLV-C4 did carry this payload of over 1000 kg toward a geosynchronous transfer orbit for the first time (statement 2 true).",
+      "year": 2003
+    },
+    {
+      "question": "Among the following which planet takes maximum time for one revolution around the Sun?",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Mars",
+        "Venus"
+      ],
+      "correct": "B",
+      "explanation": "Among the listed planets, Jupiter, being farthest from the Sun, takes the longest time (about 12 Earth years) to complete one orbit.",
+      "year": 2003
+    },
+    {
+      "question": "In the year 2001, NASA launched a spacecraft to Mars named",
+      "options": [
+        "Mars Climate Orbiter",
+        "Mars Global Surveyor",
+        "Mars Odyssey",
+        "Mars Polar Lander"
+      ],
+      "correct": "C",
+      "explanation": "NASA's Mars Odyssey orbiter was launched toward Mars in 2001 to study the planet's composition and search for evidence of water.",
+      "year": 2002
+    },
+    {
+      "question": "The world's highest ground-based telescopic observatory is located in",
+      "options": [
+        "Colombia",
+        "India",
+        "Nepal",
+        "Switzerland"
+      ],
+      "correct": "B",
+      "explanation": "India's Hanle observatory in Ladakh, at an altitude of over 4,500 metres, is recognised as one of the world's highest ground-based optical/infrared telescope sites.",
+      "year": 2002
+    },
+    {
+      "question": "Assume that the moon takes exactly 30 days to complete the cycle and also assume that it rises in the East exactly at 6.48 p.m. on the first day. On the fourth day, at what time will it rise?",
+      "options": [
+        "8.24 p.m.",
+        "9.12 p.m.",
+        "10.00 p.m.",
+        "11.48 p.m."
+      ],
+      "correct": "B",
+      "explanation": "The Moon rises roughly 48 minutes later each successive day due to its orbital motion around Earth, so starting from 6:48 p.m., adding about 48 minutes per day for three more days shifts moonrise to approximately 9:12 p.m. on the fourth day.",
+      "year": 2002
+    },
+    {
+      "question": "With reference to Indian satellites and their launchers, consider the following statements:\n1. All the INSAT-series of satellites were launched abroad\n2. PSLVs were used to launch IRS-series of satellites\n3. India used the indigenously built cryogenic engines for the first time for powering the third stage of GSLV\n4. GSAT, launched in the year 2001, has payloads to demonstrate digital broadcasts and internet services\nWhich of these statements are correct?",
+      "options": [
+        "1, 2, 3 and 4",
+        "2, 3 and 4",
+        "1, 2 and 4",
+        "1 and 3"
+      ],
+      "correct": "C",
+      "explanation": "PSLVs were indeed used to launch India's IRS-series satellites (statement 2 true), and the 2001 GSAT did carry payloads to demonstrate digital broadcast and internet-related services (statement 4 true); however not all INSAT satellites were launched abroad, and India's first indigenous cryogenic engine success for GSLV's third stage came somewhat later than implied, making statements 1 and 3 inaccurate for the period in question.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): Artificial satellites are always launched from the earth in the eastward direction. Reason (R): The earth rotates from west to east and so the satellite attains the escape velocity.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Satellites are typically launched eastward to take advantage of the extra velocity boost from Earth's own west-to-east rotation, but this launch direction provides additional orbital speed rather than literally granting 'escape velocity', so the assertion is true while the specific reasoning given is not quite accurate.",
+      "year": 2002
+    },
+    {
+      "question": "Who amongst the following was the Chairman of ISRO when INSAT-3B was launched?",
+      "options": [
+        "Anil Kakodar",
+        "Abdul Kalam",
+        "K. Kasturirangan",
+        "U. R. Rao"
+      ],
+      "correct": "C",
+      "explanation": "K. Kasturirangan served as ISRO Chairman during the period when INSAT-3B was launched in 2000.",
+      "year": 2001
+    },
+    {
+      "question": "Who is the scientist in whose honour the “Chandra” X-ray telescope has been named?",
+      "options": [
+        "Chandrasekhar Venkat Raman",
+        "Jagdish Chandra Bose",
+        "Prafulla Chandra Roy",
+        "Subrahmanyan Chandrasekhar"
+      ],
+      "correct": "D",
+      "explanation": "The Chandra X-ray Observatory was named in honour of Subrahmanyan Chandrasekhar, the astrophysicist known for his work on stellar evolution and the Chandrasekhar limit.",
+      "year": 2001
+    },
+    {
+      "question": "A ‘black hole’ is a body in space which does not allow any radiation to come out. This property is due to its",
+      "options": [
+        "very small size",
+        "very large size",
+        "very high density",
+        "very low density"
+      ],
+      "correct": "C",
+      "explanation": "A black hole's gravity is so intense, owing to its extremely high density packed into a very small volume, that not even light can escape once it crosses the event horizon.",
+      "year": 2000
+    },
+    {
+      "question": "The damage to the Spektr Module of the Russian Space Station Mir was due to",
+      "options": [
+        "collision with a Soyuz cargo ship",
+        "faulty material design of the Spektr Module",
+        "explosion inside the space station",
+        "collision with an asteroid"
+      ],
+      "correct": "A",
+      "explanation": "The Spektr module of the Mir space station was damaged in 1997 when an unmanned Progress cargo ship collided with it during a manual docking test.",
+      "year": 1998
+    },
+    {
+      "question": "Which of the following statements are true about the Indian-born woman astronaut Kalpana Chawla?\nI. She was born in Karnal.\nII. She flew on board the shuttle flight STS-87.\nIII. She was trained at the Kennedy Space Centre.\nIV. She did a space-walk to retrieve the Spartan Satellite.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I and II",
+        "II and III",
+        "I, II and III",
+        "I, II and IV"
+      ],
+      "correct": "C",
+      "explanation": "Kalpana Chawla was indeed born in Karnal, India (statement I true), flew aboard Space Shuttle mission STS-87 (statement II true), and though she trained extensively with NASA, the specific space-walk claim regarding the Spartan satellite retrieval is not attributed to her, making statement IV inaccurate, while her training background (statement III) is considered correct in this context.",
+      "year": 1998
+    },
+    {
+      "question": "The satellites of which one of the following countries have helped in the preparation of a detailed and complete map of Antarctica?",
+      "options": [
+        "Canada",
+        "France",
+        "Russia",
+        "USA"
+      ],
+      "correct": "A",
+      "explanation": "US satellite imagery was used to help compile a detailed and comprehensive map of Antarctica.",
+      "year": 1998
+    },
+    {
+      "question": "Consider the following statements regarding asteroids:\nI. Asteroids are rocky debris of varying sizes orbiting the Sun.\nII. Most of the asteroids are small but some have diameter as large as 1000 km.\nIII. The orbit of asteroids lies between the orbits of Jupiter and Saturn. Of these statements:",
+      "options": [
+        "I, II and III are correct",
+        "II and III are correct",
+        "I and II are correct",
+        "I and III are correct"
+      ],
+      "correct": "C",
+      "explanation": "Asteroids are indeed rocky debris of varying size orbiting the Sun (statement I true), with some reaching diameters close to 1000 km (statement II true); however most asteroids orbit in the belt between Mars and Jupiter, not between Jupiter and Saturn, making statement III false.",
+      "year": 1998
+    },
+    {
+      "question": "Match List I with List II and select the correct answer by using the codes given below the lists: List I (Special Characteristic)\nI. Farthest planet from the Sun\nII. Largest planet of the solar system\nIII. Planet second from the Sun in the solar system\nIV. Planet nearest to the Sun List II (Name of Planet) A) Mercury      B) Venus         C) Jupiter       D) Pluto    E) Saturn",
+      "options": [
+        "I-B, II-C, III-E, IV-A",
+        "I-C, II-E, III-A, IV-B",
+        "I-D, II-A, III-B, IV-C",
+        "I-D, II-C, III-B, IV-A"
+      ],
+      "correct": "D",
+      "explanation": "Pluto (treated as the farthest planet under the classification used when this question was set) is farthest from the Sun, Jupiter is the largest planet, Venus is second from the Sun, and Mercury is nearest to the Sun, matching I-D, II-C, III-B, IV-A.",
+      "year": 1998
+    },
+    {
+      "question": "One Astronomical Unit is the average distance between",
+      "options": [
+        "Earth and the Sun",
+        "Earth and the Moon",
+        "Jupiter and the Sun",
+        "Pluto and the Sun"
+      ],
+      "correct": "A",
+      "explanation": "One Astronomical Unit is defined as the average distance between the Earth and the Sun, roughly 150 million kilometres.",
+      "year": 1998
+    },
+    {
+      "question": "The tail of a comet is directed away from the sun because",
+      "options": [
+        "as the comet rotates around the sun, the lighter mass of the comet is pushed away due to the centrifugal force alone",
+        "as the comet rotates, the lighter mass of the comet is attracted by some star situated in the direction of its tail",
+        "the radiation emitted by the sun exerts a radial pressure on the comet throwing its tail away from the sun",
+        "the tail of the comet always exists in the same orientation"
+      ],
+      "correct": "C",
+      "explanation": "A comet's tail points away from the Sun because the pressure of solar radiation (and solar wind) pushes the comet's lighter gas and dust particles outward, away from the Sun, regardless of the comet's direction of travel.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following stars is nearest to the earth?",
+      "options": [
+        "Polaris",
+        "Alpha Centauri",
+        "Sun",
+        "Sirius"
+      ],
+      "correct": "C",
+      "explanation": "The Sun, being our own star, is by far the nearest star to Earth compared to any other star system such as Alpha Centauri or Sirius.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following conditions is most relevant for the presence of life on Mars?",
+      "options": [
+        "Atmospheric composition",
+        "Thermal conditions",
+        "Occurrence of ice caps and frozen water",
+        "Occurrence of ozone"
+      ],
+      "correct": "C",
+      "explanation": "The presence of polar ice caps and frozen water on Mars is considered the most significant indicator relevant to assessing the planet's potential to support life, since liquid water is a key requirement for life as we understand it.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following satellites is to be launched from India in 1996?",
+      "options": [
+        "IRS-P2",
+        "IRS-P3",
+        "IRS-EN",
+        "IRS-ID"
+      ],
+      "correct": "B",
+      "explanation": "IRS-P3 was the Indian remote sensing satellite launched from India in 1996.",
+      "year": 1996
+    },
+    {
+      "question": "Consider the following statements: A person in a spaceship located half-way between the earth and the sun will notice that the\nI. Sky is jet black.\nII. Stars do not twinkle.\nIII. Temperature outside the spaceship is much higher than that on the surface of the earth. Of these statements",
+      "options": [
+        "Only III is correct",
+        "I and II are correct",
+        "I and III are correct",
+        "I, II and III are correct"
+      ],
+      "correct": "B",
+      "explanation": "Far from Earth's scattering atmosphere, the sky would appear jet black even in sunlight (statement I true), and without an atmosphere to cause scintillation, stars would not twinkle (statement II true); however, without an atmosphere to trap heat, temperature conditions in space would not simply be 'much higher' than Earth's surface in the way stated, making statement III inaccurate.",
+      "year": 1996
+    },
+    {
+      "question": "‘Diamond Ring’ is a phenomenon observed",
+      "options": [
+        "at the start of a total solar eclipse",
+        "at the end of a total solar eclipse",
+        "only along the peripheral regions of the totality trail",
+        "only in the central regions of the totality trail"
+      ],
+      "correct": "B",
+      "explanation": "The 'diamond ring' effect, a brief brilliant flash of sunlight around the Moon's edge, is observed at the end of totality during a total solar eclipse, just as the Sun begins to reappear.",
+      "year": 1996
+    },
+    {
+      "question": "A meteor is",
+      "options": [
+        "a rapidly moving star",
+        "a piece of matter which has entered the earth’s atmosphere from outer space",
+        "part of a constellation",
+        "a comet without a tail"
+      ],
+      "correct": "B",
+      "explanation": "A meteor is the streak of light produced when a small piece of interplanetary debris burns up upon entering Earth's atmosphere from outer space.",
+      "year": 1995
+    },
+    {
+      "question": "In the field of space technology, India has demonstrated during 1994 her capability to",
+      "options": [
+        "design advanced inter-continental ballistic missile warning systems",
+        "build satellites",
+        "build stealth missiles",
+        "launch geo-stationary satellites"
+      ],
+      "correct": "D",
+      "explanation": "In 1994, India successfully demonstrated its capability to launch a satellite into geostationary orbit, a major milestone in its space programme.",
+      "year": 1995
+    },
+    {
+      "question": "Comet Shoemaker-Levy 9 hit the planet",
+      "options": [
+        "Pluto",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correct": "C",
+      "explanation": "Comet Shoemaker-Levy 9 famously broke apart and collided with the planet Jupiter in 1994, an event closely observed by astronomers worldwide.",
+      "year": 1995
+    },
+    {
+      "question": "Cryogenic engines find applications in",
+      "options": [
+        "sub-marine propulsion",
+        "frost-free refrigerators",
+        "rocket technology",
+        "researches in superconductivity"
+      ],
+      "correct": "C",
+      "explanation": "Cryogenic engines, which use super-cooled liquid propellants like liquid hydrogen and oxygen, are primarily used in advanced rocket technology to achieve high thrust efficiency for space launches.",
+      "year": 1995
+    }
+  ]
+}

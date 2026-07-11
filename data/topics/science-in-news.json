@@ -1,0 +1,391 @@
+{
+  "topic": "Science & Tech in the News: Institutions, Awards & Personalities",
+  "subject": "Science & Technology",
+  "duration": 1280,
+  "questions": [
+    {
+      "question": "Consider the following statements:\n1. According to the Indian Patents Act, a biological process to create a seed can be patented in India.\n2. In India, there is no Intellectual Property Appellate Board.\n3. Plant varieties are not eligible to be patented in India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Under the Indian Patents Act, biological processes for creating seeds and plant varieties themselves are specifically excluded from patent protection (making statements 1 and 2 about patentability and the Appellate Board inaccurate as framed), while the Board does exist and plant varieties genuinely cannot be patented (though they can be protected under a separate plant-variety-protection law), leaving statement 3 alone as correct.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following statements is/are correct regarding National Innovation Foundation–India (NIF)?\n1. NIF is an autonomous body of the Department of Science and Technology under the Central Government.\n2. NIF is an initiative to strengthen the highly advanced scientific research in India’s premier scientific institutions in collaboration with highly advanced foreign scientific institutions.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The National Innovation Foundation-India is indeed an autonomous body functioning under the Department of Science and Technology, focused on scouting and supporting grassroots innovations rather than elite institutional research collaborations, making statement 1 true and statement 2 false.",
+      "year": 2015
+    },
+    {
+      "question": "The term ‘IndARC’, sometimes seen in the news, is the name of",
+      "options": [
+        "an indigenously developed radar system inducted into Indian Defence",
+        "India’s satellite to provide services to the countries of Indian Ocean Rim",
+        "a scientific establishment set up by India in Antarctic region",
+        "India’s underwater observatory to scientifically study the Arctic region"
+      ],
+      "correct": "D",
+      "explanation": "IndARC is India's first underwater observatory, deployed in the Arctic region (Kongsfjorden, Svalbard) to study long-term changes in the Arctic climate and marine environment.",
+      "year": 2015
+    },
+    {
+      "question": "For outstanding contribution to which one of the following fields is Shanti Swarup Bhatnagar Prize given ?",
+      "options": [
+        "Literature",
+        "Performing Arts",
+        "Science",
+        "Social Service"
+      ],
+      "correct": "C",
+      "explanation": "The Shanti Swarup Bhatnagar Prize is India's premier science award, recognising outstanding contributions to scientific research.",
+      "year": 2009
+    },
+    {
+      "question": "Which of the following pairs is/are correctly matched? Theory/Law — Associated Scientist\n1. Continental Drift : Edwin Hubble\n2. Expansion of Universe : Alfred Wegener\n3. Photoelectric Effect : Albert Einstein\nSelect the correct answer using the code given below:",
+      "options": [
+        "2 and 3 only",
+        "3 only",
+        "2 only",
+        "1 only"
+      ],
+      "correct": "B",
+      "explanation": "The correct pairings are actually reversed from what's presented, since Alfred Wegener proposed continental drift and Edwin Hubble is associated with the expansion of the universe (making statements 1 and 2 as listed incorrect), while Albert Einstein's explanation of the photoelectric effect is accurately matched, making only statement 3 correct.",
+      "year": 2008
+    },
+    {
+      "question": "Which of the following pairs are correctly matched? Institute — Location\n1. National Centre for Cell Science : Mysore\n2. Centre for DNA Fingerprinting and Diagnostics : Hyderabad\n3. National Brain Research Centre : Gurgaon\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": "C",
+      "explanation": "The National Centre for Cell Science is actually located in Pune, not Mysore (making statement 1 incorrect), while the Centre for DNA Fingerprinting and Diagnostics in Hyderabad and the National Brain Research Centre in Gurgaon are both correctly matched, making statements 2 and 3 accurate.",
+      "year": 2008
+    },
+    {
+      "question": "Who among the following scientists shared the Nobel Prize in Physics with his son?",
+      "options": [
+        "Max Planck",
+        "Albert Einstein",
+        "William Henry Bragg",
+        "Enrico Fermi"
+      ],
+      "correct": "C",
+      "explanation": "William Henry Bragg shared the 1915 Nobel Prize in Physics with his son William Lawrence Bragg for their work on X-ray crystallography.",
+      "year": 2008
+    },
+    {
+      "question": "Which of the following pairs is/are correctly matched?\n1. Francis Collins — Mapping human genome\n2. Sergey Brin : Google Search Engine\n3. Jimmy Wales — Wikipedia\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Francis Collins led the effort to map the human genome, Sergey Brin co-founded Google and its search engine, and Jimmy Wales co-founded Wikipedia, making all three pairings accurate.",
+      "year": 2008
+    },
+    {
+      "question": "Nobel Prize–winning scientist James D. Watson is known for his work in which area?",
+      "options": [
+        "Metallurgy",
+        "Meteorology",
+        "Environmental protection",
+        "Genetics"
+      ],
+      "correct": "D",
+      "explanation": "James D. Watson, co-discoverer of the DNA double helix structure, is renowned for his foundational work in genetics.",
+      "year": 2008
+    },
+    {
+      "question": "What is the broad area in which the Nobel Prize winners for the year 2006 in Physiology or Medicine worked to get the prize?",
+      "options": [
+        "Prevention of weakening due to ageing",
+        "Flow of genetic information",
+        "Immunology and disease resistance",
+        "Adult stem-cell research"
+      ],
+      "correct": "B",
+      "explanation": "The 2006 Nobel Prize in Physiology or Medicine was awarded for the discovery of RNA interference, a mechanism central to how genetic information is regulated and expressed within cells.",
+      "year": 2007
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the code given below the lists: List-I (Person) A. John C. Mather B. Michael Griffin C. Paul G. Allen D. Piers Sellers List-II (Known as)\n1. Co-founder of Microsoft\n2. Space walker\n3. Administrator of NASA\n4. Nobel Prize winner, 2006 in Physics\nCodes:",
+      "options": [
+        "A-4 B-1 C-3 D-2",
+        "A-2 B-3 C-1 D-4",
+        "A-4 B-3 C-1 D-2",
+        "A-2 B-1 C-3 D-4"
+      ],
+      "correct": "C",
+      "explanation": "John C. Mather won the 2006 Nobel Prize in Physics for work on cosmic microwave background radiation, Michael Griffin served as NASA Administrator, Paul G. Allen co-founded Microsoft, and Piers Sellers was a NASA astronaut known for spacewalks, matching the pairing A-4, B-3, C-1, D-2.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched?",
+      "options": [
+        "Williams Dickson : Motion Picture Film",
+        "Charles Babbage : Programmable Computer",
+        "Nicholas Stern : Construction Technology",
+        "Brian Greene : String Theory"
+      ],
+      "correct": "C",
+      "explanation": "Nicholas Stern is an economist known for his influential report on the economics of climate change, not construction technology, making that pairing the incorrect one, while the other three pairings involving motion picture film, the programmable computer, and string theory are accurate.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched? Recent Scientific Achievement : Country",
+      "options": [
+        "Creating the World’s first mouse : United Kingdom",
+        "Cloning a human embryo for the first time : Germany",
+        "Guiding a spacecraft for collision with a comet : United States of America",
+        "Landing a spacecraft on an asteroid : Japan"
+      ],
+      "correct": "B",
+      "explanation": "The claim that a human embryo was cloned for the first time in Germany does not match the historical record of that achievement, making it the incorrect pairing, unlike the other three achievements, which are accurately attributed.",
+      "year": 2006
+    },
+    {
+      "question": "Which of the following pairs is/are correctly matched? Inventor : Invention\n1. Christopher Cockerell : Hovercraft\n2. David Bushnell : Submarine\n3. J. C. Perrier : Steamship\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": "B",
+      "explanation": "Christopher Cockerell invented the hovercraft and David Bushnell is credited with an early submarine design, making statements 1 and 2 accurate; however the steamship is generally credited to inventors other than J. C. Perrier in the standard historical record used for this question, making statement 3 inaccurate.",
+      "year": 2006
+    },
+    {
+      "question": "Who is the President of the Council of Scientific and Industrial Research?",
+      "options": [
+        "President of India",
+        "Vice-President of India",
+        "Prime Minister of India",
+        "Union Minister of Science and Technology"
+      ],
+      "correct": "C",
+      "explanation": "The Prime Minister of India serves as the ex-officio President of the Council of Scientific and Industrial Research.",
+      "year": 2006
+    },
+    {
+      "question": "Match List-I (Indian Scientist/Scholar) with List-II (Area of work) and select the correct answer using the code given below the lists: List I A. C. N. R. Rao B. Jagdish Bhagwati C. G. N. Ramchandran D. Ashok List II\n1. Telecommunication\n2. Physics\n3. Economics\n4. Solid State Chemistry and Material Science\nCode:",
+      "options": [
+        "A-4 B-3 C-2 D-1",
+        "A-2 B-1 C-4 D-3",
+        "A-4 B-1 C-2 D-3",
+        "A-2 B-3 C-4 D-1"
+      ],
+      "correct": "A",
+      "explanation": "C. N. R. Rao is renowned for his work in solid-state and materials chemistry, Jagdish Bhagwati is a noted economist, G. N. Ramachandran made major contributions to structural physics/biology, and Ashok's telecommunications work rounds out the set, matching the pairing A-4, B-3, C-2, D-1.",
+      "year": 2006
+    },
+    {
+      "question": "Who among the following invented Lasers?",
+      "options": [
+        "Theodore Maiman",
+        "Denis Papin",
+        "Willam Moton",
+        "Fancis Crick"
+      ],
+      "correct": "A",
+      "explanation": "Theodore Maiman built the first working laser in 1960, demonstrating the practical realisation of the technology.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements :\n1. The Headquarters of the International Organization for Standardization are located in Rome\n2. ISO 9000 relates to the quality management system and standards.\n3. ISO 14000 relates to environmental management system standards.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "3 only",
+        "2 and 3",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "The International Organization for Standardization is actually headquartered in Geneva, Switzerland, not Rome, making statement 1 false; ISO 9000 does relate to quality management standards and ISO 14000 does relate to environmental management standards, making statements 2 and 3 correct.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements :\n1. Vigyan Rail is a Science Exhibition on wheels organized by the Council of Scientific and Industrial Research.\n2. Vigyan Prasar is an autonomous body under the Ministry of Human Resource Development.\n3. EDUSAT, the ISRO’s educational satellite was launched from French Guyana in 2004.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2",
+        "2 and 3",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "Vigyan Rail was indeed organised as a science exhibition on wheels but under a different lead body than the Council of Scientific and Industrial Research in the accepted record, Vigyan Prasar functions under the Department of Science and Technology rather than the Ministry of Human Resource Development, and EDUSAT was launched from Sriharikota in India, not French Guyana, making all three statements as given inaccurate.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. Adam Osborne produced the first portable computer.\n2. Ian Wilmut created the first cloned sheep.\nWhich of these statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Adam Osborne is credited with producing the first commercially successful portable computer, and Ian Wilmut led the team that created Dolly, the first cloned sheep, making both statements correct.",
+      "year": 2004
+    },
+    {
+      "question": "Match List I (Institute) with List II (Located At) and select the correct answer using the codes given below: List I (A) Indian Institute of Geomagnetism (B) International Advanced Research Centre for Powder Metallurgy and New Materials (C) Salim Ali Centre for Ornithology and Natural History (D) Tropical Forestry Research Institutes List II\n1. Coimbatore\n2. Mumbai\n3. Jabalpur\n4. Hyderabad\nCodes: ABCD",
+      "options": [
+        "2 3 1 4",
+        "1 4 2 3",
+        "2 4 1 3",
+        "1 3 2 4"
+      ],
+      "correct": "C",
+      "explanation": "The Indian Institute of Geomagnetism is located in Mumbai, the International Advanced Research Centre for Powder Metallurgy and New Materials is in Hyderabad, the Salim Ali Centre for Ornithology and Natural History is in Coimbatore, and the Tropical Forest Research Institute is in Jabalpur, matching the pairing A-2, B-4, C-1, D-3.",
+      "year": 2004
+    },
+    {
+      "question": "Which of the following pairs is NOT correctly matched?",
+      "options": [
+        "Reinhold Messner — Computer Technology",
+        "Harlow Shapley — Astronomy",
+        "Gregor Mendel — Hereditary Theory",
+        "Godfrey Housfield — CT Scan"
+      ],
+      "correct": "A",
+      "explanation": "Reinhold Messner is actually renowned as a mountaineer, not for computer technology, making that the incorrect pairing, while Harlow Shapley's work in astronomy, Gregor Mendel's hereditary theory, and Godfrey Hounsfield's development of CT scanning are all accurately matched.",
+      "year": 2004
+    },
+    {
+      "question": "The research work of Paul Lauterbur and Peter Mansfield, the Nobel Prize winners for Medicine in 2003, relates to",
+      "options": [
+        "The control of AIDS",
+        "Magnetic resonance imaging",
+        "Respiratory diseases",
+        "Genetic engineering"
+      ],
+      "correct": "B",
+      "explanation": "Paul Lauterbur and Peter Mansfield were awarded the 2003 Nobel Prize in Physiology or Medicine for their discoveries underlying the technology of magnetic resonance imaging (MRI).",
+      "year": 2004
+    },
+    {
+      "question": "Match List I (Scientists) with List II (Achievement) and select the correct answer using the codes given below the lists: List I (Scientists) A. Arber and Smith B. Feldman C. Mullis D. Temin and Baltimore List II (Achievement)\n1. Developed transgenic plants with Agrobacterium T-DNA\n2. Discovered endonucleases\n3. Discovered reverse transcriptase\n4. Discovered polymerase chain reaction",
+      "options": [
+        "2 1 4 3",
+        "1 2 4 3",
+        "2 1 3 4",
+        "1 2 3 4"
+      ],
+      "correct": "A",
+      "explanation": "Arber and Smith are credited with discovering restriction endonucleases, Feldman's work relates to developing transgenic plants using Agrobacterium T-DNA, Mullis is credited with developing the polymerase chain reaction, and Temin and Baltimore discovered reverse transcriptase, matching the pairing A-2, B-1, C-4, D-3.",
+      "year": 2002
+    },
+    {
+      "question": "The theme of Indian Science Congress, 2001 was",
+      "options": [
+        "“Food Nutrition and Environmental Security”",
+        "“Arrest declining interest in pure sciences”",
+        "“Make India energy self-sufficient”",
+        "“Make India IT Superpower”"
+      ],
+      "correct": "A",
+      "explanation": "The 2001 Indian Science Congress was held under the theme 'Food, Nutrition and Environmental Security'.",
+      "year": 2001
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists: List I (Institute)\nI. Central Institute of Medicinal and Aromatic Plants\nII. Centre for DNA Finger Printing and Diagnostics\nIII. Institute of Microbial Technology\nIV. National Institute of Immunology List II (Location) A) Chandigarh B) Hyderabad C) New Delhi D) Lucknow",
+      "options": [
+        "I-B, II-D, III-A, IV-C",
+        "I-D, II-B, III-A, IV-C",
+        "I-B, II-D, III-C, IV-A",
+        "I-D, II-B, III-C, IV-A"
+      ],
+      "correct": "B",
+      "explanation": "The Central Institute of Medicinal and Aromatic Plants is located in Lucknow, the Centre for DNA Fingerprinting and Diagnostics is in Hyderabad, the Institute of Microbial Technology is in Chandigarh, and the National Institute of Immunology is in New Delhi, matching the pairing I-D, II-B, III-A, IV-C.",
+      "year": 2001
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists: List I (Achievement in genetics)\nI. Discovery of transduction and conjugation in bacteria\nII. Establishing the sex-linked inheritance\nIII. Isolation of DNA polymerase from E. coli\nIV. Establishing the complete genetic code List II (Scientists) A) Khurana B) Kornberg C) Lederberg D) Morgan E) Ochoa",
+      "options": [
+        "I-D, II-C, III-B, IV-A",
+        "I-C, II-D, III-A, IV-E",
+        "I-D, II-C, III-A, IV-E",
+        "I-C, II-D, III-B, IV-A"
+      ],
+      "correct": "D",
+      "explanation": "Lederberg is credited with discovering bacterial transduction and conjugation, Morgan established the theory of sex-linked inheritance, Kornberg isolated DNA polymerase from E. coli, and Khurana helped establish the complete genetic code, matching the pairing I-C, II-D, III-B, IV-A.",
+      "year": 2001
+    },
+    {
+      "question": "Match the names of outstanding Indian scientists given in List I with the area of their specialised work given in List II and select the correct answer using the codes given below the lists: List I\nI. Dr. Raja Ramanna\nII. Dr. M. S. Swaminathan\nIII. Prof. U. R. Rao\nIV. Prof. Meghnad Saha List II A) Plant Chemistry B) Nuclear Physics                   C) Thermodynamics and astrophysics   D) Space research E) Agricultural sciences",
+      "options": [
+        "I-C, II-E, III-B, IV-A",
+        "I-B, II-A, III-D, IV-C",
+        "I-B, II-E, III-D, IV-C",
+        "I-C, II-A, III-D, IV-B"
+      ],
+      "correct": "C",
+      "explanation": "Dr. Raja Ramanna worked in nuclear physics, Dr. M. S. Swaminathan is renowned for agricultural sciences (the Green Revolution), Prof. U. R. Rao led space research at ISRO, and Prof. Meghnad Saha contributed to thermodynamics and astrophysics, matching the pairing I-B, II-E, III-D, IV-C.",
+      "year": 1998
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists: List I\nI. Theory of Mutation\nII. Theory of Evolution\nIII. One-gene-one-enzyme hypothesis\nIV. Operon concept List II A) Beadle and Tatum           B) Jacob and Monod              C) Darwin      D) De Vries",
+      "options": [
+        "I-C, II-D, III-A, IV-B",
+        "I-D, II-C, III-A, IV-B",
+        "I-D, II-C, III-B, IV-A",
+        "I-C, II-D, III-B, IV-A"
+      ],
+      "correct": "B",
+      "explanation": "De Vries is associated with the theory of mutation, Darwin with the theory of evolution, Beadle and Tatum with the one-gene-one-enzyme hypothesis, and Jacob and Monod with the operon concept, matching the pairing I-D, II-C, III-A, IV-B.",
+      "year": 1998
+    },
+    {
+      "question": "Of the four landmarks in medical history given below, which one was the first to take place?",
+      "options": [
+        "Organ transplant",
+        "Bypass surgery",
+        "Test-tube baby",
+        "Plastic surgery"
+      ],
+      "correct": "D",
+      "explanation": "Among the listed medical milestones, plastic surgery has ancient historical roots predating the modern achievements of organ transplant, bypass surgery, and the test-tube baby by a wide margin, making it the earliest of the four.",
+      "year": 1996
+    },
+    {
+      "question": "Who among the following anticipated Newton by declaring that all things gravitate to the earth?",
+      "options": [
+        "Aryabhata",
+        "Varahamihira",
+        "Buddha Gupta",
+        "Brahmagupta"
+      ],
+      "correct": "D",
+      "explanation": "Brahmagupta, the ancient Indian mathematician and astronomer, is credited with anticipating the concept of gravitation by stating that all objects are attracted toward the Earth, well before Newton's formal theory.",
+      "year": 1995
+    },
+    {
+      "question": "“By weaving threads of physics, chemistry and biology into a rich tapestry, this remarkable scientist provided a unifying molecular view of the world... He touted the wonderful properties of Vitamin C first as a cure of common cold and later as a preventive agent against cancer.” One of science’s major figures of all time referred to above is",
+      "options": [
+        "G.N. Lewis",
+        "Linus Carl Pauling",
+        "Fritz London",
+        "Walter Heitler"
+      ],
+      "correct": "B",
+      "explanation": "The description of weaving together physics, chemistry, and biology, along with the promotion of Vitamin C against the common cold and cancer, identifies Linus Carl Pauling, one of the most celebrated scientists of the 20th century.",
+      "year": 1995
+    }
+  ]
+}

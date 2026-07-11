@@ -1,0 +1,247 @@
+{
+  "topic": "Defence Technology",
+  "subject": "Science & Technology",
+  "duration": 800,
+  "questions": [
+    {
+      "question": "With reference to Unmanned Aerial Vehicles (UAVs), consider the following statements :\nI. All types of UAVs can do vertical landing.\nII. All types of UAVs can do automated hovering.\nIII. All types of UAVs can use battery only as a source of power supply.\nHow many of the statements given above are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All the three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "Not all UAV types are capable of vertical landing or automated hovering, since fixed-wing drones require runway-style landings and lack hovering ability, and UAVs can be powered by fuel, solar, or hybrid systems in addition to batteries, making all three blanket statements false.",
+      "year": 2025
+    },
+    {
+      "question": "Consider the following activities:\n1. Identification of narcotics on passengers at airports or in aircraft\n2. Monitoring of precipitation\n3. Tracking the migration of animals\nIn how many of the above activities can the radars be used?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Radar technology is used to identify concealed items like narcotics through certain scanning applications and to monitor precipitation via weather radar, but it is not a standard tool for tracking animal migration, which typically relies on GPS tagging rather than radar.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following aircraft :\n1. Rafael\n2. MiG-29\n3. Tejas MK-1\nHow many of the above are considered fifth generation fighter aircraft ?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "The Rafale and MiG-29 are both fourth-generation (or 4.5-generation) fighter aircraft, and Tejas MK-1 is also classified as a fourth-generation light combat aircraft, so none of the three listed aircraft qualify as fifth-generation fighters.",
+      "year": 2024
+    },
+    {
+      "question": "Which of the following is/are correctly matched in terms of equivalent rank in the three services of Indian Defence forces? Army — Airforce — Navy\n1. Brigadier — Air Commodore — Commander\n2. Major General — Air Vice Marshal — Vice Admiral\n3. Major — Squadron Leader — Lieutenant Commander\n4. Lieutenant Colonel — Group Captain — Captain\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 4",
+        "1 and 3",
+        "2, 3 and 4",
+        "3 only"
+      ],
+      "correct": "D",
+      "explanation": "Matching cross-service ranks: a Major in the Army corresponds to a Squadron Leader in the Air Force and a Lieutenant Commander in the Navy, correctly pairing statement 3; the other listed combinations do not accurately match their equivalent ranks across the three services.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following actions :\n1. Detection of car crash/collision which results in the deployment of airbags almost instantaneously\n2. Detection of accidental free fall of a laptop towards the ground which results in the immediate turning off of the hard drive\n3. Detection of the tilt of the smart-phone which results in the rotation of display between portrait and landscape mode\nIn how many of the above actions is the function of accelerometer required?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "An accelerometer, which detects changes in motion and orientation, is the key sensor behind airbag deployment during a crash, triggering a laptop's hard drive protection during a fall, and enabling a smartphone's screen to rotate between portrait and landscape modes.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements :\n1. Ballistic missiles are jet-propelled at subsonic speeds throughout their flights, while cruise missiles are rocket-powered only in the initial phase of flight.\n2. Agni-V is a medium-range supersonic cruise missile, while BrahMos is a solid-fuelled intercontinental ballistic missile.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Ballistic missiles are actually rocket-powered (not jet-propelled) and typically follow a powered boost phase followed by a free-fall trajectory, while cruise missiles are jet-propelled and can sustain powered flight throughout their journey, the reverse of what statement 1 claims; and Agni-V is actually a solid-fuelled intercontinental ballistic missile while BrahMos is a supersonic cruise missile, the reverse of statement 2, making both statements incorrect.",
+      "year": 2023
+    },
+    {
+      "question": "Which one of the following statements best describes the ‘Polar Code’?",
+      "options": [
+        "It is the international code of safety for ships operating in polar waters.",
+        "It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.",
+        "It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.",
+        "It is a trade and security agreement of the member countries of the Arctic Council."
+      ],
+      "correct": "A",
+      "explanation": "The Polar Code is the International Maritime Organization's mandatory international safety code governing ships that operate in the harsh conditions of polar waters.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following activities :\n1. Spraying pesticides on a crop field\n2. Inspecting the craters of active volcanoes\n3. Collecting breath samples from spouting whales for DNA analysis At the present level of technology,\nwhich of the above activities can be successfully carried out by using drones ?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "At current technology levels, drones have been successfully used for precision pesticide spraying over crop fields, inspecting hazardous volcanic craters from a safe distance, and even collecting whale breath samples for DNA analysis by hovering above spouting whales, making all three applications valid.",
+      "year": 2020
+    },
+    {
+      "question": "What is \"Terminal High Altitude Area Defense (THAAD)\", sometimes seen in the news?",
+      "options": [
+        "An Israeli radar system",
+        "India's indigenous anti-missile programme",
+        "An American anti-missile system",
+        "A defence collaboration between Japan and South Korea"
+      ],
+      "correct": "C",
+      "explanation": "THAAD (Terminal High Altitude Area Defense) is an American missile defence system designed to intercept and destroy short, medium, and intermediate-range ballistic missiles during their final phase of flight.",
+      "year": 2018
+    },
+    {
+      "question": "Which one of the following is the best description of 'INS Astradharini', that was in the news recently?",
+      "options": [
+        "Amphibious warfare ship",
+        "Nuclear-powered submarine",
+        "Torpedo launch and recovery vessel",
+        "Nuclear-powered aircraft carrier"
+      ],
+      "correct": "C",
+      "explanation": "INS Astradharini is an Indian Navy torpedo launch and recovery vessel, used to support torpedo testing and trials.",
+      "year": 2016
+    },
+    {
+      "question": "What is 'Greased Lightning-10 (GL-10)', recently in the news?",
+      "options": [
+        "Electric plane tested by NASA",
+        "Solar-powered two-seater aircraft designed by Japan",
+        "Space observatory launched by China",
+        "Reusable rocket designed by ISRO"
+      ],
+      "correct": "A",
+      "explanation": "Greased Lightning-10 (GL-10) was an experimental electric-powered aircraft prototype tested by NASA, exploring hybrid vertical takeoff and efficient forward flight capabilities.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to Agni-IV Missile, which of the following statements is/are correct?\n1. It is a surface-to-surface missile.\n2. It is fuelled by liquid propellant only.\n3. It can deliver one-tonne nuclear warheads about 7500 km away.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Agni-IV is indeed a surface-to-surface ballistic missile (statement 1 true); however it uses a combination of solid propellant stages rather than liquid fuel only, and its range and payload figures differ from those stated, making statements 2 and 3 inaccurate.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following statements:\n1. INS Sindhughosh is an aircraft carrier.\n2. INS Viraat is a submarine.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "INS Sindhughosh is actually a Kilo-class submarine, not an aircraft carrier, and INS Viraat was an aircraft carrier, not a submarine, making both statements as presented incorrect, essentially swapped from their accurate classifications.",
+      "year": 2009
+    },
+    {
+      "question": "In the context of Indian defence, consider the following statements :\n1. The Shourya missile flies with a speed of more than 8 Mach.\n2. The range of Shourya missile is more than 1600 km.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The Shaurya missile's actual reported speed and range figures at the time did not match the specific values given in the statements, making both statements as stated inaccurate per the historical record used for this question.",
+      "year": 2009
+    },
+    {
+      "question": "From which one of the following did India buy the Barak anti-missile defence systems?",
+      "options": [
+        "Israel",
+        "France",
+        "Russia",
+        "USA"
+      ],
+      "correct": "A",
+      "explanation": "India procured the Barak anti-missile defence system from Israel, strengthening its naval air-defence capabilities.",
+      "year": 2008
+    },
+    {
+      "question": "In the context of the Indian defence, what is ‘Dhruv’?",
+      "options": [
+        "Aircraft-carrying warship",
+        "Missile-carrying submarine",
+        "Advanced light helicopter",
+        "Intercontinental ballistic missile"
+      ],
+      "correct": "C",
+      "explanation": "'Dhruv' refers to the Advanced Light Helicopter developed indigenously by Hindustan Aeronautics Limited for use across India's armed forces.",
+      "year": 2008
+    },
+    {
+      "question": "Consider the following statements:\n1. In November 2006, DRDO successfully conducted the interception test using Prithvi-II missile.\n2. Prithvi-II is a surface-to-surface missile and can be deployed to guard the metros against air attack.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "DRDO did conduct a successful interception test of an incoming 'enemy' missile using the Prithvi-II system in November 2006, and the Prithvi-II is indeed a surface-to-surface missile capable of playing a role in defending key cities against aerial threats, making both statements correct.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched?",
+      "options": [
+        "Arjun : Indigenous produced Main Battle Tank (MBT)",
+        "Phalcon : Cruise missile supplied by Russia to India",
+        "Saras : Indigenously developed civilian passenger aircraft",
+        "Operation Seabird : New Indian Naval Base at Karwar"
+      ],
+      "correct": "B",
+      "explanation": "The Phalcon actually refers to an airborne early warning and control radar system, not a cruise missile, making that pairing incorrect, while the Arjun tank, Saras aircraft, and Operation Seabird naval base pairings are all accurately matched.",
+      "year": 2005
+    },
+    {
+      "question": "The range of Agni-II missile is around",
+      "options": [
+        "500 km",
+        "2000 km",
+        "3500 km",
+        "5000 km"
+      ],
+      "correct": "B",
+      "explanation": "The Agni-II missile has an operational range of approximately 2,000 km, classifying it as an intermediate-range ballistic missile.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following is a modern tank?",
+      "options": [
+        "Bhim",
+        "Akash",
+        "Arjun",
+        "Prithvi"
+      ],
+      "correct": "C",
+      "explanation": "Arjun is India's indigenously developed modern main battle tank, distinct from Akash (a missile system) and Prithvi (also a missile system), and Bhim, sometimes associated with a self-propelled gun variant rather than the tank itself.",
+      "year": 1996
+    }
+  ]
+}

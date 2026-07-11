@@ -1,0 +1,631 @@
+{
+  "topic": "Biotechnology & Genetics",
+  "subject": "Science & Technology",
+  "duration": 2080,
+  "questions": [
+    {
+      "question": "With reference to monoclonal antibodies, often mentioned in news, consider the following statements:\nI. They are man-made proteins.\nII. They stimulate immunological function due to their ability to bind to specific antigens.\nIII. They are used in treating viral infections like that of Nipah virus.\nWhich of the statements given above are correct?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": "D",
+      "explanation": "Monoclonal antibodies are indeed lab-engineered proteins (statement I true) that bind precisely to specific target antigens to trigger or support an immune response (statement II true), and they have been used therapeutically against viral infections including Nipah virus (statement III true).",
+      "year": 2025
+    },
+    {
+      "question": "'Aerial metagenomics' best refers to which one of the following situations?",
+      "options": [
+        "Collecting DNA samples from air in a habitat at one go",
+        "Understanding the genetic makeup of avian species of a habitat",
+        "Using air-borne devices to collect blood samples from moving animals",
+        "Sending drones to inaccessible areas to collect plant and animal samples from land surfaces and water bodies"
+      ],
+      "correct": "A",
+      "explanation": "Aerial metagenomics refers to sampling and analysing DNA collected directly from the air within a habitat in a single collection effort, allowing researchers to detect the range of organisms present without capturing them individually.",
+      "year": 2023
+    },
+    {
+      "question": "'Microsatellite DNA' is used in the case of which one of the following?",
+      "options": [
+        "Studying the evolutionary relationships among various species of fauna",
+        "Stimulating 'stem cells' to transform into diverse functional tissues",
+        "Promoting clonal propagation of horticultural plants",
+        "Assessing the efficacy of drugs by conducting series of drug trials in a population"
+      ],
+      "correct": "A",
+      "explanation": "Microsatellite DNA, short repeating sequences that vary between individuals and species, is widely used as a genetic marker to study evolutionary relationships and genetic diversity among different species.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements: DNA Barcoding can be a tool to:\n1. Assess the age of a plant or animal.\n2. Distinguish among species that look alike.\n3. Identify undesirable animal or plant materials in processed foods.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "DNA barcoding, which uses a short standardised gene segment to identify species, is used to distinguish between look-alike species and to detect undesirable or mislabelled animal or plant material hidden in processed foods, though it is not typically used to determine an organism's age.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to recent developments regarding 'Recombinant Vector Vaccines', consider the following statements:\n1. Genetic engineering is applied in the development of these vaccines.\n2. Bacteria and viruses are used as vectors.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Recombinant vector vaccines do rely on genetic engineering techniques (statement 1 true), using modified, harmless viruses or bacteria as delivery vectors to introduce genetic material that trains the immune system (statement 2 true).",
+      "year": 2021
+    },
+    {
+      "question": "In the context of hereditary diseases, consider the following statements:\n1. Passing on mitochondrial diseases from parent to child can be prevented by mitochondrial replacement therapy either before or after in vitro fertilization of egg.\n2. A child inherits mitochondrial diseases entirely from mother and not from father.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Mitochondrial replacement therapy, performed either before or after fertilisation, can prevent a mother from passing on defective mitochondrial DNA to her child (statement 1 true), and since mitochondria are inherited almost exclusively through the egg cell, mitochondrial diseases are indeed passed down maternally rather than paternally (statement 2 true).",
+      "year": 2021
+    },
+    {
+      "question": "Bollgard I and Bollgard II technologies are mentioned in the context of",
+      "options": [
+        "clonal propagation of crop plants",
+        "developing genetically modified crop plants",
+        "production of plant growth substances",
+        "production of biofertilizers"
+      ],
+      "correct": "B",
+      "explanation": "Bollgard I and Bollgard II are Monsanto's genetically modified Bt cotton technologies, engineered to express insect-resistance genes in cotton plants.",
+      "year": 2021
+    },
+    {
+      "question": "In the context of recent advances in human reproductive technology, “Pronuclear Transfer” is used for",
+      "options": [
+        "fertilization of egg in vitro by the donor sperm",
+        "genetic modification of sperm producing cells",
+        "development of stem cells into functional embryos\"",
+        "prevention of mitochondrial diseases in offspring"
+      ],
+      "correct": "D",
+      "explanation": "Pronuclear transfer is a mitochondrial-replacement technique in which the nuclear genetic material from a fertilised egg with defective mitochondria is transferred into a donor egg with healthy mitochondria, helping prevent mitochondrial diseases from passing to offspring.",
+      "year": 2020
+    },
+    {
+      "question": "Consider the following statements :\n1. Genetic changes can be introduced in the cells that produce eggs or sperms of a prospective parent.\n2. A person’s genome can be edited before birth at the early embryonic stage.\n3. Human induced pluripotent stem cells can be injected into the embryo of a pig.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Genetic changes can indeed be introduced into egg- or sperm-producing cells (statement 1 true), embryos can have their genomes edited at an early stage (statement 2 true), and human pluripotent stem cells have been experimentally introduced into animal embryos such as pigs to study chimeric tissue development (statement 3 true).",
+      "year": 2020
+    },
+    {
+      "question": "With reference to the recent developments in science, which one of the following statements is not correct?",
+      "options": [
+        "Functional chromosomes can be created by joining segments of DNA taken from cells of different species.",
+        "Pieces of artificial functional DNA can be created in laboratories.",
+        "A piece of DNA taken out from an animal cell can be made to replicate outside a living cell in a laboratory.",
+        "Cells taken out from plants and animals can be made to undergo cell division in laboratory petri dishes."
+      ],
+      "correct": "A",
+      "explanation": "While DNA segments and synthetic DNA can indeed be created, replicated, and manipulated in laboratories (making the other statements accurate), creating fully functional chromosomes by simply joining DNA segments from different species remains far beyond current capability, making that particular claim incorrect.",
+      "year": 2019
+    },
+    {
+      "question": "'RNA interference (RNAi) technology has gained popularity in the last few years. Why?\n1. It is used in developing gene silencing therapies.\n2. It can be used in developing therapies for the treatment of cancer.\n3. It can be used to develop hormone replacement therapies.\n4. It can be used to produce crop plants that are resistant to viral pathogens.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 4",
+        "2 and 3",
+        "1 and 3",
+        "1 and 4 only"
+      ],
+      "correct": "A",
+      "explanation": "RNA interference technology has gained prominence because it enables gene-silencing therapies, shows promise in treating cancers by silencing disease-related genes, and can be engineered into crops to confer resistance against viral pathogens, though it is not established as a hormone replacement approach.",
+      "year": 2019
+    },
+    {
+      "question": "What is Cas9 protein that is often mentioned in news?",
+      "options": [
+        "A molecular scissors used in targeted gene editing",
+        "A biosensor used in the accurate detection of pathogens in patients",
+        "A gene that makes plants pest-resistant",
+        "A herbicidal substance synthesized in genetically modified crops"
+      ],
+      "correct": "A",
+      "explanation": "Cas9 is the enzyme used alongside guide RNA in CRISPR gene-editing systems, acting as a precise molecular tool that cuts DNA at targeted locations, earning it the nickname 'molecular scissors'.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to the Genetically Modified mustard (GM mustard) developed in India, consider the following statements:\n1. GM mustard has the genes of a soil bacterium that give the plant the property of pest-resistance to a wide variety of pests.\n2. GM mustard has the genes that allow the plant cross-pollination and hybridization.\n3. GM mustard has been developed jointly by the IARI and Punjab Agricultural University.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "GM mustard (developed by Delhi University) was actually engineered mainly to enable controlled cross-pollination and hybrid seed production rather than for pest resistance from a soil bacterium, and it was primarily developed by Delhi University's Centre for Genetic Manipulation of Crop Plants, not jointly by IARI and Punjab Agricultural University, so only the hybridisation-related statement is accurate.",
+      "year": 2018
+    },
+    {
+      "question": "With reference to agriculture in India, how can the technique of 'genome sequencing', often seen in the news, be used in the immediate future?\n1. Genome sequencing can be used to identify genetic markers for disease resistance and drought tolerance in various crop plants.\n2. This technique helps in reducing the time required to develop new varieties of crop plants.\n3. It can be used to decipher the host-pathogen relationships in crops.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Genome sequencing can help identify genetic markers linked to disease resistance and drought tolerance, speed up the breeding of new crop varieties by targeting useful traits directly, and reveal the genetic basis of host-pathogen interactions in crops, making all three applications valid.",
+      "year": 2017
+    },
+    {
+      "question": "What is the application of Somatic Cell Nuclear Transfer Technology?",
+      "options": [
+        "Production of biolarvicides",
+        "Manufacture of biodegradable plastics",
+        "Reproductive cloning of animals",
+        "Production of organisms free of diseases"
+      ],
+      "correct": "C",
+      "explanation": "Somatic Cell Nuclear Transfer, the technique used to create Dolly the sheep, involves inserting the nucleus of a body cell into an egg cell to produce a genetically identical clone, making reproductive cloning of animals its primary application.",
+      "year": 2017
+    },
+    {
+      "question": "In the context of the developments in Bioinformatics, the term 'transcriptome', sometimes seen in the news, refers to",
+      "options": [
+        "a range of enzymes used in genome editing",
+        "the full range of mRNA molecules expressed by an organism",
+        "the description of the mechanism of gene expression",
+        "a mechanism of genetic mutations taking place in cells"
+      ],
+      "correct": "B",
+      "explanation": "The transcriptome refers to the complete set of messenger RNA molecules that a cell or organism expresses at a given time, reflecting which genes are actively being transcribed.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to bio-toilets used by the Indian Railways, consider the following statements:\n1. The decomposition of human waste in the bio-toilets is initiated by a fungal inoculum.\n2. Ammonia and water vapour are the only end products in this decomposition which are released into the atmosphere.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Decomposition in Indian Railways' bio-toilets is actually initiated by anaerobic bacterial inoculum, not fungal (making statement 1 false), and the process produces more than just ammonia and water vapour as end products, including other gases, making statement 2 inaccurate as well.",
+      "year": 2015
+    },
+    {
+      "question": "Which of the following statements is/are correct regarding vegetative propagation of plants?\n1. Vegetative propagation produces clonal population.\n2. Vegetative propagation helps in eliminating the virus.\n3. Vegetative propagation can be practiced most of the year.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Vegetative propagation does produce genetically identical clonal populations (statement 1 true) and, through techniques like meristem culture, can help produce virus-free planting material (statement 2 true); however it is generally practised during specific favourable seasons rather than throughout most of the year, making statement 3 inaccurate.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following techniques/phenomena :\n1. Budding and grafting in fruit plants\n2. Cytoplasmic male sterility\n3. Gene silencing\nWhich of the above is/are used to create transgenic crops?",
+      "options": [
+        "1 only",
+        "2 and 3",
+        "1 and 3",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Cytoplasmic male sterility and gene silencing techniques are used in developing transgenic and hybrid crop varieties, while budding and grafting are conventional vegetative propagation techniques rather than methods used to create transgenic crops.",
+      "year": 2014
+    },
+    {
+      "question": "Recombinant DNA technology (Genetic Engineering) allows genes to be transferred\n1. Across different species of plants\n2. From animals to plants\n3. From microorganisms to higher organisms\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Recombinant DNA technology enables gene transfer across different plant species, from animals into plants, and from microorganisms into higher organisms, making all three transfer routes valid applications of genetic engineering.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to 'stem cells', frequently in the news, which of the following statements is/are correct?\n1. Stem cells can be derived from mammals only.\n2. Stem cells can be used for screening new drugs.\n3. Stem cells can be used for medical therapies.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Stem cells can be derived from various organisms, not mammals alone, making statement 1 inaccurate, while stem cells are indeed widely used both for screening the effects of new drugs and for developing medical therapies, making statements 2 and 3 correct.",
+      "year": 2012
+    },
+    {
+      "question": "At present, scientists can determine the arrangement or relative positions of genes or DNA sequences on a chromosome. How does this knowledge benefit us?\n1. It is possible to know the pedigree of livestock.\n2. It is possible to understand the causes of all human diseases.\n3. It is possible to develop disease-resistant animal breeds.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Mapping gene positions on chromosomes allows scientists to trace livestock pedigree and lineage, and to selectively breed disease-resistant animal varieties, though it does not mean all human diseases and their causes are now fully understood, making that particular claim an overreach.",
+      "year": 2011
+    },
+    {
+      "question": "A genetically engineered form of brinjal, known as the Bt-brinjal, has been developed. The objective of this is",
+      "options": [
+        "To make it pest-resistant",
+        "To improve its taste and nutritive qualities",
+        "To make it drought-resistant",
+        "To make its shelf-life longer"
+      ],
+      "correct": "A",
+      "explanation": "Bt-brinjal was genetically engineered specifically to make the crop resistant to certain insect pests, particularly the fruit and shoot borer.",
+      "year": 2011
+    },
+    {
+      "question": "Recently, ‘oilzapper’ was in the news. What is it?",
+      "options": [
+        "It is an eco-friendly technology for the remediation of oily sludge and oil spills",
+        "It is the latest technology developed for under sea oil exploration",
+        "It is a genetically engineered high biofuel yielding maize variety",
+        "It is the latest technology to control the accidentally caused fires in oil wells"
+      ],
+      "correct": "A",
+      "explanation": "Oilzapper is a bacterial consortium-based technology developed in India to biodegrade and clean up oily sludge and oil spills in an environmentally friendly way.",
+      "year": 2011
+    },
+    {
+      "question": "A married couple adopted a male child. A few years later twin boys were born to them. The blood group of the couple is AB positive and O negative. The blood group of the three sons is A positive, B positive, and O positive. The blood group of the adopted son is",
+      "options": [
+        "O positive",
+        "A positive",
+        "B positive",
+        "Cannot be determined on the basis of the given data"
+      ],
+      "correct": "A",
+      "explanation": "Since the couple's blood types are AB-positive and O-negative, one biological child alone should carry only A, B, AB, or O type blood consistent with these parental alleles; the O-positive son among the three matches what could arise from the couple's genetics, so by elimination the child whose blood type couldn't have come from this pairing is identified as the adopted one; based on the standard genetics used for this classic question, the adopted son is determined to be O positive.",
+      "year": 2011
+    },
+    {
+      "question": "Mon 863 is a variety of maize. It was in the news for the following reason",
+      "options": [
+        "It is a genetically modified dwarf variety which is resistant to drought",
+        "It is a genetically modified variety which is pest resistant",
+        "It is a genetically modified variety with ten times higher protein content than regular maize crop",
+        "It is a genetically modified variety used exclusively for bio-fuel production"
+      ],
+      "correct": "B",
+      "explanation": "MON 863 is a genetically modified maize variety engineered by Monsanto to be resistant to certain insect pests, particularly corn rootworm.",
+      "year": 2010
+    },
+    {
+      "question": "Genetically modified “golden rice” has been engineered to meet human nutritional requirements. Which one of the following statements best qualifies golden rice?",
+      "options": [
+        "The grains have been fortified with genes to provide three times higher grain yield per acre than other high yielding varieties",
+        "Its grains contain pro-vitamin A which upon ingestion is converted to vitamin A in the human body",
+        "Its modified genes cause the synthesis of all the nine essential amino acids",
+        "Its modified genes cause the fortification of its grains with vitamin D"
+      ],
+      "correct": "B",
+      "explanation": "Golden rice has been genetically engineered to produce beta-carotene (pro-vitamin A) in its grains, which the human body can convert into vitamin A upon digestion, addressing vitamin A deficiency in rice-dependent populations.",
+      "year": 2010
+    },
+    {
+      "question": "Which bacterial strain, developed from natural isolates by genetic manipulations, can be used for treating oil spills ?",
+      "options": [
+        "Agrobacterium",
+        "Clostridium",
+        "Nitrosomonas",
+        "Pseudomonas"
+      ],
+      "correct": "D",
+      "explanation": "Genetically engineered strains of Pseudomonas bacteria have been developed and used to help break down and clean up oil spills.",
+      "year": 2010
+    },
+    {
+      "question": "Which feature of some species of blue-green algae helps promote them as bio-fertilizers ?",
+      "options": [
+        "They convert atmospheric methane into ammonia which the crop plants can absorb readily.",
+        "They induce the crop plants to produce the enzymes which help convert atmospheric nitrogen to nitrates.",
+        "They have the mechanism to convert atmospheric nitrogen into a form that the crop plants can absorb readily.",
+        "They induce the roots of the crop plants to absorb the soil nitrates in larger quantities."
+      ],
+      "correct": "C",
+      "explanation": "Certain blue-green algae (cyanobacteria) possess the biological ability to fix atmospheric nitrogen into a form plants can absorb, making them effective natural biofertilisers.",
+      "year": 2010
+    },
+    {
+      "question": "In the context of genetic disorders, consider the following: A woman suffers from colour blindness while her husband does not suffer from it. They have a son and a daughter. In this context, which one of the following statements is most probably correct ?",
+      "options": [
+        "Both children suffer from colour blindness",
+        "Daughter suffers from colour blindness while son does not suffer from it",
+        "Both children do not suffer from colour blindness",
+        "Son suffers from colour blindness while daughter does not suffer from it"
+      ],
+      "correct": "D",
+      "explanation": "Colour blindness is an X-linked recessive trait; since the mother is affected (carrying the trait on both her X chromosomes) and the father is unaffected, all sons (who receive their only X chromosome from the mother) will be colour blind, while daughters (who receive a normal X from the father) will typically not be affected, so the son is more likely to be colour blind while the daughter is not.",
+      "year": 2009
+    },
+    {
+      "question": "With reference to the latest developments in stem-cell research, consider the following statements:\n1. The only source of human stem cells are the embryos at blastocyst stage.\n2. The stem cells can be derived without causing destruction to blastocysts.\n3. The stem cells can regenerate themselves in vitro virtually forever.\n4. Indian research centres also created a few cell lines which can be developed into many types of tissues.\nWhich of these statements are correct?",
+      "options": [
+        "1, 2, 3 and 4",
+        "1, 2 and 3",
+        "1, 2 and 4",
+        "3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "While human stem cells can be extracted from embryos at the blastocyst stage, alternative methods (avoiding blastocyst destruction) and self-renewing stem cell lines have also been developed, including work by Indian research centres creating cell lines capable of differentiating into multiple tissue types, matching statements 3 and 4 as the ones considered correct.",
+      "year": 2002
+    },
+    {
+      "question": "When one gene controls two or more different characters simultaneously, the phenomenon is called",
+      "options": [
+        "Apomixis",
+        "Pleiotropy",
+        "Polyploidy",
+        "Polyteny"
+      ],
+      "correct": "B",
+      "explanation": "Pleiotropy is the genetic phenomenon in which a single gene influences two or more seemingly unrelated phenotypic traits simultaneously.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): Scientists can cut apart and paste together DNA molecules at will, regardless of the source of the molecules. Reason (R): DNA fragments can be manipulated using restriction endonucleases and DNA ligases. Which of the following is correct?",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Restriction endonucleases (which cut DNA at specific sequences) and DNA ligases (which join DNA fragments together) are the key molecular tools that allow scientists to cut and paste DNA from different sources, precisely explaining the general genetic-engineering capability described in the assertion.",
+      "year": 2001
+    },
+    {
+      "question": "Which of the following features of DNA makes it uniquely suited to store and transmit genetic information from generation to generation?",
+      "options": [
+        "Complementarity of the two strands",
+        "Double helix",
+        "Number of base pairs per turn",
+        "Sugar phosphate backbone"
+      ],
+      "correct": "A",
+      "explanation": "The complementary base-pairing between DNA's two strands, where each strand can serve as a template to accurately reproduce the other, is the key structural feature that allows DNA to reliably store and transmit genetic information across generations.",
+      "year": 2001
+    },
+    {
+      "question": "The American multinational company, Monsanto has produced an insect-resistant cotton variety that is undergoing field-trials in India. A toxin gene from which ONE of the following bacteria has been transferred to this transgenic cotton?",
+      "options": [
+        "Bacillus subtilis",
+        "Bacillus thuringiensis",
+        "Bacillus amyloliquifanciens",
+        "Bacillus globli"
+      ],
+      "correct": "B",
+      "explanation": "The insect-resistance toxin gene inserted into Monsanto's transgenic Bt cotton comes from the soil bacterium Bacillus thuringiensis.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following organisms can serve as a biofertilizer for rice crop?",
+      "options": [
+        "Blue-green algae",
+        "Rhizobium sp",
+        "Mycorrhizal fungi",
+        "Azotobacter sp"
+      ],
+      "correct": "A",
+      "explanation": "Blue-green algae (cyanobacteria), capable of fixing atmospheric nitrogen, are commonly used as a natural biofertiliser in rice paddy cultivation.",
+      "year": 2000
+    },
+    {
+      "question": "Phytotron is a facility to",
+      "options": [
+        "grow plants under disease-free conditions",
+        "conserve endangered species of plants",
+        "grow plants under controlled conditions",
+        "induce mutations"
+      ],
+      "correct": "C",
+      "explanation": "A phytotron is a specialised facility designed to grow plants under precisely controlled environmental conditions such as temperature, light, and humidity for research purposes.",
+      "year": 2000
+    },
+    {
+      "question": "Insect resistant cotton plants have been genetically engineered by inserting a gene from a/an",
+      "options": [
+        "virus",
+        "bacterium",
+        "insect",
+        "plant"
+      ],
+      "correct": "B",
+      "explanation": "Insect-resistant Bt cotton plants are engineered by inserting a toxin-producing gene originally derived from the soil bacterium Bacillus thuringiensis.",
+      "year": 2000
+    },
+    {
+      "question": "Hybridoma technology is a new biotechnological approach for commercial production of",
+      "options": [
+        "monoclonal antibodies",
+        "interferon",
+        "antibodies",
+        "alcohol"
+      ],
+      "correct": "A",
+      "explanation": "Hybridoma technology, which fuses antibody-producing cells with immortal cancer cells, is the standard biotechnological method used to commercially produce monoclonal antibodies.",
+      "year": 2000
+    },
+    {
+      "question": "Canola refers to special type of oil seed mustard varieties bred for human consumption. The main characteristic of these varieties is that the",
+      "options": [
+        "seeds have very high oil content",
+        "oil is rich in unsaturated fatty acids",
+        "oil has long shelf life",
+        "oil has very low Erucic acid content"
+      ],
+      "correct": "D",
+      "explanation": "Canola varieties of mustard/rapeseed are specifically bred to have very low erucic acid content, making the oil safer and healthier for human consumption compared to standard mustard oil.",
+      "year": 2000
+    },
+    {
+      "question": "Assertion (A): In human beings, the females play a major role in determining the sex of the offspring. Reason (R): Women have two ‘X’ chromosomes.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "D",
+      "explanation": "The sex of a human offspring is actually determined by which sperm (carrying either an X or Y chromosome) fertilises the egg, making the father, not the mother, the determining factor, so the assertion is false even though it is true that women carry two X chromosomes.",
+      "year": 2000
+    },
+    {
+      "question": "Assertion (A): “DNA Finger-printing” has become a powerful tool to establish paternity and identity of criminals in rape and assault cases. Reason (R): Trace evidences such as hairs, saliva and dried semen are adequate for DNA analysis.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "DNA fingerprinting has indeed become a powerful forensic tool to establish paternity and identify criminals in sexual assault cases, and trace biological evidence like hair, saliva, and dried semen genuinely does contain enough DNA for such analysis, correctly explaining why the technique works.",
+      "year": 2000
+    },
+    {
+      "question": "Indian farmers are unhappy over the introduction of “Terminator Seed Technology” because the seeds produced by this technology are expected to",
+      "options": [
+        "show poor germination",
+        "form low yielding plants despite the high quality",
+        "give rise to sexually sterile plants",
+        "give rise to plants incapable of forming viable seeds"
+      ],
+      "correct": "D",
+      "explanation": "Terminator seed technology genetically engineers plants to produce sterile seeds, meaning any seeds harvested from the resulting crop cannot germinate into new viable plants, forcing farmers to purchase fresh seed each season.",
+      "year": 1999
+    },
+    {
+      "question": "Which one of the following genetic diseases is sex-linked?",
+      "options": [
+        "Royal haemophilia",
+        "Tay Sachs disease",
+        "Cystic fibrosis",
+        "Hypertension"
+      ],
+      "correct": "A",
+      "explanation": "Haemophilia, historically notable for its prevalence among European royal families, is a classic example of a sex-linked (X-linked recessive) genetic disorder.",
+      "year": 1999
+    },
+    {
+      "question": "Assertion (A): Insect-resistant transgenic cotton has been produced by inserting Bt gene. Reason (R): The Bt gene is derived from a bacterium.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Insect-resistant transgenic Bt cotton is indeed produced by inserting a toxin gene, and that gene is correctly sourced from the soil bacterium Bacillus thuringiensis, making the reason a valid explanation of the assertion.",
+      "year": 1999
+    },
+    {
+      "question": "Assertion (A): Dolly was the first cloned mammal. Reason (R): Dolly was produced by in-vitro fertilization.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Dolly the sheep was indeed the first cloned mammal, but she was produced using somatic cell nuclear transfer, not in-vitro fertilisation, making the assertion true while the given reason is false.",
+      "year": 1999
+    },
+    {
+      "question": "Haemophilia is a genetic disorder which leads to",
+      "options": [
+        "decrease in haemoglobin level",
+        "rheumatic heart disease",
+        "decrease in WBC",
+        "non-clotting of blood"
+      ],
+      "correct": "D",
+      "explanation": "Haemophilia is a genetic disorder that impairs the blood's ability to clot properly, leading to prolonged bleeding.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following types of micro-organisms is most widely used in industries?",
+      "options": [
+        "Bacteria",
+        "Bacteria and fungi",
+        "Bacteria and algae",
+        "Bacteria, micro-algae and fungi"
+      ],
+      "correct": "D",
+      "explanation": "A broad range of microorganisms, including bacteria, micro-algae, and fungi, are all widely exploited across various industrial biotechnology applications.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following techniques can be used to establish the paternity of a child?",
+      "options": [
+        "Protein analysis",
+        "Chromosome counting",
+        "Quantitative analysis of DNA",
+        "DNA finger-printing"
+      ],
+      "correct": "D",
+      "explanation": "DNA fingerprinting, which compares unique genetic markers, is the definitive scientific technique used to establish paternity with a high degree of certainty.",
+      "year": 1997
+    },
+    {
+      "question": "The sequencing of the entire genome (the totality of all genes) of an organism was completed in 1996. The organism was",
+      "options": [
+        "albino mouse",
+        "yeast",
+        "human being",
+        "Plasmodium vivax"
+      ],
+      "correct": "B",
+      "explanation": "In 1996, the complete genome sequence of yeast (Saccharomyces cerevisiae) was finished, making it the first eukaryotic organism to have its full genome sequenced.",
+      "year": 1997
+    },
+    {
+      "question": "Which of the following professional(s) are more likely to run the risk of a permanent change in their cell’s DNA?\nI. Researchers using carbon-14 isotope\nII. X-ray technician\nIII. Coal miner\nIV. Dyer and painter\nSelect the correct answer using the codes given below:",
+      "options": [
+        "II alone",
+        "I, II and III",
+        "I, II and IV",
+        "I, III and IV"
+      ],
+      "correct": "C",
+      "explanation": "Researchers working with radioactive isotopes like carbon-14, X-ray technicians exposed to ionising radiation, and dyers/painters handling certain mutagenic chemical compounds all face elevated risk of permanent DNA damage, unlike coal miners, whose primary occupational hazards relate to respiratory rather than genetic harm.",
+      "year": 1996
+    },
+    {
+      "question": "It is possible to produce seedless tomato fruits by",
+      "options": [
+        "applying trace elements in tomato fields",
+        "spraying mineral solution on plants",
+        "spraying hormones on flowers",
+        "applying fertilisers containing radioactive elements"
+      ],
+      "correct": "C",
+      "explanation": "Seedless tomato fruits can be induced by spraying flowers with plant growth hormones, which trigger fruit development (parthenocarpy) without the need for fertilisation and seed formation.",
+      "year": 1996
+    }
+  ]
+}

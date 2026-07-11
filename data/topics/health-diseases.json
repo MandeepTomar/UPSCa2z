@@ -1,0 +1,1027 @@
+{
+  "topic": "Health & Diseases",
+  "subject": "Science & Technology",
+  "duration": 3400,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nI. No virus can survive in ocean waters.\nII. No virus can infect bacteria.\nIII. No virus can change the cellular transcriptional activity in host cells.\nHow many of the statements given above are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All the three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "Contrary to all three statements, viruses can survive in ocean waters (marine viruses are abundant), bacteriophages are viruses that specifically infect bacteria, and many viruses do alter host cell transcription to replicate, so all three claims are false, making 'None' correct.",
+      "year": 2025
+    },
+    {
+      "question": "'Wolbachia method' is sometimes talked about with reference to which one of the following?",
+      "options": [
+        "Controlling the viral diseases spread by mosquitoes",
+        "Converting crop residues into packing material",
+        "Producing biodegradable plastics",
+        "Producing biochar from thermo-chemical conversion of biomass"
+      ],
+      "correct": "A",
+      "explanation": "The Wolbachia method involves infecting mosquitoes with Wolbachia bacteria, which reduces their ability to transmit viral diseases like dengue and Zika, and is used as a biological control strategy.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements:\n1. Biofilms can form on medical implants within human tissues.\n2. Biofilms can form on food and food processing surfaces.\n3. Biofilms can exhibit antibiotic resistance.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Biofilms, communities of microbes encased in a protective matrix, readily form on medical implants and on food-processing surfaces, and organisms within biofilms are well known to show increased resistance to antibiotics.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following statements in respect of probiotics:\n1. Probiotics are made of both bacteria and yeast.\n2. The organisms in probiotics are found in foods we ingest but they do not naturally occur in our gut.\n3. Probiotics help in the digestion of milk sugars.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 3",
+        "2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Probiotics are live beneficial microorganisms, including both bacteria and yeast strains (statement 1 true), that do occur naturally in the human gut (making statement 2 false), and they assist in digesting lactose, a milk sugar (statement 3 true).",
+      "year": 2022
+    },
+    {
+      "question": "In the context of vaccines manufactured to prevent COVID-19 pandemic, consider the following statements:\n1. The Serum Institute of India produced COVID-19 vaccine named Covishield using mRNA platform.\n2. Sputnik V vaccine is manufactured using vector based platform.\n3. COVAXIN is an inactivated pathogen based vaccine.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Covishield, made by the Serum Institute of India, is actually a viral vector-based vaccine (not mRNA, making statement 1 false); Sputnik V is indeed vector-based (statement 2 true), and Covaxin is an inactivated whole-virus vaccine (statement 3 true).",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following:\n1. Bacteria\n2. Fungi\n3. Virus\nWhich of the above can be cultured in artificial/synthetic medium?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Bacteria and fungi can be grown independently on artificial/synthetic culture media, but viruses are obligate intracellular parasites that require living host cells to replicate and cannot be cultured on synthetic media alone.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following statements:\n1. Adenoviruses have single-stranded DNA genomes whereas retroviruses have double-stranded DNA genomes.\n2. Common cold is sometime caused by an adenovirus whereas AIDS is caused by a retrovirus.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Adenoviruses actually have double-stranded DNA genomes while retroviruses have single-stranded RNA genomes, the reverse of statement 1 (making it false); however, the common cold can indeed be caused by an adenovirus and AIDS by the retrovirus HIV, making statement 2 correct.",
+      "year": 2021
+    },
+    {
+      "question": "The term 'ACE2' is talked about in the context of",
+      "options": [
+        "genes introduced in the genetically modified plants",
+        "development of India's own satellite navigation system",
+        "radio collars for wildlife tracking",
+        "spread of viral diseases"
+      ],
+      "correct": "D",
+      "explanation": "ACE2 is the human cell-surface receptor that the SARS-CoV-2 virus binds to in order to enter cells, making it central to the discussion of how the COVID-19 virus spreads and infects the body.",
+      "year": 2021
+    },
+    {
+      "question": "'Triclosan', considered harmful when exposed to high levels for a long time, is most likely present in which of the following?",
+      "options": [
+        "Food preservatives",
+        "Fruit-ripening substances",
+        "Reused plastic containers",
+        "Toiletries"
+      ],
+      "correct": "D",
+      "explanation": "Triclosan is an antimicrobial chemical commonly added to personal-care toiletries such as soaps, toothpaste, and deodorants, and long-term high exposure has raised health concerns.",
+      "year": 2021
+    },
+    {
+      "question": "What is the importance of using Pneumococcal Conjugate Vaccines in India ?\n1. These vaccines are effective against pneumonia as well as meningitis and sepsis.\n2. Dependence on antibiotics that are not effective against drug-resistant bacteria can be reduced.\n3. These vaccines have no side effects and cause no allergic reactions.\nSelect the correct answer using the code given below :",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Pneumococcal conjugate vaccines protect against pneumonia, meningitis, and sepsis caused by Streptococcus pneumoniae (statement 1 true), and by preventing these bacterial infections they help reduce reliance on antibiotics that may otherwise face resistance issues (statement 2 true); however no vaccine is entirely free of side effects or allergic reactions, making statement 3 false.",
+      "year": 2020
+    },
+    {
+      "question": "Which of the following are the reasons for the occurrence of multi-drug resistance in microbial pathogens in India?\n1. Genetic predisposition of some people\n2. Taking incorrect doses of antibiotics to cure diseases\n3. Using antibiotics in livestock farming\n4. Multiple chronic diseases in some people\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2",
+        "2 and 3 only",
+        "1, 3 and 4",
+        "2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Multi-drug resistance in India's microbial pathogens is largely driven by patients taking incorrect or incomplete antibiotic doses and by the widespread use of antibiotics in livestock farming, both of which encourage resistant strains to develop and spread, rather than any genetic predisposition or unrelated chronic illness in patients.",
+      "year": 2019
+    },
+    {
+      "question": "Which one of the following statements is not correct?",
+      "options": [
+        "Hepatitis B virus is transmitted much like HIV.",
+        "Hepatitis B, unlike Hepatitis C, does not have a vaccine.",
+        "Globally, the number of people infected with Hepatitis B and C viruses are several times more than those infected with HIV.",
+        "Some of those infected with Hepatitis B and C viruses do not show the symptoms for many years."
+      ],
+      "correct": "B",
+      "explanation": "Hepatitis B does in fact have an effective vaccine, unlike Hepatitis C, making the claim that Hepatitis B lacks a vaccine (while Hepatitis C has one) the incorrect statement among the options.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following statements:\n1. In tropical regions, Zika virus disease is transmitted by the same mosquito that transmits dengue.\n2. Sexual transmission of Zika virus disease is possible.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Aedes mosquito that transmits dengue also transmits the Zika virus in tropical regions, and Zika is additionally known to spread through sexual contact, making both statements correct.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following pairs: Commonly used / consumed materials — Unwanted or controversial chemicals likely to be found in them\n1. Lipstick — Lead\n2. Soft drinks — Brominated vegetable oils\n3. Chinese fast food — Monosodium glutamate\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Lipstick has historically been found to contain trace lead, some soft drinks have used brominated vegetable oil as an emulsifier, and monosodium glutamate is a well-known flavour enhancer associated with certain Chinese fast food, making all three pairings valid.",
+      "year": 2017
+    },
+    {
+      "question": "With reference to pre-packaged items in India, it is mandatory to the manufacturer to put which of the following information on the main label, as per the Food Safety and Standards (Packaging and Labelling) Regulations, 2011?\n1. List of ingredients including additives\n2. Nutrition information\n3. Recommendations, if any, made by the medical profession about the possibility of any allergic reactions\n4. Vegetarian/non-vegetarian\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1, 2 and 4",
+        "1 and 4 only"
+      ],
+      "correct": "C",
+      "explanation": "Under India's food labelling regulations, mandatory main-label information includes the full list of ingredients and additives, nutrition information, and whether the product is vegetarian or non-vegetarian, while allergy advisories from the medical profession are not a required standard label element in the same mandatory category.",
+      "year": 2016
+    },
+    {
+      "question": "Which of the following statements is/are correct? Viruses can infect\n1. Bacteria\n2. Fungi\n3. Plants\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Viruses are capable of infecting essentially all forms of life, including bacteria (as bacteriophages), fungi, and plants, in addition to animals.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to the use of nanotechnology in health sector, which of the following statements is/are correct?\n1. Targeted drug delivery is made possible by nanotechnology.\n2. Nanotechnology can largely contribute to gene therapy.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Nanotechnology enables highly targeted drug delivery systems that direct medication precisely to diseased cells, and nanoscale carriers are also being explored to improve the delivery of gene therapy vectors into cells, making both statements correct.",
+      "year": 2015
+    },
+    {
+      "question": "H1N1 virus is sometimes mentioned in the news with reference to which one of the following diseases?",
+      "options": [
+        "AIDS",
+        "Bird flu",
+        "Dengue",
+        "Swine flu"
+      ],
+      "correct": "D",
+      "explanation": "The H1N1 influenza virus subtype is commonly associated with swine flu, a strain that caused a global pandemic in 2009.",
+      "year": 2015
+    },
+    {
+      "question": "Consider the following diseases :\n1. Diphtheria\n2. Chickenpox\n3. Smallpox\nWhich of the above diseases has/have been eradicated in India?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Among the listed diseases, smallpox has been declared eradicated worldwide (including in India) since 1980, while diphtheria and chickenpox continue to occur, though at reduced levels due to vaccination.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following pairs : Vitamin Deficiency disease\n1. Vitamin C : Scurvy\n2. Vitamin D : Rickets\n3. Vitamin E : Night blindness\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "A",
+      "explanation": "Vitamin C deficiency causes scurvy and vitamin D deficiency causes rickets, both correctly matched; however, night blindness is actually associated with Vitamin A deficiency, not Vitamin E, making that particular pairing incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "Improper handling and storage of cereal grains and oilseeds result in the production of toxins known as aflatoxins which are not generally destroyed by normal cooking process. Aflatoxins are produced by",
+      "options": [
+        "bacteria",
+        "protozoa",
+        "moulds",
+        "viruses"
+      ],
+      "correct": "C",
+      "explanation": "Aflatoxins, dangerous toxins that survive normal cooking, are produced by certain moulds (fungi), particularly Aspergillus species, that contaminate improperly stored grains and oilseeds.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following diseases can be transmitted from one person to another through tattooing?\n1. Chikungunya\n2. Hepatitis B\n3. HIV-AIDS\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Tattooing, which involves repeated skin puncturing with needles, can transmit blood-borne infections such as Hepatitis B and HIV if equipment is not properly sterilised, but not vector-borne diseases like Chikungunya, which spreads via mosquitoes rather than blood-to-blood contact.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following statements is/are correct?\n1. Viruses lack enzymes necessary for the generation of energy.\n2. Viruses can be cultured in any synthetic medium.\n3. Viruses are transmitted from one organism to another by biological vectors only.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Viruses genuinely lack the enzymatic machinery needed to generate their own energy, relying entirely on host cell metabolism (statement 1 true); however they cannot be cultured in any synthetic medium alone since they need living host cells, and they are not restricted to biological-vector transmission only, since many spread through direct contact or respiratory droplets, making statements 2 and 3 false.",
+      "year": 2013
+    },
+    {
+      "question": "A company marketing food products advertises that its items do not contain trans-fats. What does this campaign signify to the customers?\n1. The food products are not made out of hydrogenated oils.\n2. The food products are not made out of animal fats/oils.\n3. The oils used are not likely to damage the cardiovascular health of the consumers.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "A 'no trans-fat' claim indicates the product avoids partially hydrogenated oils, the main dietary source of trans-fats (statement 1 true), and since trans-fats are strongly linked to cardiovascular disease, avoiding them does reduce that particular health risk (statement 3 true); however it says nothing about whether the product uses animal fats, so statement 2 does not necessarily follow.",
+      "year": 2011
+    },
+    {
+      "question": "Aspartame is an artificial sweetener sold in the market. It consists of amino acids and provides calories like other amino acids. Yet, it is used as a low-calorie sweetening agent in food items. What is the basis of this use?",
+      "options": [
+        "Aspartame is as sweet as table sugar, but unlike table sugar, it is not readily oxidized in human body due to lack of requisite enzymes",
+        "When aspartame is used in food processing, the sweet taste remains, but it becomes resistant to oxidation",
+        "Aspartame is as sweet as sugar, but after ingestion into the body, it is converted into metabolites that yield no calories",
+        "Aspartame is several times sweeter than table sugar, hence food items made with small quantities of aspartame yield fewer calories on oxidation"
+      ],
+      "correct": "D",
+      "explanation": "Aspartame is roughly 200 times sweeter than table sugar, so only a tiny amount is needed to achieve the same sweetness, meaning the small quantity used contributes negligible calories even though it is technically metabolised like other amino acids.",
+      "year": 2011
+    },
+    {
+      "question": "Regular intake of fresh fruits and vegetables is recommended in the diet since they are a good source of antioxidants. How do antioxidants help a person maintain health and promote longevity?",
+      "options": [
+        "They activate the enzymes necessary for vitamin synthesis in the body and help prevent vitamin deficiency",
+        "They prevent excessive oxidation of carbohydrates, fats and proteins in the body and help avoid unnecessary wastage of energy",
+        "They neutralize the free radicals produced in the body during metabolism",
+        "They activate certain genes in the cells of the body and help delay the ageing process"
+      ],
+      "correct": "C",
+      "explanation": "Antioxidants work by neutralising free radicals, the reactive, unstable molecules generated during normal metabolism that can otherwise damage cells and contribute to ageing and disease.",
+      "year": 2011
+    },
+    {
+      "question": "Widespread resistance of malarial parasite to drugs like chloroquine has prompted attempts to develop a malarial vaccine to combat malaria. Why is it difficult to develop an effective malaria vaccine ?",
+      "options": [
+        "Malaria is caused by several species of Plasmodium",
+        "Man does not develop immunity to malaria during natural infection",
+        "Vaccines can be developed only against bacteria",
+        "Man is only an intermediate host and not the definitive host"
+      ],
+      "correct": "B",
+      "explanation": "Natural malaria infection typically does not confer lasting immunity to the parasite, unlike many viral diseases, making it especially difficult to develop a vaccine that mimics an immune response the body doesn't naturally sustain on its own.",
+      "year": 2010
+    },
+    {
+      "question": "Recently, LASIK (Laser Assisted In-Situ Keratomileusis) procedure is being made popular for vision correction. Which one of the following statements in this context is not correct?",
+      "options": [
+        "LASIK procedure is used to correct refractive errors of the eye",
+        "It is a procedure that permanently changes the shapes of the cornea",
+        "It reduces a person’s dependence on glasses or contact lenses",
+        "It is a procedure that can be done on the person of any age"
+      ],
+      "correct": "D",
+      "explanation": "LASIK reshapes the cornea to correct refractive errors and reduce dependence on glasses, but it is not suitable for people of any age, since it requires the eye's shape and prescription to have stabilised, generally ruling out very young patients.",
+      "year": 2010
+    },
+    {
+      "question": "With reference to the treatment of cancerous tumours, a tool called cyberknife has been making the news. In this context, which one of the following statements is not correct?",
+      "options": [
+        "It is a robotic image guided system",
+        "It delivers an extremely precise dose of radiation",
+        "It has the capability of achieving sub-millimetre accuracy",
+        "It can map the spread of tumour in the body"
+      ],
+      "correct": "D",
+      "explanation": "The CyberKnife is a robotic, image-guided radiosurgery system capable of delivering highly precise, sub-millimetre-accurate radiation doses to tumours, but it is a treatment delivery tool rather than a diagnostic device used to map how far a tumour has spread through the body.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements:\n1. Hepatitis B is several times more infectious than HIV/AIDS\n2. Hepatitis B can cause liver cancer\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Hepatitis B is indeed considerably more infectious than HIV through blood and bodily fluid exposure, and chronic Hepatitis B infection is a well-established risk factor for liver cancer, making both statements correct.",
+      "year": 2010
+    },
+    {
+      "question": "Excessive release of the pollutant carbon monoxide (CO) into the air may produce a condition in which oxygen supply in the human body decreases. What causes this condition ?",
+      "options": [
+        "When inhaled into the human body, CO is converted into CO₂",
+        "The inhaled CO has much higher affinity for haemoglobin as compared to oxygen",
+        "The inhaled CO destroys the chemical structure of haemoglobin",
+        "The inhaled CO adversely affects the respiratory centre in the brain"
+      ],
+      "correct": "B",
+      "explanation": "Carbon monoxide binds to haemoglobin far more strongly than oxygen does, displacing oxygen and drastically reducing the blood's oxygen-carrying capacity, which is what causes CO poisoning.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements:\n1. Every individual in the population is equally susceptible host for Swine Flu.\n2. Antibiotics have no role in the primary treatment of Swine Flu.\n3. To prevent the future spread of Swine Flu in the epidemic area, the swine (pigs) must all be culled.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Not everyone in a population is equally susceptible to Swine Flu, since factors like age, immunity, and underlying health vary (making statement 1 false in the strict sense implied); antibiotics indeed play no role against a viral infection like Swine Flu, and mass culling of pigs is not an effective or medically necessary measure since transmission is primarily human-to-human, making statement 3 also false, leaving only statement 2 correct according to the intended answer, though the recorded key selects options 1 and 2 as the accepted response.",
+      "year": 2010
+    },
+    {
+      "question": "With regard to the transmission of the Human Immunodeficiency Virus, which one of the following statements is not correct ?",
+      "options": [
+        "The chances of transmission from female to male are twice as likely as from male to female",
+        "The chances of transmission are more if a person suffers from other sexually transmitted infections",
+        "An infected mother can transmit the infection to her baby during pregnancy, at childbirth and by breast feeding",
+        "The risk of contracting infection from transfusion of infected blood is much higher than an exposure to contaminated needle"
+      ],
+      "correct": "A",
+      "explanation": "HIV transmission risk actually tends to be somewhat higher from male to female than female to male in heterosexual contact, making this statement, which claims the reverse ratio, the incorrect one among the options.",
+      "year": 2010
+    },
+    {
+      "question": "Consider the following statements about probiotic food:\n1. Probiotic food contains live bacteria which are considered beneficial to humans.\n2. Probiotic food helps in maintaining gut flora.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Probiotic foods do contain live bacteria considered beneficial to human health, and by introducing these beneficial microbes, they help maintain a healthy balance of gut flora, making both statements correct.",
+      "year": 2008
+    },
+    {
+      "question": "Mixture of which one of the following pairs of gases is the cause of occurrence of most of the explosions in mines?",
+      "options": [
+        "Hydrogen and oxygen",
+        "Oxygen and acetylene",
+        "Methane and air",
+        "Carbon dioxide and methane"
+      ],
+      "correct": "C",
+      "explanation": "In coal mines, methane gas released from coal seams mixing with air creates a highly explosive atmosphere, making methane-air mixtures the leading cause of most mine explosions.",
+      "year": 2008
+    },
+    {
+      "question": "Robert Webster is known for his work associated with which one of the following?",
+      "options": [
+        "Cardiology",
+        "Influenza virus",
+        "HIV/AIDS",
+        "Alzheimer"
+      ],
+      "correct": "B",
+      "explanation": "Robert Webster is a virologist well known for his extensive research on influenza viruses, including their animal reservoirs and pandemic potential.",
+      "year": 2007
+    },
+    {
+      "question": "Which of the following types is used by computed tomography employed for visualization of the internal structure of human body?",
+      "options": [
+        "X-Ray",
+        "South waves",
+        "Magnetic resonance",
+        "Radioisotopes"
+      ],
+      "correct": "A",
+      "explanation": "Computed tomography (CT) scanning uses a series of X-ray images taken from different angles to build detailed cross-sectional images of the body's internal structures.",
+      "year": 2007
+    },
+    {
+      "question": "Consider the following statements:\n1. Caffeine, a constituent of tea and coffee, is a diuretic.\n2. Citric acid is used in soft drinks.\n3. Ascorbic acid is essential for the formation of bones and teeth.\n4. Citric acid is a good substitution for ascorbic acid in our nutrition.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "1, 2 and 3 only",
+        "3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Caffeine in tea and coffee is indeed a diuretic (statement 1 true), citric acid is commonly used as an acidity regulator in soft drinks (statement 2 true), and ascorbic acid (Vitamin C) is genuinely important for bone and teeth-related collagen formation (statement 3 true); however citric acid does not serve as a nutritional substitute for ascorbic acid's vitamin functions, making statement 4 false.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. Meningococcal Meningitis is transmitted from person to person by mosquito bites.\n2. Vomiting and neck pain are two of the symptoms of Meningococcal meningitis.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Meningococcal meningitis is actually spread through respiratory droplets and close person-to-person contact, not by mosquito bites, making statement 1 false; but vomiting and neck stiffness/pain are indeed classic symptoms of meningitis, making statement 2 correct.",
+      "year": 2006
+    },
+    {
+      "question": "Which one among the following is not a good source of nutritional calcium?",
+      "options": [
+        "Rice",
+        "Ragi",
+        "Skimmed milk",
+        "Egg"
+      ],
+      "correct": "A",
+      "explanation": "Rice is a poor source of dietary calcium compared to ragi, skimmed milk, and eggs, all of which provide meaningfully higher calcium content.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. ELISA test is employed as the first and most basic test for an individual to detect cancer.\n2. Almost 50% of human beings have Rh+ blood while the remaining have Rh- blood.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "ELISA is actually used as a basic screening test for infections like HIV, not cancer, making statement 1 false; and roughly 85% of people (not 50%) are Rh-positive, with the minority Rh-negative, making statement 2 also inaccurate.",
+      "year": 2006
+    },
+    {
+      "question": "Pneumoconiosis afflicts the workers who work mainly in",
+      "options": [
+        "Tanneries",
+        "Coal mining industry",
+        "Distilleries",
+        "Glass industry"
+      ],
+      "correct": "B",
+      "explanation": "Pneumoconiosis, a lung disease caused by inhaling fine dust particles, commonly afflicts workers in coal mining due to prolonged coal dust exposure.",
+      "year": 2005
+    },
+    {
+      "question": "Assertion (A): The person with diabetes insipidus feels thirsty. Reason (R): A person with diabetes insipidus suffers from excess secretion of vasopressin.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "A person with diabetes insipidus does feel excessively thirsty, but this condition is actually caused by a deficiency (not excess) of vasopressin (antidiuretic hormone), leading to excessive urination and thirst, so the assertion is true but the given reason is false.",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following diseases of milching animals are infectious?\n1. Foot and Mouth disease\n2. Anthrax\n3. Black Quarter\n4. Cowpox\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Foot and mouth disease, anthrax, black quarter, and cowpox are all recognised as infectious diseases that can affect milching animals and spread between them.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. Dengue is a protozoan disease transmitted by mosquitoes.\n2. Retro-orbital pain is not a symptom of Dengue.\n3. Skin rash and bleeding from nose and gums are some of the symptoms of Dengue.\nWhich one of the following statements is/are correct?",
+      "options": [
+        "1 and 2",
+        "3 only",
+        "2 only",
+        "1 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Dengue is actually caused by a virus, not a protozoan, making statement 1 false; retro-orbital (behind-the-eye) pain is a classic symptom of dengue, making the claim that it is 'not' a symptom (statement 2) the correct statement here since it directly negates a known symptom pattern being tested, while skin rash and bleeding are genuine dengue symptoms, making statement 3 true as well; based on the accepted key, only statement 3 alone is marked correct.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. Non-function of lachrymal gland is an important symptom of deficiency of Vitamin A.\n2. Deficiency of Vitamin B1 can lead to indigestion and heart enlargement.\n3. Vitamin C deficiency can lead to pain in the muscles.\n4. Deficiency of Vitamin D causes increased loss of Ca++ in urine.\nWhich of these statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2, 3 and 4",
+        "1, 3 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Vitamin A deficiency does impair lachrymal (tear) gland function and cause dryness of the eyes (statement 1 true), and Vitamin B1 (thiamine) deficiency is linked to beriberi, which can cause digestive trouble and an enlarged heart (statement 2 true); however Vitamin C deficiency (scurvy) causes joint and gum problems rather than muscle pain specifically, and Vitamin D deficiency actually reduces calcium loss control rather than straightforwardly 'increasing' urinary calcium loss in the simple way stated, making statements 3 and 4 inaccurate as framed.",
+      "year": 2004
+    },
+    {
+      "question": "Assertion (A): Fatty acids should be a part of the balanced human diet. Reason (R): The cells of the human body cannot synthesize any fatty acids.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "The human body cannot synthesise certain essential fatty acids on its own, so the assertion that fatty acids should be part of a balanced diet is true and is correctly explained by the body's inability to make all fatty acids internally.",
+      "year": 2004
+    },
+    {
+      "question": "Consider the following statements:\n1. Femur is the longest bone in the human body.\n2. Cholera is a disease caused by bacteria.\n3. ‘Athlete’s foot’ is a disease caused by virus.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The femur is indeed the longest bone in the human body (statement 1 true), and cholera is caused by a bacterium, Vibrio cholerae (statement 2 true); however athlete's foot is actually caused by a fungus, not a virus, making statement 3 false.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Milk contains none of the B-vitamins",
+        "Vitamin A (retinal) deficiency leads to dry and scaly skin",
+        "One of the symptoms of scurvy is pain in the joints",
+        "Vitamin B1 (thiamine) deficiency can lead to heart failure"
+      ],
+      "correct": "C",
+      "explanation": "Vitamin A deficiency is a well-documented cause of dry, scaly skin (a condition called phrynoderma) in addition to its more commonly cited effect on vision.",
+      "year": 2003
+    },
+    {
+      "question": "Consider the following conditions of sick human body\n1. Swollen lymph nodes\n2. Sweating at night\n3. Loss of memory\n4. Loss of weight\nWhich of these are the symptoms of AIDS?",
+      "options": [
+        "1 and 2",
+        "2, 3 and 4",
+        "1, 2 and 3",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Swollen lymph nodes, night sweats, memory loss (as HIV can affect the nervous system in advanced stages), and significant weight loss are all recognised symptoms associated with AIDS.",
+      "year": 2003
+    },
+    {
+      "question": "Foot-and-mouth disease in animals, a current epidemic in some parts of the world, is caused by",
+      "options": [
+        "Bacterium",
+        "Fungus",
+        "Protozoan",
+        "Virus"
+      ],
+      "correct": "D",
+      "explanation": "Foot-and-mouth disease in livestock is caused by a highly contagious virus of the Picornaviridae family.",
+      "year": 2002
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Prions are the smallest free-living cells",
+        "The cell wall of Mycoplasmas is made up of amino sugars",
+        "Viroids consist of a single-stranded RNA molecule",
+        "Rickettsia’s lack cell wall"
+      ],
+      "correct": "C",
+      "explanation": "Viroids are indeed composed of a single strand of RNA without any protein coat, unlike viruses, which have a protein capsid; prions are misfolded infectious proteins (not cells), Mycoplasma cell walls are notably absent rather than made of amino sugars, and Rickettsia do possess a cell wall (they are bacteria), making the statement about viroids the correct one.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): Human diet should compulsorily contain Glycerine, Serine and Tyrosine. Reason (R): Essential amino acids cannot be synthesised in the human body.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Glycerine, serine, and tyrosine are actually non-essential amino acids that the human body can synthesise on its own, so the assertion that they must compulsorily be part of the diet is false, even though the reason correctly states that truly essential amino acids cannot be synthesised by the body.",
+      "year": 2002
+    },
+    {
+      "question": "“Athlete’s Foot” is a disease caused by",
+      "options": [
+        "Bacteria",
+        "Fungus",
+        "Protozoan",
+        "Nematode"
+      ],
+      "correct": "B",
+      "explanation": "Athlete's foot is a common fungal skin infection affecting the feet, especially between the toes.",
+      "year": 2001
+    },
+    {
+      "question": "In the eye donation, which part of the eye is transplanted from the donor?",
+      "options": [
+        "Cornea",
+        "Lens",
+        "Retina",
+        "The whole eye"
+      ],
+      "correct": "A",
+      "explanation": "In corneal transplantation (the standard form of eye donation surgery), it is the cornea, the eye's clear outer covering, that is removed from the donor and transplanted into the recipient.",
+      "year": 2001
+    },
+    {
+      "question": "“Metastasis” is the process by which",
+      "options": [
+        "cells divide rapidly under the influence of drugs",
+        "cancer cells spread through the blood or lymphatic system to other sites or organs",
+        "the chromosomes in cell nuclei are attached to the spindle before moving to the anaphase poles",
+        "cancer cells are successfully inhibited to divide any further"
+      ],
+      "correct": "B",
+      "explanation": "Metastasis refers to the process by which cancer cells break away from the original tumour and spread through the bloodstream or lymphatic system to establish secondary tumours in other parts of the body.",
+      "year": 2001
+    },
+    {
+      "question": "The stones formed in human kidney consist mostly of",
+      "options": [
+        "calcium oxalate",
+        "sodium acetate",
+        "magnesium sulphate",
+        "calcium"
+      ],
+      "correct": "A",
+      "explanation": "The majority of human kidney stones are composed primarily of calcium oxalate crystals.",
+      "year": 2000
+    },
+    {
+      "question": "Most of the explosions in mines occur due to the mixing of",
+      "options": [
+        "hydrogen with oxygen",
+        "oxygen with acetylene",
+        "methane with air",
+        "carbon dioxide with ethane"
+      ],
+      "correct": "C",
+      "explanation": "Methane gas released in coal mines, when it mixes with air in the right proportion, forms a highly flammable and explosive mixture, making it the leading cause of most mine explosions.",
+      "year": 2000
+    },
+    {
+      "question": "Soft drinks such as colas contain significant quantities of",
+      "options": [
+        "caffeine",
+        "nicotine",
+        "tannin",
+        "renin"
+      ],
+      "correct": "A",
+      "explanation": "Cola-type soft drinks typically contain a notable amount of caffeine as a stimulant additive.",
+      "year": 2000
+    },
+    {
+      "question": "Match List I (Diseases) with List II (Types of disease) and select the correct answer using the codes given below the Lists: List I\nI. Haemophilia\nII. Diabetes\nIII. Diabetes\nIV. Ringworm List II A) Deficiency disease B) Genetic disease C) Hormonal disorder D) Fungal infection\nCodes:",
+      "options": [
+        "I-B, II-C, III-D, IV-A",
+        "I-B, II-C, III-A, IV-D",
+        "I-C, II-B, III-A, IV-D",
+        "I-C, II-B, III-D, IV-A"
+      ],
+      "correct": "B",
+      "explanation": "Haemophilia is a genetic (inherited) disease, diabetes is generally classed here as a hormonal disorder (linked to insulin), and ringworm is a fungal infection, matching the pairing I-B, II-C, III-C(diabetes repeated), IV-D as intended by the question's structure.",
+      "year": 2000
+    },
+    {
+      "question": "The blood glucose level is commonly expressed as",
+      "options": [
+        "mm of Hg",
+        "milligram per decilitre",
+        "parts per million",
+        "grams per litre"
+      ],
+      "correct": "B",
+      "explanation": "Blood glucose concentration is conventionally reported in units of milligrams per decilitre (mg/dL).",
+      "year": 2000
+    },
+    {
+      "question": "In eye donation, which one of the following parts of donor’s eye is utilised?",
+      "options": [
+        "Iris",
+        "Lens",
+        "Cornea",
+        "Retina"
+      ],
+      "correct": "C",
+      "explanation": "In eye donation surgery, only the cornea, the eye's transparent front layer, is removed and used for transplantation, not the entire eyeball.",
+      "year": 1999
+    },
+    {
+      "question": "Match List I (Drugs / Chemicals) with List II (Their uses) and select the correct answer using the codes given below the Lists: List I\nI. Atropine\nII. Ether\nIII. Nitro-glycerine\nIV. Pyrethrin List II A) Local anaesthesia B) Heart trouble C) Dilation of pupil D) Mosquito control\nCodes:",
+      "options": [
+        "I-A, II-C, III-B, IV-D",
+        "I-A, II-C, III-D, IV-B",
+        "I-C, II-A, III-D, IV-B",
+        "I-C, II-A, III-B, IV-D"
+      ],
+      "correct": "D",
+      "explanation": "Atropine is used to dilate the pupil, ether is used as a general/local anaesthetic agent, nitro-glycerine is used to treat heart conditions like angina, and pyrethrin is a natural compound used for mosquito and insect control, matching I-C, II-A, III-B, IV-D.",
+      "year": 1999
+    },
+    {
+      "question": "Lathyrism is caused by excessive consumption of",
+      "options": [
+        "Kesari dal",
+        "Mustard oil",
+        "Polished rice",
+        "Mushrooms"
+      ],
+      "correct": "A",
+      "explanation": "Lathyrism, a crippling neurological disorder affecting the legs, is caused by prolonged consumption of Kesari dal (grass pea), which contains a neurotoxic amino acid.",
+      "year": 1999
+    },
+    {
+      "question": "Barium in a suitable form is administered to patients before an X-ray examination of the stomach, because",
+      "options": [
+        "barium allows X-rays to pass through the stomach on account of its transparency to X-rays",
+        "barium compound, like magnesium sulphate helps in cleaning the stomach before X-ray examination",
+        "barium is a good absorber of X-rays and this helps the stomach to appear clearly in contrast with the other regions in the picture",
+        "barium salts are white in colour and this helps the stomach to appear clearly in contrast with other regions in the picture"
+      ],
+      "correct": "C",
+      "explanation": "Barium compounds strongly absorb X-rays, so when a patient swallows a barium solution before an abdominal X-ray, the barium-filled stomach and digestive tract appear in sharp contrast against the surrounding tissue, making internal structures visible.",
+      "year": 1999
+    },
+    {
+      "question": "Cobalt-60 is commonly used in radiation therapy because it emits",
+      "options": [
+        "alpha rays",
+        "beta rays",
+        "gamma rays",
+        "X-rays"
+      ],
+      "correct": "C",
+      "explanation": "Cobalt-60 is widely used in cancer radiotherapy because it emits high-energy gamma rays capable of destroying cancerous tissue.",
+      "year": 1999
+    },
+    {
+      "question": "Consumption of fish is considered to be healthy when compared to flesh of other animals because fish contains",
+      "options": [
+        "polyunsaturated fatty acids",
+        "saturated fatty acids",
+        "essential vitamins",
+        "more carbohydrates and proteins"
+      ],
+      "correct": "A",
+      "explanation": "Fish is considered a healthier protein source than red meat largely because it is rich in polyunsaturated fatty acids (including omega-3s), which are considered beneficial for cardiovascular health, unlike the more saturated fats typical of other animal flesh.",
+      "year": 1998
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists: List I (Disease)\nI. Malaria\nII. Poliomyelitis\nIII. Tuberculosis\nIV. Ringworm List II (Organism) A. Fungi B. Bacteria C. Virus D. Protozoan\nCodes:",
+      "options": [
+        "I-D, II-C, III-B, IV-A",
+        "I-D, II-C, III-A, IV-B",
+        "I-C, II-D, III-A, IV-B",
+        "I-C, II-D, III-B, IV-A"
+      ],
+      "correct": "A",
+      "explanation": "Malaria is caused by a protozoan parasite, poliomyelitis by a virus, tuberculosis by a bacterium, and ringworm by a fungus, matching the pairing I-D, II-C, III-B, IV-A.",
+      "year": 1998
+    },
+    {
+      "question": "Ergotism is due to consumption of",
+      "options": [
+        "contaminated grains",
+        "rotting vegetables",
+        "contaminated water",
+        "stale cooked food"
+      ],
+      "correct": "A",
+      "explanation": "Ergotism results from consuming grains, especially rye, contaminated with the toxic ergot fungus.",
+      "year": 1998
+    },
+    {
+      "question": "The major chemical compound found in human kidney stones is",
+      "options": [
+        "Uric acid",
+        "Calcium carbonate",
+        "Calcium oxalate",
+        "Calcium sulphate"
+      ],
+      "correct": "C",
+      "explanation": "The major chemical compound found in most human kidney stones is calcium oxalate.",
+      "year": 1998
+    },
+    {
+      "question": "A major health mission carried in 1996 was",
+      "options": [
+        "war against leprosy",
+        "small-pox eradication",
+        "pulse polio immunization",
+        "popularisation of oral rehydration therapy"
+      ],
+      "correct": "C",
+      "explanation": "The Pulse Polio Immunization programme was a major nationwide health mission launched in India in the mid-1990s aimed at eradicating polio through mass vaccination drives.",
+      "year": 1997
+    },
+    {
+      "question": "What is the average fat content of buffalo milk?",
+      "options": [
+        "7.2%",
+        "4.5%",
+        "9.0%",
+        "10.0%"
+      ],
+      "correct": "A",
+      "explanation": "Buffalo milk has a notably higher fat content than cow milk, averaging around 7.2%.",
+      "year": 1997
+    },
+    {
+      "question": "The major component of honey is",
+      "options": [
+        "glucose",
+        "sucrose",
+        "maltose",
+        "fructose"
+      ],
+      "correct": "D",
+      "explanation": "Fructose is the predominant sugar found in honey, giving it its characteristic sweetness.",
+      "year": 1997
+    },
+    {
+      "question": "Recommended daily intake of proteins for a moderately active woman is",
+      "options": [
+        "30 g",
+        "37 g",
+        "40 g",
+        "46 g"
+      ],
+      "correct": "D",
+      "explanation": "Nutritional guidelines recommend a daily protein intake of around 46 grams for a moderately active adult woman.",
+      "year": 1997
+    },
+    {
+      "question": "Match List I with List II and select the correct answer by using the codes given below the lists: List I\nI. Malaria\nII. Filaria\nIII. Encephalitis\nIV. Leukaemia List II A) Bone marrow B) Brain C) Muscle D) Lymph node E) Blood cells",
+      "options": [
+        "I-E, II-C, III-B, IV-A",
+        "I-E, II-D, III-B, IV-A",
+        "I-D, II-C, III-E, IV-A",
+        "I-E, II-D, III-A, IV-B"
+      ],
+      "correct": "B",
+      "explanation": "Malaria affects red blood cells, filaria affects the lymphatic system (lymph nodes), encephalitis affects the brain, and leukaemia originates in bone marrow blood cell production, matching I-E, II-D, III-B, IV-A.",
+      "year": 1997
+    },
+    {
+      "question": "According to the World Health Organisation, the disease which causes the death of the largest number of people today is",
+      "options": [
+        "AIDS",
+        "Tuberculosis",
+        "Malaria",
+        "Ebola"
+      ],
+      "correct": "B",
+      "explanation": "According to WHO data from the period this question was set, tuberculosis was identified as the infectious disease causing the largest number of deaths globally at the time.",
+      "year": 1996
+    },
+    {
+      "question": "The nutritional deficiency condition that needs to be given top priority for remedial action in India today is",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Xerophthalmia",
+        "Pellagra"
+      ],
+      "correct": "C",
+      "explanation": "Xerophthalmia, caused by Vitamin A deficiency and leading to preventable blindness in children, has historically been identified as a top-priority nutritional deficiency for remedial action in India.",
+      "year": 1996
+    },
+    {
+      "question": "Which of the following are associated with diabetes mellitus, a common disease in adults?\nI. Higher sugar level in blood\nII. Lower sugar level in blood\nIII. Lower insulin level in blood\nIV. Higher insulin level in blood\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I and IV",
+        "I and II",
+        "II and III",
+        "I and III"
+      ],
+      "correct": "D",
+      "explanation": "Diabetes mellitus is characterised by higher blood sugar levels resulting from insufficient insulin activity in the body, making elevated blood glucose (I) and lower insulin levels (III) the associated features.",
+      "year": 1996
+    },
+    {
+      "question": "Consider the following statements: AIDS is transmitted —\nI. By sexual intercourse.\nII. By blood transfusion.\nIII. By mosquitoes and other blood-sucking insects.\nIV. Across the placenta. Of these statements —",
+      "options": [
+        "I, II and III are correct",
+        "I, II and IV are correct",
+        "I, III and IV are correct",
+        "I and III are correct"
+      ],
+      "correct": "B",
+      "explanation": "AIDS is known to spread through sexual intercourse, blood transfusion with infected blood, and from an infected mother to child across the placenta during pregnancy, but not through mosquito or insect bites, since HIV does not survive or replicate within insect vectors.",
+      "year": 1996
+    },
+    {
+      "question": "Which of the following would lead to ‘malnutrition’?\nI. Overnutrition\nII. Undernutrition\nIII. Imbalanced nutrition\nSelect the correct answer using the codes given below:",
+      "options": [
+        "II alone",
+        "II and III",
+        "I and III",
+        "I, II and III"
+      ],
+      "correct": "D",
+      "explanation": "Malnutrition is a broad term that includes overnutrition (excess intake), undernutrition (insufficient intake), and imbalanced nutrition (wrong proportions of nutrients), making all three valid contributors.",
+      "year": 1996
+    },
+    {
+      "question": "People drinking water from a shallow hand pump are likely to suffer from all of the following diseases, except",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Jaundice",
+        "Fluorosis"
+      ],
+      "correct": "D",
+      "explanation": "Water from a shallow hand pump, often contaminated with pathogens, commonly transmits water-borne diseases like cholera, typhoid, and jaundice (hepatitis), but fluorosis results from excess fluoride naturally present in groundwater rather than microbial contamination, so it is the exception among the options.",
+      "year": 1996
+    },
+    {
+      "question": "Besides proteins and carbohydrates, other elements of nutritional value found in milk include",
+      "options": [
+        "calcium, potassium and iron",
+        "calcium and potassium",
+        "potassium and iron",
+        "calcium and iron"
+      ],
+      "correct": "B",
+      "explanation": "In addition to proteins and carbohydrates, milk is a well-known source of calcium and potassium, though it is a relatively poor source of iron.",
+      "year": 1996
+    },
+    {
+      "question": "The offending substance in the liquor tragedies leading to blindness, etc. is",
+      "options": [
+        "ethyl alcohol",
+        "amyl alcohol",
+        "benzyl alcohol",
+        "methyl alcohol"
+      ],
+      "correct": "D",
+      "explanation": "The blindness and other severe health effects seen in illicit liquor tragedies are typically caused by methyl alcohol (methanol) contamination, which is highly toxic when ingested.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following antimicrobial drugs is suitable for treatment of both tuberculosis and leprosy?",
+      "options": [
+        "Isoniazid",
+        "p-aminosalicylic acid",
+        "Streptomycin",
+        "Rifampicin"
+      ],
+      "correct": "D",
+      "explanation": "Rifampicin is a broad-spectrum antimicrobial effective against both tuberculosis and leprosy, making it a key drug in the treatment regimens for both diseases.",
+      "year": 1995
+    },
+    {
+      "question": "“It begins as a single cell and grows into a merciless disease that claims millions of lives year after year. But scientists are steadily unlocking its mysteries, and the fight against it may now have reached a dramatic turning point. New discoveries promise better therapies and hope in the war against ...” The disease referred to in the above quotation is",
+      "options": [
+        "Cancer",
+        "AIDS",
+        "Tuberculosis",
+        "Alzheimer’s disease"
+      ],
+      "correct": "A",
+      "explanation": "The description of a disease beginning as a single cell and growing into a life-threatening condition that scientists are working to better understand and treat closely matches the way cancer is often described in popular and scientific writing.",
+      "year": 1995
+    }
+  ]
+}

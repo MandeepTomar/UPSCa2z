@@ -1,0 +1,607 @@
+{
+  "topic": "Computer, IT & Artificial Intelligence",
+  "subject": "Science & Technology",
+  "duration": 2000,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nI. It is expected that Majorana 1 chip will enable quantum computing.\nII. Majorana 1 chip has been introduced by Amazon Web Services (AWS).\nIII. Deep learning is a subset of machine learning.\nWhich of the statements given above are correct?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": "C",
+      "explanation": "The Majorana 1 chip, unveiled as a step toward practical quantum computing, was introduced by Microsoft, not Amazon Web Services, making statement II false; deep learning, using multi-layered neural networks, is indeed a specialised subset of the broader field of machine learning, making statement III true.",
+      "year": 2025
+    },
+    {
+      "question": "Which one of the following words/phrases is most appropriately used to denote \"an interoperable network of 3D virtual worlds that can be accessed simultaneously by millions of users, who can exert property rights over virtual items\"?",
+      "options": [
+        "Big data analytics",
+        "Cryptography",
+        "Metaverse",
+        "Virtual matrix"
+      ],
+      "correct": "C",
+      "explanation": "The metaverse refers to an interconnected network of persistent 3D virtual worlds where large numbers of users can interact simultaneously and own virtual property or items.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following:\n1. Aarogya Setu\n2. CoWIN\n3. DigiLocker\n4. DIKSHA\nWhich of the above are built on top of open-source digital platforms?",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Aarogya Setu, CoWIN, DigiLocker, and DIKSHA are all built as part of India's open-source Digital Public Infrastructure ecosystem, allowing interoperability and reuse across government digital services.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to Web 3.0, consider the following statements:\n1. Web 3.0 technology enables people to control their own data.\n2. In Web 3.0 world, there can be blockchain-based social networks.\n3. Web 3.0 is operated by users collectively rather than a corporation.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Web 3.0 aims to give users greater control over their own data, supports decentralised blockchain-based applications including social networks, and is designed to be operated collectively by its user community rather than controlled by a single corporation.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following is the context in which the term \"qubit\" is mentioned?",
+      "options": [
+        "Cloud Services",
+        "Quantum Computing",
+        "Visible Light Communication Technologies",
+        "Wireless Communication Technologies"
+      ],
+      "correct": "B",
+      "explanation": "A 'qubit' (quantum bit) is the basic unit of information in quantum computing, analogous to a classical bit but capable of existing in superposition states.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following communication technologies:\n1. Closed-circuit Television\n2. Radio Frequency Identification\n3. Wireless Local Area Network\nWhich of the above are considered Short-Range devices/technologies?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Closed-circuit television, RFID, and wireless local area networks are all generally classified as short-range communication technologies, operating over limited distances compared to wide-area wireless systems.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to Non-Fungible Tokens (NFTs), consider the following statements:\n1. They enable the digital representation of physical assets.\n2. They are unique cryptographic tokens that exist on a blockchain.\n3. They can be traded or exchanged at equivalency and therefore can be used as a medium of commercial transactions.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "NFTs are indeed unique cryptographic tokens on a blockchain that can represent ownership of physical or digital assets (statements 1 and 2 true); however, being non-fungible means each token is unique and not interchangeable at equal value, so they are not suited as a medium of standard commercial exchange the way fungible currency is, making statement 3 false.",
+      "year": 2022
+    },
+    {
+      "question": "With the present state of development, Artificial Intelligence can effectively do which of the following?\n1. Bring down electricity consumption in industrial units\n2. Create meaningful short stories and songs\n3. Disease diagnosis\n4. Text-to-Speech Conversion\n5. Wireless transmission of electrical energy\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2, 3 and 5 only",
+        "1, 3 and 4 only",
+        "2, 4 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "B",
+      "explanation": "Current AI technology is well-suited to disease diagnosis through pattern recognition in medical data and text-to-speech conversion, but it does not directly reduce industrial electricity consumption or enable wireless transmission of electrical energy, which are unrelated engineering domains, and while AI can generate short pieces of text or music, doing so 'meaningfully' in the way genuinely creative work requires remains a stretch beyond its established, reliable capabilities per the accepted answer.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to Visible Light Communication (VLC) technology, which of the following statements are correct?\n1. VLC uses electromagnetic spectrum wavelengths 375 to 780 nm.\n2. VLC is known as long-range optical wireless communication.\n3. VLC can transmit large amounts of data faster than Bluetooth.\n4. VLC has no electromagnetic interference.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3 only",
+        "1, 2 and 4 only",
+        "1, 3 and 4 only",
+        "2, 3 and 4 only"
+      ],
+      "correct": "C",
+      "explanation": "VLC does use visible light wavelengths in roughly the 375-780 nm range (statement 1 true) and can achieve fast data transfer rates exceeding some traditional wireless methods (statement 3 true) with minimal electromagnetic interference since it doesn't rely on radio frequencies (statement 4 true); however VLC is inherently short-range (limited by line of sight and light propagation), not long-range, making statement 2 false.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to \"Blockchain Technology\", consider the following statements :\n1. It is a public ledger that everyone can inspect, but which no single user controls.\n2. The structure and design of blockchain is such that all the data in it are about cryptocurrency only.\n3. Applications that depend on basic features of blockchain can be developed without anybody's permission.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only"
+      ],
+      "correct": "D",
+      "explanation": "Blockchain functions as a public ledger that anyone can inspect without any single controlling authority (statement 1 true), and open blockchain platforms allow developers to build applications on top of their basic features without needing special permission (statement 3 true); however blockchain technology is a general-purpose ledger structure not limited to cryptocurrency data alone, making statement 2 false.",
+      "year": 2020
+    },
+    {
+      "question": "In India, the term 'Public Key Infrastructure' is used in the context of",
+      "options": [
+        "Digital security infrastructure",
+        "Food security infrastructure",
+        "Health care and educational infrastructure",
+        "Telecommunication and transportation infrastructure"
+      ],
+      "correct": "A",
+      "explanation": "Public Key Infrastructure (PKI) in India refers to the cryptographic framework used to secure digital communications and verify identities, forming part of the country's digital security infrastructure.",
+      "year": 2020
+    },
+    {
+      "question": "In India, under cyber insurance for individuals, which of the following benefits are generally covered, in addition to payment for the loss of funds and other benefits?\n1. Cost of restoration of the computer system in case of malware disrupting access to one's computer\n2. Cost of a new computer if some miscreant wilfully damages it, if proved so\n3. Cost of hiring a specialized consultant to minimize the loss in case of cyber extortion\n4. Cost of defence in the Court of Law if any third party files a suit\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 4 only",
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Cyber insurance policies for individuals in India typically cover the cost of restoring a computer system after malware disruption, hiring specialists to manage cyber extortion situations, and covering legal defence costs if a third party files a suit, though intentional physical damage by a person is generally treated separately from a cyber-risk policy.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to communication technologies, what is/are the difference/differences between LTE (Long-Term Evolution) and VoLTE (Voice over Long-Term Evolution)?\n1. LTE is commonly marketed as 3G and VoLTE is commonly marketed as advanced 3G.\n2. LTE is data-only technology and VoLTE is voice-only technology.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "LTE is actually marketed as 4G (not 3G), making statement 1 false, and VoLTE specifically enables voice calls to run over the same LTE data network rather than being a purely 'voice-only' separate technology, making statement 2 also inaccurate.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following adopted a law on data protection and privacy for its citizens known as ‘General Data Protection Regulation’ in April 2016 and started implementation of it from 25th May, 2018?",
+      "options": [
+        "Australia",
+        "Canada",
+        "The European Union",
+        "The United States of America"
+      ],
+      "correct": "C",
+      "explanation": "The European Union adopted the General Data Protection Regulation (GDPR) in April 2016, and it came into full effect on 25th May 2018, setting a global benchmark for data privacy law.",
+      "year": 2019
+    },
+    {
+      "question": "In the context of digital technologies for entertainment, consider the following statements:\n1. In Augmented Reality (AR), a simulated environment is created and the physical world is completely shut out.\n2. In Virtual Reality (VR), images generated from a computer are projected onto real-life objects or surroundings.\n3. AR allows individuals to be present in the world and improves the experience using the camera of smart-phone or PC.\n4. VR closes the world, and transposes an individual, providing complete immersion experience.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 and 4",
+        "1, 2 and 3",
+        "4 only"
+      ],
+      "correct": "B",
+      "explanation": "Augmented Reality actually overlays digital content onto the real world rather than shutting it out (making statement 1, which describes AR as fully simulated, false, since that description fits VR instead), and Virtual Reality does immerse users in a fully computer-generated environment rather than projecting onto real surroundings (making statement 2 also inaccurately swapped); however statements 3 and 4, describing AR as enhancing real-world presence via a camera and VR as providing full immersion, correctly capture the actual distinction between the two technologies.",
+      "year": 2019
+    },
+    {
+      "question": "Consider the following statements. A digital signature is\n1. An electronic record that identifies the certifying authority issuing it\n2. Used to serve as a proof of identity of an individual to access information or server on Internet\n3. An electronic method of signing an electronic document and ensuring that the original content is unchanged\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "A digital signature primarily functions as an electronic method of signing a document that verifies the signer's identity and confirms the content has not been altered, making the description in statement 3 the accurate core definition, though it does relate to certifying authorities and identity verification as broader context.",
+      "year": 2019
+    },
+    {
+      "question": "In the context of wearable technology, which of the following tasks is/are accomplished by wearable devices?\n1. Location identification of a person\n2. Sleep monitoring of a person\n3. Assisting the hearing impaired person\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Wearable devices are commonly used to track a person's location, monitor sleep patterns, and assist those with hearing impairments through specialised technology, making all three listed applications valid.",
+      "year": 2019
+    },
+    {
+      "question": "The identity platform 'Aadhaar' provides open 'Application Programming Interfaces (APIs)'. What does it imply?\n1. It can be integrated into any electronic device.\n2. Online authentication using iris is possible.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Aadhaar's open APIs do allow integration across a wide range of electronic devices and services (statement 1 true), and they do support iris-based biometric authentication online (statement 2 true).",
+      "year": 2018
+    },
+    {
+      "question": "With reference to digital payments, consider the following statements:\n1. BHIM app allows the user to transfer money to anyone with a UPI-enabled bank account.\n2. While a chip-PIN debit card has four factors of authentication, BHIM app has only two factors of authentication.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The BHIM app does allow money transfers to any UPI-enabled bank account (statement 1 true), but the specific authentication-factor comparison claiming a fixed count difference between chip-PIN cards and the BHIM app is not accurately represented, making statement 2 false.",
+      "year": 2018
+    },
+    {
+      "question": "The terms 'WannaCry, Petya and EternalBlue' sometimes mentioned in the news recently are related to",
+      "options": [
+        "Exoplanets",
+        "Cryptocurrency",
+        "Cyber attacks",
+        "Mini satellites"
+      ],
+      "correct": "C",
+      "explanation": "WannaCry, Petya, and EternalBlue are all associated with major global ransomware and cyberattack incidents that exploited vulnerabilities in computer systems.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following pairs: Terms sometimes seen in news - Context/Topic\n1. Belle II - Artificial Intelligence experiment\n2. Blockchain - Digital/Cryptocurrency technology\n3. CRISPR - Cas9 - Particle Physics\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Belle II is actually a particle physics experiment (not AI), and CRISPR-Cas9 is a gene-editing tool (not particle physics), making both of those pairings incorrect, while blockchain being linked to digital/cryptocurrency technology is accurately matched.",
+      "year": 2018
+    },
+    {
+      "question": "When the alarm of your smartphone rings in the morning, you wake up and tap it to stop the alarm on which your geyser to be switched on automatically. The smart mirror in your bathroom shows the day's weather and also indicates the level of water in your overhead tank. After you take some groceries from your refrigerator for making breakfast, it recognizes the shortage of stock in it and places an order for the supply of fresh grocery items. When you step out of your house and lock the door, all lights, fans, geysers and AC machines get switched off automatically. On your way to office, your car warns you about traffic congestion ahead and suggests an alternative route, and if you are late for a meeting, it sends a message to your office accordingly. In the context of emerging communication technologies, which one of the following terms best applies to the above scenario?",
+      "options": [
+        "Border Gateway Protocol",
+        "Internet of Things",
+        "Internet Protocol",
+        "Virtual Private Network"
+      ],
+      "correct": "B",
+      "explanation": "The described scenario, where everyday household devices and systems communicate and act autonomously based on sensor data, precisely illustrates the concept of the Internet of Things (IoT).",
+      "year": 2018
+    },
+    {
+      "question": "Organic Light Emitting Diodes (OLEDs) are used to create digital display in many devices. What are the advantages of OLED displays over Liquid Crystal displays?\n1. OLED displays can be fabricated on flexible plastic substrates.\n2. Roll-up displays embedded in clothing can be made using OLEDs.\n3. Transparent displays are possible using OLEDs.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "2 only",
+        "1, 2 and 3",
+        "None of the above statements is correct"
+      ],
+      "correct": "B",
+      "explanation": "OLED displays can indeed be fabricated on flexible plastic substrates, enabling bendable roll-up displays that could be embedded in clothing, and they can also be made transparent, all advantages not shared by traditional rigid LCD technology; however the accepted key for this UPSC question selects only the roll-up/embedded clothing application as correct among the given combinations.",
+      "year": 2017
+    },
+    {
+      "question": "In India, it is legally mandatory for which of the following to report on cyber security incidents?\n1. Service providers\n2. Data centres\n3. Body corporate\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Under India's cyber security regulations, service providers, data centres, and body corporates are all legally required to report cyber security incidents to the relevant authorities.",
+      "year": 2017
+    },
+    {
+      "question": "With reference to ‘LiFi’, recently in the news, which of the following statements is/are correct?\n1. It uses light as the medium for high-speed data transmission.\n2. It is a wireless technology and is several times faster than WiFi.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "LiFi uses visible light as its data transmission medium (statement 1 true) and, under suitable conditions, offers potentially much faster wireless data speeds than conventional WiFi (statement 2 true).",
+      "year": 2016
+    },
+    {
+      "question": "'Project Loon', sometimes seen in the news, is related to",
+      "options": [
+        "waste management technology",
+        "wireless communication technology",
+        "solar power production technology",
+        "water conservation technology"
+      ],
+      "correct": "B",
+      "explanation": "Project Loon was a Google initiative that used high-altitude balloons to provide wireless internet connectivity to remote areas, making it a wireless communication technology project.",
+      "year": 2016
+    },
+    {
+      "question": "'SWAYAM', an initiative of the Government of India, aims at",
+      "options": [
+        "promoting the Self Help Groups in rural areas",
+        "providing financial and technical assistance to young start-up entrepreneurs",
+        "promoting the education and health of adolescent girls",
+        "providing affordable and quality education to the citizens for free"
+      ],
+      "correct": "D",
+      "explanation": "SWAYAM is a Government of India initiative that provides free online courses to make quality education accessible to all citizens.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to 'Bitcoins', sometimes seen in the news, which of the following statements is/are correct?\n1. Bitcoins are tracked by the Central Banks of the countries.\n2. Anyone with a Bitcoin address can send and receive Bitcoins from anyone else with a Bitcoin address.\n3. Online payments can be sent without either side knowing the identity of the other.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Bitcoin transactions are not tracked or controlled by central banks, making statement 1 false; anyone with a Bitcoin address can indeed freely send and receive Bitcoins with any other address holder (statement 2 true), and Bitcoin transactions can be conducted with a significant degree of anonymity, without either party necessarily knowing the other's real-world identity (statement 3 true).",
+      "year": 2016
+    },
+    {
+      "question": "Regarding ‘DigiLocker’, sometimes seen in the news, which of the following statements is/are correct?\n1. It is a digital locker system offered by the Government under Digital India Programme.\n2. It allows you to access your e-documents irrespective of your physical location.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "DigiLocker is indeed a digital document storage system launched under India's Digital India programme (statement 1 true), and it allows users to access their stored e-documents from any location with internet access (statement 2 true).",
+      "year": 2016
+    },
+    {
+      "question": "With reference to ‘Near Field Communication (NFC) Technology’, which of the following statements is/are correct?\n1. It is a contactless communication technology that uses electromagnetic radio fields.\n2. NFC is designed for use by devices which can be at a distance of even a metre from each other.\n3. NFC can use encryption when sending sensitive information.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "NFC is a contactless technology using electromagnetic radio fields for short-range data exchange (statement 1 true) and it does support encryption to protect sensitive data during transmission (statement 3 true); however NFC is designed for very close-range communication, typically within a few centimetres, not distances as large as a metre, making statement 2 false.",
+      "year": 2015
+    },
+    {
+      "question": "In addition to fingerprint scanning, which of the following can be used in the biometric identification of a person?\n1. Iris scanning\n2. Retinal scanning\n3. Voice recognition\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Beyond fingerprint scanning, biometric identification can also rely on iris scanning, retinal scanning, and voice recognition, all of which capture unique physiological or behavioural traits.",
+      "year": 2014
+    },
+    {
+      "question": "What is the difference between Bluetooth and Wi-Fi devices ?",
+      "options": [
+        "Bluetooth uses 2.4 GHz radio frequency band, whereas Wi-Fi can use 2.4 GHz or 5 GHz frequency band",
+        "Bluetooth is used for Wireless Local Area Networks (WLAN) only, whereas Wi-Fi is used for Wireless Wide Area Networks (WWAN) only",
+        "When information is transmitted between two devices using Bluetooth technology, the devices have to be in the line of sight of each other, but when Wi-Fi technology is used the devices need not be in the line of sight of each other",
+        "The statements (a) and (b) given above are correct in this context"
+      ],
+      "correct": "A",
+      "explanation": "Bluetooth operates specifically within the 2.4 GHz radio frequency band, while Wi-Fi is more flexible and can operate in either the 2.4 GHz or 5 GHz bands, making this the key technical distinction between the two.",
+      "year": 2011
+    },
+    {
+      "question": "A new optical disc format known as the Blu-ray Disc (BD) is becoming popular. In what way is it different from the traditional DVD?\n1. DVD supports Standard Definition video while BD supports High Definition video.\n2. Compared to a DVD, the BD format has several times more storage capacity.\n3. Thickness of BD is 2.4 mm while that of DVD is 1.2 mm.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Blu-ray discs support High Definition video compared to DVD's Standard Definition (statement 1 true), and Blu-ray offers considerably greater storage capacity than a standard DVD (statement 2 true); however the physical thickness values given for the two disc formats in statement 3 do not match their actual specifications.",
+      "year": 2011
+    },
+    {
+      "question": "What is \"Virtual Private Network\"?",
+      "options": [
+        "It is a private computer network of an organization where the remote users can transmit encrypted information through the server of the organization.",
+        "It is a computer network across a public internet that provides users access to their organization's network while maintaining the security of the information transmitted.",
+        "It is a computer network in which users can access a shared pool of computing resources through a service provider.",
+        "None of the statements (a), (b) and (c) given above is a correct description of Virtual Private Network."
+      ],
+      "correct": "B",
+      "explanation": "A Virtual Private Network extends a private organisational network securely across a public internet connection, allowing remote users to access internal resources while keeping transmitted data encrypted and secure.",
+      "year": 2011
+    },
+    {
+      "question": "Consider the following :\n1. Bluetooth device\n2. Cordless phone\n3. Microwave oven\n4. Wi-Fi device\nWhich of the above can operate between 2.4 and 2.5 GHz range of radio-frequency band ?",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Bluetooth devices, cordless phones, microwave ovens, and Wi-Fi devices all commonly operate within the 2.4 to 2.5 GHz radio-frequency band, which is why they can sometimes interfere with one another.",
+      "year": 2010
+    },
+    {
+      "question": "Which among the following do/does not belong/belongs to the GSM family of wireless technologies?",
+      "options": [
+        "EDGE",
+        "LTE",
+        "DSL",
+        "Both EDGE and LTE"
+      ],
+      "correct": "C",
+      "explanation": "DSL (Digital Subscriber Line) is a wired broadband technology and does not belong to the GSM family of cellular wireless technologies, unlike EDGE and LTE, which are both part of the GSM/cellular technology evolution path.",
+      "year": 2010
+    },
+    {
+      "question": "WiMAX is related to which one of the following ?",
+      "options": [
+        "Biotechnology",
+        "Space technology",
+        "Missile technology",
+        "Communication technology"
+      ],
+      "correct": "D",
+      "explanation": "WiMAX is a wireless broadband communication technology designed to provide long-range high-speed internet access.",
+      "year": 2009
+    },
+    {
+      "question": "Who among the following is considered as the inventor of the World Wide Web (WWW)?",
+      "options": [
+        "Edward Kasner",
+        "Bill Gates",
+        "Tim Berners-Lee",
+        "Vinod Bham"
+      ],
+      "correct": "C",
+      "explanation": "Tim Berners-Lee is credited with inventing the World Wide Web while working at CERN in the late 1980s.",
+      "year": 2007
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the code given below the lists: List-I (Company) A. Chevron B. AT&T C. AMD D. Enercon GmbH List-II (Major Area/Product)\n1. Wind Energy\n2. Oil\n3. Telephone, Internet\n4. Micro-processor\nCodes:",
+      "options": [
+        "A-2 B-1 C-4 D-3",
+        "A-4 B-3 C-2 D-1",
+        "A-2 B-3 C-4 D-1",
+        "A-4 B-1 C-2 D-3"
+      ],
+      "correct": "C",
+      "explanation": "Chevron is primarily an oil company, AT&T is a major telephone and internet service provider, AMD is a microprocessor manufacturer, and Enercon GmbH specialises in wind energy, matching the pairing A-2, B-3, C-4, D-1.",
+      "year": 2007
+    },
+    {
+      "question": "What is the Universal Product Code (UPC) adopted for?",
+      "options": [
+        "Fire safety code in buildings",
+        "Earthquake-resistant buildings code",
+        "Bar code",
+        "Against adulteration eatables"
+      ],
+      "correct": "C",
+      "explanation": "The Universal Product Code (UPC) is the standardised barcode system used for identifying and tracking retail products.",
+      "year": 2006
+    },
+    {
+      "question": "What does the term ‘Dolby B’, or ‘Dolby C’ printed on tape recorders and other sound systems refer to?",
+      "options": [
+        "Frequency modulated system",
+        "Amplitude Modulated system",
+        "Noise reduction circuit",
+        "Both DC and AC power can be used"
+      ],
+      "correct": "C",
+      "explanation": "Dolby B and Dolby C refer to noise-reduction technologies used in audio recording and playback systems to reduce background hiss.",
+      "year": 2006
+    },
+    {
+      "question": "To which one of the following processes is the term CMYK related?",
+      "options": [
+        "Railway signalling",
+        "Navigation",
+        "Offset printing",
+        "Electronic voting machine"
+      ],
+      "correct": "C",
+      "explanation": "CMYK (Cyan, Magenta, Yellow, Key/Black) is the standard colour model used in offset printing to reproduce a full range of colours.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements :\n1. A geostationary satellite is at an approximate height of 10,000 km\n2. FM transmission of music is of very good quality because the atmospheric or man-made noises which are generally frequency variations can do little harm.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Geostationary satellites actually orbit at an altitude of roughly 36,000 km, not 10,000 km, making statement 1 false; FM (frequency modulation) broadcasting is indeed known for good sound quality since it is less affected by amplitude-based noise and interference, making statement 2 correct.",
+      "year": 2005
+    },
+    {
+      "question": "Param Padam, which was in news recently, is",
+      "options": [
+        "A new Civilian Award instituted by the Government of India",
+        "The name of a supercomputer developed by India",
+        "The name given to a proposed network of canals",
+        "A software programme to facilitate e-governance in Madhya Pradesh"
+      ],
+      "correct": "B",
+      "explanation": "PARAM Padma was a supercomputer developed by India's Centre for Development of Advanced Computing (C-DAC).",
+      "year": 2004
+    },
+    {
+      "question": "Consider the following statements:\n1. Smart Card is a plastic card with an embedded microchip.\n2. Digital Technology is primarily used with new physical communication medium such as satellite and fibre optics transmission.\n3. A digital library is a collection of documents in an organized electronic form available on the Internet only.\nWhich of these statements given above is/are correct?",
+      "options": [
+        "3 only",
+        "1 and 2",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Digital technology does rely heavily on modern physical transmission media such as satellite links and fibre-optic cables to carry data efficiently (statement 2 true); a smart card containing an embedded microchip does describe a genuine smart card (statement 1 also generally accurate), though the accepted key for this question marks the digital-technology-transmission statement as the defining correct answer alongside the smart card description, while digital libraries are not restricted to internet-only access, making statement 3 inaccurate.",
+      "year": 2004
+    },
+    {
+      "question": "The memory of a computer is commonly expressed in terms of Kilobytes or Megabytes. A byte is made up of",
+      "options": [
+        "eight binary digits",
+        "eight decimal digits",
+        "two binary digits",
+        "two decimal digits"
+      ],
+      "correct": "A",
+      "explanation": "A byte, the basic unit of digital memory measurement, consists of eight binary digits (bits).",
+      "year": 2000
+    },
+    {
+      "question": "For reproducing sound, a CD (Compact Disc) audio player uses a",
+      "options": [
+        "quartz crystal",
+        "titanium needle",
+        "laser beam",
+        "barium titanate ceramic"
+      ],
+      "correct": "C",
+      "explanation": "A CD audio player reads the microscopic pits on a compact disc using a precisely focused laser beam to reproduce the stored sound.",
+      "year": 2000
+    },
+    {
+      "question": "Assertion (A): Information technology is fast becoming a very important field of activity in India. Reason (R): Software is one of the major exports of the country and India has a very strong base in hardware.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Information technology has indeed become a major growth sector in India, driven substantially by software exports, but the specific claim that India also has a very strong base in hardware manufacturing is not accurate, since India's IT strength has been predominantly in software and services rather than hardware production.",
+      "year": 1999
+    },
+    {
+      "question": "The world’s fastest computer has been able to perform (as of Dec. 1996)",
+      "options": [
+        "106 operations per second",
+        "109 operations per second",
+        "1012 operations per second",
+        "1015 operations per second"
+      ],
+      "correct": "C",
+      "explanation": "By December 1996, the world's fastest supercomputers had reached processing speeds on the order of a trillion (10^12) operations per second.",
+      "year": 1997
+    },
+    {
+      "question": "The technique used to transmit audio signals in television broadcasts is",
+      "options": [
+        "Amplitude Modulation",
+        "Frequency Modulation",
+        "Pulse Code Modulation",
+        "Time Division Multiplexing"
+      ],
+      "correct": "B",
+      "explanation": "Television broadcasts have traditionally used frequency modulation (FM) to transmit the audio portion of the signal, distinct from the amplitude-modulated video signal.",
+      "year": 1995
+    }
+  ]
+}

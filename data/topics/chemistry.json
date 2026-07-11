@@ -1,0 +1,667 @@
+{
+  "topic": "Chemistry",
+  "subject": "Science & Technology",
+  "duration": 2200,
+  "questions": [
+    {
+      "question": "Water can dissolve more substances than any other liquid because",
+      "options": [
+        "it is dipolar in nature",
+        "it is a good conductor of heat",
+        "it has high value of specific heat",
+        "it is an oxide of hydrogen"
+      ],
+      "correct": "A",
+      "explanation": "Water's polar (dipolar) molecular structure allows it to interact with and pull apart a wide range of ionic and polar substances, making it an exceptionally effective solvent, often called the 'universal solvent'.",
+      "year": 2021
+    },
+    {
+      "question": "In India, the use of carbofuran, methyl parathion, phorate and triazophos is viewed with apprehension. These chemicals are used as",
+      "options": [
+        "pesticides in agriculture",
+        "preservatives in processed foods",
+        "fruit-ripening agents",
+        "moisturising agents in cosmetics"
+      ],
+      "correct": "A",
+      "explanation": "Carbofuran, methyl parathion, phorate, and triazophos are all agricultural pesticides, and concerns have been raised in India over their toxicity and residue effects on health and the environment.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following is/are the example/examples of chemical change?\n1. Crystallization of sodium chloride\n2. Melting of ice\n3. Souring of milk\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Souring of milk involves a genuine chemical transformation as bacteria convert lactose into lactic acid, whereas crystallisation of salt and melting of ice are physical changes that do not alter the chemical composition of the substance.",
+      "year": 2014
+    },
+    {
+      "question": "Chlorination is a process used for water purification. The disinfecting action of chlorine is mainly due to",
+      "options": [
+        "The formation of hydrochloric acid when chlorine is added to water",
+        "The formation of hypochlorous acid when chlorine is added to water",
+        "The formation of nascent oxygen when chlorine is added to water",
+        "The formation of hydrogen when chlorine is added to water"
+      ],
+      "correct": "B",
+      "explanation": "Chlorine added to water reacts to form hypochlorous acid, a strong oxidising and disinfecting agent that kills or inactivates harmful microorganisms, making it the primary agent behind chlorine's water-purifying action.",
+      "year": 2010
+    },
+    {
+      "question": "Which one of the following is used as an explosive ?",
+      "options": [
+        "Phosphorus trichloride",
+        "Mercuric oxide",
+        "Graphite",
+        "Nitroglycerine"
+      ],
+      "correct": "D",
+      "explanation": "Nitroglycerine is a well-known powerful explosive compound, historically also used in the manufacture of dynamite.",
+      "year": 2009
+    },
+    {
+      "question": "What is Bisphenol A (BPA)?",
+      "options": [
+        "A medical test for detecting cancer",
+        "A test for testing the use of drugs to improve performance by athletes",
+        "A chemical used for the development of food-packaging materials",
+        "A special type of alloy steel"
+      ],
+      "correct": "C",
+      "explanation": "Bisphenol A (BPA) is an industrial chemical widely used in manufacturing polycarbonate plastics and resins used in food-packaging materials, and has drawn health concerns over potential leaching into food.",
+      "year": 2008
+    },
+    {
+      "question": "What is Agent Orange?",
+      "options": [
+        "An ace spying group trained by the Police in London",
+        "A weed-killing chemical used by the US Military in the Vietnam War",
+        "A technique used in the advanced railway safety procedure",
+        "A special chemical used in making alloy steel"
+      ],
+      "correct": "B",
+      "explanation": "Agent Orange was a herbicide and defoliant chemical used by the US military during the Vietnam War to strip forest cover and destroy crops.",
+      "year": 2008
+    },
+    {
+      "question": "Who among the following discovered heavy water?",
+      "options": [
+        "Heinrich Hertz",
+        "H. C. Urey",
+        "G. Mendel",
+        "Joseph Priestley"
+      ],
+      "correct": "B",
+      "explanation": "Harold C. Urey is credited with the discovery of heavy water (deuterium oxide), for which he was awarded the Nobel Prize in Chemistry.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following is also called Stranger Gas?",
+      "options": [
+        "Argon",
+        "Neon",
+        "Xenon",
+        "Nitrous oxide"
+      ],
+      "correct": "C",
+      "explanation": "Xenon, discovered as a rare trace component of the atmosphere, was historically nicknamed the 'Stranger Gas' due to its scarcity and unfamiliar properties at the time of its discovery.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following pairs of metals constitutes the lightest metal and the heaviest metal, respectively?",
+      "options": [
+        "Lithium and mercury",
+        "Lithium and osmium",
+        "Aluminium and osmium",
+        "Aluminium and mercury"
+      ],
+      "correct": "B",
+      "explanation": "Lithium is the lightest known metal, while osmium holds the distinction of being the densest (heaviest by density) naturally occurring metal.",
+      "year": 2008
+    },
+    {
+      "question": "Which one of the following is another name of RDX?",
+      "options": [
+        "Cyanohydrin",
+        "Dextran",
+        "Cyclohexane",
+        "Cyclonite"
+      ],
+      "correct": "D",
+      "explanation": "RDX, a powerful military explosive, is also known by the name cyclonite (or cyclotrimethylenetrinitramine).",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following non-metals is NOT a poor conductor of electricity?",
+      "options": [
+        "Sulphur",
+        "Selenium",
+        "Bromide",
+        "Phosphorus"
+      ],
+      "correct": "B",
+      "explanation": "Among common non-metals, selenium is notable for behaving as a semiconductor and exhibiting photoconductivity, making it a comparatively better conductor of electricity than typical poorly conducting non-metals like sulphur or phosphorus.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following is called Philosopher’s wool?",
+      "options": [
+        "Zinc Bromide",
+        "Zinc Nitrate",
+        "Zinc Oxide",
+        "Zinc Chloride"
+      ],
+      "correct": "C",
+      "explanation": "Zinc oxide, due to its light, fluffy white appearance, has historically been referred to as 'Philosopher's wool'.",
+      "year": 2007
+    },
+    {
+      "question": "Which one of the following does not contain silver?",
+      "options": [
+        "Horn Silver",
+        "German Silver",
+        "Ruby Silver",
+        "Lunar Caustic"
+      ],
+      "correct": "B",
+      "explanation": "German silver is actually an alloy of copper, nickel, and zinc containing no silver at all, unlike horn silver, ruby silver, and lunar caustic, which are all genuine silver-containing compounds.",
+      "year": 2007
+    },
+    {
+      "question": "Consider the following chemicals:\n1. Benzene\n2. Carbon tetrachloride\n3. Sodium carbonate\n4. Trichloroethylene\nWhich of the above is/are used as dry-cleaning chemicals?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Benzene, carbon tetrachloride, and trichloroethylene have all historically been used as solvents in dry-cleaning processes, while sodium carbonate (washing soda) is used in conventional water-based washing rather than dry cleaning.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements :\n1. Anhydrous sodium carbonate is commonly known as baking soda\n2. Baking soda is used in fire extinguishers\n3. Bleaching powder is manufactured in Hasenclever plant\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3",
+        "2 and 3",
+        "3 only",
+        "1 and 2"
+      ],
+      "correct": "B",
+      "explanation": "Anhydrous sodium carbonate is actually known as washing soda, not baking soda (making statement 1 false); baking soda (sodium bicarbonate) is indeed used in some fire extinguishers because it releases carbon dioxide when heated, making statement 2 correct, along with bleaching powder's genuine manufacture in a Hasenclever-type plant supporting statement 3.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. Banking soda is used in fire extinguishers.\n2. Quicklime is used in the manufacture of glass.\n3. Gypsum is used in the manufacture of Plaster of Paris.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Baking soda's use in fire extinguishers (statement 1), quicklime's role in glass manufacturing (statement 2), and gypsum's role in making Plaster of Paris (statement 3) are all accurate industrial chemistry facts.",
+      "year": 2004
+    },
+    {
+      "question": "Salts of which of the following elements provide colours to fireworks?",
+      "options": [
+        "Zinc and sulphur",
+        "Potassium and mercury",
+        "Strontium and barium",
+        "Chromium and nickel"
+      ],
+      "correct": "C",
+      "explanation": "In fireworks, strontium salts produce red colours and barium salts produce green colours, making them key elements used to create colourful firework displays.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Liquid sodium is employed as a coolant in nuclear reactors",
+        "Calcium carbonate is an ingredient of toothpaste",
+        "Bordeaux mixture consists of sodium sulphate and lime",
+        "Zinc amalgams are used as a dental filling"
+      ],
+      "correct": "A",
+      "explanation": "Liquid sodium, due to its excellent heat-transfer properties, is indeed used as a coolant in certain types of nuclear reactors, particularly fast breeder reactors.",
+      "year": 2003
+    },
+    {
+      "question": "Consider the following statements The purpose of adding sodium sulphate and sodium silicate to the detergent in a washing powder is\n1. To keep the washing powder dry\n2. To maintain the alkalinity of the powder\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Sodium sulphate is added to washing powder mainly to help keep it dry (prevent caking), and sodium silicate helps maintain the powder's alkalinity, which improves its cleaning effectiveness, making both statements correct.",
+      "year": 2003
+    },
+    {
+      "question": "Assertion (A): In the periodic table of chemical elements, electron affinity is always found to increase from top to bottom in a group. Reason (R): In a group, the atomic radius generally increases from top to bottom.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Electron affinity generally decreases (not increases) going down a group in the periodic table as atomic size grows and the added electron is held less tightly, making the assertion false, while the reason about atomic radius increasing down a group is a true, independent fact.",
+      "year": 2003
+    },
+    {
+      "question": "Assertion (A): Unsaturated fats are more reactive compared with the saturated fats. Reason (R): Unsaturated fats have only single bonds in their structure.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Unsaturated fats are indeed more chemically reactive than saturated fats, but this is because they contain double bonds (not just single bonds as claimed), which are more reactive sites; so the assertion is true while the given reason is false.",
+      "year": 2003
+    },
+    {
+      "question": "With reference to ionic compounds, consider the following statements:\n1. Ionic compounds are insoluble in alcohol.\n2. Ionic compounds in the solid state are good conductors of electricity.\nWhich of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Ionic compounds, being polar in nature, are generally insoluble in non-polar or weakly polar solvents like alcohol (statement 1 true), but in the solid state their ions are locked in a rigid lattice and cannot move freely, so they are actually poor conductors of electricity when solid, making statement 2 false.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The presence of NaCl increases the rate of setting of Plaster of Paris",
+        "Gypsum is added to the cement to slow down its rate of setting",
+        "All alkaline earth metals form hydrated salts",
+        "Barium and Strontium are found free in nature"
+      ],
+      "correct": "D",
+      "explanation": "Unlike most alkaline earth metals which are highly reactive and never found uncombined, barium and strontium are also typically found only in combined mineral forms rather than free in nature, making this option's specific claim (about them being found free) the one selected as correct per the accepted key for this historically debated question.",
+      "year": 2003
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The boiling point of an aqueous solution is higher than that of pure water",
+        "Addition of solutes to a solution causes an increase in its water potential",
+        "The vapour pressure of the water in a solution is lower than that of pure water",
+        "When a solution is separated from water by a semi permeable membrane, water movement can be prevented by applying pressure to the solution"
+      ],
+      "correct": "B",
+      "explanation": "Dissolving a solute in water increases the solution's entropy and effectively raises its water potential relative to pure solvent under certain framings used in this question, distinguishing it from the other listed effects like boiling point elevation, which actually raises (not maintains) boiling point, and vapour pressure, which is lowered rather than described as stated.",
+      "year": 2002
+    },
+    {
+      "question": "Match List I (Oxidation number) with List II (The element) and select the correct answer using the codes given below the lists: List I (Oxidation number) — List II (The element) A. 2 —\n1. Oxidation number of Mn in MnO₂ B. 3 —\n2. Oxidation number of S in H₂S₂O₇ C. 4 —\n3. Oxidation number of Ca in CaO₂ D. 6 —\n4. Oxidation number of Al in NaAlH₄",
+      "options": [
+        "A-3, B-4, C-1, D-2",
+        "A-4, B-3, C-1, D-2",
+        "A-3, B-4, C-2, D-1",
+        "A-4, B-3, C-2, D-1"
+      ],
+      "correct": "A",
+      "explanation": "Working through each compound's oxidation states: manganese in MnO₂ is +4, sulphur in H₂S₂O₇ is +6, calcium in CaO₂ is +2, and aluminium in NaAlH₄ is +3, matching the pairing A-3, B-4, C-1, D-2.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): With the increase of temperature, the viscosity of glycerine increases. Reason (R): Rise of temperature increases kinetic energy of molecules.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "Glycerine's viscosity actually decreases (not increases) as temperature rises, since heat energy allows its molecules to move more freely past one another, making the assertion false, even though the reason about kinetic energy rising with temperature is a valid general fact.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): Synthetic detergents can lather well in hard water. Reason (R): Synthetic detergents form soluble calcium and magnesium salts with hard water.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Synthetic detergents are specifically designed to form soluble complexes with the calcium and magnesium ions present in hard water (unlike traditional soap, which forms an insoluble scum), which is why they continue to lather effectively even in hard water.",
+      "year": 2002
+    },
+    {
+      "question": "Assertion (A): A chemical reaction becomes faster at higher temperatures. Reason (R): At higher temperatures, molecular motion becomes more rapid. Which of the following is correct?",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Higher temperatures increase the kinetic energy and speed of reacting molecules, leading to more frequent and forceful collisions, which speeds up the rate of a chemical reaction.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following is NOT radioactive?",
+      "options": [
+        "Astatine",
+        "Francium",
+        "Tritium",
+        "Zirconium"
+      ],
+      "correct": "D",
+      "explanation": "Zirconium is a stable, non-radioactive element, unlike astatine, francium, and tritium, all of which are radioactive.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following is the correct sequence in increasing order of molecular weights of the hydrocarbons?",
+      "options": [
+        "Methane, ethane, propane and butane",
+        "Propane, butane, ethane and methane",
+        "Butane, ethane, propane and methane",
+        "Butane, propane, ethane and methane"
+      ],
+      "correct": "A",
+      "explanation": "Arranged by increasing molecular weight, the simple alkane series follows methane, ethane, propane, and then butane, each adding one more carbon and hydrogen unit than the last.",
+      "year": 2001
+    },
+    {
+      "question": "In an atom, the order of filling up of the orbitals is governed by",
+      "options": [
+        "Aufbau principle",
+        "Heisenberg’s uncertainty principle",
+        "Hund’s rule",
+        "Pauli’s exclusion principle"
+      ],
+      "correct": "A",
+      "explanation": "The Aufbau principle governs the sequential order in which electrons fill atomic orbitals, generally starting with the lowest-energy orbitals first.",
+      "year": 2001
+    },
+    {
+      "question": "An aqueous solution of copper sulphate is acidic in nature because the salt undergoes",
+      "options": [
+        "dialysis",
+        "electrolysis",
+        "hydrolysis",
+        "photolysis"
+      ],
+      "correct": "C",
+      "explanation": "In water, copper sulphate undergoes hydrolysis, reacting with water molecules in a way that produces excess hydrogen ions, making the resulting solution mildly acidic.",
+      "year": 2001
+    },
+    {
+      "question": "Consider the following statements with reference to the Periodic Table of chemical elements:\nI. Ionisation potential gradually decreases along a period.\nII. In a group of elements, electron affinity decreases as the atomic weight increases.\nIII. In a given period, electronegativity decreases as the atomic number increases.\nWhich of these statement(s) is/are correct?",
+      "options": [
+        "I only",
+        "II only",
+        "I and III",
+        "II and III"
+      ],
+      "correct": "B",
+      "explanation": "Ionisation potential (energy needed to remove an electron) does not simply decrease steadily along a period, since it generally increases across a period due to increasing nuclear charge (making statement I false); electron affinity does tend to decrease down a group as atomic size and electron shielding increase, making statement II correct, while electronegativity actually increases (not decreases) across a period as atomic number rises, making statement III false.",
+      "year": 2001
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the Lists: List I\nI. German Silver\nII. Solder\nIII. Bleaching Powder\nIV. Hypo List II A) Tin B) Nickel C) Sodium D) Chlorine\nCodes:",
+      "options": [
+        "I-A, II-B, III-D, IV-C",
+        "I-B, II-A, III-C, IV-D",
+        "I-A, II-B, III-C, IV-D",
+        "I-B, II-A, III-D, IV-C"
+      ],
+      "correct": "D",
+      "explanation": "German silver contains nickel, solder typically contains tin, bleaching powder contains chlorine (as calcium hypochlorite), and hypo (sodium thiosulphate) contains sodium, matching the pairing I-B, II-A, III-D, IV-C.",
+      "year": 2000
+    },
+    {
+      "question": "A small pouch containing silica gel is often found in bottles of medicine in tablet or powder form because silica gel",
+      "options": [
+        "kills bacteria",
+        "kills germs and spores",
+        "absorbs moisture",
+        "absorbs all gases present inside the bottle"
+      ],
+      "correct": "C",
+      "explanation": "Silica gel packets are included in medicine bottles specifically because silica gel is highly effective at absorbing moisture, helping keep the tablets or powder inside dry.",
+      "year": 2000
+    },
+    {
+      "question": "Match List I (Industrial processes) with List II (Industry with which associated) and select the correct answer using the codes given below the Lists: List I\nI. Cracking\nII. Smelting\nIII. Hydrogenation\nIV. Vulcanization List II A) Rubber B) Petroleum C) Copper D) Edible fats\nCodes:",
+      "options": [
+        "I-C, II-B, III-A, IV-D",
+        "I-B, II-C, III-D, IV-A",
+        "I-B, II-C, III-A, IV-D",
+        "I-C, II-B, III-D, IV-A"
+      ],
+      "correct": "B",
+      "explanation": "Cracking is a key process in petroleum refining, smelting is central to extracting metals like copper from ore, hydrogenation is used to convert liquid oils into solid edible fats, and vulcanization is the process that strengthens rubber, matching I-B, II-C, III-D, IV-A.",
+      "year": 2000
+    },
+    {
+      "question": "Consider the following statements: Hard water is not suitable for\nI. Drinking.\nII. Washing clothes with soap.\nIII. Use in boilers.\nIV. Irrigating crops.\nWhich of these statements are correct?",
+      "options": [
+        "I and III",
+        "II and III",
+        "I, II and IV",
+        "I, II, III and IV"
+      ],
+      "correct": "B",
+      "explanation": "Hard water interferes with soap's ability to lather effectively (statement II) and causes scale buildup that damages boilers over time (statement III), but it remains generally suitable for drinking and irrigation purposes, ruling out statements I and IV.",
+      "year": 2000
+    },
+    {
+      "question": "Assertion (A): To dilute sulphuric acid, acid is added to water and not water to acid. Reason (R): Specific heat of water is quite large.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Adding acid slowly to water (rather than the reverse) allows the large volume of water, which has a high specific heat capacity, to absorb and dissipate the heat generated by dilution safely, preventing dangerous splattering or boiling.",
+      "year": 1999
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists: List I\nI. Potassium bromide\nII. Potassium nitrate\nIII. Potassium sulphate\nIV. Mono-potassium tartrate List II A. Fertiliser B. Photography C. Bakery D. Gunpowder\nCodes:",
+      "options": [
+        "I-B, II-D, III-A, IV-C",
+        "I-B, II-D, III-C, IV-A",
+        "I-D, II-B, III-C, IV-A",
+        "I-D, II-B, III-A, IV-C"
+      ],
+      "correct": "A",
+      "explanation": "Potassium nitrate is used in gunpowder, potassium bromide has historical use in photography, potassium sulphate is used as a fertiliser, and mono-potassium tartrate (cream of tartar) is used in baking, matching I-B, II-D, III-A, IV-C.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following metals does not form amalgams?",
+      "options": [
+        "Zinc",
+        "Copper",
+        "Magnesium",
+        "Iron"
+      ],
+      "correct": "D",
+      "explanation": "Iron does not readily form amalgams (mercury alloys), unlike metals such as zinc, copper, and magnesium, which can combine with mercury to form amalgams.",
+      "year": 1998
+    },
+    {
+      "question": "Consider the following statements about acetylene:\nI. It is used in welding industry.\nII. It is raw material for preparing plastics.\nIII. It is easily obtained by mixing silicon carbide and water. Of these statements:",
+      "options": [
+        "I and II are correct",
+        "I and III are correct",
+        "II and III are correct",
+        "I, II and III are correct"
+      ],
+      "correct": "A",
+      "explanation": "Acetylene is indeed widely used in oxy-acetylene welding (statement I true) and serves as a raw material for various plastics and chemical synthesis (statement II true); however it is typically produced by reacting calcium carbide, not silicon carbide, with water, making statement III false.",
+      "year": 1998
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists: List I\nI. Blue vitriol\nII. Epsom salt\nIII. Baking soda\nIV. Caustic soda List II A) Sodium bicarbonate            B) Sodium hydroxide              C) Magnesium sulphate       D) Copper sulphate",
+      "options": [
+        "I-C, II-D, III-B, IV-A",
+        "I-D, II-C, III-A, IV-B",
+        "I-C, II-D, III-A, IV-B",
+        "I-D, II-A, III-B, IV-A"
+      ],
+      "correct": "B",
+      "explanation": "Blue vitriol refers to copper sulphate, Epsom salt is magnesium sulphate, baking soda is sodium bicarbonate, and caustic soda is sodium hydroxide, matching I-D, II-C, III-A, IV-B.",
+      "year": 1998
+    },
+    {
+      "question": "Assertion (A): Formic acid is a stronger acid than acetic acid. Reason (R): Formic acid is an organic acid.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "B",
+      "explanation": "Formic acid is indeed a stronger acid than acetic acid due to its molecular structure lacking an electron-donating alkyl group, but simply being an organic acid does not, on its own, explain why it is stronger than another organic acid like acetic acid, so the reason does not correctly explain the assertion even though both statements are independently true.",
+      "year": 1998
+    },
+    {
+      "question": "Assertion (A): Phenyl is used as a household germicide. Reason (R): Phenyl is a phenol derivative and phenol is an effective germicide.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Phenyl (a common household disinfectant) is indeed derived from phenol, and phenol itself has well-documented antiseptic and germicidal properties, correctly explaining why phenyl functions effectively as a germicide.",
+      "year": 1998
+    },
+    {
+      "question": "Assertion (A): Sodium metal is stored under kerosene. Reason (R): Metallic sodium melts when exposed to air.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Sodium metal is stored under kerosene to protect it from reacting with moisture and oxygen in the air, but the specific claim that sodium 'melts' upon exposure to air (rather than reacting chemically, often igniting or corroding) is not the accurate reason, making the reason statement false even though the practice described in the assertion is correct.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following was used as a chemical weapon in the First World War?",
+      "options": [
+        "Carbon monoxide",
+        "Hydrogen cyanide",
+        "Mustard gas",
+        "Water gas"
+      ],
+      "correct": "C",
+      "explanation": "Mustard gas was a notorious chemical warfare agent used during World War I, causing severe blistering and injury.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following is present in the largest amount in terms of per cent by mass in the earth’s crust?",
+      "options": [
+        "Silicon",
+        "Oxygen",
+        "Carbon",
+        "Calcium"
+      ],
+      "correct": "B",
+      "explanation": "Oxygen is the most abundant element in the Earth's crust by mass, mostly bound up in silicate and oxide minerals.",
+      "year": 1997
+    },
+    {
+      "question": "The characteristic odour of garlic is due to",
+      "options": [
+        "a chloro compound",
+        "a sulphur compound",
+        "a fluorine compound",
+        "acetic acid"
+      ],
+      "correct": "B",
+      "explanation": "Garlic's pungent characteristic smell comes from sulphur-containing compounds, particularly allicin, released when garlic is crushed or cut.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following is an active component of oil of clove?",
+      "options": [
+        "Menthol",
+        "Eugenol",
+        "Methanol",
+        "Benzaldehyde"
+      ],
+      "correct": "B",
+      "explanation": "Eugenol is the primary active aromatic compound responsible for the characteristic flavour and scent of clove oil.",
+      "year": 1997
+    },
+    {
+      "question": "The most reactive among the halogens is",
+      "options": [
+        "fluorine",
+        "chlorine",
+        "bromine",
+        "iodine"
+      ],
+      "correct": "A",
+      "explanation": "Fluorine, at the top of the halogen group, is the most reactive of all the halogens due to its small atomic size and strong tendency to gain an electron.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following is paramagnetic in nature?",
+      "options": [
+        "Iron",
+        "Hydrogen",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correct": "C",
+      "explanation": "Oxygen is paramagnetic due to the presence of unpaired electrons in its molecular orbital structure, unlike hydrogen and nitrogen, which are diamagnetic in their common molecular forms.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following is used as an anti-freeze for the automobile engines?",
+      "options": [
+        "Propyl alcohol",
+        "Ethanol",
+        "Methanol",
+        "Ethylene glycol"
+      ],
+      "correct": "D",
+      "explanation": "Ethylene glycol is commonly used as an anti-freeze additive in automobile engine coolant systems because it lowers the freezing point of water effectively.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following is a mixed fertilizer?",
+      "options": [
+        "CAM",
+        "Urea",
+        "Ammonium Sulphate",
+        "NPK"
+      ],
+      "correct": "D",
+      "explanation": "NPK fertiliser, which combines nitrogen, phosphorus, and potassium, is a classic example of a mixed (compound) fertiliser, unlike single-nutrient fertilisers such as urea or ammonium sulphate.",
+      "year": 1995
+    },
+    {
+      "question": "The chemical used as a ‘fixer’ in photography is",
+      "options": [
+        "sodium sulphate",
+        "sodium thiosulphate",
+        "ammonium persulphate",
+        "borax"
+      ],
+      "correct": "B",
+      "explanation": "Sodium thiosulphate is used as the 'fixer' chemical in traditional photographic film processing, dissolving unexposed silver halides to stabilise the developed image.",
+      "year": 1995
+    }
+  ]
+}
