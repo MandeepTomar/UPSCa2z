@@ -1,0 +1,2301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="theme-color" content="#1a1208"/>
+
+<title>Computer, IT & Artificial Intelligence UPSC PYQ — Computing, Internet & AI | UPSC A2Z</title>
+<meta name="description" content="Computing fundamentals, the internet, and AI/machine learning/quantum computing from UPSC Prelims — 50 questions, 1995-2025, with answers & explanations."/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://upsca2z.com/PYQ/science/computer-technology.html"/>
+<link rel="alternate" hreflang="en-in" href="https://upsca2z.com/PYQ/science/computer-technology.html"/>
+<link rel="alternate" hreflang="x-default" href="https://upsca2z.com/PYQ/science/computer-technology.html"/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Computer, IT & Artificial Intelligence UPSC PYQ — Computing, Internet & AI | UPSC A2Z"/>
+<meta property="og:description" content="Computing fundamentals, the internet, and AI/machine learning/quantum computing from UPSC Prelims — 50 questions, 1995-2025, with answers & explanations."/>
+<meta property="og:url" content="https://upsca2z.com/PYQ/science/computer-technology.html"/>
+<meta property="og:site_name" content="UPSC A2Z"/>
+<meta property="og:locale" content="en_IN"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Computer, IT & Artificial Intelligence UPSC PYQ — Computing, Internet & AI | UPSC A2Z"/>
+<meta name="twitter:description" content="Computing fundamentals, the internet, and AI/machine learning/quantum computing from UPSC Prelims — 50 questions, 1995-2025, with answers & explanations."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "UPSC A2Z", "item": "https://upsca2z.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Science & Technology", "item": "https://upsca2z.com/topics/science-technology-upsc.html" },
+        { "@type": "ListItem", "position": 3, "name": "PYQs 1995–2025", "item": "https://upsca2z.com/PYQ/science-technology-upsc-pyq.html" },
+        { "@type": "ListItem", "position": 4, "name": "Computer, IT & Artificial Intelligence" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://upsca2z.com/PYQ/science/computer-technology.html",
+      "name": "Computer, IT & Artificial Intelligence UPSC PYQ — Computing, Internet & AI",
+      "description": "Computing fundamentals, the internet, and AI/machine learning/quantum computing from UPSC Prelims — 50 questions, 1995-2025, with answers & explanations.",
+      "url": "https://upsca2z.com/PYQ/science/computer-technology.html",
+      "inLanguage": "en-IN",
+      "isPartOf": { "@type": "WebSite", "name": "UPSC A2Z", "url": "https://upsca2z.com/" },
+      "dateModified": "2026-07-10"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+
+<style>
+:root {
+  --bg: #f8f5ee; --bg2: #f2ede0; --bg3: #e9e1d0;
+  --surf: #ffffff; --bdr: #e0d9cb; --bdr2: #cec5b0;
+  --txt: #18150f; --txt2: #46413a; --txt3: #796f62;
+  --acc: #c0392b; --acc2: #a93226; --acc-light: rgba(192,57,43,0.08);
+  --blue: #16407a; --blue2: #0f2f5c; --blue-light: rgba(22,64,122,0.08); --blue-mid: rgba(22,64,122,0.16);
+  --green: #15803d; --green-light: rgba(21,128,61,0.08);
+  --red-wrong: #b91c1c; --red-wrong-light: rgba(185,28,28,0.08);
+  --serif: 'Bricolage Grotesque', sans-serif; --sans: 'IBM Plex Sans', sans-serif; --mono: 'IBM Plex Mono', monospace;
+  --r-sm: 6px; --r-md: 10px; --r-lg: 16px;
+  --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
+  --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
+  --sh-lg: 0 16px 40px rgba(24,21,15,.1);
+  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --content-w: 860px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { font-family: var(--sans); background: var(--bg); color: var(--txt); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+.container { max-width: var(--content-w); margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+
+.site-header { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; justify-content: space-between; height: var(--header-h); padding: 0 16px; background: #1a1208; border-bottom: 2px solid var(--acc); }
+.logo { display: flex; align-items: center; gap: 6px; font-family: var(--serif); font-weight: 800; font-size: 1.1rem; color: #f4ede0; }
+.logo-icon { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 7px; background: linear-gradient(135deg, var(--acc), var(--acc2)); font-size: 0.85rem; }
+.logo span { color: var(--acc); }
+.header-cta { padding: 7px 14px; background: var(--blue); color: #fff; border-radius: var(--r-sm); font-size: 0.78rem; font-weight: 600; white-space: nowrap; transition: background 0.15s var(--ease); }
+.header-cta:hover { background: var(--blue2); }
+
+.breadcrumb-wrap { background: #2a1e0c; }
+.breadcrumb { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; font-size: 0.72rem; color: var(--txt3); }
+.breadcrumb a { color: rgba(244,237,224,0.68); transition: color 0.15s var(--ease); }
+.breadcrumb a:hover { color: #fff; }
+.breadcrumb .sep { color: rgba(244,237,224,0.22); }
+.breadcrumb .current { color: rgba(244,237,224,0.92); font-weight: 500; }
+
+.progress-shell { position: sticky; top: var(--header-h); z-index: 30; background: var(--bg); border-bottom: 1px solid var(--bdr); }
+.progress-wrap { padding-top: 10px; padding-bottom: 10px; }
+.progress-bar-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; margin-top: 7px; }
+.progress-bar-fill { height: 100%; width: 0%; background: var(--green); transition: width 0.3s var(--ease); border-radius: 20px; }
+.progress-label { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); display: flex; justify-content: space-between; align-items: center; }
+.reset-btn { font-family: var(--sans); font-size: 0.72rem; font-weight: 500; color: var(--txt3); background: none; border: none; cursor: pointer; transition: color 0.15s var(--ease); }
+.reset-btn:hover { color: var(--blue); text-decoration: underline; }
+
+.page-hero { padding-top: 28px; padding-bottom: 22px; }
+.page-eyebrow { font-family: var(--mono); font-size: 0.64rem; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; color: var(--blue); margin-bottom: 12px; }
+h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw, 2.15rem); line-height: 1.18; color: var(--txt); margin-bottom: 12px; letter-spacing: -0.01em; }
+.page-desc { font-size: 0.92rem; color: var(--txt2); line-height: 1.65; margin-bottom: 16px; max-width: 62ch; }
+.hero-stats-row { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
+.hero-stat { font-family: var(--mono); font-size: 0.78rem; color: var(--txt3); }
+.hero-stat strong { font-family: var(--serif); font-weight: 800; color: var(--txt); font-size: 0.95rem; }
+.hero-stat-sep { color: var(--bdr2); }
+.includes-block { border-top: 1px solid var(--bdr); padding-top: 16px; }
+.includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
+.includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+
+.test-cta-wrap { margin-top: 20px; }
+.test-cta { display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 20px; min-height: 44px; background: var(--blue); color: #fff; border-radius: var(--r-md); box-shadow: var(--sh-sm); transition: background 0.15s var(--ease), transform 0.1s var(--ease); }
+.test-cta-content { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; }
+.test-cta-arrow { font-size: 1.15rem; line-height: 1; flex-shrink: 0; transition: transform 0.15s var(--ease); }
+.test-cta:hover .test-cta-arrow, .test-cta:focus-visible .test-cta-arrow { transform: translateX(4px); }
+.test-cta:hover { background: var(--blue2); }
+.test-cta:active { transform: scale(0.99); }
+.test-cta-text { font-family: var(--serif); font-weight: 700; font-size: 1rem; }
+.test-cta-sub { font-size: 0.74rem; color: rgba(255,255,255,0.75); }
+.test-cta-light { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--blue); min-height: 44px; }
+.test-cta-light:hover { color: var(--blue2); text-decoration: underline; }
+
+.q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card:hover { box-shadow: var(--sh-md); }
+.q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
+.q-yr { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 4px 10px; border-radius: 20px; }
+.q-text { font-size: 0.98rem; color: var(--txt); line-height: 1.65; margin-bottom: 18px; white-space: pre-line; font-weight: 450; }
+.q-opts { list-style: none; display: flex; flex-direction: column; gap: 9px; margin-bottom: 16px; }
+.q-opt { display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px; min-height: 46px; border: 1.5px solid var(--bdr); border-radius: var(--r-md); font-size: 0.88rem; color: var(--txt2); cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), transform 0.1s var(--ease); }
+.q-opt:hover { border-color: var(--blue-mid); background: var(--blue-light); }
+.q-opt:active { transform: scale(0.995); }
+.q-opt-letter { font-family: var(--mono); font-weight: 700; font-size: 0.76rem; color: var(--txt3); flex-shrink: 0; width: 18px; margin-top: 1px; }
+.q-opt.is-selected.is-correct { border-color: var(--green); background: var(--green-light); }
+.q-opt.is-selected.is-correct .q-opt-letter { color: var(--green); }
+.q-opt.is-selected.is-wrong { border-color: var(--red-wrong); background: var(--red-wrong-light); }
+.q-opt.is-selected.is-wrong .q-opt-letter { color: var(--red-wrong); }
+.q-opt.is-revealed-correct { border-color: var(--green); background: var(--green-light); }
+.is-answered .q-opt { cursor: default; }
+.is-answered .q-opt:not(.is-selected):not(.is-revealed-correct) { opacity: 0.55; }
+
+.q-answer { border-top: 1px dashed var(--bdr); padding-top: 14px; }
+.q-answer summary { font-size: 0.84rem; font-weight: 600; color: var(--blue); cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 4px; }
+.q-answer summary::-webkit-details-marker { display: none; }
+.q-answer summary::before { content: '+'; font-size: 1rem; line-height: 1; }
+.q-answer[open] summary::before { content: '–'; }
+.q-answer[open] summary { margin-bottom: 14px; }
+.q-answer-body { animation: fadeIn 0.2s var(--ease); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.q-correct { display: flex; align-items: flex-start; gap: 8px; font-size: 0.88rem; color: var(--txt); background: var(--green-light); border-radius: var(--r-sm); padding: 10px 12px; margin-bottom: 14px; }
+.q-correct-check { color: var(--green); font-weight: 700; flex-shrink: 0; }
+.q-exp-block { padding-left: 2px; }
+.q-exp-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 6px; }
+.q-exp { font-size: 0.87rem; color: var(--txt2); line-height: 1.65; }
+
+.bottom-nav { padding-top: 8px; padding-bottom: 40px; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--blue); margin-bottom: 24px; min-height: 44px; }
+.continue-hd { font-family: var(--serif); font-weight: 700; font-size: 1.05rem; color: var(--txt); margin-bottom: 14px; }
+.continue-grid { display: flex; flex-direction: column; gap: 8px; }
+.continue-link { display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; min-height: 48px; border: 1px solid var(--bdr); border-radius: var(--r-md); background: var(--surf); font-size: 0.86rem; font-weight: 500; color: var(--txt2); transition: all 0.15s var(--ease); }
+.continue-link:hover { border-color: var(--blue-mid); color: var(--blue); background: var(--blue-light); }
+.continue-link .arrow { color: var(--txt3); transition: transform 0.15s var(--ease); }
+.continue-link:hover .arrow { transform: translateX(3px); color: var(--blue); }
+.prev-next-row { display: flex; gap: 10px; margin-top: 16px; }
+.prev-next-row .continue-link { flex: 1; }
+
+.completion-banner { display: none; align-items: center; gap: 14px; padding: 18px 20px; margin-bottom: 24px; background: var(--green-light); border: 1px solid rgba(21,128,61,0.25); border-radius: var(--r-lg); }
+.completion-banner.show { display: flex; }
+.completion-icon { font-size: 1.6rem; flex-shrink: 0; }
+.completion-title { font-family: var(--serif); font-weight: 700; font-size: 0.98rem; color: var(--txt); margin-bottom: 3px; }
+.completion-sub { font-size: 0.82rem; color: var(--txt2); }
+
+.site-footer { background: #1a1208; color: rgba(244,237,224,0.6); padding: 28px 16px; text-align: center; }
+.footer-logo { font-family: var(--serif); font-weight: 800; font-size: 1rem; color: #f4ede0; margin-bottom: 12px; }
+.footer-logo span { color: rgba(244,237,224,0.85); }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-bottom: 14px; font-size: 0.8rem; }
+.footer-links a:hover { color: rgba(244,237,224,0.95); }
+.footer-copy { font-size: 0.72rem; color: rgba(255,255,255,0.3); }
+
+#scrollTop { position: fixed; bottom: 20px; right: 16px; z-index: 50; width: 42px; height: 42px; border-radius: 50%; background: var(--blue); color: #fff; border: none; font-size: 1.1rem; box-shadow: var(--sh-md); opacity: 0; pointer-events: none; transition: opacity 0.2s var(--ease); }
+#scrollTop.show { opacity: 1; pointer-events: auto; }
+
+@media (min-width: 640px) {
+  .container { padding-left: 32px; padding-right: 32px; }
+  .q-card { padding: 26px 28px 24px; }
+  .prev-next-row { flex-wrap: nowrap; }
+}
+@media (min-width: 900px) {
+  :root { --content-w: 940px; }
+  h1 { font-size: 2.15rem; }
+  .q-text { font-size: 1.02rem; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <a class="logo" href="../../index.html" aria-label="UPSC A2Z Home">
+    <span class="logo-icon" aria-hidden="true">📋</span>
+    UPSC <span>A2Z</span>
+  </a>
+  <a class="header-cta" href="../../tracker.html">Open Tracker →</a>
+</header>
+
+<div class="breadcrumb-wrap">
+  <nav class="breadcrumb container" aria-label="Breadcrumb">
+    <a href="../../index.html">Home</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <a href="../../topics/science-technology-upsc.html">Science &amp; Technology</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <a href="../science-technology-upsc-pyq.html">PYQs 1995–2025</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <span class="current">Computer, IT & Artificial Intelligence</span>
+  </nav>
+</div>
+
+<div class="progress-shell">
+  <div class="progress-wrap container">
+    <div class="progress-label">
+      <span id="progressText">0 of 50 attempted</span>
+      <button class="reset-btn" id="resetProgress" type="button">Reset progress</button>
+    </div>
+    <div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
+  </div>
+</div>
+
+<section class="page-hero container">
+  <p class="page-eyebrow">UPSC Prelims · Science &amp; Technology PYQ</p>
+  <h1>Computer, IT & Artificial Intelligence UPSC PYQ — Computing, Internet & AI</h1>
+  <p class="page-desc">Computing fundamentals, the internet, and the fast-growing cluster of AI, machine learning, and quantum computing questions — the fastest-growing niche in recent papers.</p>
+  <div class="hero-stats-row">
+    <span class="hero-stat"><strong>50</strong> Questions</span>
+    <span class="hero-stat-sep">·</span>
+    <span class="hero-stat"><strong>1995–2025</strong></span>
+  </div>
+  <div class="includes-block">
+    <p class="includes-label">Includes</p>
+    <div class="includes-chips">
+            <span class="includes-chip">Computing Basics</span>
+            <span class="includes-chip">Internet &amp; Networking</span>
+            <span class="includes-chip">Artificial Intelligence</span>
+            <span class="includes-chip">Blockchain &amp; Crypto</span>
+            <span class="includes-chip">Cybersecurity</span>
+            <span class="includes-chip">Digital India</span>
+    </div>
+  </div>
+  <div class="test-cta-wrap">
+  <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=science/computer-technology">
+    <span class="test-cta-content">
+      <span class="test-cta-text">Take as Test</span>
+      <span class="test-cta-sub">Timed, negative marking, year-wise scoring</span>
+    </span>
+    <span class="test-cta-arrow" aria-hidden="true">&rarr;</span>
+  </a>
+  </div>
+</section>
+
+<div class="completion-banner container" id="completionBanner">
+  <span class="completion-icon" aria-hidden="true">🎉</span>
+  <div>
+    <p class="completion-title">All 50 Computer, IT & Artificial Intelligence questions attempted!</p>
+    <p class="completion-sub">Great work — continue to Energy & Nuclear Technologies next, or reset to drill this set again.</p>
+  </div>
+</div>
+
+<ol class="q-list container" id="qList">
+  <li class="q-card" id="q1">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2025</span>
+    </div>
+    <p class="q-text">Consider the following statements:
+I. It is expected that Majorana 1 chip will enable quantum computing.
+II. Majorana 1 chip has been introduced by Amazon Web Services (AWS).
+III. Deep learning is a subset of machine learning.
+Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I and II only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I and II only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: II and III only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">II and III only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: I and III only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">I and III only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: I, II and III">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">I, II and III</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. I and III only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Majorana 1 chip, unveiled as a step toward practical quantum computing, was introduced by Microsoft, not Amazon Web Services, making statement II false; deep learning, using multi-layered neural networks, is indeed a specialised subset of the broader field of machine learning, making statement III true.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q2">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2024</span>
+    </div>
+    <p class="q-text">Which one of the following words/phrases is most appropriately used to denote "an interoperable network of 3D virtual worlds that can be accessed simultaneously by millions of users, who can exert property rights over virtual items"?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Big data analytics">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Big data analytics</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Cryptography">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Cryptography</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Metaverse">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Metaverse</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Virtual matrix">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Virtual matrix</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Metaverse</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The metaverse refers to an interconnected network of persistent 3D virtual worlds where large numbers of users can interact simultaneously and own virtual property or items.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q3">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">Consider the following:
+1. Aarogya Setu
+2. CoWIN
+3. DigiLocker
+4. DIKSHA
+Which of the above are built on top of open-source digital platforms?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2, 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 3 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2, 3 and 4</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Aarogya Setu, CoWIN, DigiLocker, and DIKSHA are all built as part of India's open-source Digital Public Infrastructure ecosystem, allowing interoperability and reuse across government digital services.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q4">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">With reference to Web 3.0, consider the following statements:
+1. Web 3.0 technology enables people to control their own data.
+2. In Web 3.0 world, there can be blockchain-based social networks.
+3. Web 3.0 is operated by users collectively rather than a corporation.
+Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Web 3.0 aims to give users greater control over their own data, supports decentralised blockchain-based applications including social networks, and is designed to be operated collectively by its user community rather than controlled by a single corporation.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q5">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">Which one of the following is the context in which the term "qubit" is mentioned?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Cloud Services">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Cloud Services</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Quantum Computing">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Quantum Computing</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Visible Light Communication Technologies">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Visible Light Communication Technologies</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Wireless Communication Technologies">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Wireless Communication Technologies</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Quantum Computing</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A 'qubit' (quantum bit) is the basic unit of information in quantum computing, analogous to a classical bit but capable of existing in superposition states.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q6">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">Consider the following communication technologies:
+1. Closed-circuit Television
+2. Radio Frequency Identification
+3. Wireless Local Area Network
+Which of the above are considered Short-Range devices/technologies?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Closed-circuit television, RFID, and wireless local area networks are all generally classified as short-range communication technologies, operating over limited distances compared to wide-area wireless systems.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q7">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">With reference to Non-Fungible Tokens (NFTs), consider the following statements:
+1. They enable the digital representation of physical assets.
+2. They are unique cryptographic tokens that exist on a blockchain.
+3. They can be traded or exchanged at equivalency and therefore can be used as a medium of commercial transactions.
+Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 and 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">NFTs are indeed unique cryptographic tokens on a blockchain that can represent ownership of physical or digital assets (statements 1 and 2 true); however, being non-fungible means each token is unique and not interchangeable at equal value, so they are not suited as a medium of standard commercial exchange the way fungible currency is, making statement 3 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q8">
+    <div class="q-head">
+      <span class="q-num">8</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">With the present state of development, Artificial Intelligence can effectively do which of the following?
+1. Bring down electricity consumption in industrial units
+2. Create meaningful short stories and songs
+3. Disease diagnosis
+4. Text-to-Speech Conversion
+5. Wireless transmission of electrical energy
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2, 3 and 5 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2, 3 and 5 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1, 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2, 4 and 5 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2, 4 and 5 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3, 4 and 5">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3, 4 and 5</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1, 3 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Current AI technology is well-suited to disease diagnosis through pattern recognition in medical data and text-to-speech conversion, but it does not directly reduce industrial electricity consumption or enable wireless transmission of electrical energy, which are unrelated engineering domains, and while AI can generate short pieces of text or music, doing so 'meaningfully' in the way genuinely creative work requires remains a stretch beyond its established, reliable capabilities per the accepted answer.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q9">
+    <div class="q-head">
+      <span class="q-num">9</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">With reference to Visible Light Communication (VLC) technology, which of the following statements are correct?
+1. VLC uses electromagnetic spectrum wavelengths 375 to 780 nm.
+2. VLC is known as long-range optical wireless communication.
+3. VLC can transmit large amounts of data faster than Bluetooth.
+4. VLC has no electromagnetic interference.
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1, 2 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1, 2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 3 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2, 3 and 4 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">2, 3 and 4 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 3 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">VLC does use visible light wavelengths in roughly the 375-780 nm range (statement 1 true) and can achieve fast data transfer rates exceeding some traditional wireless methods (statement 3 true) with minimal electromagnetic interference since it doesn't rely on radio frequencies (statement 4 true); however VLC is inherently short-range (limited by line of sight and light propagation), not long-range, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q10">
+    <div class="q-head">
+      <span class="q-num">10</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">With reference to "Blockchain Technology", consider the following statements :
+1. It is a public ledger that everyone can inspect, but which no single user controls.
+2. The structure and design of blockchain is such that all the data in it are about cryptocurrency only.
+3. Applications that depend on basic features of blockchain can be developed without anybody's permission.
+Which of the statements given above is/are correct ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1 and 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1 and 3 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Blockchain functions as a public ledger that anyone can inspect without any single controlling authority (statement 1 true), and open blockchain platforms allow developers to build applications on top of their basic features without needing special permission (statement 3 true); however blockchain technology is a general-purpose ledger structure not limited to cryptocurrency data alone, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q11">
+    <div class="q-head">
+      <span class="q-num">11</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">In India, the term 'Public Key Infrastructure' is used in the context of</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Digital security infrastructure">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Digital security infrastructure</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Food security infrastructure">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Food security infrastructure</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Health care and educational infrastructure">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Health care and educational infrastructure</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Telecommunication and transportation infrastructure">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Telecommunication and transportation infrastructure</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Digital security infrastructure</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Public Key Infrastructure (PKI) in India refers to the cryptographic framework used to secure digital communications and verify identities, forming part of the country's digital security infrastructure.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q12">
+    <div class="q-head">
+      <span class="q-num">12</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">In India, under cyber insurance for individuals, which of the following benefits are generally covered, in addition to payment for the loss of funds and other benefits?
+1. Cost of restoration of the computer system in case of malware disrupting access to one's computer
+2. Cost of a new computer if some miscreant wilfully damages it, if proved so
+3. Cost of hiring a specialized consultant to minimize the loss in case of cyber extortion
+4. Cost of defence in the Court of Law if any third party files a suit
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 4 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1, 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1, 3 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Cyber insurance policies for individuals in India typically cover the cost of restoring a computer system after malware disruption, hiring specialists to manage cyber extortion situations, and covering legal defence costs if a third party files a suit, though intentional physical damage by a person is generally treated separately from a cyber-risk policy.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q13">
+    <div class="q-head">
+      <span class="q-num">13</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">With reference to communication technologies, what is/are the difference/differences between LTE (Long-Term Evolution) and VoLTE (Voice over Long-Term Evolution)?
+1. LTE is commonly marketed as 3G and VoLTE is commonly marketed as advanced 3G.
+2. LTE is data-only technology and VoLTE is voice-only technology.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">LTE is actually marketed as 4G (not 3G), making statement 1 false, and VoLTE specifically enables voice calls to run over the same LTE data network rather than being a purely 'voice-only' separate technology, making statement 2 also inaccurate.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q14">
+    <div class="q-head">
+      <span class="q-num">14</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">Which of the following adopted a law on data protection and privacy for its citizens known as ‘General Data Protection Regulation’ in April 2016 and started implementation of it from 25th May, 2018?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Australia">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Australia</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Canada">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Canada</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: The European Union">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The European Union</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: The United States of America">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">The United States of America</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. The European Union</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The European Union adopted the General Data Protection Regulation (GDPR) in April 2016, and it came into full effect on 25th May 2018, setting a global benchmark for data privacy law.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q15">
+    <div class="q-head">
+      <span class="q-num">15</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">In the context of digital technologies for entertainment, consider the following statements:
+1. In Augmented Reality (AR), a simulated environment is created and the physical world is completely shut out.
+2. In Virtual Reality (VR), images generated from a computer are projected onto real-life objects or surroundings.
+3. AR allows individuals to be present in the world and improves the experience using the camera of smart-phone or PC.
+4. VR closes the world, and transposes an individual, providing complete immersion experience.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 3 and 4">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 4 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">4 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 3 and 4</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Augmented Reality actually overlays digital content onto the real world rather than shutting it out (making statement 1, which describes AR as fully simulated, false, since that description fits VR instead), and Virtual Reality does immerse users in a fully computer-generated environment rather than projecting onto real surroundings (making statement 2 also inaccurately swapped); however statements 3 and 4, describing AR as enhancing real-world presence via a camera and VR as providing full immersion, correctly capture the actual distinction between the two technologies.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q16">
+    <div class="q-head">
+      <span class="q-num">16</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">Consider the following statements. A digital signature is
+1. An electronic record that identifies the certifying authority issuing it
+2. Used to serve as a proof of identity of an individual to access information or server on Internet
+3. An electronic method of signing an electronic document and ensuring that the original content is unchanged
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A digital signature primarily functions as an electronic method of signing a document that verifies the signer's identity and confirms the content has not been altered, making the description in statement 3 the accurate core definition, though it does relate to certifying authorities and identity verification as broader context.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q17">
+    <div class="q-head">
+      <span class="q-num">17</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">In the context of wearable technology, which of the following tasks is/are accomplished by wearable devices?
+1. Location identification of a person
+2. Sleep monitoring of a person
+3. Assisting the hearing impaired person
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Wearable devices are commonly used to track a person's location, monitor sleep patterns, and assist those with hearing impairments through specialised technology, making all three listed applications valid.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q18">
+    <div class="q-head">
+      <span class="q-num">18</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">The identity platform 'Aadhaar' provides open 'Application Programming Interfaces (APIs)'. What does it imply?
+1. It can be integrated into any electronic device.
+2. Online authentication using iris is possible.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Aadhaar's open APIs do allow integration across a wide range of electronic devices and services (statement 1 true), and they do support iris-based biometric authentication online (statement 2 true).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q19">
+    <div class="q-head">
+      <span class="q-num">19</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">With reference to digital payments, consider the following statements:
+1. BHIM app allows the user to transfer money to anyone with a UPI-enabled bank account.
+2. While a chip-PIN debit card has four factors of authentication, BHIM app has only two factors of authentication.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The BHIM app does allow money transfers to any UPI-enabled bank account (statement 1 true), but the specific authentication-factor comparison claiming a fixed count difference between chip-PIN cards and the BHIM app is not accurately represented, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q20">
+    <div class="q-head">
+      <span class="q-num">20</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">The terms 'WannaCry, Petya and EternalBlue' sometimes mentioned in the news recently are related to</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Exoplanets">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Exoplanets</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Cryptocurrency">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Cryptocurrency</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Cyber attacks">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Cyber attacks</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Mini satellites">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Mini satellites</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Cyber attacks</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">WannaCry, Petya, and EternalBlue are all associated with major global ransomware and cyberattack incidents that exploited vulnerabilities in computer systems.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q21">
+    <div class="q-head">
+      <span class="q-num">21</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">Consider the following pairs: Terms sometimes seen in news - Context/Topic
+1. Belle II - Artificial Intelligence experiment
+2. Blockchain - Digital/Cryptocurrency technology
+3. CRISPR - Cas9 - Particle Physics
+Which of the pairs given above is/are correctly matched?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Belle II is actually a particle physics experiment (not AI), and CRISPR-Cas9 is a gene-editing tool (not particle physics), making both of those pairings incorrect, while blockchain being linked to digital/cryptocurrency technology is accurately matched.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q22">
+    <div class="q-head">
+      <span class="q-num">22</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">When the alarm of your smartphone rings in the morning, you wake up and tap it to stop the alarm on which your geyser to be switched on automatically. The smart mirror in your bathroom shows the day's weather and also indicates the level of water in your overhead tank. After you take some groceries from your refrigerator for making breakfast, it recognizes the shortage of stock in it and places an order for the supply of fresh grocery items. When you step out of your house and lock the door, all lights, fans, geysers and AC machines get switched off automatically. On your way to office, your car warns you about traffic congestion ahead and suggests an alternative route, and if you are late for a meeting, it sends a message to your office accordingly. In the context of emerging communication technologies, which one of the following terms best applies to the above scenario?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Border Gateway Protocol">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Border Gateway Protocol</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Internet of Things">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Internet of Things</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Internet Protocol">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Internet Protocol</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Virtual Private Network">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Virtual Private Network</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Internet of Things</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The described scenario, where everyday household devices and systems communicate and act autonomously based on sensor data, precisely illustrates the concept of the Internet of Things (IoT).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q23">
+    <div class="q-head">
+      <span class="q-num">23</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">Organic Light Emitting Diodes (OLEDs) are used to create digital display in many devices. What are the advantages of OLED displays over Liquid Crystal displays?
+1. OLED displays can be fabricated on flexible plastic substrates.
+2. Roll-up displays embedded in clothing can be made using OLEDs.
+3. Transparent displays are possible using OLEDs.
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None of the above statements is correct">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None of the above statements is correct</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">OLED displays can indeed be fabricated on flexible plastic substrates, enabling bendable roll-up displays that could be embedded in clothing, and they can also be made transparent, all advantages not shared by traditional rigid LCD technology; however the accepted key for this UPSC question selects only the roll-up/embedded clothing application as correct among the given combinations.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q24">
+    <div class="q-head">
+      <span class="q-num">24</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">In India, it is legally mandatory for which of the following to report on cyber security incidents?
+1. Service providers
+2. Data centres
+3. Body corporate
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1 and 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under India's cyber security regulations, service providers, data centres, and body corporates are all legally required to report cyber security incidents to the relevant authorities.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q25">
+    <div class="q-head">
+      <span class="q-num">25</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">With reference to ‘LiFi’, recently in the news, which of the following statements is/are correct?
+1. It uses light as the medium for high-speed data transmission.
+2. It is a wireless technology and is several times faster than WiFi.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">LiFi uses visible light as its data transmission medium (statement 1 true) and, under suitable conditions, offers potentially much faster wireless data speeds than conventional WiFi (statement 2 true).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q26">
+    <div class="q-head">
+      <span class="q-num">26</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">'Project Loon', sometimes seen in the news, is related to</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: waste management technology">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">waste management technology</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: wireless communication technology">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">wireless communication technology</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: solar power production technology">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">solar power production technology</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: water conservation technology">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">water conservation technology</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. wireless communication technology</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Project Loon was a Google initiative that used high-altitude balloons to provide wireless internet connectivity to remote areas, making it a wireless communication technology project.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q27">
+    <div class="q-head">
+      <span class="q-num">27</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">'SWAYAM', an initiative of the Government of India, aims at</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: promoting the Self Help Groups in rural areas">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">promoting the Self Help Groups in rural areas</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: providing financial and technical assistance to young start-up entrepreneurs">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">providing financial and technical assistance to young start-up entrepreneurs</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: promoting the education and health of adolescent girls">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">promoting the education and health of adolescent girls</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: providing affordable and quality education to the citizens for free">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">providing affordable and quality education to the citizens for free</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. providing affordable and quality education to the citizens for free</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">SWAYAM is a Government of India initiative that provides free online courses to make quality education accessible to all citizens.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q28">
+    <div class="q-head">
+      <span class="q-num">28</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">With reference to 'Bitcoins', sometimes seen in the news, which of the following statements is/are correct?
+1. Bitcoins are tracked by the Central Banks of the countries.
+2. Anyone with a Bitcoin address can send and receive Bitcoins from anyone else with a Bitcoin address.
+3. Online payments can be sent without either side knowing the identity of the other.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Bitcoin transactions are not tracked or controlled by central banks, making statement 1 false; anyone with a Bitcoin address can indeed freely send and receive Bitcoins with any other address holder (statement 2 true), and Bitcoin transactions can be conducted with a significant degree of anonymity, without either party necessarily knowing the other's real-world identity (statement 3 true).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q29">
+    <div class="q-head">
+      <span class="q-num">29</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">Regarding ‘DigiLocker’, sometimes seen in the news, which of the following statements is/are correct?
+1. It is a digital locker system offered by the Government under Digital India Programme.
+2. It allows you to access your e-documents irrespective of your physical location.
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">DigiLocker is indeed a digital document storage system launched under India's Digital India programme (statement 1 true), and it allows users to access their stored e-documents from any location with internet access (statement 2 true).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q30">
+    <div class="q-head">
+      <span class="q-num">30</span>
+      <span class="q-yr">2015</span>
+    </div>
+    <p class="q-text">With reference to ‘Near Field Communication (NFC) Technology’, which of the following statements is/are correct?
+1. It is a contactless communication technology that uses electromagnetic radio fields.
+2. NFC is designed for use by devices which can be at a distance of even a metre from each other.
+3. NFC can use encryption when sending sensitive information.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">NFC is a contactless technology using electromagnetic radio fields for short-range data exchange (statement 1 true) and it does support encryption to protect sensitive data during transmission (statement 3 true); however NFC is designed for very close-range communication, typically within a few centimetres, not distances as large as a metre, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q31">
+    <div class="q-head">
+      <span class="q-num">31</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">In addition to fingerprint scanning, which of the following can be used in the biometric identification of a person?
+1. Iris scanning
+2. Retinal scanning
+3. Voice recognition
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Beyond fingerprint scanning, biometric identification can also rely on iris scanning, retinal scanning, and voice recognition, all of which capture unique physiological or behavioural traits.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q32">
+    <div class="q-head">
+      <span class="q-num">32</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">What is the difference between Bluetooth and Wi-Fi devices ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Bluetooth uses 2.4 GHz radio frequency band, whereas Wi-Fi can use 2.4 GHz or 5 GHz frequency band">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Bluetooth uses 2.4 GHz radio frequency band, whereas Wi-Fi can use 2.4 GHz or 5 GHz frequency band</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Bluetooth is used for Wireless Local Area Networks (WLAN) only, whereas Wi-Fi is used for Wireless Wide Area Networks (WWAN) only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Bluetooth is used for Wireless Local Area Networks (WLAN) only, whereas Wi-Fi is used for Wireless Wide Area Networks (WWAN) only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: When information is transmitted between two devices using Bluetooth technology, the devices have to be in the line of sight of each other, but when Wi-Fi technology is used the devices need not be in the line of sight of each other">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">When information is transmitted between two devices using Bluetooth technology, the devices have to be in the line of sight of each other, but when Wi-Fi technology is used the devices need not be in the line of sight of each other</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: The statements (a) and (b) given above are correct in this context">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">The statements (a) and (b) given above are correct in this context</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Bluetooth uses 2.4 GHz radio frequency band, whereas Wi-Fi can use 2.4 GHz or 5 GHz frequency band</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Bluetooth operates specifically within the 2.4 GHz radio frequency band, while Wi-Fi is more flexible and can operate in either the 2.4 GHz or 5 GHz bands, making this the key technical distinction between the two.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q33">
+    <div class="q-head">
+      <span class="q-num">33</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">A new optical disc format known as the Blu-ray Disc (BD) is becoming popular. In what way is it different from the traditional DVD?
+1. DVD supports Standard Definition video while BD supports High Definition video.
+2. Compared to a DVD, the BD format has several times more storage capacity.
+3. Thickness of BD is 2.4 mm while that of DVD is 1.2 mm.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Blu-ray discs support High Definition video compared to DVD's Standard Definition (statement 1 true), and Blu-ray offers considerably greater storage capacity than a standard DVD (statement 2 true); however the physical thickness values given for the two disc formats in statement 3 do not match their actual specifications.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q34">
+    <div class="q-head">
+      <span class="q-num">34</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">What is "Virtual Private Network"?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: It is a private computer network of an organization where the remote users can transmit encrypted information through the server of the organization.">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">It is a private computer network of an organization where the remote users can transmit encrypted information through the server of the organization.</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: It is a computer network across a public internet that provides users access to their organization's network while maintaining the security of the information transmitted.">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">It is a computer network across a public internet that provides users access to their organization's network while maintaining the security of the information transmitted.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: It is a computer network in which users can access a shared pool of computing resources through a service provider.">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">It is a computer network in which users can access a shared pool of computing resources through a service provider.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None of the statements (a), (b) and (c) given above is a correct description of Virtual Private Network.">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None of the statements (a), (b) and (c) given above is a correct description of Virtual Private Network.</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. It is a computer network across a public internet that provides users access to their organization's network while maintaining the security of the information transmitted.</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A Virtual Private Network extends a private organisational network securely across a public internet connection, allowing remote users to access internal resources while keeping transmitted data encrypted and secure.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q35">
+    <div class="q-head">
+      <span class="q-num">35</span>
+      <span class="q-yr">2010</span>
+    </div>
+    <p class="q-text">Consider the following :
+1. Bluetooth device
+2. Cordless phone
+3. Microwave oven
+4. Wi-Fi device
+Which of the above can operate between 2.4 and 2.5 GHz range of radio-frequency band ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2, 3 and 4</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Bluetooth devices, cordless phones, microwave ovens, and Wi-Fi devices all commonly operate within the 2.4 to 2.5 GHz radio-frequency band, which is why they can sometimes interfere with one another.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q36">
+    <div class="q-head">
+      <span class="q-num">36</span>
+      <span class="q-yr">2010</span>
+    </div>
+    <p class="q-text">Which among the following do/does not belong/belongs to the GSM family of wireless technologies?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: EDGE">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">EDGE</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: LTE">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">LTE</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: DSL">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">DSL</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Both EDGE and LTE">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Both EDGE and LTE</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. DSL</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">DSL (Digital Subscriber Line) is a wired broadband technology and does not belong to the GSM family of cellular wireless technologies, unlike EDGE and LTE, which are both part of the GSM/cellular technology evolution path.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q37">
+    <div class="q-head">
+      <span class="q-num">37</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">WiMAX is related to which one of the following ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Biotechnology">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Biotechnology</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Space technology">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Space technology</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Missile technology">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Missile technology</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Communication technology">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Communication technology</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Communication technology</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">WiMAX is a wireless broadband communication technology designed to provide long-range high-speed internet access.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q38">
+    <div class="q-head">
+      <span class="q-num">38</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Who among the following is considered as the inventor of the World Wide Web (WWW)?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Edward Kasner">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Edward Kasner</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Bill Gates">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Bill Gates</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Tim Berners-Lee">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Tim Berners-Lee</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Vinod Bham">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Vinod Bham</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Tim Berners-Lee</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Tim Berners-Lee is credited with inventing the World Wide Web while working at CERN in the late 1980s.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q39">
+    <div class="q-head">
+      <span class="q-num">39</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Match List-I with List-II and select the correct answer using the code given below the lists: List-I (Company) A. Chevron B. AT&amp;T C. AMD D. Enercon GmbH List-II (Major Area/Product)
+1. Wind Energy
+2. Oil
+3. Telephone, Internet
+4. Micro-processor
+Codes:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: A-2 B-1 C-4 D-3">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">A-2 B-1 C-4 D-3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: A-4 B-3 C-2 D-1">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">A-4 B-3 C-2 D-1</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: A-2 B-3 C-4 D-1">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">A-2 B-3 C-4 D-1</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A-4 B-1 C-2 D-3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A-4 B-1 C-2 D-3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. A-2 B-3 C-4 D-1</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Chevron is primarily an oil company, AT&amp;T is a major telephone and internet service provider, AMD is a microprocessor manufacturer, and Enercon GmbH specialises in wind energy, matching the pairing A-2, B-3, C-4, D-1.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q40">
+    <div class="q-head">
+      <span class="q-num">40</span>
+      <span class="q-yr">2006</span>
+    </div>
+    <p class="q-text">What is the Universal Product Code (UPC) adopted for?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Fire safety code in buildings">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Fire safety code in buildings</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Earthquake-resistant buildings code">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Earthquake-resistant buildings code</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Bar code">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Bar code</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Against adulteration eatables">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Against adulteration eatables</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Bar code</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Universal Product Code (UPC) is the standardised barcode system used for identifying and tracking retail products.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q41">
+    <div class="q-head">
+      <span class="q-num">41</span>
+      <span class="q-yr">2006</span>
+    </div>
+    <p class="q-text">What does the term ‘Dolby B’, or ‘Dolby C’ printed on tape recorders and other sound systems refer to?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Frequency modulated system">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Frequency modulated system</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Amplitude Modulated system">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Amplitude Modulated system</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Noise reduction circuit">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Noise reduction circuit</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Both DC and AC power can be used">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Both DC and AC power can be used</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Noise reduction circuit</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Dolby B and Dolby C refer to noise-reduction technologies used in audio recording and playback systems to reduce background hiss.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q42">
+    <div class="q-head">
+      <span class="q-num">42</span>
+      <span class="q-yr">2006</span>
+    </div>
+    <p class="q-text">To which one of the following processes is the term CMYK related?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Railway signalling">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Railway signalling</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Navigation">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Navigation</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Offset printing">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Offset printing</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Electronic voting machine">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Electronic voting machine</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Offset printing</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">CMYK (Cyan, Magenta, Yellow, Key/Black) is the standard colour model used in offset printing to reproduce a full range of colours.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q43">
+    <div class="q-head">
+      <span class="q-num">43</span>
+      <span class="q-yr">2005</span>
+    </div>
+    <p class="q-text">Consider the following statements :
+1. A geostationary satellite is at an approximate height of 10,000 km
+2. FM transmission of music is of very good quality because the atmospheric or man-made noises which are generally frequency variations can do little harm.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Geostationary satellites actually orbit at an altitude of roughly 36,000 km, not 10,000 km, making statement 1 false; FM (frequency modulation) broadcasting is indeed known for good sound quality since it is less affected by amplitude-based noise and interference, making statement 2 correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q44">
+    <div class="q-head">
+      <span class="q-num">44</span>
+      <span class="q-yr">2004</span>
+    </div>
+    <p class="q-text">Param Padam, which was in news recently, is</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: A new Civilian Award instituted by the Government of India">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">A new Civilian Award instituted by the Government of India</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: The name of a supercomputer developed by India">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">The name of a supercomputer developed by India</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The name given to a proposed network of canals">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The name given to a proposed network of canals</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A software programme to facilitate e-governance in Madhya Pradesh">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A software programme to facilitate e-governance in Madhya Pradesh</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. The name of a supercomputer developed by India</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">PARAM Padma was a supercomputer developed by India's Centre for Development of Advanced Computing (C-DAC).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q45">
+    <div class="q-head">
+      <span class="q-num">45</span>
+      <span class="q-yr">2004</span>
+    </div>
+    <p class="q-text">Consider the following statements:
+1. Smart Card is a plastic card with an embedded microchip.
+2. Digital Technology is primarily used with new physical communication medium such as satellite and fibre optics transmission.
+3. A digital library is a collection of documents in an organized electronic form available on the Internet only.
+Which of these statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 2">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Digital technology does rely heavily on modern physical transmission media such as satellite links and fibre-optic cables to carry data efficiently (statement 2 true); a smart card containing an embedded microchip does describe a genuine smart card (statement 1 also generally accurate), though the accepted key for this question marks the digital-technology-transmission statement as the defining correct answer alongside the smart card description, while digital libraries are not restricted to internet-only access, making statement 3 inaccurate.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q46">
+    <div class="q-head">
+      <span class="q-num">46</span>
+      <span class="q-yr">2000</span>
+    </div>
+    <p class="q-text">The memory of a computer is commonly expressed in terms of Kilobytes or Megabytes. A byte is made up of</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: eight binary digits">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">eight binary digits</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: eight decimal digits">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">eight decimal digits</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: two binary digits">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">two binary digits</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: two decimal digits">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">two decimal digits</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. eight binary digits</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A byte, the basic unit of digital memory measurement, consists of eight binary digits (bits).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q47">
+    <div class="q-head">
+      <span class="q-num">47</span>
+      <span class="q-yr">2000</span>
+    </div>
+    <p class="q-text">For reproducing sound, a CD (Compact Disc) audio player uses a</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: quartz crystal">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">quartz crystal</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: titanium needle">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">titanium needle</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: laser beam">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">laser beam</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: barium titanate ceramic">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">barium titanate ceramic</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. laser beam</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A CD audio player reads the microscopic pits on a compact disc using a precisely focused laser beam to reproduce the stored sound.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q48">
+    <div class="q-head">
+      <span class="q-num">48</span>
+      <span class="q-yr">1999</span>
+    </div>
+    <p class="q-text">Assertion (A): Information technology is fast becoming a very important field of activity in India. Reason (R): Software is one of the major exports of the country and India has a very strong base in hardware.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both A and R are true, and R is the correct explanation of A">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Both A and R are true, and R is the correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are true, but R is not a correct explanation of A">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Both A and R are true, but R is not a correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: A is true, but R is false">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">A is true, but R is false</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A is false, but R is true">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A is false, but R is true</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. A is true, but R is false</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Information technology has indeed become a major growth sector in India, driven substantially by software exports, but the specific claim that India also has a very strong base in hardware manufacturing is not accurate, since India's IT strength has been predominantly in software and services rather than hardware production.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q49">
+    <div class="q-head">
+      <span class="q-num">49</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">The world’s fastest computer has been able to perform (as of Dec. 1996)</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 106 operations per second">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">106 operations per second</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 109 operations per second">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">109 operations per second</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1012 operations per second">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1012 operations per second</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1015 operations per second">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1015 operations per second</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1012 operations per second</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">By December 1996, the world's fastest supercomputers had reached processing speeds on the order of a trillion (10^12) operations per second.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" id="q50">
+    <div class="q-head">
+      <span class="q-num">50</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">The technique used to transmit audio signals in television broadcasts is</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Amplitude Modulation">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Amplitude Modulation</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Frequency Modulation">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Frequency Modulation</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Pulse Code Modulation">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Pulse Code Modulation</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Time Division Multiplexing">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Time Division Multiplexing</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Frequency Modulation</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Television broadcasts have traditionally used frequency modulation (FM) to transmit the audio portion of the signal, distinct from the amplitude-modulated video signal.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol>
+
+<div class="bottom-nav container">
+  <a class="back-link" href="../science-technology-upsc-pyq.html">← Back to all Science &amp; Technology PYQ topics</a>
+  <div class="test-cta-wrap" style="margin-top:0; margin-bottom: 22px;">
+    <a class="test-cta-light" href="../../test/engine.html?mode=practice&amp;topic=science/computer-technology">Take this topic as a timed test →</a>
+  </div>
+  <p class="continue-hd">Continue studying</p>
+  <div class="continue-grid">
+      <a href="./biotechnology-genetics.html" class="related-pill continue-link">Biotechnology &amp; Genetics <span class="arrow">→</span></a>
+      <a href="./energy-technologies.html" class="related-pill continue-link">Energy &amp; Nuclear Technologies <span class="arrow">→</span></a>
+      <a href="./space-technology.html" class="related-pill continue-link">Space Technology <span class="arrow">→</span></a>
+  </div>
+  <div class="prev-next-row">
+    <a href="./biotechnology-genetics.html" class="continue-link">&larr;&nbsp;Biotechnology & Genetics</a>
+    <a href="./energy-technologies.html" class="continue-link">Energy & Nuclear Technologies&nbsp;<span class="arrow">→</span></a>
+  </div>
+</div>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-logo">UPSC <span>A2Z</span></div>
+  <nav class="footer-links" aria-label="Footer navigation">
+    <a href="../../index.html">Home</a>
+    <a href="../../tracker.html">Topic Tracker</a>
+    <a href="../science-technology-upsc-pyq.html">PYQ Bank</a>
+    <a href="../../topics/science-technology-upsc.html">Science &amp; Technology Topics</a>
+  </nav>
+  <p class="footer-copy">Free, ad-free resource for every UPSC aspirant · © 2026 UPSC A2Z</p>
+</footer>
+
+<button id="scrollTop" aria-label="Back to top">↑</button>
+
+<script>
+var scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', function () {
+  scrollBtn.classList.toggle('show', window.scrollY > 400);
+}, { passive: true });
+scrollBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+  link.addEventListener('click', function (e) {
+    var target = document.getElementById(link.getAttribute('href').slice(1));
+    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+});
+
+var STORAGE_KEY = 'upsca2z_progress_computer_technology';
+var total = 50;
+
+function loadProgress() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
+}
+function saveProgress(p) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(p)); } catch (e) {}
+}
+function updateProgressUI() {
+  var p = loadProgress();
+  var answered = Object.keys(p).length;
+  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
+  document.getElementById('completionBanner').classList.toggle('show', answered >= total);
+}
+
+function answerQuestion(card, opt, opts, details, qId) {
+  if (card.classList.contains('is-answered')) return;
+  card.classList.add('is-answered');
+  var correct = opt.getAttribute('data-correct') === 'true';
+  opt.classList.add('is-selected', correct ? 'is-correct' : 'is-wrong');
+  if (!correct) {
+    opts.forEach(function (o) { if (o.getAttribute('data-correct') === 'true') o.classList.add('is-revealed-correct'); });
+  }
+  details.setAttribute('open', '');
+  var p = loadProgress();
+  p[qId] = correct ? 'correct' : 'wrong';
+  saveProgress(p);
+  updateProgressUI();
+}
+
+document.querySelectorAll('.q-card').forEach(function (card) {
+  var opts = Array.prototype.slice.call(card.querySelectorAll('.q-opt'));
+  var details = card.querySelector('.q-answer');
+  var qId = card.id;
+
+  opts.forEach(function (opt) {
+    opt.addEventListener('click', function () { answerQuestion(card, opt, opts, details, qId); });
+    opt.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); answerQuestion(card, opt, opts, details, qId); }
+    });
+  });
+
+  details.addEventListener('toggle', function () {
+    if (details.open && !card.classList.contains('is-answered')) {
+      var p = loadProgress();
+      if (!p[qId]) { p[qId] = 'viewed'; saveProgress(p); updateProgressUI(); }
+    }
+  });
+});
+
+document.getElementById('resetProgress').addEventListener('click', function () {
+  localStorage.removeItem(STORAGE_KEY);
+  updateProgressUI();
+  document.querySelectorAll('.q-card').forEach(function (card) {
+    card.classList.remove('is-answered');
+    card.querySelectorAll('.q-opt').forEach(function (o) {
+      o.classList.remove('is-selected', 'is-correct', 'is-wrong', 'is-revealed-correct');
+    });
+  });
+});
+
+updateProgressUI();
+</script>
+
+</body>
+</html>
