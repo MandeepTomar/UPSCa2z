@@ -234,6 +234,28 @@ body {
 .f-action span { transition: transform 0.2s; margin-left: 6px; }
 .f-card:hover .f-action span { transform: translateX(4px); }
 
+/* SORT + SEARCH TOOLBAR */
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+.search-wrap { position: relative; flex: 1 1 260px; max-width: 360px; }
+.search-wrap input {
+  width: 100%; padding: 11px 16px 11px 40px; font-family: 'IBM Plex Sans', sans-serif; font-size: 0.9rem;
+  color: var(--txt); background: var(--surf); border: 1px solid var(--bdr); border-radius: 30px;
+  outline: none; transition: all var(--trans);
+}
+.search-wrap input:focus { border-color: var(--acc); box-shadow: 0 0 0 3px var(--acc-glow); }
+.search-wrap svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--txt3); pointer-events: none; }
+.sort-toggle { display: inline-flex; align-items: center; gap: 4px; padding: 4px; background: var(--surf); border: 1px solid var(--bdr); border-radius: 30px; box-shadow: var(--shadow-sm); }
+.sort-btn {
+  border: none; background: transparent; cursor: pointer; padding: 8px 16px; border-radius: 24px;
+  font-family: 'IBM Plex Sans', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--txt3);
+  transition: all var(--trans); white-space: nowrap;
+}
+.sort-btn:hover { color: var(--txt); }
+.sort-btn.active { background: var(--acc); color: white; box-shadow: 0 4px 12px rgba(211, 47, 47, 0.25); }
+.f-card.is-hidden { display: none; }
+.no-results { display: none; text-align: center; padding: 40px 20px; color: var(--txt3); font-size: 0.95rem; }
+.no-results.show { display: block; }
+
 /* FAQ SECTION */
 .faq-sec { padding-top: 0; }
 .faq-hdr { text-align: center; margin-bottom: 36px; }
@@ -311,9 +333,20 @@ body {
       <p class="sec-sub">Select a subject below to practice topic-wise past year questions. Every question includes the official answer and a detailed explanation.</p>
     </div>
 
-    <div class="feat-grid">
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="subjectSearch" placeholder="Search a subject…" aria-label="Search subjects"/>
+      </div>
+      <div class="sort-toggle" role="group" aria-label="Sort subjects">
+        <button type="button" class="sort-btn active" data-mode="syllabus" aria-pressed="true">📖 Syllabus Order</button>
+        <button type="button" class="sort-btn" data-mode="yield" aria-pressed="false">🔥 High Yield First</button>
+      </div>
+    </div>
+
+    <div class="feat-grid" id="featGrid">
       <!-- Ancient History -->
-      <a href="./ancient-history-upsc-pyq.html" class="f-card" style="--fc:#d32f2f; --fb:rgba(211,47,47,0.08)">
+      <a href="./ancient-history-upsc-pyq.html" class="f-card" data-yield="8" style="--fc:#d32f2f; --fb:rgba(211,47,47,0.08)">
         <div class="f-icon">🏛️</div>
         <h2 class="f-title">Ancient History</h2>
         <p class="f-desc">Indus Valley, Buddhism, Jainism, Mauryan & Gupta Empires.</p>
@@ -321,7 +354,7 @@ body {
       </a>
 
       <!-- Art and Culture -->
-      <a href="./art-and-culture-upsc-pyq.html" class="f-card" style="--fc:#8e24aa; --fb:rgba(142,36,170,0.08)">
+      <a href="./art-and-culture-upsc-pyq.html" class="f-card" data-yield="10" style="--fc:#8e24aa; --fb:rgba(142,36,170,0.08)">
         <div class="f-icon">🎨</div>
         <h2 class="f-title">Art & Culture</h2>
         <p class="f-desc">Architecture, Classical Dances, Paintings, and Indian Philosophy.</p>
@@ -329,7 +362,7 @@ body {
       </a>
 
       <!-- Medieval History -->
-      <a href="./medieval-history-upsc-pyq.html" class="f-card" style="--fc:#e65100; --fb:rgba(230,81,0,0.08)">
+      <a href="./medieval-history-upsc-pyq.html" class="f-card" data-yield="11" style="--fc:#e65100; --fb:rgba(230,81,0,0.08)">
         <div class="f-icon">⚔️</div>
         <h2 class="f-title">Medieval History</h2>
         <p class="f-desc">Delhi Sultanate, Mughal Empire, Vijayanagara, and Bhakti Movement.</p>
@@ -337,7 +370,7 @@ body {
       </a>
 
       <!-- Modern History -->
-      <a href="./modern-history-upsc-pyq.html" class="f-card" style="--fc:#5d4037; --fb:rgba(93,64,55,0.08)">
+      <a href="./modern-history-upsc-pyq.html" class="f-card" data-yield="4" style="--fc:#5d4037; --fb:rgba(93,64,55,0.08)">
         <div class="f-icon">🕊️</div>
         <h2 class="f-title">Modern History</h2>
         <p class="f-desc">Freedom Struggle, Governors-General, Reform Movements, and Land Settlements.</p>
@@ -345,7 +378,7 @@ body {
       </a>
 
       <!-- Indian Polity -->
-      <a href="./indian-polity-upsc-pyq.html" class="f-card" style="--fc:#283593; --fb:rgba(40,53,147,0.08)">
+      <a href="./indian-polity-upsc-pyq.html" class="f-card" data-yield="1" style="--fc:#283593; --fb:rgba(40,53,147,0.08)">
         <div class="f-icon">⚖️</div>
         <h2 class="f-title">Indian Polity</h2>
         <p class="f-desc">Parliament, Constitution, Judiciary, Executive & Fundamental Rights.</p>
@@ -353,7 +386,7 @@ body {
       </a>
 
       <!-- Indian Geography -->
-      <a href="./indian-geography-upsc-pyq.html" class="f-card" style="--fc:#2e7d32; --fb:rgba(46,125,50,0.08)">
+      <a href="./indian-geography-upsc-pyq.html" class="f-card" data-yield="5" style="--fc:#2e7d32; --fb:rgba(46,125,50,0.08)">
         <div class="f-icon">🇮🇳</div>
         <h2 class="f-title">Indian Geography</h2>
         <p class="f-desc">Physical features, River systems, Climate, Agriculture, and Resources.</p>
@@ -361,7 +394,7 @@ body {
       </a>
 
       <!-- World Geography -->
-      <a href="./world-geography-upsc-pyq.html" class="f-card" style="--fc:#0277bd; --fb:rgba(2,119,189,0.08)">
+      <a href="./world-geography-upsc-pyq.html" class="f-card" data-yield="7" style="--fc:#0277bd; --fb:rgba(2,119,189,0.08)">
         <div class="f-icon">🌎</div>
         <h2 class="f-title">World Geography</h2>
         <p class="f-desc">Climatology, Oceanography, Geomorphology, and Mapping.</p>
@@ -369,7 +402,7 @@ body {
       </a>
 
       <!-- Indian Economy -->
-      <a href="./indian-economy-upsc-pyq.html" class="f-card" style="--fc:#1976d2; --fb:rgba(25,118,210,0.08)">
+      <a href="./indian-economy-upsc-pyq.html" class="f-card" data-yield="3" style="--fc:#1976d2; --fb:rgba(25,118,210,0.08)">
         <div class="f-icon">📈</div>
         <h2 class="f-title">Indian Economy</h2>
         <p class="f-desc">Banking, Inflation, Fiscal Policy, External Sector, and Schemes.</p>
@@ -377,7 +410,7 @@ body {
       </a>
 
       <!-- International Relations -->
-      <a href="./international-relations-upsc-pyq.html" class="f-card" style="--fc:#fbc02d; --fb:rgba(251,192,45,0.15)">
+      <a href="./international-relations-upsc-pyq.html" class="f-card" data-yield="9" style="--fc:#fbc02d; --fb:rgba(251,192,45,0.15)">
         <div class="f-icon">🌍</div>
         <h2 class="f-title">International Relations</h2>
         <p class="f-desc">Global Groupings, Treaties, Bilateral relations, and Organizations.</p>
@@ -385,7 +418,7 @@ body {
       </a>
 
       <!-- Environment & Ecology -->
-      <a href="./environment-upsc-pyq.html" class="f-card" style="--fc:#00695c; --fb:rgba(0,105,92,0.08)">
+      <a href="./environment-upsc-pyq.html" class="f-card" data-yield="2" style="--fc:#00695c; --fb:rgba(0,105,92,0.08)">
         <div class="f-icon">🌿</div>
         <h2 class="f-title">Environment &amp; Ecology</h2>
         <p class="f-desc">Protected Areas, Biodiversity, Climate Change, Pollution, and Treaties.</p>
@@ -393,13 +426,14 @@ body {
       </a>
 
       <!-- Science & Technology -->
-      <a href="./science-technology-upsc-pyq.html" class="f-card" style="--fc:#6a1b9a; --fb:rgba(106,27,154,0.08)">
+      <a href="./science-technology-upsc-pyq.html" class="f-card" data-yield="6" style="--fc:#6a1b9a; --fb:rgba(106,27,154,0.08)">
         <div class="f-icon">🔬</div>
         <h2 class="f-title">Science &amp; Technology</h2>
         <p class="f-desc">Physics, Biology, Space Tech, Biotechnology, Health &amp; Diseases, and more.</p>
         <div class="f-action" style="color:#6a1b9a;">Start Practice <span>→</span></div>
       </a>
     </div>
+    <p class="no-results" id="noResults">No subject matches your search — try a different term.</p>
   </section>
 
   <section class="sec faq-sec">
@@ -445,8 +479,82 @@ body {
       <a href="../tracker.html">Master Tracker</a>
     </nav>
     <p class="footer-copy">© 2026 UPSC A2Z Tracker · Built for Aspirants</p>
+    <p class="footer-copy" style="margin-top:8px; opacity:0.8;">"High Yield" ordering is ranked by average question count in UPSC Prelims GS-I over recent years — a guide, not a guarantee.</p>
   </div>
 </footer>
+
+<script>
+(function () {
+  var grid = document.getElementById('featGrid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.f-card'));
+  var searchInput = document.getElementById('subjectSearch');
+  var sortBtns = document.querySelectorAll('.sort-btn');
+  var noResults = document.getElementById('noResults');
+
+  function applySort(mode, animate) {
+    // FLIP: record current positions before reordering
+    var first = animate === false ? null : new Map();
+    if (first) cards.forEach(function (card) { first.set(card, card.getBoundingClientRect()); });
+
+    cards.forEach(function (card) {
+      card.style.order = mode === 'yield' ? card.getAttribute('data-yield') : '';
+    });
+
+    // play: animate from old position to new
+    if (first) {
+      cards.forEach(function (card) {
+        var last = card.getBoundingClientRect();
+        var f = first.get(card);
+        var dx = f.left - last.left;
+        var dy = f.top - last.top;
+        if (dx || dy) {
+          card.style.transition = 'none';
+          card.style.transform = 'translate(' + dx + 'px, ' + dy + 'px)';
+          card.getBoundingClientRect(); // force reflow
+          requestAnimationFrame(function () {
+            card.style.transition = 'transform 0.45s cubic-bezier(0.4, 0, 0.2, 1)';
+            card.style.transform = '';
+          });
+          card.addEventListener('transitionend', function handler(e) {
+            if (e.propertyName === 'transform') {
+              card.style.transition = '';
+              card.removeEventListener('transitionend', handler);
+            }
+          });
+        }
+      });
+    }
+
+    sortBtns.forEach(function (btn) {
+      var active = btn.getAttribute('data-mode') === mode;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active);
+    });
+    try { localStorage.setItem('pyqHubSortMode', mode); } catch (e) {}
+  }
+
+  sortBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () { applySort(btn.getAttribute('data-mode')); });
+  });
+
+  var savedMode = null;
+  try { savedMode = localStorage.getItem('pyqHubSortMode'); } catch (e) {}
+  applySort(savedMode === 'yield' ? 'yield' : 'syllabus', false);
+
+  searchInput.addEventListener('input', function () {
+    var q = searchInput.value.trim().toLowerCase();
+    var visibleCount = 0;
+    cards.forEach(function (card) {
+      var title = card.querySelector('.f-title').textContent.toLowerCase();
+      var desc = card.querySelector('.f-desc').textContent.toLowerCase();
+      var match = !q || title.indexOf(q) !== -1 || desc.indexOf(q) !== -1;
+      card.classList.toggle('is-hidden', !match);
+      if (match) visibleCount++;
+    });
+    noResults.classList.toggle('show', visibleCount === 0);
+  });
+})();
+</script>
 
 </body>
 </html>
