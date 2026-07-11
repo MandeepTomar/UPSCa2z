@@ -449,15 +449,18 @@ mark {
   padding: 2px 6px; border-radius: 4px; flex-shrink: 0;
   height: fit-content; margin-top: 1px;
 }
-.tc-view {
+.tc-buttons { display: flex; gap: 8px; margin-top: 15px; }
+.tc-view, .tc-browse {
   display: flex; align-items: center; justify-content: center; gap: 6px;
-  margin-top: 15px; min-height: 44px;
-  font-size: 0.83rem; font-weight: 600; color: #fff;
-  background: var(--blue);
+  min-height: 44px; flex: 1;
+  font-size: 0.83rem; font-weight: 600;
   border-radius: var(--r-sm);
-  transition: background 0.15s var(--ease);
+  transition: background 0.15s var(--ease), border-color 0.15s var(--ease), color 0.15s var(--ease);
 }
+.tc-view { color: #fff; background: var(--blue); }
 .tc-view:hover, .tc-view:focus-visible { background: var(--blue2); }
+.tc-browse { color: var(--blue); background: var(--surf); border: 1.5px solid var(--blue-mid); }
+.tc-browse:hover, .tc-browse:focus-visible { background: var(--blue-light); border-color: var(--blue); }
 .tc-view .arrow { transition: transform 0.15s var(--ease); }
 .tc-view:hover .arrow, .tc-view:focus-visible .arrow { transform: translateX(3px); }
 
@@ -672,7 +675,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Consider the following pairs: Country — Animal found in its natural habitat</span></div>
     </div>
-    <a class="tc-view" href="./environment/protected-areas.html">Practice 49 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/protected-areas.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/protected-areas">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="ecosystems" data-name="ecosystems &amp; ecology concepts food chains trophic levels biomes forest types ecological succession ecosystem services">
@@ -687,7 +693,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Consider the following statements:</span></div>
     </div>
-    <a class="tc-view" href="./environment/ecosystems.html">Practice 48 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/ecosystems.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/ecosystems">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="biodiversity" data-name="biodiversity &amp; conservation biodiversity hotspots endangered species endemic flora iucn red list conservation methods invasive species">
@@ -702,7 +711,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Consider the following:</span></div>
     </div>
-    <a class="tc-view" href="./environment/biodiversity.html">Practice 45 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/biodiversity.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/biodiversity">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="treaties" data-name="international treaties &amp; summits unfccc cbd ramsar convention kyoto protocol montreal protocol earth summit">
@@ -717,7 +729,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2025</span><span>Consider the following statements: Statement I: At the 28th United Nations Climate Change Conference (COP28), India refrained from signin...</span></div>
     </div>
-    <a class="tc-view" href="./environment/treaties.html">Practice 39 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/treaties.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/treaties">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="pollution" data-name="pollution &amp; waste management air pollution water pollution e-waste rules acid rain biomagnification solid waste management">
@@ -732,7 +747,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2025</span><span>Consider the following statements: Statement I: Activated carbon is a good and an attractive tool to remove pollutants from effluent stre...</span></div>
     </div>
-    <a class="tc-view" href="./environment/pollution.html">Practice 38 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/pollution.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/pollution">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="governance" data-name="environmental governance &amp; legislation environment protection act national green tribunal forest rights act wildlife protection act cpcb nba">
@@ -747,7 +765,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2024</span><span>Consider the following statements: Statement-I: The Indian Flying Fox is placed under the "vermin" category in the Wild Life (Protection)...</span></div>
     </div>
-    <a class="tc-view" href="./environment/governance.html">Practice 35 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/governance.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/governance">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="climate-change" data-name="climate change &amp; greenhouse gases greenhouse gases carbon markets carbon sequestration ocean acidification climate finance mitigation">
@@ -762,7 +783,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2025</span><span>Consider the following statements:</span></div>
     </div>
-    <a class="tc-view" href="./environment/climate-change.html">Practice 34 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/climate-change.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/climate-change">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="agriculture-forestry" data-name="sustainable agriculture &amp; forestry organic farming agroforestry biofertilisers zero tillage permaculture forest policy">
@@ -777,7 +801,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2022</span><span>"System of Rice Intensification" of cultivation, in which alternate wetting and drying of rice fields is practised, results in:</span></div>
     </div>
-    <a class="tc-view" href="./environment/agriculture-forestry.html">Practice 31 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/agriculture-forestry.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/agriculture-forestry">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="water-wetlands" data-name="water &amp; wetland conservation ramsar sites groundwater river conservation wetlands mangroves water pollution">
@@ -792,7 +819,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2023</span><span>Consider the following statements : Statement-I : According to the United Nations' 'World Water Development Report, 2022', India extracts...</span></div>
     </div>
-    <a class="tc-view" href="./environment/water-wetlands.html">Practice 20 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/water-wetlands.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/water-wetlands">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="renewable-energy" data-name="renewable energy &amp; green technologies solar energy biofuels waste-to-energy biodiesel net metering green technology">
@@ -807,7 +837,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2025</span><span>Consider the following statements: Statement I: Circular economy reduces the emissions of greenhouse gases. Statement II: Circular econom...</span></div>
     </div>
-    <a class="tc-view" href="./environment/renewable-energy.html">Practice 18 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/renewable-energy.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/renewable-energy">Timed Test</a>
+    </div>
   </li>
 
   <li class="topic-card" id="biogeochemical-cycles" data-name="biogeochemical cycles &amp; earth systems carbon cycle nitrogen cycle phosphorus cycle albedo earth systems">
@@ -822,7 +855,10 @@ mark {
     <div class="tc-samples">
       <div class="tc-sample"><span class="tc-sample-yr">2025</span><span>With reference to the planet Earth, consider the following statements:</span></div>
     </div>
-    <a class="tc-view" href="./environment/biogeochemical-cycles.html">Practice 8 Questions <span class="arrow">→</span></a>
+    <div class="tc-buttons">
+      <a class="tc-view" href="./environment/biogeochemical-cycles.html">Solve PYQs <span class="arrow">→</span></a>
+      <a class="tc-browse" href="../test/engine.html?mode=practice&amp;topic=environment/biogeochemical-cycles">Timed Test</a>
+    </div>
   </li>
 
 </ol>
