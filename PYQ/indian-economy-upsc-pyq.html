@@ -116,6 +116,13 @@ body::after {
   border: 1px solid rgba(247,243,235,.12);
   padding: 4px 10px; border-radius: 20px;
 }
+.header-cta {
+  padding: 7px 16px; background: var(--accent); color: #fff;
+  border-radius: var(--r-sm); font-size: 0.8rem; font-weight: 600;
+  white-space: nowrap;
+}
+.header-cta:hover, .header-cta:focus-visible { background: var(--amber); }
+.header-right { display: flex; align-items: center; gap: 10px; }
 
 /* ═══════════════════════════════════════════
    MOBILE PILL NAV (hidden on desktop)
@@ -519,15 +526,16 @@ body::after {
 }
 .related-grid { display: flex; flex-wrap: wrap; gap: 8px; }
 .related-pill {
-  display: inline-flex; align-items: center; gap: 7px;
-  padding: 8px 14px; border-radius: 20px;
-  font-size: 0.78rem; font-weight: 500; color: var(--ink2);
+  display: flex; align-items: center; gap: 7px;
+  padding: 9px 16px; border-radius: var(--r-md);
+  font-size: 0.83rem; font-weight: 500; color: var(--ink2);
   background: var(--surface); border: 1px solid var(--border);
-  min-height: 36px;
-  transition: border-color 0.15s, color 0.15s, box-shadow 0.15s;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s, color 0.15s, box-shadow 0.15s, transform 0.15s;
 }
 .related-pill:hover, .related-pill:focus-visible {
   border-color: var(--accent); color: var(--accent); box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
 }
 .related-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 </style>
@@ -547,7 +555,10 @@ body::after {
   <a class="logo" href="../index.html" aria-label="UPSC A2Z Home">
     <span class="logo-dot"></span>UPSC A2Z
   </a>
-  <span class="header-badge">PYQ Bank</span>
+  <div class="header-right">
+    <span class="header-badge">PYQ Bank</span>
+    <a class="header-cta" href="../tracker.html">Open Tracker →</a>
+  </div>
 </header>
 
 <!-- ═══ MOBILE PILL NAV ═══ -->
@@ -621,7 +632,7 @@ body::after {
 <!-- ═══ FOOTER ═══ -->
 <footer class="site-footer">
   <div class="footer-logo">UPSC A2Z</div>
-  <div style="margin-top:6px"><a href="../index.html">Open Tracker →</a></div>
+  <div style="margin-top:6px"><a href="../tracker.html">Open Tracker →</a></div>
   <div style="margin-top:8px;font-size:.7rem;opacity:.5">Free for every UPSC aspirant · upsca2z.com</div>
 </footer>
 
