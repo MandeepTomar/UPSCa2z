@@ -3,175 +3,615 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>International Relations UPSC PYQ — Foreign Policy, Global Groups, Places in News | UPSC A2Z</title>
+
+<title>International Relations UPSC PYQ — Global Affairs | UPSC A2Z</title>
 <meta name="description" content="All International Relations UPSC Previous Year Questions (PYQ) from 2013–2025. India's Foreign Policy, India & Its Neighbours, International Groups, Places in News — with answers and explanations."/>
 <meta name="keywords" content="International Relations UPSC PYQ, India Foreign Policy UPSC, BRICS UPSC questions, NATO UPSC PYQ, UPSC Prelims International Relations, places in news UPSC"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="UPSC A2Z"/>
 <link rel="canonical" href="https://upsca2z.com/PYQ/international-relations-upsc-pyq.html"/>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article"/>
 <meta property="og:title" content="International Relations UPSC PYQ — All Questions 2013–2025"/>
 <meta property="og:description" content="Complete collection of International Relations UPSC Prelims questions with answers and explanations."/>
-<meta property="og:type" content="article"/>
 <meta property="og:url" content="https://upsca2z.com/PYQ/international-relations-upsc-pyq.html"/>
+<meta property="og:site_name" content="UPSC A2Z"/>
+<meta property="og:locale" content="en_IN"/>
 <meta property="og:image" content="https://upsca2z.com/og-image.jpg"/>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="International Relations UPSC PYQ — Global Affairs | UPSC A2Z"/>
+<meta name="twitter:image" content="https://upsca2z.com/og-image.jpg"/>
+
+<!-- Schema: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "UPSC A2Z", "item": "https://upsca2z.com/" },
+        { "@type": "ListItem", "position": 2, "name": "International Relations", "item": "https://upsca2z.com/topics/international-relations-upsc.html" },
+        { "@type": "ListItem", "position": 3, "name": "PYQs 2014–2025" }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Fonts: aligned with landing page brand -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Nunito:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
 
 <style>
-/* ══ TOKENS ══ */
+/* ══════════════════════════════════════════
+   DESIGN TOKENS — aligned with UPSC A2Z brand
+══════════════════════════════════════════ */
 :root {
-  --bg:          #f0f4ff;
-  --bg2:         #e4ebff;
-  --bg3:         #d6e0ff;
-  --surface:     #f8faff;
-  --border:      #c5d0f0;
-  --border-soft: #dce5ff;
+  /* Background / surface */
+  --bg:          #f8f5ee;
+  --bg2:         #f2ede0;
+  --bg3:         #e9e1d0;
+  --surf:        #ffffff;
+  --bdr:         #e0d9cb;
+  --bdr2:        #cec5b0;
 
-  --ink:         #0d1526;
-  --ink2:        #1e2f50;
-  --ink3:        #3d5080;
-  --ink4:        #7a90bb;
+  /* Text */
+  --txt:         #18150f;
+  --txt2:        #46413a;
+  --txt3:        #796f62;
 
-  --accent:      #1a56db;
-  --accent-dim:  rgba(26,86,219,0.10);
-  --accent-mid:  rgba(26,86,219,0.20);
+  /* Brand accent — same deep red as landing page */
+  --acc:         #c0392b;
+  --acc2:        #a93226;
+  --acc-light:   rgba(192,57,43,0.08);
+  --acc-mid:     rgba(192,57,43,0.18);
 
-  --teal:        #0e7490;
-  --teal-dim:    rgba(14,116,144,0.10);
+  /* Amber for explanations */
+  --amber:       #b45309;
+  --amber-dim:   rgba(180,83,9,0.07);
+  --amber-bdr:   rgba(180,83,9,0.3);
 
-  --green:       #166534;
-  --green-dim:   rgba(22,101,52,0.10);
-  --green-border:rgba(22,101,52,0.25);
+  /* Answer states */
+  --correct-bg:  #f0fdf4;
+  --correct-bdr: #16a34a;
+  --correct-txt: #15803d;
+  --wrong-bg:    #fef2f2;
+  --wrong-bdr:   #dc2626;
+  --wrong-txt:   #b91c1c;
 
-  --reveal-bg:   #f0fdf4;
-  --reveal-border:#bbf7d0;
-  --correct-bg:  #dcfce7;
-  --correct-border:#86efac;
-  --correct-text:#15803d;
+  /* Header/Nav dark layer */
+  --dark-bg:     #1a1208;
+  --dark-nav:    #2a1e0c;
 
-  --serif: 'Lora', Georgia, serif;
-  --sans:  'Nunito', system-ui, sans-serif;
-  --mono:  'Fira Code', monospace;
+  /* Typography */
+  --serif: 'Bricolage Grotesque', sans-serif;
+  --sans:  'IBM Plex Sans', sans-serif;
+  --mono:  'IBM Plex Mono', monospace;
 
-  --r-sm: 6px; --r-md: 10px; --r-lg: 16px;
-  --shadow-sm: 0 1px 4px rgba(13,21,38,.07);
-  --shadow-md: 0 4px 16px rgba(13,21,38,.10);
-  --shadow-lg: 0 8px 32px rgba(13,21,38,.13);
-  --header-h: 52px; --nav-h: 48px;
+  /* Radii + shadows */
+  --r-sm:  6px;
+  --r-md:  10px;
+  --r-lg:  14px;
+  --sh-sm: 0 1px 4px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.03);
+  --sh-md: 0 4px 16px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.04);
+  --sh-lg: 0 12px 32px rgba(0,0,0,.1);
+
+  --header-h: 54px;
+  --topnav-h: 46px;
+  --ease: cubic-bezier(0.4,0,0.2,1);
 }
 
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-size:16px}
-body{font-family:var(--sans);background:var(--bg);color:var(--ink);min-height:100vh;line-height:1.6;-webkit-font-smoothing:antialiased}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--txt);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
 
-/* ══ HEADER ══ */
-.site-header{position:sticky;top:0;z-index:200;height:var(--header-h);background:var(--ink);display:flex;align-items:center;justify-content:space-between;padding:0 16px;border-bottom:2.5px solid var(--accent)}
-.logo{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:var(--bg);text-decoration:none;display:flex;align-items:center;gap:8px}
-.logo-dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex-shrink:0}
-.header-pill{font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(240,244,255,.45);background:rgba(240,244,255,.07);border:1px solid rgba(240,244,255,.12);padding:4px 10px;border-radius:20px}
+/* ══════════════════════════════════════════
+   SITE HEADER
+══════════════════════════════════════════ */
+.site-header {
+  position: sticky; top: 0; z-index: 300;
+  height: var(--header-h);
+  background: var(--dark-bg);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 16px; gap: 12px;
+  border-bottom: 2px solid var(--acc);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  /* tricolor bar */
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg,#FF9933 0% 33%,#fff 33% 66%,#138808 66% 100%) 1 0 0 0;
+}
 
-/* ══ TOPIC NAV ══ */
-.topic-nav-wrap{position:sticky;top:var(--header-h);z-index:150;background:var(--ink2);border-bottom:1px solid rgba(255,255,255,.06);overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-.topic-nav-wrap::-webkit-scrollbar{display:none}
-.topic-nav{display:flex;gap:6px;padding:8px 14px;width:max-content;min-width:100%}
-.topic-nav a{font-size:.72rem;font-weight:600;letter-spacing:.02em;color:rgba(240,244,255,.55);text-decoration:none;padding:5px 12px;border-radius:20px;border:1px solid rgba(240,244,255,.12);white-space:nowrap;transition:background .18s,color .18s,border-color .18s;flex-shrink:0}
-.topic-nav a:hover,.topic-nav a.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.logo {
+  font-family: var(--serif); font-weight: 800; font-size: 1.1rem;
+  color: #fff; text-decoration: none; letter-spacing: -0.02em;
+  display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+}
+.logo-icon {
+  width: 28px; height: 28px; border-radius: 7px;
+  background: linear-gradient(135deg, var(--acc), var(--acc2));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; box-shadow: 0 2px 8px rgba(192,57,43,0.3);
+}
+.logo span { color: var(--acc); }
 
-/* ══ HERO ══ */
-.hero{background:linear-gradient(135deg,var(--ink) 0%,var(--ink2) 100%);color:var(--bg);padding:40px 16px 36px;position:relative;overflow:hidden}
-.hero-glyph{position:absolute;right:-10px;bottom:-16px;font-size:120px;opacity:.06;pointer-events:none;user-select:none}
-.hero-tag{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(240,244,255,.5);background:rgba(26,86,219,.2);border:1px solid rgba(26,86,219,.35);padding:4px 12px;border-radius:20px;display:inline-block;margin-bottom:14px}
-.hero h1{font-family:var(--serif);font-size:clamp(1.6rem,5vw,2.2rem);font-weight:700;line-height:1.2;margin-bottom:12px}
-.hero h1 .muted{color:rgba(240,244,255,.45);font-weight:400}
-.hero-sub{font-size:.9rem;color:rgba(240,244,255,.65);max-width:520px;margin-bottom:20px}
-.hero-stats{display:flex;flex-wrap:wrap;gap:10px}
-.hstat{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-md);padding:8px 14px;font-size:.8rem;color:rgba(240,244,255,.75)}
-.hstat strong{display:block;font-size:1.1rem;font-weight:700;color:#fff;font-family:var(--serif)}
+.header-right {
+  display: flex; align-items: center; gap: 8px;
+}
+.header-pill {
+  font-family: var(--mono); font-size: 0.62rem; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 4px 11px; border-radius: 20px;
+}
+.header-cta {
+  padding: 7px 16px; background: var(--acc); color: #fff;
+  border-radius: var(--r-sm); font-size: 0.8rem; font-weight: 600;
+  text-decoration: none; white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(192,57,43,0.25);
+  transition: background 0.2s;
+}
+.header-cta:hover { background: var(--acc2); }
 
-/* ══ BREADCRUMB ══ */
-.breadcrumb{padding:10px 16px;font-size:.75rem;color:var(--ink4);display:flex;align-items:center;gap:6px;flex-wrap:wrap;background:var(--bg2);border-bottom:1px solid var(--border-soft)}
-.breadcrumb a{color:var(--accent);text-decoration:none}
-.breadcrumb a:hover{text-decoration:underline}
-.breadcrumb .sep{opacity:.4}
+/* Hide CTA text on very small screens */
+@media (max-width: 380px) { .header-cta-text { display: none; } }
 
-/* ══ PAGE BODY ══ */
-.page-body{display:grid;grid-template-columns:220px 1fr;gap:24px;max-width:1100px;margin:0 auto;padding:24px 16px}
-@media(max-width:768px){.page-body{grid-template-columns:1fr;padding:16px}}
+/* ══════════════════════════════════════════
+   BREADCRUMB — above hero for correct UX + schema
+══════════════════════════════════════════ */
+.breadcrumb {
+  background: var(--dark-nav);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  padding: 10px 16px;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 4px;
+  font-size: 0.75rem;
+}
+.breadcrumb a { color: rgba(255,255,255,0.55); text-decoration: none; font-weight: 500; transition: color 0.15s; }
+.breadcrumb a:hover { color: var(--acc); }
+.breadcrumb .sep { color: rgba(255,255,255,0.25); padding: 0 2px; }
+.breadcrumb .current { color: rgba(255,255,255,0.85); font-weight: 600; }
 
-/* ══ SIDEBAR ══ */
-.sidebar{position:sticky;top:calc(var(--header-h) + var(--nav-h) + 16px);height:fit-content;max-height:calc(100vh - 140px);overflow-y:auto;scrollbar-width:thin}
-.sidebar-title{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:10px}
-.sidebar-list{list-style:none;display:flex;flex-direction:column;gap:2px}
-.sidebar-list a{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-radius:var(--r-sm);color:var(--ink3);text-decoration:none;font-size:.78rem;font-weight:500;transition:background .15s,color .15s;border:1px solid transparent}
-.sidebar-list a:hover{background:var(--accent-dim);color:var(--accent);border-color:var(--accent-mid)}
-.sidebar-list a.active{background:var(--accent-dim);color:var(--accent);border-color:var(--accent-mid);font-weight:600}
-.sidebar-count{font-family:var(--mono);font-size:.65rem;background:var(--bg3);padding:1px 7px;border-radius:10px;color:var(--ink4)}
-@media(max-width:768px){.sidebar{display:none}}
+/* ══════════════════════════════════════════
+   TOPIC NAV (mobile horizontal scroll)
+══════════════════════════════════════════ */
+.topic-nav-wrap {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 200;
+  background: var(--dark-nav);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.topic-nav-wrap::-webkit-scrollbar { display: none; }
+.topic-nav {
+  display: flex; align-items: center; gap: 6px;
+  padding: 9px 14px; width: max-content; min-width: 100%;
+}
+.topic-nav a {
+  font-family: var(--sans); font-size: 0.73rem; font-weight: 600;
+  color: rgba(255,255,255,0.55); text-decoration: none;
+  padding: 5px 13px; border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  white-space: nowrap; flex-shrink: 0;
+  transition: all 0.18s var(--ease);
+}
+.topic-nav a:hover { color: rgba(255,255,255,0.9); border-color: rgba(255,255,255,0.25); background: rgba(255,255,255,0.06); }
+.topic-nav a.active {
+  background: var(--acc); border-color: var(--acc); color: #fff;
+}
+/* on desktop hide the mobile pill nav */
+@media (min-width: 900px) { .topic-nav-wrap { display: none; } }
 
-/* ══ TOPIC SECTION ══ */
-.topic-section{margin-bottom:40px;animation:fadeUp .4s ease both}
-@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-.topic-section:nth-child(1){animation-delay:.04s}
-.topic-section:nth-child(2){animation-delay:.08s}
-.topic-section:nth-child(3){animation-delay:.12s}
-.topic-section:nth-child(4){animation-delay:.16s}
+/* ══════════════════════════════════════════
+   HERO
+══════════════════════════════════════════ */
+.hero {
+  background: linear-gradient(160deg, var(--dark-bg) 0%, #2d1d08 100%);
+  color: #fff; padding: 40px 16px 36px;
+  position: relative; overflow: hidden;
+}
+.hero-glyph {
+  position: absolute; right: -10px; bottom: -24px;
+  font-size: clamp(100px, 20vw, 180px);
+  opacity: 0.04; pointer-events: none; user-select: none;
+}
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 0.62rem; font-weight: 500;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--acc); margin-bottom: 16px;
+}
+.hero-eyebrow::before {
+  content: ''; display: block; width: 20px; height: 2px;
+  background: var(--acc); border-radius: 1px;
+}
+/* H1: keyword-first, clean */
+.hero h1 {
+  font-family: var(--serif); font-weight: 800;
+  font-size: clamp(1.75rem, 6.5vw, 2.9rem);
+  letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 14px;
+}
+.hero h1 .sub {
+  display: block; font-size: 0.55em; font-weight: 600;
+  color: rgba(255,255,255,0.45); letter-spacing: 0; margin-top: 4px;
+  font-family: var(--sans);
+}
+.hero-desc {
+  font-size: 0.9rem; color: rgba(255,255,255,0.65);
+  max-width: 480px; line-height: 1.7; margin-bottom: 24px;
+}
+.hero-stats {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.hstat {
+  display: flex; align-items: center; gap: 7px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px; padding: 6px 14px;
+  font-size: 0.8rem; color: rgba(255,255,255,0.7);
+}
+.hstat strong {
+  color: #fff; font-weight: 700;
+  font-family: var(--serif); font-size: 0.95rem;
+}
 
-.topic-header{display:flex;align-items:flex-start;gap:14px;padding:16px 18px;background:var(--ink);color:#fff;border-radius:var(--r-lg) var(--r-lg) 0 0;position:relative;overflow:hidden}
-.topic-header::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),#60a5fa)}
-.topic-index{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:rgba(255,255,255,.18);flex-shrink:0;line-height:1;margin-top:2px}
-.topic-info{flex:1;min-width:0}
-.topic-name{font-family:var(--serif);font-size:1rem;font-weight:600;color:#fff;line-height:1.3}
-.topic-sub{font-size:.78rem;color:rgba(240,244,255,.5);margin-top:3px}
-.topic-source{font-family:var(--mono);font-size:.62rem;color:rgba(240,244,255,.4);margin-top:5px;letter-spacing:.04em}
-.topic-badge{font-family:var(--mono);font-size:.7rem;background:rgba(26,86,219,.35);border:1px solid rgba(26,86,219,.5);color:#93c5fd;padding:4px 10px;border-radius:20px;white-space:nowrap;flex-shrink:0}
+/* Desktop hero padding */
+@media (min-width: 900px) {
+  .hero { padding: 56px 32px 48px; }
+  .breadcrumb { padding: 10px 32px; }
+}
 
-/* ══ QUESTION CARD ══ */
-.q-card{background:var(--surface);border:1px solid var(--border-soft);border-top:none;padding:20px 18px 16px;transition:box-shadow .2s}
-.q-card:last-child{border-radius:0 0 var(--r-lg) var(--r-lg)}
-.q-card:not(:last-child){border-bottom:1px solid var(--border)}
-.q-card:hover{box-shadow:var(--shadow-sm)}
+/* ══════════════════════════════════════════
+   MAIN LAYOUT: sidebar + content
+══════════════════════════════════════════ */
+.page-body {
+  max-width: 1100px; margin: 0 auto;
+  padding: 24px 14px 80px;
+}
+@media (min-width: 900px) {
+  .page-body {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 40px;
+    padding: 40px 28px 100px;
+    align-items: start;
+  }
+}
 
-.q-meta{display:flex;align-items:center;gap:8px;margin-bottom:10px}
-.q-year-badge{font-family:var(--mono);font-size:.65rem;background:var(--accent-dim);border:1px solid var(--accent-mid);color:var(--accent);padding:2px 9px;border-radius:20px;font-weight:600;letter-spacing:.04em}
-.q-num-badge{font-family:var(--mono);font-size:.62rem;color:var(--ink4);background:var(--bg2);padding:2px 8px;border-radius:20px;border:1px solid var(--border)}
+/* ══════════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════════ */
+.sidebar { display: none; }
+@media (min-width: 900px) {
+  .sidebar {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-h) + 20px);
+    max-height: calc(100vh - var(--header-h) - 40px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bdr2) transparent;
+    padding-right: 4px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+}
 
-.q-text{font-family:var(--serif);font-size:.95rem;color:var(--ink);line-height:1.65;margin-bottom:16px;white-space:pre-wrap}
+.sidebar-hd {
+  font-family: var(--mono); font-size: 0.62rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--txt3); margin-bottom: 10px; padding-left: 2px;
+}
+.sidebar-list { list-style: none; display: flex; flex-direction: column; gap: 2px; }
+.sidebar-list a {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 7px 10px; border-radius: var(--r-sm);
+  font-size: 0.8rem; font-weight: 500; color: var(--txt2);
+  text-decoration: none; line-height: 1.4; gap: 8px;
+  border: 1px solid transparent;
+  transition: all 0.18s var(--ease);
+}
+.sidebar-list a:hover {
+  background: var(--surf); border-color: var(--bdr);
+  color: var(--txt);
+}
+.sidebar-list a.active {
+  background: var(--surf); border-color: var(--acc-mid);
+  color: var(--acc); box-shadow: var(--sh-sm);
+}
+.sidebar-count {
+  font-family: var(--mono); font-size: 0.62rem; font-weight: 600;
+  color: var(--txt3); background: var(--bg2);
+  padding: 2px 7px; border-radius: 10px; flex-shrink: 0;
+}
+.sidebar-list a.active .sidebar-count {
+  background: var(--acc-light); color: var(--acc);
+}
 
-/* ══ OPTIONS (hidden by default) ══ */
-.opts-grid{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+/* ══════════════════════════════════════════
+   TOPIC SECTIONS
+══════════════════════════════════════════ */
+.main-content { min-width: 0; }
 
-.opt-item{display:flex;align-items:flex-start;gap:10px;padding:10px 13px;border-radius:var(--r-md);border:1.5px solid var(--border);background:var(--bg);font-size:.85rem;color:var(--ink2);transition:border-color .2s,background .2s;cursor:default}
+.topic-section { margin-bottom: 40px; }
+@media (min-width: 900px) { .topic-section { margin-bottom: 56px; } }
 
-/* Correct state — only visible after reveal */
-.q-card.revealed .opt-item.correct{background:var(--correct-bg);border-color:var(--correct-border);color:var(--correct-text);font-weight:600}
+/* Topic header: light variant — consistent with body */
+.topic-header {
+  display: flex; align-items: flex-start; gap: 12px;
+  margin-bottom: 16px; padding: 14px 16px;
+  background: var(--surf);
+  border: 1px solid var(--bdr);
+  border-left: 4px solid var(--acc);
+  border-radius: var(--r-md);
+  box-shadow: var(--sh-sm);
+}
+.topic-index {
+  font-family: var(--mono); font-size: 1rem; font-weight: 700;
+  color: var(--acc); opacity: 0.3; flex-shrink: 0;
+  line-height: 1; margin-top: 3px; min-width: 28px;
+}
+.topic-info { flex: 1; min-width: 0; }
+.topic-name {
+  font-family: var(--serif); font-weight: 700; font-size: 1.05rem;
+  color: var(--txt); line-height: 1.25; margin-bottom: 4px;
+}
+.topic-sub {
+  font-size: 0.78rem; color: var(--txt3); line-height: 1.4;
+}
+.topic-source {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--mono); font-size: 0.62rem;
+  color: var(--txt3); margin-top: 6px;
+}
+.topic-right {
+  display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0;
+}
+.topic-badge {
+  background: var(--acc-light); color: var(--acc);
+  font-family: var(--mono); font-size: 0.65rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 12px; white-space: nowrap;
+  border: 1px solid var(--acc-mid);
+}
+/* mini progress per topic */
+.topic-progress {
+  font-family: var(--mono); font-size: 0.6rem;
+  color: var(--txt3); white-space: nowrap;
+}
+.topic-progress-bar {
+  height: 3px; width: 56px; border-radius: 2px;
+  background: var(--bg3); overflow: hidden; margin-top: 3px;
+}
+.topic-progress-fill {
+  height: 100%; border-radius: 2px;
+  background: var(--acc); transition: width 0.4s var(--ease);
+}
 
-.opt-letter{font-family:var(--mono);font-size:.72rem;font-weight:700;color:var(--ink4);flex-shrink:0;margin-top:1px;min-width:18px}
-.q-card.revealed .opt-item.correct .opt-letter{color:var(--correct-text)}
-.opt-tick{margin-left:auto;font-size:.9rem;flex-shrink:0;display:none}
-.q-card.revealed .opt-item.correct .opt-tick{display:inline}
+/* ══════════════════════════════════════════
+   QUESTION CARDS
+══════════════════════════════════════════ */
+.q-card {
+  background: var(--surf);
+  border: 1px solid var(--bdr);
+  border-radius: var(--r-md);
+  margin-bottom: 12px;
+  box-shadow: var(--sh-sm);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  overflow: hidden;
+}
+.q-card:hover { box-shadow: var(--sh-md); border-color: var(--bdr2); }
 
-/* ══ REVEAL BUTTON ══ */
-.reveal-btn{width:100%;padding:11px 18px;border:1.5px solid var(--accent-mid);border-radius:var(--r-md);background:var(--accent-dim);color:var(--accent);font-family:var(--sans);font-size:.82rem;font-weight:700;letter-spacing:.02em;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .2s,border-color .2s,transform .1s;margin-bottom:14px;-webkit-tap-highlight-color:transparent}
-.reveal-btn:hover{background:var(--accent-mid);border-color:var(--accent)}
-.reveal-btn:active{transform:scale(.98)}
-.reveal-btn .btn-icon{font-size:1rem;transition:transform .3s}
-.q-card.revealed .reveal-btn{background:var(--green-dim);border-color:var(--green-border);color:var(--green);cursor:default}
-.q-card.revealed .reveal-btn .btn-icon{transform:rotate(360deg)}
+/* meta row */
+.q-meta {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 16px 9px;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--bdr);
+  gap: 8px;
+}
+.q-meta-left { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.q-year-badge {
+  font-family: var(--mono); font-size: 0.62rem; font-weight: 600;
+  letter-spacing: 0.05em;
+  background: var(--dark-bg); color: rgba(255,255,255,0.85);
+  padding: 3px 9px; border-radius: var(--r-sm);
+}
+.q-num-badge {
+  font-family: var(--mono); font-size: 0.7rem; font-weight: 700;
+  color: var(--acc);
+}
+.q-instruction {
+  font-size: 0.7rem; color: var(--txt3); font-style: italic;
+  white-space: nowrap;
+}
+.q-card.revealed .q-instruction { color: var(--correct-txt); font-style: normal; font-weight: 600; }
+.q-card.revealed-wrong .q-instruction { color: var(--wrong-txt); font-style: normal; font-weight: 600; }
 
-/* ══ EXPLANATION ══ */
-.q-exp{background:var(--reveal-bg);border:1px solid var(--reveal-border);border-radius:var(--r-md);padding:14px 16px;font-size:.83rem;color:var(--green);line-height:1.65;display:none}
-.q-card.revealed .q-exp{display:block}
-.exp-label{font-family:var(--mono);font-size:.62rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green);opacity:.7;margin-bottom:6px}
+/* question text */
+.q-text {
+  padding: 16px 16px 12px;
+  font-family: var(--sans); font-size: 0.92rem;
+  font-weight: 500; line-height: 1.75; color: var(--txt);
+  white-space: pre-wrap;
+}
 
-/* ══ FOOTER ══ */
-.site-footer{background:var(--ink);color:rgba(240,244,255,.5);text-align:center;padding:24px 16px;font-size:.78rem;margin-top:48px}
-.site-footer a{color:rgba(26,86,219,.8);text-decoration:none}
-.site-footer a:hover{color:#60a5fa}
-.footer-logo{font-family:var(--serif);font-size:1rem;font-weight:700;color:rgba(240,244,255,.8);margin-bottom:6px}
+/* options */
+.opts-grid {
+  display: flex; flex-direction: column; gap: 7px;
+  padding: 0 14px 14px;
+}
+.opt-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 11px 13px; border-radius: var(--r-sm);
+  background: var(--bg2); border: 2px solid var(--bdr);
+  font-size: 0.875rem; line-height: 1.55; color: var(--txt2);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+  user-select: none; -webkit-tap-highlight-color: transparent;
+  /* ensure touch target height */
+  min-height: 44px;
+}
+.q-card:not(.revealed) .opt-item:hover {
+  border-color: var(--acc-mid); background: var(--surf);
+  transform: translateY(-1px);
+}
+.q-card:not(.revealed) .opt-item:active { transform: translateY(0); }
+.q-card.revealed .opt-item { cursor: default; }
 
-/* ══ SCROLL TOP ══ */
-#scrollTop{position:fixed;bottom:20px;right:16px;width:40px;height:40px;border-radius:50%;background:var(--accent);color:#fff;border:none;font-size:1.1rem;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:var(--shadow-md);z-index:300;transition:background .2s,transform .15s}
-#scrollTop.vis{display:flex}
-#scrollTop:hover{background:var(--ink);transform:translateY(-2px)}
+.opt-letter {
+  font-family: var(--mono); font-size: 0.72rem; font-weight: 700;
+  color: var(--txt3); flex-shrink: 0; padding-top: 1px;
+  min-width: 18px; line-height: 1.55;
+  transition: color 0.15s;
+}
+.opt-text { flex: 1; }
+.opt-icon {
+  font-size: 0.9rem; flex-shrink: 0;
+  display: none; margin-left: auto; padding-left: 6px;
+  line-height: 1.55;
+}
+
+/* answer states */
+.q-card.revealed .opt-item { opacity: 0.55; }
+.q-card.revealed .opt-item.is-correct {
+  opacity: 1; background: var(--correct-bg);
+  border-color: var(--correct-bdr); color: var(--correct-txt); font-weight: 600;
+  box-shadow: 0 2px 8px rgba(22,163,74,0.1);
+}
+.q-card.revealed .opt-item.is-correct .opt-letter { color: var(--correct-bdr); }
+.q-card.revealed .opt-item.is-correct .opt-icon { display: block; color: var(--correct-bdr); }
+.q-card.revealed .opt-item.is-wrong {
+  opacity: 1; background: var(--wrong-bg);
+  border-color: var(--wrong-bdr); color: var(--wrong-txt); font-weight: 600;
+}
+.q-card.revealed .opt-item.is-wrong .opt-letter { color: var(--wrong-bdr); }
+.q-card.revealed .opt-item.is-wrong .opt-icon { display: block; color: var(--wrong-bdr); }
+
+/* reveal button */
+.reveal-btn {
+  width: calc(100% - 28px); margin: 0 14px 14px;
+  padding: 11px 16px;
+  border: 1.5px solid var(--acc-mid);
+  border-radius: var(--r-md);
+  background: var(--acc-light); color: var(--acc);
+  font-family: var(--sans); font-size: 0.85rem; font-weight: 700;
+  letter-spacing: 0.01em; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+  transition: all 0.18s var(--ease);
+  -webkit-tap-highlight-color: transparent;
+  min-height: 44px;
+}
+.reveal-btn:hover { background: var(--acc-mid); border-color: var(--acc); }
+.reveal-btn:active { transform: scale(0.98); }
+.q-card.revealed .reveal-btn { display: none; }
+
+/* explanation */
+.q-exp {
+  display: none;
+  margin: 0 14px 14px;
+  padding: 13px 14px;
+  background: var(--amber-dim);
+  border-left: 3px solid var(--amber);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  font-size: 0.85rem; line-height: 1.7; color: var(--txt);
+  animation: expIn 0.25s var(--ease) both;
+}
+@keyframes expIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.q-card.revealed .q-exp { display: block; }
+.exp-label {
+  font-family: var(--mono); font-size: 0.6rem; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--amber); margin-bottom: 7px;
+  display: flex; align-items: center; gap: 5px;
+}
+
+/* ══════════════════════════════════════════
+   RELATED SUBJECTS (SEO internal links)
+══════════════════════════════════════════ */
+.related-section {
+  max-width: 1100px; margin: 0 auto;
+  padding: 0 14px 60px;
+}
+@media (min-width: 900px) { .related-section { padding: 0 28px 80px; } }
+
+.related-hd {
+  font-family: var(--serif); font-weight: 700; font-size: 1.05rem;
+  color: var(--txt); margin-bottom: 14px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--bdr);
+}
+.related-grid {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.related-pill {
+  display: flex; align-items: center; gap: 7px;
+  padding: 9px 16px;
+  background: var(--surf); border: 1px solid var(--bdr);
+  border-radius: var(--r-md); font-size: 0.83rem; font-weight: 500;
+  color: var(--txt2); text-decoration: none;
+  box-shadow: var(--sh-sm);
+  transition: all 0.18s var(--ease);
+}
+.related-pill:hover { background: var(--bg2); border-color: var(--bdr2); color: var(--txt); transform: translateY(-1px); }
+.related-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+/* ══════════════════════════════════════════
+   FOOTER
+══════════════════════════════════════════ */
+.site-footer {
+  background: var(--dark-bg);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 36px 16px 28px;
+  text-align: center;
+}
+.footer-logo {
+  font-family: var(--serif); font-weight: 800; font-size: 1.15rem;
+  color: #fff; letter-spacing: -0.02em; margin-bottom: 16px;
+}
+.footer-logo span { color: var(--acc); }
+.footer-links {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 10px 18px; margin-bottom: 16px;
+}
+.footer-links a {
+  font-size: 0.83rem; color: rgba(255,255,255,0.5); text-decoration: none; font-weight: 500;
+  transition: color 0.15s;
+}
+.footer-links a:hover { color: var(--acc); }
+.footer-copy { font-size: 0.75rem; color: rgba(255,255,255,0.3); }
+
+/* ══════════════════════════════════════════
+   SCROLL TOP
+══════════════════════════════════════════ */
+#scrollTop {
+  position: fixed; bottom: 20px; right: 16px; z-index: 400;
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--acc); color: #fff; border: none;
+  font-size: 1.1rem; display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  opacity: 0; transform: translateY(12px);
+  transition: all 0.25s var(--ease);
+  box-shadow: var(--sh-md);
+}
+#scrollTop.vis { opacity: 1; transform: translateY(0); }
+#scrollTop:hover { background: var(--acc2); transform: translateY(-2px) scale(1.05); }
+/* avoid overlap with any floating elements */
+@media (min-width: 900px) { #scrollTop { bottom: 28px; right: 28px; } }
 </style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCYMK6396B"></script>
@@ -182,66 +622,118 @@ body{font-family:var(--sans);background:var(--bg);color:var(--ink);min-height:10
   gtag('config', 'G-XCYMK6396B');
 </script>
 </head>
-
 <body>
 
-<!-- ══ HEADER ══ -->
-<header class="site-header">
-  <a href="../index.html" class="logo">
-    <span class="logo-dot"></span>UPSC A2Z
+<!-- ═══ HEADER ═══ -->
+<header class="site-header" role="banner">
+  <a class="logo" href="../index.html" aria-label="UPSC A2Z Home">
+    <span class="logo-icon" aria-hidden="true">📋</span>
+    UPSC <span>A2Z</span>
   </a>
-  <span class="header-pill">Int'l Relations PYQ</span>
+  <div class="header-right">
+    <span class="header-pill">PYQ Bank</span>
+    <a class="header-cta" href="../tracker.html">
+      <span class="header-cta-text">Open Tracker </span>→
+    </a>
+  </div>
 </header>
 
-<!-- ══ MOBILE TOPIC NAV ══ -->
-<nav class="topic-nav-wrap" aria-label="Topic navigation">
+<!-- ═══ BREADCRUMB ═══ -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="../index.html">Home</a>
+  <span class="sep" aria-hidden="true">›</span>
+  <a href="../topics/international-relations-upsc.html">International Relations</a>
+  <span class="sep" aria-hidden="true">›</span>
+  <span class="current">PYQs 2014–2025</span>
+</nav>
+
+<!-- ═══ TOPIC NAV (mobile) ═══ -->
+<nav class="topic-nav-wrap" aria-label="Jump to topic">
   <div class="topic-nav" id="mobilenav"></div>
 </nav>
 
-<!-- ══ HERO ══ -->
-<section class="hero">
-  <div class="hero-glyph">🌐</div>
-  <div class="hero-tag">UPSC Prelims · PYQ · GS-II</div>
-  <h1>International Relations<br/><span class="muted">Complete Question Bank</span></h1>
-  <p class="hero-sub">Every question asked between 2014 and 2025 — tap "Reveal Answer" to check the correct option and read the explanation.</p>
+<!-- ═══ HERO ═══ -->
+<section class="hero" aria-labelledby="page-h1">
+  <div class="hero-glyph" aria-hidden="true">🌐</div>
+  <div class="hero-eyebrow" aria-hidden="true">UPSC Prelims · Previous Year Questions</div>
+  <h1 id="page-h1">
+    International Relations UPSC PYQs
+    <span class="sub">Topic-wise questions from 2014 to 2025 — with answers &amp; explanations</span>
+  </h1>
+  <p class="hero-desc">
+    Practice every International Relations question asked in UPSC Prelims over the last 12 years.
+    Questions are sorted by topic — not year — so you can revise in sync with your syllabus.
+    Tap an option to check your answer instantly.
+  </p>
   <div class="hero-stats">
-    <div class="hstat"><strong id="stat-q">60</strong> Questions</div>
-    <div class="hstat"><strong>4</strong> Topics</div>
-    <div class="hstat"><strong>12 yrs</strong> Covered</div>
-    <div class="hstat"><strong>100%</strong> Explained</div>
+    <div class="hstat"><strong id="total-q">—</strong>&nbsp;Questions</div>
+    <div class="hstat"><strong>4</strong>&nbsp;Topics</div>
+    <div class="hstat"><strong>12 yrs</strong>&nbsp;Coverage</div>
+    <div class="hstat"><strong>Free</strong>&nbsp;· No signup</div>
   </div>
 </section>
 
-<!-- ══ BREADCRUMB ══ -->
-<nav class="breadcrumb">
-  <a href="../index.html">Home</a>
-  <span class="sep">›</span>
-  <span>International Relations</span>
-  <span class="sep">›</span>
-  Previous Year Questions
-</nav>
-
-<!-- ══ BODY ══ -->
+<!-- ═══ PAGE BODY ═══ -->
 <div class="page-body">
-  <aside class="sidebar">
-    <p class="sidebar-title">Topics</p>
+
+  <!-- Sidebar (desktop only) -->
+  <aside class="sidebar" aria-label="Topic navigation">
+    <p class="sidebar-hd">Topics</p>
     <ul class="sidebar-list" id="sidenav"></ul>
   </aside>
-  <main class="main-content" id="topics-root"></main>
+
+  <!-- Main content area -->
+  <main class="main-content" id="topics-root" aria-label="Question bank"></main>
+
 </div>
 
-<!-- ══ FOOTER ══ -->
-<footer class="site-footer">
-  <div class="footer-logo">UPSC A2Z</div>
-  <div style="margin-top:6px">
-    <a href="../index.html">Open Tracker →</a>
-  </div>
-  <div style="margin-top:8px;font-size:.7rem;opacity:.5">Free for every UPSC aspirant</div>
+<!-- ═══ RELATED SUBJECTS ═══ -->
+<section class="related-section" aria-labelledby="related-hd">
+  <p class="related-hd" id="related-hd">Also practice: other GS Paper 2 subjects</p>
+  <nav class="related-grid" aria-label="Other subject PYQs">
+    <a href="./indian-polity-upsc-pyq.html" class="related-pill">
+      <span class="related-dot" style="background:#283593" aria-hidden="true"></span>Indian Polity PYQs
+    </a>
+    <a href="./indian-economy-upsc-pyq.html" class="related-pill">
+      <span class="related-dot" style="background:#15803d" aria-hidden="true"></span>Indian Economy PYQs
+    </a>
+    <a href="./world-geography-upsc-pyq.html" class="related-pill">
+      <span class="related-dot" style="background:#0f766e" aria-hidden="true"></span>World Geography PYQs
+    </a>
+    <a href="./modern-history-upsc-pyq.html" class="related-pill">
+      <span class="related-dot" style="background:#c0392b" aria-hidden="true"></span>Modern History PYQs
+    </a>
+    <a href="./environment-upsc-pyq.html" class="related-pill">
+      <span class="related-dot" style="background:#15803d" aria-hidden="true"></span>Environment &amp; Ecology PYQs
+    </a>
+    <a href="../PYQ/index.html" class="related-pill">
+      <span class="related-dot" style="background:#796f62" aria-hidden="true"></span>Full PYQ Bank →
+    </a>
+  </nav>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-logo">UPSC <span>A2Z</span></div>
+  <nav class="footer-links" aria-label="Footer navigation">
+    <a href="../index.html">Home</a>
+    <a href="../tracker.html">Topic Tracker</a>
+    <a href="../PYQ/index.html">PYQ Bank</a>
+    <a href="../topics/international-relations-upsc.html">International Relations Topics</a>
+  </nav>
+  <p class="footer-copy">Free, ad-free resource for every UPSC aspirant · © 2026 UPSC A2Z</p>
 </footer>
 
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+// ═══════════════════════════════════════════
+// DATA — unchanged from original
+// ═══════════════════════════════════════════
+
+// ═══════════════════════════════════════════
+// DATA — updated with 1992-2025 questions
+// ═══════════════════════════════════════════
 const DATA = [
   {
     "name": "India's Foreign Policy — Non-Alignment, Nuclear Policy, Key Treaties",
@@ -526,98 +1018,158 @@ const DATA = [
     ]
   }
 ];
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+let totalCount = 0;
+DATA.forEach(t => totalCount += t.questions.length);
+document.getElementById('total-q').textContent = totalCount;
 
-const LETTERS = ['A','B','C','D'];
+const LETTERS = ['a','b','c','d'];
 
 function slug(s) {
   return 'topic-' + s.split('—')[0].trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 }
-function shortName(s) {
-  return s.split('—')[0].trim();
-}
+function shortName(s) { return s.split('—')[0].trim(); }
 
-// Update hero stat
-let total = DATA.reduce((a,t) => a + t.questions.length, 0);
-document.getElementById('stat-q').textContent = total;
-
-// Build mobile pill nav + sidebar
 const mobileNav = document.getElementById('mobilenav');
 const sideNav   = document.getElementById('sidenav');
+const root      = document.getElementById('topics-root');
 
-DATA.forEach((t, i) => {
+DATA.forEach((t, ti) => {
+  if (t.questions.length === 0) return;
   const id   = slug(t.name);
   const name = shortName(t.name);
 
+  // Mobile nav pill
   const a1 = document.createElement('a');
   a1.href = '#' + id;
   a1.textContent = name;
   mobileNav.appendChild(a1);
 
+  // Sidebar link
   const li = document.createElement('li');
   li.innerHTML = `<a href="#${id}"><span>${name}</span><span class="sidebar-count">${t.questions.length}</span></a>`;
   sideNav.appendChild(li);
-});
 
-// Build question sections
-const root = document.getElementById('topics-root');
-
-DATA.forEach((t, ti) => {
-  const id    = slug(t.name);
+  // ── Topic section ──
   const parts = t.name.split('—').map(s => s.trim());
-  const num   = String(ti + 1).padStart(2, '0');
-
   const sec = document.createElement('section');
   sec.className = 'topic-section';
   sec.id = id;
 
+  const idxStr = String(ti + 1).padStart(2,'0');
+
+  // Per-topic progress tracking
   sec.innerHTML = `
     <div class="topic-header">
-      <span class="topic-index">${num}</span>
+      <span class="topic-index">${idxStr}</span>
       <div class="topic-info">
-        <div class="topic-name">${parts[0]}</div>
+        <h2 class="topic-name">${parts[0]}</h2>
         ${parts[1] ? `<div class="topic-sub">${parts[1]}</div>` : ''}
-        <div class="topic-source">Source · ${t.source}</div>
+        <div class="topic-source">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 016.5 2H20v20H6.5a2.5 2.5 0 010-5H20"/></svg>
+          ${t.source}
+        </div>
       </div>
-      <span class="topic-badge">${t.questions.length} Q</span>
+      <div class="topic-right">
+        <span class="topic-badge">${t.questions.length} Q${t.questions.length > 1 ? 's' : ''}</span>
+        <span class="topic-progress" id="prog-txt-${id}">0 / ${t.questions.length} done</span>
+        <div class="topic-progress-bar">
+          <div class="topic-progress-fill" id="prog-bar-${id}" style="width:0%"></div>
+        </div>
+      </div>
     </div>
   `;
 
+  let answeredCount = 0;
+
+  // ── Question cards ──
   t.questions.forEach((q, qi) => {
     const card = document.createElement('div');
     card.className = 'q-card';
 
-    const opts = q.opts.map((o, oi) => `
-      <div class="opt-item${oi === q.ans ? ' correct' : ''}">
-        <span class="opt-letter">${LETTERS[oi]}.</span>
+    const optsHtml = q.opts.map((o, oi) => `
+      <div class="opt-item" data-idx="${oi}" role="button" tabindex="0" aria-label="Option ${LETTERS[oi]}: ${o}">
+        <span class="opt-letter" aria-hidden="true">(${LETTERS[oi]})</span>
         <span class="opt-text">${o}</span>
-        <span class="opt-tick">✓</span>
+        <span class="opt-icon" aria-hidden="true"></span>
       </div>
     `).join('');
 
     card.innerHTML = `
       <div class="q-meta">
-        <span class="q-year-badge">UPSC ${q.yr}</span>
-        <span class="q-num-badge">Q${qi + 1}</span>
+        <div class="q-meta-left">
+          <span class="q-year-badge">UPSC ${q.yr}</span>
+          <span class="q-num-badge">Q${qi+1}</span>
+        </div>
+        <span class="q-instruction">Tap an option or Reveal</span>
       </div>
       <div class="q-text">${q.q}</div>
-      <div class="opts-grid">${opts}</div>
-      <button class="reveal-btn" aria-label="Reveal answer">
-        <span class="btn-icon">🔍</span> Reveal Answer
+      <div class="opts-grid" role="group" aria-label="Answer options">${optsHtml}</div>
+      <button class="reveal-btn" aria-label="Reveal correct answer">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        Reveal Answer
       </button>
-      <div class="q-exp">
-        <div class="exp-label">💡 Explanation</div>
+      <div class="q-exp" role="note">
+        <div class="exp-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          Explanation
+        </div>
         ${q.exp}
       </div>
     `;
 
-    // Reveal button logic
-    const btn = card.querySelector('.reveal-btn');
-    btn.addEventListener('click', () => {
+    const optEls     = card.querySelectorAll('.opt-item');
+    const instruction = card.querySelector('.q-instruction');
+    const revealBtn   = card.querySelector('.reveal-btn');
+
+    function updateProgress() {
+      answeredCount++;
+      const pct = Math.round((answeredCount / t.questions.length) * 100);
+      const txtEl = document.getElementById(`prog-txt-${id}`);
+      const barEl = document.getElementById(`prog-bar-${id}`);
+      if (txtEl) txtEl.textContent = `${answeredCount} / ${t.questions.length} done`;
+      if (barEl) barEl.style.width = pct + '%';
+    }
+
+    function reveal(clickedIdx) {
       if (card.classList.contains('revealed')) return;
       card.classList.add('revealed');
-      btn.innerHTML = '<span class="btn-icon">✅</span> Answer Revealed';
-      btn.setAttribute('aria-label', 'Answer revealed');
+
+      if (clickedIdx !== undefined) {
+        const clicked = optEls[clickedIdx];
+        if (clickedIdx === q.ans) {
+          clicked.classList.add('is-correct');
+          clicked.querySelector('.opt-icon').textContent = '✓';
+          instruction.textContent = '✓ Correct';
+        } else {
+          clicked.classList.add('is-wrong');
+          clicked.querySelector('.opt-icon').textContent = '✗';
+          instruction.textContent = '✗ Incorrect';
+          optEls[q.ans].classList.add('is-correct');
+          optEls[q.ans].querySelector('.opt-icon').textContent = '✓';
+        }
+      } else {
+        // Reveal-only (no selection)
+        optEls[q.ans].classList.add('is-correct');
+        optEls[q.ans].querySelector('.opt-icon').textContent = '✓';
+        instruction.textContent = 'Answer Shown';
+      }
+      updateProgress();
+    }
+
+    optEls.forEach(opt => {
+      opt.addEventListener('click', () => reveal(parseInt(opt.dataset.idx)));
+      // keyboard support
+      opt.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          reveal(parseInt(opt.dataset.idx));
+        }
+      });
     });
+    revealBtn.addEventListener('click', () => reveal());
 
     sec.appendChild(card);
   });
@@ -625,25 +1177,34 @@ DATA.forEach((t, ti) => {
   root.appendChild(sec);
 });
 
-// Active scroll state
+// ═══════════════════════════════════════════
+// SCROLL TRACKING
+// ═══════════════════════════════════════════
 const sections    = Array.from(document.querySelectorAll('.topic-section'));
 const sideLinks   = Array.from(document.querySelectorAll('.sidebar-list a'));
 const mobileLinks = Array.from(document.querySelectorAll('.topic-nav a'));
-const allLinks    = [...sideLinks, ...mobileLinks];
+const allNavLinks = [...sideLinks, ...mobileLinks];
 const scrollBtn   = document.getElementById('scrollTop');
-const offset      = 52 + 48 + 20;
+// offset = header + topic-nav (mobile) or just header (desktop)
+function getOffset() {
+  return window.innerWidth < 900
+    ? parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) + 46 + 10
+    : parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) + 20;
+}
 
 function onScroll() {
-  let active = sections[0];
+  const offset = getOffset();
+  let activeSec = sections[0];
   for (const s of sections) {
-    if (s.getBoundingClientRect().top <= offset) active = s;
+    if (s.getBoundingClientRect().top <= offset) activeSec = s;
   }
-  allLinks.forEach(a => {
-    a.classList.toggle('active', a.getAttribute('href') === '#' + active.id);
+  allNavLinks.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + activeSec?.id);
   });
-  const activeMobile = mobileLinks.find(a => a.classList.contains('active'));
-  if (activeMobile) activeMobile.scrollIntoView({ behavior:'smooth', block:'nearest', inline:'center' });
-  scrollBtn.classList.toggle('vis', window.scrollY > 400);
+  // Auto-scroll mobile nav pill into view
+  const activeMob = mobileLinks.find(a => a.classList.contains('active'));
+  if (activeMob) activeMob.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  scrollBtn.classList.toggle('vis', window.scrollY > 350);
 }
 
 window.addEventListener('scroll', onScroll, { passive: true });
