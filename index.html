@@ -109,10 +109,24 @@
 }
 </script>
 
-<!-- Fonts -->
+<!-- Fonts: preload + async-swap (loadCSS pattern) so the Google Fonts request no
+     longer blocks first render; weight list trimmed to exactly what the CSS below
+     uses (Bricolage 700/800, IBM Plex Sans 400/500/600/700 — was requesting 400 &
+     600 for Bricolage and missing 700 for IBM Plex Sans, neither of which matched
+     actual usage). font-display=swap is already set via the Google Fonts param. -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"/></noscript>
+
+<!-- Preload the LCP hero image so the browser can start fetching it before it
+     reaches the <img> tag in the body, instead of discovering it only after
+     the render-blocking CSS/fonts above have resolved. -->
+<link rel="preload" as="image" fetchpriority="high"
+      imagesrcset="./assets/hero/tracker-dashboard-480.webp 480w, ./assets/hero/tracker-dashboard-768.webp 768w, ./assets/hero/tracker-dashboard-1024.webp 1024w, ./assets/hero/tracker-dashboard-1600.webp 1600w"
+      imagesizes="(max-width: 940px) calc(100vw - 40px), 900px"
+      type="image/webp"/>
 
 <style>
 /* ══════════════════════════════════════════
@@ -206,16 +220,6 @@ body {
   text-decoration: none; border-radius: var(--r2); transition: all 0.2s var(--ease);
 }
 .nav-links a:hover { color: var(--txt); background: rgba(0,0,0,0.05); }
-.nav-badge-soon {
-  position: relative; opacity: 0.6; pointer-events: none;
-}
-.nav-badge-soon::after {
-  content: 'Soon'; position: absolute; top: -4px; right: -4px;
-  font-size: 0.58rem; font-weight: 700;
-  background: var(--amber); color: #fff;
-  border-radius: 4px; padding: 1px 5px;
-  letter-spacing: 0.04em;
-}
 .nav-cta {
   padding: 9px 20px;
   background: var(--acc); color: #fff;
@@ -614,7 +618,9 @@ body {
 .subjects { max-width: 1100px; margin: 0 auto; padding: 0 20px 80px; }
 .subject-grid {
   display: flex; flex-wrap: wrap; gap: 10px; margin-top: 36px;
+  list-style: none; padding: 0;
 }
+.subject-grid > li { display: contents; }
 .subj-pill {
   display: flex; align-items: center; gap: 8px;
   padding: 10px 18px; background: var(--surf);
@@ -760,13 +766,33 @@ body {
 ══════════════════════════════════════════ */
 .txt-center { text-align: center; }
 </style>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XCYMK6396B"></script>
+<!-- Google Analytics: dataLayer + gtag() are defined immediately so no events
+     are ever dropped, but the actual ~155KB gtag.js payload is only requested
+     after the window has finished loading (plus a short idle delay), so it
+     never competes with the initial render/interactivity budget. -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-XCYMK6396B');
+
+  function loadGtagScript() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XCYMK6396B';
+    document.head.appendChild(s);
+  }
+  if (document.readyState === 'complete') {
+    loadGtagScript();
+  } else {
+    window.addEventListener('load', function () {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadGtagScript, { timeout: 3000 });
+      } else {
+        setTimeout(loadGtagScript, 1500);
+      }
+    });
+  }
 </script>
 </head>
 <body>
@@ -875,13 +901,23 @@ body {
           </div>
           <div class="browser-url">upsca2z.com</div>
         </div>
-        <img
-          src="./assets/tracker-dashboard.jpg"
-          alt="UPSC A2Z topic tracker dashboard showing GS Paper 1 progress, Ancient History topics marked done and revised, and source book references"
-          width="1600" height="902"
-          loading="eager"
-          fetchpriority="high"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/hero/tracker-dashboard-480.webp 480w, ./assets/hero/tracker-dashboard-768.webp 768w, ./assets/hero/tracker-dashboard-1024.webp 1024w, ./assets/hero/tracker-dashboard-1600.webp 1600w"
+            sizes="(max-width: 940px) calc(100vw - 40px), 900px"
+          />
+          <img
+            src="./assets/hero/tracker-dashboard-1024.jpg"
+            srcset="./assets/hero/tracker-dashboard-480.jpg 480w, ./assets/hero/tracker-dashboard-768.jpg 768w, ./assets/hero/tracker-dashboard-1024.jpg 1024w, ./assets/hero/tracker-dashboard-1600.jpg 1600w"
+            sizes="(max-width: 940px) calc(100vw - 40px), 900px"
+            alt="UPSC A2Z topic tracker dashboard showing GS Paper 1 progress, Ancient History topics marked done and revised, and source book references"
+            width="1600" height="902"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </picture>
       </div>
       <p class="hero-preview-caption">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -1044,76 +1080,76 @@ body {
       <p class="sec-sub">Click any subject to jump straight into its topics and PYQs.</p>
     </div>
 
-    <div class="subject-grid" role="list">
-      <a href="./topics/ancient-history-upsc.html" class="subj-pill" role="listitem">
+    <ul class="subject-grid">
+      <li><a href="./topics/ancient-history-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#c0392b" aria-hidden="true"></span>
         Ancient History
-      </a>
-      <a href="./topics/medieval-history-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/medieval-history-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#c0392b" aria-hidden="true"></span>
         Medieval History
-      </a>
-      <a href="./topics/modern-history-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/modern-history-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#c0392b" aria-hidden="true"></span>
         Modern History
-      </a>
-      <a href="./topics/art-culture-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/art-culture-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#b45309" aria-hidden="true"></span>
         Art &amp; Culture
-      </a>
-      <a href="./topics/indian-polity-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/indian-polity-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#1565c0" aria-hidden="true"></span>
         Indian Polity
-      </a>
-      <a href="./topics/indian-economy-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/indian-economy-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#1e6b32" aria-hidden="true"></span>
         Indian Economy
-      </a>
-      <a href="./topics/world-geography-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/world-geography-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#0f766e" aria-hidden="true"></span>
         World Geography
-      </a>
-      <a href="./topics/indian-geography-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/indian-geography-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#0f766e" aria-hidden="true"></span>
         Indian Geography
-      </a>
-      <a href="./topics/environment-ecology-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/environment-ecology-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#1e6b32" aria-hidden="true"></span>
         Environment &amp; Ecology
-      </a>
-      <a href="./topics/science-technology-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/science-technology-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#5b21b6" aria-hidden="true"></span>
         Science &amp; Technology
-      </a>
-      <a href="./topics/current-affairs-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/current-affairs-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#c0392b" aria-hidden="true"></span>
         Current Affairs
-      </a>
-      <a href="./topics/international-relations-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/international-relations-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#1565c0" aria-hidden="true"></span>
         International Relations
-      </a>
-      <a href="./topics/csat-reading-comprehension-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/csat-reading-comprehension-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#b45309" aria-hidden="true"></span>
         CSAT Comprehension
-      </a>
-      <a href="./topics/csat-numeracy-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/csat-numeracy-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#b45309" aria-hidden="true"></span>
         CSAT Quantitative Aptitude
-      </a>
-      <a href="./topics/csat-logical-reasoning-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/csat-logical-reasoning-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#b45309" aria-hidden="true"></span>
         CSAT Reasoning
-      </a>
-      <a href="./topics/csat-interpersonal-decision-making-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/csat-interpersonal-decision-making-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#b45309" aria-hidden="true"></span>
         CSAT Decision Making
-      </a>
-      <a href="./topics/governance-social-justice-upsc.html" class="subj-pill" role="listitem">
+      </a></li>
+      <li><a href="./topics/governance-social-justice-upsc.html" class="subj-pill">
         <span class="subj-dot" style="background:#0f766e" aria-hidden="true"></span>
         Social Issues
-      </a>
-    </div>
+      </a></li>
+    </ul>
   </section>
 
   <!-- ═══════════════════════════════
