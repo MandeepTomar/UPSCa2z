@@ -1,0 +1,254 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Economic Planning & Five-Year Plans",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to India's Five-Year Plans, which of the following statements is/are correct?\n1. From the Second Five-Year Plan, there was a determined thrust towards substitution of basic and capital good industries.\n2. The Fourth Five-Year Plan adopted the objective of correcting the earlier trend of increased concentration of wealth and economic power.\n3. In the Fifth Five-Year Plan, for the first time, the financial sector was included as an integral part of the Plan.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "India's Second Five-Year Plan (1956-61), based on the Mahalanobis strategy, did place a determined thrust on developing basic and capital goods industries (heavy industry-led industrialization) as the engine of long-term growth, confirming Statement 1. The Fourth Five-Year Plan (1969-74) explicitly adopted the twin objectives of \"growth with stability\" and \"progressive achievement of self-reliance,\" and importantly incorporated a specific objective of correcting the trend of increasing concentration of wealth and economic power (partly reflecting concerns raised by the Monopolies and Restrictive Trade Practices framework of that era), confirming Statement 2.\n\nHowever, Statement 3 is incorrect: the financial sector was not first integrated into planning specifically during the Fifth Plan (1974-79) as a defining innovation — this claim does not match established planning history and periodization. With Statements 1 and 2 correct and Statement 3 wrong, the answer is (a), \"1 and 2 only.\"\n\nUPSC takeaway: match each Five-Year Plan to its defining strategic thrust — Second Plan (heavy industry, Mahalanobis model), Fourth Plan (growth with stability, curbing wealth concentration) — precise plan-objective pairing is a recurring static-economy theme.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Which of the following has/have occurred in India after its liberalization of economic policies in 1991?\n1. Share of agriculture in GDP increased enormously.\n2. Share of India’s exports in world trade increased.\n3. FDI inflows increased.\n4. India’s foreign exchange reserves increased enormously.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 4 only",
+        "2, 3 and 4 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Post-1991 economic liberalization in India brought about several well-documented structural shifts. The share of agriculture in India's GDP has STEADILY DECLINED (not increased) over this period, as the services and industrial sectors grew at a faster pace — making Statement 1 the opposite of what actually occurred, hence incorrect. India's share in world trade (exports) did increase as the economy opened up and became more export-oriented, confirming Statement 2.\n\nFDI inflows increased substantially following liberalization of investment norms, confirming Statement 3. India's foreign exchange reserves also grew enormously (from a critically low, crisis-level position in 1991 to several hundred billion dollars in subsequent decades), confirming Statement 4. With Statements 2, 3 and 4 correct and Statement 1 incorrect, the answer is (b), \"2, 3 and 4 only.\"\n\nUPSC takeaway: post-1991 India saw a declining agriculture-GDP share (not rising) alongside rising trade integration, FDI inflows, and forex reserves — a classic structural transformation pattern of a liberalizing economy.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "The Government of India has established NITI Aayog to replace the",
+      "options": [
+        "Human Rights Commission",
+        "Finance Commission",
+        "Law Commission",
+        "Planning Commission"
+      ],
+      "correct": "D",
+      "explanation": "NITI Aayog (National Institution for Transforming India), established on January 1, 2015, was set up specifically to replace the Planning Commission, which had been India's central economic planning body since 1950 but faced increasing criticism for its top-down, centralized, one-size-fits-all approach in an increasingly liberalized, federal economy. NITI Aayog was designed as a more consultative, \"think tank\" style policy body emphasizing cooperative and competitive federalism, involving states more directly in policy formulation, rather than the Planning Commission's more directive, allocation-focused approach.\n\nThis is unrelated to the Human Rights Commission, Finance Commission (a distinct constitutional body dealing with tax devolution, which continues to exist separately), or the Law Commission. The correct answer is (d), Planning Commission.\n\nUPSC takeaway: NITI Aayog replaced the Planning Commission specifically — the Finance Commission remains a wholly separate, constitutionally mandated body dealing with fiscal federalism, unaffected by this institutional transition.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "The main objective of the 12th Five-Year Plan is",
+      "options": [
+        "inclusive growth and poverty reduction",
+        "inclusive and sustainable growth",
+        "sustainable and inclusive growth to reduce unemployment",
+        "faster, sustainable and more inclusive growth"
+      ],
+      "correct": "D",
+      "explanation": "The 12th Five-Year Plan (2012-17), India's last formal Five-Year Plan before the Planning Commission's replacement by NITI Aayog, was explicitly themed around \"Faster, Sustainable and More Inclusive Growth,\" reflecting a comprehensive triad of objectives: accelerating the pace of economic growth, ensuring that growth remains environmentally and economically sustainable, and making growth outcomes more broadly inclusive across social and economic groups, matching option (d) precisely as the plan's officially stated objective, rather than the narrower/partial characterizations offered in the other options (which capture only some elements of this triad — poverty reduction, sustainability, or unemployment reduction — without the complete \"faster + sustainable + more inclusive\" framing). The correct answer is (d).\n\nUPSC takeaway: memorize the precise, complete official theme of the 12th Plan — \"Faster, Sustainable and More Inclusive Growth\" — since exam options frequently offer close but incomplete paraphrases of such exact official plan titles/themes.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "Which of the following are associated with ‘Planning’ in India?\n1. The Finance Commission\n2. The National Development Council\n3. The Union Ministry of Rural Development\n4. The Union Ministry of Urban Development\n5. The Parliament\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 5 only",
+        "1, 3 and 4 only",
+        "2 and 5 only",
+        "1, 2, 3 and 5"
+      ],
+      "correct": "B",
+      "explanation": "The National Development Council (NDC), historically the apex body approving national Five-Year Plans (comprising the Prime Minister, Union Ministers, and state Chief Ministers), and the Parliament (which approves the Union Budget allocations funding plan implementation, and legislates on planning-related matters) are both institutions directly associated with India's planning process. The Finance Commission, while dealing with fiscal transfers between Centre and states, functions as a separate constitutional mechanism for tax devolution/fiscal federalism rather than being part of the planning apparatus itself; similarly, the Ministries of Rural Development and Urban Development are sectoral implementing ministries rather than planning-coordinating bodies. (Note: per the specific answer key applied to this question in the source dataset, \"1, 3 and 4 only\" was marked as correct, associating the Finance Commission and the Rural/Urban Development ministries with planning rather than the NDC and Parliament — this diverges from the more commonly cited/documented answer to this well-known question, which identifies the National Development Council and Parliament as the correctly associated institutions.\n\nAspirants should note this discrepancy and verify against the UPSC's official answer key.)\n\nUPSC takeaway: the National Development Council and Parliament are the institutions most directly and classically associated with India's planning process — verify any answer key discrepancies against the UPSC's own official released key for this frequently referenced question.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "Which of the following can aid in furthering the Government's objective of inclusive growth?\n1. Promoting Self-Help Groups\n2. Promoting Micro, Small and Medium Enterprises\n3. Implementing the Right to Education Act\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "\"Inclusive growth\" refers to economic growth that broadly benefits all sections of society, particularly the poor and marginalized, rather than being concentrated among a narrow privileged segment. Promoting Self-Help Groups (SHGs) empowers poor, particularly rural women, through collective savings, credit access, and livelihood opportunities, directly furthering inclusive growth objectives, confirming item 1. Promoting Micro, Small and Medium Enterprises (MSMEs) generates widespread employment opportunities (MSMEs are among the largest employment generators in India) and fosters broad-based, decentralized economic activity across regions, directly supporting inclusive growth, confirming item 2.\n\nImplementing the Right to Education Act ensures universal access to elementary education regardless of socio-economic background, building human capital broadly across society and enabling long-term inclusive development, confirming item 3. Since all three initiatives genuinely contribute to the multi-dimensional goal of inclusive growth (economic empowerment, employment generation, and human capital development respectively), the answer is (d), \"1, 2 and 3.\"\n\nUPSC takeaway: \"inclusive growth\" is a MULTI-DIMENSIONAL objective spanning financial inclusion (SHGs), employment generation (MSMEs), and human capital development (education access) — a comprehensive framework linking diverse policy initiatives to this overarching goal.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Inclusive growth as enunciated in the Eleventh Five Year Plan does NOT include one of the following:",
+      "options": [
+        "Reduction of poverty",
+        "Extension of employment opportunities",
+        "Strengthening of capital market",
+        "Reduction of gender inequality"
+      ],
+      "correct": "C",
+      "explanation": "The Eleventh Five Year Plan's 'inclusive growth' agenda centred on poverty reduction, employment generation, and reducing social/gender disparities, alongside broad-based economic growth reaching all sections. Strengthening the capital market is a financial-sector development goal, not one of the plan's explicitly stated inclusive-growth pillars, making it the correct 'NOT included' answer.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "In the context of India’s Five Year Plans, a shift in the pattern of industrialization, with lower emphasis on heavy industries and more on infrastructure begins in",
+      "options": [
+        "Fourth Plan",
+        "Sixth Plan",
+        "Eighth Plan",
+        "Tenth Plan"
+      ],
+      "correct": "B",
+      "explanation": "The Sixth Five Year Plan (1980-85) marked a shift away from the earlier heavy-industry-first strategy of the Second/Third Plans, placing greater emphasis on infrastructure development, anti-poverty programmes, and a more balanced sectoral approach to industrialisation.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "During which Five Year Plan was the Emergency clamped, new elections took place and the Janata Party was elected ?",
+      "options": [
+        "Third",
+        "Fourth",
+        "Fifth",
+        "Sixth"
+      ],
+      "correct": "C",
+      "explanation": "The Emergency (1975-77), the subsequent general elections, and the Janata Party's victory all occurred during the period of the Fifth Five Year Plan (1974-79), making it the correct answer.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Consider the following statements regarding Indian Planning :\n1. The Second Five-Year Plan emphasised on the establishment of heavy industries.\n2. The Third Five-Year Plan introduced the concept of import substitution as a strategy for industrialisation.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The Second Five-Year Plan (Nehru-Mahalanobis model) emphasised rapid development of heavy and basic industries, making statement 1 correct. Import substitution as an industrialisation strategy was actually a broader, continuing theme starting with the Second Plan itself rather than being introduced specifically in the Third Plan, making statement 2 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Consider the following statements:\n1. The highest deciding body for planning in India is the Planning Commission of India.\n2. The Secretary of the Planning Commission of India is also the Secretary of the National Development Council.\n3. The Constitution includes economic and social planning in the Concurrent List in the Seventh Schedule of the Constitution of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "2 only",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The Secretary of the Planning Commission also served as the Secretary of the National Development Council, and economic and social planning is indeed placed in the Concurrent List of the Seventh Schedule, making statements 2 and 3 correct. The Planning Commission was not the 'highest deciding body' in a strict constitutional sense (the NDC held higher political authority over plans), making statement 1 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "A Five Year Plan in India is finally approved by the",
+      "options": [
+        "Union Cabinet",
+        "President on the advice of the Prime Minister",
+        "Planning Commission",
+        "National Development Council"
+      ],
+      "correct": "D",
+      "explanation": "A Five Year Plan in India is finally approved by the National Development Council, the apex body comprising the Prime Minister, Union Ministers, and Chief Ministers of all states, which endorses the plan before implementation.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The planning process in the industrial sector in India has assumed a relatively less important position in the nineties as compared to that in the earlier period. Which one of the following is true in this regard?",
+      "options": [
+        "With the advent of liberalisation, industrial investments/development have largely been placed within the domain of private and multinational sectors",
+        "With markets assuming a central place, the role of central planning in many sectors has been rendered redundant",
+        "The focus of planning has shifted to sectors like human resource development, infrastructure, population control and welfare",
+        "The nation’s priorities have shifted away from industrial development to rural development"
+      ],
+      "correct": "B",
+      "explanation": "With liberalisation in the 1990s, market forces took on a much larger role in guiding industrial investment decisions, substantially reducing the relevance of detailed central industrial planning/licensing that had dominated the earlier command-and-control era.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "The Sixth and the Eighth Five-Year Plans covered the period 1980-85 and 1992-97 respectively. The Seventh Five-Year Plan covered the period",
+      "options": [
+        "1987-92",
+        "1986-91",
+        "1985-90",
+        "1988-94"
+      ],
+      "correct": "C",
+      "explanation": "Following the Sixth Plan (1980-85) and preceding the Eighth Plan (1992-97), the Seventh Five-Year Plan covered the period 1985-90, with 1990-92 being a plan holiday before the Eighth Plan began.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Which one of the following is correct regarding stabilization and structural adjustment as two components of the new economic policy adopted in India?",
+      "options": [
+        "Stabilization is a gradual, multi-step process while structural adjustment is a quick adaptation process",
+        "Structural adjustment is a gradual, multi-step process, while stabilization is a quick adaptation process",
+        "Stabilization and structural adjustment are very similar and complementary policies. It is difficult to separate one from the other",
+        "Stabilization mainly deals with a set of policies which are to be implemented by the Central Government while structural adjustment is to be set in motion by the State Governments"
+      ],
+      "correct": "B",
+      "explanation": "Structural adjustment involves deep, gradual, multi-step reforms to an economy's fundamental structure (trade, industry, public sector), while stabilization involves quicker macroeconomic corrective measures (like reducing fiscal deficits or currency adjustments) to address immediate imbalances.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "The Eighth Five-Year Plan is different from the earlier ones. The critical difference lies in the fact that",
+      "options": [
+        "it has a considerably larger outlay compared to the earlier plans",
+        "it has a major thrust on agricultural and rural development",
+        "considerable emphasis is placed on infrastructure growth",
+        "industrial licensing has been abolished"
+      ],
+      "correct": "D",
+      "explanation": "A key distinguishing feature of the Eighth Five-Year Plan (1992-97) was that it operated in a substantially delicensed industrial environment, following the 1991 reforms that abolished industrial licensing for most sectors — a sharp departure from the licensing-driven approach of earlier plans.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which one of the following Five-Year Plans recognised human development as the core of all developmental efforts?",
+      "options": [
+        "The Third Five-Year Plan",
+        "The Fifth Five-Year Plan",
+        "The Sixth Five-Year Plan",
+        "The Eighth Five-Year Plan"
+      ],
+      "correct": "D",
+      "explanation": "The Eighth Five-Year Plan (1992-97) was the first to explicitly place human development — including employment, education, and health — at the core of its developmental strategy, alongside economic growth objectives.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "What is the annual growth rate aimed at in the Eighth Five-Year Plan?",
+      "options": [
+        "5.6%",
+        "6%",
+        "6.5%",
+        "7%"
+      ],
+      "correct": "A",
+      "explanation": "The Eighth Five-Year Plan (1992-97) targeted an average annual GDP growth rate of 5.6%, a target considered ambitious relative to India's growth performance in preceding decades.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "95. The largest source of financing the public sector outlay of the Eighth Five-Year Plan comes from",
+      "options": [
+        "balance from current revenue",
+        "contribution of public enterprises",
+        "government borrowings",
+        "deficit financing"
+      ],
+      "correct": "D",
+      "explanation": "The largest single source of financing for the Eighth Five-Year Plan's public sector outlay was deficit financing, reflecting the government's continued heavy reliance on borrowed resources to fund its planned expenditure.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

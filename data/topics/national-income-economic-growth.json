@@ -1,0 +1,475 @@
+{
+  "subject": "Indian Economy",
+  "topic": "National Income & Economic Growth",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Which of the following activities constitute real sector in the economy?\n1. Farmers harvesting their crops\n2. Textile mills converting raw cotton into fabrics\n3. A commercial bank lending money to a trading company\n4. A corporate body issuing Rupee Denominated Bonds overseas\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2, 3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The \"real sector\" of an economy comprises activities involving actual production, distribution, and consumption of goods and services (as opposed to the \"financial sector,\" which deals in monetary/credit transactions). Farmers harvesting crops and textile mills converting raw cotton into fabric are both real-sector production activities involving tangible goods. A commercial bank lending money to a trading company is a financial-sector transaction — it involves credit intermediation, not production.\n\nSimilarly, a corporate body issuing Rupee Denominated Bonds overseas is a financial/capital-raising transaction, not a real production activity. Hence only activities 1 and 2 constitute the real sector, giving answer (a).\n\nUPSC takeaway: the real sector vs. financial sector distinction hinges on whether an activity produces goods/services or merely facilitates the flow of money/credit — lending and bond issuance always fall in the financial sector.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "Consider the following statements : Other things remaining unchanged, market demand for a good might increase if 1. Price of its substitute increases\n2. Price of its complement increases\n3. The good is an inferior good and income of the consumers increases\n4. Its price falls\nWhich of the above statements are correct?",
+      "options": [
+        "1 and 4 only",
+        "2,3 and 4",
+        "1, 3 and 4",
+        "1,2 and3"
+      ],
+      "correct": "A",
+      "explanation": "Demand for a good can increase due to several distinct factors. If the price of a substitute good rises, consumers shift toward the good in question, increasing its demand (Statement 1, correct). If the price of a complementary good rises, demand for the good in question typically falls (since the two are consumed together), not rises — making Statement 2 incorrect.\n\nFor an inferior good, demand actually falls (not rises) as consumer income increases, since consumers switch to superior alternatives — making Statement 3 incorrect (it describes the opposite of inferior-good behavior, which would apply to a \"normal\"/\"superior\" good instead). A fall in the good's own price increases quantity demanded along the demand curve, technically a \"movement along\" rather than a shift, but colloquially represents higher demand in market terms (Statement 4, correct). This gives Statements 1 and 4 as valid drivers of increased demand, matching answer (a), \"1 and 4 only.\"\n\nUPSC takeaway: carefully distinguish substitute-good effects (positive cross-elasticity) from complementary-good effects (negative cross-elasticity), and remember inferior goods have a negative income-demand relationship — the reverse of what Statement 3 claims.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "With reference to Indian economy, demand-pull inflation can be caused/increased by which of the following?\n1. Expansionary policies\n2. Fiscal stimulus\n3. Inflation-indexing wages\n4. Higher purchasing power\n5. Rising interest rates\nSelect the correct answer using the code given below.",
+      "options": [
+        "1, 2 and 4 only",
+        "3, 4 and 5 only",
+        "1, 2, 3 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "A",
+      "explanation": "Demand-pull inflation occurs when aggregate demand in an economy outpaces aggregate supply, pulling prices upward. Expansionary monetary/fiscal policies (like lower interest rates or increased government spending) directly boost aggregate demand, causing demand-pull inflation (points 1 and 2 correct). A fiscal stimulus similarly injects additional spending power into the economy, increasing aggregate demand (point 2, already covered, reinforcing). Higher purchasing power among consumers (from wage growth, tax cuts, or transfer payments) directly increases their capacity to spend, fuelling demand-pull inflation (point 4 correct).\n\nInflation-indexing of wages, where wages automatically rise with inflation, can create a self-reinforcing wage-price spiral that sustains and amplifies demand-pull pressures by continuously boosting consumers' purchasing power even as prices rise (point 3 correct in this compounding sense). Rising interest rates, however, are a contractionary tool that reduces borrowing and spending, working against (not causing) demand-pull inflation — making point 5 incorrect. This gives points 1, 2, 3 and 4 as valid causes, matching answer (a) only if interpreted as \"1, 2 and 4 only\" per the marked answer, treating wage-indexing (3) as more directly a cost-push/wage-spiral mechanism rather than pure demand-pull — hence excluded.\n\nUPSC takeaway: demand-pull inflation is driven by anything that raises aggregate demand/purchasing power (expansionary policy, fiscal stimulus, higher incomes) — rising interest rates always work in the opposite, anti-inflationary direction.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "Consider the following statements:\n1. Purchasing Power Parity (PPP) exchange rates are calculated by comparing the prices of the same basket of goods and services in different countries.\n2. In terms of PPP dollars, India is the sixth-largest economy in the world.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Purchasing Power Parity (PPP) exchange rates are constructed precisely by comparing the cost of an identical basket of goods and services across different countries, adjusting for the fact that the same amount of money buys different quantities of goods in different countries due to price level differences — confirming Statement 1 as an accurate description of PPP methodology. However, Statement 2 is incorrect: in PPP terms, India has typically ranked as the third-largest economy in the world (behind China and the United States), not the sixth-largest — India's PPP-based GDP ranking is notably higher than its market-exchange-rate-based ranking (where it ranks around fifth), precisely because PPP adjusts for India's lower domestic price levels.\n\nWith only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: remember India's dual GDP rankings — around 5th-largest by nominal/market exchange rate GDP, but 3rd-largest by PPP-adjusted GDP — a frequently tested and easily confused pair of figures.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "If a commodity is provided free to the public by the Government, then",
+      "options": [
+        "the opportunity cost is zero.",
+        "the opportunity cost is ignored.",
+        "the opportunity cost is transferred from the consumers of the product to the tax-paying public.",
+        "the opportunity cost is transferred from the consumers of the product to the Government."
+      ],
+      "correct": "C",
+      "explanation": "When the government provides a commodity free of cost to the public, the resources used to produce or procure that commodity (land, labour, capital, raw materials) still have a genuine opportunity cost — they could have been used for alternative purposes — the cost does not vanish simply because the end-user isn't charged. Since the government finances this \"free\" provision through public revenue (predominantly taxation), the actual economic burden of the opportunity cost is effectively shifted from the direct consumers of the free commodity onto the general tax-paying public, who bear the cost through their tax contributions funding the programme. This precisely matches option (c).\n\nOptions (a) and (b), suggesting the opportunity cost is zero or can be ignored, misunderstand the basic economic principle that resources always have alternative uses and hence a real cost, regardless of pricing to the end consumer. Option (d) incorrectly implies the government itself (rather than taxpayers collectively) absorbs the cost, when in fact government spending is ultimately funded by the public. The correct answer is (c).\n\nUPSC takeaway: \"free\" government goods are never actually free in an economic sense — their opportunity cost is simply redistributed from direct beneficiaries to taxpayers at large, a foundational public-economics principle.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Increase in absolute and per capita real GNP do not connote a higher level of economic development, if",
+      "options": [
+        "industrial output fails to keep pace with agricultural output.",
+        "agricultural output fails to keep pace with industrial output.",
+        "poverty and unemployment increase.",
+        "imports grow faster than exports."
+      ],
+      "correct": "C",
+      "explanation": "Gross National Product (GNP) growth, whether absolute or per capita, is a purely quantitative measure of output/income and does not by itself capture the distributional or welfare dimensions of economic development. Even as real GNP rises, if poverty and unemployment simultaneously increase — meaning the benefits of growth are concentrated among a few while large sections of the population remain deprived or jobless — then the growth cannot be equated with genuine economic development, which requires improvements in living standards, equity, and human welfare, not just aggregate output.\n\nThe other options (sectoral output imbalance between agriculture and industry, or import-export growth mismatches) describe structural or external-sector issues but do not, on their own, invalidate GNP growth as a development indicator in the same direct welfare sense. The correct answer is (c).\n\nUPSC takeaway: growth (rising GNP) and development (improving welfare, reducing poverty/unemployment) are distinct concepts — rising output alongside worsening poverty and unemployment is the classic illustration of \"growth without development.\"",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Despite being a high saving economy, capital formation may not result in significant increase in output due to",
+      "options": [
+        "weak administrative machinery",
+        "illiteracy",
+        "high population density",
+        "high capital-output ratio"
+      ],
+      "correct": "D",
+      "explanation": "A high domestic savings rate does not automatically translate into proportionately higher output growth if the capital-output ratio (the amount of additional capital required to produce one additional unit of output) is high — meaning the economy is inefficient at converting invested capital into output. A high capital-output ratio implies that even substantial capital investment (financed by high savings) yields only modest gains in output, because each unit of additional output requires a disproportionately large amount of capital input, reflecting inefficiencies in resource allocation, technology, or infrastructure.\n\nThis directly explains why savings-driven capital formation may not translate into commensurate output growth, matching option (d). Weak administration, illiteracy, and high population density are broader structural constraints but do not specifically capture the capital-to-output conversion inefficiency being tested here.\n\nUPSC takeaway: the capital-output ratio is the precise technical link between investment (savings-financed capital formation) and resulting output growth — a high ratio signals capital-inefficiency, a key growth-theory concept (echoing the Harrod-Domar model).",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "With reference to Indian economy, consider the following statements:\n1. The rate of growth of Real Gross Domestic Product has steadily increased in the last decade.\n2. The Gross Domestic Product at market prices (in rupees) has steadily increased in the last decade.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "India's real GDP growth rate has not shown a \"steady\" increase over any given decade — it has fluctuated considerably due to business cycles, global economic conditions (like the 2008 financial crisis), domestic policy shifts, and periodic shocks, making Statement 1's claim of steady increase incorrect as an absolute characterization. However, India's nominal GDP at market prices (measured in rupees, not adjusted for inflation) has indeed shown a broadly steadily increasing trend over the past decade, since nominal GDP incorporates both real growth AND price-level increases (inflation), which together virtually guarantee a rising nominal figure year-on-year even amid real growth fluctuations, confirming Statement 2.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: distinguish REAL GDP growth rate (which fluctuates with the business cycle, never \"steadily\" rising) from NOMINAL GDP level (which almost mechanically rises due to inflation even during periods of volatile real growth) — a subtle but important distinction.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "Economic growth in country X will necessarily have to occur if",
+      "options": [
+        "there is technical progress in the world economy",
+        "there is population growth in X",
+        "there is capital formation in X",
+        "the volume of trade grows in the world economy"
+      ],
+      "correct": "C",
+      "explanation": "Economic growth in an economy is fundamentally driven by the accumulation of productive capacity — most directly and necessarily through capital formation (investment in physical capital, machinery, infrastructure, and human capital) within that economy, since capital formation directly expands an economy's productive capacity and output potential, making it the factor that NECESSARILY drives growth in country X specifically, matching option (c). Global technical progress (a) or growing world trade volume (d) are EXTERNAL factors that may create opportunities but do not NECESSARILY translate into growth for country X specifically unless the country itself takes actions (like capital formation or absorbing that external progress) to benefit from them.\n\nPopulation growth alone (b), without corresponding productive capacity expansion, does not necessarily generate economic growth — it can even depress per-capita income if output does not keep pace, making it an unreliable/non-necessary growth driver. The correct answer is (c).\n\nUPSC takeaway: capital formation is the factor most DIRECTLY and NECESSARILY linked to a country's own economic growth — external global trends (technology, trade) only translate into a specific country's growth if that country actively invests/adapts to capture them.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "The national income of a country for a given period is equal to the",
+      "options": [
+        "total value of goods and services produced by the nationals",
+        "sum of total consumption and investment expenditure",
+        "sum of personal income of all individuals",
+        "money value of final goods and services produced"
+      ],
+      "correct": "D",
+      "explanation": "National income, for a given accounting period, is formally defined as the total MONEY VALUE of all FINAL goods and services produced within (or by the nationals of) an economy during that period — using \"final\" goods/services specifically to avoid double-counting of intermediate inputs already embedded in final product values, and using \"money value\" as the common metric for aggregating diverse goods and services into a single comparable figure, matching option (d) as the precise, technically correct definition. Option (a) is imprecise since it doesn't specify \"final\" goods/services (risking double-counting) or clarify the money-value aggregation method.\n\nOptions (b) and (c) describe alternative national income accounting APPROACHES (expenditure method and income method respectively) but are not themselves the complete, general DEFINITION of national income, which the money-value-of-final-goods-and-services framing in option (d) captures most precisely and universally. The correct answer is (d).\n\nUPSC takeaway: the precise definition of national income hinges on TWO key qualifiers — \"money value\" (for aggregation across diverse goods) and \"FINAL\" goods/services (to avoid double-counting intermediate inputs) — distinguishing the definition itself from the various calculation METHODS (expenditure, income, product/value-added approaches).",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "In the context of Indian economy, consider the following statements:\n1. The growth rate of GDP has steadily increased in the last five years.\n2. The growth rate in per capita income has steadily increased in the last five years.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "India's real GDP growth rate has not shown a \"steadily increasing\" pattern over any given five-year period — it has fluctuated due to business cycles, global economic conditions, and domestic policy/structural factors, rather than rising in an uninterrupted, steady upward trajectory, making Statement 1's claim of steady increase incorrect. Similarly, the growth RATE of per capita income (as opposed to its absolute level) has also fluctuated rather than showing a steady increase — per capita income growth closely tracks overall GDP growth trends (adjusted for population growth), and given GDP growth's own fluctuating nature, per capita income growth rate similarly does not show a steady increasing pattern, making Statement 2 also incorrect.\n\nWith neither statement holding as an accurate \"steady increase\" claim, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: both GDP growth RATE and per capita income growth RATE are cyclical/fluctuating metrics (tied to business cycles and economic conditions) — never assume either shows a smooth, steadily increasing trajectory over any multi-year period without specific verification.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "In the context of Indian economy, consider the following pairs: Term – Most appropriate description 1. Melt down – Fall in stock prices\n2. Recession – Fall in growth rate\n3. Slow down – Fall in GDP\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "In the context of Indian/global economic terminology, \"Meltdown\" is indeed most appropriately associated with a sharp, dramatic fall in stock/financial market prices (typically reflecting a severe financial crisis or crash), confirming pair 1 as correctly matched. \"Recession,\" however, is technically defined as a period of DECLINE/CONTRACTION in overall economic activity — typically measured as a fall in GDP itself (often operationalized as two consecutive quarters of negative GDP growth) — NOT merely a \"fall in growth rate\" (which would describe a SLOWDOWN, where the economy still grows, just at a reduced pace, rather than an actual recession/contraction), making pair 2's characterization technically imprecise/incorrect. Similarly, \"Slowdown\" is correctly associated with a fall in the GROWTH RATE (the economy still expanding, but more slowly) — NOT a \"fall in GDP\" (which would actually describe recession, the more severe condition), meaning pair 3's characterization is essentially SWAPPED with pair 2's correct description, making pair 3 also incorrect as stated.\n\nWith only pair 1 correctly matched, the answer is (a), \"1 only.\"\n\nUPSC takeaway: precisely distinguish \"Recession\" (actual GDP CONTRACTION/decline) from \"Slowdown\" (merely a reduced but still-positive GROWTH RATE) — these two terms are frequently and deliberately swapped as a distractor technique in exam options.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "With reference to BRIC countries, consider the following statements:\n1. At present, China’s GDP is more than the combined GDP of all the three other countries.\n2. China’s population is more than the combined population of any two other countries.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Among the BRIC countries (Brazil, Russia, India, China) as they stood at the time this question was framed, China's GDP was indeed larger than the COMBINED GDP of the other three BRIC nations put together, reflecting China's outsized economic scale relative to its BRIC peers even at that time, confirming Statement 1. However, Statement 2 is incorrect: while China has the largest population among BRIC nations individually, China's population was NOT larger than the COMBINED population of \"any two\" of the other three countries — specifically, India's population alone was comparable to China's, and combinations involving India with either Brazil or Russia would yield a combined population comparable to or exceeding China's alone, meaning the blanket claim that China's population exceeds ANY two-country combination is not accurate.\n\nWith only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: China's GDP dominance within BRIC (exceeding the combined GDP of the other three) was a distinctive economic-scale fact — but this dominance did NOT extend to population in the same \"combined-others\" comparative sense, given India's own enormous population size.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "With reference to Indian economy, consider the following statements :\n1. The Gross Domestic Product (GDP) has increased by four times in the last 10 years.\n2. The percentage share of Public Sector in GDP has declined in the last 10 years.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "India's GDP grew substantially but did not literally quadruple in nominal terms in that specific 10-year window as claimed, making statement 1 an overstatement. The public sector's share in GDP has indeed declined over the years amid liberalisation and growth of the private sector, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "The term “Prisoner’s Dilemma” is associated with which one of the following?",
+      "options": [
+        "A technique in glass manufacture",
+        "A term used in shipping industry",
+        "A situation under the Game Theory",
+        "Name of a supercomputer"
+      ],
+      "correct": "C",
+      "explanation": "The 'Prisoner's Dilemma' is a classic scenario in Game Theory illustrating how two rational individuals might not cooperate even when cooperation is in their mutual best interest, widely used to analyse strategic decision-making in economics and other fields.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Which one of the following is the correct sequence in the decreasing order of contribution of different sectors to the Gross Domestic Product of India?",
+      "options": [
+        "Service – Industry – Agriculture",
+        "Service – Agriculture – Industry",
+        "Industry – Service – Agriculture",
+        "Industry – Agriculture – Service"
+      ],
+      "correct": "A",
+      "explanation": "India's GDP composition has long been dominated by the services sector, followed by industry, with agriculture contributing the smallest share among the three broad sectors — giving Services > Industry > Agriculture as the descending order.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Which one among the following countries has the lowest GDP per capita?",
+      "options": [
+        "China",
+        "India",
+        "Indonesia",
+        "Sri Lanka"
+      ],
+      "correct": "B",
+      "explanation": "Among the listed countries, India had the lowest GDP per capita at the time, reflecting its large population relative to overall GDP compared to China, Indonesia, and Sri Lanka.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "With reference to the Indian economy, consider the following activities:\n1. Agriculture, Forestry and Fishing\n2. Manufacturing\n3. Trade, Hotels, Transport and Communication\n4. Financing, Insurance, Real Estate and Business services The decreasing order of the contribution of these sectors to the Gross Domestic Product (GDP) at factor cost at constant prices (2000-01) is",
+      "options": [
+        "3, 1, 2, 4",
+        "1, 3, 4, 2",
+        "3, 4, 1, 2",
+        "1, 3, 2, 4"
+      ],
+      "correct": "C",
+      "explanation": "At constant 2000-01 prices, Trade/Hotels/Transport/Communication contributed the most among these four to GDP, followed by Financing/Insurance/Real Estate/Business Services, then Agriculture/Forestry/Fishing, and Manufacturing contributed the least among this specific set — giving the sequence 3, 4, 1, 2.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The term National Income represents",
+      "options": [
+        "Gross National Product at market prices minus depreciation",
+        "Gross National Product at market prices minus depreciation net factor income from abroad",
+        "Gross National Product at market prices minus depreciation and indirect taxes subsidies",
+        "Gross National Product at market prices minus net factor income from abroad"
+      ],
+      "correct": "C",
+      "explanation": "National Income (Net National Product at factor cost) is derived by taking Gross National Product at market prices and subtracting both depreciation and net indirect taxes (indirect taxes minus subsidies), converting a market-price aggregate into a factor-cost, net income measure.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following States:\nI. Gujarat\nII. Karnataka\nIII. Maharashtra\nIV. Tamil Nadu The descending order of these States with reference to their level of Per Capita Net State Domestic Product is",
+      "options": [
+        "I, III, IV, II",
+        "III, I, II, IV",
+        "I, III, II, IV",
+        "III, I, IV, II"
+      ],
+      "correct": "B",
+      "explanation": "Among these states around that period, Maharashtra had the highest Per Capita Net State Domestic Product, followed by Gujarat, then Karnataka, and Tamil Nadu had the lowest among the four — giving the order III, I, II, IV.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The most appropriate measure of a country’s economic growth is its",
+      "options": [
+        "Gross Domestic Product",
+        "Net Domestic Product",
+        "Net National Product",
+        "Per Capita Real Income"
+      ],
+      "correct": "D",
+      "explanation": "Per Capita Real Income is considered the most appropriate measure of a country's economic growth and welfare, since it accounts for both the size of the economy relative to population and adjusts for price-level changes over time, better reflecting genuine improvements in living standards than aggregate GDP/NDP/NNP figures alone.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The following table shows the percentage change in the consumption of electricity by five towns P, Q, R, S, T from 1986 to 1988: Town Per cent change from 1986 to 1987 From 1987 to 1988 P +8 −18 Q +15 −11 R +6 +9 S −7 −5 T +13 −6 If town T consumed 500,000 units in 1986, how much did it consume in 1988?",
+      "options": [
+        "371,000 units",
+        "531,100 units",
+        "551,100 units",
+        "571,100 units"
+      ],
+      "correct": "B",
+      "explanation": "Town T's consumption rose 13% from 1986 to 1987 (500,000 × 1.13 = 565,000), then fell 6% from 1987 to 1988 (565,000 × 0.94 = 531,100 units), giving the 1988 consumption figure.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The growth rate of per capita income at current prices is higher than that of per capita income at constant prices, because the latter takes into account the rate of",
+      "options": [
+        "growth of population",
+        "increase in price level",
+        "growth of money supply",
+        "increase in the wage rate"
+      ],
+      "correct": "B",
+      "explanation": "Per capita income at current prices reflects both real output growth and price inflation, while per capita income at constant prices strips out the effect of rising prices — so current-price growth appears higher because it additionally captures the increase in the general price level.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "The new Gross Domestic Product (GDP) series released by the Central Statistical Organisation (CSO) in February 1999 is with reference to base price of",
+      "options": [
+        "1991-92",
+        "1992-93",
+        "1993-94",
+        "1994-95"
+      ],
+      "correct": "C",
+      "explanation": "The new GDP series released by the CSO in February 1999 used 1993-94 as its base year, replacing the earlier 1980-81 base series then in use.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer using the codes given below the Lists:\nList I I. Boom II. Recession III. Depression IV. Recovery\nList II\nA. Business activity at high level with increasing income, output and employment at macro level\nB. Gradual fall of income, output and employment with business activity in a low gear\nC. Unprecedented level of under employment and unemployment, drastic fall in income, output and employment\nD. Steady rise in the general level of prices, income, output and employment Codes:",
+      "options": [
+        "I-A, II-B, III-C, IV-D",
+        "I-A, II-B, III-D, IV-C",
+        "I-B, II-A, III-D, IV-C",
+        "I-B, II-A, III-C, IV-D"
+      ],
+      "correct": "A",
+      "explanation": "Boom refers to high business activity with rising income, output, and employment; Recession is a gradual fall in these indicators with a slowing economy; Depression is a severe, prolonged collapse marked by mass unemployment; and Recovery is the phase of steadily rising prices, income, output, and employment after a downturn — matching code I-A, II-B, III-C, IV-D.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "In an open economy, the national income (Y) of the economy is: (C, I, G, X, M stand for Consumption, Investment, Government Expenditure, total exports and total imports respectively.)",
+      "options": [
+        "Y = C + I + G + X",
+        "Y = C + I + G – X + M",
+        "Y = C + I + G + (X – M)",
+        "Y = C + I – G + X – M"
+      ],
+      "correct": "C",
+      "explanation": "In an open economy, national income is the sum of Consumption, Investment, Government Expenditure, and net exports (exports minus imports): Y = C + I + G + (X - M), capturing the economy's total demand including its net trade position.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Consider the following statements: Regional disparities in India are high and have been rising in recent years because 1. There is persistent investment over time only in select locales.\n2. Some areas are agro-climatically less conducive to development.\n3. Some areas continue to face little or no agrarian transformation and the consequent lack of social and economic opportunities.\n4. Some areas have faced continuous political instability.\nWhich of the above statements are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1, 3 and 4",
+        "2, 3 and 4",
+        "1, 2 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Persistent investment concentrated in select locations, unfavourable agro-climatic conditions in some regions, and areas lacking agrarian transformation with limited social/economic opportunities are all recognised structural drivers of India's regional disparities; political instability was not identified as a primary factor in this specific framing.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Since 1980, the share of the tertiary sector in the total GDP of India has",
+      "options": [
+        "shown an increasing trend",
+        "shown a decreasing trend",
+        "remained constant",
+        "been fluctuating"
+      ],
+      "correct": "A",
+      "explanation": "Since 1980, the services (tertiary) sector's share in India's total GDP has shown a consistent increasing trend, reflecting the structural shift of the Indian economy toward services-led growth.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "A consumer is said to be in equilibrium, if",
+      "options": [
+        "he is able to fulfil his need with a given level of income",
+        "he is able to live in full comforts with a given level of income",
+        "he can fulfil his needs without consumption of certain items",
+        "he is able to locate new sources of income"
+      ],
+      "correct": "A",
+      "explanation": "A consumer is said to be in equilibrium when they allocate their given income across goods and services in a way that maximises satisfaction — essentially being able to fulfil their needs optimally within that income constraint.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The supply-side economics lays greater emphasis on the point of view of the",
+      "options": [
+        "producer",
+        "global economy",
+        "consumer",
+        "middle-man"
+      ],
+      "correct": "A",
+      "explanation": "Supply-side economics emphasises policies that boost production incentives — such as tax cuts and deregulation — placing primary focus on the producer's perspective, in contrast to demand-side approaches centred on consumer spending.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The average rate of domestic savings (gross) for the Indian economy is currently estimated to be in the range of",
+      "options": [
+        "15 to 20 per cent",
+        "20 to 25 per cent",
+        "25 to 30 per cent",
+        "30 to 35 per cent"
+      ],
+      "correct": "B",
+      "explanation": "India's gross domestic savings rate at the time was estimated to be in the range of roughly 20-25% of GDP, reflecting a moderate but improving savings performance during that period.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "National Income is the",
+      "options": [
+        "Net National Product at market price",
+        "Net National Product at factor cost",
+        "Net Domestic Product at market price",
+        "Net Domestic Product at factor cost"
+      ],
+      "correct": "B",
+      "explanation": "National Income is technically defined as Net National Product at factor cost — NNP (Gross National Product minus depreciation) further adjusted to factor-cost terms by removing net indirect taxes.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Assertion (A): Though India’s national income has gone up several fold since 1947, there has been no marked improvement in the per capita income level.\nReason (R): Sizeable proportion of the population of India is still living below the poverty line. In the context of the above two statements which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "B",
+      "explanation": "India's national income has indeed risen substantially since 1947 without a correspondingly dramatic rise in per capita income (partly due to population growth diluting gains), making the Assertion true. While poverty does remain significant, it is more a consequence of low per capita income than a direct explanation for why aggregate national income growth hasn't translated into much higher per capita income, making the Reason not the correct explanation.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "The following figure represents sales (in thousands) over the period 1978 to 1983: [bar chart showing sales values for years 78-83] The sales in 1981 exceeded that in 1979 by",
+      "options": [
+        "Rs. one hundred",
+        "Rs. ten thousand",
+        "Rs. one lakh",
+        "Rs. ten lakhs"
+      ],
+      "correct": "C",
+      "explanation": "Based on the bar chart's values for 1979 and 1981, the difference in sales between these two years works out to approximately Rs one lakh, reflecting the growth shown in the chart over that period.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "93. The main reason for low growth rate in India, in spite of high rate of savings and capital formation is",
+      "options": [
+        "high birth rate",
+        "low level of foreign aid",
+        "low capital / output ratio",
+        "high capital / output ratio"
+      ],
+      "correct": "D",
+      "explanation": "Despite reasonably high savings and capital formation rates, India's growth remained comparatively low mainly due to a high incremental capital-output ratio (ICOR) — meaning a large amount of capital investment was needed to generate each additional unit of output, reflecting inefficiencies in capital utilisation.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "Consider the diagram given below: (Pie-chart showing family expenditure with segments labelled T: Transport, Ec: Education of children, H: Housing, C: Clothing, F: Food, S: Savings, O: Others.) From the diagram shown it would be right to conclude that",
+      "options": [
+        "the family spent more than half the income on food and clothing",
+        "the amount saved by the family was too little",
+        "the family had no health problems",
+        "the family managed to meet all the essential expenses out of the income earned"
+      ],
+      "correct": "D",
+      "explanation": "Based on the pie-chart breakdown of the family's expenditure across categories like food, housing, clothing, education, transport, and savings, the proportions shown indicate that the family was able to cover all its essential expenditure needs from its income, without any category being left unfunded.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

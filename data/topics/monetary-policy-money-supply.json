@@ -1,0 +1,371 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Monetary Policy & Money Supply",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nStatement-I: In the post-pandemic recent past, many Central Banks worldwide had carried out interest rate hikes.\nStatement-II: Central Banks generally assume that they have the ability to counteract the rising consumer prices via monetary policy means.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "A",
+      "explanation": "In the aftermath of the COVID-19 pandemic, global inflation surged due to supply-chain disruptions, pent-up demand, and expansionary fiscal/monetary responses; in response, most major central banks (US Federal Reserve, ECB, Bank of England, RBI among others) undertook a series of interest rate hikes to control inflation — confirming Statement I. Statement II reflects the standard monetary policy transmission mechanism: central banks operate on the assumption that raising policy rates increases borrowing costs, dampens aggregate demand, and thereby helps bring down rising consumer prices — this is the theoretical basis for using interest rate hikes as an anti-inflation tool, and it directly explains why central banks undertook the hikes described in Statement I. Since both statements are correct and II explains I, the answer is (a).\n\nUPSC takeaway: link theoretical monetary policy transmission (Statement II) with real-world post-pandemic tightening cycles (Statement I) — this pairing is a favorite exam format for testing applied macroeconomics.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "Which one of the following activities of the Reserve Bank of India is considered to be part of 'sterilization'?",
+      "options": [
+        "Conducting 'Open Market Operations'",
+        "Oversight of settlement and payment systems",
+        "Debt and cash management for the Central and State Governments",
+        "Regulating the functions of Non-banking Financial Institutions"
+      ],
+      "correct": "A",
+      "explanation": "Sterilization refers to RBI operations aimed at neutralizing the money-supply effects of its foreign exchange market interventions (e.g., when RBI buys dollars to prevent rupee appreciation, it injects rupee liquidity, which it must \"sterilize\" by absorbing an equivalent amount of rupees from the system). This is achieved primarily through Open Market Operations (OMOs) — selling government securities to soak up excess liquidity — making (a) the correct answer.\n\nThe other options describe unrelated RBI functions: oversight of payment/settlement systems relates to financial market infrastructure regulation, debt/cash management for governments is RBI's role as banker to the government, and regulation of NBFCs is a supervisory function — none of these are aimed at offsetting the liquidity impact of forex interventions.\n\nUPSC takeaway: sterilization = OMOs used specifically to counteract liquidity effects of RBI's forex market operations — don't confuse it with RBI's other, non-liquidity-related regulatory roles.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "With reference to the Indian economy, consider the following statements:\n1. If the inflation is too high, Reserve Bank of India (RBI) is likely to buy government securities.\n2. If the rupee is rapidly depreciating, RBI is likely to sell dollars in the market.\n3. If interest rates in the USA or European Union were to fall, that is likely to induce RBI to buy dollars.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "When inflation is high, RBI typically tightens monetary policy by selling government securities (absorbing liquidity) — not buying them, since buying securities would inject additional liquidity and worsen inflation; this makes Statement 1 incorrect. When the rupee depreciates rapidly, RBI can intervene by selling dollars from its foreign exchange reserves to increase dollar supply in the market and support the rupee's value, confirming Statement 2.\n\nIf US/EU interest rates fall, foreign investors seeking higher yields may increase capital inflows into India, causing rupee appreciation pressure; RBI may then buy dollars to prevent excessive appreciation and to build reserves, confirming Statement 3. This gives Statements 2 and 3 correct, with Statement 1 wrong, matching answer (b).\n\nUPSC takeaway: RBI fights high inflation by selling (not buying) securities to reduce liquidity — a frequently reversed trap in monetary policy questions.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "In India, which one of the following is responsible for maintaining price stability by controlling inflation?",
+      "options": [
+        "Department of Consumer Affairs",
+        "Expenditure Management Commission",
+        "Financial Stability and Development Council",
+        "Reserve Bank of India"
+      ],
+      "correct": "D",
+      "explanation": "Price stability through inflation control in India is primarily the mandate of the Reserve Bank of India, formally institutionalized through the Flexible Inflation Targeting (FIT) framework since 2016, under which RBI (via its Monetary Policy Committee) targets CPI inflation within a specified band (4% +/- 2%). The Department of Consumer Affairs deals with consumer protection and essential commodity price monitoring at a more operational/administrative level, not macro monetary policy; the Expenditure Management Commission was a body focused on rationalizing government expenditure (and is now largely defunct); and the Financial Stability and Development Council (FSDC) coordinates financial sector regulation and stability, not day-to-day inflation control.\n\nThe correct, mandate-holding institution is the RBI, answer (d).\n\nUPSC takeaway: RBI's Flexible Inflation Targeting framework (legislated via the RBI Act amendment, 2016) is the formal, statutory basis for its price-stability mandate — a foundational monetary policy fact.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "In India, the central bank’s function as the ‘lender of last resort’ usually refers to which of the following?\n1. Lending to trade and industry bodies when they fail to borrow from other sources\n2. Providing liquidity to the banks having a temporary crisis\n3. Lending to governments to finance budgetary deficits\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "The \"lender of last resort\" (LoLR) function of a central bank refers specifically to its role in providing emergency liquidity support to commercial banks facing a temporary liquidity crisis (such as a sudden surge in withdrawals or short-term funding stress), thereby preventing individual bank failures from escalating into a broader systemic banking crisis — this precisely matches point 2. The LoLR function is specifically targeted at supporting BANKS, not at lending directly to trade/industry bodies when they fail to secure financing elsewhere (point 1 describes a different, non-standard central bank activity not typically part of the LoLR function) or at financing government budgetary deficits through direct lending (point 3 describes deficit monetization, a distinct and generally discouraged/restricted central bank activity under fiscal responsibility norms, separate from the LoLR concept).\n\nSince only point 2 accurately captures the LoLR function, the answer is (b), \"2 only.\"\n\nUPSC takeaway: \"lender of last resort\" is specifically and exclusively about emergency BANK liquidity support during crises — do not conflate it with central bank lending to industry/trade bodies or government deficit financing, which are separate, distinct central-bank activities.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "If you withdraw 8 1,00,000 in cash from your Demand Deposit Account at your bank, the immediate effect on aggregate money supply in the economy will be",
+      "options": [
+        "to reduce it by 8 1,00,000",
+        "to increase it by 8 1,00,000",
+        "to increase it by more than 8 1,00,000",
+        "to leave it unchanged"
+      ],
+      "correct": "D",
+      "explanation": "Withdrawing ₹1,00,000 in cash from a Demand Deposit Account converts money from one form (bank deposit, a component of the money supply) into another form (currency held by the public, also a component of the money supply) without changing the total money supply in the economy. Under the standard definition of money supply (M1/M3), both demand deposits and currency in circulation are counted as money — so shifting funds between these two forms is merely a compositional change, not a net increase or decrease.\n\nThe aggregate money supply therefore remains unchanged immediately upon withdrawal, making (d) correct. (Note: over time, if the bank's reserves fall and it must curtail further lending, secondary effects could occur — but the \"immediate effect\" tested here is the direct compositional shift.)\n\nUPSC takeaway: cash withdrawal from a bank account does not by itself change the money supply — it only changes its composition between deposit money and currency; don't conflate this with money creation/destruction, which involves bank lending behavior.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "If the RBI decides to adopt an expansionist monetary policy, which of the following would it not do?\n1. Cut and optimize the Statutory Liquidity Ratio\n2. Increase the Marginal Standing Facility Rate\n3. Cut the Bank Rate and Repo Rate\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "An expansionary monetary policy aims to increase money supply and credit availability in the economy to stimulate growth, typically through a combination of measures. Cutting the Statutory Liquidity Ratio (SLR) frees up more funds for banks to lend, consistent with expansion (so RBI WOULD do this, ruling it out as an answer to \"would not do\"). Cutting the Bank Rate and Repo Rate lowers borrowing costs and encourages lending, also consistent with expansion (RBI WOULD do this).\n\nHowever, increasing the Marginal Standing Facility (MSF) Rate — the rate at which banks borrow additional emergency funds from RBI — would raise borrowing costs and work against an expansionary stance; RBI would instead cut the MSF Rate during expansion, not raise it. Hence \"increase the MSF Rate\" is the one action RBI would NOT undertake under an expansionary policy, matching answer (b), \"2 only.\"\n\nUPSC takeaway: all key policy rates (Repo, Bank Rate, MSF) move in the same direction under a given monetary stance — RBI lowers all of them together during expansion and raises all of them together during tightening.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "The money multiplier in an economy increases with which one of the following?",
+      "options": [
+        "Increase in the cash reserve ratio",
+        "Increase in the banking habit of the population",
+        "Increase in the statutory liquidity ratio",
+        "Increase in the population of the country"
+      ],
+      "correct": "B",
+      "explanation": "This question duplicates the money multiplier concept tested earlier: the money multiplier — which measures the extent to which the banking system's lending activity expands the base/reserve money into a larger total money supply — increases when a greater share of the public's money is held as bank deposits rather than currency, since deposits provide the lendable base for banks to create further credit. An increase in the banking habit of the population (more people using banks rather than holding cash) directly increases this deposit base, raising the multiplier, making (b) correct.\n\nIn contrast, increasing the Cash Reserve Ratio (a) or Statutory Liquidity Ratio (c) reduces the funds banks can lend out, lowering (not raising) the multiplier, while population growth alone (d), without corresponding banking penetration, has no direct mechanical effect on the multiplier.\n\nUPSC takeaway: financial inclusion (banking habit) directly strengthens the money multiplier — link this to India's Jan Dhan Yojana and digital banking expansion as multiplier-boosting structural reforms.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "With reference to the Constitution of India, the Directive Principles of State Policy constitute limitations upon 1. legislative function.\n2. executive function.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The Directive Principles of State Policy (DPSP), enshrined in Part IV of the Constitution, are explicitly stated (under Article 37) to be fundamental in the governance of the country and it is the DUTY of the State to apply these principles in making laws — meaning DPSPs function as positive guidelines directing/obligating BOTH the legislature (in law-making) and the executive (in policy implementation and governance actions) toward specific socio-economic goals, rather than functioning as \"limitations\" or restrictions upon these functions in the way Fundamental Rights (Part III) act as limitations/restrictions on state action. Since DPSPs are affirmative directives rather than restrictive limitations on either legislative or executive function, neither Statement 1 nor Statement 2, when framed as \"limitations,\" is an accurate characterization, making the answer (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: DPSPs are positive, aspirational directives guiding governance (not enforceable in courts, per Article 37) — conceptually opposite to Fundamental Rights, which do impose enforceable limitations/restrictions on state action.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "When the Reserve Bank of India reduces the Statutory Liquidity Ratio by 50 basis points, which of the following is likely to happen?",
+      "options": [
+        "India’s GDP growth rate increases drastically",
+        "Foreign Institutional Investors may bring more capital into our country",
+        "Scheduled Commercial Banks may cut their lending rates",
+        "It may drastically reduce the liquidity to the banking system"
+      ],
+      "correct": "C",
+      "explanation": "The Statutory Liquidity Ratio (SLR) is the minimum percentage of a bank's net demand and time liabilities that must be maintained in the form of specified liquid assets (cash, gold, approved government securities), rather than being available for lending. When RBI reduces the SLR, banks are freed from having to hold as large a portion of their deposits in these mandated liquid assets, releasing additional funds that banks can deploy for lending — with more loanable funds available, competitive pressure and increased liquidity typically enable banks to reduce their lending rates, making (c) the most direct and likely consequence.\n\nA modest 50 basis point SLR cut is unlikely to \"drastically\" alter GDP growth (an overstated claim, ruling out a), does not directly or predictably induce FII capital inflows (an unrelated transmission channel, ruling out b), and would INCREASE (not \"drastically reduce\") banking system liquidity, the opposite of option (d).\n\nUPSC takeaway: an SLR cut releases funds for lending, which typically enables banks to LOWER lending rates — a direct, first-order monetary transmission effect, distinct from more speculative or indirect claimed impacts on GDP or FII flows.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "With reference to Indian economy, consider the following:\n1. Bank rate\n2. Open market operations\n3. Public debt\n4. Public revenue\nWhich of the above is/are component/components of Monetary Policy?",
+      "options": [
+        "1 only",
+        "2, 3 and 4",
+        "1 and 2",
+        "1, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Monetary policy refers to the tools and measures a central bank uses to control money supply and credit conditions in the economy. The Bank Rate (the rate at which RBI lends to commercial banks/discounts bills) and Open Market Operations (RBI's buying/selling of government securities to manage liquidity) are both classic, direct instruments of monetary policy, confirming items 1 and 2.\n\nPublic debt (the government's total outstanding borrowings) and Public revenue (government's tax and non-tax income) are fiscal policy/public finance concepts related to the government's budgetary operations, not monetary policy tools wielded by the central bank — making items 3 and 4 incorrect inclusions. This gives items 1 and 2 as valid monetary policy components, matching answer (c), \"1 and 2.\"\n\nUPSC takeaway: clearly separate MONETARY policy tools (Bank Rate, Repo Rate, OMOs, CRR/SLR — wielded by RBI) from FISCAL policy elements (public debt, public revenue, government expenditure — controlled by the Government/Finance Ministry) — a foundational macroeconomic distinction.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "The terms ‘Marginal Standing Facility Rate’ and ‘Net Demand and Time Liabilities’, sometimes appearing in news, are used in relation to",
+      "options": [
+        "banking operations",
+        "communication networking",
+        "military strategies",
+        "supply and demand of agricultural products"
+      ],
+      "correct": "A",
+      "explanation": "The 'Marginal Standing Facility (MSF) Rate' (the rate at which banks can borrow additional overnight funds from RBI against government securities, beyond their regular repo borrowing, typically used during acute liquidity stress) and 'Net Demand and Time Liabilities (NDTL)' (a bank's total deposit base — demand deposits like savings/current accounts plus time deposits like fixed deposits — net of interbank deposits, used as the base for calculating CRR/SLR requirements) are both terms specifically used in the context of commercial banking operations and RBI's monetary policy/liquidity management framework, matching option (a) precisely. They are unrelated to communication networking, military strategy, or agricultural supply-demand dynamics.\n\nThe correct answer is (a).\n\nUPSC takeaway: NDTL is the foundational base figure against which CRR and SLR percentages are calculated — remember this calculation linkage whenever CRR/SLR/MSF questions arise together.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "In the context of Indian economy, which of the following is/are the purpose/purposes of ‘Statutory Reserve Requirements’?\n1. To enable the Central Bank to control the amount of advances the banks can create\n2. To make the people’s deposits with banks safe and liquid\n3. To prevent the commercial banks from making excessive profits\n4. To force the banks to have sufficient vault cash to meet their day-to-day requirements\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Statutory Reserve Requirements (CRR and SLR) in India serve multiple regulatory purposes. They enable the Central Bank (RBI) to control the total amount of credit/advances that commercial banks can create through the money multiplier mechanism, since higher reserve requirements reduce the funds available for lending, confirming point 1 as a core monetary-control purpose. They also ensure that a portion of depositors' funds remains safely held in liquid form (cash or approved securities) rather than being entirely lent out, providing a degree of safety and liquidity assurance for depositors' money, confirming point 2.\n\nHowever, statutory reserve requirements are not designed to prevent banks from making \"excessive profits\" (an unrelated objective — profit regulation is not the rationale behind CRR/SLR, ruling out point 3) nor are they specifically about ensuring banks hold sufficient \"vault cash\" for day-to-day operational needs (a separate operational cash-management matter distinct from the regulatory reserve requirement's macro-prudential purpose, ruling out point 4). This gives points 1 and 2 as the correct purposes, matching answer (b), \"1 and 2 only.\"\n\nUPSC takeaway: CRR/SLR serve monetary control (limiting credit creation) and depositor-safety/liquidity purposes — they are NOT profit-regulation tools or simple day-to-day cash-management mandates.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "If the interest rate is decreased in an economy, it will",
+      "options": [
+        "decrease the consumption expenditure in the economy",
+        "increase the tax collection of the Government",
+        "increase the investment expenditure in the economy",
+        "increase the total savings in the economy"
+      ],
+      "correct": "C",
+      "explanation": "A decrease in interest rates lowers the cost of borrowing for businesses seeking to finance new projects, equipment purchases, or expansion, making borrowed capital cheaper and more attractive — this directly incentivizes firms to increase their investment expenditure, since the return threshold needed to justify a project (compared against the now-lower borrowing cost) is easier to clear, matching option (c). Lower interest rates typically INCREASE (not decrease) consumption expenditure too, since saving becomes less attractive relative to spending, and borrowing for consumption (like loans for durables) also becomes cheaper — the opposite of option (a).\n\nLower interest rates have no direct, necessary link to government tax collection (b), and typically DECREASE (not increase) total savings, since the reduced return on savings discourages saving in favor of spending/investing, the opposite of option (d).\n\nUPSC takeaway: interest rate cuts stimulate BOTH investment and consumption expenditure while discouraging savings — a foundational Keynesian transmission mechanism linking monetary policy to aggregate demand.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "An increase in the Bank Rate generally indicates that the",
+      "options": [
+        "market rate of interest is likely to fall",
+        "Central Bank is no longer making loans to commercial banks",
+        "Central Bank is following an easy-money policy",
+        "Central Bank is following a tight-money policy"
+      ],
+      "correct": "D",
+      "explanation": "The Bank Rate is the rate at which the central bank (RBI) is willing to lend long-term funds to commercial banks or discount their eligible bills/securities. An increase in the Bank Rate makes borrowing from the central bank more expensive for commercial banks, which typically respond by raising their own lending rates to customers, thereby reducing overall credit availability and money supply growth in the economy — this signals that the central bank is pursuing a \"tight-money\" (contractionary) monetary policy stance aimed at curbing inflation or restraining excessive credit expansion, matching option (d).\n\nIt does not indicate that market interest rates will fall (the opposite occurs, ruling out a), does not mean the central bank stops lending altogether (b, an overstated/incorrect characterization), and is the opposite of an \"easy-money\" policy (c). The correct answer is (d).\n\nUPSC takeaway: a Bank Rate increase is a clear, direct signal of TIGHT/contractionary monetary policy — raising the cost of central bank funds to restrain overall credit growth in the economy.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Consider the following liquid assets:\n1. Demand deposits with the banks\n2. Time deposits with the banks\n3. Savings deposits with the banks\n4. Currency The correct sequence of these assets in the decreasing order of liquidity is",
+      "options": [
+        "1–4–3–2",
+        "4–3–2–1",
+        "2–3–1–4",
+        "4–1–3–2"
+      ],
+      "correct": "D",
+      "explanation": "Liquidity refers to how quickly and easily an asset can be converted into cash without loss of value. Currency (physical cash) is the most liquid asset by definition, since it IS cash itself, requiring no conversion at all. Demand deposits (savings/current account balances, withdrawable immediately on demand via cheque/ATM/online transfer) are highly liquid, ranking just below currency.\n\nSavings deposits, while also fairly accessible, often carry minor withdrawal restrictions or are slightly less immediately liquid in practical terms than pure demand/current deposits (though the distinction is fine). Time deposits (fixed deposits with a specified maturity period, subject to premature-withdrawal penalties) are the LEAST liquid among these four, since accessing funds before maturity typically involves a penalty or is restricted. This gives the decreasing liquidity order as: Currency (4) > Demand deposits (1) > Savings deposits (3) > Time deposits (2), matching answer (d), \"4–1–3–2.\"\n\nUPSC takeaway: memorize the liquidity hierarchy — Currency is always the MOST liquid asset (being cash itself), while Time/Fixed deposits are consistently the LEAST liquid among standard bank deposit categories, due to maturity-linked withdrawal restrictions.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "In the context of Indian economy, ‘Open Market Operations’ refers to",
+      "options": [
+        "borrowing by scheduled banks from the RBI",
+        "lending by commercial banks to industry and trade",
+        "purchase and sale of government securities by the RBI",
+        "None of the above"
+      ],
+      "correct": "C",
+      "explanation": "Open Market Operations (OMOs) refer specifically to the Reserve Bank of India's activity of buying and selling government securities in the open market as a tool of monetary policy — when RBI buys government securities, it injects liquidity into the banking system (expansionary effect); when RBI sells government securities, it absorbs/withdraws liquidity from the system (contractionary effect) — this precisely matches option (c). OMOs are distinct from banks borrowing from RBI (a, which relates to the Bank Rate/Repo/MSF mechanisms instead), commercial bank lending to industry/trade (b, an entirely separate commercial banking activity), or any characterization suggesting none of the given options apply (d).\n\nThe correct answer is (c).\n\nUPSC takeaway: Open Market Operations specifically and exclusively refer to RBI's government securities buying/selling activity — a core, frequently tested liquidity-management tool distinct from other monetary policy instruments like CRR, SLR, or the Repo Rate.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Supply of money remaining the same when there is an increase in demand for money, there will be",
+      "options": [
+        "a fall in the level of prices",
+        "an increase in the rate of interest",
+        "a decrease in the rate of interest",
+        "an increase in the level of income and employment"
+      ],
+      "correct": "B",
+      "explanation": "When the supply of money in an economy remains fixed/unchanged while the demand for money increases (e.g., due to increased transaction needs or precautionary motives), the resulting scarcity of money relative to the higher demand for holding it causes the \"price\" of money — the interest rate — to rise, since interest rate is essentially the equilibrating price in the money market that balances money demand against a given money supply; higher demand against unchanged supply pushes this equilibrium interest rate upward, matching option (b). This is not primarily associated with a fall in price level (a, an unrelated goods-market effect), a decrease in interest rate (c, the opposite direction of the actual effect), or necessarily an increase in income/employment (d, an indirect, uncertain secondary effect rather than the direct, immediate consequence).\n\nThe correct answer is (b).\n\nUPSC takeaway: in the standard money-market framework (liquidity preference theory), an increase in money demand with unchanged money supply directly RAISES the equilibrium interest rate — a foundational monetary economics relationship.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Which of the following measures would result in an increase in the money supply in the economy?\n1. Purchase of government securities from the public by the Central Bank\n2. Deposit of currency in commercial banks by the public\n3. Borrowing by the government from the Central Bank\n4. Sale of government securities to the public by the Central Bank\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "2 and 4 only",
+        "1 and 3",
+        "2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Money supply in an economy expands through actions that inject additional liquidity into the banking system/economy. When the Central Bank purchases government securities from the public, it pays out money into the economy, directly increasing money supply (item 1, expansionary). When the government borrows from the Central Bank (rather than from the market/public), the Central Bank typically creates new money to fund this borrowing (monetization of deficit), also increasing money supply (item 3, expansionary).\n\nConversely, when the public deposits currency into commercial banks, this merely converts currency (already counted in money supply) into deposit money (also counted in money supply) — a compositional shift, not a net increase, making item 2 not a genuine money-supply-increasing action. When the Central Bank SELLS government securities to the public, it absorbs/withdraws money from the economy, DECREASING (not increasing) money supply, making item 4 the opposite of expansionary. This gives items 1 and 3 as genuine money-supply-increasing actions, matching answer (c), \"1 and 3.\"\n\nUPSC takeaway: Central Bank PURCHASES of securities and government borrowing FROM the Central Bank both inject new money (expansionary); Central Bank SALES of securities withdraw money (contractionary); mere currency-to-deposit conversion by the public does not change the total money supply.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "The lowering of Bank Rate by the Reserve Bank of India leads to",
+      "options": [
+        "More liquidity in the market",
+        "Less liquidity in the market",
+        "No change in the liquidity in the market",
+        "Mobilization of more deposits by commercial banks"
+      ],
+      "correct": "B",
+      "explanation": "When the RBI lowers the Bank Rate (the rate at which it lends to commercial banks/discounts their bills), borrowing from the central bank becomes cheaper for commercial banks, encouraging them to borrow more and subsequently lend more freely to their own customers at correspondingly lower rates — this expands the overall availability of credit and money in the economy, resulting in MORE liquidity in the market, matching option (a). This is the opposite of options (b) and (c), and while lower rates might have secondary effects on deposit mobilization patterns, that is not the DIRECT, primary consequence of a Bank Rate cut in the way increased liquidity is, ruling out (d) as the primary answer.\n\nUPSC takeaway: a Bank Rate CUT is an expansionary/easy-money signal, directly increasing liquidity availability in the banking system — the opposite effect of a Bank Rate hike, which tightens liquidity.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Which of the following terms indicates a mechanism used by commercial banks for providing credit to the government ?",
+      "options": [
+        "Cash Credit Ratio",
+        "Debt Service Obligation",
+        "Liquidity Adjustment Facility",
+        "Statutory Liquidity Ratio"
+      ],
+      "correct": "D",
+      "explanation": "The Statutory Liquidity Ratio (SLR) requires commercial banks to maintain a specified minimum percentage of their net demand and time liabilities in the form of specified liquid assets — predominantly government securities (both Central and State government bonds) — effectively channeling a significant, mandated portion of banks' deposit funds into government debt instruments, functioning as a key mechanism through which commercial banks provide credit/financing to the government, matching option (d) precisely. Cash Credit Ratio and Debt Service Obligation are not standard formal monetary policy tools in this context, and the Liquidity Adjustment Facility (LAF) is RBI's repo/reverse repo-based short-term liquidity management tool for banks, not a government-credit mechanism per se.\n\nThe correct answer is (d), SLR.\n\nUPSC takeaway: SLR is the primary regulatory mechanism compelling commercial banks to hold government securities, effectively functioning as a mandated channel of bank credit to the government — distinct from CRR (which requires cash reserves, not government securities specifically).",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "When the Reserve Bank of India announces an increase of the Cash Reserve Ratio, what does it mean?",
+      "options": [
+        "The commercial banks will have less money to lend",
+        "The Reserve Bank of India will have less money to lend",
+        "The Union Government will have less money to lend",
+        "The commercial banks will have more money to lend"
+      ],
+      "correct": "A",
+      "explanation": "The Cash Reserve Ratio (CRR) is the percentage of a bank's deposits that must be kept with the RBI in reserve, and cannot be lent out. Raising CRR locks up more of banks' funds with the RBI, directly reducing the money commercial banks have available to lend.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following statements:\n1. The repo rate is the rate at which other banks borrow from the Reserve Bank of India.\n2. A value of 1 for the Gini Coefficient in a country implies that there is perfectly equal income for everyone in its population.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The repo rate is indeed the rate at which the RBI lends short-term funds to commercial banks (banks borrow FROM the RBI at this rate), making statement 1 correct. A Gini Coefficient value of 1 actually represents perfect inequality (one entity has all the income), not perfect equality — a value of 0 represents perfect equality — making statement 2 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Consider the following:\n1. Currency with the public\n2. Demand deposits with banks\n3. Time deposits with banks Which of these are included in Broad Money (M3) in India?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Broad Money (M3) in India is defined to include currency with the public, demand deposits with banks, and time deposits with banks (along with other minor deposits with the RBI), making all three components part of M3.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The banks are required to maintain a certain ratio between their cash in hand and total assets. This is called",
+      "options": [
+        "SBR (Statutory Bank Ratio)",
+        "SLR (Statutory Liquid Ratio)",
+        "CBR (Central Bank Reserve)",
+        "CLR (Central Liquid Reserve)"
+      ],
+      "correct": "B",
+      "explanation": "The Statutory Liquidity Ratio (SLR) is the requirement that banks maintain a certain percentage of their net demand and time liabilities in the form of liquid assets like cash, gold, or approved government securities.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The sum of which of the following constitutes Broad Money in India?\nI. Currency with the Public\nII. Demand deposits with banks\nIII. Time deposits with banks\nIV. Other deposits with RBI\nChoose the correct answer using the codes given below:",
+      "options": [
+        "I and II",
+        "I, II and III",
+        "I, II, III and IV",
+        "I, II and IV"
+      ],
+      "correct": "C",
+      "explanation": "Broad Money (M3) in India is defined as the sum of currency with the public, demand deposits with banks, time deposits with banks, and other deposits with the RBI, making all four components part of the M3 aggregate.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Which one of the following is not an instrument of selective credit control in India?",
+      "options": [
+        "Regulation of consumer credit",
+        "Rationing of credit",
+        "Margin requirements",
+        "Variable reserve ratios"
+      ],
+      "correct": "D",
+      "explanation": "Variable reserve ratios (like CRR/SLR) are general/quantitative credit control instruments affecting the entire banking system's credit creation capacity, unlike selective credit controls such as consumer credit regulation, credit rationing, and margin requirements, which target specific sectors or types of lending.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "Bank Rate implies the rate of interest",
+      "options": [
+        "paid by the Reserve Bank of India on the deposits of Commercial Banks",
+        "charged by Banks on loans and advances",
+        "payable on Bonds",
+        "at which the Reserve Bank of India discounts the Bills of Exchange"
+      ],
+      "correct": "D",
+      "explanation": "The Bank Rate is the standard rate at which the Reserve Bank of India is prepared to buy or rediscount bills of exchange or other eligible commercial paper, serving as a key benchmark for the overall interest rate structure.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

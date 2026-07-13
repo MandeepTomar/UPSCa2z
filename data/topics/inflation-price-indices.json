@@ -1,0 +1,202 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Inflation & Price Indices",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\n1. The weight of food items is higher in the Consumer Price Index (CPI) than in the Wholesale Price Index (WPI).\n2. WPI does not capture changes in the prices of services, whereas CPI does.\n3. The Reserve Bank of India has adopted WPI for its primary measure of inflation and for deciding key policy rates.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Consumer Price Index (CPI) assigns a substantially higher weight to food and beverages (roughly 45-46% in the CPI-Combined basket) compared to the Wholesale Price Index (WPI), where food articles carry a smaller weight within the broader \"Primary Articles\" category, confirming Statement 1. WPI is a producer/wholesale-level price index that primarily captures goods prices and does not capture services prices at all, whereas CPI includes services (like housing, healthcare, education, transport services) as part of its basket, confirming Statement 2.\n\nHowever, Statement 3 is incorrect: since 2016, the RBI's Monetary Policy Committee has adopted CPI (Combined) as its primary/target measure of inflation for setting policy rates under the Flexible Inflation Targeting framework — not WPI. With Statements 1 and 2 correct and Statement 3 wrong, the answer is (a), \"1 and 2 only.\"\n\nUPSC takeaway: RBI's inflation target is CPI-based (not WPI-based) since the 2016 FIT framework — a foundational, frequently tested monetary policy fact.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Which of the following brings out the ‘Consumer Price Index Number for Industrial Workers’?",
+      "options": [
+        "The Reserve Bank of India",
+        "The Department of Economic Affairs",
+        "The Labour Bureau",
+        "The Department of Personnel and Training"
+      ],
+      "correct": "C",
+      "explanation": "The Consumer Price Index Number for Industrial Workers (CPI-IW), used for purposes like dearness allowance calculation for industrial/government employees, is compiled and published by the Labour Bureau, an attached office under the Ministry of Labour and Employment, distinct from the CPI (Combined) compiled by the National Statistical Office/Ministry of Statistics used for RBI's inflation targeting. This is unrelated to the RBI (the central bank, not a price-index compiling agency for this specific index), the Department of Economic Affairs (a Finance Ministry wing), or DoPT (a personnel-matters department).\n\nThe correct answer is (c), the Labour Bureau.\n\nUPSC takeaway: India maintains MULTIPLE CPI series compiled by DIFFERENT agencies for different purposes — CPI-IW and CPI-Agricultural Labourer (both by the Labour Bureau) versus the broader CPI-Combined/Rural/Urban (by NSO/MoSPI, used for RBI's inflation target) — a frequently tested institutional-attribution distinction.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "With reference to inflation in India, which of the following statements is correct?",
+      "options": [
+        "Controlling the inflation in India is the responsibility of the Government of India only",
+        "The Reserve Bank of India has no role in controlling the inflation",
+        "Decreased money circulation helps in controlling the inflation",
+        "Increased money circulation helps in controlling the inflation"
+      ],
+      "correct": "C",
+      "explanation": "Controlling inflation in India is a shared responsibility, primarily driven by the Reserve Bank of India through its monetary policy tools (interest rates, liquidity management) under the Flexible Inflation Targeting framework, though the Government of India also plays a complementary role through fiscal measures, supply-side interventions, and administrative price controls for specific commodities — ruling out options (a) and (b), both of which incorrectly assign inflation control exclusively to one party. Reducing the amount of money circulating in the economy (through contractionary monetary policy — higher interest rates, OMO sales, higher reserve requirements) is the standard textbook mechanism for controlling demand-pull inflation, since less money chasing the same goods reduces upward price pressure, confirming option (c) as correct; conversely, INCREASING money circulation would typically worsen (not help control) inflation, making option (d) the opposite of correct.\n\nThe correct answer is (c).\n\nUPSC takeaway: inflation control is a joint RBI-Government responsibility (not exclusive to either), and the core monetary mechanism for controlling inflation is REDUCING (not increasing) money supply/circulation.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "Consider the following statements :\n1. Inflation benefits the debtors.\n2. Inflation benefits the bond-holders.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Inflation erodes the real value of money over time, meaning that debtors (borrowers) who must repay a FIXED nominal amount of debt in the future effectively repay that debt using money that has LESS real purchasing power than when they originally borrowed it — this benefits debtors at the expense of creditors, confirming Statement 1. Bond-holders (as creditors, holding fixed-income instruments with predetermined nominal interest and principal repayment) are typically HARMED (not benefited) by inflation, since the fixed nominal returns they receive lose real purchasing power as inflation erodes money's value — making Statement 2 the opposite of correct (inflation benefits DEBTORS/borrowers, not creditors like bond-holders).\n\nWith only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: inflation systematically transfers real wealth from CREDITORS (lenders, bond-holders — who receive fixed nominal payments that lose value) to DEBTORS (borrowers — who repay fixed nominal amounts using progressively cheaper money) — a foundational redistributive effect of inflation.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "A rise in general level of prices may be caused by 1. An increase in the money supply\n2. A decrease in the aggregate level of output\n3. An increase in the effective demand\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "A general rise in the price level (inflation) can be driven by multiple mechanisms. An increase in money supply, without a corresponding increase in output, directly fuels inflation through the basic quantity theory of money (more money chasing the same goods), confirming point 1. A decrease in the aggregate level of output (supply-side contraction, e.g., due to production disruptions or resource constraints), holding demand constant, creates scarcity that pushes prices upward (cost-push/supply-shock inflation), confirming point 2.\n\nAn increase in effective/aggregate demand (from higher consumer spending, government expenditure, or investment) without a matching increase in supply also drives prices up (demand-pull inflation), confirming point 3. Since all three distinct mechanisms — monetary expansion, supply contraction, and demand expansion — can each independently cause inflation, the answer is (d), \"1, 2 and 3.\"\n\nUPSC takeaway: inflation can arise from THREE distinct channels — monetary (money supply), supply-side (falling output), and demand-side (rising effective demand) — a comprehensive framework for classifying different inflation triggers (demand-pull vs. cost-push vs. monetary).",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "India has experienced persistent and high food inflation in the recent past. What could be the reasons?\n1. Due to a gradual switchover to the cultivation of commercial crops, the area under the cultivation of food grains has steadily decreased in the last five years by about 30%.\n2. As a consequence of increasing incomes, the consumption patterns of the people have undergone a significant change.\n3. The food supply chain has structural constraints.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "India's persistent high food inflation during this period was attributed to multiple structural and demand-side factors. As rising incomes altered consumption patterns — with people shifting toward higher-value, protein-rich foods (milk, eggs, meat, pulses) rather than just staple grains — demand for these higher-value food items outpaced supply growth, contributing to inflationary pressure, confirming point 2. The food supply chain in India has long suffered from well-documented structural constraints — including inadequate cold storage/warehousing infrastructure, fragmented supply chains, and high wastage — which restrict the smooth, efficient flow of food from producers to consumers, exacerbating price volatility and persistent inflation, confirming point 3.\n\nHowever, the specific claim of a sharp roughly 30% decrease in area under foodgrain cultivation over five years due to a switch to commercial crops (point 1) does not match documented agricultural land-use trend data for that period — India's foodgrain cultivation area did not decline by anywhere close to such a drastic magnitude, making point 1 factually incorrect/exaggerated. With points 2 and 3 correct, the answer is (b), \"2 and 3 only.\"\n\nUPSC takeaway: India's food inflation drivers combine DEMAND-SIDE shifts (rising incomes, changing diets toward high-value foods) with SUPPLY-CHAIN STRUCTURAL constraints (storage, logistics) — not a dramatic decline in foodgrain cultivation area, which is an exaggerated/incorrect claim.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "A rapid increase in the rate of inflation is sometimes attributed to the \"base effect\". What is \"base effect\" ?",
+      "options": [
+        "It is the impact of drastic deficiency in supply due to failure of crops",
+        "It is the impact of the surge in demand due to rapid economic growth",
+        "It is the impact of the price levels of previous year on the calculation of inflation rate",
+        "None of the statements (a), (b) and (c) given above is correct in this context"
+      ],
+      "correct": "C",
+      "explanation": "The \"base effect\" in inflation calculation refers to the influence that the price level of the corresponding period in the PREVIOUS YEAR (the \"base\" period) has on the calculated inflation rate for the current period, since inflation is measured as the percentage change in price level relative to that base period — if the base period had an unusually LOW price level (e.g., due to a temporary price dip the previous year), then even a modest price increase in the current period can appear as a sharp/high inflation rate purely due to this low base effect (and vice versa, a high base period can suppress the apparent current inflation rate even amid real price increases), matching option (c) precisely. It is not primarily about crop supply failures (a), demand surges from growth (b) — these are actual inflation DRIVERS, not the base-effect phenomenon itself, which is a purely ARITHMETIC/STATISTICAL effect of the reference period chosen for comparison.\n\nThe correct answer is (c).\n\nUPSC takeaway: the \"base effect\" is a STATISTICAL/ARITHMETIC artifact of inflation measurement (driven by the comparison base period's price level), distinct from actual economic drivers of inflation like supply shocks or demand surges — a frequently tested and often misunderstood distinction.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Economic growth is usually coupled with",
+      "options": [
+        "Deflation",
+        "Inflation",
+        "Stagflation",
+        "Hyperinflation"
+      ],
+      "correct": "B",
+      "explanation": "Economic growth, characterized by rising aggregate output, employment, and incomes, is typically accompanied by increasing aggregate demand for goods, services, and resources — as demand for factors of production (labour, raw materials, capital) and consumer goods rises alongside expanding economic activity, this generally exerts a moderate upward pressure on the general price level, i.e., inflation, making (b) the standard, expected macroeconomic association. This is distinct from deflation (a, a falling price level, more typically associated with economic contraction/recession, not growth), stagflation (c, the unusual and problematic combination of stagnant growth WITH high inflation, not a \"usual\" growth companion), or hyperinflation (d, an extreme, typically growth-destroying price spiral, not a normal accompaniment to healthy growth).\n\nThe correct answer is (b).\n\nUPSC takeaway: healthy economic growth is typically accompanied by MODERATE inflation (reflecting rising demand) — not deflation, and certainly not the pathological extremes of stagflation or hyperinflation, which represent economic dysfunction rather than a normal growth-inflation relationship.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Which one of the following statements is an appropriate description of deflation ?",
+      "options": [
+        "It is a sudden fall in the value of a currency against other currencies",
+        "It is a persistent recession in both the financial and real sectors of economy",
+        "It is a persistent fall in the general price level of goods and services",
+        "It is a fall in the rate of inflation over a period of time"
+      ],
+      "correct": "C",
+      "explanation": "Deflation is precisely and formally defined as a persistent, sustained FALL in the GENERAL PRICE LEVEL of goods and services across the economy over time — essentially the opposite of inflation, where the overall price level, rather than rising, is declining — matching option (c) as the accurate, textbook definition. This is distinct from a sudden currency depreciation against other currencies (a, which describes currency devaluation/depreciation, not deflation), a broader economic recession encompassing both financial and real sectors (b, a related but distinct and broader macroeconomic concept than the specifically price-level-focused definition of deflation), or merely a slowing RATE of inflation (d, which describes \"disinflation\" — inflation still occurring but at a decelerating pace — a distinctly different concept from actual deflation, where prices are falling in absolute terms).\n\nThe correct answer is (c).\n\nUPSC takeaway: precisely distinguish DEFLATION (an absolute, persistent FALL in the general price level) from DISINFLATION (merely a SLOWING RATE of inflation, with prices still rising, just more slowly) — a frequently confused and tested terminological distinction.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "With reference to India, consider the following statements:\n1. The Wholesale Price Index (WPI) in India is available on a monthly basis only.\n2. As compared to Consumer Price Index for Industrial Workers (CPI(IW)), the WPI gives less weight to food articles.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The WPI in India is published monthly (unlike CPI which is also monthly, but this was the older base-year WPI series compiled monthly), making statement 1 correct. The WPI basket assigns a smaller weight to food/primary articles than CPI(IW), which is more heavily weighted toward household consumption items including food, making statement 2 also correct.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "With reference to the Wholesale Price Index (WPI), consider the following statements:\n1. The new WPI series with base 1993-94 = 100 became effective from April 1998.\n2. In the new WPI series, became effective from 1 April 2000.\n3. The weight for electricity has increased in the new WPI series. Which of these statements are correct?",
+      "options": [
+        "1, 2 and 3",
+        "2 and 3",
+        "1 and 3",
+        "1 and 2"
+      ],
+      "correct": "B",
+      "explanation": "The new WPI series with base 1993-94=100 actually became effective from 1 April 2000 (not April 1998 as stated in statement 1, making it incorrect), and the new series did increase the weight assigned to electricity compared to the earlier series, making statements 2 and 3 correct.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The new series of Wholesale Price Index (WPI) released by the Government of India is with reference to the base prices of",
+      "options": [
+        "1981-82",
+        "1990-91",
+        "1993-94",
+        "1994-95"
+      ],
+      "correct": "C",
+      "explanation": "The new WPI series released by the Government of India used 1993-94 as its base year, replacing the earlier 1981-82 base series.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The misery index is the sum of a country’s unemployment and inflation rate. The higher the index, the more miserable is the country to live in. In the figure given below is the Misery Index for various countries in Europe: Which of the following conclusions can be drawn from the misery index given above?\nI. Britain is the most miserable country to live in.\nII. The inflation rate in Spain is less than that in Belgium and Britain.\nIII. Italy and France seem to have almost identical unemployment rate.\nIV. The higher the misery index, the higher the inflation rate.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I alone",
+        "II and III",
+        "I, II, III and IV",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "Reading the misery-index chart, Spain's inflation component appears lower than Belgium's and Britain's (statement II), and Italy and France show closely comparable unemployment levels (statement III) — while claims about Britain being the single most miserable country, or the misery index directly correlating with inflation alone, are not reliably supported by the chart.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The current price index (base 1960) is nearly 330. This means that",
+      "options": [
+        "all items cost 3.3 times more than what they did in 1960",
+        "the prices of certain selected items have gone up to 3.3 times",
+        "weighted mean of prices of certain items has increased 3.3 times",
+        "gold price has gone up 3.3 times"
+      ],
+      "correct": "C",
+      "explanation": "A price index value of 330 (base 1960=100) means that the weighted average price of the basket of items covered by the index has risen to about 3.3 times its 1960 level — not that every single item's price rose uniformly by that factor.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "In India, inflation is measured by the",
+      "options": [
+        "Wholesale Price Index Number",
+        "Consumers Price Index for urban non-manual workers",
+        "Consumers Price Index for agricultural workers",
+        "National Income deflation"
+      ],
+      "correct": "A",
+      "explanation": "In India, inflation has traditionally been measured using the Wholesale Price Index Number, which tracks price changes for a broad basket of goods at the wholesale level (India later also adopted CPI as the primary inflation gauge, but WPI was the standard measure at this time).",
+      "subject": "Indian Economy",
+      "year": "1997"
+    }
+  ]
+}

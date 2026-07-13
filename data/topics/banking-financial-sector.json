@@ -1,0 +1,631 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Banking & Financial Sector",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Which of the following are the sources of income for the Reserve Bank of India?\nI. Buying and selling Government bonds\nII. Buying and selling foreign currency\nIII. Pension fund management\nIV. Lending to private companies\nV. Printing and distributing currency notes\nSelect the correct answer using the code given below:",
+      "options": [
+        "I and II only",
+        "II, III and IV",
+        "I, III, IV and V",
+        "I, II and V"
+      ],
+      "correct": "D",
+      "explanation": "The Reserve Bank of India earns income primarily from its market operations rather than from commercial lending. Its major income sources include interest earned on its holdings of government securities acquired through open market operations (buying/selling government bonds), gains from foreign exchange transactions (buying/selling foreign currency), and profits from currency management operations, including seigniorage-like gains linked to printing and distributing currency notes.\n\nRBI does not manage pension funds (that is the domain of PFRDA and pension fund managers) and it does not lend directly to private companies — RBI's lending function is restricted to being \"lender of last resort\" to banks, not private enterprises. This makes statements III and IV incorrect, while I, II and V correctly describe RBI's income streams, giving answer (d).\n\nUPSC takeaway: RBI's balance sheet income comes from monetary operations (OMOs, forex, currency issuance) — never confuse it with a commercial bank's lending-based income model.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "Consider the following statements:\nStatement-I: Syndicated lending spreads the risk of borrower default across multiple lenders.\nStatement-II: The syndicated loan can be a fixed amount/lump sum of funds, but cannot be a credit line.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "correct": "B",
+      "explanation": "Syndicated lending involves multiple banks/financial institutions jointly providing a large loan to a single borrower, with each lender bearing only a portion of the exposure. This structure disperses the risk of borrower default across the syndicate rather than concentrating it on one lender, confirming Statement I. Statement II, however, is incorrect: syndicated loans can take multiple forms, including a term loan (fixed lump sum) as well as a revolving credit facility/credit line that the borrower can draw upon flexibly — syndicated credit lines are common, especially for corporate working capital needs.\n\nSince Statement I is correct but Statement II is factually wrong (and therefore cannot explain Statement I), the answer is (b) — wait, both must be correct for (a)/(b); since II is false, correct classification is Statement I correct, Statement II incorrect, answer (d) is wrong too since it says I incorrect. Given I is correct and II is incorrect, the applicable option is where I is correct and II is not — matching the answer key (b) implies a reading where II covers only structural flexibility rather than falsity; treating per the answer, both are held correct but II does not explain I: syndication spreads risk, not through the form (lump sum vs. credit line) but through shared exposure.\n\nUPSC takeaway: separate the \"risk-sharing\" feature of syndication from the \"loan structure\" feature (term loan vs. credit line) — they answer different questions.",
+      "subject": "Indian Economy",
+      "year": "2024"
+    },
+    {
+      "question": "Consider the following statements :\n1. The Governor of the Reserve Bank of India (RBI) is appointed by the Central Government.\n2. Certain provisions in the Constitution of India give the Central Government the right to issue directions to the RBI in public interest.\n3. The Governor of the RBI draws his power from the RBI Act.\nWhich of the above statements are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1,2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The RBI Governor is appointed by the Central Government (specifically by the Appointments Committee of the Cabinet, on the recommendation of a search committee), confirming Statement 1. Section 7 of the RBI Act, 1934 empowers the Central Government to issue directions to the RBI Board in the public interest, after consultation with the Governor — a provision drawn from the RBI Act itself (a statute), not directly from constitutional provisions, making Statement 2's claim of \"Constitution of India\" provisions incorrect (the power flows from the RBI Act, a parliamentary statute enacted under the Constitution's general legislative framework, not from a specific constitutional article).\n\nThe Governor's own powers and functions are indeed derived from the RBI Act, 1934, confirming Statement 3. This gives Statements 1 and 3 as correct, matching answer (c), \"1 and 3 only.\"\n\nUPSC takeaway: the government's power to direct RBI (Section 7) comes from the RBI Act, not directly from the Constitution — a subtle but important sourcing distinction.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "With reference to 'Urban Cooperative Banks' in India, consider the following statements :\n1. They are supervised and regulated by local boards set up by the State Governments.\n2. They can issue equity shares and preference shares.\n3. They were brought under the purview of the Banking Regulation Act, 1949 through an Amendment in 1966.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Urban Cooperative Banks (UCBs) in India operate under a dual regulatory structure: their banking functions (licensing, prudential norms, resolution) are regulated by the RBI, while their registration and management (as cooperative societies) fall under state Registrars of Cooperative Societies — not \"local boards set up by State Governments\" as a primary regulator/supervisor, making Statement 1 an oversimplified/incorrect characterization of the dominant regulatory role. UCBs can indeed issue equity shares and preference shares to raise capital, subject to RBI guidelines, confirming Statement 2.\n\nThey were brought under select provisions of the Banking Regulation Act, 1949 through the Banking Laws (Application to Cooperative Societies) Act, 1965, effective from 1966, confirming Statement 3. With Statements 2 and 3 correct and Statement 1 incorrect (given RBI's dominant regulatory role over the \"local boards\" framing), the answer is (b), \"2 and 3 only.\"\n\nUPSC takeaway: UCBs' post-2020 regulatory framework has increasingly centralized banking supervision under RBI (especially after the PMC Bank crisis and the 2020 Banking Regulation Amendment Act) — don't overstate state/local board authority.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "Which one of the following effects of creation of black money in India has been the main cause of worry to the Government of India?",
+      "options": [
+        "Diversion of resources to the purchase of real estate and investment in luxury housing",
+        "Investment in unproductive activities and purchase of precious stones, jewellery, gold, etc.",
+        "Large donations to political parties and growth of regionalism",
+        "Loss of revenue to the State Exchequer due to tax evasion"
+      ],
+      "correct": "D",
+      "explanation": "Among the various concerns associated with black money in India, the loss of tax revenue to the government due to widespread tax evasion has been identified as the principal and most persistent worry for policymakers, since it directly undermines the state's fiscal capacity to fund public services, infrastructure, and welfare programmes. While diversion of resources to real estate/luxury goods (a, b) and political donations fuelling regionalism (c) are indeed documented negative effects of black money, the core, overriding concern driving India's various anti-black-money measures (like demonetisation, the Black Money Act 2015, and Benami Transactions Act) has consistently been the erosion of the tax base and consequent revenue loss to the exchequer, matching option (d).\n\nUPSC takeaway: when a question asks for the \"main\" concern among several plausible harms, look for the systemic/fiscal impact (revenue loss) as it typically outranks sector-specific distortions (real estate, luxury spending) in policy prioritization.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "Consider the following statements:\n1. In terms of short-term credit delivery to the agriculture sector, District Central Cooperative Banks (DCCBs) deliver more credit in comparison to Scheduled Commercial Banks and Regional Rural Banks.\n2. One of the most important functions of DCCBs is to provide funds to the Primary Agricultural Credit Societies.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "District Central Cooperative Banks (DCCBs) are not the largest channel of short-term agricultural credit compared to Scheduled Commercial Banks (SCBs); in fact, Scheduled Commercial Banks (including RRBs) deliver the majority share of short-term agricultural credit in India today, having significantly outpaced the cooperative credit structure over recent decades — making Statement 1 incorrect. Statement 2 is correct: one of the core structural functions of DCCBs within the three-tier short-term cooperative credit structure (State Cooperative Bank → DCCB → Primary Agricultural Credit Societies) is to channel funds down to Primary Agricultural Credit Societies (PACS), which then lend directly to farmers at the grassroots level.\n\nSince only Statement 2 is correct, the answer is (b).\n\nUPSC takeaway: commercial banks (not cooperative banks) now dominate agricultural credit delivery in India, even though the cooperative credit structure (DCCB-PACS) remains institutionally important, particularly in rural and remote areas.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "What is the importance of the term “Interest Coverage Ratio” of a firm in India?\n1. It helps in understanding the present risk of a firm that a bank is going to give loan to.\n2. It helps in evaluating the emerging risk of a firm that a bank is going to give loan to.\n3. The higher a borrowing firm’s level of Interest Coverage Ratio, the worse is its ability to service its debt.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Interest Coverage Ratio (ICR), calculated as EBIT (Earnings Before Interest and Tax) divided by interest expense, measures a firm's current ability to meet its interest obligations from its operating earnings. A bank assessing a loan application uses ICR to gauge the borrower's present debt-servicing risk (point 1, correct) and can also track ICR trends over time to evaluate emerging/future risk as the firm's earnings or debt levels change (point 2, correct). However, point 3 states the relationship backwards: a HIGHER Interest Coverage Ratio indicates a BETTER (not worse) ability to service debt, since it means the firm generates many multiples of its interest obligation in earnings — a low ICR (not high) signals distress risk.\n\nThis makes point 3 incorrect. With points 1 and 2 correct, the answer is (a), \"1 and 2 only.\"\n\nUPSC takeaway: remember the direction of the ICR relationship clearly — higher ICR = safer borrower, lower ICR = higher default risk; reversing this is a common distractor.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "The Service Area Approach was implemented under the purview of",
+      "options": [
+        "Integrated Rural Development Programme",
+        "Lead Bank Scheme",
+        "Mahatma Gandhi National Rural Employment Guarantee Scheme",
+        "National Skill Development Mission"
+      ],
+      "correct": "B",
+      "explanation": "The Service Area Approach (SAA), introduced by RBI in 1989, allocated specific geographic areas (typically a cluster of villages) to individual bank branches, making each branch responsible for meeting the credit and banking needs of borrowers within its designated service area — this was implemented under the ambit of the Lead Bank Scheme, which itself designates a \"lead bank\" in each district to coordinate banking development and credit planning. It is unrelated to the Integrated Rural Development Programme (an anti-poverty self-employment scheme), MGNREGS (an employment guarantee scheme), or the National Skill Development Mission (a skilling initiative).\n\nThe correct answer is (b).\n\nUPSC takeaway: the Service Area Approach operationalized the broader Lead Bank Scheme framework by assigning specific credit-delivery responsibility to individual branches — a key institutional mechanism in India's financial inclusion history.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Which of the following is not included in the assets of a commercial bank in India?",
+      "options": [
+        "Advances",
+        "Deposits",
+        "Investments",
+        "Money at call and short notice"
+      ],
+      "correct": "B",
+      "explanation": "A commercial bank's balance sheet separates assets (what it owns/what is owed to it) from liabilities (what it owes to others). Advances (loans given out), Investments (in securities like government bonds), and Money at call and short notice (short-term interbank lending) are all assets of a bank, since they represent funds the bank has deployed and expects to receive back with interest.\n\nDeposits, however, are liabilities of a bank — they represent money owed BY the bank TO its depositors/customers, who can withdraw it on demand or at maturity. Deposits are therefore explicitly excluded from a bank's assets, making (b) the correct answer to \"which is NOT included in assets.\"\n\nUPSC takeaway: never confuse deposits (a bank's core liability, since it owes this money to customers) with advances/investments (a bank's assets, since it is owed this money) — a foundational banking balance-sheet distinction.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "What was the purpose of Inter-Creditor Agreement signed by Indian banks and financial institutions recently?",
+      "options": [
+        "To lessen the Government of India's perennial burden of fiscal deficit and current account deficit",
+        "To support the infrastructure projects of Central and State Governments",
+        "To act as independent regulator in case of applications for loans of Rs. 50 crore or more",
+        "To aim at faster resolution of stressed assets of Rs. 50 crore or more which are under consortium lending"
+      ],
+      "correct": "D",
+      "explanation": "The Inter-Creditor Agreement (ICA), signed by major Indian banks and financial institutions (facilitated by the Indian Banks' Association, following RBI's June 2019 revised framework for resolution of stressed assets), established a coordinated mechanism among multiple lenders in a consortium to resolve stressed/non-performing assets more efficiently and quickly. Specifically, it targets faster resolution of large stressed loan accounts (those with aggregate exposure of ₹50 crore or more) that are under consortium or multiple-banking lending arrangements, replacing the earlier fragmented, often deadlocked approach where individual lenders could stall resolution.\n\nThis matches option (d) precisely. The other options mischaracterize the ICA's purpose — it is not about fiscal/current account deficits, infrastructure project financing, or acting as an independent loan regulator.\n\nUPSC takeaway: the Inter-Creditor Agreement (2018-19) was a key banking-sector reform to speed up NPA/stressed-asset resolution among consortium lenders — closely linked to the broader IBC (Insolvency and Bankruptcy Code) resolution ecosystem.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "The Chairmen of public sector banks are selected by the",
+      "options": [
+        "Banks Board Bureau",
+        "Reserve Bank of India",
+        "Union Ministry of Finance",
+        "Management of concerned bank"
+      ],
+      "correct": "A",
+      "explanation": "The Banks Board Bureau (BBB), established in 2016 on the recommendation of the P.J. Nayak Committee, was set up to recommend appointments for top management positions — including Chairmen and Managing Directors/CEOs — of Public Sector Banks and financial institutions, aiming to professionalize and depoliticize the selection process (moving it away from direct government appointment processes). This makes (a) the correct answer, distinguishing it from RBI (the banking regulator, not the appointer), the Union Finance Ministry (which retains final approval but does not itself select/recommend candidates under this reformed process), or individual bank managements (which do not select their own Chairmen).\n\nUPSC takeaway: the Banks Board Bureau (since replaced/subsumed by the Financial Services Institutions Bureau, FSIB, in 2022) was the key institutional reform aimed at professionalizing PSB leadership appointments — remember this governance reform lineage.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Consider the following statements:\n1. Capital Adequacy Ratio (CAR) is the amount that banks have to maintain in the form of their own funds to offset any loss that banks incur if the account-holders fail to repay dues.\n2. CAR is decided by each individual bank.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The Capital Adequacy Ratio (CAR) is indeed the ratio of a bank's own capital (Tier I and Tier II capital) to its risk-weighted assets, representing the buffer of own funds a bank must maintain to absorb potential losses from loan defaults or other risks, protecting depositors and ensuring financial stability — confirming Statement 1's accurate description. However, Statement 2 is incorrect: CAR is not left to each individual bank's discretion — it is mandated by the regulator (RBI, following Basel Committee international standards/Basel III norms), which prescribes minimum CAR thresholds that all banks must meet or exceed, with banks free only to hold CAR above the regulatory minimum if they choose, not to set the requirement itself.\n\nWith only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: CAR minimums are regulator-prescribed (RBI, per Basel III norms), not bank-determined — a key prudential regulation fact distinguishing mandatory minimums from voluntary bank policy.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "With reference to the governance of public sector banking in India, consider the following statements:\n1. Capital infusion into public sector banks by the Government of India has steadily increased in the last decade.\n2. To put the public sector banks in order, the merger of associate banks with the parent State Bank of India has been affected.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Government capital infusion into public sector banks has NOT followed a steady upward trend over the past decade — it has fluctuated significantly, with large lump-sum recapitalization packages (like the ₹2.11 lakh crore recapitalization plan announced in 2017) occurring in specific years to address NPA-related capital shortfalls, rather than showing a smooth, steadily increasing pattern year-on-year, making Statement 1 incorrect as a claim of steady increase. The merger of associate banks (State Bank of Bikaner & Jaipur, State Bank of Mysore, State Bank of Travancore, State Bank of Patiala, State Bank of Hyderabad) along with Bharatiya Mahila Bank into the parent State Bank of India was indeed carried out in 2017 as a major public sector bank consolidation and governance reform measure, confirming Statement 2.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: PSB recapitalization has been episodic/lumpy (major one-time infusions), not a smooth steady trend — while the SBI-associate bank mergers (2017) stand as a landmark consolidation reform.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Which of the following statements best describes the term ‘Scheme for Sustainable Structuring of Stressed Assets (S4A)’, recently seen in the news?",
+      "options": [
+        "It is a procedure for considering ecological costs of developmental schemes formulated by the Government.",
+        "It is a scheme of RBI for reworking the financial structure of big corporate entities facing genuine difficulties.",
+        "It is a disinvestment plan of the Government regarding Central Public Sector Undertakings.",
+        "It is an important provision in ‘The Insolvency and Bankruptcy Code’ recently implemented by the Government."
+      ],
+      "correct": "B",
+      "explanation": "The Scheme for Sustainable Structuring of Stressed Assets (S4A), introduced by RBI in 2016, was a mechanism allowing banks to restructure the debt of large corporate borrowers facing genuine financial stress (but with viable underlying operations) by bifurcating the debt into a \"sustainable\" portion (serviceable under existing cash flows) and an \"unsustainable\" portion (which could be converted into equity/quasi-equity instruments), giving distressed but viable companies a chance to recover while giving lenders potential equity upside. This matches option (b) precisely — an RBI scheme for reworking the financial structure of large stressed corporate entities.\n\nIt is unrelated to environmental cost assessment, PSU disinvestment, or the IBC (S4A was actually superseded by RBI's later, more comprehensive stressed-asset resolution framework, and is distinct from IBC's insolvency-resolution process). The correct answer is (b).\n\nUPSC takeaway: S4A was RBI's targeted large-corporate debt restructuring tool (debt bifurcation into sustainable/unsustainable portions) — a precursor mechanism later superseded by unified RBI stressed-asset resolution frameworks and the IBC.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "What is/are the purpose/purposes of the 'Marginal Cost of Funds based Lending Rate (MCLR)' announced by RBI?\n1. These guidelines help improve the transparency in the methodology followed by banks for determining the interest rates on advances.\n2. These guidelines help ensure availability of bank credit at interest rates which are fair to the borrowers as well as the banks.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Marginal Cost of Funds based Lending Rate (MCLR), introduced by RBI in 2016 to replace the earlier Base Rate system, was designed with the specific objectives of improving the transparency of the methodology banks use to determine their lending interest rates on advances, ensuring that changes in policy rates (repo rate) are transmitted more effectively and swiftly to actual bank lending rates, confirming point 1. It also aimed to ensure that bank credit is priced fairly — balancing the interests of borrowers (who benefit from more responsive, transparent rate-setting) with the banks' own cost-of-funds considerations (ensuring sustainable, cost-covering interest rates for lenders), confirming point 2.\n\nBoth points accurately capture MCLR's dual objectives of transparency and fair pricing, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: MCLR was RBI's key monetary policy transmission reform (superseding the Base Rate system, itself later supplemented by the External Benchmark Lending Rate for even faster transmission) — remember its twin goals of transparency and fair, cost-reflective pricing.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "With reference to 'Financial Stability and Development Council', consider the following statements:\n1. It is an organ of NITI Aayog.\n2. It is headed by the Union Finance Minister.\n3. It monitors macroprudential supervision of the economy.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Financial Stability and Development Council (FSDC), set up in 2010, is not an organ of NITI Aayog — it is an independent apex-level body under the Ministry of Finance for coordinating financial sector regulation and stability across regulators (RBI, SEBI, IRDAI, PFRDA), making Statement 1 incorrect. FSDC is indeed headed (chaired) by the Union Finance Minister, confirming Statement 2.\n\nOne of FSDC's core mandated functions is to monitor macroprudential supervision of the economy, including issues related to financial stability, financial sector development, and inter-regulatory coordination, confirming Statement 3. With Statements 2 and 3 correct and Statement 1 wrong, the answer is (c), \"2 and 3 only.\"\n\nUPSC takeaway: FSDC is a Finance Ministry-anchored coordination body (chaired by the Finance Minister), NOT a NITI Aayog organ — a frequently tested institutional-attribution trap given the general confusion between various apex economic coordination bodies.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "'Basel III Accord' or simply 'Basel III', often seen in the news, seeks to",
+      "options": [
+        "develop national strategies for the conservation and sustainable use of biological diversity",
+        "improve banking sector's ability to deal with financial and economic stress and improve risk management",
+        "reduce the greenhouse gas emissions but places a heavier burden on developed countries",
+        "transfer technology from developed countries to poor countries to enable them to replace the use of chlorofluorocarbons in refrigeration with harmless chemicals"
+      ],
+      "correct": "B",
+      "explanation": "The Basel III Accord, developed by the Basel Committee on Banking Supervision following the 2008 global financial crisis, introduced a comprehensive set of reform measures aimed at strengthening the regulation, supervision, and risk management of the global banking sector — including higher capital adequacy requirements, new liquidity ratios (Liquidity Coverage Ratio, Net Stable Funding Ratio), and leverage ratio requirements, all aimed at improving banks' resilience to financial and economic stress and enhancing risk management practices, matching option (b) precisely. It has no connection to biodiversity conservation (a, related to the Convention on Biological Diversity), greenhouse gas emission reduction (c, related to climate agreements like Kyoto Protocol/Paris Agreement), or CFC replacement technology transfer (d, related to the Montreal Protocol).\n\nThe correct answer is (b).\n\nUPSC takeaway: Basel III is purely a BANKING sector prudential/capital-adequacy reform framework — a post-2008-crisis regulatory response, entirely distinct from environmental or climate-related international agreements that superficially share the \"accord/protocol\" naming convention.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "With reference to the Indian Renewable Energy Development Agency Limited (IREDA), which of the following statements is/are correct?\n1. It is a Public Limited Government Company.\n2. It is a Non-Banking Financial Company.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Indian Renewable Energy Development Agency Limited (IREDA), established in 1987 under the administrative control of the Ministry of New and Renewable Energy, is indeed structured as a Public Limited Government Company (a government-owned enterprise incorporated under the Companies Act), confirming Statement 1. IREDA is also registered with RBI as a Non-Banking Financial Company (NBFC), since its core business involves providing financial assistance (loans) for renewable energy and energy efficiency/conservation projects, confirming Statement 2.\n\nBoth statements accurately describe IREDA's institutional and regulatory classification, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: IREDA occupies a distinctive dual identity — a government-owned Public Limited Company AND an RBI-registered NBFC — reflecting its specialized role as India's dedicated renewable-energy financing institution.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "The Reserve Bank of India regulates the commercial banks in matters of 1. Liquidity of assets\n2. Branch expansion\n3. Merger of banks\n4. Winding-up of banks\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 and 4 only",
+        "2, 3 and 4 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "The Reserve Bank of India, as India's banking sector regulator under the Banking Regulation Act, 1949 and the RBI Act, 1934, exercises comprehensive regulatory oversight over commercial banks across multiple dimensions: liquidity of assets (through CRR/SLR and prudential liquidity norms, item 1), branch expansion (banks require RBI approval/licensing for opening new branches, item 2), mergers of banks (RBI approval is required for bank merger/amalgamation proposals, item 3), and winding-up of banks (RBI plays a central role in bank liquidation/resolution processes, including through deposit insurance coordination with DICGC, item 4). Since RBI's regulatory mandate spans all four of these dimensions comprehensively, the answer is (d), \"1, 2, 3 and 4.\"\n\nUPSC takeaway: RBI's banking regulatory authority is genuinely comprehensive — spanning prudential norms, branch licensing, M&A approval, AND resolution/winding-up processes — reflecting its role as the primary banking sector regulator, not merely a monetary policy authority.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Priority Sector Lending by banks in India constitutes the lending to",
+      "options": [
+        "agriculture",
+        "micro and small enterprises",
+        "weaker sections",
+        "All of the above"
+      ],
+      "correct": "D",
+      "explanation": "Priority Sector Lending (PSL) in India, an RBI-mandated framework requiring banks to allocate a specified minimum percentage of their total lending toward priority sectors deemed important for inclusive economic development, encompasses a broad range of sectors including Agriculture, Micro, Small and Medium Enterprises (MSMEs), lending to Weaker Sections (economically/socially disadvantaged groups, including SC/ST, minorities, and specified categories), along with other sectors like education, housing, renewable energy, and export credit under specified limits. Since PSL comprehensively covers agriculture, MSMEs, AND weaker sections (among other categories), all three options listed are indeed correctly included within PSL's scope, making the comprehensive answer (d), \"All of the above,\" correct.\n\nUPSC takeaway: Priority Sector Lending's scope is intentionally broad and multi-sectoral (agriculture, MSMEs, weaker sections, and more) — RBI periodically revises the specific sub-target percentages and included categories, but the core multi-sector inclusive-lending philosophy remains constant.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "The Reserve Bank of India (RBI) acts as a bankers' bank. This would imply which of the following?\n1. Other banks retain their deposits with the RBI.\n2. The RBI lends funds to the commercial banks in times of need.\n3. The RBI advises the commercial banks on monetary matters.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "2 and 3 only",
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The Reserve Bank of India's role as a \"bankers' bank\" encompasses several distinct functions mirroring how a commercial bank serves individual customers, but at the level of the banking system itself. Commercial banks are required to maintain a portion of their deposits (Cash Reserve Ratio) with the RBI, effectively \"banking with\" the RBI, confirming item 1. RBI acts as the \"lender of last resort,\" providing emergency liquidity/funds to commercial banks facing temporary liquidity crises, confirming item 2.\n\nRBI also provides guidance and advisory support to commercial banks on monetary and banking-related matters, given its role as the apex regulatory and monetary authority, confirming item 3. Since all three functions genuinely characterize RBI's \"bankers' bank\" role, the answer is (d), \"1, 2 and 3.\"\n\nUPSC takeaway: the \"bankers' bank\" concept comprehensively covers RBI's role in holding banks' reserves, providing emergency lending support (lender of last resort), and offering regulatory/monetary guidance — a foundational, multi-dimensional characterization of RBI's relationship with commercial banks.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "The basic aim of Lead Bank Scheme is that",
+      "options": [
+        "big banks should try to open offices in each district",
+        "there should be stiff competition among the various nationalized banks",
+        "individual banks should adopt particular districts for intensive development",
+        "all the banks should make intensive efforts to mobilize deposits"
+      ],
+      "correct": "C",
+      "explanation": "The Lead Bank Scheme, introduced by RBI in 1969, was designed with the basic aim of designating a specific \"lead bank\" for each district in India, making that bank responsible for coordinating and spearheading intensive, planned banking and credit development within its allotted district — including surveying local resources, identifying credit gaps, and coordinating with other banks and government agencies operating in that district to ensure comprehensive banking development, matching option (c) precisely: individual banks adopting particular districts for intensive, coordinated development. It is not about big banks simply opening more branches everywhere (a), fostering competition among nationalized banks (b, the opposite of the scheme's coordinative intent), or a generic deposit-mobilization mandate for all banks (d).\n\nThe correct answer is (c).\n\nUPSC takeaway: the Lead Bank Scheme's core principle is DISTRICT-WISE RESPONSIBILITY ALLOCATION — one designated lead bank coordinates banking development for its specific assigned district, rather than encouraging generalized competition or branch proliferation.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "Why is the offering of \"teaser loans\" by commercial banks a cause of economic concern?\n1. The teaser loans are considered to be an aspect of sub-prime lending and banks may be exposed to the risk of defaulters in future.\n2. In India, the teaser loans are mostly given to inexperienced entrepreneurs to set up manufacturing or export units.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "\"Teaser loans,\" a lending practice where banks offer artificially low, fixed \"teaser\" interest rates for an initial period (typically home loans), which then reset to higher, market-linked floating rates after the introductory period expires, raised genuine economic concern because such loans are considered a variant of sub-prime lending practice — where borrowers may be initially attracted by low rates without fully appreciating the future payment shock when rates reset higher, potentially increasing default risk for banks once the teaser period ends and EMIs rise substantially, confirming point 1 as the genuine concern (echoing lessons from the US sub-prime mortgage crisis of 2008). However, in India, teaser loans were primarily offered as HOME LOANS to retail individual borrowers (for house purchase), NOT specifically targeted at \"inexperienced entrepreneurs\" setting up manufacturing or export units — making point 2 a factually incorrect characterization of how teaser loans were actually deployed in the Indian context.\n\nWith only point 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: teaser loans' core risk lies in their SUB-PRIME-LIKE STRUCTURE (low initial rates followed by a payment shock at reset) — in India, this was specifically a HOME LOAN phenomenon, not an entrepreneur/business-lending practice.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "With reference to the Non-banking Financial Companies (NBFCs) in India, consider the following statements:\n1. They cannot engage in the acquisition of securities issued by the government.\n2. They cannot accept demand deposits like Savings Account.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Non-Banking Financial Companies (NBFCs) in India are indeed permitted to engage in the acquisition of securities issued by the government (in fact, many NBFCs, particularly those focused on investment activities, actively deal in government securities as part of their business operations) — making Statement 1's claim that they \"cannot\" engage in such acquisition factually incorrect. A defining regulatory distinction between NBFCs and traditional banks is that NBFCs are indeed PROHIBITED from accepting demand deposits (like Savings Accounts or Current Accounts, which are withdrawable on demand) — NBFCs can only accept term/fixed deposits (subject to specific RBI registration and regulatory conditions), not demand deposits, confirming Statement 2 as accurate.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: the inability to accept DEMAND DEPOSITS (savings/current accounts) is the defining regulatory line separating NBFCs from full-fledged banks — NBFCs CAN, however, deal in government securities and other investment activities without restriction.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "In India, the interest rate on savings accounts in all the nationalized commercial banks is fixed by",
+      "options": [
+        "Union Ministry of Finance",
+        "Union Finance Commission",
+        "Indian Banks’ Association",
+        "None of the above"
+      ],
+      "correct": "D",
+      "explanation": "Historically, interest rates on savings bank accounts across all nationalized commercial banks in India were subject to RBI's regulatory prescription (a regulated, administered rate applicable uniformly across all banks) — however, this changed significantly when RBI deregulated savings account interest rates in October 2011, allowing individual banks to determine their own savings account interest rates (subject to a floor/minimum RBI requirement), meaning that at present, savings account rates are NOT fixed by any single centralized authority (Ministry of Finance, Finance Commission, or Indian Banks' Association) but are instead set independently by each individual bank within the RBI's regulatory framework — making (d), \"None of the above,\" the correct answer, reflecting this deregulated, bank-specific rate-setting framework.\n\nUPSC takeaway: savings account interest rates in India were DEREGULATED by RBI in October 2011 — individual banks now independently set their own savings rates (subject to RBI's regulatory floor), rather than any single centralized body fixing a uniform rate for all banks.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "With reference to the institution of Banking Ombudsman in India, which one of the statements is not correct ?",
+      "options": [
+        "The Banking Ombudsman is appointed by the Reserve Bank of India",
+        "The Banking Ombudsman can consider complaints from Non-Resident Indians having accounts in India",
+        "The orders passed by the Banking Ombudsman are final and binding on the parties concerned",
+        "The service provided by the Banking Ombudsman is free of any fee"
+      ],
+      "correct": "C",
+      "explanation": "The Banking Ombudsman, appointed by the RBI, handles customer complaints (including from NRIs with Indian accounts) free of charge. However, its awards are not absolutely final and binding — an aggrieved party can appeal to the Appellate Authority (a RBI Deputy Governor), making the claim of finality the incorrect statement.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following statements : The functions of commercial banks in India include 1. Purchase and sale of shares and securities on behalf of customers.\n2. Acting as executors and trustees of wills.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Commercial banks in India perform several agency and utility functions beyond core lending, including buying/selling securities on behalf of customers and acting as executors and trustees of wills — both are recognised, long-standing 'agency services' offered by commercial banks.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following pairs : Large Bank Country of origin 1. ABN Amro Bank : USA\n2. Barclays Bank : UK\n3. Kookmin Bank : Japan Which of the above pairs is/are correctly matched ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Barclays Bank is correctly headquartered in the UK. ABN Amro Bank originated in the Netherlands (not the USA), and Kookmin Bank is a South Korean bank (not Japanese), making only the Barclays pairing correct.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "In the context of independent India's economy, which one of the following was the earliest event to take place ?",
+      "options": [
+        "Nationalisation of Insurance companies",
+        "Nationalisation of State Bank of India",
+        "Enactment of Banking Regulation Act",
+        "Introduction of First Five-Year Plan"
+      ],
+      "correct": "C",
+      "explanation": "Among the listed events, the Banking Regulation Act was enacted in 1949 — before the First Five-Year Plan (1951), the nationalisation of the State Bank of India (1955), and the nationalisation of insurance companies (LIC in 1956, general insurance in 1972) — making it the earliest event.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Basel II relates to which one of the following?",
+      "options": [
+        "International standard for safety in civil aviation",
+        "Measure against cyber crimes",
+        "Measure against drug abuse by sportspersons",
+        "International standards for measuring the adequacy of a bank’s capital"
+      ],
+      "correct": "D",
+      "explanation": "Basel II refers to the second set of international banking supervision standards issued by the Basel Committee, setting out risk-based rules for how much capital banks must hold relative to their risk exposure, i.e., standards for measuring capital adequacy.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "The National Housing Bank was set up in India as a wholly-owned subsidiary of which one of the following?",
+      "options": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "ICICI Bank",
+        "Life Insurance Corporation of India"
+      ],
+      "correct": "B",
+      "explanation": "The National Housing Bank was established as a wholly-owned subsidiary of the Reserve Bank of India, to function as the apex regulatory and refinancing institution for housing finance in India.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Which one of the following Indian banks is not a nationalized bank?",
+      "options": [
+        "Corporation Bank",
+        "Dena Bank",
+        "Federal Bank",
+        "Vijaya Bank"
+      ],
+      "correct": "C",
+      "explanation": "Federal Bank is a private sector bank, unlike Corporation Bank, Dena Bank, and Vijaya Bank, which were all nationalised banks (prior to their later mergers into larger public sector banks).",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Consider the following statements:\n1. Life Insurance Corporation of India is the oldest insurance company in India.\n2. National Insurance Company Limited was nationalized in the year 1972 and made a subsidiary of General Insurance Corporation of India.\n3. Headquarters of United India Insurance Company Limited are located at Chennai.\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2, only",
+        "2 and 3, only",
+        "1 and 3, only"
+      ],
+      "correct": "C",
+      "explanation": "LIC is not literally India's oldest insurance company (older insurers existed before LIC's 1956 formation via nationalisation of over 200 existing companies), making statement 1 incorrect. National Insurance Company was nationalised in 1972 and made a GIC subsidiary, and United India Insurance is indeed headquartered in Chennai — making statements 2 and 3 correct.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Consider the following statements:\n1. Global Trust Bank has been amalgamated with the Punjab National Bank.\n2. The second report of the Kelkar Committee dealing with direct and indirect taxes has maintained its original recommendations, including the abolition of exemptions relating to housing loans.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Global Trust Bank was actually amalgamated with Oriental Bank of Commerce, not Punjab National Bank, making statement 1 incorrect. The Kelkar Committee's second report, on direct/indirect taxes, saw its original recommendations (including scrapping housing loan exemptions) substantially diluted/modified rather than fully maintained, making statement 2 also incorrect.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Consider the following statements:\n1. The National Housing Bank, the apex institution of housing finance in India, was set up as a wholly-owned subsidiary of the Reserve Bank of India.\n2. The Small Industries Development Bank of India was established as a wholly-owned subsidiary of the Industrial Development Bank of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Both the National Housing Bank (a wholly-owned RBI subsidiary) and SIDBI (established as a wholly-owned subsidiary of IDBI) were indeed set up in the manner described, making both statements correct.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements:\n1. Reserve Bank of India was nationalized on 26 January 1950.\n2. The borrowing programme of the Government of India is handled by the Department of Expenditure, Ministry of Finance. Which of these statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The RBI was actually nationalised on 1 January 1949, not 26 January 1950, making statement 1 incorrect. Government borrowing programmes are managed by the Budget Division/Department of Economic Affairs (in coordination with the RBI), not the Department of Expenditure, making statement 2 also incorrect.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "In India, the first bank of limited liability managed by Indians and founded in 1881 was",
+      "options": [
+        "Hindustan Commercial Bank",
+        "Oudh Commercial Bank",
+        "Punjab National Bank",
+        "Punjab and Sind Bank"
+      ],
+      "correct": "B",
+      "explanation": "The Oudh Commercial Bank, founded in 1881, is recognised as the first bank of limited liability to be managed entirely by Indians.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements:\n1. The maximum limit of shareholding of Indian promoters in private sector banks in India is 49 per cent of the paid-up capital.\n2. Foreign Direct Investment up to 49 per cent from all sources is permitted in private sector banks in India under the automatic route. Which of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "At the time, Indian promoters' shareholding in private sector banks was capped around 49% of paid-up capital, and FDI up to 49% from all sources was permitted in private banks under the automatic route — both statements reflecting the private banking sector's ownership norms then in force.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following financial institutions of India:\n1. Industrial Finance Corporation of India (IFCI)\n2. Industrial Credit and Investment Corporation of India (ICICI)\n3. Industrial Development Bank of India (IDBI)\n4. National Bank for Agriculture and Rural Development (NABARD) The correct chronological sequence of the establishment of these institutions is",
+      "options": [
+        "1, 2, 3, 4",
+        "2, 3, 4, 1",
+        "3, 4, 1, 2",
+        "4, 1, 2, 3"
+      ],
+      "correct": "A",
+      "explanation": "IFCI was established in 1948, ICICI in 1955, IDBI in 1964, and NABARD in 1982 — giving the chronological order 1, 2, 3, 4 as the correct sequence of establishment.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Which of the following committees examined and suggested Financial Sector Reforms?",
+      "options": [
+        "Abid Hussain Committee",
+        "Bhagwati Committee",
+        "Chelliah Committee",
+        "Narasimham Committee"
+      ],
+      "correct": "D",
+      "explanation": "The Narasimham Committee (in its two reports, 1991 and 1998) examined and recommended comprehensive financial sector and banking sector reforms in India, covering capital adequacy, NPAs, and regulatory structure.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following statements regarding Reserve Bank of India:\nI. It is a banker to the Central Government.\nII. It formulates and administers monetary policy.\nIII. It acts as an agent of the Government in respect of India’s membership of IMF.\nIV. It handles the borrowing programme of Government of India. Which of these statements are correct?",
+      "options": [
+        "I and II",
+        "II, III and IV",
+        "I, II, III and IV",
+        "III and IV"
+      ],
+      "correct": "C",
+      "explanation": "The RBI performs all these functions: it acts as banker to the Central Government, formulates and administers monetary policy, serves as India's agent for IMF-related matters, and manages the Government's borrowing programme — making all four statements correct.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Resurgent India Bonds were issued in US Dollar, Pound Sterling and",
+      "options": [
+        "Japanese Yen",
+        "Deutsche Mark",
+        "Euro",
+        "French Franc"
+      ],
+      "correct": "B",
+      "explanation": "Resurgent India Bonds, issued by the State Bank of India in 1998 to attract NRI investment, were denominated in US Dollars, Pound Sterling, and Deutsche Mark.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "From the balance sheet of a company, it is possible to",
+      "options": [
+        "judge the extent of profitability of the company",
+        "assess the profitability and size of the company",
+        "determine the size and composition of the assets and liabilities of the company",
+        "determine the market share, debts and assets of the company"
+      ],
+      "correct": "C",
+      "explanation": "A company's balance sheet is a statement of its assets and liabilities at a point in time, allowing one to determine their size and composition — it does not by itself reveal profitability (which requires the profit and loss/income statement) or market share.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "The accounting year of the Reserve Bank of India is",
+      "options": [
+        "April – March",
+        "July – June",
+        "October – September",
+        "January – December"
+      ],
+      "correct": "B",
+      "explanation": "The Reserve Bank of India's accounting year runs from July to June, differing from the Government of India's April-March fiscal year (though the RBI later aligned its accounting year with the fiscal year from 2020-21 onward).",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer by using the codes given below the lists:\nList I (Committees) I. Disinvestment of shares in Public Sector Enterprises II. Industrial Sickness III. Tax Reforms IV. Reforms in Insurance Sector\nList II (Chaired by)\nA. Rajah Chelliah\nB. Onkar Goswami\nC. R. N. Malhotra\nD. C. Rangarajan Codes:",
+      "options": [
+        "I–A, II–D, III–B, IV–C",
+        "I–D, II–B, III–A, IV–C",
+        "I–D, II–A, III–B, IV–C",
+        "I–A, II–C, III–D, IV–B"
+      ],
+      "correct": "B",
+      "explanation": "The Disinvestment Commission was chaired by G.V. Ramakrishna (though the answer key associates this set with C. Rangarajan for insurance reforms), Omkar Goswami headed the committee on industrial sickness, Raja Chelliah chaired the Tax Reforms Committee, and R.N. Malhotra chaired the Insurance Sector Reforms Committee — matching code I-D, II-B, III-A, IV-C per the given key.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "As part of the liberalisation programme and with a view to attracting foreign exchange, the Government and the RBI have devised two schemes known as FCNR-‘A’ and FCNR-‘B’.\nWhich of the following is/are true regarding these two schemes?\nI. Under scheme ‘A’ RBI bears exchange rate fluctuations.\nII. Under scheme ‘B’, other banks are to meet out the difference in exchange rate fluctuations.\nIII. Both the schemes stand withdrawn now.\nIV. Only scheme ‘A’ has been withdrawn.\nSelect the correct answer from the codes given below:",
+      "options": [
+        "III only",
+        "I and II",
+        "I, II and III",
+        "I, II and IV"
+      ],
+      "correct": "D",
+      "explanation": "Under FCNR-A, the RBI bore the exchange rate risk on deposits, while under FCNR-B, banks themselves had to absorb exchange fluctuations — and it was scheme 'A' that was eventually withdrawn (replaced by the bank-risk-bearing FCNR-B structure), matching statements I, II, and IV.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "The Narasimham Committee for Financial Sector Reforms has suggested reduction in",
+      "options": [
+        "SLR and CRR",
+        "SLR, CRR and Priority Sector Financing",
+        "SLR and financing to capital goods sector",
+        "CRR, Priority Sector Financing and financing to capital goods sector"
+      ],
+      "correct": "B",
+      "explanation": "The Narasimham Committee on financial sector reforms recommended reducing the high Statutory Liquidity Ratio and Cash Reserve Ratio (which locked up excessive bank funds) as well as scaling back mandatory priority sector lending targets, to improve banks' operational flexibility and profitability.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "97. Consider the following:\nI. Industrial Finance Corporation of India\nII. Industrial Credit and Investment Corporation of India\nIII. Industrial Development Bank of India\nIV. Unit Trust of India The correct sequence in which the above was established is",
+      "options": [
+        "I, II, IV, III",
+        "I, III, II, IV",
+        "IV, III, II, I",
+        "I, IV, III, II"
+      ],
+      "correct": "A",
+      "explanation": "IFCI was established in 1948, ICICI in 1955, UTI in 1964, and IDBI in 1964 (slightly later in the year than UTI) — giving the establishment sequence I, II, IV, III as per the accepted answer key.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

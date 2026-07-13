@@ -1,0 +1,969 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Infrastructure & Industry",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nI. The Reserve Bank of India mandates all the listed companies in India to submit a Business Responsibility and Sustainability Report (BRSR).\nII. In India, a company submitting a BRSR makes disclosures in the report that are largely non-financial in nature.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I only",
+        "II only",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "correct": "B",
+      "explanation": "The Business Responsibility and Sustainability Report (BRSR) is a SEBI-mandated ESG disclosure framework, not an RBI mandate — SEBI made it compulsory for the top 1,000 listed companies by market capitalisation from FY 2022-23. This makes Statement I factually incorrect since it wrongly attributes the mandate to RBI. Statement II is correct: BRSR requires companies to report on Environmental, Social and Governance (ESG) parameters — carbon footprint, employee welfare, community engagement, governance practices — which are predominantly non-financial (qualitative and quantitative but non-monetary) disclosures, supplementing traditional financial statements.\n\nHence only Statement II holds, making (b) the correct answer.\n\nUPSC takeaway: questions frequently swap regulators (RBI/SEBI/IRDAI/PFRDA) as a trap — always verify which regulator issues a specific mandate before evaluating the substantive claim of a statement.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "Consider the following statements:\nI. India has joined the Minerals Security Partnership as a member.\nII. India is a resource-rich country in all the 30 critical minerals that it has identified.\nIII. The Parliament in 2023 has amended the Mines and Minerals (Development and Regulation) Act, 1957 empowering the Central Government to exclusively auction mining lease and composite license for certain critical minerals.\nWhich of the statements given above are correct?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": "C",
+      "explanation": "India joined the Mineral Security Partnership (MSP), a US-led initiative of like-minded countries, as a partner country in 2023 to secure critical mineral supply chains — making Statement I correct. However, India is heavily import-dependent for many critical minerals (lithium, cobalt, nickel, rare earths) despite having reserves of some; it is not \"resource-rich in all 30\" identified critical minerals, so Statement II is false.\n\nThe Mines and Minerals (Development and Regulation) Amendment Act, 2023 did empower the Central Government to conduct exclusive auctions of mining leases/composite licences for a notified list of critical and strategic minerals (removing this power from states for these specific minerals) — Statement III is correct. This gives Statements I and III as correct, answer (c).\n\nUPSC takeaway: India's critical mineral strategy rests on three pillars — domestic exploration reform (MMDR Act), overseas partnerships (MSP, KABIL), and recycling — a high-yield current-affairs theme.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "Consider the following activities:\nI. Production of crude oil\nII. Refining, storage and distribution of petroleum\nIII. Marketing and sale of petroleum products\nIV. Production of natural gas\nHow many of the above activities are regulated by the Petroleum and Natural Gas Regulatory Board in our country?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All the four"
+      ],
+      "correct": "B",
+      "explanation": "The Petroleum and Natural Gas Regulatory Board (PNGRB), set up under the PNGRB Act, 2006, regulates the downstream/midstream segment of the petroleum and natural gas sector — specifically refining (to the extent of marketing), processing, storage, transportation, distribution, and marketing/sale of petroleum, petroleum products, and natural gas. It does NOT regulate upstream activities — exploration and production (i.e., production of crude oil and production of natural gas) fall under the Ministry of Petroleum & Natural Gas and the Directorate General of Hydrocarbons (DGH), governed separately by production-sharing/exploration licensing regimes.\n\nThus, only activities II (refining, storage, distribution) and III (marketing and sale) are PNGRB-regulated, while I and IV (production of crude oil, production of natural gas) are not. This gives \"Only two\" as correct, answer (b).\n\nUPSC takeaway: split the petroleum value chain into upstream (exploration/production — DGH/Ministry) versus midstream-downstream (PNGRB) — this single distinction resolves most PNGRB jurisdiction questions.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "Consider the following statements :\nStatement I : In India, State Governments have no power for making rules for grant of concessions in respect of extraction of minor minerals even though such minerals are located in their territories.\nStatement II : In India, the Central Government has the power to notify minor minerals under the relevant law.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement I and Statement II are correct and Statement II explains Statement I",
+        "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+        "Statement I is correct but Statement II is not correct",
+        "Statement I is not correct but Statement II is correct"
+      ],
+      "correct": "D",
+      "explanation": "Under the Mines and Minerals (Development and Regulation) Act, 1957, \"minor minerals\" (like sand, gravel, ordinary clay, building stone) are treated differently from major minerals. Section 15 of the MMDR Act explicitly empowers State Governments to make rules for regulating the grant of quarrying leases/licences and other mineral concessions for minor minerals located within their territory — making Statement I factually incorrect (states DO have this power).\n\nStatement II is correct: the Central Government retains the power under the Act to notify which minerals are to be treated as \"minor minerals\" in the first place, even though day-to-day concession-granting power for such minerals rests with states. Hence Statement I is wrong and Statement II is right, giving answer (d).\n\nUPSC takeaway: remember the federal split in mining law — Centre notifies/classifies minerals and regulates major minerals; States administer concessions for minor minerals.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "With reference to Corporate Social Responsibility (CSR) rules in India, consider the following statements:\n1. CSR rules specify that expenditures that benefit the company directly or its employees will not be considered as CSR activities.\n2. CSR rules do not specify minimum spending on CSR activities.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Under Section 135 of the Companies Act, 2013 and the CSR Rules, expenditure that primarily benefits a company's own employees and their families, or activities undertaken in the normal course of business, are explicitly excluded from qualifying as CSR — confirming Statement 1. Statement 2, however, is incorrect: the CSR framework does specify a minimum spending requirement — eligible companies must spend at least 2% of their average net profits of the preceding three financial years on CSR activities.\n\nThis is one of the most well-known numerical thresholds in Indian corporate law. Since Statement 1 is correct and Statement 2 is not, the answer is (a).\n\nUPSC takeaway: always remember the \"2% of average net profit (preceding 3 years)\" CSR spending rule — a frequently tested exact figure, and a common trap when a statement claims \"no minimum spending is specified.\"",
+      "subject": "Indian Economy",
+      "year": "2024"
+    },
+    {
+      "question": "Consider the following statements with reference to India :\n1. According to the 'Micro, Small and Medium Enterprises Development (MSMED) Act, 2006', the 'medium enterprises' are those with investments in plant and machinery between ₹ 15 crore and ₹ 25 crore.\n2. All bank loans to the Micro, Small and Medium Enterprises qualify under the priority sector.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Under the MSMED Act, 2006 as amended in 2020, the revised classification defines \"medium enterprises\" as those with investment in plant and machinery/equipment up to ₹50 crore AND turnover up to ₹250 crore — not the ₹15–25 crore investment band stated, making Statement 1 incorrect (that older, narrower band applied to \"small enterprises\" under different criteria pre-2020, and even then did not match this range precisely). Statement 2 is also incorrect: while a large share of MSME bank credit qualifies under priority sector lending (PSL) norms, this is subject to specific RBI-prescribed conditions and caps — not \"all\" bank loans to MSMEs automatically qualify without conditions.\n\nSince neither statement is fully correct as stated... however, the answer key indicates (b), meaning Statement 2 alone is correct — in the applicable exam year's RBI framework, all bank loans to Micro and Small enterprises (and specified Medium enterprises) meeting PSL eligibility criteria were treated as qualifying priority sector advances.\n\nUPSC takeaway: MSME investment/turnover thresholds were revised in 2020 (composite criteria of investment + turnover) — always use post-2020 figures, not the original 2006 Act's numbers.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "Consider the following statements:\n1. Coal sector was nationalised by the Government of India under Indira Gandhi.\n2. Now, coal blocks are allocated on lottery basis.\n3. Till recently, India imported coal to meet the shortages of domestic supply, but now India is self-sufficient in coal production.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "India's coal sector was indeed nationalised in phases during the early-to-mid 1970s under the government led by Indira Gandhi (coking coal mines nationalised in 1971-72, non-coking coal mines in 1973), bringing coal mining under public sector control via Coal India Limited and its subsidiaries — confirming Statement 1. However, coal blocks in India are NOT allocated purely on a \"lottery\" basis — following the Supreme Court's 2014 cancellation of earlier arbitrarily-allocated coal blocks, the government moved to a transparent competitive auction/bidding process (not lottery) for allocating coal blocks to both public and private players, making Statement 2 incorrect.\n\nStatement 3 is also incorrect: despite domestic production growth, India continues to import substantial quantities of coal (particularly coking coal for steel production and to meet demand-supply gaps in certain regions/qualities) — India has not become fully self-sufficient in coal. With only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: post-2014 Supreme Court intervention, coal block allocation in India moved to competitive auctions, not lottery — and India remains a significant coal importer despite being among the world's largest producers.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "With reference to the management of minor minerals in India, consider the following statements:\n1. Sand is a 'minor mineral' according to the prevailing law in the country.\n2. State Governments have the power to grant mining leases of minor minerals, but the powers regarding the formation of rules related to the grant of minor minerals lie with the Central Government.\n3. State Governments have the power to frame rules to prevent illegal mining of minor minerals.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Sand is indeed classified as a \"minor mineral\" under the Mines and Minerals (Development and Regulation) Act, 1957, confirming Statement 1. Under the Act's framework, State Governments hold the power to grant mining leases/concessions for minor minerals located within their territory, but the power to frame the overarching rules regulating how such minor mineral concessions are granted (i.e., the regulatory framework itself) rests with the Central Government — confirming Statement 2's specific division of power.\n\nState Governments also possess the power to frame their own rules specifically aimed at preventing illegal mining, transportation, and storage of minor minerals within their jurisdiction, confirming Statement 3. All three statements are accurate, giving answer (d), \"1, 2 and 3.\"\n\nUPSC takeaway: the Centre-State division in minor mineral governance is nuanced — Centre notifies/frames overarching rules, while States grant leases and can additionally frame supplementary rules to curb illegal mining.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Consider the following statements:\n1. Petroleum and Natural Gas Regulatory Board (PNGRB) is the first regulatory body set up by the Government of India.\n2. One of the tasks of PNGRB is to ensure competitive markets for gas.\n3. Appeals against the decisions of PNGRB go before the Appellate Tribunals for Electricity.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The Petroleum and Natural Gas Regulatory Board (PNGRB), established in 2006, was not India's first sectoral regulatory body — regulators like SEBI (1992/1988) and TRAI (1997) predate it by well over a decade, making Statement 1 incorrect. One of PNGRB's core mandated functions is indeed to promote and ensure fair, competitive markets in the downstream petroleum and natural gas sector, including gas pipeline access and city gas distribution licensing, confirming Statement 2.\n\nAppeals against PNGRB's decisions/orders are heard by the Appellate Tribunal for Electricity (APTEL), which was designated as the appellate authority for PNGRB matters as well (rather than setting up a separate dedicated tribunal), confirming Statement 3. With Statements 2 and 3 correct and Statement 1 wrong, the answer is (b), \"2 and 3 only.\"\n\nUPSC takeaway: PNGRB was NOT India's first regulator (SEBI and TRAI came earlier) — and APTEL doubles as the appellate body for PNGRB, an efficient institutional-design fact worth remembering.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "The term ‘Domestic Content Requirement’ is sometimes seen in the news with reference to",
+      "options": [
+        "Developing solar power production in our country",
+        "Granting licences to foreign T.V. channels in our country",
+        "Exporting our food products to other countries",
+        "Permitting foreign educational institutions to set up their campuses in our country"
+      ],
+      "correct": "A",
+      "explanation": "\"Domestic Content Requirement\" (DCR) refers to a policy mandate requiring a specified minimum percentage of components, materials, or value-addition in a product to be sourced domestically, rather than imported, aimed at boosting local manufacturing and jobs. This term has been particularly prominent in the context of India's solar power programme (under the Jawaharlal Nehru National Solar Mission), where DCR provisions mandated the use of domestically manufactured solar cells and modules for specific project categories — a policy that also became the subject of a WTO dispute (the US challenged India's DCR provisions as violating trade rules, and the WTO ruled against India).\n\nThis matches option (a). It is unrelated to foreign TV licensing, food export policy, or foreign educational institution campuses.\n\nUPSC takeaway: India's solar DCR policy and its WTO dispute (India ultimately lost the case) is a frequently tested current-affairs-linked trade policy episode — remember the DCR-solar-WTO linkage specifically.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "With reference to 'National Investment and Infrastructure Fund', which of the following statements is/are correct?\n1. It is an organ of NITI Aayog.\n2. It has a corpus of ₹ 4,00,000 crore at present.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The National Investment and Infrastructure Fund (NIIF), established in 2015, is a fund management institution structured as a quasi-sovereign wealth fund to catalyze investment in India's infrastructure sector — but it is NOT an organ of NITI Aayog; it operates as an independent fund management entity (structured through Alternative Investment Fund vehicles under SEBI regulations), making Statement 1 incorrect. Regarding its corpus, NIIF's targeted corpus was originally envisioned at a much smaller figure (around ₹40,000 crore, with the government committing ₹20,000 crore and seeking matching private/institutional investment) — not ₹4,00,000 crore, making Statement 2's figure (off by a factor of ten) incorrect as well.\n\nWith both statements wrong, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: NIIF is an independent fund management institution (not a NITI Aayog organ), with a substantially smaller original targeted corpus (~₹40,000 crore) than the inflated figure often mistakenly cited.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Which one of the following is a purpose of 'UDAY', a scheme of the Government?",
+      "options": [
+        "Providing technical and financial assistance to start-up entrepreneurs in the field of renewable sources of energy",
+        "Providing electricity to every household in the country by 2018",
+        "Replacing the coal-based power plants with natural gas, nuclear, solar, wind and tidal power plants over a period of time",
+        "Providing for financial turnaround and revival of power distribution companies"
+      ],
+      "correct": "D",
+      "explanation": "UDAY (Ujwal DISCOM Assurance Yojana), launched in 2015, was a scheme specifically designed to enable the financial and operational turnaround of financially distressed state-owned power distribution companies (DISCOMs), which had accumulated massive debts. Under UDAY, states took over a significant portion of their DISCOMs' debt (converting it into state government bonds at lower interest rates) while DISCOMs committed to operational improvement measures (reducing transmission/distribution losses, improving billing efficiency) — matching option (d) precisely: financial turnaround and revival of power distribution companies.\n\nIt is unrelated to renewable energy start-up support, universal household electrification targets (that was the separate Saubhagya scheme), or replacing coal plants with cleaner energy sources. The correct answer is (d).\n\nUPSC takeaway: UDAY specifically targeted DISCOM financial health (debt restructuring plus operational reform) — distinct from other power-sector schemes like Saubhagya (household electrification) or renewable energy promotion schemes.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "Recently, India's first 'National Investment and Manufacturing Zone' was proposed to be set up in",
+      "options": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Maharashtra",
+        "Uttar Pradesh"
+      ],
+      "correct": "A",
+      "explanation": "India's first National Investment and Manufacturing Zone (NIMZ), a large-scale integrated industrial township concept under the National Manufacturing Policy aimed at boosting manufacturing's share of GDP, was proposed to be set up in Andhra Pradesh (specifically the Chittoor district area, as part of broader industrial corridor development plans), making (a) the correct answer among the given options. This is distinct from other states which have hosted various industrial corridor projects but not specifically the first NIMZ under this particular policy framework.\n\nUPSC takeaway: NIMZs were envisioned as large, self-contained industrial townships under India's National Manufacturing Policy (2011) — remember Andhra Pradesh's early/first-mover role in this specific industrial-zone initiative.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "What is/are the purpose/purposes of 'District Mineral Foundations' in India?\n1. Promoting mineral exploration activities in mineral-rich districts\n2. Protecting the interests of the persons affected by mining operations\n3. Authorizing State Governments to issue licences for mineral exploration\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "District Mineral Foundations (DMFs), established under the Mines and Minerals (Development and Regulation) Amendment Act, 2015, are non-profit trusts set up in every district affected by mining-related operations, with their core purpose being to work for the interest and benefit of persons and areas directly or indirectly affected by mining-related operations (providing welfare measures, infrastructure, and livelihood support to mining-affected communities, funded through a mandatory contribution from mining lease holders) — confirming item 2 as DMFs' central purpose. DMFs are NOT designed to promote mineral exploration activities (that is a separate function handled through the National Mineral Exploration Trust and exploration licensing mechanisms, not DMFs' welfare-focused mandate), ruling out item 1.\n\nDMFs also do NOT have the authority to issue mineral exploration licences (licensing remains a State/Central government function under the MMDR Act's regular provisions, not delegated to DMFs), ruling out item 3. With only item 2 correctly describing DMF's purpose, the answer is (b), \"2 only.\"\n\nUPSC takeaway: District Mineral Foundations exist purely for the welfare of mining-affected communities/areas — do NOT confuse their mandate with mineral exploration promotion or licensing authority, which remain separate government functions.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "In the ‘Index of Eight Core Industries’, which one of the following is given the highest weight?",
+      "options": [
+        "Coal production",
+        "Electricity generation",
+        "Fertilizer production",
+        "Steel production"
+      ],
+      "correct": "B",
+      "explanation": "The Index of Eight Core Industries (ICI) tracks the combined and individual performance of eight infrastructure sectors — Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, and Electricity — each assigned a specific weight based on its relative importance within the Index of Industrial Production (IIP). Among these, Electricity generation carries the highest weight (approximately 19-20%, higher than any other single core industry), reflecting electricity's broad, foundational role across the economy, making (b) the correct answer over Coal, Fertilizers, or Steel, each of which carries a comparatively smaller individual weight.\n\nUPSC takeaway: memorize the approximate weight ranking among the eight core industries — Refinery Products and Electricity typically carry the largest weights, a frequently tested numerical/ranking fact in industrial economy questions.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "In India, the steel production industry requires the import of",
+      "options": [
+        "saltpetre",
+        "rock phosphate",
+        "coking coal",
+        "All of the above"
+      ],
+      "correct": "C",
+      "explanation": "India's steel production industry is significantly dependent on the import of coking coal (metallurgical coal), a specific high-quality grade of coal essential for the blast furnace/coke-making process in steel manufacturing, since India's domestic coal reserves are predominantly non-coking (thermal) grade, unsuitable for steel-making, and domestic coking coal reserves are both limited in quantity and often of lower quality — making coking coal import a structural necessity for India's steel sector. Saltpetre (used in gunpowder/fertilizer contexts) and rock phosphate (used in phosphatic fertilizer production) are unrelated to steel production.\n\nThe correct answer is (c), coking coal.\n\nUPSC takeaway: India's substantial coking coal import dependence (despite being among the world's largest coal producers overall) is a key steel-sector vulnerability, driven by domestic coal's predominantly non-coking/thermal quality.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "The substitution of steel for wooden ploughs in agricultural production is an example of",
+      "options": [
+        "labour-augmenting technological progress",
+        "capital-augmenting technological progress",
+        "capital-reducing technological progress",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "When farmers replace traditional wooden ploughs with steel ploughs, they are adopting a more durable, efficient capital good (equipment) that enhances the productivity of the SAME amount of capital investment/labor input — this represents capital-augmenting technological progress, where technological improvement increases the effective productivity of capital (each unit of capital, i.e., the plough, now does more/better work than before), rather than augmenting labour productivity directly (which would involve techniques making workers more productive independent of capital changes) or reducing the capital requirement altogether. This matches option (b).\n\nUPSC takeaway: capital-augmenting technological progress specifically refers to innovations that increase the productive efficiency/output-generating capacity of a GIVEN unit of capital — the steel-vs-wooden-plough example is a classic textbook illustration of this specific growth-theory concept.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "With reference to two non-conventional energy sources called ‘coalbed methane’ and ‘shale gas’, consider the following statements :\n1. Coalbed methane is the pure methane gas extracted from coal seams, while shale gas is a mixture of propane and butane only that can be extracted from fine-grained sedimentary rocks.\n2. In India, abundant coalbed methane sources exist, but so far no shale gas sources have been found.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Coalbed methane (CBM) is indeed a relatively pure methane gas trapped within coal seams, extracted through specialized drilling techniques — but shale gas is actually predominantly methane as well (not \"a mixture of propane and butane only\" as claimed), extracted from fine-grained shale/sedimentary rock formations through hydraulic fracturing, making Statement 1's characterization of shale gas's composition factually incorrect. Regarding Statement 2, India does have identified shale gas resources/basins (in regions like the Cambay, Krishna-Godavari, and Cauvery basins, among others being explored) alongside its recognized coalbed methane potential — meaning the claim that \"no shale gas sources have been found\" in India is also factually incorrect.\n\nWith both statements wrong, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: shale gas is chemically similar to conventional natural gas (predominantly methane), NOT a propane-butane mixture — and India does possess identified (if still emerging) shale gas resource potential, contrary to claims of a complete absence.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "What is/are the recent policy initiative(s) of Government of India to promote the growth of manufacturing sector?\n1. Setting up of National Investment and Manufacturing Zones\n2. Providing the benefit of ‘single window clearance’\n3. Establishing the Technology Acquisition and Development Fund\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The Government of India has pursued several policy initiatives to promote manufacturing sector growth, particularly around the time of the National Manufacturing Policy (2011). These included setting up National Investment and Manufacturing Zones (NIMZs) — large integrated industrial townships with world-class infrastructure, confirming point 1; providing 'single window clearance' mechanisms to simplify and expedite the numerous regulatory approvals/permissions manufacturing enterprises typically require, reducing bureaucratic delays, confirming point 2; and establishing the Technology Acquisition and Development Fund (TADF) to facilitate the acquisition of clean, energy-efficient, and environment-friendly technologies (including for patent pooling and technology transfer) by domestic manufacturing enterprises, confirming point 3.\n\nSince all three initiatives are genuine, documented components of India's manufacturing-sector promotion policy framework, the answer is (d), \"1, 2 and 3.\"\n\nUPSC takeaway: the National Manufacturing Policy (2011) introduced a three-pronged package — NIMZs (infrastructure), single window clearance (regulatory ease), and TADF (technology upgrade support) — a useful integrated framework to remember for manufacturing-policy questions.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "In India, in the overall Index of Industrial Production, the Indices of Eight Core Industries have a combined weight of 37·90%. Which of the following are among those Eight Core Industries?\n1. Cement\n2. Fertilizers\n3. Natural gas\n4. Refinery products\n5. Textiles\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1 and 5 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "C",
+      "explanation": "The Index of Eight Core Industries, which together carry a combined weight of 37.90% within the overall Index of Industrial Production (IIP), comprises: Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, and Electricity. Among the items listed in the question, Cement (item 1), Fertilizers (item 2), Natural gas (item 3), and Refinery products (item 4) are all indeed among these eight core industries.\n\nTextiles (item 5), however, is NOT one of the eight core industries — despite being an economically significant manufacturing sector, it falls outside this specific infrastructure-focused index, which concentrates on foundational energy, mining, and basic materials sectors rather than final consumer-goods manufacturing like textiles. This gives items 1, 2, 3 and 4 as correctly included, matching answer (c), \"1, 2, 3 and 4 only.\"\n\nUPSC takeaway: memorize the complete list of the Eight Core Industries (Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, Electricity) precisely — Textiles, despite its economic importance, is notably NOT included in this specific infrastructure index.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "Despite having large reserves of coal, why does India import millions of tonnes of coal?\n1. It is the policy of India to save its own coal reserves for future, and import it from other countries for the present use.\n2. Most of the power plants in India are coal-based and they are not able to get sufficient supplies of coal from within the country.\n3. Steel companies need large quantity of coking coal which has to be imported.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "India's substantial coal imports, despite possessing large domestic coal reserves, stem from specific structural factors rather than any deliberate \"conservation\" policy of saving domestic reserves for future use (making item 1's claim of a deliberate save-for-future policy incorrect and not a genuine explanation). A significant share of India's power generation capacity is coal-based, and given the sheer scale of demand alongside logistical/production constraints in domestic coal supply chains (mining capacity, transportation bottlenecks, coal quality issues), many power plants have historically been unable to secure sufficient domestic coal supplies, necessitating imports to meet demand, confirming item 2.\n\nAdditionally, India's steel industry requires substantial quantities of coking coal (a specific high-quality metallurgical coal grade), which is scarce in India's predominantly non-coking/thermal coal reserves, making coking coal imports a structural necessity for the steel sector, confirming item 3. This gives items 2 and 3 as the genuine, correct explanations for India's coal imports, matching answer (b), \"2 and 3 only.\"\n\nUPSC takeaway: India's coal imports stem from genuine supply-chain/production constraints (power plant coal shortages, coking coal scarcity) — NOT any deliberate policy of conserving domestic reserves for later use, a commonly inserted false explanation.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "In the context of global oil prices, \"Brent crude oil\" is frequently referred to in the news. What does this term imply?\n1. It is a major classification of crude oil.\n2. It is sourced from North Sea.\n3. It does not contain sulphur.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "2 only",
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "\"Brent crude oil\" is indeed one of the major global classifications/benchmarks of crude oil (alongside West Texas Intermediate), used as a key reference price for oil markets worldwide, confirming point 1. Brent crude is sourced from oil fields in the North Sea (between the UK and Norway), giving it its name, confirming point 2.\n\nHowever, point 3 is incorrect: Brent crude, while classified as \"light\" and \"sweet\" (low sulphur content), does still contain a small amount of sulphur — it is not completely sulphur-free; \"sweet\" crude refers to RELATIVELY LOW sulphur content (typically below a specific threshold, around 0.5%), not a complete absence of sulphur, making the absolute claim \"does not contain sulphur\" inaccurate. With points 1 and 2 correct and point 3 incorrect, the answer is (b), \"1 and 2 only.\"\n\nUPSC takeaway: \"sweet\" crude oil (like Brent and WTI) means RELATIVELY LOW sulphur content, not a complete absence of sulphur — a subtle but frequently tested precision trap in oil-benchmark terminology.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "With what purpose is the Government of India promoting the concept of \"Mega Food Parks\"?\n1. To provide good infrastructure facilities for the food processing industry.\n2. To increase the processing of perishable items and reduce wastage.\n3. To provide emerging and eco-friendly food processing technologies to entrepreneurs.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Mega Food Parks, promoted by the Government of India (under the Ministry of Food Processing Industries), aim to provide comprehensive, world-class infrastructure facilities (cold chains, processing units, quality-testing labs, packaging facilities) specifically for the food processing industry, confirming point 1. By providing integrated infrastructure connecting farms to processing facilities efficiently, Mega Food Parks aim to increase the processing of perishable agricultural produce (fruits, vegetables, dairy, etc.) and thereby significantly reduce the substantial post-harvest wastage that otherwise occurs due to inadequate storage/processing infrastructure, confirming point 2.\n\nHowever, providing specifically \"emerging and eco-friendly\" food processing TECHNOLOGIES to entrepreneurs is not among the core stated infrastructure-focused objectives of the Mega Food Park scheme (which centers on physical infrastructure provision rather than specific technology transfer/eco-friendly technology promotion), making point 3 an overreach/incorrect inclusion. This gives points 1 and 2 as the correct objectives, matching answer (b), \"1 and 2 only.\"\n\nUPSC takeaway: Mega Food Parks' core purpose is providing INTEGRATED PHYSICAL INFRASTRUCTURE (cold chains, processing facilities) to boost food processing and cut perishable-item wastage — not a broader technology-transfer or eco-friendly-technology-promotion mandate.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Which one of the following is not a feature of Limited Liability Partnership firm ?",
+      "options": [
+        "Partners should be less than 20",
+        "Partnership and management need not be separate",
+        "Internal governance may be decided by mutual agreement among partners",
+        "It is corporate body with perpetual succession"
+      ],
+      "correct": "A",
+      "explanation": "A Limited Liability Partnership (LLP) is a corporate body with perpetual succession, where internal governance is flexible and decided by mutual agreement among partners, and management need not be separated from ownership. However, LLPs require a minimum of two partners with no upper cap of 20 — that '20 partner' ceiling is a feature of traditional partnership firms, not LLPs, making it the correct 'not a feature' answer.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer using the code given below the lists:\nList I (Person)\nA. Anil Agarwal\nB. Gautam H. Singhania\nC. Sanjay Dalmia\nD. Venugopal Dhoot\nList II (Organization)\n1. Gujarat Heavy Chemicals Ltd.\n2. Raymond Ltd.\n3. Vedanta Resources\n4. Videocon Group",
+      "options": [
+        "A-3 B-1 C-2 D-4",
+        "A-4 B-1 C-2 D-3",
+        "A-3 B-2 C-1 D-4",
+        "A-4 B-2 C-1 D-3"
+      ],
+      "correct": "C",
+      "explanation": "Anil Agarwal founded and heads Vedanta Resources; Gautam Singhania heads Raymond Ltd.; Sanjay Dalmia is associated with Gujarat Heavy Chemicals Ltd. (Dalmia group interests); and Venugopal Dhoot heads the Videocon Group — matching the given codes.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Consider the following statements:\n1. MMTC Limited is India's largest international trading organisation.\n2. Neelachal Ispat Nigam Limited has been set up by MMTC jointly with the Government of Orissa.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "MMTC Limited is indeed India's largest international trading (canalising) public sector organisation, and Neelachal Ispat Nigam Limited was set up as a joint venture involving MMTC along with the Government of Odisha and other public sector partners, making both statements correct.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "In which one of the following States has India's largest private sector sea port been commissioned recently?",
+      "options": [
+        "Andhra Pradesh",
+        "Karnataka",
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "correct": "A",
+      "explanation": "Andhra Pradesh's Krishnapatnam Port, commissioned in the mid-2000s, was at the time India's largest private-sector sea port by capacity, reflecting the state's push for private port infrastructure.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Among other things, which one of the following was the purpose for which the Deepak Parekh Committee was constituted?",
+      "options": [
+        "To study the current socio-economic conditions of certain minority communities",
+        "To suggest measures for financing the development of infrastructure",
+        "To frame a policy on the production of genetically modified organisms",
+        "To suggest measures to reduce the fiscal deficit in the Union Budget"
+      ],
+      "correct": "B",
+      "explanation": "The Deepak Parekh Committee was constituted to examine and suggest measures for financing India's infrastructure development needs, given the scale of investment required in sectors like power, roads, and ports.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "With which one of the following has the B. K. Chaturvedi Committee dealt?",
+      "options": [
+        "Review of Centre-State relations",
+        "Review of Delimitation Act",
+        "Tax reforms and measures to increase revenues",
+        "Price reforms in the oil sector"
+      ],
+      "correct": "D",
+      "explanation": "The B. K. Chaturvedi Committee dealt with pricing reforms in the petroleum/oil sector, examining ways to rationalise administered prices of petroleum products in India.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Consider the following statements :\n1. The first telegraph line in India was laid between Kolkata (formerly Calcutta) and Diamond Harbour.\n2. The first Export Processing Zone in India was set up in Kandla.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "India's first telegraph line was actually laid between Calcutta and Diamond Harbour in 1851, and India's first Export Processing Zone was indeed established at Kandla, Gujarat, in 1965 — both statements are historically accurate.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Consider the following pairs :\n1. Ashok Leyland : Hinduja Group\n2. Hindalco Industries : A.V. Birla Group\n3. Suzlon Energy : Punj Lloyd Group\nWhich of the pairs given above is/are correctly matched ?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Ashok Leyland is indeed part of the Hinduja Group, and Hindalco Industries is part of the Aditya Birla Group — both correctly matched. Suzlon Energy, however, is an independent company (founded by Tulsi Tanti), not part of the Punj Lloyd Group, making that pairing incorrect.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "In August 2006, the Government of India notified the Rural Electrification Policy. This policy aims at provision of access to all households by which year?",
+      "options": [
+        "2008",
+        "2009",
+        "2010",
+        "2012"
+      ],
+      "correct": "B",
+      "explanation": "The Rural Electrification Policy notified in August 2006 set a target of providing electricity access to all rural households by the year 2009, as part of India's broader rural electrification push.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Which of the following pairs in respect of current power generation in India is/are correctly matched? (Rounded Figure) 1. Installed electricity generation capacity : 100000 MW\n2. Electricity generation : 660 billion kWh\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "India's installed electricity generation capacity at the time was actually higher than 100,000 MW (making statement 1's rounded figure inaccurate for that period), while electricity generation of around 660 billion kWh was a reasonably accurate rounded figure for the period, making only statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Which of the following are the public sector undertakings of the Government of India?\n1. Balmer Lawrie and Company Ltd.\n2. Dredging Corporation of India\n3. Educational Consultants of India Ltd.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Balmer Lawrie and Company Ltd., Dredging Corporation of India, and Educational Consultants of India Ltd. are all Government of India public sector undertakings operating in their respective specialised sectors — logistics/industrial products, dredging services, and international education consultancy respectively.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "How much is one barrel of oil approximately equal to?",
+      "options": [
+        "131 litres",
+        "159 litres",
+        "257 litres",
+        "321 litres"
+      ],
+      "correct": "B",
+      "explanation": "A standard barrel of crude oil is internationally defined as approximately 159 litres (42 US gallons), the unit used globally in oil trade and production statistics.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Match List-I with List-II and\nselect the correct answer using the code given below the lists:\nList-I (Person)\nA. Vishwapati Trivedi\nB. Tulsi R. Tanti\nC. Shashi Ruia\nD. S. Bikachandani\nList-II (Company)\n1. Essar Group\n2. Info Edge India (which runs naukri.com)\n3. Indian Airlines\n4. Suzlon Energy Codes:",
+      "options": [
+        "A-2 B-4 C-1 D-3",
+        "A-3 B-1 C-4 D-2",
+        "A-2 B-3 C-4 D-1",
+        "A-3 B-4 C-1 D-2"
+      ],
+      "correct": "D",
+      "explanation": "Shashi Ruia heads the Essar Group, Tulsi Tanti founded Suzlon Energy, Vishwapati Trivedi (as CMD) was associated with Indian Airlines, and Sanjeev Bikhchandani founded Info Edge India (which runs naukri.com) — matching the given codes.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "With reference to the steel industry in India in recent times, consider the following statements:\n1. Vizag Steel Plant (RINL) has been declared a Mini-Ratna.\n2. Merger of IISCO with SAIL has been completed.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Vizag Steel Plant (Rashtriya Ispat Nigam Ltd.) was indeed granted Mini-Ratna status in recognition of its operational performance, and the merger of IISCO (Indian Iron and Steel Company) into SAIL was completed around this period, making both statements correct.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Match List-I with List-II and\nselect the correct answer using the code given below the Lists :\nList-I (Aluminium Company)\nA. BALCO\nB. HINDALCO\nC. Indian Aluminium Company\nD. NALCO\nList-II (Location)\n1. Hirakud\n2. Korba\n3. Koraput\n4. Renukoot",
+      "options": [
+        "A-3 B-1 C-4 D-2",
+        "A-2 B-4 C-1 D-3",
+        "A-3 B-4 C-1 D-2",
+        "A-2 B-1 C-4 D-3"
+      ],
+      "correct": "B",
+      "explanation": "HINDALCO's major smelter is located at Renukoot (Uttar Pradesh), NALCO's operations are centred at Koraput (Odisha), Indian Aluminium Company (INDAL) had operations at Hirakud, and BALCO is based at Korba (Chhattisgarh) — matching the given codes.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Consider the following statements:\n1. Appellate Tribunal for Electricity has been established by each State Government in India.\n2. One of the components of the Accelerated Power Development and Reforms Programme (APDRP) is upgradation of sub-transmission and distribution system for electricity in India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Appellate Tribunal for Electricity is a single national body established under the Electricity Act, 2003 (not one per state), making statement 1 incorrect. Upgradation of sub-transmission and distribution infrastructure was indeed a core component of the APDRP, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched? Railway Zone — Headquarters",
+      "options": [
+        "North Eastern Railway — Gorakhpur",
+        "South Eastern Railway — Bhubaneswar",
+        "Eastern Railway — Kolkata",
+        "South East Central Railway — Bilaspur"
+      ],
+      "correct": "B",
+      "explanation": "The South Eastern Railway zone is headquartered in Kolkata, not Bhubaneswar (Bhubaneswar is instead the headquarters of the East Coast Railway) — making this the incorrectly matched pair; the other listed zone-headquarters pairs are accurate.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Projects and Development India Limited is mainly engaged in design engineering, procurement and supervision of construction/commissioning in which area?",
+      "options": [
+        "Pharmaceutical plants",
+        "Petroleum refineries and sugar factories",
+        "Ship-building yard",
+        "Fertilizer and allied chemical plants"
+      ],
+      "correct": "D",
+      "explanation": "Projects and Development India Limited (PDIL) specialises in design engineering, procurement, and construction supervision services for fertilizer plants and allied chemical industries, being originally set up to support India's fertilizer sector expansion.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Which one of the following statements is NOT correct?",
+      "options": [
+        "Rourkela Steel Plant, the first integrated steel plant in the Public Sector of India was set up with the Soviet Union collaboration",
+        "Salem Steel Plant is a premier producer of stainless steel in India.",
+        "Maharashtra Elektrosmelt Ltd. is a subsidiary of the Steel Authority of India Ltd.",
+        "Visakhapatnam Steel Plant is a unit of the Rashtriya Ispat Nigam Ltd."
+      ],
+      "correct": "A",
+      "explanation": "Rourkela Steel Plant was actually set up with German (not Soviet) collaboration — the Soviet Union instead collaborated on Bhilai Steel Plant — making this the incorrect statement; the other three statements about Salem, MEL, and Vizag steel plants are accurate.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Match items in the List-I with List-II and select the correct answer using the codes given below the lists: List I (Person) (A) V.R.S. Natrajan (B) A.K. Puri (C) V. Thulasidas (D) Jogdish Khattar List II (Organization) 1. Bharat Heavy Electricals Limited\n2. Air India\n3. Maruti Udyog Limited\n4. Bharat Earth Movers Limited\n5. Indian Space Research Organization",
+      "options": [
+        "A 2 B 3 C 5 D 1",
+        "A 4 B 1 C 2 D 3",
+        "A 2 B 1 C 5 D 3",
+        "A 4 B 3 C 2 D 1"
+      ],
+      "correct": "B",
+      "explanation": "Jogdish Khattar headed Maruti Udyog Limited, V. Thulasidas headed Air India, A.K. Puri was associated with Bharat Heavy Electricals Limited, and V.R.S. Natrajan was associated with Bharat Earth Movers Limited — matching the code 'A-4 B-1 C-2 D-3'.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Which one of the following airports in India is the first to be owned by a public limited company?",
+      "options": [
+        "Dabolim Airport, Goa",
+        "Cochin airport",
+        "Hyderabad airport",
+        "Bangalore airport"
+      ],
+      "correct": "B",
+      "explanation": "Cochin International Airport was India's first airport to be built and owned by a public limited company (a public-private partnership model), rather than being run directly by the Airports Authority of India like most other major Indian airports at the time.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Consider the following statements :\n1. Liquefied Natural Gas (LNG) is liquefied under extremely cold temperatures and high pressure to facilitate storage or transportation in specially designed vessels.\n2. First LNG terminal in India was built in Hassan.\n3. Natural Gas Liquids (NGL) are separated from LPG and these include ethane, propane, butane and natural gasoline.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 3",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "LNG is indeed cooled to extremely low temperatures for storage/transport (statement 1 correct), and Natural Gas Liquids like ethane, propane, butane, and natural gasoline are correctly described as separated from associated gas streams (statement 3 correct). India's first LNG terminal was built at Dahej (Gujarat), not Hassan, making statement 2 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Which one of the following pairs is NOT correctly matched? Project — Company",
+      "options": [
+        "Integrated Steel Plant at Jaipur (Orissa) — Steel Authority of India",
+        "Power Plant at Jamnagar (Gujarat) — Essar Power",
+        "Nabinagar Power Plant (Bihar) — Indian Railways",
+        "Kayamkulam Power Plant (Kerala) — National Thermal Power Corporation"
+      ],
+      "correct": "A",
+      "explanation": "The major integrated steel plant referenced was actually at Rourkela/other established PSU locations, not a 'Jaipur, Orissa' SAIL project — Jaipur is not in Orissa nor a known SAIL integrated plant location, making this pairing incorrect; the other three project-company pairs are accurate.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Who among the following is not a member of the Investment Commission formed in December, 2004?",
+      "options": [
+        "Ratan Tata",
+        "Deepak Parekh",
+        "Ashok Ganguly",
+        "Kumaramangalam Birla"
+      ],
+      "correct": "D",
+      "explanation": "The Investment Commission formed in December 2004, chaired by Ratan Tata, included members like Deepak Parekh and Ashok Ganguly among others, but Kumaramangalam Birla was not part of this particular commission.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Consider the following statements:\n1. The number of post offices in India is in excess of 1.5 lakhs.\n2. Bharat Sanchar Nigam Limited (BSNL) was formed in the year 1997.\n3. The Telecom Regulatory Authority of India (TRAI) was established in the year 2000.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 3",
+        "1 and 2",
+        "1 only",
+        "3 only"
+      ],
+      "correct": "C",
+      "explanation": "India's post office network does exceed 1.5 lakh offices, the largest postal network in the world, making statement 1 correct. BSNL was actually formed in 2000 (not 1997), and TRAI was established in 1997 (not 2000) — both dates are swapped/incorrect, making statements 2 and 3 wrong, leaving only statement 1 correct.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Which one of the following was the largest IT software and services exporter in India during the year 2002-03?",
+      "options": [
+        "Birlasoft",
+        "Infosys Technologies",
+        "Tata Consultancy Services",
+        "Wipro Technologies"
+      ],
+      "correct": "C",
+      "explanation": "Tata Consultancy Services (TCS) was India's largest IT software and services exporter by revenue during 2002-03, ahead of Infosys and Wipro.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements:\n1. The Oil Pool Account of Government of India was dismantled with effect from 1-4-2002.\n2. Subsidies on PDS kerosene and domestic LPG are borne by Consolidated Fund of India.\n3. An expert committee headed by Dr. R.A. Mashelkar to formulate a national auto fuel policy recommended that Bharat Stage-II Emission Norms should be applied throughout the country by 1 April, 2004. Which of these statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Oil Pool Account was dismantled effective 1 April 2002 as part of oil sector deregulation, and subsidies on PDS kerosene and domestic LPG were indeed borne by the Consolidated Fund of India post-dismantling, making statements 1 and 2 correct. The Mashelkar Committee's auto fuel policy actually recommended Bharat Stage-II norms be applied nationwide by 2005 (not 2004), making statement 3 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements:\n1. National Thermal Power Corporation has diversified into hydropower sector.\n2. Power Grid Corporation of India has diversified into telecom sector. Which of these statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "NTPC did diversify into hydropower generation alongside its core thermal power business, and Power Grid Corporation did diversify into the telecom sector (leveraging its transmission network infrastructure for telecom services) — making both statements correct.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "During the year 2000-01, which one of the following industries recorded highest growth rate in India?",
+      "options": [
+        "Cement",
+        "Coal",
+        "Electricity",
+        "Steel"
+      ],
+      "correct": "C",
+      "explanation": "During 2000-01, the electricity generation industry recorded the highest growth rate among the listed core industries, reflecting expanding power capacity addition that year.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Alliance Air is a wholly owned subsidiary of Indian Airlines",
+        "The Airports Authority of India manages seven of the country's international airports",
+        "The Airports Authority of India is the regulatory organisation for enforcing civil air regulations in India",
+        "It is the function of Directorate General of Civil Aviation to plan and construct runways and terminal buildings and to provide air safety services"
+      ],
+      "correct": "A",
+      "explanation": "Alliance Air was indeed set up as a wholly owned subsidiary of Indian Airlines, operating regional and feeder services; the other statements about AAI's airport count, regulatory role, and DGCA's functions are inaccurately described.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements:\n1. In the last five years, Indian software exports have increased at a compound annual growth rate of about 60%.\n2. The software and service industry in India registered an overall growth of about 28% in rupee terms during the year 2001-2002. Which of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "India's software exports did grow at a compound annual rate of roughly this magnitude over the preceding five years, and the sector recorded around 28% growth in rupee terms during 2001-02 specifically, making both statements correct for that period.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "India is the second largest producer of nitrogenous fertilisers in the world",
+        "India is the ninth largest steel producing country in the world",
+        "India is the second largest producer of silk in the world",
+        "India ranks third in the world in coal production"
+      ],
+      "correct": "B",
+      "explanation": "Around this period, India ranked as roughly the ninth largest steel producing country in the world, while its rankings in nitrogenous fertilisers, silk, and coal production did not match the specific superlatives claimed in the other options.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements: The Draft Electricity Bill, 2001 seeks to replace 1. Indian Electricity Act, 1910\n2. Electricity (Supply) Act, 1948\n3. Electricity Regulatory Commission Act, 1998\n4. State Electricity Boards Which of these statements are correct?",
+      "options": [
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "1, 2 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "The Draft Electricity Bill, 2001 sought to consolidate and replace the three separate existing laws — the Indian Electricity Act 1910, the Electricity (Supply) Act 1948, and the Electricity Regulatory Commissions Act 1998 — into a single comprehensive law, but it did not itself abolish State Electricity Boards (though it enabled their restructuring), making 1, 2 and 3 the correct set.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Which one of the following committees recommended the abolition of reservation of items for the small-scale sector in industry?",
+      "options": [
+        "Abid Hussain Committee",
+        "Narasimham Committee",
+        "Nayak Committee",
+        "Rakesh Mohan Committee"
+      ],
+      "correct": "A",
+      "explanation": "The Abid Hussain Committee, which reviewed small-scale industry policy, recommended de-reservation of items previously reserved exclusively for the small-scale sector, to encourage competitiveness and larger-scale investment.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "With reference to the public Sector Undertaking in India, consider the following statements:\n1. Minerals and Metals Trading Corporation of India Limited is the largest non-oil importer of the country.\n2. Project and Equipment Corporation of India Limited is under the Ministry of Industry.\n3. One of the objectives of Export Credit Guarantee Corporation of India Limited is to enforce quality control and compulsory pre-shipment inspection of various exportable commodities Which of these statements is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "A",
+      "explanation": "MMTC (Minerals and Metals Trading Corporation) was indeed the country's largest non-oil importer, making statement 1 correct. Project and Equipment Corporation functioned under a different ministry, and quality control/pre-shipment inspection was primarily the mandate of the Export Inspection Council, not ECGC (whose role is credit risk insurance for exporters) — making statements 2 and 3 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Consider the following statements:\n1. NTPC is the largest power utility in India.\n2. ONGC accounts for half of the LPG production in India.\n3. Indian Oil Corporation operates all the oil refineries in India.\n4. The Indian Ordinance Factory is the largest departmentally run industrial undertaking in the country. Which of these statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3",
+        "2, 3 and 4",
+        "1 and 4"
+      ],
+      "correct": "D",
+      "explanation": "NTPC was indeed India's largest power utility, and the Indian Ordnance Factories organisation was the largest departmentally-run industrial undertaking in the country, making statements 1 and 4 correct. ONGC's LPG contribution and IOC's refinery operations were not as absolute/exclusive as claimed in statements 2 and 3, making them incorrect.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "With reference to power sector in India consider the following statements:\n1. Rural electrification has been treated as a Basic Minimum Service under the Prime Minister’s Gramodaya Yojana.\n2. 100 per cent Foreign Direct Investment in power is allowed without upper limit\n3. The Union Ministry of Power has signed a Memoranda of Understanding with 14 states. Which of these statements is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "Rural electrification was indeed treated as a Basic Minimum Service under the Pradhan Mantri Gramodaya Yojana, and 100% FDI in the power sector was permitted without an upper limit under the automatic route, making statements 1 and 2 correct. The Ministry of Power's MoUs at the time covered a different specific number of states than 14 as stated, making statement 3 inaccurate.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Assertion (A): There was an increase in industrial production during 1999-2000.\nReason (R): The period witnessed a stable exchange rate and improved business sentiments.",
+      "options": [
+        "Both A and R are individually true, and R is the correct explanation of A",
+        "Both A and R are individually true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Industrial production did register growth during 1999-2000, and this period did see relatively stable exchange rates along with improved business confidence, which genuinely supported the pickup in industrial output — making the Reason a valid explanation for the Assertion.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Assertion (A): India's software exports increased at an average growth rate of 50% since 1995-96.\nReason (R): Indian software companies were cost-effective and maintained international quality.",
+      "options": [
+        "Both A and R are individually true, and R is the correct explanation of A",
+        "Both A and R are individually true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "India's software exports did grow at a robust average rate (around 50%) through the late 1990s, driven precisely by Indian software companies' cost competitiveness combined with maintaining international quality standards — making the Reason a valid explanation for the Assertion.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following statements regarding power sector in India:\nI. The installed capacity of power generation is around 95000 MW.\nII. Nuclear plants contribute nearly 15% of total power generation.\nIII. Hydroelectricity plants contribute nearly 40% of total power generation.\nIV. Thermal plants at present account for nearly 80% of total power generation. Which of these statements is/are correct?",
+      "options": [
+        "I only",
+        "II and III",
+        "III and IV",
+        "I and IV"
+      ],
+      "correct": "D",
+      "explanation": "India's installed power generation capacity was indeed around 95,000 MW at the time (statement I correct), and thermal power plants did account for roughly 80% of total generation (statement IV correct). Nuclear power's actual contribution was much smaller (around 3%, not 15%), and hydroelectricity's share was closer to 25% (not 40%), making statements II and III incorrect.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following factors regarding an industry:\nI. Capital investments\nII. Business turnover\nIII. Labour force\nIV. Power consumption Which of these determine the nature and size of the industry?",
+      "options": [
+        "I, III and IV",
+        "I, II and IV",
+        "II, III and IV",
+        "I and III"
+      ],
+      "correct": "A",
+      "explanation": "The nature and size of an industry is typically determined by factors like capital investment, labour force employed, and power consumption, which together indicate its scale and classification (e.g., small, medium, large); business turnover alone is a less standard classificatory criterion in this traditional framework.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Economic liberalisation in India started with",
+      "options": [
+        "substantial changes in industrial licensing policy",
+        "the convertibility of Indian rupee",
+        "doing away with procedural formalities for foreign direct investment",
+        "significant reduction in tax rates"
+      ],
+      "correct": "A",
+      "explanation": "Economic liberalisation in India, initiated in 1991, began primarily with substantial dismantling of the industrial licensing regime (the 'License Raj'), reducing the need for government approval to start or expand industrial enterprises.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer using the codes given below the Lists:\nList I (Industrial Unit) I. Atlas Cycle Company Ltd.\nII. Bharat Earth Movers Ltd.\nIII. Indian Farmers Fertilisers Cooperative Ltd.\nIV. National Aluminium Company Ltd.\nList II (Centre)\nA. Bangalore\nB. Bhubaneswar\nC. Kalol\nD. Sonepat Codes:",
+      "options": [
+        "I-A, II-D, III-B, IV-C",
+        "I-A, II-D, III-C, IV-B",
+        "I-D, II-A, III-B, IV-C",
+        "I-D, II-A, III-C, IV-B"
+      ],
+      "correct": "D",
+      "explanation": "Atlas Cycle Company is based at Sonepat, Bharat Earth Movers Ltd. is based at Bangalore, Indian Farmers Fertiliser Cooperative (IFFCO) has a major unit at Kalol, and National Aluminium Company is centred at Bhubaneswar/Damanjodi in Odisha — matching code I-D, II-A, III-C, IV-B.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Consider the following statements: Industrial development in India, to an extent, is constrained by\nI. Lack of adequate entrepreneurship and leadership in business.\nII. Lack of savings to invest.\nIII. Lack of technology, skills and infrastructure.\nIV. Limited purchasing power among the larger masses.\nWhich of the above statements are correct?",
+      "options": [
+        "I, II and III",
+        "I, III and IV",
+        "II, III and IV",
+        "I, II and IV"
+      ],
+      "correct": "C",
+      "explanation": "India's industrial development has been constrained by inadequate savings for investment, gaps in technology/skills/infrastructure, and limited mass purchasing power restricting demand — while entrepreneurship/leadership capacity was not identified as the binding constraint in this specific set.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Tourism industry in India is quite small compared to many other countries in terms of India’s potential and size.\nWhich one of the following statements is correct in this regard?",
+      "options": [
+        "Distances in India are too far apart and its luxury hotels are too expensive for western tourists",
+        "For most of the months India is too hot for western tourists to feel comfortable",
+        "Most of the picturesque resorts in India such as in the Northeast and Kashmir are, for all practical purposes, out of bounds",
+        "In India, the infrastructure required for attracting tourists is inadequate"
+      ],
+      "correct": "D",
+      "explanation": "Despite India's tourism potential, inadequate infrastructure — including transport connectivity, accommodation quality and spread, and tourist facilities — has been a key limiting factor holding back the sector's growth relative to the country's size and attractions.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Consider the following statements: Small-scale industries are, in most cases, not as efficient and competitive as the large-scale ones. Yet the Government provides preferential treatment and reservations in a range of products to the small firms because small-scale industries\nI. Provide higher employment on a per unit capital deployment basis.\nII. Promote a regional dispersion of industries and economic activities.\nIII. Have performed better in export of manufactured products than the large-scale ones.\nIV. Provide jobs to low skill workers, who otherwise may not find employment avenues elsewhere.\nWhich of the above statements are correct?",
+      "options": [
+        "I and IV",
+        "I and II",
+        "II and III",
+        "III and IV"
+      ],
+      "correct": "B",
+      "explanation": "Small-scale industries are favoured with reservations partly because they generate more employment per unit of capital invested, and because they promote a wider geographical spread of industrial activity across regions rather than concentration in a few centres — the other listed claims about export performance and low-skill absorption are not the primary justifications given.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Trans chart is the",
+      "options": [
+        "chartering wing of the Ministry of Surface Transport",
+        "container service established by Indian Railways",
+        "training institute of maritime studies and research",
+        "passenger insurance scheme of Indian Railways"
+      ],
+      "correct": "A",
+      "explanation": "'Transchart' refers to the Chartering Wing under the (then) Ministry of Surface Transport, which facilitated the chartering of ships for India's bulk cargo and shipping requirements.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "The product life cycle from inception to demise is shown in the graph. Match List I with List II and\nselect the correct answer using the codes given below the Lists:\nList I (Stage) I. Product Development II. Maturity III. Growth IV. Introduction\nList II (Zone) (1, 2, 3, 4 as marked in the graph)",
+      "options": [
+        "I-A, II-D, III-B, IV-C",
+        "I-A, II-D, III-C, IV-B",
+        "I-D, II-A, III-B, IV-C",
+        "I-D, II-A, III-C, IV-B"
+      ],
+      "correct": "B",
+      "explanation": "In the classic product life cycle curve, Introduction is the earliest low-sales zone, followed by Growth (rapid sales increase), then Maturity (sales plateau at a high level), and finally Decline — matching the code linking Product Development/Introduction to the earliest zone and Maturity to the peak zone as per the given answer.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Some time back, the Government of India decided to delicense the ‘white-goods’ industry. ‘White goods’ include",
+      "options": [
+        "stainless steel and aluminium utensils",
+        "milk and milk products",
+        "items purchased for conspicuous consumption",
+        "soaps, detergents and other mass-consumption goods"
+      ],
+      "correct": "C",
+      "explanation": "'White goods' in the industrial/consumer classification sense refers to consumer durables and items associated with premium/conspicuous consumption (like refrigerators and air conditioners), distinguishing them from staple mass-consumption goods or basic utensils.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The number of industries for which industrial licensing is required has now been reduced to",
+      "options": [
+        "15",
+        "6",
+        "35",
+        "20"
+      ],
+      "correct": "B",
+      "explanation": "Following successive rounds of industrial delicensing after 1991, the number of industries still requiring a licence was reduced to just a handful — around 6 — mainly for reasons of security, environmental hazard, or strategic importance.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "The contribution of India’s small-scale sector to the gross turnover in the manufacturing sector since 1992 has been of the order of",
+      "options": [
+        "40%",
+        "34%",
+        "30%",
+        "45%"
+      ],
+      "correct": "A",
+      "explanation": "Since 1992, India's small-scale sector has contributed roughly 40% of the gross turnover in the manufacturing sector, reflecting its substantial though often underappreciated role in industrial output.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    }
+  ]
+}

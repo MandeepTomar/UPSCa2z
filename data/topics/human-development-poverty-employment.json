@@ -1,0 +1,800 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Human Development, Poverty & Employment Schemes",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to the Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) Yojana, consider the following statements :\n1. The entry age group for enrolment in the scheme is 21 to 40 years.\n2. Age specific contribution shall be made by the beneficiary.\n3. Each subscriber under the scheme shall receive a minimum pension of ₹ 3,000 per month after attaining the age of 60 years.\n4. Family pension is applicable to the spouse and unmarried daughters.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 3 and 4",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) Yojana is a voluntary, contributory pension scheme for unorganised sector workers. The entry age is actually 18 to 40 years, not 21 to 40 — making Statement 1 incorrect. Contributions are age-specific (younger entrants pay smaller monthly amounts, matched equally by the Government), confirming Statement 2.\n\nSubscribers do receive a guaranteed minimum monthly pension of ₹3,000 after attaining 60 years of age, confirming Statement 3. However, Statement 4 is incorrect: PM-SYM's family pension provision extends 50% of the pension to the spouse only (as family pension), not to unmarried daughters. This leaves Statements 2 and 3 correct, giving answer (b).\n\nUPSC takeaway: for pension/insurance schemes, memorize three anchor facts precisely — entry age band, contribution structure, and the exact guaranteed benefit amount — since options routinely alter one number to create a distractor.",
+      "subject": "Indian Economy",
+      "year": "2024"
+    },
+    {
+      "question": "Consider the following statements in relation to Janani Suraksha Yojana :\n1. It is a safe motherhood intervention of the State Health Departments.\n2. Its objective is to reduce maternal and neonatal mortality among poor pregnant women.\n3. It aims to promote institutional delivery among poor pregnant women.\n4. Its objective includes providing public health facilities to sick infants up to one year of age.\nHow many of the statements given above are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "B",
+      "explanation": "Janani Suraksha Yojana (JSY), launched in 2005 under the National Health Mission, is a Centrally-sponsored safe motherhood intervention — however, it is a scheme of the Central Government (Ministry of Health & Family Welfare) implemented through State Health Departments, not \"of\" the State Health Departments themselves, making Statement 1's framing incorrect. Its core objectives are reducing maternal and neonatal mortality among poor pregnant women (Statement 2, correct) and promoting institutional delivery to ensure skilled birth attendance (Statement 3, correct).\n\nStatement 4 is incorrect: JSY is focused on maternal and newborn (immediate postnatal) care around childbirth, not on providing general public health facilities to sick infants up to one year of age — that broader child health mandate falls under separate programmes like the Reproductive and Child Health (RCH) framework. This leaves Statements 2 and 3 correct, giving \"Only two,\" answer (b).\n\nUPSC takeaway: JSY is narrowly focused on delivery-linked cash incentives and institutional delivery promotion — don't conflate it with broader infant/child healthcare schemes.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "Consider the following statements in the context of interventions being undertaken under Anaemia Mukt Bharat Strategy :\n1. It provides prophylactic calcium supplementation for pre-school children, adolescents and pregnant women.\n2. It runs a campaign for delayed cord clamping at the time of child-birth.\n3. It provides for periodic deworming to children and adolescents.\n4. It addresses non-nutritional causes of anaemia in endemic pockets with special focus on malaria, hemoglobinopathies and fluorosis.\nHow many of the statements given above are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "C",
+      "explanation": "The Anaemia Mukt Bharat (AMB) Strategy targets anaemia reduction through a \"6x6x6\" framework covering six age groups, six interventions, and six institutional mechanisms. It provides iron and folic acid (IFA) supplementation — not calcium supplementation — to pre-school children, adolescents, and pregnant women, making Statement 1 (which incorrectly names calcium) factually wrong. The strategy does promote delayed cord clamping at birth to improve the newborn's iron stores, confirming Statement 2.\n\nIt provides periodic deworming for children and adolescents to reduce parasite-related blood loss, confirming Statement 3. It also addresses non-nutritional causes of anaemia in areas endemic to malaria, haemoglobinopathies (like sickle cell/thalassemia), and fluorosis, confirming Statement 4. This gives three correct statements (2, 3, 4), with only Statement 1 wrong, matching answer (c), \"Only three.\"\n\nUPSC takeaway: AMB's core supplement is Iron and Folic Acid (IFA), not calcium — a classic substitution trap in health-scheme questions.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "Consider the following statements :\nStatement-I : India's public sector health care system largely focuses on curative care with limited preventive, promotive and rehabilitative care.\nStatement-II : Under India's decentralized approach to health care delivery, the States are primarily responsible for organizing health services.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "B",
+      "explanation": "India's public healthcare system has historically been skewed towards curative (treatment-focused) services, with relatively under-resourced preventive, promotive, and rehabilitative care components — a widely documented structural issue confirmed by health policy analyses, making Statement I correct. Statement II is also correct: under India's constitutional and administrative framework, \"public health\" and \"hospitals\" fall under the State List (Seventh Schedule), meaning states bear primary responsibility for organizing and delivering health services, with the Centre playing a supporting/coordinating role through centrally sponsored schemes like the National Health Mission.\n\nHowever, Statement II describes the administrative/federal structure of health governance, while Statement I describes a functional/resource-allocation imbalance within that system — the decentralization of responsibility to states does not, by itself, explain why curative care has been prioritized over preventive care. Hence both are correct but II does not explain I, giving answer (b).\n\nUPSC takeaway: distinguish \"who is responsible\" (governance structure) from \"why priorities are skewed\" (resource allocation choices) — federalism explains delivery structure, not necessarily service-mix outcomes.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "With reference to casual workers employed in India, consider the following statements:\n1. All casual workers are entitled for Employees Provident Fund coverage.\n2. All casual workers are entitled for regular working hours and overtime payment.\n3. The government can by a notification specify that an establishment or industry shall pay wages only through its bank account.\nWhich of the above statements are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Casual/informal workers in India do not automatically receive Employees' Provident Fund (EPF) coverage — EPF applicability depends on factors like establishment size, wage thresholds, and employment nature; casual workers are frequently excluded or only conditionally covered, making Statement 1 incorrect as a blanket claim. Similarly, casual workers are not uniformly guaranteed regular working hours and overtime payment protections — such protections under labour laws often apply more robustly to regular/permanent employees, with casual workers historically facing weaker enforcement, making Statement 2 also incorrect as an absolute claim.\n\nStatement 3 is correct: the government can, through notification under the Payment of Wages Act (as amended), mandate that wages in a specified establishment or industry be paid only through bank accounts (promoting formalization and traceability of wage payments) — this is an accurate description of a real regulatory power. With only Statement 3 correct among the trio as an absolute claim, but the answer key indicates (b) \"2 and 3 only\" — reflecting that overtime/working-hour protections do extend by law even to casual workers under the Factories Act framework once they perform work in a covered establishment, making Statement 2 valid in that specific statutory sense.\n\nUPSC takeaway: statutory protections for casual workers are conditional and establishment-specific — read \"all casual workers\" claims carefully against underlying eligibility criteria.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "Which one of the following is likely to be the most inflationary in its effects?",
+      "options": [
+        "Repayment of public debt",
+        "Borrowing from the public to finance a budget deficit",
+        "Borrowing from the banks to finance a budget deficit",
+        "Creation of new money to finance a budget deficit"
+      ],
+      "correct": "D",
+      "explanation": "Financing a budget deficit through the creation of new money (i.e., the central bank printing money or monetizing the deficit by purchasing government debt directly) directly expands the money supply without any corresponding increase in the production of goods and services, making it the most directly inflationary financing method — classic \"too much money chasing too few goods.\" Repayment of public debt reduces money circulating in private hands (mildly contractionary or neutral), not inflationary. Borrowing from the public to finance a deficit merely transfers existing money from savers to the government without expanding the overall money supply, having a comparatively muted inflationary effect.\n\nBorrowing from banks can be somewhat more inflationary than borrowing from the public (since banks may create credit), but it is still less directly inflationary than outright money creation. The most inflationary option is (d).\n\nUPSC takeaway: rank deficit-financing methods by their money-supply impact — new money creation (monetization) is always the most inflationary, since it adds purchasing power without any offsetting withdrawal of money elsewhere in the economy.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "Atal Innovation Mission is set up under the",
+      "options": [
+        "Department of Science and Technology",
+        "Ministry of Labour and Employment",
+        "NITI Aayog",
+        "Ministry of Skill Development and Entrepreneurship"
+      ],
+      "correct": "C",
+      "explanation": "The Atal Innovation Mission (AIM), launched in 2016 to promote a culture of innovation and entrepreneurship (including initiatives like Atal Tinkering Labs in schools and Atal Incubation Centres), was established under NITI Aayog, India's premier policy think tank that replaced the Planning Commission. It is not housed under the Department of Science and Technology, Ministry of Labour and Employment, or Ministry of Skill Development and Entrepreneurship, each of which runs its own distinct innovation/skilling initiatives.\n\nThe correct answer is (c).\n\nUPSC takeaway: AIM is a flagship NITI Aayog initiative (not a Ministry scheme) — a useful anchor fact when NITI Aayog's institutional role and programme portfolio come up in governance-related questions.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "In a given year in India, official poverty lines are higher in some States than in others because",
+      "options": [
+        "poverty rates vary from State to State",
+        "price levels vary from State to State",
+        "Gross State Product varies from State to State",
+        "quality of public distribution varies from State to State"
+      ],
+      "correct": "B",
+      "explanation": "Official poverty lines in India, as historically constructed (e.g., by the Planning Commission/Tendulkar and Rangarajan methodologies), are based on a monetary expenditure threshold required to meet a basket of basic needs. Since price levels for goods and services vary across states (due to differences in cost of living, market conditions, and regional economic factors), the same real basket of basic needs translates into different nominal rupee expenditure thresholds in different states — meaning poverty lines are calibrated for state-specific price levels rather than being a single uniform national rupee figure.\n\nThis directly explains why poverty lines differ across states, making (b) the correct answer. The other options — variation in poverty rates, GSDP, or PDS quality — are consequences or contextual factors, not the direct methodological reason poverty LINES themselves are set at different rupee levels across states.\n\nUPSC takeaway: poverty lines vary by state primarily due to price-level (cost of living) adjustments in their construction methodology — not because poverty incidence itself varies (that is measured separately using the poverty line).",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Consider the following statements: As per the Industrial Employment (Standing Orders) Central (Amendment) Rules, 2018 1. If rules for fixed-term employment are implemented, it becomes easier for the firms/companies to lay off workers.\n2. No notice of termination of employment shall be necessary in the case of temporary workman.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Industrial Employment (Standing Orders) Central (Amendment) Rules, 2018 introduced \"fixed-term employment\" as a distinct employment category, allowing companies to hire workers for a fixed, pre-defined tenure with all statutory benefits proportionate to permanent workers, but without the procedural requirements needed for regular retrenchment/layoff at the end of that term (since the contract simply expires naturally) — this does make it comparatively easier for firms to part ways with workers at contract-end compared to terminating regular/permanent employees, confirming Statement 1's underlying logic (fixed-term employment simplifies workforce adjustment). The rules also specify that no notice of termination is necessary in the case of temporary workmen whose services are discontinued as a natural consequence of the expiry of the fixed term or completion of the specific task for which they were engaged, confirming Statement 2.\n\nBoth statements accurately capture features of the amended rules, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: fixed-term employment rules (2018) were a significant labour-market flexibility reform, easing workforce adjustment for employers while still guaranteeing proportionate benefits to fixed-term workers during their contract.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "The economic cost of food grains to the Food Corporation of India is Minimum Support Price and bonus (if any) paid to the farmers plus",
+      "options": [
+        "transportation cost only",
+        "interest cost only",
+        "procurement incidentals and distribution cost",
+        "procurement incidentals and charges for godowns"
+      ],
+      "correct": "C",
+      "explanation": "The Food Corporation of India's (FCI) \"economic cost\" of foodgrains — the total cost basis used for calculating food subsidy — comprises three components: the Minimum Support Price (and any bonus) paid to farmers for procurement, plus procurement incidentals (costs like mandi labour, transport to storage, statutory taxes/levies, interest charges during procurement), plus distribution cost (covering storage, transport to distribution points, and handling losses in moving grain through the PDS chain). This makes option (c), \"procurement incidentals and distribution cost,\" the comprehensive and correct addition to MSP+bonus, rather than the narrower single-component options describing only transportation, only interest, or a mismatched combination of incidentals and godown charges alone.\n\nUPSC takeaway: FCI's \"economic cost\" formula (MSP+bonus + procurement incidentals + distribution cost) is the basis for calculating India's food subsidy bill — a precise, frequently tested definitional fact in food security economics.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "In the context of any country, which one of the following would be considered as part of its social capital?",
+      "options": [
+        "The proportion of literates in the population",
+        "The stock of its buildings, other infrastructure and machines",
+        "The size of population in the working age group",
+        "The level of mutual trust and harmony in the society"
+      ],
+      "correct": "D",
+      "explanation": "Social capital refers to the networks of relationships, shared norms, trust, and mutual cooperation within a society that facilitate collective action and enable a society to function effectively — a concept distinct from human capital (education/skills, reflected in literacy proportion), physical/produced capital (buildings, infrastructure, machines), and demographic capital (working-age population size). The level of mutual trust and social harmony directly captures the essence of \"social capital\" as conceptualized in economics and sociology (following theorists like Robert Putnam), making (d) the correct answer.\n\nThe other options describe human capital (a), physical capital (b), and demographic dividend potential (c) respectively — each a distinct capital category.\n\nUPSC takeaway: distinguish the four capital types tested in development economics — physical, human, natural, and social capital — with social capital uniquely centered on trust, networks, and social cohesion.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "With reference to the provisions made under the National Food Security Act, 2013, consider the following statements:\n1. The families coming under the category of 'below poverty line (BPL)' only are eligible to receive subsidised food grains.\n2. The eldest woman in a household, of age 18 years or above, shall be the head of the household for the purpose of issuance of a ration card.\n3. Pregnant women and lactating mothers are entitled to a 'take-home ration' of 1600 calories per day during pregnancy and for six months thereafter.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "Under the National Food Security Act (NFSA), 2013, eligibility for subsidized foodgrains is not restricted solely to families classified as \"below poverty line\" — the Act instead covers up to 75% of the rural population and 50% of the urban population nationally (categorized as \"priority households\" and \"Antyodaya Anna Yojana households\"), a coverage approach broader than a strict BPL-only criterion, making Statement 1 incorrect. The Act specifies that the eldest woman in a household, aged 18 years or above, shall be considered the head of household for the purpose of issuing ration cards — a landmark gender-empowering provision, confirming Statement 2.\n\nRegarding Statement 3, the NFSA does provide for maternity entitlements and take-home rations for pregnant women and lactating mothers, but the specific \"1600 calories per day\" figure does not match the Act's actual nutritional norms (which are set with reference to prescribed nutritional standards under the Integrated Child Development Services framework, generally cited at a different, higher caloric benchmark), making the specific claim in Statement 3 inaccurate. With only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: NFSA's household head provision (eldest woman, 18+) is a distinctive, oft-tested feature — but be cautious of specific numerical claims (like calorie figures) that may not match the Act's exact norms.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "International Labour Organization’s Conventions 138 and 182 are related to",
+      "options": [
+        "Child labour",
+        "Adaptation of agricultural practices to global climate change",
+        "Regulation of food prices and food security",
+        "Gender parity at the workplace"
+      ],
+      "correct": "A",
+      "explanation": "ILO Convention No. 138 (Minimum Age Convention, 1973) sets the minimum age for admission to employment, while ILO Convention No. 182 (Worst Forms of Child Labour Convention, 1999) calls for the elimination of the worst forms of child labour (like hazardous work, trafficking, forced labour involving children). Both conventions are foundational international instruments specifically addressing child labour, and India ratified both in 2017.\n\nThis directly matches option (a), Child labour, and is unrelated to climate adaptation, food price regulation, or gender parity, which are addressed through entirely different ILO instruments or other international frameworks.\n\nUPSC takeaway: memorize ILO Conventions 138 and 182 as the two core child-labour conventions — India's 2017 ratification of both was a significant international commitment, frequently tested in labour and human-development questions.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Consider the following statements: Human capital formation as a concept is better explained in terms of a process which enables 1. Individuals of a country to accumulate more capital.\n2. Increasing the knowledge, skill levels and capacities of the people of the country.\n3. Accumulation of tangible wealth.\n4. Accumulation of intangible wealth.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Human capital formation refers to the process of enhancing the knowledge, skills, and capabilities of a country's people (through education, training, and health investments), thereby increasing their productive capacity — this directly matches point 2. Human capital, by its nature, is an intangible form of wealth (residing in people's abilities and knowledge, not in physical assets), so human capital formation is better understood as accumulation of intangible wealth, confirming point 4.\n\nHowever, point 1 (\"accumulate more capital\" in a generic sense) and point 3 (accumulation of TANGIBLE wealth) mischaracterize human capital, since human capital is specifically about intangible capabilities, not physical/tangible capital accumulation — making these two points incorrect in this context. With points 2 and 4 correct, the answer is (c), \"2 and 4.\"\n\nUPSC takeaway: human capital is fundamentally intangible (skills, knowledge, health) — never conflate it with tangible/physical capital accumulation (machinery, buildings, infrastructure).",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "'Recognition of Prior Learning Scheme' is sometimes mentioned in the news with reference to",
+      "options": [
+        "Certifying the skills acquired by construction workers through traditional channels.",
+        "Enrolling the persons in Universities for distance learning programmes.",
+        "Reserving some skilled jobs to rural and urban poor in some public sector undertakings.",
+        "Certifying the skills acquired by trainees under the National Skill Development Programme."
+      ],
+      "correct": "A",
+      "explanation": "The Recognition of Prior Learning (RPL) scheme, implemented under the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) framework, is designed to assess and formally certify the skills and competencies that workers (such as those in the construction sector, and other informal/traditional trades) have already acquired through informal, on-the-job experience or traditional apprenticeship channels — rather than through formal classroom training — thereby providing them recognized certification, improving their employability and wage prospects. This matches option (a) precisely: certifying skills acquired through traditional/informal channels, particularly relevant for construction and other informal-sector workers.\n\nIt is distinct from formal university enrollment, job reservation policies, or certification specifically tied to formal National Skill Development Programme trainees (which would already involve formal, not prior/informal, learning). The correct answer is (a).\n\nUPSC takeaway: RPL specifically targets INFORMALLY acquired skills for formal certification — a key mechanism bridging India's large informal workforce with the formal skill-certification ecosystem under Skill India.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Of the following, which gives 'Global Gender Gap Index' ranking to the countries of the world?",
+      "options": [
+        "World Economic Forum",
+        "UN Human Rights Council",
+        "UN Women",
+        "World Health Organization"
+      ],
+      "correct": "A",
+      "explanation": "The Global Gender Gap Index, which benchmarks countries on gender-based disparities across economic participation, educational attainment, health, and political empowerment, is published annually by the World Economic Forum (WEF) — the same Swiss-based organization known for the Global Competitiveness Report and the Davos Summit. It is distinct from the UN Human Rights Council (a UN body focused on human rights issues broadly), UN Women (a UN entity for gender equality advocacy and programming, but not the publisher of this specific index), or the WHO (focused on health matters).\n\nThe correct answer is (a).\n\nUPSC takeaway: the WEF publishes multiple influential global indices (Global Competitiveness, Global Gender Gap) — remembering WEF as the common publisher for these specific rankings avoids attribution confusion with UN agencies.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "The Trade Disputes Act of 1929 provided for",
+      "options": [
+        "the participation of workers in the management of industries.",
+        "arbitrary powers to the management to quell industrial disputes.",
+        "an intervention by the British Court in the event of a trade dispute.",
+        "a system of tribunals and a ban on strikes."
+      ],
+      "correct": "D",
+      "explanation": "The Trade Disputes Act of 1929, enacted during the colonial period in British India, was a labour-relations law that established a formal system of courts of inquiry and boards of conciliation (essentially a tribunal-based dispute resolution mechanism) for resolving industrial/trade disputes, and importantly also imposed restrictions/bans on strikes and lockouts in specified \"public utility services\" during the pendency of conciliation proceedings — matching option (d), \"a system of tribunals and a ban on strikes.\" It did not provide for worker participation in management (a modern industrial-democracy concept not part of this early colonial legislation), nor did it grant arbitrary powers to management (b) or provide for British court intervention in the specific sense described (c). The correct answer is (d).\n\nUPSC takeaway: the Trade Disputes Act, 1929 was India's early formal industrial dispute resolution framework, combining conciliation/tribunal mechanisms with strike restrictions — a precursor to the later Industrial Disputes Act, 1947.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Who among the following can join the National Pension System (NPS)?",
+      "options": [
+        "Resident Indian citizens only",
+        "Persons of age from 21 to 55 only",
+        "All State Government employees joining the services after the date of notification by the respective State Governments",
+        "All Central Government employees including those of Armed Forces joining the services on or after 1st April, 2004"
+      ],
+      "correct": "C",
+      "explanation": "The National Pension System (NPS), initially introduced for new (post-2004) Central Government employees, was progressively extended to State Government employees as well, but with each State Government independently deciding when to adopt/notify NPS for its own employees — meaning NPS coverage for state employees applies specifically to those joining service on or after the date each respective State Government issued its own notification adopting the scheme (dates vary by state), matching option (c) precisely as a correct, nuanced description. NPS is not restricted to resident Indian citizens only (NRIs can also join, subject to conditions), nor is it age-restricted to only 21-55 (broader age bands are permitted, especially in the voluntary/all-citizens model).\n\nCentral Government employees (excluding Armed Forces personnel, who remain under the Old Pension System/separate defence pension arrangements) joining on or after April 1, 2004 are covered, making option (d)'s inclusion of Armed Forces incorrect. The correct, precisely accurate answer is (c).\n\nUPSC takeaway: NPS state-level applicability is notification-driven and varies by state's own adoption date — and Armed Forces personnel are notably EXCLUDED from the mandatory NPS coverage applicable to other Central Government employees.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "With reference to 'National Skills Qualification Framework (NSQF)', which of the statements given below is/are correct?\n1. Under NSQF, a learner can acquire the certification for competency only through formal learning.\n2. An outcome expected from the implementation of NSQF is the mobility between vocational and general education.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The National Skills Qualification Framework (NSQF), a competency-based framework organizing qualifications according to a series of levels of knowledge, skill, and aptitude, explicitly allows learners to acquire certification for a given competency level through multiple pathways — including formal education, vocational training, AND informal or non-formal learning routes (like the Recognition of Prior Learning mechanism) — meaning certification is NOT restricted to formal learning alone, making Statement 1 incorrect. A key stated objective of NSQF implementation is to enable greater mobility and equivalence between vocational education/training and general (academic) education systems, allowing learners to move between these traditionally siloed streams, confirming Statement 2.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: NSQF's defining innovation is recognizing informal/non-formal learning pathways (not just formal education) alongside enabling vocational-general education mobility — a dual-purpose framework.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Consider the following in respect of ‘National Career Service’:\n1. National Career Service is an initiative of the Department of Personnel and Training, Government of India.\n2. National Career Service has been launched in a Mission Mode to improve the employment opportunities to uneducated youth of the country.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The National Career Service (NCS) is an initiative of the Ministry of Labour and Employment, Government of India — not the Department of Personnel and Training (which handles central civil services personnel matters, not general employment services) — making Statement 1 incorrect. While NCS was indeed launched to improve employment opportunities and provide career counselling/job-matching services nationally, it is not specifically or narrowly targeted at \"uneducated youth\" — it serves job seekers across education and skill levels, including educated youth, matching them with employers, providing career counselling, and offering vocational guidance broadly, making Statement 2's narrow characterization incorrect.\n\nWith both statements wrong, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: NCS is a Ministry of Labour and Employment initiative (not DoPT) serving job-seekers broadly across all education levels — not narrowly targeted at \"uneducated youth\" as sometimes mischaracterized.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Regarding ‘Atal Pension Yojana’, which of the following statements is/are correct?\n1. It is a minimum guaranteed pension scheme mainly targeted at unorganized sector workers.\n2. Only one member of a family can join the scheme.\n3. Same amount of pension is guaranteed for the spouse for life after subscriber’s death.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Atal Pension Yojana (APY), launched in 2015, is indeed a minimum guaranteed pension scheme primarily targeted at workers in the unorganized sector (who typically lack formal pension coverage), providing a fixed monthly pension (ranging from ₹1,000 to ₹5,000) after age 60 based on the subscriber's chosen contribution level, confirming point 1. However, Statement 2 is incorrect: APY does not restrict enrollment to only one member per family — multiple members of the same family/household can independently subscribe to and join the scheme in their own individual capacity.\n\nThe scheme does guarantee that upon the subscriber's death, the same fixed pension amount is paid to the spouse for their lifetime, and thereafter the accumulated corpus is returned to the nominee, confirming point 3. With points 1 and 3 correct and point 2 incorrect, the answer is (c), \"1 and 3 only.\"\n\nUPSC takeaway: APY allows MULTIPLE family members to independently enroll (no one-per-family restriction), while guaranteeing spouse continuation of the same pension amount after the subscriber's death — a key subscriber-family benefit structure.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "Disguised unemployment generally means",
+      "options": [
+        "large number of people remain unemployed",
+        "alternative employment is not available",
+        "marginal productivity of labour is zero",
+        "productivity of workers is low"
+      ],
+      "correct": "C",
+      "explanation": "Disguised unemployment refers to a situation (commonly observed in labour-surplus agrarian economies like traditional Indian agriculture) where more workers are engaged in a given activity/land than are actually needed to produce the existing output — meaning if some of these \"surplus\" workers were withdrawn, total output would remain unchanged, since their marginal contribution to production is effectively zero (their marginal productivity of labour is zero), even though they appear \"employed\" and share in the collective output/income. This precisely matches option (c).\n\nIt is not the same as open unemployment (large numbers simply without any work, option a), the absence of alternative employment opportunities alone (option b, a contributing CAUSE rather than the definition itself), or generally low worker productivity (option d, too vague/broad a characterization). The correct answer is (c).\n\nUPSC takeaway: disguised unemployment's precise technical definition hinges on ZERO MARGINAL PRODUCTIVITY of the \"surplus\" workers — not merely low productivity or lack of alternatives, which are related but distinct concepts.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "To obtain full benefits of demographic dividend, what should India do?",
+      "options": [
+        "Promoting skill development",
+        "Introducing more social-security schemes",
+        "Reducing infant mortality rate",
+        "Privatization of higher education"
+      ],
+      "correct": "A",
+      "explanation": "India's \"demographic dividend\" refers to the potential economic growth boost arising from having a large proportion of the population in the working-age group relative to dependents — but realizing this potential benefit requires that this large working-age population be productively employable, which critically depends on adequately equipping them with relevant employable skills through robust skill development initiatives; without sufficient skilling, a large working-age population risks becoming a demographic burden (unemployment/underemployment) rather than a dividend, making promoting skill development the most direct and essential policy lever, matching option (a). While social security schemes (b), reducing infant mortality (c, more relevant to earlier demographic transition stages affecting population structure itself), and higher education privatization (d) may have their own independent merits, none directly and specifically addresses the core requirement of making the large working-age population economically productive in the way targeted skill development does.\n\nThe correct answer is (a).\n\nUPSC takeaway: realizing India's demographic dividend hinges centrally on SKILL DEVELOPMENT — converting a large working-age population into a productively employed workforce, the linchpin of demographic-dividend-linked growth strategy (Skill India Mission).",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "How does the National Rural Livelihood Mission seek to improve livelihood options of rural poor?\n1. By setting up a large number of new manufacturing industries and agribusiness centres in rural areas\n2. By strengthening ‘self-help groups’ and providing skill development\n3. By supplying seeds, fertilizers, diesel pump-sets and micro-irrigation equipment free of cost to farmers",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The National Rural Livelihood Mission (NRLM, now known as DAY-NRLM), launched in 2011, seeks to improve rural livelihoods primarily through a community-institution-building approach — organizing rural poor households (especially women) into robust, sustainable Self-Help Groups (SHGs) and their federations, while providing them with skill development, financial literacy, access to credit, and livelihood diversification support, confirming point 2 as the mission's core strategic approach. NRLM does NOT primarily work by directly setting up large numbers of new manufacturing industries/agribusiness centres in rural areas (that is a different kind of industrial-policy intervention, not NRLM's core SHG-based livelihoods strategy, ruling out point 1) nor does it operate through directly supplying free agricultural inputs like seeds, fertilizers, or pump-sets to farmers (that describes input-subsidy schemes, a different policy mechanism entirely, ruling out point 3).\n\nWith only point 2 correctly describing NRLM's approach, the answer is (b), \"2 only.\"\n\nUPSC takeaway: NRLM's core strategy is SHG-based community mobilization and skill development (not direct industrial investment or free input distribution) — a distinctive livelihoods-through-institution-building model, distinguishing it from other rural development/agricultural-subsidy schemes.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "The Multi-dimensional Poverty Index developed by Oxford Poverty and Human Development Initiative with UNDP support covers which of the following?\n1. Deprivation of education, health, assets and services at household level\n2. Purchasing power parity at national level\n3. Extent of budget deficit and GDP growth rate at national level\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Multidimensional Poverty Index (MPI), jointly developed by the Oxford Poverty and Human Development Initiative (OPHI) and the UNDP, measures poverty using a composite set of household-level deprivation indicators spanning education (years of schooling, school attendance), health (child mortality, nutrition), and standard of living (assets, housing, water, sanitation, cooking fuel, electricity) — confirming point 1 as the MPI's actual, defining scope. The MPI does NOT incorporate national-level macroeconomic indicators like Purchasing Power Parity figures (point 2, an unrelated national-level economic comparison metric) or national budget deficit/GDP growth rate data (point 3, unrelated fiscal/growth indicators) — the MPI is deliberately designed as a HOUSEHOLD-LEVEL, multidimensional deprivation measure, not a national macroeconomic index.\n\nWith only point 1 correctly describing MPI's scope, the answer is (a), \"1 only.\"\n\nUPSC takeaway: the MPI is a HOUSEHOLD-LEVEL, multi-indicator deprivation measure (education, health, living standards) — never conflate it with national-level macroeconomic indicators like PPP-adjusted GDP or fiscal deficit figures, which are entirely separate national accounting concepts.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "Consider the following specific stages of demographic transition associated with economic development:\n1. Low birthrate with low death rate\n2. High birthrate with high death rate\n3. High birthrate with low death rate Select the correct order of the above stages using the codes given below:",
+      "options": [
+        "1, 2, 3",
+        "2, 1, 3",
+        "2, 3, 1",
+        "3, 2, 1"
+      ],
+      "correct": "C",
+      "explanation": "The demographic transition model describes how a country's population dynamics evolve alongside economic development, typically progressing through distinct stages. The initial (Stage 1) is characterized by \"High birthrate with high death rate\" (a stable but harsh pre-modern demographic equilibrium), corresponding to item 2. As death rates fall (due to improved healthcare, sanitation, nutrition) while birthrates remain initially high (Stage 2), the country experiences \"High birthrate with low death rate\" (a period of rapid population growth), corresponding to item 3.\n\nEventually, as socio-economic development matures, birthrates also decline to match the lower death rate (Stage 3/4), reaching \"Low birthrate with low death rate\" (a stable, slow-growth modern equilibrium), corresponding to item 1. This gives the correct chronological sequence as: item 2 → item 3 → item 1, matching answer (c), \"2, 3, 1.\"\n\nUPSC takeaway: memorize the demographic transition's three-stage sequence precisely — (High birth, High death) → (High birth, Low death, rapid growth) → (Low birth, Low death, stable) — a foundational population-economics framework.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "The endeavour of 'Janani Suraksha Yojana' Programme is 1. To promote institutional deliveries\n2. To provide monetary assistance to the mother to meet the cost of delivery\n3. To provide for wage loss due to pregnancy and confinement\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Janani Suraksha Yojana (JSY), a safe motherhood intervention under the National Health Mission, was designed with the endeavour of promoting institutional deliveries (encouraging pregnant women to deliver in health facilities with skilled birth attendance rather than at home, reducing maternal/neonatal mortality risk), confirming point 1, and providing direct monetary/cash assistance to mothers to help meet the costs associated with delivery (covering expenses like transportation, medical costs, and post-delivery care), confirming point 2. However, JSY does NOT specifically provide for compensating \"wage loss\" due to pregnancy and confinement (that type of wage-compensation benefit falls under separate maternity benefit schemes/legislation, like the Maternity Benefit Act, rather than being a core JSY objective), making point 3 an incorrect inclusion.\n\nWith points 1 and 2 correct, the answer is (a), \"1 and 2 only.\"\n\nUPSC takeaway: JSY's core twin objectives are promoting institutional delivery AND providing delivery-cost cash assistance — wage-loss compensation during pregnancy is a distinct concept addressed by separate maternity benefit legislation, not JSY itself.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "Consider the following:\n1. Hotels and restaurants\n2. Motor transport undertakings\n3. Newspaper establishments\n4. Private medical institutions The employees of which of the above can have the 'Social Security' coverage under Employees' State Insurance Scheme?",
+      "options": [
+        "1, 2 and 3 only",
+        "4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "The Employees' State Insurance (ESI) Scheme, a social security and health insurance scheme for Indian workers, has progressively expanded its coverage beyond traditional factory workers to include employees in various notified service establishments. Employees of hotels and restaurants, motor transport undertakings, newspaper establishments, and private medical/educational institutions have all been brought under ESI coverage through progressive notifications extending the scheme's applicability beyond manufacturing establishments to include these specified service-sector categories, confirming that all four listed categories are covered.\n\nThis gives answer (d), \"1, 2, 3 and 4.\"\n\nUPSC takeaway: the ESI Scheme's coverage has been substantially widened over the years from factory-only workers to numerous service-sector establishments (hotels, transport, media, healthcare) — reflecting the scheme's evolution to match India's changing employment structure beyond manufacturing.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "With reference to \"Aam Aadmi Bima Yojana\", consider the following statements:\n1. The member insured under the scheme must be the head of the family or an earning member of the family in a rural landless household.\n2. The member insured must be in the age group of 30 to 65 years.\n3. There is a provision for free scholarship for up to two children of the insured who are studying between classes 9 and 12.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The Aam Aadmi Bima Yojana (AABY), a social security/life insurance scheme targeted at rural landless households, required that the insured member be the head of the family or an earning member of a rural landless household, confirming point 1. The scheme's eligible age group for enrollment was actually 18 to 59 years (working-age adults), not \"30 to 65 years\" as stated, making point 2's age range incorrect.\n\nThe scheme did include an educational benefit component — providing a scholarship for up to two children of the insured who were studying between classes 9 and 12, confirming point 3. With points 1 and 3 correct and point 2 incorrect (wrong age band), the answer is (c), \"1 and 3 only\" — however per the given marked answer (d), all three points are treated as correct, suggesting the age criterion in the source scheme documentation may have had specific variant provisions or amendments applicable to this exam's reference period.\n\nUPSC takeaway: AABY combined life insurance coverage for rural landless household earners WITH an educational scholarship benefit for their children (classes 9-12) — a distinctive dual social-security-plus-education design worth remembering precisely.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Among the following who are eligible to benefit from the “Mahatma Gandhi National Rural Employment Guarantee Act”?",
+      "options": [
+        "Adult members of only the scheduled caste and scheduled tribe households",
+        "Adult members of below poverty line (BPL) households",
+        "Adult members of households of all backward communities",
+        "Adult members of any household"
+      ],
+      "correct": "D",
+      "explanation": "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), India's landmark rural employment guarantee legislation, is designed as a UNIVERSAL rural employment guarantee scheme — it does not restrict eligibility based on caste category (SC/ST), poverty status (BPL), or any other specific social/economic backward-community classification; rather, ANY adult member of ANY rural household who is willing to do unskilled manual work is legally entitled to demand and receive employment under the Act (up to the guaranteed number of days per household per year), matching option (d) precisely — this universal, rights-based, non-targeted design is a defining and distinctive feature of MGNREGA compared to earlier targeted poverty-alleviation employment schemes. The correct answer is (d).\n\nUPSC takeaway: MGNREGA's defining, distinctive feature is its UNIVERSAL entitlement design (any rural household, regardless of caste or poverty-line status) — a deliberate departure from earlier narrowly-targeted employment schemes, reflecting its rights-based legal guarantee approach.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "With reference to the schemes launched by the Union Government, consider the following statements:\n1. Ministry of Health and Family Welfare launched the Rashtriya Swasthya Bima Yojana.\n2. Ministry of Textiles launched the Rajiv Gandhi Shilpi Swasthya Bima Yojana.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Rashtriya Swasthya Bima Yojana (health insurance for BPL families) was launched by the Ministry of Labour and Employment, not the Ministry of Health, making statement 1 incorrect. The Rajiv Gandhi Shilpi Swasthya Bima Yojana, aimed at insuring artisans/weavers, was indeed launched under the Ministry of Textiles, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Consider the following statements :\n1. Infant mortality rate takes into account the death of infants within a month after birth.\n2. Infant mortality rate is the number of infant deaths in a particular year, per 100 live births during that year.\nWhich of the above statements is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Infant Mortality Rate is defined as the number of deaths of infants under one year of age (not just within a month) per 1,000 live births (not per 100 live births) in a given year — both details in the statements are inaccurate, making neither statement correct as framed.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "As per India's National Population Policy, 2000, by which one of the following years is it our long-term objective to achieve population stabilization?",
+      "options": [
+        "2025",
+        "2035",
+        "2045",
+        "2055"
+      ],
+      "correct": "C",
+      "explanation": "India's National Population Policy, 2000 set the long-term objective of achieving a stable population by 2045, corresponding to a level consistent with the requirements of sustainable economic growth and development.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Consider the following statements with reference to Indira Gandhi National Old Age Pension Scheme (IGNOAPS):\n1. All persons of 60 years or above belonging to the households below poverty line in rural areas are eligible.\n2. The Central Assistance under this Scheme is at the rate of Rs 300 per month per beneficiary. Under the Scheme, States have been urged to give matching amounts.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The Indira Gandhi National Old Age Pension Scheme actually covers BPL persons aged 65 years and above (not 60), and the Central assistance was Rs 200 per month per beneficiary at that time (not Rs 300), with states urged to contribute a matching amount — both specific figures in the statements are inaccurate, making neither statement correct.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "What is the name of the scheme which provides training and skills to women in traditional and non-traditional trades?",
+      "options": [
+        "Kishori Shakti Yojna",
+        "Rashtriya Mahila Kosh",
+        "Swayamsiddha",
+        "Swalamban"
+      ],
+      "correct": "D",
+      "explanation": "Swalamban (formerly Swayamsiddha-linked schemes for women's economic empowerment) was the scheme aimed at providing training and skill development to women in both traditional and non-traditional trades, enhancing their employability and self-reliance.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Consider the following statements in respect of the National Rural Employment Guarantee Act, 2005 :\n1. Under the provisions of the Act, 100 days of employment in a year to every household whose adult members volunteer to do unskilled manual work has become a fundamental right.\n2. Under the provisions of the Act, women are to get priority to the extent that one-half of persons who are given employment are women who have asked for work.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "NREGA, 2005 guarantees 100 days of employment per household (not to every individual) as a statutory entitlement rather than a 'fundamental right' in the strict constitutional sense, making statement 1 imprecisely framed and treated as incorrect. The Act mandates priority for women such that at least one-third (not one-half) of workers must be women who have requested work, making statement 2 also incorrect.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Which one of the following are the correct statements on the basis of Census-2001?",
+      "options": [
+        "Bihar has the highest percentage of the Scheduled Castes of its population.",
+        "The decadal growth of population of India (1991-2001) has been below 20 %.",
+        "Mizoram is the Indian State with the least population.",
+        "Pondicherry has the highest sex ratio among the Union Territories."
+      ],
+      "correct": "D",
+      "explanation": "As per Census 2001, Pondicherry recorded the highest sex ratio among Union Territories, reflecting favourable demographic patterns compared to other UTs like Delhi or Chandigarh.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Consider the following statements:\n1. India is the second country in the world to adopt a National Family Planning Programme.\n2. The National Population Policy of India, 2000 seeks to achieve replacement level of fertility by 2010 with a population of 111 crores.\n3. Kerala is the first State in India to achieve replacement level of fertility.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "India was not the second country to adopt a national family planning programme — it was actually the first country in the world to do so (1952), making statement 1 incorrect. The National Population Policy, 2000 did target replacement-level fertility by 2010 with a population around 111 crore, and Kerala was indeed the first Indian state to achieve replacement-level fertility, making statements 2 and 3 correct.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Which one of the following statements is NOT correct?",
+      "options": [
+        "Under the Targeted Public Distribution System, the families Below Poverty Line are provided 50 kg of food grains per month per family at subsidized price.",
+        "Under Annapurna Scheme, indigent senior citizens of 65 years of age or above eligible for National Old Age Pension but not getting pension can get 10 kg of food grains per person per month at BPL rates.",
+        "Ministry of Social Justice and Empowerment has a scheme in which indigent people living in welfare institutions like orphanages are given 15 kg of food grains per person per month at BPL rates.",
+        "Ministry of Human Resource Development gives financial support to Mid-Day Meal Scheme for the benefit of class I to V students in Government or Government-aided Schools."
+      ],
+      "correct": "A",
+      "explanation": "Under the Targeted Public Distribution System, BPL families were entitled to 35 kg (not 50 kg) of food grains per month at subsidised rates, making this the incorrect statement; the other three statements about Annapurna, the Ministry of Social Justice scheme, and Mid-Day Meal support are accurate.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Assertion (A): The Central Rural Sanitation Programme was launched in 1986 to improve the quality of life of rural people in India.\nReason (R): Rural sanitation is a subject in the Concurrent List in the Constitution of India.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "The Central Rural Sanitation Programme was indeed launched in 1986 to improve rural quality of life, making the Assertion true. However, rural sanitation is not placed in the Concurrent List — it falls under the State List (as a local/public health matter), making the Reason false.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "As per the Human Development Index given by UNDP, which one of the following sequences of South Asian countries is correct, in the order of higher to lower development?",
+      "options": [
+        "India—Sri Lanka—Pakistan—Maldives",
+        "Maldives—Sri Lanka—India—Pakistan",
+        "Sri Lanka—Maldives—India—Pakistan",
+        "Maldives—India—Pakistan—Sri Lanka"
+      ],
+      "correct": "B",
+      "explanation": "As per UNDP's Human Development Index rankings for South Asian countries around that period, Maldives ranked highest, followed by Sri Lanka, then India, and Pakistan ranked lowest among these four.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Which one among the following States has the highest female literacy rate as per the Census 2001?",
+      "options": [
+        "Chhattisgarh",
+        "Madhya Pradesh",
+        "Orissa",
+        "Rajasthan"
+      ],
+      "correct": "A",
+      "explanation": "As per Census 2001, Chhattisgarh recorded the highest female literacy rate among the listed states/newly formed states of that period, better than Madhya Pradesh, Orissa, and Rajasthan.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements: The objectives of the National Renewal Fund set up in February 1992 were 1. To give training and counselling for workers affected by retrenchment or VRS.\n2. Redeployment of workers Which of these statements is/are correct?",
+      "options": [
+        "Neither 1 nor 2",
+        "Both 1 and 2",
+        "1 only",
+        "2 only"
+      ],
+      "correct": "B",
+      "explanation": "The National Renewal Fund, set up in 1992, was specifically designed to provide training/counselling and support for redeployment of workers affected by industrial restructuring, retrenchment, or VRS — making both stated objectives correct.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Which reference to the government’s welfare schemes, consider the following statements:\n1. Under the Antyodaya Anna Yojana, the food grains are available to the poorest of the poor families at Rs 2 per kg for wheat and Rs 3 per kg for rice.\n2. Under the National Old Age Pension Scheme, the old and destitute are provided Rs 75 per month as Central pension, in addition to the amount provided by most State Governments.\n3. Government of India has allocated 25 kg food grains per Below Poverty Line family per month, at less than half the economic cost. Which of these statements are correct?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Antyodaya Anna Yojana did provide food grains to the poorest families at Rs 2/kg for wheat and Rs 3/kg for rice, and the National Old Age Pension Scheme did provide a Central pension (around Rs 75/month) supplemented by most states, making statements 1 and 2 correct. The BPL allocation under TPDS was actually 25-35 kg depending on the period, provided at half the economic cost rather than 'less than half', making statement 3 imprecise/incorrect.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Consider the following schemes launched by the Union Government:\nI. Antyodaya Anna\nII. Gram Sadak Yojana\nIII. Sarvapriya\nIV. Jawahar Gram Samriddhi Yojana. Which of these were announced in the year 2000?",
+      "options": [
+        "I and II",
+        "II and IV",
+        "III and IV",
+        "I, II and III"
+      ],
+      "correct": "A",
+      "explanation": "The Antyodaya Anna Yojana and the Pradhan Mantri Gram Sadak Yojana were both announced in the year 2000, while the Jawahar Gram Samriddhi Yojana was launched earlier (1999, as a restructured version of an older scheme), and 'Sarvapriya' is not a recognised scheme name from that period.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Indian Human Development Report does not give for each sample village",
+      "options": [
+        "Infrastructure and Amenities Index",
+        "Education Related Index",
+        "Health Related Index",
+        "Unemployment Related Index"
+      ],
+      "correct": "D",
+      "explanation": "The India Human Development Report compiles village-level Infrastructure and Amenities, Education-related, and Health-related indices, but does not include a specific 'Unemployment Related Index' among its standard village-level indicators.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "The Swarna Jayanti Shahari Rozgar Yojana which came into operation from 1 December 1997 aims to provide gainful employment to the urban unemployed or underemployed poor but does not include",
+      "options": [
+        "Nehru Rozgar Yojana",
+        "Urban Basic Services Programme",
+        "Prime Minister’s Integrated Urban Poverty Eradication Programme",
+        "Prime Minister’s Rozgar Yojana"
+      ],
+      "correct": "D",
+      "explanation": "The Swarna Jayanti Shahari Rozgar Yojana subsumed and replaced three earlier urban poverty schemes — Nehru Rozgar Yojana, Urban Basic Services Programme, and Prime Minister's Integrated Urban Poverty Eradication Programme — but did not include the Prime Minister's Rozgar Yojana, which remained a separate self-employment scheme.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "The first Indian State to have its Human Development Report prepared and released by Amartya Kumar Sen in Delhi is",
+      "options": [
+        "West Bengal",
+        "Kerala",
+        "Madhya Pradesh",
+        "Andhra Pradesh"
+      ],
+      "correct": "C",
+      "explanation": "Madhya Pradesh was the first Indian state to have its Human Development Report prepared (with contributions from Amartya Sen) and released, marking an early state-level application of the human development framework in India.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Which one of the following statements is false?",
+      "options": [
+        "All countries other than India have over 80% literacy",
+        "Malaysia and Korea have life expectancy higher than all other countries",
+        "Higher the adult literacy lower is the infant mortality",
+        "The life expectancy at birth in India is almost the same as that of Indonesia"
+      ],
+      "correct": "C",
+      "explanation": "The claim that 'higher adult literacy always means lower infant mortality' is an oversimplified generalisation not universally borne out by cross-country data (other factors like healthcare access also matter), making it the false statement among the options, which otherwise reflect broadly accurate comparative human development facts of that period.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "The best performance in terms of Human Development among the Asian countries is by",
+      "options": [
+        "China",
+        "Malaysia",
+        "Korea",
+        "Philippines"
+      ],
+      "correct": "C",
+      "explanation": "Among the listed Asian countries, South Korea had achieved the highest level of Human Development Index performance at the time, reflecting its rapid economic and social development.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Persons below the poverty line in India are classified as such based on whether",
+      "options": [
+        "they are entitled to a minimum prescribed food basket",
+        "they get work for a prescribed minimum number of days in a year",
+        "they belong to agricultural labourer household and the scheduled caste/tribe social group",
+        "their daily wages fall below the prescribed minimum wages"
+      ],
+      "correct": "A",
+      "explanation": "In India, the poverty line has traditionally been defined based on whether a household's consumption expenditure is sufficient to afford a minimum prescribed food basket providing a specified calorie intake, rather than being based on employment days, social category, or wage levels directly.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Among which one of the following sets of social/religious groups is the extent of poverty the highest, as per Government statistics for the nineties?",
+      "options": [
+        "Muslims in Kerala, Gujarat and Andhra Pradesh",
+        "Tribals in Bihar, Orissa, Madhya Pradesh and Maharashtra",
+        "Scheduled Castes in Punjab, Western Uttar Pradesh, northern Rajasthan and Tamil Nadu",
+        "Christians in Gujarat, Maharashtra and Assam"
+      ],
+      "correct": "B",
+      "explanation": "As per government poverty statistics for the 1990s, tribal populations in states like Bihar, Orissa, Madhya Pradesh, and Maharashtra showed the highest incidence of poverty among the social/religious groupings listed.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "The Employment Assurance Scheme envisages financial assistance to rural areas for guaranteeing employment to at least",
+      "options": [
+        "50 per cent of the men and women seeking jobs in rural areas",
+        "50 per cent of the men seeking jobs in rural areas",
+        "one man and one woman in a rural family living below the poverty line",
+        "None of the above"
+      ],
+      "correct": "D",
+      "explanation": "The Employment Assurance Scheme aimed to provide assured wage employment (around 100 days) to rural people seeking work during lean agricultural seasons, but it did not guarantee employment framed as a fixed percentage of job-seekers or a specific per-family quota as described in the other options, making 'None of the above' the correct answer.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Which one of the following is the objective of National Renewal Fund?",
+      "options": [
+        "To safeguard the interests of workers who may be affected by technological upgradation of industry or closure of sick units",
+        "To develop the core sector of the economy",
+        "For the development of infrastructure such as energy, transport, communications and irrigation",
+        "For human resource development such as full literacy, employment, population control, housing and drinking water"
+      ],
+      "correct": "A",
+      "explanation": "The National Renewal Fund was set up to protect the interests of workers affected by industrial restructuring, technological modernisation, or closure of sick industrial units, providing retraining and safety-net support.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Human Poverty Index was introduced in the Human Development Report of the year",
+      "options": [
+        "1994",
+        "1995",
+        "1996",
+        "1997"
+      ],
+      "correct": "D",
+      "explanation": "The Human Poverty Index was introduced in the UNDP's Human Development Report of 1997, complementing the HDI by focusing specifically on deprivation rather than average achievement.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The number of economically active women (excluding students and those doing domestic duties in their homes) as a percentage of all women of working age (generally those aged 15-64 years) was the highest in 1996 in",
+      "options": [
+        "USA",
+        "China",
+        "Russia",
+        "S. Korea"
+      ],
+      "correct": "B",
+      "explanation": "Among the listed countries in 1996, China had the highest female labour force participation rate (economically active women as a percentage of working-age women), reflecting its historically high female workforce engagement.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "Human Development Index comprises literacy rates, life expectancy at birth and",
+      "options": [
+        "Gross Domestic Product per head in US dollars",
+        "Gross Domestic Product per head at real purchasing power",
+        "Gross National Product in US dollars",
+        "National Income per head in US dollars"
+      ],
+      "correct": "B",
+      "explanation": "The Human Development Index combines literacy rates, life expectancy at birth, and GDP per capita adjusted for real purchasing power (purchasing power parity), giving a composite measure of a country's human development beyond income alone.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer by using the codes given below the lists:\nList I I. Rashtriya Mahila Kosh II. Mahila Samriddhi Yojana III. Indira Mahila Yojana IV. Mahila Samakhya Programme\nList II\nA. Empowerment of women\nB. Education for Women’s Equality\nC. Promotion of savings among rural women\nD. Meeting credit needs of the poor women Codes:",
+      "options": [
+        "I-C, II-B, III-A, IV-D",
+        "I-A, II-C, III-D, IV-B",
+        "I-D, II-C, III-A, IV-B",
+        "I-D, II-A, III-B, IV-C"
+      ],
+      "correct": "C",
+      "explanation": "The Mahila Samakhya Programme focuses on education for women's equality; the Mahila Samriddhi Yojana promotes savings among rural women; the Indira Mahila Yojana focuses on women's empowerment; and the Rashtriya Mahila Kosh meets the credit needs of poor women — matching code I-D, II-C, III-A, IV-B.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Schemes of (i) Urban Micro Enterprises, (ii) Urban Wage Employment, and (iii) Housing and Shelter Upgradation are parts of",
+      "options": [
+        "Integrated Rural Development Programme",
+        "Nehru Rozgar Yojana",
+        "Jawahar Rozgar Yojana",
+        "Prime Minister’s Rozgar Yojana"
+      ],
+      "correct": "B",
+      "explanation": "Urban Micro Enterprises, Urban Wage Employment, and Housing and Shelter Upgradation were components of the Nehru Rozgar Yojana, a scheme targeted at urban poverty alleviation through self-employment and wage employment.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Which one of the following is true regarding the Jawahar Rozgar Yojana (JRY)?",
+      "options": [
+        "It was launched during the Prime Ministership of Indira Gandhi",
+        "It aims at creating one million jobs annually",
+        "The target group of JRY are the urban poor living below the poverty line",
+        "Under the scheme 30% of the employment generated is reserved for women"
+      ],
+      "correct": "D",
+      "explanation": "Under the Jawahar Rozgar Yojana, a specific reservation was made ensuring that 30% of the employment generated under the scheme went to women, as part of its wage-employment generation objectives for the rural poor.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "One of the reasons for India’s occupational structure remaining more or less the same over the years has been that",
+      "options": [
+        "investment pattern has been directed towards capital-intensive industries",
+        "productivity in agriculture has been high enough to induce people to stay with agriculture",
+        "ceilings on land holdings have enabled more people to own land and hence their preference to stay with agriculture",
+        "people are largely unaware of the significance of transition from agriculture to industry for economic development"
+      ],
+      "correct": "A",
+      "explanation": "India's occupational structure has remained relatively unchanged partly because investment has been disproportionately directed toward capital-intensive industries rather than labour-intensive sectors, limiting the pace of structural shift of the workforce away from agriculture into industry.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

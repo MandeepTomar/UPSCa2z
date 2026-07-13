@@ -1,0 +1,488 @@
+{
+  "subject": "Indian Economy",
+  "topic": "International Institutions & Reports",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nStatement-I: If the United States of America (USA) were to default on its debt, holders of US Treasury Bonds will not be able to exercise their claims to receive payment.\nStatement-II: The USA Government debt is not backed by any hard assets, but only by the faith of the Government.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "correct": "A",
+      "explanation": "US Treasury Bonds are backed by the \"full faith and credit\" of the US government rather than by any specific hard/physical collateral — this is a defining feature of sovereign debt in a fiat-currency system, confirming Statement II. If the US were to default (fail to make scheduled payments), bondholders would indeed be unable to receive their promised principal/interest on time, since there is no collateral asset to seize or liquidate — their claim depends entirely on the government's willingness/ability to pay, confirming Statement I. Statement II directly explains why Statement I is true: because the debt is unsecured (backed only by government faith, not hard assets), a default leaves bondholders without an enforceable claim against physical collateral. Hence both statements are correct and II explains I, giving answer (a).\n\nUPSC takeaway: sovereign bonds are inherently different from asset-backed securities — the \"faith and credit\" backing is central to understanding sovereign default risk.",
+      "subject": "Indian Economy",
+      "year": "2024"
+    },
+    {
+      "question": "\"Rapid Financing Instrument\" and \"Rapid Credit Facility\" are related to the provisions of lending by which one of the following?",
+      "options": [
+        "Asian Development Bank",
+        "International Monetary Fund",
+        "United Nations Environment Programme Finance Initiative",
+        "World Bank"
+      ],
+      "correct": "B",
+      "explanation": "The Rapid Financing Instrument (RFI) and Rapid Credit Facility (RCF) are both emergency lending instruments of the International Monetary Fund (IMF), designed to provide quick financial assistance to member countries facing urgent balance-of-payments needs, such as natural disasters, commodity price shocks, or public health emergencies, without requiring a full-fledged economic reform programme (unlike standard IMF loan facilities). The RFI is available to all IMF members, while the RCF is specifically tailored for low-income countries under concessional terms.\n\nNeither is associated with the Asian Development Bank, World Bank, or UNEP Finance Initiative, which have their own distinct financing instruments. The correct answer is (b).\n\nUPSC takeaway: RFI and RCF are IMF's \"quick-disbursing, low-conditionality\" emergency instruments — commonly tested during global crisis periods (pandemics, disasters) as go-to IMF support mechanisms.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "\"Gold Tranche\" (Reserve Tranche) refers to",
+      "options": [
+        "a loan system of the World Bank",
+        "one of the operations of a Central Bank",
+        "a credit system granted by WTO to its members",
+        "a credit system granted by IMF to its members"
+      ],
+      "correct": "D",
+      "explanation": "The \"Gold Tranche\" (now called the \"Reserve Tranche\") refers to the portion of a member country's IMF quota that it can draw upon automatically, without any conditionality, since it represents the country's own reserve assets (originally paid partly in gold, hence the name) contributed to the IMF. It functions as a credit facility the IMF extends to its member countries, drawing on the member's own reserve position rather than IMF-created credit — this is distinct from World Bank lending, WTO mechanisms (which are not lending institutions), or routine central bank operations. The correct classification is (d), a credit system granted by the IMF to its members.\n\nUPSC takeaway: the Reserve Tranche is the \"no conditions attached\" first line of IMF access for a member country — remember it is IMF-specific terminology, historically tied to gold-based quota contributions.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "The Global Competitiveness Report is published by the",
+      "options": [
+        "International Monetary Fund",
+        "United Nations Conference on Trade and Development",
+        "World Economic Forum",
+        "World Bank"
+      ],
+      "correct": "C",
+      "explanation": "The Global Competitiveness Report, which ranked countries on the Global Competitiveness Index assessing macroeconomic stability, infrastructure, institutions, innovation, and market efficiency, was published annually by the World Economic Forum (WEF) — a Swiss non-profit organization best known for its annual Davos summit. This is distinct from World Bank publications (like the erstwhile \"Ease of Doing Business\" report), IMF's World Economic Outlook, or UNCTAD's trade and development reports, each of which focuses on different economic dimensions.\n\nThe correct answer is (c).\n\nUPSC takeaway: remember the specific publishing organization for each major global economic report — WEF (Global Competitiveness, Global Gender Gap), World Bank (Doing Business, World Development Report), IMF (World Economic Outlook), UNCTAD (World Investment Report) — a frequently tested attribution set.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "With reference to Asian Infrastructure Investment Bank (AIIB), consider the following statements:\n1. AIIB has more than 80 member nations.\n2. India is the largest shareholder in AIIB.\n3. AIIB does not have any members from outside Asia.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Asian Infrastructure Investment Bank (AIIB), a China-led multilateral development bank headquartered in Beijing, has grown substantially since its 2016 launch and indeed has more than 80 member countries (spanning both Asian and non-Asian regions), confirming Statement 1. However, China (not India) is AIIB's largest shareholder, given its founding role and largest capital subscription — making Statement 2 incorrect.\n\nAIIB does have members from outside Asia — including several European countries, African nations, and Latin American members — making Statement 3's claim of no non-Asian members incorrect as well, since AIIB has deliberately expanded its membership globally despite its regional \"Asian Infrastructure\" name. With only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: AIIB is China-led (largest shareholder), not India-led, and despite its name, has a genuinely global (not purely Asian) membership base — two commonly tested misconceptions.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Which one of the following is not a sub-index of the World Bank’s ‘Ease of Doing Business Index’?",
+      "options": [
+        "Maintenance of law and order",
+        "Paying taxes",
+        "Registering property",
+        "Dealing with construction permits"
+      ],
+      "correct": "A",
+      "explanation": "The World Bank's Ease of Doing Business Index (discontinued in 2021 but historically significant and still tested) comprised ten specific sub-indices measuring business regulatory environments: starting a business, dealing with construction permits, getting electricity, registering property, getting credit, protecting minority investors, paying taxes, trading across borders, enforcing contracts, and resolving insolvency. \"Maintenance of law and order\" was never one of these sub-indices — it falls outside the Index's business-regulation-focused scope, which measures procedural/regulatory ease rather than broader governance or security conditions. The correct answer (the one NOT a sub-index) is (a).\n\nUPSC takeaway: memorize the ten actual Doing Business sub-indices — law and order, corruption, or macroeconomic stability are commonly inserted as plausible-sounding but incorrect distractors.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "With reference to ‘Quality Council of India (QCI)’, consider the following statements:\n1. QCI was set up jointly by the Government of India and the Indian Industry.\n2. Chairman of QCI is appointed by the Prime Minister on the recommendations of the industry to the Government.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Quality Council of India (QCI) was indeed established in 1997 as a non-profit autonomous body set up jointly by the Government of India and Indian industry (represented through associations like CII, FICCI, and ASSOCHAM), reflecting a public-private partnership model for promoting and coordinating quality standards and accreditation across sectors, confirming Statement 1. The QCI's Chairman is appointed by the Prime Minister, based on recommendations made by the industry to the Government, reflecting the industry-government partnership governance structure of the institution, confirming Statement 2.\n\nBoth statements accurately describe QCI's institutional origin and leadership appointment process, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: QCI stands out among Indian regulatory/standard-setting bodies for its distinctive joint government-industry governance model, including industry's role in recommending its Chairman.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "With reference to ‘Asia Pacific Ministerial Conference on Housing and Urban Development (APMCHUD)’, consider the following statements:\n1. The first APMCHUD was held in India in 2006 on the theme ‘Emerging Urban Forms — Policy Responses and Governance Structure’.\n2. India hosts all the Annual Ministerial Conferences in partnership with ADB, APEC and ASEAN.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The first Asia-Pacific Ministerial Conference on Housing and Urban Development (APMCHUD) was indeed held in India (New Delhi) in 2006, but the specific theme cited (\"Emerging Urban Forms — Policy Responses and Governance Structure\") does not match the actual documented theme of that inaugural conference, making Statement 1 factually inaccurate as stated. Statement 2 is also incorrect: India does not host all the Annual Ministerial Conferences of APMCHUD — subsequent conferences have been hosted by different member countries on a rotating basis (following the standard practice for such regional ministerial forums), not exclusively by India in partnership with ADB, APEC, and ASEAN. With both statements inaccurate, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: India hosted APMCHUD's inaugural 2006 conference but does NOT host all subsequent editions — rotating host arrangements are standard for such regional ministerial forums, a detail worth verifying rather than assuming permanent hosting.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "The Global Infrastructure Facility is a/an",
+      "options": [
+        "ASEAN initiative to upgrade infrastructure in Asia and financed by credit from the Asian Development Bank.",
+        "World Bank collaboration that facilitates the preparation and structuring of complex infrastructure Public-Private Partnerships (PPPs) to enable mobilization of private sector and institutional investor capital.",
+        "Collaboration among the major banks of the world working with the OECD and focused on expanding the set of infrastructure projects that have the potential to mobilize private investment.",
+        "UNCTAD funded initiative that seeks to finance and facilitate infrastructure development in the world."
+      ],
+      "correct": "B",
+      "explanation": "The Global Infrastructure Facility (GIF) is a World Bank Group-hosted collaboration platform designed to facilitate the preparation and structuring of complex infrastructure projects as viable Public-Private Partnerships (PPPs), thereby helping mobilize private sector and institutional investor capital into infrastructure development in emerging markets and developing economies. This matches option (b) precisely.\n\nIt is not an ASEAN or Asian Development Bank initiative, not an OECD-bank collaboration, and not a UNCTAD-funded initiative — these other options describe plausible-sounding but incorrect institutional affiliations. The correct answer is (b).\n\nUPSC takeaway: the Global Infrastructure Facility is specifically a World Bank Group platform focused on PPP project preparation to unlock private infrastructure financing — remember its World Bank institutional home distinctly from other regional/multilateral infrastructure financing initiatives.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Recently, which one of the following currencies has been proposed to be added to the basket of IMF's SDR?",
+      "options": [
+        "Rouble",
+        "Rand",
+        "Indian Rupee",
+        "Renminbi"
+      ],
+      "correct": "D",
+      "explanation": "The Chinese currency, the Renminbi (RMB, also known as the Yuan), was formally added to the IMF's Special Drawing Rights (SDR) currency basket in 2016 (effective October 2016), joining the US Dollar, Euro, Japanese Yen, and British Pound as the fifth currency in the basket — a landmark recognition of China's growing economic and financial weight in the global system. This is distinct from the Russian Rouble, South African Rand, or Indian Rupee, none of which have been added to the SDR basket.\n\nThe correct answer is (d), Renminbi.\n\nUPSC takeaway: the Renminbi's 2016 SDR basket inclusion was a historic first for an emerging market currency — remember the current five-currency SDR basket composition (USD, EUR, RMB, JPY, GBP) as a frequently tested static-cum-current-affairs fact.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "With reference to the International Monetary and Financial Committee (IMFC), consider the following statements:\n1. IMFC discusses matters of concern affecting the global economy, and advises the International Monetary Fund (IMF) on the direction of its work.\n2. The World Bank participates as observer in IMFC's meetings.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The International Monetary and Financial Committee (IMFC) is indeed the IMF's key advisory body, comprising representatives from member countries, that discusses matters of concern affecting the global economy and advises the IMF's Executive Board and management on the direction and priorities of the Fund's work, confirming Statement 1. The World Bank does participate as an observer in IMFC meetings, reflecting the close institutional coordination between the IMF and World Bank on global economic and financial matters, confirming Statement 2.\n\nBoth statements accurately describe IMFC's role and composition, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: IMFC functions as the IMF's principal advisory/steering committee (not a decision-making body with binding authority), with the World Bank maintaining formal observer status reflecting Bretton Woods institutional coordination.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "India's ranking in the 'Ease of Doing Business Index' is sometimes seen in the news. Which of the following has declared that ranking?",
+      "options": [
+        "Organization for Economic Cooperation and Development (OECD)",
+        "World Economic Forum",
+        "World Bank",
+        "World Trade Organization (WTO)"
+      ],
+      "correct": "C",
+      "explanation": "India's ranking in the (now-discontinued but historically significant) Ease of Doing Business Index was published annually by the World Bank, which assessed and ranked countries based on the relative ease of conducting business activities across various regulatory dimensions (starting a business, registering property, paying taxes, enforcing contracts, etc.) This is distinct from the OECD (an economic policy coordination body among developed countries), the World Economic Forum (publisher of the separate Global Competitiveness Report), or the WTO (a trade-rules body, not an index publisher of this kind). The correct answer is (c), World Bank.\n\nUPSC takeaway: the World Bank published the Ease of Doing Business Index (discontinued 2021) — remember this attribution distinctly from the WEF's separate Global Competitiveness Index, as both indices are frequently confused given their similar subject matter.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "Consider the following statements:\n1. New Development Bank has been set up by APEC.\n2. The headquarters of New Development Bank is in Shanghai.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The New Development Bank (NDB), formerly known as the \"BRICS Bank,\" was established by the five BRICS nations (Brazil, Russia, India, China, and South Africa) — not by APEC (Asia-Pacific Economic Cooperation, an entirely different regional grouping) — making Statement 1 incorrect. The NDB's headquarters is indeed located in Shanghai, China, confirming Statement 2.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: the New Development Bank is a BRICS institution (not APEC), headquartered in Shanghai — a foundational fact about this major India-linked multilateral development bank, worth distinguishing clearly from the separately China-led Asian Infrastructure Investment Bank (AIIB, headquartered in Beijing).",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "'Global Financial Stability Report' is prepared by the",
+      "options": [
+        "European Central Bank",
+        "International Monetary Fund",
+        "International Bank for Reconstruction and Development",
+        "Organization for Economic Cooperation and Development"
+      ],
+      "correct": "B",
+      "explanation": "The Global Financial Stability Report (GFSR), a biannual publication assessing risks and vulnerabilities in global financial markets and the international banking system, is prepared and published by the International Monetary Fund (IMF), as part of its broader surveillance function over the global financial system, alongside its other flagship publications like the World Economic Outlook and Fiscal Monitor. This is distinct from the European Central Bank (a regional monetary authority), the International Bank for Reconstruction and Development (the World Bank's main lending arm, focused on development financing, not financial stability surveillance), or the OECD (an economic policy coordination body).\n\nThe correct answer is (b), IMF.\n\nUPSC takeaway: the IMF publishes three flagship reports — World Economic Outlook, Global Financial Stability Report, and Fiscal Monitor — remember this trio as the IMF's core recurring surveillance publications.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "Which one of the following issues the ‘Global Economic Prospects’ report periodically?",
+      "options": [
+        "The Asian Development Bank",
+        "The European Bank for Reconstruction and Development",
+        "The US Federal Reserve Bank",
+        "The World Bank"
+      ],
+      "correct": "D",
+      "explanation": "The 'Global Economic Prospects' report, which provides analysis and forecasts of global and regional economic growth trends, is published periodically (twice yearly) by the World Bank, as part of its broader suite of economic surveillance and forecasting publications. This is distinct from the Asian Development Bank (publisher of the separate \"Asian Development Outlook\"), the European Bank for Reconstruction and Development (a regional development bank without this specific global report), or the US Federal Reserve (a national central bank, not a global economic forecasting publisher of this kind).\n\nThe correct answer is (d), World Bank.\n\nUPSC takeaway: remember the World Bank's distinct flagship publications — Global Economic Prospects (growth forecasts), World Development Report (thematic annual report), and the historical Doing Business Index — each serving a different analytical purpose.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "Which of the following organizations brings out the publication known as ‘World Economic Outlook’?",
+      "options": [
+        "The International Monetary Fund",
+        "The United Nations Development Programme",
+        "The World Economic Forum",
+        "The World Bank"
+      ],
+      "correct": "A",
+      "explanation": "The 'World Economic Outlook' (WEO), a biannual flagship publication providing comprehensive analysis and projections of global economic growth, inflation, trade, and macroeconomic trends across countries and regions, is published by the International Monetary Fund (IMF), forming one of its core surveillance and forecasting reports alongside the Global Financial Stability Report and Fiscal Monitor. This is distinct from UNDP (publisher of the Human Development Report), the World Economic Forum (publisher of the Global Competitiveness and Global Gender Gap reports), or the World Bank (publisher of Global Economic Prospects and the historical Doing Business Index) — each international organization maintains its own distinct flagship publication portfolio.\n\nThe correct answer is (a), IMF.\n\nUPSC takeaway: memorize IMF's three flagship reports (World Economic Outlook, Global Financial Stability Report, Fiscal Monitor) as a set, distinguishing them clearly from similarly-named World Bank and WEF publications.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "Regarding the International Monetary Fund, which one of the following statements is correct?",
+      "options": [
+        "It can grant loans to any country",
+        "It can grant loans to only developed countries",
+        "It grants loans to only member countries",
+        "It can grant loans to the central bank of a country"
+      ],
+      "correct": "C",
+      "explanation": "The International Monetary Fund (IMF), as per its Articles of Agreement, provides financial assistance (loans) specifically and exclusively to its MEMBER countries facing balance-of-payments difficulties, subject to specified conditions and policy commitments (conditionality) — it does not lend to non-member countries, is not restricted to only developed countries (indeed, IMF lending disproportionately serves developing/emerging economies facing BoP crises), and does not typically lend directly to a country's central bank as a separate entity (loans are extended to member country governments, channeled through their designated fiscal agent, which is often but not treated as a distinct borrowing entity from the central bank), matching option (c) as the precisely correct characterization: it grants loans to only member countries. The correct answer is (c).\n\nUPSC takeaway: IMF membership is the fundamental precondition for accessing IMF financial assistance — remember this basic institutional eligibility rule, distinguishing IMF's member-exclusive lending from broader multilateral development bank lending models.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Consider the following countries:\n1. Brazil\n2. Mexico\n3. South Africa According to UNCTAD, which of the above is/are categorized as “Emerging Economies”?",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "According to UNCTAD's (United Nations Conference on Trade and Development) classification framework, \"Emerging Economies\" broadly encompasses developing countries and transition economies that have shown significant, sustained economic growth and increasing integration into the global economy — this classification has included major developing economies like Brazil, Mexico, and South Africa (along with other similarly categorized nations such as India, China, and various other rapidly growing developing economies), reflecting their growing economic weight and market potential despite not yet being classified as \"developed\" economies. Since all three listed countries (Brazil, Mexico, South Africa) fall within this broad \"Emerging Economies\" categorization used by UNCTAD, the answer is (d), \"1, 2 and 3.\"\n\nUPSC takeaway: UNCTAD's \"Emerging Economies\" classification is broadly inclusive of major developing/transition economies showing significant growth momentum — Brazil, Mexico, and South Africa (alongside India, China, and others) all fall within this broad category, distinct from the narrower BRICS grouping.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Which one of the following is not related to United Nations?",
+      "options": [
+        "Multilateral Investment Guarantee Agency",
+        "International Finance Corporation",
+        "International Centre for Settlement of Investment Disputes",
+        "Bank for International Settlements"
+      ],
+      "correct": "D",
+      "explanation": "The Multilateral Investment Guarantee Agency (MIGA, providing political risk insurance for foreign investment), the International Finance Corporation (IFC, the private-sector lending arm), and the International Centre for Settlement of Investment Disputes (ICSID, an investment-dispute arbitration body) are all institutions belonging to the WORLD BANK GROUP, a specialized agency affiliated with (though institutionally distinct from) the broader United Nations system. The Bank for International Settlements (BIS), however, is an entirely SEPARATE international financial institution — often described as the \"central bank for central banks\" — that is NOT affiliated with either the World Bank Group or the United Nations system; it operates independently as a forum for international monetary/financial cooperation among central banks, headquartered in Basel, Switzerland.\n\nThis makes (d), Bank for International Settlements, the institution NOT related to the United Nations (or its affiliated World Bank Group institutions), the correct answer.\n\nUPSC takeaway: MIGA, IFC, and ICSID are all World Bank Group institutions (UN-affiliated), while the BIS is an entirely independent, non-UN-affiliated central-bank cooperation forum — a key institutional-affiliation distinction.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Which of the following is/are treated as artificial currency?",
+      "options": [
+        "ADR",
+        "GDR",
+        "SDR",
+        "Both ADR and SDR"
+      ],
+      "correct": "C",
+      "explanation": "Special Drawing Rights (SDRs), created by the IMF as an international reserve asset, are often described as an \"artificial currency\" (or more precisely, a synthetic reserve asset) since SDRs are not an actual currency issued by any single country or backed by physical assets, but rather represent a potential claim on the freely usable currencies of IMF member countries, with their value determined by a weighted basket of major global currencies (USD, EUR, RMB, JPY, GBP) — making SDR the correct answer as the genuinely \"artificial\"/synthetic currency instrument, matching option (c). American Depository Receipts (ADRs) and Global Depository Receipts (GDRs), by contrast, are financial instruments representing ownership of shares in a foreign company, traded on domestic/international stock exchanges — they are NOT currencies at all (artificial or otherwise), but rather equity-related securities, making these clearly distinct from the SDR concept.\n\nThe correct answer is (c), SDR only.\n\nUPSC takeaway: SDR is IMF's synthetic/composite reserve asset (an \"artificial currency\" concept) — never confuse it with ADR/GDR, which are entirely different instruments (depository receipts representing foreign equity ownership, not currencies).",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "The International Development Association, a lending agency, is administered by the",
+      "options": [
+        "International Bank for Reconstruction and Development",
+        "International Fund for Agricultural Development",
+        "United Nations Development Programme",
+        "United Nations Industrial Development Organization"
+      ],
+      "correct": "A",
+      "explanation": "The International Development Association (IDA), which provides concessional loans and grants to the world's poorest countries, is administered by the International Bank for Reconstruction and Development (the World Bank), sharing the same staff and headquarters while maintaining separate financial accounts.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Which one of the following brings out the publication called \"Energy Statistics\" from time to time ?",
+      "options": [
+        "Central Power Research Institute",
+        "Planning Commission",
+        "Power Finance Corporation Ltd.",
+        "Central Statistical Organization"
+      ],
+      "correct": "D",
+      "explanation": "The Central Statistical Organization (now part of the Ministry of Statistics and Programme Implementation) periodically brings out the 'Energy Statistics' publication, compiling data on India's energy production and consumption across sectors.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "In the context of global economy, which one of the following pairs is not correctly matched ?",
+      "options": [
+        "JP Morgan Chase : Financial Services",
+        "Roche Holding AG : Financial Services",
+        "WL Ross & Co. : Private Equity Firm",
+        "Warburg Pincus : Private Equity Firm"
+      ],
+      "correct": "B",
+      "explanation": "JP Morgan Chase, WL Ross & Co., and Warburg Pincus are correctly classified within financial services/private equity. Roche Holding AG is actually a major pharmaceutical and diagnostics company, not a financial services firm, making that the incorrectly matched pair.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "India is a member of which of the following?\n1. Asian Development Bank\n2. Asia-Pacific Economic Cooperation\n3. Colombo Plan\n4. Organization for Economic Cooperation and Development (OECD)\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 3 only",
+        "2 and 4 only",
+        "1, 2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "A",
+      "explanation": "India is a member of the Asian Development Bank and the Colombo Plan, both long-standing regional cooperation/development institutions it has belonged to since their founding. India is not a member of APEC (Asia-Pacific Economic Cooperation) or the OECD, which are both selective groupings India has not joined, making 1 and 3 the correct pair.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "How is the United Nations Monetary and Financial Conference wherein the agreements were signed to set up IBRD, GATT and IMF, commonly known?",
+      "options": [
+        "Bandung Conference",
+        "Bretton Woods Conference",
+        "Versailles Conference",
+        "Yalta Conference"
+      ],
+      "correct": "B",
+      "explanation": "The 1944 United Nations Monetary and Financial Conference, held at Bretton Woods, New Hampshire, established the framework leading to the IMF and the World Bank (IBRD); GATT emerged from related post-war trade negotiations around the same period, and the conference as a whole is commonly known as the Bretton Woods Conference.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Who among the following served as the Chief Economist of the International Monetary Fund?",
+      "options": [
+        "Ashok Lahiri",
+        "Sumantra Ghosal",
+        "Saumitra Chaudhuri",
+        "Raghuram Rajan"
+      ],
+      "correct": "D",
+      "explanation": "Raghuram Rajan served as the Chief Economist and Director of Research at the International Monetary Fund (2003-2006), before later becoming RBI Governor.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Consider the following statements :\n1. Poverty Reduction and Growth Facility (PRGF) has been established by the International Development Association (IDA) to provide further assistance to low-income countries facing high level of indebtedness.\n2. Singapore Regional Training Institute (STI) is one of the institutes that provide training in macroeconomics analysis and policy, and related subjects as a part of programme of the IMF Institute.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Poverty Reduction and Growth Facility was actually established by the IMF (not the IDA) to provide concessional assistance to low-income countries, making statement 1 incorrect. The Singapore Regional Training Institute is indeed one of the IMF Institute's regional training centres offering macroeconomic policy training, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "\"World Development Report\" is an annual publication of",
+      "options": [
+        "United Nations Development Programme",
+        "International Bank of Reconstruction and Development",
+        "World Trade Organisation",
+        "International Monetary Fund"
+      ],
+      "correct": "B",
+      "explanation": "The World Development Report is an annual flagship publication of the World Bank (the International Bank for Reconstruction and Development), each year focusing on a different theme in global development.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The theme of the World Development Report, 2001 is",
+      "options": [
+        "From Plan to Market",
+        "Knowledge for Development",
+        "Attacking Poverty",
+        "The State in the Changing World"
+      ],
+      "correct": "C",
+      "explanation": "The World Development Report 2000/2001's central theme was 'Attacking Poverty', focusing on strategies to reduce global poverty through opportunity, empowerment, and security.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following organisations:\nI. International Bank for Reconstruction and Development\nII. International Finance Corporation\nIII. International Fund for Agricultural Development\nIV. International Monetary Fund Which of these are agencies of the United Nations?",
+      "options": [
+        "I and II",
+        "II and III",
+        "III and IV",
+        "I, II, III and IV"
+      ],
+      "correct": "D",
+      "explanation": "IBRD, IFC, IFAD, and the IMF are all recognised specialised agencies within the United Nations system, each focusing on different aspects of international development and financial cooperation.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer using the codes given below the Lists:\nList I (Publisher) I. Ministry of Industry II. Central Statistical Organisation III. Reserve Bank of India IV. Ministry of Finance\nList II (Publication)\nA. Report on Currency and Finance\nB. Economic Survey\nC. Wholesale Price Index\nD. National Accounts Statistics",
+      "options": [
+        "I-D, II-C, III-B, IV-A",
+        "I-C, II-D, III-A, IV-B",
+        "I-D, II-C, III-A, IV-B",
+        "I-C, II-D, III-B, IV-A"
+      ],
+      "correct": "B",
+      "explanation": "The Wholesale Price Index is published by the Ministry of Industry (then housing the Office of the Economic Adviser); National Accounts Statistics is compiled by the Central Statistical Organisation; the Report on Currency and Finance is published by the RBI; and the Economic Survey is released by the Ministry of Finance — matching code I-C, II-D, III-A, IV-B.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer using the codes given below the Lists:\nList I I. Development Programme II. National Council of Applied Economic Research III. Indira Gandhi Institute of Development Research IV. World Bank\nList II\nA. UN India Human Development Report\nB. India Development Report\nC. World Development Report\nD. Human Development Report Codes:",
+      "options": [
+        "I-D, II-A, III-B, IV-C",
+        "I-D, II-B, III-A, IV-C",
+        "I-B, II-C, III-D, IV-A",
+        "I-B, II-A, III-D, IV-C"
+      ],
+      "correct": "B",
+      "explanation": "The UNDP publishes the (global) Human Development Report; NCAER produces the India Development Report; the Indira Gandhi Institute of Development Research contributed to the UN India Human Development Report; and the World Bank publishes the World Development Report — matching code I-D, II-B, III-A, IV-C.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Which one of the following countries occupies the first place in the “Global Competitive Report” of World Economic Forum?",
+      "options": [
+        "USA",
+        "Singapore",
+        "Hong Kong",
+        "France"
+      ],
+      "correct": "B",
+      "explanation": "Singapore ranked at or near the top of the World Economic Forum's Global Competitiveness Report rankings around this period, reflecting its business-friendly environment and strong economic fundamentals.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer using the codes given below the Lists:\nList I I. WTO II. IDA III. IMF IV. IBRD\nList II\nA. Provides loans to address short-term balance of payment problems\nB. Multi-lateral trade negotiation body\nC. Sanction of soft loans\nD. Facilitating lending and borrowings for reconstruction and development",
+      "options": [
+        "I-B, II-C, III-D, IV-A",
+        "I-B, II-C, III-A, IV-D",
+        "I-C, II-B, III-D, IV-A",
+        "I-C, II-B, III-A, IV-D"
+      ],
+      "correct": "B",
+      "explanation": "The WTO is the body governing multilateral trade negotiations; IDA provides soft/concessional loans to the poorest countries; the IMF addresses short-term balance of payments problems; and IBRD facilitates lending for reconstruction and development — matching code I-B, II-C, III-A, IV-D.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "According to the World Development Report, low-income economies are those for which the per capita GNP in 1994 was",
+      "options": [
+        "US $ 925 or less",
+        "US $ 825 or less",
+        "US $ 725 or less",
+        "US $ 525 or less"
+      ],
+      "correct": "C",
+      "explanation": "As per the World Development Report's classification, low-income economies were those with a 1994 per capita GNP of US $725 or less, the threshold used to categorise the poorest countries.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "Consider the following statements: Most international agencies which fund development programmes in India on inter-governmental bilateral agreements mainly provide\nI. Technical assistance.\nII. Soft loans which are required to be paid back with interest.\nIII. Grants, not required to be paid back.\nIV. Food assistance to alleviate poverty. Of these statements —",
+      "options": [
+        "I and IV are correct",
+        "I, II and III are correct",
+        "I, II and IV are correct",
+        "III and IV are correct"
+      ],
+      "correct": "B",
+      "explanation": "International agencies funding India's development programmes under bilateral agreements typically provide technical assistance, soft (concessional) loans requiring repayment with interest, and outright grants not requiring repayment — though not primarily food assistance as a standalone poverty-alleviation channel in this context.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which of the following constitute the World Bank?\nI. International Bank for Reconstruction and Development\nII. International Finance Corporation\nIII. International Development Association\nIV. International Monetary Fund\nChoose the correct answer from the codes given below:",
+      "options": [
+        "I, II and III",
+        "I and II",
+        "III and IV",
+        "I, II, III and IV"
+      ],
+      "correct": "A",
+      "explanation": "The World Bank Group, in its narrower traditional sense, comprises the IBRD, the International Finance Corporation, and the International Development Association — with the IMF being a separate, related but distinct institution, not part of the World Bank itself.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Taxation",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\nStatement I: In India, income from allied agricultural activities like poultry farming and wool rearing in rural areas is exempted from any tax.\nStatement II: In India, rural agricultural land is not considered a capital asset under the provisions of the Income-tax Act, 1961.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement I and Statement II are correct and Statement II explains Statement I",
+        "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+        "Statement I is correct but Statement II is not correct",
+        "Statement I is not correct but Statement II is correct"
+      ],
+      "correct": "D",
+      "explanation": "Under the Income-tax Act, 1961, \"agricultural income\" is narrowly defined to include only income derived from land used for basic agricultural operations (cultivation, tillage) and processes ordinarily employed to render produce marketable. Allied activities like poultry farming, dairy, and wool rearing are commercial/animal husbandry activities not directly tied to land cultivation, so their income is NOT exempt as agricultural income — making Statement I incorrect.\n\nStatement II is correct: under Section 2(14), rural agricultural land (as defined by distance/population criteria) is specifically excluded from the definition of \"capital asset,\" meaning its transfer does not attract capital gains tax. Since Statement I is false and Statement II is true, the correct answer is (d).\n\nUPSC takeaway: \"agricultural income\" and \"agricultural land\" are treated very differently in tax law — do not assume every rural/farm-linked activity or asset receives blanket exemption; check the precise statutory definition being invoked.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "Which one of the following situations best reflects \"Indirect Transfers\" often talked about in media recently with reference to India?",
+      "options": [
+        "An Indian company investing in a foreign enterprise and paying taxes to the foreign country on the profits arising out of its investment",
+        "A foreign company investing in India and paying taxes to the country of its base on the profits arising out of its investment",
+        "An Indian company purchases tangible assets in a foreign country and sells such assets after their value increases and transfers the proceeds to India",
+        "A foreign company transfers shares and such shares derive their substantial value from assets located in India"
+      ],
+      "correct": "D",
+      "explanation": "\"Indirect transfers\" refer to a tax provision (introduced after the Vodafone case and the 2012 retrospective amendment to the Income-tax Act, later prospectively clarified) under which a transaction is deemed to occur in India — and thus taxable in India — if a foreign company's shares or interests are transferred, and the value of those shares is substantially derived from assets located in India. This precisely matches option (d): a foreign company transferring shares whose value derives substantially from Indian assets.\n\nThe other options describe straightforward direct cross-border investment and taxation scenarios (India-outbound investment taxed abroad, foreign-inbound investment taxed at home base, or simple overseas asset trading) — none of which involve the indirect, share-transfer-based mechanism that defines \"indirect transfer\" taxation. The correct answer is (d).\n\nUPSC takeaway: \"indirect transfer\" taxation is specifically about taxing offshore share transfers that derive substantial value from Indian assets — the Vodafone case is the classic reference point for this concept.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "With reference to India's decision to levy an equalization tax of 6% on online advertisement services offered by non-resident entities, which of the following statements is/are correct?\n1. It is introduced as a part of the Income Tax Act.\n2. Non-resident entities that offer advertisement services in India can claim a tax credit in their home country under the 'Double Taxation Avoidance Agreements'.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "India's Equalization Levy of 6% on online advertisement services provided by non-resident entities (introduced in the Finance Act, 2016) was introduced as a standalone provision under the Finance Act itself — a separate legislative mechanism — rather than as part of the Income Tax Act, making Statement 1 incorrect. Regarding Statement 2, since the Equalization Levy is deliberately structured as a levy outside the Income Tax framework (specifically to tax digital transactions that otherwise escape traditional tax treaty definitions of \"business income\" or \"permanent establishment\"), it generally does NOT qualify for tax credit relief under Double Taxation Avoidance Agreements (DTAAs), since DTAA credit mechanisms typically apply to income taxes covered under the treaty, not to this separate levy — making Statement 2 also incorrect.\n\nWith both statements wrong, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: the Equalization Levy was deliberately designed OUTSIDE the Income Tax Act and outside DTAA credit mechanisms — a novel legislative approach to taxing the digital economy, precisely to avoid treaty-based tax avoidance.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Consider the following items:\n1. Cereal grains hulled\n2. Chicken eggs cooked\n3. Fish processed and canned\n4. Newspapers containing advertising material Which of the above items is/are exempted under GST (Goods and Services Tax)?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Under India's GST framework, unprocessed or minimally processed agricultural/food items are generally exempted to keep essential food items affordable, while further-processed or packaged/branded items typically attract GST. Cereal grains that are merely \"hulled\" (a basic milling process, not substantially transforming the grain) remain exempt, confirming item 1. Chicken eggs, even when cooked (a basic preparation not involving further processing/packaging into a branded product), remain exempt as a basic food item, confirming item 2. Newspapers, including those containing advertising material, are exempted from GST to support press freedom and information access, confirming item 4.\n\nHowever, fish that has been processed and canned represents a value-added, packaged food product (involving preservation, packaging, and branding), which typically attracts GST rather than being exempt, making item 3 incorrect. This gives items 1, 2 and 4 as GST-exempt, matching answer (c), \"1, 2 and 4 only.\"\n\nUPSC takeaway: GST exemptions generally track the degree of processing — basic/unprocessed food items remain exempt, while canned/packaged/branded processed foods attract tax, a useful heuristic for GST classification questions.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "What is/are the most likely advantages of implementing 'Goods and Services Tax (GST)'?\n1. It will replace multiple taxes collected by multiple authorities and will thus create a single market in India.\n2. It will drastically reduce the 'Current Account Deficit' of India and will enable it to increase its foreign exchange reserves.\n3. It will enormously increase the growth and size of economy of India and will enable it to overtake China in the near future.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Goods and Services Tax (GST), implemented in India from July 2017, was designed to subsume multiple indirect taxes previously levied by different Central and State authorities (like excise duty, service tax, VAT, octroi) into a single unified tax structure, thereby creating a common national market by eliminating cascading taxation and inter-state tax barriers — confirming point 1 as a genuine, well-established advantage of GST implementation. However, claims that GST would drastically reduce India's Current Account Deficit and boost forex reserves (point 2) or enormously increase economic growth to the point of \"overtaking China\" (point 3) are speculative, exaggerated claims not directly or reliably linked to GST's actual economic mechanism — GST is a domestic indirect tax reform affecting internal market efficiency, not a direct lever for the external account or GDP-overtaking projections of this scale.\n\nWith only point 1 representing a genuine, well-founded advantage, the answer is (a), \"1 only.\"\n\nUPSC takeaway: GST's core, well-established benefit is creating a unified national market by replacing fragmented multiple taxes — resist over-attributing broader macroeconomic outcomes (CAD reduction, overtaking other economies) to a domestic tax reform without direct causal basis.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "The term 'Base Erosion and Profit Shifting' is sometimes seen in the news in the context of",
+      "options": [
+        "mining operation by multinational companies in resource-rich but backward areas",
+        "curbing of the tax evasion by multinational companies",
+        "exploitation of genetic resources of a country by multinational companies",
+        "lack of consideration of environmental costs in the planning and implementation of developmental projects"
+      ],
+      "correct": "B",
+      "explanation": "\"Base Erosion and Profit Shifting\" (BEPS) refers to tax avoidance strategies employed by multinational companies that exploit gaps and mismatches in different countries' tax rules to artificially shift profits to low-tax or no-tax jurisdictions (where the company often has little or no real economic activity), thereby \"eroding\" the tax base of the countries where genuine economic activity and value creation actually occur. The OECD/G20 launched a coordinated BEPS Action Plan to curb such aggressive tax avoidance/evasion practices by multinational corporations, matching option (b) precisely: curbing tax evasion by multinationals.\n\nIt is unrelated to mining operations, genetic resource exploitation, or environmental cost considerations in development planning. The correct answer is (b).\n\nUPSC takeaway: BEPS is the OECD/G20's flagship international tax-cooperation framework combating MNC profit-shifting — closely linked to India's adoption of measures like the Equalization Levy and General Anti-Avoidance Rules (GAAR) as domestic complements to the BEPS agenda.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "The sales tax you pay while purchasing a toothpaste is a",
+      "options": [
+        "tax imposed by the Central Government",
+        "tax imposed by the Central Government but collected by the State Government",
+        "tax imposed by the State Government but collected by the Central Government",
+        "tax imposed and collected by the State Government"
+      ],
+      "correct": "D",
+      "explanation": "Sales tax on goods like toothpaste (now largely subsumed under GST for most items, but historically and still relevant for a few excluded goods) was a tax that fell under the State List of the Constitution — meaning it was both imposed (levied, with rates set) and collected by the State Government exclusively, not the Central Government in any capacity, making (d) the correct answer over the other options which incorrectly involve Central Government imposition or collection.\n\nUPSC takeaway: pre-GST sales tax was purely a STATE-level tax (both levied and collected by states) — remember this as useful historical context for understanding why GST's dual (Centre+State) structure was such a major fiscal-federalism reform, replacing this exclusively state-controlled tax among others.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "Under which of the following circumstances may ‘capital gains’ arise?\n1. When there is an increase in the sales of a product\n2. When there is a natural increase in the value of the property owned\n3. When you purchase a painting and there is a growth in its value due to increase in its popularity\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Capital gains arise specifically from the appreciation in the value of a CAPITAL ASSET (like property, securities, or valuable collectibles) held by an individual or entity, realized when that asset is sold at a higher price than its acquisition cost — this occurs through the natural/market-driven increase in an owned property's value over time (item 2, a classic capital gains scenario) and similarly through the appreciation in a purchased painting's (or other collectible's) value due to increasing market popularity/demand (item 3, another classic capital asset appreciation scenario). An increase in the SALES of a product (item 1), however, relates to REVENUE/business income from trading activity, not capital gains — capital gains specifically concern the appreciation of an ASSET's value, not increased transaction volume of goods sold in the ordinary course of business.\n\nThis gives items 2 and 3 as valid capital gains scenarios, matching answer (b), \"2 and 3 only.\"\n\nUPSC takeaway: capital gains arise from the APPRECIATION IN VALUE of a held capital asset (property, art, securities) — never confuse this with ordinary business revenue from increased sales volume, which is a fundamentally different income category.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "Which one of the following is not a feature of “Value Added Tax”?",
+      "options": [
+        "It is a multi-point destination-based system of taxation",
+        "It is a tax levied on value addition at each stage of transaction in the production-distribution chain",
+        "It is a tax on the final consumption of goods or services and must ultimately be borne by the consumer",
+        "It is basically a subject of the Central Government and the State Governments are only a facilitator for its successful implementation"
+      ],
+      "correct": "D",
+      "explanation": "Value Added Tax (VAT), as historically implemented by Indian states (before being subsumed into GST), was indeed a multi-point, destination-based taxation system, where tax is collected at each stage of the production-distribution chain but ultimately accrues to the destination state where final consumption occurs, confirming feature (a) as accurate. VAT is fundamentally a tax on the VALUE ADDED at each stage of the production-distribution chain (with input tax credit mechanisms preventing cascading/double taxation), confirming feature (b) as accurate. Since VAT is ultimately passed through the supply chain to the final consumer (who bears the final tax burden, even though it's collected incrementally at each stage), it is correctly characterized as a tax on final consumption borne by the consumer, confirming feature (c) as accurate.\n\nHowever, VAT (in its pre-GST Indian implementation) was fundamentally a STATE-level subject — states had primary constitutional authority over VAT design, rates, and implementation, with the Central Government NOT having primary control (Central Sales Tax was a separate, distinct Central levy on inter-state trade) — making option (d)'s characterization of VAT as \"basically a subject of the Central Government\" factually incorrect. The correct answer (identifying the NOT feature) is (d).\n\nUPSC takeaway: pre-GST VAT was primarily a STATE subject/prerogative (not a Central Government-controlled tax) — a key federalism distinction that GST later restructured into a unified dual (Centre+State) framework.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "In India, the tax proceeds of which one of the following as a percentage of gross tax revenue has significantly declined in the last five years ?",
+      "options": [
+        "Service tax",
+        "Personal income tax",
+        "Excise duty",
+        "Corporation tax"
+      ],
+      "correct": "C",
+      "explanation": "Excise duty's share in gross tax revenue has significantly declined over the years, particularly as service tax expanded and later as GST subsumed excise on most goods (excise now largely survives only on petroleum and tobacco), reducing its relative contribution to the tax base.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following statements : In India, taxes on transactions in Stock Exchanges and Futures Markets are 1. Levied by the Union\n2. Collected by the States\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Securities Transaction Tax (on stock exchange transactions) and Commodities Transaction Tax (on futures markets) are levied by the Union Government under its taxation powers over stock exchanges and futures markets (a Union List subject), and are also collected by the Union — not the States — making only statement 1 correct.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following :\n1. Fringe Benefit Tax\n2. Interest Tax\n3. Securities Transaction Tax\nWhich of the above is/are Direct Tax/Taxes ?",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Fringe Benefit Tax and Interest Tax were both direct taxes levied on entities/income (though FBT was later abolished), and the Securities Transaction Tax is also classified as a direct tax since it is levied on the transaction value borne directly by the investor/trader, not passed on as an indirect levy — making all three direct taxes.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Which one of the following is the correct statement? Service tax is a/an",
+      "options": [
+        "direct tax levied by the Central Government",
+        "indirect tax levied by the Central Government",
+        "direct tax levied by the State Government",
+        "indirect tax levied by the State Government"
+      ],
+      "correct": "B",
+      "explanation": "Service tax in India is an indirect tax (its burden is passed on to the service consumer) levied by the Central Government under its taxation powers, prior to being subsumed into GST.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Which of the following is not a recommendation of the task force on direct taxes under the chairmanship of Dr. Vijay L. Kelkar in the year 2002?",
+      "options": [
+        "Abolition of Wealth Tax",
+        "Increase in the exemption limit of personal income to Rs. 1.20 lakh for widows",
+        "Elimination of standard deduction",
+        "Exemption from tax on dividends and capital gains from the listed equity"
+      ],
+      "correct": "B",
+      "explanation": "The Kelkar Task Force on direct taxes recommended abolishing wealth tax, eliminating standard deduction, and exempting dividends/capital gains on listed equity from tax — but it did not specifically recommend raising the personal income exemption limit to Rs 1.20 lakh for widows, making that the answer not among its recommendations.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "The Kelkar proposals which were in the news recently were the",
+      "options": [
+        "recommendations for reforms in the power sector",
+        "recommendations for tax reforms",
+        "guidelines for the privatisation",
+        "guidelines for reducing vehicular pollution, and the promotion of CNG use"
+      ],
+      "correct": "B",
+      "explanation": "The Kelkar proposals, associated with Dr. Vijay Kelkar, referred to recommendations for direct and indirect tax reform in India, covering areas like exemptions, rates, and tax administration.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following taxes:\nI. Corporation tax\nII. Customs duty\nIII. Wealth tax\nIV. Excise duty Which of these is/are indirect taxes?",
+      "options": [
+        "I only",
+        "II and IV",
+        "I and III",
+        "II and III"
+      ],
+      "correct": "B",
+      "explanation": "Customs duty and excise duty are indirect taxes, since their burden can be shifted to the buyer/consumer through the price of goods, unlike corporation tax and wealth tax, which are direct taxes levied directly on income/wealth.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The Standing Committee of State Finance Ministers recommended in January 2000 uniform rates across the States in respect of",
+      "options": [
+        "value-added tax",
+        "sales tax",
+        "stamp duty and registration fees",
+        "agricultural income tax"
+      ],
+      "correct": "B",
+      "explanation": "In January 2000, the Standing Committee of State Finance Ministers recommended uniform floor rates of sales tax across states, as a step toward rationalising indirect taxation ahead of VAT implementation.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "The Minimum Alternative Tax (MAT) was introduced in the Budget of the Government of India for the year",
+      "options": [
+        "1991-92",
+        "1992-93",
+        "1995-96",
+        "1996-97"
+      ],
+      "correct": "D",
+      "explanation": "The Minimum Alternate Tax was introduced in India's Union Budget for 1996-97, aimed at ensuring that companies reporting high book profits but paying little or no tax due to exemptions still paid a minimum level of tax.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Corporation tax",
+      "options": [
+        "is levied and appropriated by the States",
+        "is levied by the Union and collected and appropriated by the States",
+        "is levied by the Union and shared by the Union and the States",
+        "is levied by the Union and belongs to it exclusively"
+      ],
+      "correct": "D",
+      "explanation": "Corporation tax is levied by the Union Government and, unlike income tax, belongs exclusively to the Centre rather than being shared with the states under the divisible pool arrangement (at least as the constitutional position stood at this time).",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

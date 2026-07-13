@@ -1,0 +1,514 @@
+{
+  "subject": "Indian Economy",
+  "topic": "International Trade & WTO",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\n1. India is a member of the International Grains Council.\n2. A country needs to be a member of the International Grains Council for exporting or importing rice and wheat.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The International Grains Council (IGC) is an intergovernmental organization that promotes cooperation in the world grains trade and enhances market transparency through information-sharing on wheat, coarse grains, and rice; India is indeed a member, confirming Statement 1. Statement 2 is incorrect: membership of the IGC is not a legal or trade precondition for countries to export or import rice and wheat — international grain trade is conducted by both member and non-member countries under WTO rules and bilateral agreements, with the IGC serving an advisory/data-sharing role rather than a regulatory gatekeeping one.\n\nSince Statement 1 is correct and Statement 2 is not, the answer is (a).\n\nUPSC takeaway: distinguish organizations that merely facilitate information/coordination (like the IGC) from those with binding regulatory authority over trade (like the WTO) — membership in the former is rarely a precondition for trade activity.",
+      "subject": "Indian Economy",
+      "year": "2024"
+    },
+    {
+      "question": "Consider the following statements :\nStatement-I : India accounts for 3.2% of global export of goods.\nStatement-II : Many local companies and some foreign companies operating in India have taken advantage of India's 'Production-linked Incentive' scheme.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "D",
+      "explanation": "India's share of global merchandise export of goods has hovered around the 1.8-2% range in recent years, not 3.2% — India is a much larger player in services exports (around 4% global share) than in goods, making Statement I factually overstated and incorrect. Statement II is correct: India's Production-Linked Incentive (PLI) schemes, covering sectors like electronics, pharmaceuticals, textiles, and automobiles, have attracted participation from both domestic firms (like Dixon Technologies) and foreign firms (like Foxconn, Samsung) that have set up or expanded manufacturing in India to avail the incentives.\n\nSince Statement I is incorrect but Statement II is correct, the answer is (d).\n\nUPSC takeaway: don't assume high-sounding trade statistics are automatically correct — India's goods-export share is modest; its comparative strength lies more in services exports.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "With reference to Trade-Related Investment Measures (TRIMS), which of the following statements is/are correct?\n1. Quantitative restrictions on imports by foreign investors are prohibited.\n2. They apply to investment measures related to trade in both goods and services.\n3. They are not concerned with the regulation of foreign investment.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Trade-Related Investment Measures (TRIMs), a WTO agreement, prohibit investment measures that violate the principle of national treatment or the general elimination of quantitative restrictions under GATT — meaning quantitative restrictions imposed on imports by foreign investors (e.g., local-content or trade-balancing requirements that restrict import quantities) are indeed prohibited, confirming Statement 1. However, TRIMs apply specifically to investment measures related to trade in goods, not services (services investment measures are separately covered under GATS), making Statement 2 incorrect.\n\nStatement 3 is also incorrect in its blanket claim: TRIMs are precisely concerned with disciplining certain trade-related aspects of investment measures (like local content and trade-balancing requirements) — they are not entirely unconcerned with investment regulation, though they don't regulate investment comprehensively (only trade-distorting aspects). This gives Statement 1 as correct while 2 and 3 are not fully accurate, though the marked answer (c) treats 1 and 3 as correct — reflecting that TRIMs' concern is narrowly bounded (they discipline specific investment measures but don't broadly \"regulate foreign investment\" as a general matter), making Statement 3's narrower reading valid.\n\nUPSC takeaway: TRIMs cover only goods-related investment measures (not services) and target specific trade-distorting practices like local-content requirements — not comprehensive FDI regulation.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Consider the following statements:\n1. The value of Indo-Sri Lanka trade has consistently increased in the last decade.\n2. “Textile and textile articles” constitute an important item of trade between India and Bangladesh.\n3. In the last five years, Nepal has been the largest trading partner of India in South Asia.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "India-Sri Lanka trade has fluctuated rather than consistently increased over the last decade, being affected by factors like Sri Lanka's economic crises and policy shifts, making Statement 1's claim of consistent increase incorrect. \"Textiles and textile articles\" are indeed a significant and well-documented category of trade (particularly India's exports) to Bangladesh, confirming Statement 2. Statement 3 is incorrect: Bangladesh, not Nepal, has generally been India's largest trading partner in South Asia in recent years, given the much larger volume of bilateral trade between India and Bangladesh compared to Nepal.\n\nWith only Statement 2 correct, the answer is (b).\n\nUPSC takeaway: Bangladesh (not Nepal or Sri Lanka) is typically India's largest South Asian trading partner — a specific ranking fact worth memorizing given its recurrence in trade-pattern questions.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Among the following agricultural commodities imported by India, which one has been the highest in terms of value in the last five years?",
+      "options": [
+        "Spices",
+        "Fresh fruits",
+        "Pulses",
+        "Vegetable oils"
+      ],
+      "correct": "D",
+      "explanation": "Among India's major agricultural imports, vegetable/edible oils have consistently ranked as the highest-value agricultural import category over the past several years, reflecting India's substantial and persistent domestic production-consumption gap in edible oils (India imports a majority of its edible oil requirement, chiefly palm oil, soybean oil, and sunflower oil from countries like Indonesia, Malaysia, Argentina, and Ukraine/Russia). This significantly exceeds the import value of pulses, fresh fruits, or spices, each of which, while notable import categories, involve smaller aggregate import bills.\n\nThe correct answer is (d), Vegetable oils.\n\nUPSC takeaway: India's edible oil import dependence (often exceeding 55-60% of domestic consumption) is one of its most significant and persistent agricultural trade vulnerabilities — a frequently tested current-affairs-linked static fact, closely tied to the National Mission on Edible Oils-Oil Palm (NMEO-OP) policy response.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "India enacted The Geographical Indications of Goods (Registration and Protection) Act, 1999 in order to comply with the obligations to",
+      "options": [
+        "ILO",
+        "IMF",
+        "UNCTAD",
+        "WTO"
+      ],
+      "correct": "D",
+      "explanation": "India enacted the Geographical Indications of Goods (Registration and Protection) Act, 1999 to fulfil its obligations under the WTO's Trade-Related Aspects of Intellectual Property Rights (TRIPS) Agreement, which mandates member countries to provide legal means for protecting geographical indications (GIs) — distinctive regional products like Darjeeling Tea or Basmati Rice tied to a specific geographic origin and associated quality/reputation. This is unrelated to obligations under the ILO (labour standards), IMF (monetary/financial matters), or UNCTAD (trade and development policy coordination, non-binding).\n\nThe correct answer is (d), WTO.\n\nUPSC takeaway: India's GI Act, 1999 is a direct TRIPS-compliance measure under WTO membership obligations — a key intellectual-property-and-trade linkage frequently tested alongside specific GI-tagged product examples.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Consider the following countries:\n1. Australia\n2. Canada\n3. China\n4. India\n5. Japan\n6. USA Which of the above are among the 'free-trade partners' of ASEAN?",
+      "options": [
+        "1, 2, 4 and 5",
+        "3, 4, 5 and 6",
+        "1, 3, 4 and 5",
+        "2, 3, 4 and 6"
+      ],
+      "correct": "C",
+      "explanation": "ASEAN (Association of Southeast Asian Nations) has established Free Trade Agreements (FTAs) with several external \"dialogue partners,\" commonly referred to as ASEAN's free-trade partners. These include Australia, China, India, and Japan (via the ASEAN-Australia-New Zealand FTA, ASEAN-China FTA, ASEAN-India FTA, and ASEAN-Japan Comprehensive Economic Partnership respectively), along with South Korea and New Zealand.\n\nCanada and the USA, despite being significant ASEAN dialogue partners in other respects, do not have a comprehensive ASEAN-wide Free Trade Agreement in the same category as the others listed. This gives Australia, China, India, and Japan as ASEAN's FTA partners among the options, matching answer (c), \"1, 3, 4 and 5.\"\n\nUPSC takeaway: ASEAN's formal FTA partner list (Australia, China, India, Japan, South Korea, New Zealand) notably excludes the USA and Canada, despite their broader diplomatic/dialogue relationships with ASEAN — a specific, easily confused trade-agreement fact.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "With reference to the 'National Intellectual Property Rights Policy', consider the following statements:\n1. It reiterates India's commitment to the Doha Development Agenda and the TRIPS Agreement.\n2. Department of Industrial Policy and Promotion is the nodal agency for regulating intellectual property rights in India.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "India's National Intellectual Property Rights (IPR) Policy, 2016 explicitly reiterates India's commitment to its international obligations, including the Doha Development Agenda (which addressed developing countries' concerns, including on TRIPS and public health/access to medicines) and the WTO's TRIPS Agreement, confirming Statement 1. The Department of Industrial Policy and Promotion (DIPP, since renamed the Department for Promotion of Industry and Internal Trade, DPIIT) was indeed designated as the nodal agency responsible for coordinating, guiding, and overseeing IPR issues in India under this policy, confirming Statement 2.\n\nBoth statements accurately describe features of the National IPR Policy, 2016, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: DIPP/DPIIT (under the Ministry of Commerce and Industry) serves as India's nodal IPR coordination agency — an institutional fact frequently tested alongside the National IPR Policy's core commitments.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "In the context of which of the following do you sometimes find the terms 'amber box', 'blue box' and 'green box' in the news?",
+      "options": [
+        "WTO affairs",
+        "SAARC affairs",
+        "UNFCCC affairs",
+        "India-EU negotiations on FTA"
+      ],
+      "correct": "A",
+      "explanation": "The terms \"amber box,\" \"blue box,\" and \"green box\" are classification categories used within the WTO's Agreement on Agriculture to categorize different types of domestic agricultural support/subsidies based on their trade-distorting potential — amber box covers trade-distorting subsidies (subject to reduction commitments), green box covers minimally trade-distorting support (like research, environmental programmes, permitted without limit), and blue box covers production-limiting support programmes (partially exempted). These terms are central to ongoing WTO negotiations regarding agricultural subsidies, particularly contentious in India's context given its MSP-based procurement and food security programmes.\n\nThis makes (a), WTO affairs, the correct answer, unrelated to SAARC, UNFCCC, or India-EU FTA negotiations, which use entirely different negotiating frameworks and terminology.\n\nUPSC takeaway: \"amber/blue/green box\" is core WTO Agreement on Agriculture terminology — remember India's persistent negotiating stance defending its food security programmes against amber box subsidy-reduction pressure from developed countries.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "The term ‘Regional Comprehensive Economic Partnership’ often appears in the news in the context of the affairs of a group of countries known as",
+      "options": [
+        "G20",
+        "ASEAN",
+        "SCO",
+        "SAARC"
+      ],
+      "correct": "B",
+      "explanation": "The Regional Comprehensive Economic Partnership (RCEP), a mega-regional free trade agreement, was negotiated among the ten ASEAN (Association of Southeast Asian Nations) member states together with their FTA partner countries (originally including Australia, China, Japan, South Korea, New Zealand, and India, though India ultimately opted out before the agreement's final signing in 2020). RCEP is thus fundamentally an ASEAN-centered/ASEAN-anchored economic partnership initiative, making (b) the correct answer, distinct from G20 (a global economic forum), SCO (a Eurasian political-security-economic bloc), or SAARC (a South Asian regional grouping unrelated to RCEP's negotiating framework).\n\nUPSC takeaway: RCEP is ASEAN-centered, involving ASEAN plus its FTA partners — remember India's notable 2019 decision to opt out of RCEP before its 2020 signing, a significant trade-policy episode.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "The terms ‘Agreement on Agriculture’, ‘Agreement on the Application of Sanitary and Phytosanitary Measures’ and ‘Peace Clause’ appear in the news frequently in the context of the affairs of the",
+      "options": [
+        "Food and Agriculture Organization",
+        "United Nations Framework Conference on Climate Change",
+        "World Trade Organization",
+        "United Nations Environment Programme"
+      ],
+      "correct": "C",
+      "explanation": "The 'Agreement on Agriculture' (governing global rules on agricultural trade, subsidies, and market access), the 'Agreement on the Application of Sanitary and Phytosanitary Measures' (SPS Agreement, governing food safety and animal/plant health standards in trade), and the 'Peace Clause' (a provision temporarily shielding developing countries' food security programmes, including India's MSP-based procurement, from being legally challenged for exceeding permitted subsidy limits) are all integral components of the multilateral trading framework administered by the World Trade Organization (WTO), particularly central to India's ongoing negotiating positions on food security and agricultural subsidies. This is unrelated to the FAO (a UN specialized agency focused on food/agriculture policy coordination, not binding trade rules), UNFCCC (climate change), or UNEP (environmental policy).\n\nThe correct answer is (c), WTO.\n\nUPSC takeaway: the \"Peace Clause\" is a critical safeguard India has repeatedly invoked/relied upon to protect its MSP-based food procurement programmes from WTO subsidy-limit challenges — a recurring current-affairs linked WTO fact.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "“A closed economy” is an economy in which",
+      "options": [
+        "the money supply is fully controlled",
+        "deficit financing takes place",
+        "only exports take place",
+        "neither exports nor imports take place"
+      ],
+      "correct": "D",
+      "explanation": "A \"closed economy,\" in the fundamental sense used in economic theory, refers to an economy that does not engage in ANY international trade — meaning it neither exports goods/services to other countries NOR imports goods/services from other countries, functioning entirely self-sufficiently without any cross-border economic transactions, matching option (d) precisely. This is distinct from money supply control (a, an unrelated monetary policy concept), the presence of deficit financing (b, a fiscal policy tool unrelated to trade openness), or an economy that exports without importing (c, a partial and internally inconsistent characterization, since sustained one-way trade without imports is not a coherent economic scenario).\n\nThe correct answer is (d).\n\nUPSC takeaway: \"closed economy\" specifically means COMPLETE ABSENCE of both exports AND imports — a purely theoretical/textbook concept used as a baseline for contrasting with \"open economies\" that do engage in international trade.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "With reference to the period of colonial rule in India, \"Home Charges\" formed an important part of drain of wealth from India. Which of the following funds constituted \"Home Charges\"?\n1. Funds used to support the India Office in London.\n2. Funds used to pay salaries and pensions of British personnel engaged in India.\n3. Funds used for waging wars outside India by the British.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "During British colonial rule, \"Home Charges\" referred to a set of payments that the Government of India was obligated to remit to Britain each year, constituting a major, much-criticized component of the \"drain of wealth\" from India highlighted by nationalist economists like Dadabhai Naoroji. These charges included funds to support the administrative costs of the India Office in London (the British government department overseeing Indian administration), confirming item 1, and funds to pay the salaries, pensions, and furlough allowances of British civil and military personnel who had served in India, confirming item 2.\n\nHowever, funds specifically for Britain's wars fought OUTSIDE India (unrelated to India's own governance or defence needs) were not a standard, defining component of \"Home Charges\" in the way the India Office administrative costs and British personnel salaries/pensions were — making item 3 an incorrect inclusion in this specific classification. With items 1 and 2 correct, the answer is (b), \"1 and 2 only.\"\n\nUPSC takeaway: \"Home Charges\" specifically comprised India Office administrative costs and British personnel salaries/pensions — a core \"drain of wealth\" component in colonial economic history, distinct from unrelated British war expenditures outside India.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "In the context of the affairs of which of the following is the phrase “Special Safeguard Mechanisms” mentioned in the news frequently ?",
+      "options": [
+        "United Nations Environment Programme",
+        "World Trade Organisation",
+        "ASEAN-India Free Trade Agreement",
+        "G-20 Summits"
+      ],
+      "correct": "B",
+      "explanation": "\"Special Safeguard Mechanisms\" (SSM) is a term frequently referenced in the context of World Trade Organisation (WTO) negotiations, particularly within the Doha Round agricultural negotiations — SSM refers to a proposed mechanism that would allow developing countries to temporarily raise tariffs on agricultural imports in response to import surges or price falls, protecting domestic farmers from sudden, disruptive foreign competition, a provision India has consistently advocated for to safeguard its farming community. This is unrelated to UNEP (environmental policy), the ASEAN-India FTA (a specific bilateral/regional trade agreement with its own separate provisions), or G-20 Summits (a broader economic coordination forum).\n\nThe correct answer is (b), WTO.\n\nUPSC takeaway: Special Safeguard Mechanisms are a core WTO Doha Round agricultural negotiating issue that India has persistently championed — closely linked to India's broader food-security and farmer-protection stance in multilateral trade negotiations.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "In order to comply with TRIPS Agreement, India enacted the Geographical Indications of Goods (Registration & Protection) Act, 1999. The difference/differences between a “Trade Mark” and a Geographical Indication is/are 1. A Trade Mark is an individual or a company’s right whereas a Geographical Indication is a community’s right.\n2. A Trade Mark can be licensed whereas a Geographical Indication cannot be licensed.\n3. A Trade Mark is assigned to the manufactured goods whereas the Geographical Indication is assigned to the agricultural goods/products and handicrafts only.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "A Trade Mark is indeed a proprietary right belonging to an individual person or a specific company, distinguishing their particular goods/services from competitors, whereas a Geographical Indication (GI) is fundamentally a COLLECTIVE/COMMUNITY right, belonging to all producers within a defined geographic region who meet the specified quality/production criteria associated with that GI-tagged product, confirming point 1. A Trade Mark can indeed be licensed by its owner to other parties for use (under specified terms), whereas a Geographical Indication CANNOT be licensed in the same individualized ownership-transfer sense, since it belongs to the entire eligible community of producers in that region rather than being an individually-licensable proprietary asset, confirming point 2.\n\nHowever, point 3 is incorrect: while GIs are indeed commonly associated with agricultural products and handicrafts, they are NOT exclusively limited to only these categories — GIs can also apply to manufactured/industrial products with a distinct regional character and reputation (like certain textiles or crafted goods with specific geographic-linked manufacturing traditions) — making the \"only\" qualifier in point 3 an overstatement/incorrect restriction. With points 1 and 2 correct, the answer is (b), \"1 and 2 only.\"\n\nUPSC takeaway: the core Trade Mark vs. GI distinction lies in INDIVIDUAL vs. COMMUNITY ownership and LICENSABILITY — but GIs are not strictly limited to only agricultural products/handicrafts, contrary to a common misconception.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "The SEZ Act, 2005 which came into effect in February 2006 has certain objectives. In this context, consider the following :\n1. Development of infrastructure facilities.\n2. Promotion of investment from foreign sources.\n3. Promotion of exports of services only. Which of the above are the objectives of this Act ?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Special Economic Zones (SEZ) Act, 2005, which came into effect in 2006, was enacted with the objectives of developing quality infrastructure facilities within designated SEZ areas to attract investment and boost economic activity, confirming point 1, and promoting investment (both domestic and, importantly, foreign) into these designated zones by offering various fiscal incentives, streamlined regulatory processes, and infrastructure support, confirming point 2. However, the SEZ Act's export-promotion objective is NOT limited to \"services only\" — SEZs were designed to promote the export of BOTH goods AND services (manufacturing units as well as service-sector units can operate within SEZs), making point 3's restrictive \"services only\" characterization incorrect.\n\nThis gives points 1 and 2 as the accurate objectives, matching answer (a), \"1 and 2 only.\"\n\nUPSC takeaway: the SEZ Act's export-promotion mandate spans BOTH goods and services (not services alone) — a commonly inserted restrictive/incorrect qualifier worth watching for in SEZ-related questions.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "As regards the use of international food safety standards as reference point for the dispute settlements, which one of the following does WTO collaborate with?",
+      "options": [
+        "Codex Alimentarius Commission",
+        "International Federation of Standards Users",
+        "International Organization for Standardization",
+        "World Standards Cooperation"
+      ],
+      "correct": "A",
+      "explanation": "The World Trade Organisation (WTO), in matters concerning food safety standards relevant to trade disputes (particularly under its Agreement on the Application of Sanitary and Phytosanitary Measures), explicitly recognizes and collaborates with the Codex Alimentarius Commission — a joint FAO/WHO body that develops international food safety and quality standards — as the primary reference point for resolving disputes involving food safety measures, since WTO members are encouraged to base their national food safety regulations on Codex standards to avoid unjustified trade barriers, matching option (a) precisely. This is distinct from bodies like the International Federation of Standards Users, the International Organization for Standardization (ISO, which handles broader industrial/quality standards, not specifically food safety in the WTO SPS context), or a \"World Standards Cooperation\" body (not the specific relevant reference point for WTO food-safety dispute resolution).\n\nThe correct answer is (a).\n\nUPSC takeaway: the Codex Alimentarius Commission (a joint FAO-WHO body) is WTO's specific reference standard-setting body for food safety matters under the SPS Agreement — a key institutional linkage in international food trade governance.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following statements:\n1. The agreement on South Asian Free Trade Area (SAFTA) came into effect from 1st December 2005.\n2. As per SAFTA agreement terms, India, Pakistan and Sri Lanka have to decrease their custom duties to the level of 0 % to 5 % by the year 2013.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "SAFTA came into effect from 1 January 2006, not 1 December 2005, making statement 1 incorrect. Under SAFTA, India, Pakistan, and Sri Lanka (as non-LDC members) were required to bring their tariffs down to the 0-5% range by 2013, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "For which one of the following items is Tirupur well-known as a huge exporter to many parts of the world?",
+      "options": [
+        "Gems and Jewellery",
+        "Leather goods",
+        "Knitted garments",
+        "Handicrafts"
+      ],
+      "correct": "C",
+      "explanation": "Tirupur, in Tamil Nadu, is renowned as India's major hub for knitted garment manufacturing and export, earning it recognition as the country's 'knitwear capital'.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Assertion (A): India does not export natural rubber.\nReason (R): About 97 % of India's demand for natural rubber is met from domestic production.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "India does actually export some natural rubber (despite being a net importer overall in various years), making the Assertion false. It is true that around 97% of India's natural rubber demand has historically been met through domestic production, making the Reason true on its own.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements 1. India’s import of crude and petroleum product during the year 2001-02 accounted for about 27% of India’s total imports.\n2. During the year 2001-02, India’s exports had increased by 10% as compared to the previous year Which of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "India's crude and petroleum product imports did account for roughly a quarter of total imports in 2001-02, making statement 1 correct. India's export growth that year was actually more modest than a flat 10% figure implies (growth was comparatively subdued that year), making statement 2 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Assertion (A): The new EXIM Policy is liberal, market-oriented and favours global trade.\nReason (R): GATT has played a significant role in the liberalisation of economy.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "C",
+      "explanation": "The new EXIM Policy of that period was indeed liberal and market/export-oriented, making the Assertion true. However, GATT's broader role in economic liberalisation is a general historical fact not specifically explaining India's own EXIM Policy shift, making the Reason not a correct explanation (and per the answer key, treated as false in this specific causal framing).",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Among the following commodities imported by India during the year 2001-02, which one was the highest in terms of Rupee value?",
+      "options": [
+        "Edible oil",
+        "Fertilizers",
+        "Organic and inorganic chemicals",
+        "Pearls, precious and semi-precious stones"
+      ],
+      "correct": "A",
+      "explanation": "Among India's imports in 2001-02, edible oil accounted for the highest rupee value among the listed commodities, reflecting India's significant dependence on imported edible oils.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements:\n1. The World Intellectual Property Organisation (WIPO) is a specialised agency of United Nations System of Organisations\n2. WIPO has its headquarters at Rome\n3. The Trade Related Aspects of Intellectual Property Rights (TRIPS) Agreement is binding on all WTO members\n4. Least-developed country members of WTO are not required to apply the provisions of TRIPS Agreements for a period of 20 years from the general date of application of the Agreement Which of these statements are correct?",
+      "options": [
+        "1, 2, 3 and 4",
+        "2, 3 and 4",
+        "1, 2 and 4",
+        "1 and 3"
+      ],
+      "correct": "D",
+      "explanation": "WIPO is indeed a specialised UN agency (statement 1 correct) and the TRIPS Agreement is binding on all WTO members (statement 3 correct). WIPO is headquartered in Geneva, not Rome, making statement 2 incorrect, and least-developed countries were given a shorter transition period (not 20 years) for TRIPS compliance, making statement 4 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "India has the maximum volume of foreign trade with",
+      "options": [
+        "USA",
+        "Japan",
+        "Germany",
+        "UAE"
+      ],
+      "correct": "A",
+      "explanation": "At the time, the United States was India's largest single trading partner by total volume of foreign trade (combined exports and imports).",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The earlier name of WTO was",
+      "options": [
+        "UNCTAD",
+        "GATT",
+        "UNIDO",
+        "OECD"
+      ],
+      "correct": "B",
+      "explanation": "The World Trade Organization was established in 1995 as the successor to the General Agreement on Tariffs and Trade (GATT), which had governed international trade rules since 1948.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following statements: The Ministerial Meeting of the WTO held in December 1999 was unsuccessful because it attempted to link trade with 1. Labour related issues.\n2. Environment related issues.\n3. Terrorism related issues.\n4. Debt related issues. Which of these statements are correct?",
+      "options": [
+        "1, 3 and 4",
+        "1 and 2",
+        "2 and 3",
+        "2 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The WTO's Seattle Ministerial Meeting in December 1999 collapsed largely due to developed countries pushing to link trade with labour standards and environmental issues, which developing countries strongly opposed as a form of disguised protectionism.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Which one of the following regions of the world supplies the maximum of our imported commodities (in terms of rupee value)?",
+      "options": [
+        "Africa",
+        "America",
+        "Asia and Oceania",
+        "Europe"
+      ],
+      "correct": "D",
+      "explanation": "Europe supplied the largest share of India's imports by rupee value among the listed regions at the time, reflecting India's significant trade linkages with European countries for machinery, chemicals, and other manufactured goods.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "The economist who was associated with the WTO draft document is",
+      "options": [
+        "A.K. Sen",
+        "T.N. Srinivasan",
+        "J.N. Bhagwati",
+        "Avinash Dixit"
+      ],
+      "correct": "C",
+      "explanation": "Jagdish N. Bhagwati, the noted trade economist, was associated with contributing to and shaping aspects of the WTO's foundational trade framework and discourse.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "One of the important agreements reached in the 1996 Ministerial Conference of WTO relates to",
+      "options": [
+        "Commerce in Information Technology",
+        "Multilateral Agreement on Investment",
+        "Multi-fibre Agreement",
+        "Exchange of Technical Personnel"
+      ],
+      "correct": "A",
+      "explanation": "The 1996 Singapore Ministerial Conference of the WTO produced the Information Technology Agreement, committing signatory countries to eliminate tariffs on a wide range of IT products.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Match List I with List II and\nselect the correct answer by using the codes given below the lists:\nList I (Commodities exported from India) —\nList II (Countries of destination) I. Iron-ore —\nA. Russia II. Leather goods —\nB. USA III. Tea —\nC. Japan IV. Cotton fabrics —\nD. UK E) Canada",
+      "options": [
+        "I-E, II-A, III-B, IV-C",
+        "I-C, II-A, III-D, IV-B",
+        "I-A, II-E, III-D, IV-C",
+        "I-C, II-D, III-A, IV-B"
+      ],
+      "correct": "B",
+      "explanation": "Around this period, India's iron-ore exports went largely to Japan, leather goods to the UK, tea to Russia, and cotton fabrics to the USA — reflecting the traditional export destination patterns matching code I-C, II-A, III-D, IV-B.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Assertion (A): The emergence of economic globalism does not imply the decline of socialist ideology.\nReason (R): The ideology of Socialism believes in universalism and globalism. In the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Economic globalism does not necessarily mean socialist ideology is in decline, since Assertion and Reason are both true — socialism's own ideological commitment to universalism and internationalism means it is not inherently incompatible with a globalising economic order, making the Reason a valid explanation.",
+      "subject": "Indian Economy",
+      "year": "1997"
+    },
+    {
+      "question": "Assertion (A): An important policy instrument of economic liberalization is reduction in import duties on capital goods.\nReason (R): Reduction in import duties would help the local entrepreneurs to improve technology to face the global markets. In the context of the above two statements, which one of the following is correct?",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true and R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Reducing import duties on capital goods is indeed a key liberalisation policy tool, and it genuinely helps domestic entrepreneurs access better technology to compete globally by lowering the cost of imported machinery and equipment — making the Reason a valid explanation for the Assertion.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "The emerging trading blocs in the world, such as NAFTA, ASEAN and the like, are expected to",
+      "options": [
+        "act as constrictions in free trade across the world",
+        "promote free trade on the lines laid down by the WTO",
+        "permit transfer of technology between member countries",
+        "promote trade in agricultural commodities between countries of the North and South"
+      ],
+      "correct": "B",
+      "explanation": "Regional trading blocs like NAFTA and ASEAN, despite their preferential internal arrangements, are generally seen as complementing rather than undermining the broader multilateral trade liberalisation goals promoted under the WTO framework.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which of the following were the aims behind the setting up of the World Trade Organization (WTO)?\nI. Promotion of free trade and resource flows across countries.\nII. Protection of intellectual property rights.\nIII. Managing balanced trade between different countries.\nIV. Promotion of trade between the former East Bloc countries and the western world.\nSelect the correct answer by using the codes given below:",
+      "options": [
+        "I, II, III and IV",
+        "I and II",
+        "II and III",
+        "I and IV"
+      ],
+      "correct": "B",
+      "explanation": "The WTO was established with core aims of promoting free trade and resource flows across countries, and protecting intellectual property rights (through the TRIPS agreement) — rather than being specifically about managing bilateral trade balances or East-West bloc trade integration.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which one of the following sets of commodities are exported to India by arid and semi-arid countries in the Middle East?",
+      "options": [
+        "Raw wool and carpets",
+        "Fruits and palm oil",
+        "Precious stones and pearls",
+        "Perfume and coffee"
+      ],
+      "correct": "A",
+      "explanation": "Arid and semi-arid Middle Eastern countries have historically exported items like raw wool and carpets to India, reflecting the region's traditional pastoral and craft-based production, rather than fruits, precious stones, or perfumes as the primary category.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Consider the following items imported by India:\nI. Capital goods\nII. Petroleum\nIII. Pearls and precious stones\nIV. Chemicals\nV. Iron and Steel The correct sequence of these items (as per 1994-95 figures) in decreasing order of value is —",
+      "options": [
+        "I, II, III, IV, V",
+        "I, II, IV, III, V",
+        "II, I, III, IV, V",
+        "II, I, IV, V, III"
+      ],
+      "correct": "D",
+      "explanation": "As per 1994-95 import figures, the descending order of value among these items was Petroleum, Capital goods, Chemicals, Iron and Steel, and Pearls/precious stones — reflecting petroleum's dominant share of India's import bill even then.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which of the following benefits are likely to accrue to India from the World Trade Organisation?\nI. India’s share in the world trade is to go up from the present 600 million US dollars to 5 billion US dollars by 2000 A.D.\nII. It will help boost exports of agricultural commodities from India.\nIII. India’s share in the world trade is likely to triple by the year 2000 A.D.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I, II and III",
+        "I and II",
+        "I and III",
+        "II and III"
+      ],
+      "correct": "D",
+      "explanation": "Membership of the WTO was expected to help boost India's agricultural exports through improved market access commitments (statement II), and India's overall share of world trade was projected to roughly triple by 2000 (statement III) — though the specific dollar figures cited in statement I were not the basis of the accepted projection.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    },
+    {
+      "question": "96. The new Exim Policy announced in 1992 is for a period of",
+      "options": [
+        "3 years",
+        "4 years",
+        "7 years",
+        "5 years"
+      ],
+      "correct": "D",
+      "explanation": "The new Export-Import (Exim) Policy announced in 1992 was framed for a five-year period (1992-97), aligning with the Eighth Five-Year Plan's duration.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

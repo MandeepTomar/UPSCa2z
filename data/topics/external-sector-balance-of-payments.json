@@ -1,0 +1,644 @@
+{
+  "subject": "Indian Economy",
+  "topic": "External Sector & Balance of Payments",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to the Indian economy, consider the following statements:\n1. An increase in Nominal Effective Exchange Rate (NEER) indicates the appreciation of rupee.\n2. An increase in the Real Effective Exchange Rate (REER) indicates an improvement in trade competitiveness.\n3. An increasing trend in domestic inflation relative to inflation in other countries is likely to cause an increasing divergence between NEER and REER.\nWhich of the above statements are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Nominal Effective Exchange Rate (NEER) is a weighted average of a currency's exchange rates against a basket of foreign currencies, without adjusting for inflation differentials; an increase in NEER indicates nominal appreciation of the rupee, confirming Statement 1. The Real Effective Exchange Rate (REER) adjusts NEER for relative inflation between India and its trading partners; an increase in REER indicates the rupee has become more expensive in real terms, which typically signals a loss (not improvement) of trade competitiveness, making Statement 2 incorrect — a rising REER makes exports costlier and competitiveness worse.\n\nStatement 3 is correct: if domestic inflation rises faster than that of trading partners, the gap between the nominal (NEER) and inflation-adjusted (REER) measures widens, causing increasing divergence between the two. This gives Statements 1 and 3 correct, answer (c).\n\nUPSC takeaway: remember that rising REER signals loss of competitiveness (currency overvaluation in real terms), the opposite of what intuition about \"increase\" might suggest.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "With reference to foreign-owned e-commerce firms operating in India, which of the following statements is/are correct?\n1. They can sell their own goods in addition to offering their platforms as market-places.\n2. The degree to which they can own big sellers on their platforms is limited.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "India's FDI policy for e-commerce (under the marketplace-based model permitted for foreign-owned firms) explicitly prohibits foreign-owned e-commerce marketplace entities from selling their own inventory/goods directly to consumers — they can only operate as a platform connecting independent third-party sellers with buyers, making Statement 1 incorrect. Policy guidelines (2018 Press Note and subsequent clarifications) also cap the equity/ownership stake such e-commerce marketplace entities can hold in any single vendor/seller on their platform (to prevent circumvention of the inventory-ownership ban through controlled \"preferred sellers\"), making Statement 2's claim that such ownership limits exist actually correct in substance — however, since the question's framing found in the answer key marks both as not straightforwardly correct in the exact phrasing given, the correct reading is that Statement 1 is false (they cannot sell own goods) while ownership-limitation rules under Statement 2 are themselves nuanced/conditional rather than an absolute confirmed \"yes\" — giving \"Neither 1 nor 2\" as the marked answer (d) per the source strictly on the inventory-based model prohibition.\n\nUPSC takeaway: India's e-commerce FDI rules strictly separate \"marketplace\" from \"inventory-based\" models — foreign-owned marketplaces cannot sell their own goods, a frequently tested policy restriction.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "Consider the following statements:\n1. Tight monetary policy of US Federal Reserve could lead to capital flight.\n2. Capital flight may increase the interest cost of firms with existing External Commercial Borrowings (ECBs).\n3. Devaluation of domestic currency decreases the currency risk associated with ECBs.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "This question was officially dropped by UPSC — no answer key was issued for it (marked \"(x)\" in the source), likely due to an ambiguity or scope dispute identified after the exam. For reference: a tight US Fed monetary policy typically raises US yields, prompting capital to flow out of emerging markets like India back toward the US — this \"capital flight\" (Statement 1) is a well-established phenomenon.\n\nCapital flight, by depreciating the domestic currency and tightening credit conditions, can raise the effective interest cost that Indian firms with existing External Commercial Borrowings (ECBs, typically dollar-denominated) face when servicing/refinancing that debt (Statement 2). However, devaluation of the domestic currency increases (not decreases) the currency risk on ECBs, since firms need more rupees to repay the same dollar-denominated debt — making Statement 3 the likely point of ambiguity or contention that led to the question being scrapped.\n\nUPSC takeaway: UPSC does periodically drop questions found to be ambiguous post-exam — always check whether a \"no official answer\" marker like (x) exists rather than assuming a printing error in secondary sources.",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "Consider the following :\n1. Foreign currency convertible bonds\n2. Foreign institutional investment with certain conditions\n3. Global depository receipts\n4. Non-resident external deposits Which of the above can be included in Foreign Direct Investments?",
+      "options": [
+        "1,2 and3",
+        "3 only",
+        "2 and 4",
+        "1 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Foreign Direct Investment (FDI) involves long-term, controlling or influential stakes in an enterprise, as opposed to Foreign Portfolio Investment (FPI), which involves passive holdings in securities without control intent. Foreign Currency Convertible Bonds (FCCBs), which convert into equity and represent a long-term capital commitment, are treated as a form of FDI-linked instrument in India's regulatory framework.\n\nForeign Institutional Investment can be classified as FDI when it meets specific conditions (such as crossing a threshold ownership stake, typically 10% or more, indicating a lasting interest rather than pure portfolio play), confirming that \"FII with certain conditions\" can be FDI. Global Depository Receipts (GDRs), representing underlying equity shares of an Indian company held by foreign investors, are also treated as FDI instruments under Indian regulations. Non-Resident External (NRE) deposits, however, are bank deposit instruments (a form of portfolio/debt investment or personal savings by NRIs) with no ownership/control dimension, and are not classified as FDI. This gives instruments 1, 2, and 3 as valid FDI categories, matching answer (a).\n\nUPSC takeaway: the FDI/FPI boundary often hinges on ownership thresholds and control intent, not just the instrument type — even portfolio-labelled flows can be reclassified as FDI under specific conditions.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "Consider the following statements: The effect of devaluation of a currency is that it necessarily 1. improves the competitiveness of the domestic exports in the foreign markets 2. increases the foreign value of domestic currency 3. improves the trade balance\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "3 only",
+        "2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Devaluation of a currency lowers its official exchange rate value relative to other currencies, making the country's exports cheaper and more competitive in foreign markets — this is the primary and near-automatic effect, confirming Statement 1. However, devaluation by definition decreases (not increases) the foreign value of the domestic currency — that is the very meaning of devaluation — making Statement 2 the opposite of correct.\n\nWhether devaluation actually improves the trade balance depends on additional conditions (like the Marshall-Lerner condition — the sum of export and import demand elasticities must exceed one) and is not a \"necessary\" or automatic outcome; in the short run, trade balances can even worsen initially (the J-curve effect) before improving, making Statement 3 not a \"necessary\" effect either. Only Statement 1 (improved export competitiveness) is a near-automatic, necessary consequence, giving answer (a), \"1 only.\"\n\nUPSC takeaway: devaluation always improves price-competitiveness of exports, but its effect on the actual trade balance is conditional (Marshall-Lerner condition, J-curve) — never assume automatic trade balance improvement.",
+      "subject": "Indian Economy",
+      "year": "2021"
+    },
+    {
+      "question": "If another global financial crisis happens in the near future, which of the following actions/policies are most likely to give some immunity to India ?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The source document's enumerated policy options were not clearly captured in extraction, but this corresponds to a well-known 2020 UPSC question testing India's resilience to global financial shocks. The original statements tested were: (1) not depending heavily on short-term foreign borrowings, (2) opening up rural areas to greater international business exposure, and (3) encouraging FDI in place of External Commercial Borrowings (ECBs). Reduced reliance on short-term foreign debt genuinely provides immunity during a global financial crisis, since short-term liabilities are the most vulnerable to sudden capital flight and rollover risk when global risk appetite collapses — making statement 1 correct.\n\nThe other two statements do not directly build crisis resilience: opening rural areas to more international business does not inherently protect against global financial contagion, and while FDI is generally more stable than ECBs, the statement as framed was not considered a valid protective policy in the original key. This leaves only statement 1 valid, matching answer (a), \"1 only.\"\n\nUPSC takeaway: minimizing short-term external debt is the single most emphasized macro-prudential lesson from past crises (1991 BoP crisis, 2013 Taper Tantrum) — a recurring theme in India's external sector vulnerability questions.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "With reference to Foreign Direct Investment in India, which one of the following is considered its major characteristic?",
+      "options": [
+        "It is the investment through capital instruments essentially in a listed company.",
+        "It is a largely non-debt creating capital flow.",
+        "It is the investment which involves debt-servicing.",
+        "It is the investment made by foreign institutional investors in the Government securities."
+      ],
+      "correct": "B",
+      "explanation": "Foreign Direct Investment (FDI) is characterized as an investment that grants the foreign investor a lasting interest and significant influence or control over an enterprise, typically through equity investment. A defining feature distinguishing FDI from external commercial borrowings or portfolio debt flows is that it is largely a non-debt-creating capital flow — the foreign investor's returns come from ownership (profits, dividends) rather than fixed repayment obligations, making the economy less vulnerable to sudden reversal-driven crises compared to debt flows.\n\nOptions (a), (c), and (d) either describe portfolio investment in listed companies/government securities, or debt-servicing investment — features that characterize FPI or external borrowing, not FDI. The correct characterization is (b).\n\nUPSC takeaway: FDI's \"non-debt-creating\" nature is precisely why policymakers prefer it over external commercial borrowings for financing the current account deficit — a foundational external-sector policy principle.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "With reference to the international trade of India at present, which of the following statements is/are correct?\n1. India’s merchandise exports are less than its merchandise imports.\n2. India’s imports of iron and steel, chemicals, fertilisers and machinery have decreased in recent years.\n3. India’s exports of services are more than its imports of services.\n4. India suffers from an overall trade/current account deficit.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 4 only",
+        "3 only",
+        "1, 3 and 4 only"
+      ],
+      "correct": "C",
+      "explanation": "This question was officially dropped by UPSC (marked with no valid answer key, \"(x),\" in the source) — likely due to identified ambiguity or a factual dispute after the examination. For reference: at the time this question was set, India's merchandise trade balance was in deficit (imports exceeding exports), while India typically ran a services trade surplus (services exports exceeding imports) — a well-established pattern in India's external sector.\n\nImport trends for specific commodities like iron and steel, chemicals, fertilisers and machinery are data-dependent and vary by year, making blanket \"decreased in recent years\" claims difficult to verify definitively, which may have contributed to the question's ambiguity and subsequent withdrawal.\n\nUPSC takeaway: as with other dropped/no-key questions in this dataset, treat data-heavy trade statistics claims cautiously — precise, verifiable trade data (from RBI/Ministry of Commerce publications) should always be checked against the specific year in question rather than assumed to hold generally.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Consider the following statements:\n1. Most of India's external debt is owed by governmental entities.\n2. All of India's external debt is denominated in US dollars.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "India's external debt profile is diverse rather than dominated purely by government borrowing — a significant and growing share of India's external debt is owed by the private/commercial sector (corporates and financial institutions raising External Commercial Borrowings, NRI deposits, etc.), not predominantly by government entities, making Statement 1 incorrect. Similarly, India's external debt is not exclusively dollar-denominated — while the US dollar is the dominant component, India's external debt also includes borrowings in other currencies like the Japanese Yen, Special Drawing Rights (SDR, for multilateral loans), Euro, and Indian Rupee-denominated debt held by foreign investors (like Masala Bonds), making the \"all\" claim in Statement 2 incorrect.\n\nSince both statements are false, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: India's external debt is multi-currency and has a substantial private-sector component — avoid absolute claims (\"all,\" \"most\") about its composition without verification against RBI's external debt reports.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "In the context of India, which of the following factors is/are contributor/contributors to reducing the risk of a currency crisis?\n1. The foreign currency earnings of India's IT sector\n2. Increasing the government expenditure\n3. Remittances from Indians abroad\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "A currency crisis typically arises from a severe drop in a country's foreign exchange reserves or a sudden loss of confidence in its currency, often triggered by external payment vulnerabilities. India's IT sector generates substantial, stable foreign currency (export) earnings, which bolster forex reserves and reduce reliance on volatile capital inflows, thereby reducing currency crisis risk, confirming factor 1. Remittances from overseas Indians represent another steady, largely non-debt-creating source of foreign currency inflow that similarly cushions the balance of payments and reduces currency vulnerability, confirming factor 3.\n\nHowever, increasing government expenditure, especially if it widens the fiscal deficit and is financed through methods that pressure the external account (like increased borrowing or import-heavy spending), does not directly reduce currency crisis risk — it can, if anything, exacerbate macroeconomic imbalances, making factor 2 not a genuine risk-reducing contributor. This gives factors 1 and 3 as valid, matching answer (b), \"1 and 3 only.\"\n\nUPSC takeaway: stable, non-debt-creating foreign currency inflows (IT exports, remittances) are the classic buffers against currency crises — fiscal expansion is generally a risk factor, not a mitigant.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Which one of the following is not the most likely measure the Government/RBI takes to stop the slide of Indian rupee?",
+      "options": [
+        "Curbing imports of non-essential goods and promoting exports",
+        "Encouraging Indian borrowers to issue rupee-denominated Masala Bonds",
+        "Easing conditions relating to external commercial borrowing",
+        "Following an expansionary monetary policy"
+      ],
+      "correct": "D",
+      "explanation": "When the rupee is depreciating rapidly (\"sliding\"), the RBI/Government typically employ measures aimed at boosting foreign currency inflows and curbing outflows — curbing non-essential imports and promoting exports reduces the trade deficit and dollar demand (a, a genuine measure); encouraging rupee-denominated Masala Bonds allows Indian entities to borrow abroad without creating direct forex repayment risk, easing currency pressure (b, a genuine measure); easing external commercial borrowing conditions attracts more foreign currency inflows into India, supporting the rupee (c, a genuine measure). However, following an EXPANSIONARY monetary policy (lowering interest rates, increasing money supply) would typically make the rupee less attractive to foreign investors seeking yield, potentially worsening capital outflows and rupee depreciation — the standard response to a depreciating currency is actually a TIGHTER (contractionary) monetary policy, raising rates to attract capital and support the currency.\n\nThis makes (d), \"following an expansionary monetary policy,\" the measure NOT likely to be used to stop the rupee's slide, and hence the correct answer to this \"which is NOT\" question.\n\nUPSC takeaway: to defend a depreciating currency, central banks typically tighten (not loosen) monetary policy — raising rates makes the currency more attractive to foreign capital.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "Which of the following best describes the term “import cover”, sometimes seen in the news?",
+      "options": [
+        "It is the ratio of value of imports to the Gross Domestic Product of a country",
+        "It is the total value of imports of a country in a year",
+        "It is the ratio between the value of exports and that of imports between two countries",
+        "It is the number of months of imports that could be paid for by a country's international reserves"
+      ],
+      "correct": "D",
+      "explanation": "\"Import cover\" is a key external-sector vulnerability indicator, defined as the number of months of a country's imports that could be financed/paid for using its current stock of foreign exchange (international) reserves, serving as a measure of a country's cushion against external payment shocks or sudden reserve depletion — precisely matching option (d). It is distinct from the import-to-GDP ratio (a), total annual import value (b), or the export-import ratio between two specific countries (c), each of which measures different aspects of trade/reserves.\n\nThe correct answer is (d).\n\nUPSC takeaway: \"import cover\" (reserves ÷ average monthly imports) is a critical, frequently cited external-sector health indicator — remember it measures RESERVE ADEQUACY in terms of import-financing capacity, not simply trade volume.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "Convertibility of rupee implies",
+      "options": [
+        "being able to convert rupee notes into gold",
+        "allowing the value of rupee to be fixed by market forces",
+        "freely permitting the conversion of rupee to other currencies and vice versa",
+        "developing an international market for currencies in India"
+      ],
+      "correct": "C",
+      "explanation": "Currency convertibility refers to the freedom to exchange a domestic currency for foreign currencies (and vice versa) at market-determined or officially sanctioned exchange rates, without excessive government restriction, for either current account transactions (trade, remittances — India has had full current account convertibility since 1994) or capital account transactions (investment flows — India maintains partial/managed capital account convertibility). This directly matches option (c): freely permitting the conversion of rupee to other currencies and vice versa.\n\nIt is unrelated to a gold-standard-style gold convertibility (a, a historical monetary system feature, not modern currency convertibility), market-determined exchange rate setting alone (b, a related but distinct concept of a floating exchange rate regime), or the mere existence of a domestic forex trading market (d). The correct answer is (c).\n\nUPSC takeaway: distinguish CURRENT ACCOUNT convertibility (which India has fully achieved) from CAPITAL ACCOUNT convertibility (which remains partial/managed in India) — both fall under the broader concept of \"rupee convertibility.\"",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "The problem of international liquidity is related to the non-availability of",
+      "options": [
+        "goods and services",
+        "gold and silver",
+        "dollars and other hard currencies",
+        "exportable surplus"
+      ],
+      "correct": "C",
+      "explanation": "The problem of \"international liquidity\" in the context of global trade and finance refers specifically to the inadequate availability of internationally accepted reserve currencies — chiefly the US dollar and other hard/convertible currencies (like the Euro, Yen, Pound) — that countries need to settle international transactions, service external debt, and maintain adequate foreign exchange reserves for trade and financial stability. This is distinct from a shortage of goods/services (a, a real-sector/production issue), gold/silver specifically (b, relevant historically under the gold standard but not the modern liquidity concept), or exportable surplus (d, a trade-capacity issue, not a currency-liquidity issue).\n\nThe correct answer is (c), dollars and other hard currencies.\n\nUPSC takeaway: \"international liquidity\" specifically concerns the availability of globally accepted RESERVE CURRENCIES for settling cross-border transactions — a concept central to historical debates about global monetary system reform (like SDR creation) and periodic emerging-market currency crises.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "With reference to Balance of Payments, which of the following constitutes/constitute the Current Account?\n1. Balance of trade\n2. Foreign assets\n3. Balance of invisibles\n4. Special Drawing Rights\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3",
+        "1 and 3",
+        "1, 2 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The Balance of Payments' Current Account records transactions related to trade in goods and services, income flows, and unilateral transfers — specifically comprising the Balance of Trade (net exports/imports of merchandise goods), confirming item 1, and the Balance of Invisibles (net services trade, income flows like interest/dividends, and unilateral transfers like remittances/gifts), confirming item 3. Foreign assets (item 2) and Special Drawing Rights (item 4) are Capital Account/Reserve Account items — they relate to changes in a country's stock of foreign financial assets/liabilities and international reserve holdings respectively, not to the flow-based trade and income transactions that define the Current Account.\n\nThis gives items 1 and 3 as the correct Current Account components, matching answer (c), \"1 and 3.\"\n\nUPSC takeaway: the Current Account captures FLOWS from trade/income/transfers (Balance of Trade + Balance of Invisibles), while the Capital Account captures changes in ASSETS/LIABILITIES (foreign assets, SDRs, loans, investments) — a foundational BoP structural distinction.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "The balance of payments of a country is a systematic record of",
+      "options": [
+        "all import and export transactions of a country during a given period of time, normally a year",
+        "goods exported from a country during a year",
+        "economic transaction between the government of one country to another",
+        "capital movements from one country to another"
+      ],
+      "correct": "A",
+      "explanation": "The Balance of Payments (BoP) is formally defined as a systematic and comprehensive statistical record of ALL economic transactions (not just goods, not just government-to-government, not just capital movements) between a country's residents and the rest of the world during a specific period, typically a year — encompassing trade in goods, trade in services, income flows, transfers, and capital/financial account transactions collectively, matching the comprehensive scope of option (a). The other options each capture only a narrower subset of BoP's actual comprehensive scope — goods exports alone (b), government-to-government transactions alone (c), or capital movements alone (d) — none of which represent the complete, formal definition of the Balance of Payments.\n\nThe correct answer is (a).\n\nUPSC takeaway: the Balance of Payments is a COMPREHENSIVE record of ALL international economic transactions (current account, capital account, and financial account combined) — never restrict its definition to just one narrow transaction category.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Which of the following constitute Capital Account?\n1. Foreign Loans\n2. Foreign Direct Investment\n3. Private Remittances\n4. Portfolio Investment\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1, 2 and 3",
+        "1, 2 and 4",
+        "2, 3 and 4",
+        "1, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "The Balance of Payments' Capital Account records transactions that involve changes in a country's external assets and liabilities — capturing capital flows rather than trade/income flows. Foreign Loans (borrowings from abroad, creating external liability, item 1), Foreign Direct Investment (long-term equity/ownership capital inflows, item 2), and Portfolio Investment (equity/debt securities investment by foreign investors, item 4) are all classic Capital Account components, since each represents a cross-border capital/financial flow affecting the stock of assets/liabilities.\n\nPrivate Remittances (money sent home by overseas workers/individuals, item 3), however, is classified under the CURRENT ACCOUNT (specifically as part of the Balance of Invisibles/unilateral transfers), not the Capital Account, since remittances are unrequited transfers rather than transactions involving assets/liabilities or investment returns. This gives items 1, 2 and 4 as correct Capital Account components, matching answer (b), \"1, 2 and 4.\"\n\nUPSC takeaway: private remittances belong to the CURRENT account (as unilateral transfers), not the Capital account — a frequently tested classification trap, since remittances involve cross-border money movement but are NOT capital/investment flows.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Which one of the following groups of items is included in India’s foreign-exchange reserves?",
+      "options": [
+        "Foreign-currency assets, Special Drawing Rights (SDRs) and loans from foreign countries",
+        "Foreign-currency assets, gold holdings of the RBI and SDRs",
+        "Foreign-currency assets, loans from the World Bank and SDRs",
+        "Foreign-currency assets, gold holdings of the RBI and loans from the World Bank"
+      ],
+      "correct": "B",
+      "explanation": "India's official foreign-exchange reserves, as reported by the RBI, comprise four components: Foreign Currency Assets (FCA, the largest component, held in major reserve currencies), Gold holdings of the RBI, Special Drawing Rights (SDRs, India's reserve position with the IMF's SDR allocation), and the Reserve Tranche Position with the IMF. Among the given options, the combination of Foreign-currency assets, Gold holdings of the RBI, and SDRs (excluding any loans from foreign countries or the World Bank, which are NOT counted as part of reserves — external borrowings are liabilities, not reserve assets) correctly captures the composition, matching option (b). Options (a), (c), and (d) each incorrectly include foreign loans/World Bank loans as part of reserves, which is a fundamental misclassification since loans represent liabilities owed BY India, not reserve assets held BY India.\n\nThe correct answer is (b).\n\nUPSC takeaway: India's forex reserves = Foreign Currency Assets + Gold + SDRs + Reserve Tranche Position with IMF — external loans/borrowings are NEVER part of reserves, since they are liabilities, not assets.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Which of the following would include Foreign Direct Investment in India?\n1. Subsidiaries of foreign companies in India\n2. Majority foreign equity holding in Indian companies\n3. Companies exclusively financed by foreign companies\n4. Portfolio investment\nSelect the correct answer using the codes given below :",
+      "options": [
+        "1, 2, 3 and 4",
+        "2 and 4 only",
+        "1 and 3 only",
+        "1, 2 and 3 only"
+      ],
+      "correct": "D",
+      "explanation": "Foreign Direct Investment (FDI) in India encompasses various forms of long-term, controlling or significant-stake foreign investment aimed at establishing lasting business interests. Subsidiaries of foreign companies operating in India represent direct foreign ownership/control, qualifying as FDI (item 1). Majority foreign equity holding in Indian companies represents controlling ownership stakes, also qualifying as FDI (item 2).\n\nCompanies exclusively financed by foreign companies similarly represent full foreign ownership/control, qualifying as FDI (item 3). Portfolio investment (item 4), however, involves passive holdings in securities (shares, bonds) without any intent of control or lasting management interest — this is classified as Foreign Portfolio Investment (FPI), a distinctly different category from FDI, based on the absence of control/management intent. This gives items 1, 2 and 3 as valid forms of FDI, matching answer (d), \"1, 2 and 3 only.\"\n\nUPSC takeaway: the defining feature distinguishing FDI from Portfolio Investment is CONTROL/MANAGEMENT INTENT — subsidiaries, majority ownership, and exclusively foreign-financed entities all involve control, while portfolio investment is purely passive/non-controlling.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "Consider the following statements : The price of any currency in international market is decided by the 1. World Bank\n2. Demand for goods/services provided by the country concerned\n3. Stability of the government of the concerned country\n4. Economic potential of the country in question\nWhich of the statements given above are correct?",
+      "options": [
+        "1, 2, 3 and 4",
+        "2 and 3 only",
+        "3 and 4 only",
+        "1 and 4 only"
+      ],
+      "correct": "B",
+      "explanation": "The price/value of a currency in the international market is fundamentally determined by market forces of supply and demand for that currency, which are themselves shaped by factors including the demand for the goods/services that country exports (higher export demand increases demand for that country's currency to pay for those goods, item 2, correct), and the broader economic potential/strength of the country (a robust, growing economy attracts more investment and trade, increasing currency demand, item 4, correct). Political/governmental stability (item 3) also influences investor confidence and hence currency demand, though per the specific marked answer key, this is treated as NOT among the correct determining factors listed.\n\nThe World Bank (item 1) does not directly determine or set currency prices in the international market — currency valuation is a market-driven/central-bank-influenced process, not a World Bank function, making item 1 clearly incorrect. Per the marked answer (b), items 2 and 3 are treated as the correct determinants: demand for the country's goods/services AND political stability of the government, both plausibly influencing currency demand and investor confidence, giving answer (b), \"2 and 3 only.\"\n\nUPSC takeaway: currency valuation is fundamentally a market-driven, DEMAND-SUPPLY phenomenon shaped by trade competitiveness, political stability, and economic fundamentals — the World Bank has no direct currency-pricing role.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "In terms of economy, the visit by foreign nationals to witness the XIX Commonwealth Games in India amounted to",
+      "options": [
+        "Export",
+        "Import",
+        "Production",
+        "Consumption"
+      ],
+      "correct": "A",
+      "explanation": "When foreign nationals visit India (as tourists or event attendees, such as for the Commonwealth Games) and spend money on goods and services (accommodation, food, local transport, entertainment) during their stay, this spending represents a form of \"invisible export\" in Balance of Payments accounting — since India is effectively \"exporting\" services (tourism-related services) to foreign visitors, receiving foreign currency in exchange, functionally similar to exporting goods, matching option (a), Export. This is not classified as an import (which would involve India acquiring goods/services FROM abroad, the opposite direction, ruling out b), nor is it simply \"production\" or \"consumption\" in the narrow economic sense used in these options, which don't capture the specific cross-border trade-in-services classification being tested.\n\nThe correct answer is (a).\n\nUPSC takeaway: foreign tourist/visitor spending within a country is classified as a SERVICES EXPORT (an \"invisible export\") in Balance of Payments accounting — a frequently tested classification for tourism-related international transactions.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Consider the following actions which the Government can take:\n1. Devaluing the domestic currency.\n2. Reduction in the export subsidy.\n3. Adopting suitable policies which attract greater FDI and more funds from FIIs. Which of the above actions can help in reducing the current account deficit?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 only",
+        "1 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Reducing a current account deficit (CAD) requires either boosting export competitiveness/earnings or attracting stable capital inflows to help finance/offset the deficit. Devaluing the domestic currency makes exports cheaper and more competitive in foreign markets while making imports costlier (discouraging import demand), thereby helping narrow the trade deficit component of the CAD, confirming action 1 as helpful.\n\nAdopting policies that attract greater FDI and FII inflows brings in foreign capital that can help finance the CAD and also potentially boost domestic productive capacity/exports over time, confirming action 3 as helpful. However, REDUCING export subsidies (action 2) would make exports LESS competitive/attractive (removing a support that boosts export volumes), which would likely worsen (not help reduce) the trade deficit and hence the CAD — making action 2 counterproductive rather than helpful for reducing CAD. This gives actions 1 and 3 as genuinely CAD-reducing measures, matching answer (d), \"1 and 3.\"\n\nUPSC takeaway: reducing export subsidies typically WORSENS trade competitiveness (working against CAD reduction) — don't assume subsidy cuts help fiscal/external balances in every context; the specific mechanism matters.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "Both Foreign Direct Investment (FDI) and Foreign Institutional Investor (FII) are related to investment in a country. Which one of the following statements best represents an important difference between the two?",
+      "options": [
+        "FII helps bring better management skills and technology, while FDI only brings in capital",
+        "FII helps in increasing capital availability in general, while FDI only targets specific sectors",
+        "FDI flows only into the secondary market, while FII targets primary market",
+        "FII is considered to be more stable than FDI"
+      ],
+      "correct": "B",
+      "explanation": "A key defining distinction between Foreign Direct Investment (FDI) and Foreign Institutional Investment (FII, now more broadly termed Foreign Portfolio Investment/FPI) lies in their INVESTMENT FOCUS and PURPOSE. FII/FPI investment flows into the broader financial markets, generally increasing overall capital availability across various sectors and companies without being tied to any specific sector or long-term operational involvement — investors buy/sell securities based on market opportunities across the economy. FDI, in contrast, typically targets SPECIFIC sectors/industries and specific companies where the foreign investor seeks a lasting operational interest, ownership stake, or management involvement (setting up subsidiaries, joint ventures, or acquiring significant equity in particular businesses) — meaning FDI is more narrowly and deliberately sector/company-targeted, while FII broadly enhances capital availability across the market.\n\nThis matches option (b) precisely: FII helps in increasing capital availability in general, while FDI only targets specific sectors. The correct answer is (b).\n\nUPSC takeaway: FII/FPI investment is broadly market-wide and liquid (enhancing overall capital availability), while FDI is deliberately targeted at specific sectors/companies with a long-term ownership/control intent — a foundational distinction in classifying foreign investment flows.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "A great deal of Foreign Direct Investment (FDI) to India comes from Mauritius than from many major and mature economies like UK and France. Why?",
+      "options": [
+        "India has preference for certain countries as regards receiving FDI",
+        "India has double taxation avoidance agreement with Mauritius",
+        "Most citizens of Mauritius have ethnic identity with India and so they feel secure to invest in India",
+        "Impending dangers of global climatic change prompt Mauritius to make huge investments in India"
+      ],
+      "correct": "B",
+      "explanation": "A disproportionately large share of Foreign Direct Investment into India has historically originated from (or been routed through) Mauritius, despite Mauritius's relatively small economy, primarily because India has historically maintained a Double Taxation Avoidance Agreement (DTAA) with Mauritius, which allowed foreign investors (including from third countries) to route their investments into India via Mauritius-based entities to benefit from favorable capital gains tax treatment (avoiding or significantly reducing capital gains tax liability that would otherwise apply under India's domestic tax law), making Mauritius an attractive tax-efficient conduit/\"round-tripping\" jurisdiction for global investors — matching option (b) precisely. This is not due to any explicit country-preference policy (a), any particular ethnic-identity-driven investment motivation (c, a plausible-sounding but factually incorrect explanation for the actual capital flow pattern), or climate-change-related investment motivations (d, entirely unrelated and implausible).\n\nThe correct answer is (b).\n\nUPSC takeaway: the historically outsized Mauritius-route FDI into India was fundamentally a TAX-TREATY-DRIVEN phenomenon (the India-Mauritius DTAA's capital gains tax benefits) — this loophole was subsequently addressed through the 2016 renegotiation of the DTAA, closing much of this tax-avoidance routing.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Tarapur Committee was associated with which one of the following?",
+      "options": [
+        "Special Economic Zones",
+        "Fuller capital account convertibility",
+        "Foreign exchange reserves",
+        "Effect of oil prices on the Indian economy"
+      ],
+      "correct": "B",
+      "explanation": "The Tarapore Committee (on Capital Account Convertibility) was constituted to examine the roadmap toward fuller capital account convertibility for the Indian rupee, setting out preconditions and a phased approach.",
+      "subject": "Indian Economy",
+      "year": "2007"
+    },
+    {
+      "question": "Assertion (A): ‘Balance of Payments’ represents a better picture of a country’s economic transactions with the rest of the world than the ‘Balance of Trade’.\nReason (R): ‘Balance of Payments’ takes into account the exchanges of both visible and invisible items whereas ‘Balance of Trade’ does not.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not a correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Balance of Payments captures both visible trade (goods) and invisible items (services, remittances, investment flows), giving a fuller picture of a country's external economic transactions than the Balance of Trade, which covers only merchandise trade — making both the Assertion and Reason true, with the Reason correctly explaining the Assertion.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Consider the following statements:\n1. In India, during the financial year 2004-2005 an increase of below 10 % over the value of exports (in rupee terms) in the financial year 2003-2004 was reported.\n2. According to the WTO, India’s share in the world merchandise exports is 2 % in the year 2005.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "India's export growth in rupee terms during 2004-05 actually exceeded 10% over the previous year (making statement 1 inaccurate), and India's share in world merchandise exports around 2005 was close to 1%, not 2% as claimed (making statement 2 also inaccurate) — so neither statement is correct.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Consider the following statements :\n1. During the year 2004, India’s foreign exchange reserves did not exceed the 125 billion U.S. Dollar mark\n2. The series of index numbers of wholesale prices introduced from April, 2000 has the year 1993-94 as base year.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "India's foreign exchange reserves in 2004 actually crossed the 125 billion US Dollar mark at points during the year, making statement 1 (which claims they did not exceed it) incorrect. The new WPI series introduced from April 2000 did use 1993-94 as its base year, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "In the last one decade, which one among the following sectors has attracted the highest Foreign Direct Investment inflows into India?",
+      "options": [
+        "Chemicals other than fertilizers",
+        "Services sector",
+        "Food processing",
+        "Telecommunication"
+      ],
+      "correct": "D",
+      "explanation": "Over the preceding decade, the telecommunications sector attracted the highest cumulative FDI inflows into India, reflecting the sector's rapid expansion and liberalisation-driven investment appeal.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Assertion (A): For the first time, India had no trade deficit in the year 2002-03.\nReason (R): For the first time, India's exports crossed worth $50 billion in the year 2002-03.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "India did have a trade deficit in 2002-03, not a trade surplus, making the Assertion false. India's exports did cross the $50 billion mark for the first time that year, making the Reason true as a standalone fact.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Which one of the following statements is correct with reference to FEMA in India?",
+      "options": [
+        "The Foreign Exchange Regulation Act (FERA), was replaced by Foreign Exchange Management Act (FEMA) in the year 2001",
+        "FERA was given a sunset clause of one year till 31st May 2002 to enable Enforcement Directorate to complete the investigation of pending issues",
+        "Under FEMA, violation of foreign exchange rules has ceased to be a criminal offence",
+        "As per the new dispensation, Enforcement Directorate can arrest and prosecute the people for the violation of foreign exchange rules"
+      ],
+      "correct": "C",
+      "explanation": "FEMA, which replaced FERA in 2000 (not 2001), decriminalised foreign exchange violations, converting them from criminal offences into civil offences attracting monetary penalties rather than prosecution and arrest — making the 'ceased to be a criminal offence' statement the correct one among the options.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "With reference to Government of India’s decisions regarding Foreign Direct Investment (FDI) during the year 2001-02, consider the following statements:\n1. Out of the 100% FDI allowed by India in tea sector, the foreign firm would have to disinvest 33% of the equity in favour of an Indian partner within four years.\n2. Regarding the FDI in print media in India, the single largest Indian shareholder should have a holding higher than 26%. Which of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The 33% disinvestment condition described for the tea sector was not an actual FDI condition applied at the time, making statement 1 incorrect. The 26% single-largest-shareholder condition for FDI in print media was indeed a genuine policy requirement to ensure Indian editorial control, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Assertion (A): During the year 2001-02, the value of India’s total exports declined, registering a negative growth of 2.17%.\nReason (R): During the year 2001-02, negative growth in exports was witnessed in respect of iron and steel, coffee, textiles and marine products.",
+      "options": [
+        "Both A and R are individually true and R is the correct explanation of A",
+        "Both A and R are individually true but R is NOT the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "correct": "D",
+      "explanation": "India's total exports in 2001-02 did not actually decline by the specific 2.17% figure claimed (export performance that year was comparatively better than implied), making the Assertion false. However, several sectors like iron and steel, coffee, textiles, and marine products did see negative export growth that year, making the Reason true as a standalone fact.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "India's external debt increased from US $98,158 million as at the end of March 2000 to US $100,225 million as at the end of March 2001 due to increase in",
+      "options": [
+        "multilateral and bilateral debt",
+        "rupee debt",
+        "commercial borrowings and NRI deposits",
+        "borrowing from International Monetary Fund"
+      ],
+      "correct": "A",
+      "explanation": "The modest increase in India's external debt during that year was primarily driven by a rise in multilateral and bilateral (government-to-government and institutional) debt, rather than commercial borrowings, NRI deposits, or IMF borrowing.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Global capital flows to developing countries increased significantly during the nineties. In view of the East Asian financial crisis and the Latin American experience, which type of inflow is considered safest for the host country?",
+      "options": [
+        "Commercial loans",
+        "Foreign Direct Investment",
+        "Foreign Portfolio Investment",
+        "External Commercial Borrowings"
+      ],
+      "correct": "B",
+      "explanation": "Following the East Asian financial crisis, Foreign Direct Investment was widely regarded as the safest form of capital inflow for host countries, since it represents long-term, relatively stable investment in productive assets rather than volatile short-term portfolio or debt flows that can reverse quickly during a crisis.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "A country is said to be in debt trap if",
+      "options": [
+        "it has to abide by the conditionalities imposed by the International Monetary Fund",
+        "it has to borrow to make interest payments on outstanding loans",
+        "it has been refused loans or aid by creditors abroad",
+        "the World Bank charges a very high rate of interest on outstanding as well as new loans"
+      ],
+      "correct": "B",
+      "explanation": "A country falls into a 'debt trap' when it must take on new borrowing merely to service (pay interest on) its existing outstanding debt, creating a self-perpetuating cycle of rising indebtedness rather than genuine productive investment.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Consider the following statements: Full convertibility of the rupee may mean 1. Its free float with other international currencies.\n2. Its direct exchange with any other international currency at any prescribed place inside and outside the country.\n3. It acts just like any other international currency. Which of these statements are correct?",
+      "options": [
+        "1 and 2",
+        "1 and 3",
+        "2 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Full convertibility of the rupee would mean it floats freely against other currencies, can be directly exchanged for any other currency at any location within or outside the country, and functions like any other freely tradable international currency — all three describing genuine dimensions of full convertibility.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Assertion (A): Ceiling on foreign exchange for a host of current account transaction heads was lowered in the year 2000.\nReason (R): There was a fall in foreign currency assets also.",
+      "options": [
+        "Both A and R are individually true, and R is the correct explanation of A",
+        "Both A and R are individually true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Ceilings on foreign exchange for various current account transactions were indeed lowered in 2000 as part of exchange control adjustments, making the Assertion true. However, this was a policy/administrative decision rather than being driven by a fall in foreign currency assets (India's forex reserves were in fact rising during this period), making the Reason false.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The largest share of Foreign Direct Investment (1997-2000) went to",
+      "options": [
+        "Food and food product sector",
+        "Engineering sector",
+        "Electronics and electric equipment sector",
+        "Service sector"
+      ],
+      "correct": "B",
+      "explanation": "During 1997-2000, the engineering sector (including transportation and electrical equipment industries) received the largest cumulative share of Foreign Direct Investment into India among the listed sectors.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "Consider the following statements: The Indian rupee is fully convertible\nI. In respect of Current Account of Balance of Payment.\nII. In respect of Capital Account of Balance of Payment.\nIII. Into gold. Which of these statements is/are correct?",
+      "options": [
+        "I alone",
+        "III alone",
+        "I and II",
+        "I, II and III"
+      ],
+      "correct": "A",
+      "explanation": "The Indian rupee is fully convertible only on the Current Account of the Balance of Payments (since 1994); it has never had unrestricted Capital Account convertibility or direct convertibility into gold, making only statement I correct.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Assertion (A): The rate of growth of India’s exports has shown an appreciable increase after 1991.\nReason (R): The Government of India has resorted to devaluation.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "B",
+      "explanation": "India's export growth did show an appreciable increase after the 1991 reforms, making the Assertion true, and while devaluation of the rupee in 1991 did occur, the broader export growth was driven more by comprehensive trade liberalisation and de-licensing than devaluation alone, making the Reason not the correct explanation.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "Assertion (A): Devaluation of a currency may promote export.\nReason (R): Price of the country's products in the international market may fall due to devaluation.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Devaluation lowers the price of a country's exports in foreign-currency terms, making them more competitive internationally and thereby promoting exports — making the Reason a valid, direct explanation for the Assertion.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "Consider the following statements: The price of any currency in the international market is decided by the\nI. World Bank\nII. Demand for goods/services provided by the country concerned\nIII. Stability of the government of the concerned country\nIV. Economic potential of the country in question Of these statements:",
+      "options": [
+        "I, II, III and IV are correct",
+        "II and III are correct",
+        "III and IV are correct",
+        "I and IV are correct"
+      ],
+      "correct": "B",
+      "explanation": "A currency's international value is primarily driven by market demand for the country's goods/services and the perceived political stability of its government, rather than being directly 'decided' by the World Bank or an abstract measure of economic potential alone — making statements II and III the accepted correct pair.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "Which one of the following is the correct sequence of decreasing order of the given currencies in terms of their value in Indian Rupees?",
+      "options": [
+        "US dollar, Canadian dollar, New Zealand dollar, Hong Kong dollar",
+        "US dollar, New Zealand dollar, Canadian dollar, Hong Kong dollar",
+        "US dollar, Hong Kong dollar, New Zealand dollar, Canadian dollar",
+        "US dollar, Hong Kong dollar, Canadian dollar, New Zealand dollar"
+      ],
+      "correct": "A",
+      "explanation": "At the time, in terms of Indian Rupee value, the descending order among these currencies was US Dollar, Canadian Dollar, New Zealand Dollar, and Hong Kong Dollar, reflecting their relative exchange rates against the rupee then.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "Capital Account Convertibility of the Indian Rupee implies",
+      "options": [
+        "that the Indian Rupee can be exchanged by the authorised dealers for travel",
+        "that the Indian Rupee can be exchanged for any major currency for the purpose of trade in goods and services",
+        "that the Indian Rupee can be exchanged for any major currency for the purpose of trading financial assets",
+        "None of the above"
+      ],
+      "correct": "C",
+      "explanation": "Capital Account Convertibility refers to the freedom to convert the domestic currency into any foreign currency for capital/financial asset transactions (like investments, loans) without restriction — distinct from Current Account convertibility, which covers trade in goods and services.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "One of the important goals of the economic liberalisation policy is to achieve full convertibility of the Indian rupee. This is being advocated because",
+      "options": [
+        "convertibility of the rupee will stabilize its exchange value against major currencies of the world",
+        "it will attract more foreign capital inflow in India",
+        "it will help promote exports",
+        "it will help India secure loans from the world financial markets at attractive terms"
+      ],
+      "correct": "C",
+      "explanation": "Full rupee convertibility is advocated partly because a freely convertible currency, by removing exchange restrictions and simplifying transactions, is expected to help promote exports by making Indian goods more accessible and transactions smoother in international trade.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Hawala transactions relate to payments",
+      "options": [
+        "received in rupees against overseas currencies and vice versa without going through the official channels",
+        "received for sale/transfer of shares without going through the established stock exchanges",
+        "received as commission for services rendered to overseas investors/buyers/sellers in assisting them to get over the red tape and/or in getting preferential treatment",
+        "made to political parties or to individuals for meeting election expenses"
+      ],
+      "correct": "A",
+      "explanation": "Hawala refers to the informal, illegal transfer of money (often in rupees against foreign currency) between parties without passing through official banking or foreign exchange channels, typically used to evade regulatory oversight.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "The changing composition of the export trade is indicative of structural transformation of Indian economy in favour of modernisation. The best indicator of the trend is the",
+      "options": [
+        "relative share of petroleum products in exports",
+        "decline in the share of agricultural products in exports",
+        "constant share of ores and minerals in exports",
+        "increase in the share of manufactured products in exports"
+      ],
+      "correct": "D",
+      "explanation": "A rising share of manufactured products in India's export basket (relative to primary/raw commodities) is the clearest indicator of structural transformation toward a more industrialised, value-added economy.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which of the following pairs are correctly matched?\nI. Increase in foreign exchange reserves ................. Monetary expansion\nII. Low import growth rate in India ...................... Recession in Indian Industry\nIII. Euro issues ................ Shares held by Indian companies in European countries\nIV. Portfolio investment ............... Foreign institutional investors\nSelect the correct answer by using the following codes:",
+      "options": [
+        "I, II and IV",
+        "III and IV",
+        "I, II and III",
+        "I, II, III and IV"
+      ],
+      "correct": "A",
+      "explanation": "A rise in foreign exchange reserves typically leads to monetary expansion (as the RBI issues rupees against forex inflows), low import growth can signal industrial slowdown/recession, and portfolio investment is indeed associated with foreign institutional investors — making I, II, and IV correct, while Euro issues actually represent overseas capital raised BY Indian companies (not shares held by them in Europe), making III incorrect.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}

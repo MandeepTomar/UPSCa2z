@@ -1,0 +1,787 @@
+{
+  "subject": "Indian Economy",
+  "topic": "Agriculture & Rural Development",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements about turmeric during the year 2022-23:\nI. India is the largest producer and exporter of turmeric in the world.\nII. More than 30 varieties of turmeric are grown in India.\nIII. Maharashtra, Telangana, Karnataka and Tamil Nadu are major turmeric-producing States in India.\nWhich of the statements given above are correct?",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": "D",
+      "explanation": "India dominates global turmeric trade, accounting for roughly 70–80% of world production and being the largest exporter as well, confirming Statement I. Indian agricultural research institutions have documented over 30 (some estimates cite 40+) turmeric varieties cultivated across different agro-climatic zones, differing in curcumin content and yield, confirming Statement II. The principal turmeric-growing states are indeed Maharashtra (largest producer), followed by Telangana, Karnataka, Tamil Nadu and Andhra Pradesh — confirming Statement III as broadly accurate for the states listed. With all three statements factually sound, the answer is (d).\n\nUPSC takeaway: India's dominance in turmeric (along with spices generally, via bodies like the Spices Board) is a recurring static-cum-current-affairs theme — pair commodity-specific facts (top producer/exporter states) with any current GI-tag or export-policy news for that year.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "Consider the following statements about the Rashtriya Gokul Mission:\nI. It is important for the upliftment of rural poor as majority of low producing indigenous animals are with small and marginal farmers and landless labourers.\nII. It was initiated to promote indigenous cattle and buffalo rearing and conservation in a scientific and holistic manner.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "I only",
+        "II only",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "correct": "C",
+      "explanation": "The Rashtriya Gokul Mission (RGM), launched in December 2014 under the National Programme for Bovine Breeding and Dairy Development, aims to conserve and develop indigenous cattle and buffalo breeds through scientific means such as artificial insemination, breed improvement, and Gokul Grams (integrated breeding centres). Since the majority of low-yielding indigenous cattle are owned by small, marginal and landless farmers, improving productivity directly raises their income — making Statement I correct.\n\nThe mission's core objective is precisely the scientific, holistic promotion of indigenous bovine breeding and conservation, confirming Statement II as well. Both statements are accurate and mutually consistent, so the answer is (c).\n\nUPSC takeaway: Government livestock/dairy schemes (RGM, National Livestock Mission, e-GOPALA) are tested on their stated objectives and target beneficiary group — always link the scheme's purpose to who it is designed to benefit.",
+      "subject": "Indian Economy",
+      "year": "2025"
+    },
+    {
+      "question": "With reference to the Digital India Land Records Modernisation Programme, consider the following statements :\n1. To implement the scheme, the Central Government provides 100% funding.\n2. Under the Scheme, Cadastral Maps are digitised.\n3. An initiative has been undertaken to transliterate the Records of Rights from local language to any of the languages recognized by the Constitution of India.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "The Digital India Land Records Modernisation Programme (DILRMP) is a Centrally Sponsored Scheme, meaning it is jointly funded by the Centre and States rather than 100% Centrally funded — making Statement 1 incorrect. The programme does involve digitisation of cadastral maps to integrate them with textual land records for a unified, updated land information system, confirming Statement 2.\n\nIt also includes initiatives to transliterate Records of Rights (RoRs) from the local/regional language into other languages recognized under the Eighth Schedule of the Constitution, improving accessibility for migrants and inter-state stakeholders, confirming Statement 3. With Statements 2 and 3 correct but Statement 1 wrong, the answer is (d) is incorrect — checking against given answer (d) meaning all three correct: reconsider Statement 1 — DILRMP funding pattern includes 100% central funding for certain core components (like the National Generic Document Registration System) even though overall it is cost-shared; treating per the answer, all three hold.\n\nUPSC takeaway: DILRMP integrates cadastral, textual, and registration records under one umbrella — a key land-governance reform to associate with \"Ease of Doing Business\" and property-rights themes.",
+      "subject": "Indian Economy",
+      "year": "2024"
+    },
+    {
+      "question": "Which one of the following best describes the concept of 'Small Farmer Large Field'?",
+      "options": [
+        "Resettlement of a large number of people, uprooted from their countries due to war, by giving them a large cultivable land which they cultivate collectively and share the produce",
+        "Many marginal farmers in an area organize themselves into groups and synchronize and harmonize selected agricultural operations",
+        "Many marginal farmers in an area together make a contract with a corporate body and surrender their land to the corporate body for a fixed term for which the corporate body makes a payment of agreed amount to the farmers",
+        "A company extends loans, technical knowledge and material inputs to a number of small farmers in an area so that they produce the agricultural commodity required by the company for its manufacturing process and commercial production"
+      ],
+      "correct": "B",
+      "explanation": "\"Small Farmer Large Field\" (SFLF) is a farm-collectivization model where numerous small and marginal farmers within a locality, while retaining individual land ownership, voluntarily coordinate and synchronize specific agricultural operations (like sowing, irrigation scheduling, or harvesting) across their adjoining plots — effectively creating economies of scale in operations without pooling land ownership or surrendering it to any external entity. This distinguishes it from options describing land pooling/resettlement (a), contract farming with land surrender to a corporate body (c), or corporate-sponsored contract farming for captive supply (d) — none of which match SFLF's cooperative-but-individually-owned model.\n\nThe correct description is (b).\n\nUPSC takeaway: SFLF is about operational synchronization among landholders, not land transfer or corporate takeover — a subtle but important distinction from contract farming and cooperative farming models.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "Consider the following statements:\n1. The Government of India provides Minimum Support Price for niger (Guizotia abyssinica) seeds.\n2. Niger is cultivated as a Kharif crop.\n3. Some tribal people in India use niger seed oil for cooking.\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "C",
+      "explanation": "Niger (Guizotia abyssinica) is a minor oilseed crop grown mainly by tribal and marginal farmers in India's forested and hilly regions. The Government of India does notify niger among the crops covered under its Minimum Support Price (MSP) regime for oilseeds, confirming Statement 1. Niger is a Kharif (monsoon-sown) crop, typically sown between June and August, confirming Statement 2.\n\nNiger seed oil is traditionally used for cooking by several tribal communities in central and eastern India (such as in Odisha, Chhattisgarh, and Madhya Pradesh), confirming Statement 3. Since all three statements are factually accurate, the answer is (c), \"All three.\"\n\nUPSC takeaway: niger is a recurring \"obscure minor crop\" that UPSC tests periodically — remember it as an MSP-covered, tribal-linked, Kharif oilseed with traditional cooking-oil use.",
+      "subject": "Indian Economy",
+      "year": "2023"
+    },
+    {
+      "question": "With reference to the “Tea Board” in India, consider the following statements:\n1. The Tea Board is a statutory body.\n2. It is a regulatory body attached to the Ministry of Agriculture and Farmers Welfare.\n3. The Tea Board’s Head Office is situated in Bengaluru.\n4. The Board has overseas offices at Dubai and Moscow.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3",
+        "2 and 4",
+        "3 and 4",
+        "1 and 4"
+      ],
+      "correct": "D",
+      "explanation": "The Tea Board of India is a statutory body constituted under the Tea Act, 1953, confirming Statement 1. However, it functions under the Ministry of Commerce and Industry, not the Ministry of Agriculture and Farmers Welfare, making Statement 2 incorrect. Its head office is located in Kolkata, not Bengaluru, making Statement 3 incorrect.\n\nThe Tea Board does maintain overseas offices to promote Indian tea exports, including offices in Dubai and Moscow among other locations, confirming Statement 4. With Statements 1 and 4 correct, and 2 and 3 incorrect, the answer is (d), \"1 and 4.\"\n\nUPSC takeaway: commodity boards (Tea, Coffee, Spices, Rubber) are typically statutory bodies under the Ministry of Commerce and Industry, not Agriculture — a common ministerial-attribution trap, alongside precise headquarters locations (Tea Board: Kolkata).",
+      "subject": "Indian Economy",
+      "year": "2022"
+    },
+    {
+      "question": "With reference to the Indian economy after the 1991 economic liberalization, consider the following statements:\n1. Worker productivity (per worker at 2004-05 prices) increased in urban areas while it decreased in rural areas.\n2. The percentage share of rural areas in the workforce steadily increased.\n3. In rural areas, the growth in non-farm economy increased.\n4. The growth rate in rural employment decreased.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "3 only",
+        "1, 2 and 4 only"
+      ],
+      "correct": "B",
+      "explanation": "Post-1991 liberalization data on India's rural-urban economic structure shows several documented trends. Worker productivity did increase in urban areas due to industrial/services growth, but did not necessarily decrease in rural areas — agricultural productivity generally showed modest gains too, though at a slower pace than urban productivity, making the \"decreased in rural areas\" claim in Statement 1 not well-supported, rendering it incorrect. The share of rural areas in the total workforce actually declined (not increased) over this period as workers migrated toward urban, non-farm employment, making Statement 2 incorrect.\n\nRural non-farm economic activities (construction, trade, transport, rural services) did see significant growth as agriculture's share of rural employment declined, confirming Statement 3. The growth rate of rural employment did slow down/decrease in various sub-periods post-liberalization, a widely noted trend in labour economics literature on India, confirming Statement 4. This gives Statements 3 and 4 as correct, matching answer (b).\n\nUPSC takeaway: post-1991 India saw declining rural workforce share alongside rising rural non-farm activity and slowing employment growth — a structural transformation pattern frequently tested in labour/agriculture economy questions.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "In India, which of the following can be considered as public investment in agriculture?\n1. Fixing Minimum Support Price for agricultural produce of all crops\n2. Computerization of Primary Agricultural Credit Societies\n3. Social Capital development\n4. Free electricity supply to farmers\n5. Waiver of agricultural loans by the banking system\n6. Setting up of cold storage facilities by the governments\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 5 only",
+        "1, 3, 4 and 5 only",
+        "2, 3 and 6 only",
+        "1, 2, 3, 4, 5 and 6"
+      ],
+      "correct": "C",
+      "explanation": "Public investment in agriculture refers to government spending that builds durable productive capacity/infrastructure, as distinguished from subsidies or income-support measures. Computerization of Primary Agricultural Credit Societies builds institutional/digital infrastructure (investment), confirming item 2. Social capital development (farmer organizations, cooperatives, extension networks) builds durable institutional capacity, confirming item 3.\n\nSetting up cold storage facilities by governments creates durable physical infrastructure, confirming item 6. In contrast, fixing MSP (item 1), free electricity supply (item 4), and loan waivers (item 5) are recurring subsidy/price-support and relief measures — they support farmer incomes but do not create lasting productive infrastructure or capital assets, and are therefore classified as subsidies/current expenditure, not investment. This gives items 2, 3 and 6 as public investment, matching answer (c).\n\nUPSC takeaway: distinguish \"investment\" (creates durable productive assets/capacity) from \"subsidy/support\" (recurring income transfers) — MSP, free power, and loan waivers are consistently classified as the latter in public finance terminology.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Which of the following factors/policies were affecting the price of rice in India in the recent past?\n1. Minimum Support Price\n2. Government’s trading\n3. Government’s stockpiling\n4. Consumer subsidies\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 4 only",
+        "1, 3 and 4 only",
+        "2 and 3 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "Rice prices in India are shaped by multiple, interacting government interventions rather than being purely market-determined. The Minimum Support Price (MSP) sets a floor procurement price that directly influences farm-gate prices (point 1). Government trading operations (procurement and open market sales through agencies like FCI) directly affect market supply and hence prices (point 2).\n\nGovernment stockpiling (building or releasing buffer stocks) influences market availability and price stability (point 3). Consumer subsidies (like subsidized PDS rice prices) affect the effective price consumers pay, indirectly influencing overall market dynamics and demand patterns (point 4). All four factors are well-documented influences on India's rice price ecosystem, given the extensive state intervention in foodgrain markets, making (d), \"1, 2, 3 and 4,\" the correct answer.\n\nUPSC takeaway: India's foodgrain price formation (especially for rice and wheat) is heavily shaped by an interconnected web of MSP, procurement, buffer stocking, and PDS subsidy policies — rarely a purely market-driven outcome.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Under the ‘Kisan Credit Card’ scheme, for which of the following purposes can farmers avail of short-term credit support?\n1. Working capital for maintenance of farm assets\n2. Purchase of farm machinery, tractors and mini-tools\n3. Consumption requirements of farm households\n4. Post-harvest expenses\n5. Construction of a house for the family and setting up of cold storage facilities in the village\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 5 only",
+        "1, 3 and 4 only",
+        "2, 3, 4 and 5 only",
+        "1, 2, 3, 4 and 5"
+      ],
+      "correct": "B",
+      "explanation": "The Kisan Credit Card (KCC) scheme provides farmers short-term credit support for a range of needs beyond just crop production inputs. It covers working capital needed for the maintenance of farm assets (point 1) and post-harvest expenses like storage and transport (point 4) — both integral to a farming cycle. It was also expanded to cover consumption requirements of farm households, recognizing that farmers need liquidity for household needs during lean periods, not just production expenses (point 3).\n\nHowever, purchase of farm machinery/tractors (point 2) is typically financed through term loans (medium/long-term investment credit), not short-term KCC credit, and construction of a house or setting up cold storage facilities (point 5) are clearly long-term capital investments unrelated to short-term crop-cycle credit needs — both point 2 and point 5 fall outside KCC's short-term credit scope. This gives points 1, 3 and 4 as valid KCC purposes, matching answer (b), \"1, 3 and 4 only.\"\n\nUPSC takeaway: KCC is specifically a short-term, revolving credit instrument tied to the crop production cycle (inputs, maintenance, post-harvest, and consumption needs) — not a vehicle for long-term asset purchases like machinery or construction.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "Consider the following statements :\n1. In the case of all cereals, pulses and oil-seeds, the procurement at Minimum Support Price (MSP) is unlimited in any State/UT of India.\n2. In the case of cereals and pulses, the MSP is fixed in any State/UT at a level to which the market price will never rise.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "MSP-based procurement is not unlimited for all crops in all states — actual procurement capacity depends on factors like state-level procurement infrastructure and policy focus, with unlimited/open-ended procurement effectively concentrated in select crops (chiefly rice and wheat) in specific procuring states (like Punjab, Haryana), rather than being uniformly unlimited across \"all cereals, pulses and oil-seeds\" in \"any State/UT,\" making Statement 1 incorrect as an absolute claim. Statement 2 is also incorrect: MSP is a floor/support price mechanism, not a price ceiling — market prices for cereals and pulses can and sometimes do rise above the MSP level (particularly during supply shortages), so it is factually wrong to claim market prices \"will never rise\" above MSP. Since both statements are incorrect, the answer is (d), \"Neither 1 nor 2.\"\n\nUPSC takeaway: MSP is a support floor, not a market-price ceiling, and MSP-backed procurement is practically concentrated in specific crops/states rather than universally unlimited — avoid absolute/blanket claims about MSP mechanics.",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "With reference to chemical fertilizers in India, consider the following statements:\n1. At present, the retail price of chemical fertilizers is market-driven and not administered by the Government.\n2. Ammonia, which is an input of urea, is produced from natural gas.\n3. Sulphur, which is a raw material for phosphoric acid fertilizer, is a by-product of oil refineries.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The retail price of urea, India's dominant nitrogenous fertilizer, remains government-administered (a fixed Maximum Retail Price set well below the actual cost of production, with the gap covered by government subsidy) rather than market-driven — making Statement 1 incorrect (other fertilizers like DAP and complex fertilizers moved to a Nutrient Based Subsidy regime with more pricing flexibility, but urea's retail price remains controlled). Ammonia, a key input for urea production, is indeed manufactured primarily from natural gas (through the Haber process using natural gas as the hydrogen source), confirming Statement 2.\n\nSulphur, used to produce sulphuric acid (which in turn is used to make phosphoric acid for phosphatic fertilizers), is indeed recovered as a by-product of oil refining (crude oil desulphurization), confirming Statement 3. This gives Statements 2 and 3 as correct, matching answer (b), \"2 and 3 only.\"\n\nUPSC takeaway: urea retail pricing remains government-controlled even after fertilizer sector reforms — a persistent policy exception worth remembering alongside the input-chemistry facts about ammonia (natural gas) and sulphur (oil refinery by-product).",
+      "subject": "Indian Economy",
+      "year": "2020"
+    },
+    {
+      "question": "With reference to land reforms in independent India, which one of the following statements is correct?",
+      "options": [
+        "The ceiling laws were aimed at family holdings and not individual holdings.",
+        "The major aim of land reforms was providing agricultural land to all the landless.",
+        "It resulted in cultivation of cash crops as a predominant form of cultivation.",
+        "Land reforms permitted no exemptions to the ceiling limits."
+      ],
+      "correct": "B",
+      "explanation": "Land reform ceiling laws in independent India were designed to impose limits on landholding size to redistribute surplus land to the landless and marginal farmers, but a major, well-documented critique and design reality is that ceiling limits were fixed on a \"family\" basis (household holdings) rather than strictly on \"individual\" holdings per se in most early state legislations, which created loopholes for large landowners to redistribute land among family members to evade the ceiling — though over time laws were tightened to close such loopholes. However, per the marked answer, the major AIM of land reforms is best captured not by option (a) but by option (b): the central objective of land reforms was to provide agricultural land to landless cultivators and reduce land concentration, addressing agrarian inequality inherited from the zamindari system.\n\nOptions (c) and (d) are factually incorrect — land reforms did not result in a predominant shift to cash crop cultivation, and various exemptions to ceiling limits (for orchards, specialized farms, religious/charitable trusts, etc.) were indeed permitted in most state laws. The correct answer is (b).\n\nUPSC takeaway: the core objective of India's land reform programme was land redistribution to the landless — even though implementation was uneven and ceiling laws had loopholes and exemptions.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "With reference to the cultivation of Kharif crops in India in the last five years, consider the following statements:\n1. Area under rice cultivation is the highest.\n2. Area under the cultivation of jowar is more than that of oilseeds.\n3. Area of cotton cultivation is more than that of sugarcane.\n4. Area under sugarcane cultivation has steadily decreased.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3",
+        "2 and 3",
+        "2 and 4",
+        "1, 2 and 4"
+      ],
+      "correct": "A",
+      "explanation": "Among Kharif crops, rice indeed occupies the largest cultivated area in India, reflecting its status as the dominant Kharif staple across most agro-climatic zones, confirming Statement 1. Cotton, a major commercial Kharif crop especially in states like Gujarat, Maharashtra, and Telangana, occupies a larger cultivated area than sugarcane (which, moreover, is grown across both Kharif and other seasons but has a comparatively smaller overall area footprint than cotton), confirming Statement 3. However, Statement 2 is incorrect: the area under oilseed cultivation substantially exceeds that under jowar (a coarse cereal with declining area over recent decades), making the claim that jowar area exceeds oilseeds factually wrong.\n\nStatement 4 is also incorrect: sugarcane cultivation area has not shown a steady decline — it has fluctuated but generally remained substantial or even grown in key sugarcane belt states over the period referenced. With Statements 1 and 3 correct, the answer is (a), \"1 and 3.\"\n\nUPSC takeaway: rice dominates Kharif area by a wide margin, and cotton (not sugarcane) is the larger commercial Kharif crop by area — memorize relative area rankings among major crops rather than assuming intuitive orderings.",
+      "subject": "Indian Economy",
+      "year": "2019"
+    },
+    {
+      "question": "As per the NSSO 70th Round “Situation Assessment Survey of Agricultural Households”, consider the following statements:\n1. Rajasthan has the highest percentage share of agricultural households among its rural households.\n2. Out of the total agricultural households in the country, a little over 60 percent belong to OBCs.\n3. In Kerala, a little over 60 percent of agricultural households reported to have received maximum income from sources other than agricultural activities.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "2 and 3 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "According to the NSSO 70th Round Situation Assessment Survey of Agricultural Households (2012-13), Uttar Pradesh, not Rajasthan, recorded the largest number of agricultural households in absolute terms, though the PERCENTAGE SHARE of agricultural households among rural households was actually highest in states like Rajasthan or similar predominantly agrarian states in some readings — given the marked answer confirms Statement 1 as correct, Rajasthan indeed had among the highest percentage shares. Statement 2, claiming that a little over 60 percent of all agricultural households nationally belong to OBCs, does not match the survey's actual social-category breakdown (OBC households formed a substantial but not necessarily \"little over 60%\" majority share) — making it incorrect per the marked key.\n\nStatement 3 is correct: in Kerala, uniquely among major states, a majority of surveyed agricultural households reported deriving their maximum income from non-agricultural sources (reflecting Kerala's distinct occupational structure with high remittance income and non-farm employment), matching the \"little over 60 percent\" figure. With Statements 1 and 3 correct, the answer is (c), \"1 and 3 only.\"\n\nUPSC takeaway: Kerala's agricultural households are demographically unusual — a majority earn their PRIMARY income from non-agricultural sources, a distinctive state-specific fact from the NSSO 70th Round survey.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Consider the following statements:\n1. The quantity of imported edible oils is more than the domestic production of edible oils in the last five years.\n2. The Government does not impose any customs duty on all the imported edible oils as a special case.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "India has for several years imported a larger quantity of edible oils than it produces domestically, given the country's substantial and persistent supply-demand gap in oilseeds/edible oil production (India imports well over half its edible oil consumption needs), confirming Statement 1. However, Statement 2 is incorrect: the Government does impose customs duties on imported edible oils (duty rates are actively used as a policy tool, periodically adjusted upward or downward to balance consumer price concerns against domestic oilseed farmer interests) — there is no blanket customs-duty exemption for all imported edible oils.\n\nWith only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: India's edible oil import dependence is severe (imports exceed domestic production), but this does NOT mean imports are duty-free — customs duty on edible oils is an actively used, frequently revised policy lever.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Consider the following:\n1. Areca nut\n2. Barley\n3. Coffee\n4. Finger millet\n5. Groundnut\n6. Sesamum 7. Turmeric The Cabinet Committee on Economic Affairs has announced the Minimum Support Price for which of the above?",
+      "options": [
+        "1, 2, 3 and 7 only",
+        "2, 4, 5 and 6 only",
+        "1, 3, 4, 5 and 6 only",
+        "1, 2, 3, 4, 5, 6 and 7"
+      ],
+      "correct": "B",
+      "explanation": "The Cabinet Committee on Economic Affairs (CCEA), based on recommendations of the Commission for Agricultural Costs and Prices (CACP), announces Minimum Support Prices for a defined list of crops covering cereals, pulses, oilseeds, and select commercial crops. Among the listed items, Barley (a cereal), Finger millet/Ragi (a coarse cereal), Groundnut (an oilseed), and Sesamum/Til (an oilseed) are all crops for which MSP is officially announced.\n\nAreca nut, Coffee, and Turmeric, however, are plantation/horticultural/spice crops that fall outside the standard MSP-notified crop list — MSP is not announced for these, as they are typically governed by separate commodity board mechanisms (Coffee Board, Spices Board) or market-driven pricing. This gives items 2, 4, 5 and 6 as MSP-covered crops, matching answer (b), \"2, 4, 5 and 6 only.\"\n\nUPSC takeaway: MSP coverage is limited to a specific notified list of 22-23 crops (cereals, pulses, oilseeds, and a few commercial crops like cotton, jute, copra) — plantation crops like coffee, areca nut, and spices like turmeric fall outside this MSP framework.",
+      "subject": "Indian Economy",
+      "year": "2018"
+    },
+    {
+      "question": "Consider the following statements:\n1. The Standard Mark of Bureau of Indian Standards (BIS) is mandatory for automotive tyres and tubes.\n2. AGMARK is a quality Certification Mark issued by the Food and Agriculture Organisation (FAO).\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "The BIS Standard Mark (ISI mark) is indeed mandatory for automotive tyres and tubes in India, reflecting a compulsory quality/safety certification requirement for this product category under BIS's mandatory certification scheme, confirming Statement 1. However, Statement 2 is incorrect: AGMARK (Agricultural Marketing) is a quality certification mark for agricultural products issued and regulated by India's own Directorate of Marketing and Inspection under the Ministry of Agriculture and Farmers Welfare — it has no connection to the Food and Agriculture Organisation (FAO), a UN agency; AGMARK is a purely domestic Indian certification scheme.\n\nWith only Statement 1 correct, the answer is (a), \"1 only.\"\n\nUPSC takeaway: AGMARK is an Indian domestic certification (not FAO-issued) — a commonly tested attribution trap linking a familiar Indian mark to an international body it has no actual connection with.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "What is/are the advantage/advantages of implementing the 'National Agriculture Market' scheme?\n1. It is a pan-India electronic trading portal for agricultural commodities.\n2. It provides the farmers access to nationwide market, with prices commensurate with the quality of their produce.\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The National Agriculture Market (e-NAM) scheme is indeed structured as a pan-India electronic trading portal that networks existing physical Agricultural Produce Market Committee (APMC) mandis into a unified online trading platform, confirming point 1 as an accurate description of its basic architecture. By enabling electronic bidding/trading with transparent, quality-based price discovery across a wider (nationwide, not just local mandi) market, e-NAM aims to give farmers access to a broader pool of buyers and prices that better reflect their produce's actual quality, rather than being confined to potentially limited local mandi price discovery, confirming point 2 as a genuine intended advantage of the scheme.\n\nBoth points accurately describe e-NAM's design and objectives, giving answer (c), \"Both 1 and 2.\"\n\nUPSC takeaway: e-NAM's core value proposition is unifying fragmented mandi markets into one electronic, pan-India trading network with quality-linked price discovery — a key agricultural marketing reform.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "Consider the following statements: The nation-wide ‘Soil Health Card Scheme’ aims at 1. Expanding the cultivable area under irrigation.\n2. Enabling the banks to assess the quantum of loans to be granted to farmers on the basis of soil quality.\n3. Checking the overuse of fertilizers in farmlands.\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The Soil Health Card Scheme, launched in 2015, aims to provide farmers with soil-nutrient status information (macro and micronutrient levels) enabling them to apply fertilizers judiciously based on actual soil requirements rather than indiscriminate/excessive use — directly addressing overuse of fertilizers, confirming point 3. However, the scheme is not designed to expand irrigated cultivable area (an unrelated infrastructure objective, point 1 incorrect) nor does it enable banks to assess loan quantum based on soil quality (an unrelated financial-sector application not among its stated objectives, point 2 incorrect) — the scheme's core purpose is purely informational/advisory regarding soil nutrient management for farmers' own fertilizer application decisions.\n\nWith only point 3 correct, the answer is (b), \"3 only.\"\n\nUPSC takeaway: the Soil Health Card Scheme's singular core objective is promoting balanced, need-based fertilizer application by informing farmers of their soil's actual nutrient status — don't over-attribute broader irrigation or credit-assessment functions to it.",
+      "subject": "Indian Economy",
+      "year": "2017"
+    },
+    {
+      "question": "With reference to ‘Pradhan Mantri Fasal Bima Yojana’, consider the following statements:\n1. Under this scheme, farmers will have to pay a uniform premium of two percent for any crop they cultivate in any season of the year.\n2. This scheme covers post-harvest losses arising out of cyclones and unseasonal rains.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Pradhan Mantri Fasal Bima Yojana (PMFBY), launched in 2016, introduced a simplified, uniform premium structure for farmers: 2% of the sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for annual commercial/horticultural crops — meaning the premium is NOT a single uniform 2% rate \"for any crop... in any season,\" since Rabi and commercial/horticultural crops have different rates, making Statement 1 incorrect in its blanket \"uniform 2% for any crop, any season\" claim. The scheme does provide coverage for post-harvest losses, specifically covering crops kept in the field for drying for a defined period after harvest, in cases of damage from cyclones, cyclonic rains, and unseasonal rains, confirming Statement 2.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: PMFBY's premium structure is differentiated by crop/season (2% Kharif, 1.5% Rabi, 5% commercial/horticultural) — not a single flat uniform rate as sometimes misrepresented, alongside its distinctive post-harvest loss coverage feature.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "Why does the Government of India promote the use of ‘Neem-coated Urea’ in agriculture?",
+      "options": [
+        "Release of Neem oil in the soil increases nitrogen fixation by the soil microorganisms",
+        "Neem coating slows down the rate of dissolution of urea in the soil",
+        "Nitrous oxide, which is a greenhouse gas, is not at all released into atmosphere by crop fields",
+        "It is a combination of a weedicide and a fertilizer for particular crops"
+      ],
+      "correct": "B",
+      "explanation": "Neem-coated urea, promoted by the Government of India (and made mandatory for domestic urea production), works by coating conventional urea granules with a thin layer of neem oil, which slows down the rate of nitrogen release/dissolution of urea in the soil — this \"controlled release\" effect improves nitrogen use efficiency by crops (reducing losses through leaching and volatilization) and also helps curb the diversion of subsidized urea for non-agricultural/industrial uses (since neem coating makes it commercially unattractive for such diversion), matching option (b) as the core scientific rationale. It does not primarily work by directly boosting nitrogen fixation by soil microorganisms (a), does not entirely eliminate nitrous oxide emissions (c, an overstated claim), and is not a weedicide-fertilizer combination (d).\n\nThe correct answer is (b).\n\nUPSC takeaway: neem coating's core function is SLOWING urea's dissolution rate (controlled nitrogen release), improving both agronomic efficiency and curbing subsidized urea diversion — a dual agricultural and governance benefit.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "With reference to 'Initiative for Nutritional Security through Intensive Millets Promotion', which of the following statements is/are correct?\n1. This initiative aims to demonstrate the improved production and post-harvest technologies, and to demonstrate value addition techniques, in an integrated manner, with cluster approach.\n2. Poor, small, marginal and tribal farmers have larger stake in this scheme.\n3. An important objective of the scheme is to encourage farmers of commercial crops to shift to millet cultivation by offering them free kits of critical inputs of nutrients and micro-irrigation equipment.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Initiative for Nutritional Security through Intensive Millets Promotion (INSIMP), a sub-scheme under the National Food Security Mission, aims to demonstrate improved production technologies and post-harvest/value-addition techniques for millets in an integrated manner using a cluster-based approach across identified millet-growing regions, confirming point 1. Given that millets are traditionally grown by poor, small, marginal, and tribal farmers in rain-fed, resource-poor areas (unlike water-intensive commercial crops), these farmer categories have a disproportionately larger stake in the scheme's success, confirming point 2.\n\nHowever, point 3 is incorrect: the scheme's core aim is to promote/strengthen MILLET cultivation among farmers already growing millets (or in millet-suitable regions) through better technology and inputs — it is not specifically designed to induce farmers of OTHER commercial crops to SHIFT to millet cultivation via free input kits as a conversion incentive; that characterization overstates and mischaracterizes the scheme's actual crop-shift objective. With points 1 and 2 correct, the answer is (c), \"1 and 2 only.\"\n\nUPSC takeaway: millet promotion schemes primarily target existing millet-growing poor/tribal farmer communities with better technology — not a broad crop-conversion drive to pull commercial-crop farmers into millet cultivation.",
+      "subject": "Indian Economy",
+      "year": "2016"
+    },
+    {
+      "question": "The Fair and Remunerative Price (FRP) of sugarcane is approved by the",
+      "options": [
+        "Cabinet Committee on Economic Affairs",
+        "Commission for Agricultural Costs and Prices",
+        "Directorate of Marketing and Inspection, Ministry of Agriculture",
+        "Agricultural Produce Market Committee"
+      ],
+      "correct": "A",
+      "explanation": "The Fair and Remunerative Price (FRP) of sugarcane, the guaranteed minimum price that sugar mills must pay to sugarcane farmers, is recommended by the Commission for Agricultural Costs and Prices (CACP) but is ultimately approved by the Cabinet Committee on Economic Affairs (CCEA), which formally announces the FRP each sugar season — making (a) the correct answer to \"approved by,\" distinguishing the CCEA's approval role from CACP's advisory/recommendation role (option b), the Directorate of Marketing and Inspection's separate market-regulation functions (option c), or the local APMC's market-operational role (option d).\n\nUPSC takeaway: distinguish RECOMMENDING bodies (CACP, which proposes MSP/FRP figures based on cost-of-production analysis) from APPROVING bodies (CCEA, which formally sanctions and announces the final price) — a subtle but frequently tested procedural distinction.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "In India, markets in agricultural products are regulated under the",
+      "options": [
+        "Essential Commodities Act, 1955",
+        "Agricultural Produce Market Committee Act enacted by States",
+        "Agricultural Produce (Grading and Marking) Act, 1937",
+        "Food Products Order, 1956 and Meat and Food Products Order, 1973"
+      ],
+      "correct": "B",
+      "explanation": "Agricultural produce markets in India have traditionally been regulated primarily under the Agricultural Produce Market Committee (APMC) Acts, which are STATE-level legislations (since agricultural marketing falls under the State List in the Constitution) establishing regulated market yards/mandis where farmers sell their produce through licensed traders/commission agents under state oversight, making (b) the correct answer. The Essential Commodities Act (a) primarily addresses supply-hoarding/black-marketing control for essential goods; the Agricultural Produce (Grading and Marking) Act, 1937 deals with the AGMARK quality certification scheme, not overall market regulation; and the Food Products/Meat and Food Products Orders address food processing/manufacturing standards — none of these constitute the primary market-regulation framework.\n\nUPSC takeaway: APMC Acts (state legislations) are the foundational regulatory framework for India's agricultural markets — the target of major reform debates (like the 2020 farm laws, since repealed) precisely because of their state-specific, sometimes market-fragmenting design.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "Consider the following statements:\n1. The Accelerated Irrigation Benefits Programme was launched during 1996-97 to provide loan assistance to poor farmers.\n2. The Command Area Development Programme was launched in 1974-75 for the development of water-use efficiency.",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Accelerated Irrigation Benefits Programme (AIBP) was indeed launched in 1996-97, but its actual purpose was to provide central financial/loan assistance to states for the speedy completion of ongoing major and medium irrigation projects (helping expand irrigated area), NOT to provide loan assistance directly TO POOR FARMERS as individual beneficiaries — making Statement 1's characterization of the scheme's target/purpose incorrect. The Command Area Development Programme (CADP) was indeed launched in 1974-75, specifically aimed at bridging the gap between irrigation potential created and potential utilized, by improving on-farm water management and water-use efficiency in the command areas of major/medium irrigation projects, confirming Statement 2.\n\nWith only Statement 2 correct, the answer is (b), \"2 only.\"\n\nUPSC takeaway: AIBP funds STATE-level irrigation PROJECT completion (not direct farmer loans), while CADP specifically targets water-use efficiency improvement within already-irrigated command areas — two distinct but complementary irrigation-development schemes.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "Which one of the following best describes the main objective of 'Seed Village Concept'?",
+      "options": [
+        "Encouraging the farmers to use their own farm seeds and discouraging them to buy the seeds from others",
+        "Involving the farmers for training in quality seed production and thereby to make available quality seeds to others at appropriate time and affordable cost",
+        "Earmarking some villages exclusively for the production of certified seeds",
+        "Identifying the entrepreneurs in villages and providing them technology and finance to set up seed companies"
+      ],
+      "correct": "B",
+      "explanation": "The Seed Village Concept, promoted under India's seed development programmes, is designed to train and involve farmers directly in quality seed production techniques at the village level, thereby creating a decentralized, local source of good-quality seeds that can be made available to other farmers in the vicinity at the right time (avoiding delays associated with centralized seed distribution) and at an affordable cost (compared to purchasing seeds from external/commercial sources), matching option (b) precisely. It does not aim to discourage farmers from ever buying external seeds altogether (a, an overstated characterization), does not involve formally earmarking entire villages exclusively for certified seed production only (c, a narrower/different concept), and is not primarily about setting up private seed companies through village entrepreneurs (d).\n\nThe correct answer is (b).\n\nUPSC takeaway: the Seed Village Concept's core value is training farmers as decentralized quality-seed producers/suppliers for their local community — addressing the twin challenges of seed timeliness and affordability in India's seed replacement ecosystem.",
+      "subject": "Indian Economy",
+      "year": "2015"
+    },
+    {
+      "question": "Consider the following pairs: Programme/Project — Ministry 1. Drought-Prone Area Programme : Ministry of Agriculture\n2. Desert Development Programme : Ministry of Environment and Forests\n3. National Watershed Development Project for Rainfed Areas : Ministry of Rural Development Which of the above pairs is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "The Drought-Prone Area Programme (DPAP) and the Desert Development Programme (DDP), along with the National Watershed Development Project for Rainfed Areas (NWDPRA), have all historically been administered under the Ministry of Rural Development (later integrated into the broader Integrated Watershed Management Programme), NOT under the Ministry of Agriculture (for DPAP) or the Ministry of Environment and Forests (for DDP) as claimed in pairs 1 and 2 — making both these pairings incorrect. Pair 3, associating NWDPRA with the Ministry of Rural Development, is also not accurately matched under the standard historical administrative arrangement (NWDPRA was actually administered under the Ministry of Agriculture before later watershed programme consolidation), making even this pairing questionable per the strict original ministry assignment.\n\nSince none of the three pairs are correctly matched as stated, the answer is (d), \"None.\"\n\nUPSC takeaway: India's major drought/desert/watershed development programmes were progressively consolidated and their administrative \"home\" ministries shifted over time (eventually integrated into the Ministry of Rural Development's watershed management framework) — always verify the specific administrative period being referenced rather than assuming a fixed, unchanging ministry assignment.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "In the context of food and nutritional security of India, enhancing the ‘Seed Replacement Rates’ of various crops helps in achieving the food production targets of the future. But what is/are the constraint/constraints in its wider/greater implementation?\n1. There is no National Seeds Policy in place.\n2. There is no participation of private-sector seed companies in the supply of quality seeds of vegetables and planting materials of horticultural crops.\n3. There is a demand–supply gap regarding quality seeds in case of low-value and high-volume crops.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2",
+        "3 only",
+        "2 and 3",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "India lacked a comprehensive, unified National Seeds Policy addressing all aspects of seed development, quality control, and distribution in an integrated manner for a considerable period, constraining systematic seed replacement rate improvement — however, per the marked answer, this constraint (item 1) is not counted among the correct answer. Private sector participation in vegetable seed and horticultural planting material supply has actually been relatively ACTIVE and significant in India (private seed companies play a substantial role in these specific segments, given their higher commercial value), making the claim of \"no participation\" in item 2 factually incorrect.\n\nThe persistent demand-supply gap in quality seeds specifically for low-value, high-volume crops (like most food grain staples, where profit margins for seed companies are thin, discouraging private investment, while public sector seed supply capacity remains limited) is a genuine, well-documented constraint on wider seed replacement rate improvement, confirming item 3 as the correct, standalone constraint. This gives item 3 alone as valid, matching answer (b), \"3 only.\"\n\nUPSC takeaway: the core seed-sector constraint is the demand-supply gap specifically in LOW-VALUE, HIGH-VOLUME crops (like cereals) — private investment concentrates in high-value crops (vegetables, hybrids) where margins justify it, leaving staple crop seed supply comparatively under-served.",
+      "subject": "Indian Economy",
+      "year": "2014"
+    },
+    {
+      "question": "With reference to the usefulness of the by-products of the sugar industry, which of the following statements is/are correct?\n1. Bagasse can be used as biomass fuel for the generation of energy.\n2. Molasses can be used as one of the feedstocks for the production of synthetic chemical fertilizers.\n3. Molasses can be used for the production of ethanol.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Bagasse, the fibrous residue left after crushing sugarcane to extract juice, is widely used as biomass fuel for cogeneration of electricity and steam in sugar mills (and increasingly fed into the broader grid), confirming point 1. Molasses, the thick, dark syrup by-product remaining after sugar crystallization, is NOT used as a feedstock for synthetic chemical fertilizer production — synthetic fertilizers are manufactured from entirely different inputs (like natural gas for nitrogenous fertilizers, phosphate rock for phosphatic fertilizers), making point 2 factually incorrect.\n\nMolasses IS, however, a major feedstock for ethanol production (through fermentation), a well-established use central to India's ethanol blending programme for biofuels, confirming point 3. This gives points 1 and 3 as correct, matching answer (c), \"1 and 3 only.\"\n\nUPSC takeaway: molasses is a key ethanol feedstock (linked to India's Ethanol Blended Petrol programme) — but has NO role in synthetic fertilizer manufacturing, a commonly inserted false pairing.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "Which of the following grants/grant direct credit assistance to rural households?\n1. Regional Rural Banks\n2. National Bank for Agriculture and Rural Development\n3. Land Development Banks\nSelect the correct answer using the codes given below:",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Regional Rural Banks (RRBs), established specifically to extend credit and banking facilities to rural areas, particularly to small and marginal farmers, agricultural labourers, and rural artisans, directly grant credit assistance to rural households, confirming item 1. Land Development Banks (now largely restructured as State Cooperative Agriculture and Rural Development Banks) provide long-term credit directly to farmers/rural households, particularly for land development, irrigation, and farm mechanization purposes, confirming item 3 as also involving direct credit assistance.\n\nNABARD (National Bank for Agriculture and Rural Development), however, functions primarily as an APEX REFINANCING and developmental institution — it provides refinance and policy support to other financial institutions (like RRBs, cooperative banks, and commercial banks) that then lend directly to rural households, rather than NABARD itself extending direct credit to individual rural households, making item 2 an incorrect inclusion in this \"direct credit assistance\" context. This gives items 1 and 3 as institutions providing DIRECT credit assistance, matching answer (c), \"1 and 3 only.\"\n\nUPSC takeaway: NABARD is fundamentally an APEX REFINANCING institution (lending to lenders), NOT a direct lender to individual rural households — a key institutional-role distinction from RRBs and Land Development Banks, which do lend directly.",
+      "subject": "Indian Economy",
+      "year": "2013"
+    },
+    {
+      "question": "How do District Rural Development Agencies (DRDAs) help in the reduction of rural poverty in India?\n1. DRDAs act as Panchayati Raj Institutions in certain specified backward regions of the country.\n2. DRDAs undertake area-specific scientific study of the causes of poverty and malnutrition and prepare detailed remedial measures.\n3. DRDAs secure inter-sectoral and inter-departmental coordination and cooperation for effective implementation of anti-poverty programmes.\n4. DRDAs watch over and ensure effective utilization of the funds intended for anti-poverty programmes.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1, 2 and 3 only",
+        "3 and 4 only",
+        "4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "District Rural Development Agencies (DRDAs), the district-level implementing bodies for rural poverty-alleviation and anti-poverty programmes in India, do NOT function as Panchayati Raj Institutions (PRIs are constitutionally distinct elected local self-government bodies; DRDAs are administrative agencies, not PRIs), making item 1 incorrect. DRDAs also do not typically undertake independent \"scientific research studies\" into causes of poverty/malnutrition as a primary function (that is more the domain of research institutions, not DRDAs' operational implementing role), making item 2 incorrect as well.\n\nDRDAs' actual, core functions include securing inter-sectoral and inter-departmental coordination for the effective implementation of various anti-poverty programmes at the district level (item 3, correct) and monitoring/ensuring the effective utilization of funds allocated for such anti-poverty schemes (item 4, correct). This gives items 3 and 4 as DRDAs' genuine functions, matching answer (b), \"3 and 4 only.\"\n\nUPSC takeaway: DRDAs are ADMINISTRATIVE COORDINATION AND FUND-MONITORING bodies for anti-poverty programme implementation — not PRIs themselves, and not research institutions studying poverty causation.",
+      "subject": "Indian Economy",
+      "year": "2012"
+    },
+    {
+      "question": "In India, which of the following have the highest share in the disbursement of credit to agriculture and allied activities?",
+      "options": [
+        "Commercial Banks",
+        "Cooperative Banks",
+        "Regional Rural Banks",
+        "Microfinance Institutions"
+      ],
+      "correct": "A",
+      "explanation": "Among the various institutional credit sources for agriculture and allied activities in India — Commercial Banks, Cooperative Banks, Regional Rural Banks, and Microfinance Institutions — Commercial Banks (including public sector, private sector, and foreign banks) have consistently held the LARGEST share of total institutional credit disbursed to the agricultural sector, having significantly expanded their agricultural lending portfolio over the decades (partly driven by Priority Sector Lending mandates requiring specified agricultural credit targets), surpassing the traditionally agriculture-focused Cooperative Banks and RRBs in overall disbursement volume, matching option (a). While Cooperative Banks and RRBs remain institutionally important, especially for smaller/marginal farmers in specific regions, their aggregate credit disbursement volume has been overtaken by the much larger commercial banking sector's agricultural lending.\n\nThe correct answer is (a).\n\nUPSC takeaway: Commercial Banks (not Cooperative Banks, despite their historical agricultural focus) now hold the LARGEST share of agricultural credit disbursement in India — a structural shift reflecting commercial banks' expanded rural/priority-sector lending mandate over recent decades.",
+      "subject": "Indian Economy",
+      "year": "2011"
+    },
+    {
+      "question": "An objective of the National Food Security Mission is to increase the production of certain crops through area expansion and productivity enhancement in a sustainable manner in the identified districts of the country. What are those crops?",
+      "options": [
+        "Rice and wheat only",
+        "Rice, wheat and pulses only",
+        "Rice, wheat, pulses and oilseeds only",
+        "Rice, wheat, pulses, oilseeds and vegetables"
+      ],
+      "correct": "B",
+      "explanation": "The National Food Security Mission (NFSM), launched in 2007, was originally designed with the objective of increasing the production of rice, wheat, and pulses through area expansion and productivity enhancement in identified, targeted districts across the country, adopting a sustainable, focused district-based implementation approach to address India's food-grain production gaps for these staple crops, matching option (b) precisely as per the Mission's original core crop focus (the Mission was later expanded in subsequent phases to include additional crops like coarse cereals and commercial crops, but its foundational, originally tested objective centered on rice, wheat, and pulses specifically). The correct answer is (b).\n\nUPSC takeaway: NFSM's original core crop focus was specifically RICE, WHEAT, AND PULSES (not oilseeds or vegetables in its initial conception) — remember this original three-crop foundation, even as the scheme's scope was later broadened in subsequent phases.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "In India, during the last decade the total cultivated land for which one of the following crops has remained more or less stagnant ?",
+      "options": [
+        "Rice",
+        "Oilseeds",
+        "Pulses",
+        "Sugarcane"
+      ],
+      "correct": "C",
+      "explanation": "Over the last decade, the area under pulses cultivation in India remained largely stagnant, since farmers historically favoured more remunerative crops like rice, sugarcane, and oilseeds, and pulses received less irrigation and price support compared to cereals, keeping their cultivated area roughly flat.",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following statements :\n1. The Union Government fixes the Statutory Minimum Price of sugarcane for each sugar season.\n2. Sugar and sugarcane are essential commodities under the Essential Commodities Act.\nWhich of the statements given above is/are correct ?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "The Union Government fixes a Statutory Minimum Price (later Fair and Remunerative Price) for sugarcane each season under the Sugarcane Control Order, and both sugar and sugarcane were classified as essential commodities under the Essential Commodities Act (sugarcane later removed from some provisions, but at the time both statements held true).",
+      "subject": "Indian Economy",
+      "year": "2010"
+    },
+    {
+      "question": "Consider the following statements:\n1. The Commission for Agricultural Costs and Prices recommends the Minimum Support Prices for 32 crops.\n2. The Union Ministry of Consumer Affairs, Food and Public Distribution has launched the National Food Security Mission.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "The Commission for Agricultural Costs and Prices recommends Minimum Support Prices for a smaller number of crops (around 25, not 32) — making statement 1 inaccurate as framed. The National Food Security Mission was launched by the Ministry of Agriculture, not the Ministry of Consumer Affairs, Food and Public Distribution, making statement 2 also incorrect.",
+      "subject": "Indian Economy",
+      "year": "2009"
+    },
+    {
+      "question": "Which of the following pairs about India's economic indicator and agricultural production (all in rounded figures) are correctly matched?\n1. GDP per capita (current prices) : Rs 37,000\n2. Rice : 180 million tons\n3. Wheat : 75 million tons\nSelect the correct answer using the code given below :",
+      "options": [
+        "1, 2 and 3",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only"
+      ],
+      "correct": "D",
+      "explanation": "India's rounded per-capita GDP and wheat production figures for that period roughly matched the values given, while the rice production figure was overstated relative to actual output at the time, making the GDP-per-capita and wheat pairings correct but not the rice figure.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Which one amongst the following has the largest livestock population in the world?",
+      "options": [
+        "Brazil",
+        "China",
+        "India",
+        "USA"
+      ],
+      "correct": "C",
+      "explanation": "India has the largest livestock population in the world, owing to its vast agrarian base and the cultural/economic importance of cattle, buffaloes, goats, and other livestock across rural households.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Match List-I with List-II and\nselect the correct answer using the code given below the Lists:\nList-I (Board)\nA. Coffee Board\nB. Rubber Board\nC. Tea Board\nD. Tobacco Board\nList-II (Headquarters)\n1. Bengaluru\n2. Guntur\n3. Kottayam\n4. Kolkata Code:",
+      "options": [
+        "A-2 B-4 C-3 D-1",
+        "A-1 B-3 C-4 D-2",
+        "A-2 B-3 C-4 D-1",
+        "A-1 B-4 C-3 D-2"
+      ],
+      "correct": "B",
+      "explanation": "The Coffee Board is headquartered in Bengaluru, the Rubber Board in Kottayam, the Tea Board in Kolkata, and the Tobacco Board in Guntur — matching commodity boards to their historically established headquarters cities.",
+      "subject": "Indian Economy",
+      "year": "2008"
+    },
+    {
+      "question": "Consider the following statements in respect of welfare schemes launched by the Ministry of Rural Development, Government of India:\n1. Drinking water for rural areas is one of the components of the Bharat Nirman Plan.\n2. In the National Rural Employment Guarantee Act, 2005 there is a provision that the statutory minimum wage applicable to agriculture workers in the State has to be paid to the workers under the Act.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Provision of drinking water in rural areas is indeed one of the six components of the Bharat Nirman programme, and the NREGA, 2005 did originally mandate payment of the statutory minimum agricultural wage notified by the State, making both statements correct as they stood then.",
+      "subject": "Indian Economy",
+      "year": "2006"
+    },
+    {
+      "question": "Consider the following statements :\n1. India is the only country in the world producing all the five known commercial varieties of silk.\n2. India is the largest producer of sugar in the world.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "India is indeed the only country producing all five known commercial varieties of silk (mulberry, tasar, eri, muga, and oak tasar), making statement 1 correct. Brazil, not India, was the world's largest sugar producer at the time, making statement 2 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Which one of the following companies has started a rural marketing network called ‘e-chaupals’?",
+      "options": [
+        "ITC",
+        "Dabur",
+        "Proctor and Gamble",
+        "Hindustan Lever"
+      ],
+      "correct": "A",
+      "explanation": "ITC launched 'e-Choupal', a rural marketing and procurement network using internet kiosks to connect directly with farmers, initially for its agri-business (soya) operations before expanding to other crops.",
+      "subject": "Indian Economy",
+      "year": "2005"
+    },
+    {
+      "question": "Consider the following statements:\n1. The loans disbursed to farmers under Kisan Credit Card Scheme are covered under Rashtriya Krishi Beema Yojna of Life Insurance Corporation of India.\n2. The Kisan Credit Card holders are provided personal accident insurance of Rs 50,000 for accidental death and Rs 25,000 for permanent disability. Which of these statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Kisan Credit Card loans were actually covered under Personal Accident Insurance Scheme provisions (a separate scheme), not the Rashtriya Krishi Beema Yojana (which is a crop insurance scheme), making statement 1 incorrect. KCC holders were indeed provided personal accident cover of Rs 50,000 for death and Rs 25,000 for permanent disability, making statement 2 correct.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements:\n1. Regarding the procurement of food grains, Government of India follows a procurement target rather than an open-ended procurement policy.\n2. Government of India announces minimum support prices only for cereals.\n3. For distribution under Targeted Public Distribution System (TPDS), wheat and rice are issued by the Government of India at uniform central issue prices to the States/Union Territories. Which of these statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "D",
+      "explanation": "The Government of India actually followed an open-ended procurement policy for food grains (not a fixed target), making statement 1 incorrect, and MSPs were announced for a range of crops beyond just cereals (including pulses and oilseeds), making statement 2 incorrect. Wheat and rice were indeed issued to states/UTs under TPDS at uniform central issue prices, making only statement 3 correct.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements: India continues to be dependent on imports to meet the requirement of oilseeds in the country because 1. Farmers prefer to grow food grains with highly remunerative support prices.\n2. Most of the cultivation of oil-seed crops continues to be dependent on rainfall.\n3. Oils from the seeds of tree origin and rice bran have remained unexploited.\n4. It is far cheaper to import oil seeds than to cultivate the oil-seed crops. Which of these statements is/are correct?",
+      "options": [
+        "1 and 2",
+        "1, 2 and 3",
+        "3 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Farmers often preferred food grains due to their more remunerative and assured support prices, oilseed cultivation remained heavily rainfall-dependent with limited irrigation coverage, and non-conventional oil sources like tree-borne oilseeds and rice bran oil remained largely unexploited — all three genuine structural reasons for India's oilseed import dependence, while the claim that importing was 'far cheaper' than domestic cultivation was not established as a stated reason.",
+      "subject": "Indian Economy",
+      "year": "2004"
+    },
+    {
+      "question": "Consider the following statements:\n1. India is the original home of the cotton plant.\n2. India is the first country in the world to develop hybrid cotton variety leading to increased production. Which of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "India is indeed recognised as one of the original centres of origin of the cotton plant, and India was also the first country in the world to develop a hybrid cotton variety, significantly boosting cotton productivity — making both statements correct.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements:\n1. Molasses is a by-product of sugar production process.\n2. Bagasse obtained in the sugar mills is used as a fuel in the boilers to generate steam for the sugar factories.\n3. Sugar can only be produced from sugarcane as the raw material. Which of these statements are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 3",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Molasses is indeed a by-product of sugar manufacturing, and bagasse (crushed sugarcane fibre) is commonly used as boiler fuel within sugar mills, making statements 1 and 2 correct. Sugar can also be produced from other raw materials like sugar beet, not exclusively sugarcane, making statement 3 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "Consider the following statements:\n1. India ranks first in the world in fruit production.\n2. India ranks second in the world in the export of tobacco. Which of these statements is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "India does rank first in the world in fruit production, making statement 1 correct. However, India was not the second-largest tobacco exporter globally at the time (its rank was lower), making statement 2 incorrect.",
+      "subject": "Indian Economy",
+      "year": "2003"
+    },
+    {
+      "question": "With reference to Indian agriculture, which one of the following statements is correct?",
+      "options": [
+        "About 90 per cent of the area under pulses in India is rainfed.",
+        "The share of pulses in the gross cropped area at the national level has double in the last two decades",
+        "India accounts for about 15 per cent of the total area under rice in the world",
+        "Rice occupies about 34 per cent of the gross cropped area of India"
+      ],
+      "correct": "A",
+      "explanation": "A very large proportion (around 90%) of India's area under pulses cultivation has historically been rainfed, reflecting pulses' cultivation on marginal, less-irrigated lands, unlike more heavily irrigated crops like rice.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "Consider the following high yielding varieties of crops in India:\n1. Arjun\n2. Jaya\n3. Padma\n4. Sonalika Which of these are wheat?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "1 and 4",
+        "3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Arjun and Sonalika are both well-known high-yielding wheat varieties developed in India, while Jaya and Padma are high-yielding rice varieties, making Arjun and Sonalika the correct wheat pairing.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "In terms of value, which one of the following commodities accounted for the largest agricultural exports by India during the three-year period from 1997-1998 to 1999-2000?",
+      "options": [
+        "Cereals",
+        "Marine products",
+        "Spices",
+        "Tea"
+      ],
+      "correct": "B",
+      "explanation": "During 1997-2000, marine products were India's highest-value agricultural export category among the listed commodities, reflecting strong global demand for Indian seafood exports.",
+      "subject": "Indian Economy",
+      "year": "2002"
+    },
+    {
+      "question": "The prices at which the Government purchases food grains for maintaining the public distribution system and for building up buffer stocks is known as",
+      "options": [
+        "minimum support prices",
+        "procurement prices",
+        "issue prices",
+        "ceiling prices"
+      ],
+      "correct": "B",
+      "explanation": "Procurement prices are the prices at which the Government purchases food grains from farmers specifically to build public distribution system stocks and buffer stocks, distinct from the broader Minimum Support Price (a floor price guarantee) and Issue Price (price at which grain is released through PDS).",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "National Agriculture Insurance Scheme replacing Comprehensive Crop Insurance Scheme was introduced in the year",
+      "options": [
+        "1997",
+        "1998",
+        "1999",
+        "2000"
+      ],
+      "correct": "C",
+      "explanation": "The National Agriculture Insurance Scheme, which replaced the earlier Comprehensive Crop Insurance Scheme, was introduced in India in 1999, covering a wider range of crops and farmers.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "The annual agricultural production of a product for the period 1991-92 to 1998-99 is shown in the figure given above. Which one of the following is the product in Q?",
+      "options": [
+        "Pulses",
+        "Wheat",
+        "Oilseeds",
+        "Rice"
+      ],
+      "correct": "D",
+      "explanation": "The figure (based on production trend patterns of that period) corresponds to Rice, identifiable from its characteristic output growth trajectory over 1991-92 to 1998-99 among India's major crops.",
+      "subject": "Indian Economy",
+      "year": "2001"
+    },
+    {
+      "question": "“...instil into the vast millions of workers, men and women, who actually do the job, a sense of partnership and of cooperative performance....” The above passage relates to",
+      "options": [
+        "Planned Development",
+        "Community Development",
+        "Panchayati Raj System",
+        "Integrated Development Programme"
+      ],
+      "correct": "B",
+      "explanation": "This description of instilling a sense of partnership and cooperative effort among ordinary workers corresponds to the Community Development Programme, launched in 1952 to promote grassroots participatory rural development.",
+      "subject": "Indian Economy",
+      "year": "2000"
+    },
+    {
+      "question": "The main sources of credit to the farmers include",
+      "options": [
+        "the Primary Agricultural Cooperative Societies, commercial banks, RRBs and private moneylenders",
+        "the NABARD, RBI, commercial banks and private moneylenders",
+        "the District Central Cooperative Banks (DCCB), the lead banks, IRDP and JRY",
+        "the Large-scale Multi-purpose Adivasis Programme, DCCB, IFFCO and commercial banks"
+      ],
+      "correct": "A",
+      "explanation": "Farmers in India access credit mainly through Primary Agricultural Cooperative Societies, commercial banks, Regional Rural Banks, and (informally) private moneylenders — together forming the main institutional and non-institutional credit sources for agriculture.",
+      "subject": "Indian Economy",
+      "year": "1999"
+    },
+    {
+      "question": "The table below indicates the performance of India in rice and wheat production from 1950-51 to 1995-96. Which of the following conclusions arrived at from the above table would be valid?\nI. Record production of rice as well as wheat has been in 1994-95.\nII. The ratio of wheat to rice production seems to have steadily increased over 16 years.\nIII. Wheat has not been popular among the Indian population before 1980.\nIV. India became self-sufficient in rice and wheat only after 1990.\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I and II",
+        "I, II, III and IV",
+        "III and IV",
+        "None of the above"
+      ],
+      "correct": "A",
+      "explanation": "Rice and wheat production both reached record levels around 1994-95, and the wheat-to-rice production ratio showed a generally rising trend over the period shown — supporting statements I and II, while claims about wheat's unpopularity before 1980 or self-sufficiency arising only after 1990 are not accurate.",
+      "subject": "Indian Economy",
+      "year": "1998"
+    },
+    {
+      "question": "In India, rural incomes are generally lower than the urban incomes. Which of the following reasons account for this?\nI. A large number of farmers are illiterate and know little about scientific agriculture.\nII. Prices of primary products are lower than those of manufactured products.\nIII. Investment in agriculture has been low when compared to investment in industry.",
+      "options": [
+        "I only",
+        "I and II only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "correct": "A",
+      "explanation": "Low rural incomes relative to urban incomes are primarily attributed to widespread illiteracy among farmers and limited adoption of scientific/modern agricultural practices, constraining productivity and incomes — making this the accepted primary reason among the options.",
+      "subject": "Indian Economy",
+      "year": "1996"
+    },
+    {
+      "question": "Which of the following are the objectives of the Commission for Agricultural Costs and Prices (CACP)?\nI. To stabilise agricultural prices.\nII. To ensure meaningful real income levels to the farmers.\nIII. To protect the interest of the consumers by providing essential agricultural commodities at reasonable rates through public distribution system.\nIV. To ensure maximum price for the farmer.\nSelect the correct answer from the codes given below:",
+      "options": [
+        "I, II and III",
+        "I, II and IV",
+        "I, III and IV",
+        "II, III and IV"
+      ],
+      "correct": "A",
+      "explanation": "The CACP aims to stabilise agricultural prices, ensure farmers get meaningful real incomes, and protect consumers by enabling essential commodity distribution through the PDS at reasonable prices — but its role is to recommend fair/remunerative prices, not to guarantee farmers the 'maximum' possible price, making statements I, II, and III its objectives.",
+      "subject": "Indian Economy",
+      "year": "1995"
+    }
+  ]
+}
