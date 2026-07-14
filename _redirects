@@ -1,0 +1,25 @@
+# Force extensionless topic URLs to redirect (301) to their canonical .html
+# version. Cloudflare Pages serves both /topics/foo and /topics/foo.html as
+# 200 OK by default, which was causing Google to index them as two separate
+# pages (splitting ranking signal) even though a canonical tag pointed to
+# the .html version. This makes the redirect explicit and permanent instead
+# of relying on Google to honor the canonical tag.
+
+/topics/science-technology-upsc /topics/science-technology-upsc.html 301
+/topics/ancient-history-upsc /topics/ancient-history-upsc.html 301
+/topics/indian-polity-upsc /topics/indian-polity-upsc.html 301
+/topics/world-geography-upsc /topics/world-geography-upsc.html 301
+/topics/csat-data-interpretation-upsc /topics/csat-data-interpretation-upsc.html 301
+/topics/csat-logical-reasoning-upsc /topics/csat-logical-reasoning-upsc.html 301
+/topics/indian-economy-upsc /topics/indian-economy-upsc.html 301
+/topics/environment-ecology-upsc /topics/environment-ecology-upsc.html 301
+/topics/indian-geography-upsc /topics/indian-geography-upsc.html 301
+/topics/art-culture-upsc /topics/art-culture-upsc.html 301
+/topics/csat-reading-comprehension-upsc /topics/csat-reading-comprehension-upsc.html 301
+/topics/modern-history-upsc /topics/modern-history-upsc.html 301
+/topics/medieval-history-upsc /topics/medieval-history-upsc.html 301
+/topics/current-affairs-upsc /topics/current-affairs-upsc.html 301
+/topics/international-relations-upsc /topics/international-relations-upsc.html 301
+/topics/csat-numeracy-upsc /topics/csat-numeracy-upsc.html 301
+/topics/governance-social-justice-upsc /topics/governance-social-justice-upsc.html 301
+/topics/csat-interpersonal-decision-making-upsc /topics/csat-interpersonal-decision-making-upsc.html 301
