@@ -5,26 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="theme-color" content="#1a1208"/>
 
-<title>Energy & Nuclear Tech UPSC PYQ | UPSC A2Z</title>
-<meta name="description" content="Solar and renewable energy, nuclear reactors, and fuel cells from UPSC Prelims — 47 questions, 1995–2025, with answers & explanations."/>
+<title>Energy & Nuclear Tech UPSC PYQ: 47 Qs (1995–2025)</title>
+<meta name="description" content="Practice 47 Energy & Nuclear Technology questions from UPSC Prelims (1995–2025) — nuclear reactors, solar energy, fuel cells & more. Free."/>
 <meta name="robots" content="index, follow"/>
-<meta name="keywords" content="Energy technologies UPSC PYQ, nuclear technology UPSC, renewable energy UPSC Prelims, fuel cells UPSC questions"/>
+<meta name="keywords" content="Energy technologies UPSC PYQ, nuclear technology UPSC Prelims, renewable energy UPSC questions, fuel cells UPSC PYQ, nuclear reactors UPSC free practice, UPSC energy current affairs"/>
 <link rel="canonical" href="https://upsca2z.com/PYQ/science/energy-technologies.html"/>
 <link rel="alternate" hreflang="en-in" href="https://upsca2z.com/PYQ/science/energy-technologies.html"/>
 <link rel="alternate" hreflang="x-default" href="https://upsca2z.com/PYQ/science/energy-technologies.html"/>
 
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Energy & Nuclear Tech UPSC PYQ | UPSC A2Z"/>
-<meta property="og:description" content="Solar and renewable energy, nuclear reactors, and fuel cells from UPSC Prelims — 47 questions, 1995–2025, with answers & explanations."/>
+<meta property="og:title" content="Energy & Nuclear Tech UPSC PYQ: 47 Qs (1995–2025)"/>
+<meta property="og:description" content="Practice 47 Energy & Nuclear Technology questions from UPSC Prelims (1995–2025) — nuclear reactors, solar energy, fuel cells & more. Free."/>
 <meta property="og:url" content="https://upsca2z.com/PYQ/science/energy-technologies.html"/>
 <meta property="og:site_name" content="UPSC A2Z"/>
 <meta property="og:locale" content="en_IN"/>
 <meta property="og:image" content="https://upsca2z.com/og-image.jpg"/>
-<meta property="og:image:alt" content="Energy & Nuclear Tech UPSC PYQ — UPSC Prelims previous year questions"/>
+<meta property="og:image:alt" content="Energy & Nuclear Tech UPSC PYQ: 47 Solved Questions (1995–2025) — UPSC Prelims previous year questions"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Energy & Nuclear Tech UPSC PYQ | UPSC A2Z"/>
-<meta name="twitter:description" content="Solar and renewable energy, nuclear reactors, and fuel cells from UPSC Prelims — 47 questions, 1995–2025, with answers & explanations."/>
+<meta name="twitter:title" content="Energy & Nuclear Tech UPSC PYQ: 47 Qs (1995–2025)"/>
+<meta name="twitter:description" content="Practice 47 Energy & Nuclear Technology questions from UPSC Prelims (1995–2025) — nuclear reactors, solar energy, fuel cells & more. Free."/>
 
 <script type="application/ld+json">
 {
@@ -42,8 +42,8 @@
     {
       "@type": "WebPage",
       "@id": "https://upsca2z.com/PYQ/science/energy-technologies.html",
-      "name": "Energy & Nuclear Tech UPSC PYQ",
-      "description": "Solar and renewable energy, nuclear reactors, and fuel cells from UPSC Prelims — 47 questions, 1995–2025, with answers & explanations.",
+      "name": "Energy & Nuclear Tech UPSC PYQ: 47 Solved Questions (1995–2025)",
+      "description": "Practice 47 Energy & Nuclear Technology questions from UPSC Prelims (1995–2025) — nuclear reactors, solar energy, fuel cells & more. Free.",
       "url": "https://upsca2z.com/PYQ/science/energy-technologies.html",
       "inLanguage": "en-IN",
       "isPartOf": { "@type": "WebSite", "name": "UPSC A2Z", "url": "https://upsca2z.com/" },
@@ -71,7 +71,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -117,6 +117,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 .test-cta-wrap { margin-top: 20px; }
 .test-cta { display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 20px; min-height: 44px; background: var(--blue); color: #fff; border-radius: var(--r-md); box-shadow: var(--sh-sm); transition: background 0.15s var(--ease), transform 0.1s var(--ease); }
@@ -131,7 +154,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .test-cta-light:hover { color: var(--blue2); text-decoration: underline; }
 
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,169 +224,148 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "xm5qz0y2p6");
-</script>
 </head>
 <body>
-
 <header class="site-header" role="banner">
-  <a class="logo" href="../../index.html" aria-label="UPSC A2Z Home">
-    <span class="logo-icon" aria-hidden="true">📋</span>
+<a aria-label="UPSC A2Z Home" class="logo" href="../../index.html">
+<span aria-hidden="true" class="logo-icon">📋</span>
     UPSC <span>A2Z</span>
-  </a>
-  <a class="header-cta" href="../../tracker.html">Open Tracker →</a>
+</a>
+<a class="header-cta" href="../../tracker.html">Open Tracker →</a>
 </header>
-
 <div class="breadcrumb-wrap">
-  <nav class="breadcrumb container" aria-label="Breadcrumb">
-    <a href="../../index.html">Home</a>
-    <span class="sep" aria-hidden="true">›</span>
-    <a href="../../topics/science-technology-upsc.html">Science &amp; Technology</a>
-    <span class="sep" aria-hidden="true">›</span>
-    <a href="../science-technology-upsc-pyq.html">PYQs 1995–2025</a>
-    <span class="sep" aria-hidden="true">›</span>
-    <span class="current">Energy & Nuclear Technologies</span>
-  </nav>
+<nav aria-label="Breadcrumb" class="breadcrumb container">
+<a href="../../index.html">Home</a>
+<span aria-hidden="true" class="sep">›</span>
+<a href="../../topics/science-technology-upsc.html">Science &amp; Technology</a>
+<span aria-hidden="true" class="sep">›</span>
+<a href="../science-technology-upsc-pyq.html">PYQs 1995–2025</a>
+<span aria-hidden="true" class="sep">›</span>
+<span class="current">Energy & Nuclear Technologies</span>
+</nav>
 </div>
-
 <div class="progress-shell">
-  <div class="progress-wrap container">
-    <div class="progress-label">
-      <span id="progressText">0 of 47 attempted</span>
-      <button class="reset-btn" id="resetProgress" type="button">Reset progress</button>
-    </div>
-    <div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
-  </div>
+<div class="progress-wrap container">
+<div class="progress-label">
+<span id="progressText">47 questions</span>
+<button class="reset-btn" id="resetProgress" type="button">Reset progress</button>
 </div>
-
+<div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
+</div>
+</div>
+<nav aria-label="Science and Technology topics" class="sidebar-mobile-bar">
+<a class="sidebar-mobile-link" href="../science-technology-upsc-pyq.html">All Topics</a>
+<a class="sidebar-mobile-link" href="./physics.html">Physics</a><a class="sidebar-mobile-link" href="./biology.html">Biology</a><a class="sidebar-mobile-link" href="./chemistry.html">Chemistry</a><a class="sidebar-mobile-link is-active" href="./energy-technologies.html">Energy &amp; Nuclear Technologies</a><a class="sidebar-mobile-link" href="./materials-science.html">Materials Science &amp; Nanotechnology</a><a class="sidebar-mobile-link" href="./science-in-news.html">Science &amp; Tech in the News</a><a class="sidebar-mobile-link" href="./defence-technology.html">Defence Technology</a><a class="sidebar-mobile-link" href="./space-technology.html">Space Technology</a><a class="sidebar-mobile-link" href="./biotechnology-genetics.html">Biotechnology &amp; Genetics</a><a class="sidebar-mobile-link" href="./computer-technology.html">Computer, IT &amp; AI</a>
+</nav>
+<div class="layout">
+<aside aria-label="Sidebar navigation" class="sidebar">
+<div class="sidebar-section">
+<p class="sidebar-label">Science &amp; Technology PYQ</p>
+<ul class="sidebar-nav">
+<li><a class="sidebar-link" href="./physics.html">Physics</a></li><li><a class="sidebar-link" href="./biology.html">Biology</a></li><li><a class="sidebar-link" href="./chemistry.html">Chemistry</a></li><li><a class="sidebar-link is-active" href="./energy-technologies.html">Energy &amp; Nuclear Technologies</a></li><li><a class="sidebar-link" href="./materials-science.html">Materials Science &amp; Nanotechnology</a></li><li><a class="sidebar-link" href="./science-in-news.html">Science &amp; Tech in the News</a></li><li><a class="sidebar-link" href="./defence-technology.html">Defence Technology</a></li><li><a class="sidebar-link" href="./space-technology.html">Space Technology</a></li><li><a class="sidebar-link" href="./biotechnology-genetics.html">Biotechnology &amp; Genetics</a></li><li><a class="sidebar-link" href="./computer-technology.html">Computer, IT &amp; AI</a></li>
+</ul>
+<a class="sidebar-link" href="../science-technology-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Sci &amp; Tech topics</a>
+</div><div class="sidebar-section"><p class="sidebar-label">Jump to Topic</p><ul class="sidebar-nav" id="topicSidebarNav"><li><a class="sidebar-link topic-jump-link" data-topic="nuclear-energy-reactors" href="#topic-nuclear-energy-reactors">Nuclear Energy &amp; Reactors<span class="sidebar-link-check" id="sideCount-nuclear-energy-reactors">21</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="renewable-green-energy" href="#topic-renewable-green-energy">Renewable &amp; Green Energy Tech<span class="sidebar-link-check" id="sideCount-renewable-green-energy">17</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="batteries-fuels-everyday" href="#topic-batteries-fuels-everyday">Batteries, Fuels &amp; Everyday Energy Tech<span class="sidebar-link-check" id="sideCount-batteries-fuels-everyday">9</span></a></li></ul></div>
+<div class="sidebar-section">
+<p class="sidebar-label">Your Progress</p>
+<div class="sidebar-progress-card">
+<div class="sidebar-progress-num" id="sidebarProgressNum">47</div>
+<div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+<div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+</div>
+<a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=science/energy-technologies">Take as Timed Test</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">UPSC A2Z</p>
+<nav aria-label="Site links" class="sidebar-footer-links">
+<a href="../../index.html">Home</a>
+<a href="../../tracker.html">Topic Tracker</a>
+<a href="../science-technology-upsc-pyq.html">PYQ Bank</a>
+<a href="../../topics/science-technology-upsc.html">Sci &amp; Tech Topics</a>
+</nav>
+</div>
+</aside>
+<div class="main-col">
 <section class="page-hero container">
-  <p class="page-eyebrow">UPSC Prelims · Science &amp; Technology PYQ</p>
-  <h1>Energy & Nuclear Technologies UPSC PYQ — Renewables, Reactors & Fuel Cells</h1>
-  <p class="page-desc">Solar and renewable energy, nuclear reactors and safeguards, fuel cells, and alternative-powertrain vehicles — a fast-growing current-affairs-linked Science & Technology topic.</p>
-  <div class="hero-stats-row">
+<p class="page-eyebrow">UPSC Prelims · Science &amp; Technology PYQ</p>
+<h1>Energy & Nuclear Technologies UPSC PYQ — Renewables, Reactors & Fuel Cells</h1>
+<p class="page-desc">Solar and renewable energy, nuclear reactors and safeguards, fuel cells, and alternative-powertrain vehicles — a fast-growing current-affairs-linked Science & Technology topic.</p>
+<div class="hero-stats-row">
     <span class="hero-stat"><strong>47</strong> Questions</span>
     <span class="hero-stat-sep">·</span>
     <span class="hero-stat"><strong>1995–2025</strong></span>
   </div>
-  <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">Solar Energy</span>
-            <span class="includes-chip">Nuclear Reactors &amp; Safeguards</span>
-            <span class="includes-chip">Fuel Cells &amp; Hydrogen</span>
-            <span class="includes-chip">Batteries &amp; Storage</span>
-            <span class="includes-chip">Alternative Fuels</span>
-            <span class="includes-chip">India Atomic Energy</span>
-    </div>
-  </div>
-  <div class="test-cta-wrap">
-  <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=science/energy-technologies">
-    <span class="test-cta-content">
-      <span class="test-cta-text">Take as Test</span>
-      <span class="test-cta-sub">Timed, negative marking, year-wise scoring</span>
-    </span>
-    <span class="test-cta-arrow" aria-hidden="true">&rarr;</span>
-  </a>
-  </div>
-</section>
-
-<div class="completion-banner container" id="completionBanner">
-  <span class="completion-icon" aria-hidden="true">🎉</span>
-  <div>
-    <p class="completion-title">All 47 Energy & Nuclear Technologies questions attempted!</p>
-    <p class="completion-sub">Well done — continue to Materials Science & Nanotechnology next, or reset to drill this set again.</p>
-  </div>
+<div class="includes-block">
+<p class="includes-label">Jump to a topic</p>
+<div class="includes-chips" id="topicQuickNav"><a class="includes-chip topic-chip" data-topic="nuclear-energy-reactors" href="#topic-nuclear-energy-reactors"><span>Nuclear Energy &amp; Reactors</span><span class="chip-count" id="chipCount-nuclear-energy-reactors">21</span></a><a class="includes-chip topic-chip" data-topic="renewable-green-energy" href="#topic-renewable-green-energy"><span>Renewable &amp; Green Energy Tech</span><span class="chip-count" id="chipCount-renewable-green-energy">17</span></a><a class="includes-chip topic-chip" data-topic="batteries-fuels-everyday" href="#topic-batteries-fuels-everyday"><span>Batteries, Fuels &amp; Everyday Energy Tech</span><span class="chip-count" id="chipCount-batteries-fuels-everyday">9</span></a></div>
 </div>
-
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="test-cta-wrap">
+<a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=science/energy-technologies">
+<span class="test-cta-content">
+<span class="test-cta-text">Take as Test</span>
+<span class="test-cta-sub">Timed, negative marking, year-wise scoring</span>
+</span>
+<span aria-hidden="true" class="test-cta-arrow">→</span>
+</a>
+</div>
+</section>
+<div class="completion-banner container" id="completionBanner">
+<span aria-hidden="true" class="completion-icon">🎉</span>
+<div>
+<p class="completion-title">All 47 Energy & Nuclear Technologies questions attempted!</p>
+<p class="completion-sub">Well done — continue to Materials Science & Nanotechnology next, or reset to drill this set again.</p>
+</div>
+</div>
+<div class="q-sections" id="qSections"><section class="topic-section" data-topic="nuclear-energy-reactors" id="topic-nuclear-energy-reactors"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Nuclear Energy &amp; Reactors</h2><p class="topic-desc">Nuclear reactors, safeguards, fuel, and India's atomic energy programme.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-nuclear-energy-reactors">21 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-nuclear-energy-reactors"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="nuclear-energy-reactors" id="q3">
     <div class="q-head">
       <span class="q-num">1</span>
-      <span class="q-yr">2025</span>
-    </div>
-    <p class="q-text">Consider the following types of vehicles :
-I. Full battery electric vehicles
-II. Hydrogen fuel cell vehicles
-III. Fuel cell-electric hybrid vehicles How many of the above are considered as alternative powertrain vehicles?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All the three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All the three</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All the three</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Full battery electric vehicles, hydrogen fuel cell vehicles, and fuel cell-electric hybrids all move away from conventional internal combustion engines, making all three legitimate examples of alternative powertrain technology.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q2">
-    <div class="q-head">
-      <span class="q-num">2</span>
-      <span class="q-yr">2024</span>
-    </div>
-    <p class="q-text">Consider the following:
-1. Battery storage
-2. Biomass generators
-3. Fuel cells
-4. Rooftop solar photovoltaic units How many of the above are considered "Distributed Energy Resources"?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Only three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Only three</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: All four">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">All four</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. All four</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Battery storage, biomass generators, fuel cells, and rooftop solar photovoltaic units are all examples of small-scale, decentralised power sources located close to where electricity is consumed, making all four Distributed Energy Resources.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q3">
-    <div class="q-head">
-      <span class="q-num">3</span>
       <span class="q-yr">2024</span>
     </div>
     <p class="q-text">With reference to radioisotope thermoelectric generators (RTGs), consider the following statements:
@@ -399,171 +401,9 @@ Which of the statements given above are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q4">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q8">
     <div class="q-head">
-      <span class="q-num">4</span>
-      <span class="q-yr">2024</span>
-    </div>
-    <p class="q-text">Consider the following materials:
-1. Agricultural residues
-2. Corn grain
-3. Wastewater treatment sludge
-4. Wood mill waste
-Which of the above can be used as feedstock for producing Sustainable Aviation Fuel?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 and 4 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">3 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 2, 3 and 4">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 3 and 4 only">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 3 and 4 only</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 2, 3 and 4</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A wide range of biomass sources, including agricultural residues, corn grain, wastewater treatment sludge, and wood mill waste, can all serve as feedstock for producing Sustainable Aviation Fuel through various conversion pathways.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q5">
-    <div class="q-head">
-      <span class="q-num">5</span>
-      <span class="q-yr">2023</span>
-    </div>
-    <p class="q-text">With reference to the role of biofilters in Recirculating Aquaculture System, consider the following statements :
-1. Biofilters provide waste treatment by removing uneaten fish feed.
-2. Biofilters convert ammonia present in fish waste to nitrate.
-3. Biofilters increase phosphorus as nutrient for fish in water. How many of the statements given above are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Only two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All three</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Only two</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Biofilters do remove waste like uneaten feed and convert toxic ammonia from fish waste into less harmful nitrate through nitrifying bacteria (statements 1 and 2 true), but they do not add phosphorus to the water for fish nutrition, making statement 3 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q6">
-    <div class="q-head">
-      <span class="q-num">6</span>
-      <span class="q-yr">2023</span>
-    </div>
-    <p class="q-text">With reference to green hydrogen, consider the following statements :
-1. It can be used directly as a fuel for internal combustion.
-2. It can be blended with natural gas and used as fuel for heat or power generation.
-3. It can be used in the hydrogen fuel cell to run vehicles.
-How many of the above statements are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All three</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All three</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Green hydrogen can indeed be burned directly as a fuel, blended with natural gas for heat or power generation, and used in fuel cells to run vehicles, making all three uses valid.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q7">
-    <div class="q-head">
-      <span class="q-num">7</span>
-      <span class="q-yr">2021</span>
-    </div>
-    <p class="q-text">With reference to street-lighting, how do sodium lamps differ from LED lamps?
-1. Sodium lamps produce light in 360 degrees but it is not so in the case of LED lamps.
-2. As street-lights, sodium lamps have longer life span than LED lamps.
-3. The spectrum of visible light from sodium lamps is almost monochromatic while LED lamps offer significant colour advantages in street-lighting.
-Select the correct answer using the code given below.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 3 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Sodium lamps do emit light in essentially all directions while LED lamps are more directional (statement 1 true), and sodium lamps produce a nearly monochromatic yellow-orange light compared to the fuller colour spectrum LEDs can offer (statement 3 true); however LED lamps generally have a longer operational lifespan than sodium lamps, making statement 2 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q8">
-    <div class="q-head">
-      <span class="q-num">8</span>
+      <span class="q-num">2</span>
       <span class="q-yr">2020</span>
     </div>
     <p class="q-text">In India, why are some nuclear reactors kept under “IAEA Safeguards” while others are not?</p>
@@ -595,91 +435,9 @@ Select the correct answer using the code given below.</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q9">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q11">
     <div class="q-head">
-      <span class="q-num">9</span>
-      <span class="q-yr">2020</span>
-    </div>
-    <p class="q-text">With reference to solar water pumps, consider the following statements:
-1. Solar power can be used for running surface pumps but not for submersible pumps.
-2. Solar power can be used for running centrifugal pumps but not the ones with piston.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Solar power can actually run both surface and submersible pumps, and it can power both centrifugal and piston-type pumps depending on the system design, making both restrictive statements about solar pump limitations false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q10">
-    <div class="q-head">
-      <span class="q-num">10</span>
-      <span class="q-yr">2019</span>
-    </div>
-    <p class="q-text">In the context of proposals to the use of hydrogen-enriched CNG (H-CNG) as fuel for buses in public transport, consider the following statements:
-1. The main advantage of the use of H-CNG is the elimination of carbon monoxide emissions.
-2. H-CNG as fuel reduces carbon dioxide and hydrocarbon emissions.
-3. Hydrogen up to one-fifth by volume can be blended with CNG as fuel for buses.
-4. H-CNG makes the fuel less expensive than CNG.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 4 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">4 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">H-CNG use does reduce carbon dioxide and hydrocarbon emissions compared to plain CNG (statement 2 true), and up to about 18% (close to one-fifth) hydrogen by volume can be blended into CNG for use as bus fuel (statement 3 true); however it does not eliminate carbon monoxide emissions entirely, and it does not make the fuel cheaper than CNG, making statements 1 and 4 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q11">
-    <div class="q-head">
-      <span class="q-num">11</span>
+      <span class="q-num">3</span>
       <span class="q-yr">2018</span>
     </div>
     <p class="q-text">What is/are the consequence/consequences of a country becoming the member of the 'Nuclear Suppliers Group'?
@@ -714,11 +472,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q12">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q12">
     <div class="q-head">
-      <span class="q-num">12</span>
+      <span class="q-num">4</span>
       <span class="q-yr">2018</span>
     </div>
     <p class="q-text">In the Indian context, what is the implication of ratifying the ‘Additional Protocol’ with the ‘International Atomic Energy Agency (IAEAY ?</p>
@@ -750,90 +506,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q13">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q15">
     <div class="q-head">
-      <span class="q-num">13</span>
-      <span class="q-yr">2018</span>
-    </div>
-    <p class="q-text">With reference to solar power production in India, consider the following statements:
-1. India is the third largest in the world in the manufacture of silicon wafers used in photovoltaic units.
-2. The solar power tariffs are determined by the Solar Energy Corporation of India.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">India was not, at the time, ranked third globally in silicon wafer manufacturing for photovoltaics, and solar power tariffs in India are typically determined through competitive bidding or state electricity regulatory commissions rather than solely by the Solar Energy Corporation of India, making both statements false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q14">
-    <div class="q-head">
-      <span class="q-num">14</span>
-      <span class="q-yr">2017</span>
-    </div>
-    <p class="q-text">It is possible to produce algae-based biofuels, but what is/are the likely limitation(s) of developing countries in promoting this industry?
-1. Production of algae-based biofuels is possible in seas only and not on continents.
-2. Setting up and engineering the algae-based biofuel production requires high level of expertise/technology until the construction is completed.
-3. Economically viable production necessitates the setting up of large-scale facilities which may raise ecological and social concerns.
-Select the correct answer using the code given below:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Setting up algae-based biofuel production does demand a high level of technical expertise during construction (statement 2 true), and achieving economic viability typically requires large-scale facilities that can raise genuine ecological and social concerns (statement 3 true); however algae-based biofuel production is not restricted to seas only, since it can also be done using freshwater or land-based systems, making statement 1 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q15">
-    <div class="q-head">
-      <span class="q-num">15</span>
+      <span class="q-num">5</span>
       <span class="q-yr">2017</span>
     </div>
     <p class="q-text">Consider the following statements:
@@ -868,11 +543,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q16">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q16">
     <div class="q-head">
-      <span class="q-num">16</span>
+      <span class="q-num">6</span>
       <span class="q-yr">2016</span>
     </div>
     <p class="q-text">India is an important member of the ‘International Thermonuclear Experimental Reactor’. If this experiment succeeds, what is the immediate advantage for India?</p>
@@ -904,168 +577,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q17">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q21">
     <div class="q-head">
-      <span class="q-num">17</span>
-      <span class="q-yr">2015</span>
-    </div>
-    <p class="q-text">With reference to 'fuel cells' in which hydrogen-rich fuel and oxygen are used to generate electricity, consider the following statements:
-1. If pure hydrogen is used as a fuel, the fuel cell emits heat and water as by-products.
-2. Fuel cells can be used for powering buildings and not for small devices like laptop computers.
-3. Fuel cells produce electricity in the form of Alternating Current (AC).
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A hydrogen fuel cell running on pure hydrogen produces only heat and water as by-products, with no harmful emissions, making statement 1 correct; however fuel cells are versatile and can power devices ranging from small electronics to buildings (making statement 2 false), and they generate electricity as Direct Current, not Alternating Current, making statement 3 false as well.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q18">
-    <div class="q-head">
-      <span class="q-num">18</span>
-      <span class="q-yr">2014</span>
-    </div>
-    <p class="q-text">With reference to technologies for solar power production, consider the following statements:
-1. 'Photovoltaics' is a technology that generates electricity by direct conversion of light into electricity, while 'Solar Thermal' is a technology that utilizes the Sun's rays to generate heat which is further used in electricity generation process.
-2. Photovoltaics generates Alternating Current (AC), while Solar Thermal generates Direct Current (DC).
-3. India has manufacturing base for Solar Thermal technology, but not for Photovoltaics.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 3">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Photovoltaic technology directly converts sunlight into electricity, while solar thermal technology captures the sun's heat to eventually generate power, correctly describing the fundamental difference between the two approaches (statement 1 true); however solar PV actually generates Direct Current (not AC) and India has manufacturing capability in both photovoltaic and solar thermal technology, making statements 2 and 3 inaccurate.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q19">
-    <div class="q-head">
-      <span class="q-num">19</span>
-      <span class="q-yr">2014</span>
-    </div>
-    <p class="q-text">In India, cluster bean (Guar) is traditionally used as a vegetable or animal feed, but recently the cultivation of this has assumed significance.
-Which one of the following statements is correct in this context?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: The oil extracted from seeds is used in the manufacture of biodegradable plastics">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">The oil extracted from seeds is used in the manufacture of biodegradable plastics</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: The gum made from its seeds is used in the extraction of shale gas">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">The gum made from its seeds is used in the extraction of shale gas</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The leaf extract of this plant has the properties of anti-histamines">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">The leaf extract of this plant has the properties of anti-histamines</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: It is a source of high quality biodiesel">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">It is a source of high quality biodiesel</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. The gum made from its seeds is used in the extraction of shale gas</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Guar gum, extracted from cluster bean seeds, has gained industrial importance because of its use as a key additive in the hydraulic fracturing process used to extract shale gas.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q20">
-    <div class="q-head">
-      <span class="q-num">20</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">What is the role of ultraviolet (UV) radiation in the water purification systems?
-1. It inactivates/kills the harmful microorganisms in water.
-2. It removes all the undesirable odours from the water.
-3. It quickens the sedimentation of solid particles, removes turbidity and improves the clarity of water.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">UV radiation in water purification effectively inactivates and kills harmful microorganisms (statement 1 true), but it does not remove bad odours or improve water clarity by aiding sediment settling, since UV treatment works purely at the microbial disinfection level and does not alter the water's physical or chemical impurities, making statements 2 and 3 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q21">
-    <div class="q-head">
-      <span class="q-num">21</span>
+      <span class="q-num">7</span>
       <span class="q-yr">2012</span>
     </div>
     <p class="q-text">To meet its rapidly growing energy demand, some opine that India should pursue research and development on thorium as the future fuel of nuclear energy. In this context, what advantage does thorium hold over uranium?
@@ -1101,51 +615,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q22">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q23">
     <div class="q-head">
-      <span class="q-num">22</span>
-      <span class="q-yr">2011</span>
-    </div>
-    <p class="q-text">Microbial fuel cells are considered a source of sustainable energy. Why?
-1. They use living organisms as catalysts to generate electricity from certain substrates.
-2. They use a variety of inorganic materials as substrates.
-3. They can be installed in waste water treatment plants to cleanse water and produce electricity.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Microbial fuel cells use living microorganisms as biological catalysts to generate electricity from organic substrates (statement 1 true), and they can indeed be deployed in wastewater treatment plants to simultaneously clean water and produce electricity (statement 3 true); however they primarily use organic (not simply inorganic) substrates as their energy source, making statement 2 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q23">
-    <div class="q-head">
-      <span class="q-num">23</span>
+      <span class="q-num">8</span>
       <span class="q-yr">2011</span>
     </div>
     <p class="q-text">The function of heavy water in a nuclear reactor is to</p>
@@ -1177,123 +649,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q24">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q27">
     <div class="q-head">
-      <span class="q-num">24</span>
-      <span class="q-yr">2011</span>
-    </div>
-    <p class="q-text">What is the difference between a CFL and an LED lamp?
-1. To produce light, a CFL uses mercury vapour and phosphor while an LED lamp uses semi-conductor material.
-2. The average life span of a CFL is much longer than that of an LED lamp.
-3. A CFL is less energy-efficient as compared to an LED lamp.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A CFL uses mercury vapour and a phosphor coating to produce light, while an LED relies on semiconductor material (statement 1 true), and LEDs are indeed considerably more energy-efficient than CFLs (statement 3 true); however CFLs generally have a shorter lifespan than LEDs, not longer, making statement 2 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q25">
-    <div class="q-head">
-      <span class="q-num">25</span>
-      <span class="q-yr">2010</span>
-    </div>
-    <p class="q-text">Hydrogen fuel-cell vehicles produce one of the following as “exhaust”.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: NH₃">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">NH₃</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: CH₄">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">CH₄</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: H₂O">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">H₂O</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: H₂O₂">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">H₂O₂</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. H₂O</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Hydrogen fuel-cell vehicles combine hydrogen with oxygen to produce electricity, releasing water as their primary exhaust by-product.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q26">
-    <div class="q-head">
-      <span class="q-num">26</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">In a dry cell (battery), which of the following are used as electrolytes?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Ammonium chloride and Zinc chloride">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Ammonium chloride and Zinc chloride</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Sodium chloride and Calcium chloride">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Sodium chloride and Calcium chloride</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Magnesium chloride and Zinc chloride">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Magnesium chloride and Zinc chloride</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Ammonium chloride and Calcium chloride">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Ammonium chloride and Calcium chloride</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Ammonium chloride and Zinc chloride</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A typical dry cell battery uses a moist paste of ammonium chloride and zinc chloride as its electrolyte.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q27">
-    <div class="q-head">
-      <span class="q-num">27</span>
+      <span class="q-num">9</span>
       <span class="q-yr">2008</span>
     </div>
     <p class="q-text">In the year 2007, an earthquake led to massive radioactive water leakage in the largest nuclear plant in the world. In which country did it occur?</p>
@@ -1325,11 +683,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q28">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q28">
     <div class="q-head">
-      <span class="q-num">28</span>
+      <span class="q-num">10</span>
       <span class="q-yr">2008</span>
     </div>
     <p class="q-text">In which one of the following locations is the International Thermonuclear Experimental Reactor (ITER) project to be built?</p>
@@ -1361,47 +717,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q29">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q30">
     <div class="q-head">
-      <span class="q-num">29</span>
-      <span class="q-yr">2008</span>
-    </div>
-    <p class="q-text">Where was the first desalination plant in India to produce one lakh litres freshwater per day based on low temperature thermal desalination principle commissioned?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Kavaratti">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Kavaratti</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Port Blair">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Port Blair</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Mangalore">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Mangalore</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Valsad">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Valsad</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Kavaratti</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">India's first low-temperature thermal desalination plant producing about one lakh litres of freshwater daily was commissioned at Kavaratti in the Lakshadweep islands.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q30">
-    <div class="q-head">
-      <span class="q-num">30</span>
+      <span class="q-num">11</span>
       <span class="q-yr">2008</span>
     </div>
     <p class="q-text">With which one of the following is BRIT (Government of India) engaged?</p>
@@ -1433,11 +751,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q31">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q31">
     <div class="q-head">
-      <span class="q-num">31</span>
+      <span class="q-num">12</span>
       <span class="q-yr">2007</span>
     </div>
     <p class="q-text">Recently, the European Union and six other countries including India signed the International Thermonuclear Experimental Reactor (ITER) Project. Which one of the following was NOT a signatory to it?</p>
@@ -1469,11 +785,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q32">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q32">
     <div class="q-head">
-      <span class="q-num">32</span>
+      <span class="q-num">13</span>
       <span class="q-yr">2006</span>
     </div>
     <p class="q-text">In which one of the following areas did the Indira Gandhi Center for Atomic Research make significant progress in the year 2005?</p>
@@ -1505,48 +819,9 @@ Which of the statements given above is/are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q33">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q34">
     <div class="q-head">
-      <span class="q-num">33</span>
-      <span class="q-yr">2005</span>
-    </div>
-    <p class="q-text">Assertion (A): The main constituent of the Liquefied Petroleum Gas is methane.
-Reason (R): Methane can be used directly for burning in homes and factories where it can be supplied through pipelines.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both A and R are individually true and R is the correct explanation of A">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Both A and R are individually true and R is the correct explanation of A</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are individually true but R is not the correct explanation of A">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Both A and R are individually true but R is not the correct explanation of A</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: A is true but R is false">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">A is true but R is false</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: A is false but R is true">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">A is false but R is true</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. A is false but R is true</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The main constituent of LPG is actually a mixture of butane and propane, not methane, making the assertion false; methane, however, is genuinely a fuel that can be piped directly to homes and factories for combustion, making the reason a true statement on its own.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q34">
-    <div class="q-head">
-      <span class="q-num">34</span>
+      <span class="q-num">14</span>
       <span class="q-yr">2005</span>
     </div>
     <p class="q-text">Match List-I (Atomic Power Plants/Heavy Water Plants) with List-II (State) and select the correct answer using the code given below the lists : List-I (A) Thal (B) Manuguru (C) Kakrapar (D) Kaiga List-II (State)
@@ -1583,11 +858,9 @@ Reason (R): Methane can be used directly for burning in homes and factories wher
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q35">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q35">
     <div class="q-head">
-      <span class="q-num">35</span>
+      <span class="q-num">15</span>
       <span class="q-yr">2004</span>
     </div>
     <p class="q-text">Consider the following statements:
@@ -1622,11 +895,1000 @@ Reason (R): Methane can be used directly for burning in homes and factories wher
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q36">
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q37">
+    <div class="q-head">
+      <span class="q-num">16</span>
+      <span class="q-yr">2001</span>
+    </div>
+    <p class="q-text">Consider the following organisations:
+I. Atomic Minerals Directorate for Research and Exploration
+II. Heavy Water Board
+III. Indian Rare Earths Limited
+IV. Uranium Corporation of India Which of these is/are under the Department of Atomic Energy?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I and IV">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">I and IV</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: II, III and IV">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">II, III and IV</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: I, II, III and IV">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">I, II, III and IV</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. I, II, III and IV</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Atomic Minerals Directorate for Research and Exploration, Heavy Water Board, Indian Rare Earths Limited, and Uranium Corporation of India are all constituent units functioning under India's Department of Atomic Energy.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q38">
+    <div class="q-head">
+      <span class="q-num">17</span>
+      <span class="q-yr">2001</span>
+    </div>
+    <p class="q-text">Consider the following statements: In a nuclear reactor, self-sustained chain reaction is possible, because
+I. More neutrons are released in each of the fission reactions.
+II. The neutrons immediately take part in the fission process.
+III. The fast neutrons are slowed down by Graphite.
+IV. Every neutron released in the fission reaction initiates further fission.
+Which of these statements are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I, II and III">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I, II and III</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: I and III">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">I and III</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: II and IV">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">II and IV</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: II, III and IV">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">II, III and IV</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. I and III</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A self-sustained nuclear chain reaction occurs because each fission event releases multiple neutrons, and these released neutrons must go on to trigger further fission events, matching statements I and III as the fundamental physical basis, since it is the multiplication and continuation of fission-inducing neutrons (aided by a moderator to slow them) that sustains the reaction.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q39">
+    <div class="q-head">
+      <span class="q-num">18</span>
+      <span class="q-yr">2001</span>
+    </div>
+    <p class="q-text">A radioactive substance has a half-life of four months. Three fourth of the substance would decay in</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 3 months">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">3 months</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 4 months">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">4 months</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 8 months">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">8 months</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 12 months">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">12 months</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 8 months</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">With a four-month half-life, half the substance decays in the first four months, leaving a quarter remaining after the second four-month period, meaning three-quarters has decayed by the end of two half-lives, or eight months.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q42">
+    <div class="q-head">
+      <span class="q-num">19</span>
+      <span class="q-yr">1998</span>
+    </div>
+    <p class="q-text">Which one of the following elements is essential for the construction of nuclear reactors?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Cobalt">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Cobalt</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Nickel">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Nickel</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Zirconium">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Zirconium</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Tungsten">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Tungsten</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Zirconium</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Zirconium, valued for its low neutron-absorption and corrosion resistance, is a key structural material used in the construction of nuclear reactor cores and fuel cladding.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q46">
+    <div class="q-head">
+      <span class="q-num">20</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">The difference between a nuclear reactor and an atomic bomb is that</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: no chain reaction takes place in nuclear reactor while in the atomic bomb there is a chain reaction">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">no chain reaction takes place in nuclear reactor while in the atomic bomb there is a chain reaction</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: the chain reaction in nuclear reactor is controlled">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">the chain reaction in nuclear reactor is controlled</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the chain reaction in nuclear reactor is not controlled">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">the chain reaction in nuclear reactor is not controlled</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: no chain reaction takes place in atomic bomb while it takes place in nuclear reactor">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">no chain reaction takes place in atomic bomb while it takes place in nuclear reactor</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. the chain reaction in nuclear reactor is controlled</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The essential difference between a nuclear reactor and an atomic bomb is that in a reactor the nuclear chain reaction is carefully controlled and moderated to release energy steadily, while in a bomb it proceeds uncontrolled almost instantaneously.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="nuclear-energy-reactors" id="q47">
+    <div class="q-head">
+      <span class="q-num">21</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">‘Yellow cake’, an item of smuggling across borders is</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: a crude form of heroin">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">a crude form of heroin</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: a crude form of cocaine">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">a crude form of cocaine</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: uranium oxide">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">uranium oxide</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: unrefined gold">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">unrefined gold</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. uranium oxide</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">'Yellow cake' refers to a partially refined form of uranium oxide, a key intermediate product in the nuclear fuel production process.</p>
+        </div>
+      </div>
+    </details>
+  </li></ol></section><section class="topic-section" data-topic="renewable-green-energy" id="topic-renewable-green-energy"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Renewable &amp; Green Energy Tech</h2><p class="topic-desc">Solar power, green hydrogen, biofuels, and related clean-tech.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-renewable-green-energy">17 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-renewable-green-energy"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="renewable-green-energy" id="q1">
+    <div class="q-head">
+      <span class="q-num">22</span>
+      <span class="q-yr">2025</span>
+    </div>
+    <p class="q-text">Consider the following types of vehicles :
+I. Full battery electric vehicles
+II. Hydrogen fuel cell vehicles
+III. Fuel cell-electric hybrid vehicles How many of the above are considered as alternative powertrain vehicles?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All the three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All the three</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All the three</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Full battery electric vehicles, hydrogen fuel cell vehicles, and fuel cell-electric hybrids all move away from conventional internal combustion engines, making all three legitimate examples of alternative powertrain technology.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q2">
+    <div class="q-head">
+      <span class="q-num">23</span>
+      <span class="q-yr">2024</span>
+    </div>
+    <p class="q-text">Consider the following:
+1. Battery storage
+2. Biomass generators
+3. Fuel cells
+4. Rooftop solar photovoltaic units How many of the above are considered "Distributed Energy Resources"?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Only three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Only three</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: All four">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">All four</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. All four</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Battery storage, biomass generators, fuel cells, and rooftop solar photovoltaic units are all examples of small-scale, decentralised power sources located close to where electricity is consumed, making all four Distributed Energy Resources.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q4">
+    <div class="q-head">
+      <span class="q-num">24</span>
+      <span class="q-yr">2024</span>
+    </div>
+    <p class="q-text">Consider the following materials:
+1. Agricultural residues
+2. Corn grain
+3. Wastewater treatment sludge
+4. Wood mill waste
+Which of the above can be used as feedstock for producing Sustainable Aviation Fuel?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 2, 3 and 4">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 3 and 4 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 2, 3 and 4</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A wide range of biomass sources, including agricultural residues, corn grain, wastewater treatment sludge, and wood mill waste, can all serve as feedstock for producing Sustainable Aviation Fuel through various conversion pathways.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q5">
+    <div class="q-head">
+      <span class="q-num">25</span>
+      <span class="q-yr">2023</span>
+    </div>
+    <p class="q-text">With reference to the role of biofilters in Recirculating Aquaculture System, consider the following statements :
+1. Biofilters provide waste treatment by removing uneaten fish feed.
+2. Biofilters convert ammonia present in fish waste to nitrate.
+3. Biofilters increase phosphorus as nutrient for fish in water. How many of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All three</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Only two</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Biofilters do remove waste like uneaten feed and convert toxic ammonia from fish waste into less harmful nitrate through nitrifying bacteria (statements 1 and 2 true), but they do not add phosphorus to the water for fish nutrition, making statement 3 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q6">
+    <div class="q-head">
+      <span class="q-num">26</span>
+      <span class="q-yr">2023</span>
+    </div>
+    <p class="q-text">With reference to green hydrogen, consider the following statements :
+1. It can be used directly as a fuel for internal combustion.
+2. It can be blended with natural gas and used as fuel for heat or power generation.
+3. It can be used in the hydrogen fuel cell to run vehicles.
+How many of the above statements are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All three</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All three</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Green hydrogen can indeed be burned directly as a fuel, blended with natural gas for heat or power generation, and used in fuel cells to run vehicles, making all three uses valid.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q9">
+    <div class="q-head">
+      <span class="q-num">27</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">With reference to solar water pumps, consider the following statements:
+1. Solar power can be used for running surface pumps but not for submersible pumps.
+2. Solar power can be used for running centrifugal pumps but not the ones with piston.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Solar power can actually run both surface and submersible pumps, and it can power both centrifugal and piston-type pumps depending on the system design, making both restrictive statements about solar pump limitations false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q10">
+    <div class="q-head">
+      <span class="q-num">28</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">In the context of proposals to the use of hydrogen-enriched CNG (H-CNG) as fuel for buses in public transport, consider the following statements:
+1. The main advantage of the use of H-CNG is the elimination of carbon monoxide emissions.
+2. H-CNG as fuel reduces carbon dioxide and hydrocarbon emissions.
+3. Hydrogen up to one-fifth by volume can be blended with CNG as fuel for buses.
+4. H-CNG makes the fuel less expensive than CNG.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">H-CNG use does reduce carbon dioxide and hydrocarbon emissions compared to plain CNG (statement 2 true), and up to about 18% (close to one-fifth) hydrogen by volume can be blended into CNG for use as bus fuel (statement 3 true); however it does not eliminate carbon monoxide emissions entirely, and it does not make the fuel cheaper than CNG, making statements 1 and 4 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q13">
+    <div class="q-head">
+      <span class="q-num">29</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">With reference to solar power production in India, consider the following statements:
+1. India is the third largest in the world in the manufacture of silicon wafers used in photovoltaic units.
+2. The solar power tariffs are determined by the Solar Energy Corporation of India.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">India was not, at the time, ranked third globally in silicon wafer manufacturing for photovoltaics, and solar power tariffs in India are typically determined through competitive bidding or state electricity regulatory commissions rather than solely by the Solar Energy Corporation of India, making both statements false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q14">
+    <div class="q-head">
+      <span class="q-num">30</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">It is possible to produce algae-based biofuels, but what is/are the likely limitation(s) of developing countries in promoting this industry?
+1. Production of algae-based biofuels is possible in seas only and not on continents.
+2. Setting up and engineering the algae-based biofuel production requires high level of expertise/technology until the construction is completed.
+3. Economically viable production necessitates the setting up of large-scale facilities which may raise ecological and social concerns.
+Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Setting up algae-based biofuel production does demand a high level of technical expertise during construction (statement 2 true), and achieving economic viability typically requires large-scale facilities that can raise genuine ecological and social concerns (statement 3 true); however algae-based biofuel production is not restricted to seas only, since it can also be done using freshwater or land-based systems, making statement 1 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q17">
+    <div class="q-head">
+      <span class="q-num">31</span>
+      <span class="q-yr">2015</span>
+    </div>
+    <p class="q-text">With reference to 'fuel cells' in which hydrogen-rich fuel and oxygen are used to generate electricity, consider the following statements:
+1. If pure hydrogen is used as a fuel, the fuel cell emits heat and water as by-products.
+2. Fuel cells can be used for powering buildings and not for small devices like laptop computers.
+3. Fuel cells produce electricity in the form of Alternating Current (AC).
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A hydrogen fuel cell running on pure hydrogen produces only heat and water as by-products, with no harmful emissions, making statement 1 correct; however fuel cells are versatile and can power devices ranging from small electronics to buildings (making statement 2 false), and they generate electricity as Direct Current, not Alternating Current, making statement 3 false as well.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q18">
+    <div class="q-head">
+      <span class="q-num">32</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">With reference to technologies for solar power production, consider the following statements:
+1. 'Photovoltaics' is a technology that generates electricity by direct conversion of light into electricity, while 'Solar Thermal' is a technology that utilizes the Sun's rays to generate heat which is further used in electricity generation process.
+2. Photovoltaics generates Alternating Current (AC), while Solar Thermal generates Direct Current (DC).
+3. India has manufacturing base for Solar Thermal technology, but not for Photovoltaics.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Photovoltaic technology directly converts sunlight into electricity, while solar thermal technology captures the sun's heat to eventually generate power, correctly describing the fundamental difference between the two approaches (statement 1 true); however solar PV actually generates Direct Current (not AC) and India has manufacturing capability in both photovoltaic and solar thermal technology, making statements 2 and 3 inaccurate.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q19">
+    <div class="q-head">
+      <span class="q-num">33</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">In India, cluster bean (Guar) is traditionally used as a vegetable or animal feed, but recently the cultivation of this has assumed significance.
+Which one of the following statements is correct in this context?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: The oil extracted from seeds is used in the manufacture of biodegradable plastics">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">The oil extracted from seeds is used in the manufacture of biodegradable plastics</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: The gum made from its seeds is used in the extraction of shale gas">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">The gum made from its seeds is used in the extraction of shale gas</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The leaf extract of this plant has the properties of anti-histamines">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The leaf extract of this plant has the properties of anti-histamines</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: It is a source of high quality biodiesel">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">It is a source of high quality biodiesel</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. The gum made from its seeds is used in the extraction of shale gas</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Guar gum, extracted from cluster bean seeds, has gained industrial importance because of its use as a key additive in the hydraulic fracturing process used to extract shale gas.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q20">
+    <div class="q-head">
+      <span class="q-num">34</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">What is the role of ultraviolet (UV) radiation in the water purification systems?
+1. It inactivates/kills the harmful microorganisms in water.
+2. It removes all the undesirable odours from the water.
+3. It quickens the sedimentation of solid particles, removes turbidity and improves the clarity of water.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">UV radiation in water purification effectively inactivates and kills harmful microorganisms (statement 1 true), but it does not remove bad odours or improve water clarity by aiding sediment settling, since UV treatment works purely at the microbial disinfection level and does not alter the water's physical or chemical impurities, making statements 2 and 3 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q22">
+    <div class="q-head">
+      <span class="q-num">35</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">Microbial fuel cells are considered a source of sustainable energy. Why?
+1. They use living organisms as catalysts to generate electricity from certain substrates.
+2. They use a variety of inorganic materials as substrates.
+3. They can be installed in waste water treatment plants to cleanse water and produce electricity.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Microbial fuel cells use living microorganisms as biological catalysts to generate electricity from organic substrates (statement 1 true), and they can indeed be deployed in wastewater treatment plants to simultaneously clean water and produce electricity (statement 3 true); however they primarily use organic (not simply inorganic) substrates as their energy source, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q25">
     <div class="q-head">
       <span class="q-num">36</span>
+      <span class="q-yr">2010</span>
+    </div>
+    <p class="q-text">Hydrogen fuel-cell vehicles produce one of the following as “exhaust”.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: NH₃">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">NH₃</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: CH₄">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">CH₄</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: H₂O">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">H₂O</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: H₂O₂">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">H₂O₂</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. H₂O</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Hydrogen fuel-cell vehicles combine hydrogen with oxygen to produce electricity, releasing water as their primary exhaust by-product.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q29">
+    <div class="q-head">
+      <span class="q-num">37</span>
+      <span class="q-yr">2008</span>
+    </div>
+    <p class="q-text">Where was the first desalination plant in India to produce one lakh litres freshwater per day based on low temperature thermal desalination principle commissioned?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Kavaratti">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Kavaratti</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Port Blair">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Port Blair</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Mangalore">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Mangalore</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Valsad">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Valsad</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Kavaratti</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">India's first low-temperature thermal desalination plant producing about one lakh litres of freshwater daily was commissioned at Kavaratti in the Lakshadweep islands.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="renewable-green-energy" id="q44">
+    <div class="q-head">
+      <span class="q-num">38</span>
+      <span class="q-yr">1996</span>
+    </div>
+    <p class="q-text">Consider the following statements: At the present level of technology available in India, solar energy can be conveniently used to
+I. Supply hot water to residential buildings.
+II. Supply water for minor irrigation projects.
+III. Provide street lighting.
+IV. Electrify a cluster of villages and small towns. Of these statements</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I, II, III and IV are correct">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I, II, III and IV are correct</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I and IV are correct">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">I and IV are correct</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I and III are correct">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">I and III are correct</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: I, II and III are correct">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">I, II and III are correct</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. I, II and III are correct</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">At India's technology level at the time, solar energy could be practically used to heat water for buildings, power street lighting, and electrify small village and town clusters, but supplying enough energy for minor irrigation projects at scale was not yet considered a convenient application, making statements I, III, and IV the correct combination.</p>
+        </div>
+      </div>
+    </details>
+  </li></ol></section><section class="topic-section" data-topic="batteries-fuels-everyday" id="topic-batteries-fuels-everyday"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Batteries, Fuels &amp; Everyday Energy Tech</h2><p class="topic-desc">Batteries, lighting, and common fuel-related facts.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-batteries-fuels-everyday">9 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-batteries-fuels-everyday"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="batteries-fuels-everyday" id="q7">
+    <div class="q-head">
+      <span class="q-num">39</span>
+      <span class="q-yr">2021</span>
+    </div>
+    <p class="q-text">With reference to street-lighting, how do sodium lamps differ from LED lamps?
+1. Sodium lamps produce light in 360 degrees but it is not so in the case of LED lamps.
+2. As street-lights, sodium lamps have longer life span than LED lamps.
+3. The spectrum of visible light from sodium lamps is almost monochromatic while LED lamps offer significant colour advantages in street-lighting.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Sodium lamps do emit light in essentially all directions while LED lamps are more directional (statement 1 true), and sodium lamps produce a nearly monochromatic yellow-orange light compared to the fuller colour spectrum LEDs can offer (statement 3 true); however LED lamps generally have a longer operational lifespan than sodium lamps, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q24">
+    <div class="q-head">
+      <span class="q-num">40</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">What is the difference between a CFL and an LED lamp?
+1. To produce light, a CFL uses mercury vapour and phosphor while an LED lamp uses semi-conductor material.
+2. The average life span of a CFL is much longer than that of an LED lamp.
+3. A CFL is less energy-efficient as compared to an LED lamp.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A CFL uses mercury vapour and a phosphor coating to produce light, while an LED relies on semiconductor material (statement 1 true), and LEDs are indeed considerably more energy-efficient than CFLs (statement 3 true); however CFLs generally have a shorter lifespan than LEDs, not longer, making statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q26">
+    <div class="q-head">
+      <span class="q-num">41</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">In a dry cell (battery), which of the following are used as electrolytes?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Ammonium chloride and Zinc chloride">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Ammonium chloride and Zinc chloride</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Sodium chloride and Calcium chloride">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Sodium chloride and Calcium chloride</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Magnesium chloride and Zinc chloride">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Magnesium chloride and Zinc chloride</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Ammonium chloride and Calcium chloride">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Ammonium chloride and Calcium chloride</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Ammonium chloride and Zinc chloride</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A typical dry cell battery uses a moist paste of ammonium chloride and zinc chloride as its electrolyte.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q33">
+    <div class="q-head">
+      <span class="q-num">42</span>
+      <span class="q-yr">2005</span>
+    </div>
+    <p class="q-text">Assertion (A): The main constituent of the Liquefied Petroleum Gas is methane.
+Reason (R): Methane can be used directly for burning in homes and factories where it can be supplied through pipelines.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both A and R are individually true and R is the correct explanation of A">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Both A and R are individually true and R is the correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are individually true but R is not the correct explanation of A">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Both A and R are individually true but R is not the correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: A is true but R is false">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">A is true but R is false</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: A is false but R is true">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A is false but R is true</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. A is false but R is true</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The main constituent of LPG is actually a mixture of butane and propane, not methane, making the assertion false; methane, however, is genuinely a fuel that can be piped directly to homes and factories for combustion, making the reason a true statement on its own.</p>
+        </div>
+      </div>
+    </details>
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q36">
+    <div class="q-head">
+      <span class="q-num">43</span>
       <span class="q-yr">2004</span>
     </div>
     <p class="q-text">Match List I (Fuel Gases) with List II (Major Constituents) and select the correct answer using the codes given below:
@@ -1666,128 +1928,9 @@ Codes:</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q37">
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q40">
     <div class="q-head">
-      <span class="q-num">37</span>
-      <span class="q-yr">2001</span>
-    </div>
-    <p class="q-text">Consider the following organisations:
-I. Atomic Minerals Directorate for Research and Exploration
-II. Heavy Water Board
-III. Indian Rare Earths Limited
-IV. Uranium Corporation of India Which of these is/are under the Department of Atomic Energy?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I and IV">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">I and IV</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: II, III and IV">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">II, III and IV</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: I, II, III and IV">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">I, II, III and IV</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. I, II, III and IV</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Atomic Minerals Directorate for Research and Exploration, Heavy Water Board, Indian Rare Earths Limited, and Uranium Corporation of India are all constituent units functioning under India's Department of Atomic Energy.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q38">
-    <div class="q-head">
-      <span class="q-num">38</span>
-      <span class="q-yr">2001</span>
-    </div>
-    <p class="q-text">Consider the following statements: In a nuclear reactor, self-sustained chain reaction is possible, because
-I. More neutrons are released in each of the fission reactions.
-II. The neutrons immediately take part in the fission process.
-III. The fast neutrons are slowed down by Graphite.
-IV. Every neutron released in the fission reaction initiates further fission.
-Which of these statements are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I, II and III">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I, II and III</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: I and III">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">I and III</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: II and IV">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">II and IV</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: II, III and IV">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">II, III and IV</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. I and III</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A self-sustained nuclear chain reaction occurs because each fission event releases multiple neutrons, and these released neutrons must go on to trigger further fission events, matching statements I and III as the fundamental physical basis, since it is the multiplication and continuation of fission-inducing neutrons (aided by a moderator to slow them) that sustains the reaction.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q39">
-    <div class="q-head">
-      <span class="q-num">39</span>
-      <span class="q-yr">2001</span>
-    </div>
-    <p class="q-text">A radioactive substance has a half-life of four months. Three fourth of the substance would decay in</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 3 months">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">3 months</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 4 months">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">4 months</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 8 months">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">8 months</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 12 months">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">12 months</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 8 months</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">With a four-month half-life, half the substance decays in the first four months, leaving a quarter remaining after the second four-month period, meaning three-quarters has decayed by the end of two half-lives, or eight months.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q40">
-    <div class="q-head">
-      <span class="q-num">40</span>
+      <span class="q-num">44</span>
       <span class="q-yr">2000</span>
     </div>
     <p class="q-text">Consider the following features of newer models of motor cars:
@@ -1823,11 +1966,9 @@ IV. Catalytic converter with exhaust Which of these features make the newer mode
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q41">
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q41">
     <div class="q-head">
-      <span class="q-num">41</span>
+      <span class="q-num">45</span>
       <span class="q-yr">1999</span>
     </div>
     <p class="q-text">Consider the following statements regarding a motor car battery: I. The voltage is usually 12 V. II. Electrolyte used is hydrochloric acid. III. Electrodes are lead and copper. IV. Capacity is expressed in ampere-hour.
@@ -1860,47 +2001,9 @@ Which of the above statements are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q42">
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q43">
     <div class="q-head">
-      <span class="q-num">42</span>
-      <span class="q-yr">1998</span>
-    </div>
-    <p class="q-text">Which one of the following elements is essential for the construction of nuclear reactors?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Cobalt">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Cobalt</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Nickel">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Nickel</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Zirconium">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Zirconium</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Tungsten">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Tungsten</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Zirconium</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Zirconium, valued for its low neutron-absorption and corrosion resistance, is a key structural material used in the construction of nuclear reactor cores and fuel cladding.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q43">
-    <div class="q-head">
-      <span class="q-num">43</span>
+      <span class="q-num">46</span>
       <span class="q-yr">1997</span>
     </div>
     <p class="q-text">Which one of the following has the highest fuel value?</p>
@@ -1932,51 +2035,9 @@ Which of the above statements are correct?</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q44">
+  </li><li class="q-card" data-topic="batteries-fuels-everyday" id="q45">
     <div class="q-head">
-      <span class="q-num">44</span>
-      <span class="q-yr">1996</span>
-    </div>
-    <p class="q-text">Consider the following statements: At the present level of technology available in India, solar energy can be conveniently used to
-I. Supply hot water to residential buildings.
-II. Supply water for minor irrigation projects.
-III. Provide street lighting.
-IV. Electrify a cluster of villages and small towns. Of these statements</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I, II, III and IV are correct">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I, II, III and IV are correct</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I and IV are correct">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">I and IV are correct</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I and III are correct">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">I and III are correct</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: I, II and III are correct">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">I, II and III are correct</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. I, II and III are correct</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">At India's technology level at the time, solar energy could be practically used to heat water for buildings, power street lighting, and electrify small village and town clusters, but supplying enough energy for minor irrigation projects at scale was not yet considered a convenient application, making statements I, III, and IV the correct combination.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q45">
-    <div class="q-head">
-      <span class="q-num">45</span>
+      <span class="q-num">47</span>
       <span class="q-yr">1995</span>
     </div>
     <p class="q-text">Which one of the following pairs of materials serves as electrodes in chargeable batteries commonly used in devices such as torchlights, electric shavers, etc.?</p>
@@ -2008,112 +2069,45 @@ IV. Electrify a cluster of villages and small towns. Of these statements</p>
         </div>
       </div>
     </details>
-  </li>
-
-  <li class="q-card" id="q46">
-    <div class="q-head">
-      <span class="q-num">46</span>
-      <span class="q-yr">1995</span>
-    </div>
-    <p class="q-text">The difference between a nuclear reactor and an atomic bomb is that</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: no chain reaction takes place in nuclear reactor while in the atomic bomb there is a chain reaction">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">no chain reaction takes place in nuclear reactor while in the atomic bomb there is a chain reaction</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: the chain reaction in nuclear reactor is controlled">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">the chain reaction in nuclear reactor is controlled</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the chain reaction in nuclear reactor is not controlled">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">the chain reaction in nuclear reactor is not controlled</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: no chain reaction takes place in atomic bomb while it takes place in nuclear reactor">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">no chain reaction takes place in atomic bomb while it takes place in nuclear reactor</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. the chain reaction in nuclear reactor is controlled</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The essential difference between a nuclear reactor and an atomic bomb is that in a reactor the nuclear chain reaction is carefully controlled and moderated to release energy steadily, while in a bomb it proceeds uncontrolled almost instantaneously.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q47">
-    <div class="q-head">
-      <span class="q-num">47</span>
-      <span class="q-yr">1995</span>
-    </div>
-    <p class="q-text">‘Yellow cake’, an item of smuggling across borders is</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: a crude form of heroin">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">a crude form of heroin</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: a crude form of cocaine">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">a crude form of cocaine</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: uranium oxide">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">uranium oxide</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: unrefined gold">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">unrefined gold</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. uranium oxide</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">'Yellow cake' refers to a partially refined form of uranium oxide, a key intermediate product in the nuclear fuel production process.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-</ol>
-
-<div class="bottom-nav container">
-  <a class="back-link" href="../science-technology-upsc-pyq.html">← Back to all Science &amp; Technology PYQ topics</a>
-  <div class="test-cta-wrap" style="margin-top:0; margin-bottom: 22px;">
-    <a class="test-cta-light" href="../../test/engine.html?mode=practice&amp;topic=science/energy-technologies">Take this topic as a timed test →</a>
-  </div>
-  <p class="continue-hd">Continue studying</p>
-  <div class="continue-grid">
-      <a href="./computer-technology.html" class="related-pill continue-link">Computer, IT &amp; AI <span class="arrow">→</span></a>
-      <a href="./materials-science.html" class="related-pill continue-link">Materials Science &amp; Nanotechnology <span class="arrow">→</span></a>
-      <a href="./defence-technology.html" class="related-pill continue-link">Defence Technology <span class="arrow">→</span></a>
-  </div>
-  <div class="prev-next-row">
-    <a href="./computer-technology.html" class="continue-link">&larr;&nbsp;Computer, IT & AI</a>
-    <a href="./materials-science.html" class="continue-link">Materials Science&nbsp;<span class="arrow">→</span></a>
-  </div>
+  </li></ol></section></div>
 </div>
-
+</div>
+<div class="bottom-nav container">
+<a class="back-link" href="../science-technology-upsc-pyq.html">← Back to all Science &amp; Technology PYQ topics</a>
+<div class="test-cta-wrap" style="margin-top:0; margin-bottom: 22px;">
+<a class="test-cta-light" href="../../test/engine.html?mode=practice&amp;topic=science/energy-technologies">Take this topic as a timed test →</a>
+</div>
+<p class="continue-hd">Continue studying</p>
+<div class="continue-grid">
+<a class="related-pill continue-link" href="./computer-technology.html">Computer, IT &amp; AI <span class="arrow">→</span></a><a class="related-pill continue-link" href="./materials-science.html">Materials Science &amp; Nanotechnology <span class="arrow">→</span></a><a class="related-pill continue-link" href="./defence-technology.html">Defence Technology <span class="arrow">→</span></a>
+</div>
+<div class="prev-next-row">
+<a class="continue-link" href="./computer-technology.html">← Computer, IT &amp; AI</a>
+<a class="continue-link" href="./materials-science.html">Materials Science &amp; Nanotechnology <span class="arrow">→</span></a>
+</div>
+</div>
 <footer class="site-footer" role="contentinfo">
-  <div class="footer-logo">UPSC <span>A2Z</span></div>
-  <nav class="footer-links" aria-label="Footer navigation">
-    <a href="../../index.html">Home</a>
-    <a href="../../tracker.html">Topic Tracker</a>
-    <a href="../science-technology-upsc-pyq.html">PYQ Bank</a>
-    <a href="../../topics/science-technology-upsc.html">Science &amp; Technology Topics</a>
-  </nav>
-  <p class="footer-copy">Free, ad-free resource for every UPSC aspirant · © 2026 UPSC A2Z</p>
+<div class="footer-logo">UPSC <span>A2Z</span></div>
+<nav aria-label="Footer navigation" class="footer-links">
+<a href="../../index.html">Home</a>
+<a href="../../tracker.html">Topic Tracker</a>
+<a href="../science-technology-upsc-pyq.html">PYQ Bank</a>
+<a href="../../topics/science-technology-upsc.html">Science &amp; Technology Topics</a>
+</nav>
+<p class="footer-copy">Free, ad-free resource for every UPSC aspirant · © 2026 UPSC A2Z</p>
 </footer>
-
-<button id="scrollTop" aria-label="Back to top">↑</button>
-
+<button aria-label="Back to top" id="scrollTop">↑</button>
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -2130,6 +2124,13 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_energy_technologies';
 var total = 47;
 
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -2139,9 +2140,39 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
   document.getElementById('completionBanner').classList.toggle('show', answered >= total);
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {
@@ -2192,6 +2223,5 @@ document.getElementById('resetProgress').addEventListener('click', function () {
 
 updateProgressUI();
 </script>
-
 </body>
 </html>

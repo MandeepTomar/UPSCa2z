@@ -21,6 +21,8 @@
 <meta property="og:locale" content="en_IN"/>
 <meta property="og:image" content="https://upsca2z.com/og-image.jpg"/>
 <meta property="og:image:alt" content="Defence Technology UPSC PYQ — Missiles & UAVs — UPSC Prelims previous year questions"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Defence Technology UPSC PYQ — Missiles & UAVs | UPSC A2Z"/>
@@ -71,7 +73,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -117,6 +119,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 .test-cta-wrap { margin-top: 20px; }
 .test-cta { display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 20px; min-height: 44px; background: var(--blue); color: #fff; border-radius: var(--r-md); box-shadow: var(--sh-sm); transition: background 0.15s var(--ease), transform 0.1s var(--ease); }
@@ -131,7 +156,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .test-cta-light:hover { color: var(--blue2); text-decoration: underline; }
 
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,13 +226,75 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "xm5qz0y2p6");
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many Defence Technology questions has UPSC Prelims asked?",
+      "acceptedAnswer": { "@type": "Answer", "text": "UPSC has asked 20 Defence Technology questions in Prelims from 1996 to 2025, covering missile systems, UAVs, and indigenous defence programmes." }
+    },
+    {
+      "@type": "Question",
+      "name": "What Defence Technology topics does UPSC test most?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Missile systems, Unmanned Aerial Vehicles (UAVs), and India's indigenous defence programmes under DRDO are the most frequently tested areas." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Defence Technology an important UPSC Prelims topic?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It's a smaller but steady topic \u2014 a good one to cover after the higher-yield Science & Technology subjects like Physics and Biology." }
+    }
+  ]
+}
 </script>
 </head>
 <body>
@@ -235,13 +322,60 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 <div class="progress-shell">
   <div class="progress-wrap container">
     <div class="progress-label">
-      <span id="progressText">0 of 20 attempted</span>
+      <span id="progressText">20 questions</span>
       <button class="reset-btn" id="resetProgress" type="button">Reset progress</button>
     </div>
     <div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
   </div>
 </div>
 
+<nav class="sidebar-mobile-bar" aria-label="Science and Technology topics">
+  <a class="sidebar-mobile-link" href="../science-technology-upsc-pyq.html">All Topics</a>
+  <a class="sidebar-mobile-link" href="./physics.html">Physics</a>
+  <a class="sidebar-mobile-link" href="./biology.html">Biology</a>
+  <a class="sidebar-mobile-link" href="./chemistry.html">Chemistry</a>
+  <a class="sidebar-mobile-link is-active" href="./defence-technology.html">Defence Technology</a>
+</nav>
+
+<div class="layout">
+  <aside class="sidebar" aria-label="Sidebar navigation">
+
+    <div class="sidebar-section">
+      <p class="sidebar-label">Science &amp; Technology PYQ</p>
+      <ul class="sidebar-nav">
+        <li><a class="sidebar-link" href="./physics.html">Physics</a></li>
+        <li><a class="sidebar-link" href="./biology.html">Biology</a></li>
+        <li><a class="sidebar-link" href="./chemistry.html">Chemistry</a></li>
+        <li><a class="sidebar-link is-active" href="./defence-technology.html">Defence Technology</a></li>
+      </ul>
+      <a class="sidebar-link" style="margin-top:6px; color:var(--blue); font-weight:600;" href="../science-technology-upsc-pyq.html">← All Sci &amp; Tech topics</a>
+    </div>
+
+    <div class="sidebar-section"><p class="sidebar-label">Jump to Topic</p><ul class="sidebar-nav" id="topicSidebarNav"><li><a class="sidebar-link topic-jump-link" data-topic="missile-systems" href="#topic-missile-systems">Missile Systems<span class="sidebar-link-check" id="sideCount-missile-systems">7</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="naval-air-assets" href="#topic-naval-air-assets">Naval & Air Assets<span class="sidebar-link-check" id="sideCount-naval-air-assets">5</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="uavs-drones" href="#topic-uavs-drones">UAVs & Drones<span class="sidebar-link-check" id="sideCount-uavs-drones">4</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="indigenous-defence-tech" href="#topic-indigenous-defence-tech">Indigenous Defence Tech<span class="sidebar-link-check" id="sideCount-indigenous-defence-tech">3</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="defence-ranks-structure" href="#topic-defence-ranks-structure">Defence Ranks & Structure<span class="sidebar-link-check" id="sideCount-defence-ranks-structure">1</span></a></li></ul></div>
+
+    <div class="sidebar-section">
+      <p class="sidebar-label">Your Progress</p>
+      <div class="sidebar-progress-card">
+        <div class="sidebar-progress-num" id="sidebarProgressNum">20</div>
+        <div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+        <div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+      </div>
+      <a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=science/defence-technology">Take as Timed Test</a>
+    </div>
+
+    <div class="sidebar-section">
+      <p class="sidebar-label">UPSC A2Z</p>
+      <nav class="sidebar-footer-links" aria-label="Site links">
+        <a href="../../index.html">Home</a>
+        <a href="../../tracker.html">Topic Tracker</a>
+        <a href="../science-technology-upsc-pyq.html">PYQ Bank</a>
+        <a href="../../topics/science-technology-upsc.html">Sci &amp; Tech Topics</a>
+      </nav>
+    </div>
+
+  </aside>
+
+  <div class="main-col">
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Science &amp; Technology PYQ</p>
   <h1>Defence Technology UPSC PYQ — Missiles, UAVs & Defence Systems</h1>
@@ -252,14 +386,8 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1996–2025</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">Missile Systems</span>
-            <span class="includes-chip">UAVs &amp; Drones</span>
-            <span class="includes-chip">Naval &amp; Air Assets</span>
-            <span class="includes-chip">Indigenous Defence Tech</span>
-            <span class="includes-chip">Defence Ranks &amp; Structure</span>
-    </div>
+    <p class="includes-label">Jump to a topic</p>
+    <div class="includes-chips" id="topicQuickNav"><a class="includes-chip topic-chip" data-topic="missile-systems" href="#topic-missile-systems"><span>Missile Systems</span><span class="chip-count" id="chipCount-missile-systems">7</span></a><a class="includes-chip topic-chip" data-topic="naval-air-assets" href="#topic-naval-air-assets"><span>Naval & Air Assets</span><span class="chip-count" id="chipCount-naval-air-assets">5</span></a><a class="includes-chip topic-chip" data-topic="uavs-drones" href="#topic-uavs-drones"><span>UAVs & Drones</span><span class="chip-count" id="chipCount-uavs-drones">4</span></a><a class="includes-chip topic-chip" data-topic="indigenous-defence-tech" href="#topic-indigenous-defence-tech"><span>Indigenous Defence Tech</span><span class="chip-count" id="chipCount-indigenous-defence-tech">3</span></a><a class="includes-chip topic-chip" data-topic="defence-ranks-structure" href="#topic-defence-ranks-structure"><span>Defence Ranks & Structure</span><span class="chip-count" id="chipCount-defence-ranks-structure">1</span></a></div>
   </div>
   <div class="test-cta-wrap">
   <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=science/defence-technology">
@@ -280,8 +408,471 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="q-sections" id="qSections"><section class="topic-section" data-topic="missile-systems" id="topic-missile-systems"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Missile Systems</h2><p class="topic-desc">Ballistic and cruise missiles, India's Agni and Prithvi families, and anti-missile defence systems.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-missile-systems">7 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-missile-systems"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="missile-systems" id="q6">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2023</span>
+    </div>
+    <p class="q-text">Consider the following statements :
+1. Ballistic missiles are jet-propelled at subsonic speeds throughout their flights, while cruise missiles are rocket-powered only in the initial phase of flight.
+2. Agni-V is a medium-range supersonic cruise missile, while BrahMos is a solid-fuelled intercontinental ballistic missile.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Ballistic missiles are actually rocket-powered (not jet-propelled) and typically follow a powered boost phase followed by a free-fall trajectory, while cruise missiles are jet-propelled and can sustain powered flight throughout their journey, the reverse of what statement 1 claims; and Agni-V is actually a solid-fuelled intercontinental ballistic missile while BrahMos is a supersonic cruise missile, the reverse of statement 2, making both statements incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="missile-systems" id="q9">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">What is "Terminal High Altitude Area Defense (THAAD)", sometimes seen in the news?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: An Israeli radar system">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">An Israeli radar system</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: India's indigenous anti-missile programme">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">India's indigenous anti-missile programme</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: An American anti-missile system">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">An American anti-missile system</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A defence collaboration between Japan and South Korea">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A defence collaboration between Japan and South Korea</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. An American anti-missile system</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">THAAD (Terminal High Altitude Area Defense) is an American missile defence system designed to intercept and destroy short, medium, and intermediate-range ballistic missiles during their final phase of flight.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="missile-systems" id="q12">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">With reference to Agni-IV Missile, which of the following statements is/are correct?
+1. It is a surface-to-surface missile.
+2. It is fuelled by liquid propellant only.
+3. It can deliver one-tonne nuclear warheads about 7500 km away.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Agni-IV is indeed a surface-to-surface ballistic missile (statement 1 true); however it uses a combination of solid propellant stages rather than liquid fuel only, and its range and payload figures differ from those stated, making statements 2 and 3 inaccurate.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="missile-systems" id="q14">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">In the context of Indian defence, consider the following statements :
+1. The Shourya missile flies with a speed of more than 8 Mach.
+2. The range of Shourya missile is more than 1600 km.
+Which of the statements given above is/are correct ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Shaurya missile's actual reported speed and range figures at the time did not match the specific values given in the statements, making both statements as stated inaccurate per the historical record used for this question.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="missile-systems" id="q15">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2008</span>
+    </div>
+    <p class="q-text">From which one of the following did India buy the Barak anti-missile defence systems?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Israel">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Israel</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: France">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">France</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Russia">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Russia</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: USA">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">USA</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Israel</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">India procured the Barak anti-missile defence system from Israel, strengthening its naval air-defence capabilities.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="missile-systems" id="q17">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Consider the following statements:
+1. In November 2006, DRDO successfully conducted the interception test using Prithvi-II missile.
+2. Prithvi-II is a surface-to-surface missile and can be deployed to guard the metros against air attack.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">DRDO did conduct a successful interception test of an incoming 'enemy' missile using the Prithvi-II system in November 2006, and the Prithvi-II is indeed a surface-to-surface missile capable of playing a role in defending key cities against aerial threats, making both statements correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="missile-systems" id="q19">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">2001</span>
+    </div>
+    <p class="q-text">The range of Agni-II missile is around</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 500 km">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">500 km</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2000 km">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2000 km</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3500 km">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3500 km</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 5000 km">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">5000 km</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2000 km</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Agni-II missile has an operational range of approximately 2,000 km, classifying it as an intermediate-range ballistic missile.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  </ol></section><section class="topic-section" data-topic="naval-air-assets" id="topic-naval-air-assets"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Naval & Air Assets</h2><p class="topic-desc">Warships, submarines, fighter aircraft, and detection systems like radar.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-naval-air-assets">5 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-naval-air-assets"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="naval-air-assets" id="q2">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2024</span>
+    </div>
+    <p class="q-text">Consider the following activities:
+1. Identification of narcotics on passengers at airports or in aircraft
+2. Monitoring of precipitation
+3. Tracking the migration of animals In how many of the above activities can the radars be used?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All three</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Only two</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Radar technology is used to identify concealed items like narcotics through certain scanning applications and to monitor precipitation via weather radar, but it is not a standard tool for tracking animal migration, which typically relies on GPS tagging rather than radar.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="naval-air-assets" id="q3">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2024</span>
+    </div>
+    <p class="q-text">Consider the following aircraft :
+1. Rafael
+2. MiG-29
+3. Tejas MK-1 How many of the above are considered fifth generation fighter aircraft ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All three</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. None</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Rafale and MiG-29 are both fourth-generation (or 4.5-generation) fighter aircraft, and Tejas MK-1 is also classified as a fourth-generation light combat aircraft, so none of the three listed aircraft qualify as fifth-generation fighters.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="naval-air-assets" id="q7">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">Which one of the following statements best describes the ‘Polar Code’?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: It is the international code of safety for ships operating in polar waters.">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">It is the international code of safety for ships operating in polar waters.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: It is a trade and security agreement of the member countries of the Arctic Council.">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">It is a trade and security agreement of the member countries of the Arctic Council.</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. It is the international code of safety for ships operating in polar waters.</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Polar Code is the International Maritime Organization's mandatory international safety code governing ships that operate in the harsh conditions of polar waters.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="naval-air-assets" id="q10">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">Which one of the following is the best description of 'INS Astradharini', that was in the news recently?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Amphibious warfare ship">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Amphibious warfare ship</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Nuclear-powered submarine">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Nuclear-powered submarine</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Torpedo launch and recovery vessel">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Torpedo launch and recovery vessel</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Nuclear-powered aircraft carrier">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Nuclear-powered aircraft carrier</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Torpedo launch and recovery vessel</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">INS Astradharini is an Indian Navy torpedo launch and recovery vessel, used to support torpedo testing and trials.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="naval-air-assets" id="q13">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">Consider the following statements:
+1. INS Sindhughosh is an aircraft carrier.
+2. INS Viraat is a submarine.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">INS Sindhughosh is actually a Kilo-class submarine, not an aircraft carrier, and INS Viraat was an aircraft carrier, not a submarine, making both statements as presented incorrect, essentially swapped from their accurate classifications.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  </ol></section><section class="topic-section" data-topic="uavs-drones" id="topic-uavs-drones"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">UAVs & Drones</h2><p class="topic-desc">Unmanned Aerial Vehicles, their real-world applications, and emerging drone technology.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-uavs-drones">4 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-uavs-drones"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="uavs-drones" id="q1">
     <div class="q-head">
       <span class="q-num">1</span>
       <span class="q-yr">2025</span>
@@ -320,25 +911,26 @@ III. All types of UAVs can use battery only as a source of power supply. How man
     </details>
   </li>
 
-  <li class="q-card" id="q2">
+  
+<li class="q-card" data-topic="uavs-drones" id="q5">
     <div class="q-head">
       <span class="q-num">2</span>
-      <span class="q-yr">2024</span>
+      <span class="q-yr">2023</span>
     </div>
-    <p class="q-text">Consider the following activities:
-1. Identification of narcotics on passengers at airports or in aircraft
-2. Monitoring of precipitation
-3. Tracking the migration of animals In how many of the above activities can the radars be used?</p>
+    <p class="q-text">Consider the following actions :
+1. Detection of car crash/collision which results in the deployment of airbags almost instantaneously
+2. Detection of accidental free fall of a laptop towards the ground which results in the immediate turning off of the hard drive
+3. Detection of the tilt of the smart-phone which results in the rotation of display between portrait and landscape mode In how many of the above actions is the function of accelerometer required?</p>
     <ol class="q-opts">
         <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
           <span class="q-opt-letter">A</span>
           <span class="q-opt-text">Only one</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Only two">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
           <span class="q-opt-letter">B</span>
           <span class="q-opt-text">Only two</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All three">
           <span class="q-opt-letter">C</span>
           <span class="q-opt-text">All three</span>
         </li>
@@ -350,57 +942,204 @@ III. All types of UAVs can use battery only as a source of power supply. How man
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Only two</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All three</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Radar technology is used to identify concealed items like narcotics through certain scanning applications and to monitor precipitation via weather radar, but it is not a standard tool for tracking animal migration, which typically relies on GPS tagging rather than radar.</p>
+          <p class="q-exp">An accelerometer, which detects changes in motion and orientation, is the key sensor behind airbag deployment during a crash, triggering a laptop's hard drive protection during a fall, and enabling a smartphone's screen to rotate between portrait and landscape modes.</p>
         </div>
       </div>
     </details>
   </li>
 
-  <li class="q-card" id="q3">
+  
+<li class="q-card" data-topic="uavs-drones" id="q8">
     <div class="q-head">
       <span class="q-num">3</span>
-      <span class="q-yr">2024</span>
+      <span class="q-yr">2020</span>
     </div>
-    <p class="q-text">Consider the following aircraft :
-1. Rafael
-2. MiG-29
-3. Tejas MK-1 How many of the above are considered fifth generation fighter aircraft ?</p>
+    <p class="q-text">Consider the following activities :
+1. Spraying pesticides on a crop field
+2. Inspecting the craters of active volcanoes
+3. Collecting breath samples from spouting whales for DNA analysis At the present level of technology,
+which of the above activities can be successfully carried out by using drones ?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
+          <span class="q-opt-text">1 and 2 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
+          <span class="q-opt-text">2 and 3 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All three</span>
+          <span class="q-opt-text">1 and 3 only</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: None">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
+          <span class="q-opt-text">1, 2 and 3</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. None</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Rafale and MiG-29 are both fourth-generation (or 4.5-generation) fighter aircraft, and Tejas MK-1 is also classified as a fourth-generation light combat aircraft, so none of the three listed aircraft qualify as fifth-generation fighters.</p>
+          <p class="q-exp">At current technology levels, drones have been successfully used for precision pesticide spraying over crop fields, inspecting hazardous volcanic craters from a safe distance, and even collecting whale breath samples for DNA analysis by hovering above spouting whales, making all three applications valid.</p>
         </div>
       </div>
     </details>
   </li>
 
-  <li class="q-card" id="q4">
+  
+<li class="q-card" data-topic="uavs-drones" id="q11">
     <div class="q-head">
       <span class="q-num">4</span>
+      <span class="q-yr">2016</span>
+    </div>
+    <p class="q-text">What is 'Greased Lightning-10 (GL-10)', recently in the news?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Electric plane tested by NASA">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Electric plane tested by NASA</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Solar-powered two-seater aircraft designed by Japan">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Solar-powered two-seater aircraft designed by Japan</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Space observatory launched by China">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Space observatory launched by China</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Reusable rocket designed by ISRO">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Reusable rocket designed by ISRO</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Electric plane tested by NASA</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Greased Lightning-10 (GL-10) was an experimental electric-powered aircraft prototype tested by NASA, exploring hybrid vertical takeoff and efficient forward flight capabilities.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  </ol></section><section class="topic-section" data-topic="indigenous-defence-tech" id="topic-indigenous-defence-tech"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Indigenous Defence Tech</h2><p class="topic-desc">India's home-grown tanks, aircraft, and DRDO-developed defence programmes.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-indigenous-defence-tech">3 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-indigenous-defence-tech"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="indigenous-defence-tech" id="q16">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2008</span>
+    </div>
+    <p class="q-text">In the context of the Indian defence, what is ‘Dhruv’?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Aircraft-carrying warship">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Aircraft-carrying warship</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Missile-carrying submarine">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Missile-carrying submarine</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Advanced light helicopter">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Advanced light helicopter</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Intercontinental ballistic missile">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Intercontinental ballistic missile</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Advanced light helicopter</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">'Dhruv' refers to the Advanced Light Helicopter developed indigenously by Hindustan Aeronautics Limited for use across India's armed forces.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="indigenous-defence-tech" id="q18">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2005</span>
+    </div>
+    <p class="q-text">Which one of the following pairs is not correctly matched?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Arjun : Indigenous produced Main Battle Tank (MBT)">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Arjun : Indigenous produced Main Battle Tank (MBT)</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Phalcon : Cruise missile supplied by Russia to India">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Phalcon : Cruise missile supplied by Russia to India</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Saras : Indigenously developed civilian passenger aircraft">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Saras : Indigenously developed civilian passenger aircraft</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Operation Seabird : New Indian Naval Base at Karwar">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Operation Seabird : New Indian Naval Base at Karwar</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Phalcon : Cruise missile supplied by Russia to India</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Phalcon actually refers to an airborne early warning and control radar system, not a cruise missile, making that pairing incorrect, while the Arjun tank, Saras aircraft, and Operation Seabird naval base pairings are all accurately matched.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  
+<li class="q-card" data-topic="indigenous-defence-tech" id="q20">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">1996</span>
+    </div>
+    <p class="q-text">Which one of the following is a modern tank?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Bhim">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Bhim</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Akash">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Akash</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Arjun">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Arjun</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Prithvi">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Prithvi</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Arjun</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Arjun is India's indigenously developed modern main battle tank, distinct from Akash (a missile system) and Prithvi (also a missile system), and Bhim, sometimes associated with a self-propelled gun variant rather than the tank itself.</p>
+        </div>
+      </div>
+    </details>
+  </li></ol></section><section class="topic-section" data-topic="defence-ranks-structure" id="topic-defence-ranks-structure"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Defence Ranks & Structure</h2><p class="topic-desc">Rank equivalence and organisational structure across the Army, Navy, and Air Force.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-defence-ranks-structure">1 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-defence-ranks-structure"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="defence-ranks-structure" id="q4">
+    <div class="q-head">
+      <span class="q-num">1</span>
       <span class="q-yr">2024</span>
     </div>
     <p class="q-text">Which of the following is/are correctly matched in terms of equivalent rank in the three services of Indian Defence forces? Army — Airforce — Navy
@@ -439,605 +1178,7 @@ Select the correct answer using the code given below:</p>
     </details>
   </li>
 
-  <li class="q-card" id="q5">
-    <div class="q-head">
-      <span class="q-num">5</span>
-      <span class="q-yr">2023</span>
-    </div>
-    <p class="q-text">Consider the following actions :
-1. Detection of car crash/collision which results in the deployment of airbags almost instantaneously
-2. Detection of accidental free fall of a laptop towards the ground which results in the immediate turning off of the hard drive
-3. Detection of the tilt of the smart-phone which results in the rotation of display between portrait and landscape mode In how many of the above actions is the function of accelerometer required?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All three</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All three</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">An accelerometer, which detects changes in motion and orientation, is the key sensor behind airbag deployment during a crash, triggering a laptop's hard drive protection during a fall, and enabling a smartphone's screen to rotate between portrait and landscape modes.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q6">
-    <div class="q-head">
-      <span class="q-num">6</span>
-      <span class="q-yr">2023</span>
-    </div>
-    <p class="q-text">Consider the following statements :
-1. Ballistic missiles are jet-propelled at subsonic speeds throughout their flights, while cruise missiles are rocket-powered only in the initial phase of flight.
-2. Agni-V is a medium-range supersonic cruise missile, while BrahMos is a solid-fuelled intercontinental ballistic missile.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Ballistic missiles are actually rocket-powered (not jet-propelled) and typically follow a powered boost phase followed by a free-fall trajectory, while cruise missiles are jet-propelled and can sustain powered flight throughout their journey, the reverse of what statement 1 claims; and Agni-V is actually a solid-fuelled intercontinental ballistic missile while BrahMos is a supersonic cruise missile, the reverse of statement 2, making both statements incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q7">
-    <div class="q-head">
-      <span class="q-num">7</span>
-      <span class="q-yr">2022</span>
-    </div>
-    <p class="q-text">Which one of the following statements best describes the ‘Polar Code’?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: It is the international code of safety for ships operating in polar waters.">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">It is the international code of safety for ships operating in polar waters.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: It is a trade and security agreement of the member countries of the Arctic Council.">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">It is a trade and security agreement of the member countries of the Arctic Council.</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. It is the international code of safety for ships operating in polar waters.</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Polar Code is the International Maritime Organization's mandatory international safety code governing ships that operate in the harsh conditions of polar waters.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q8">
-    <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2020</span>
-    </div>
-    <p class="q-text">Consider the following activities :
-1. Spraying pesticides on a crop field
-2. Inspecting the craters of active volcanoes
-3. Collecting breath samples from spouting whales for DNA analysis At the present level of technology,
-which of the above activities can be successfully carried out by using drones ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">At current technology levels, drones have been successfully used for precision pesticide spraying over crop fields, inspecting hazardous volcanic craters from a safe distance, and even collecting whale breath samples for DNA analysis by hovering above spouting whales, making all three applications valid.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
-      <span class="q-yr">2018</span>
-    </div>
-    <p class="q-text">What is "Terminal High Altitude Area Defense (THAAD)", sometimes seen in the news?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: An Israeli radar system">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">An Israeli radar system</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: India's indigenous anti-missile programme">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">India's indigenous anti-missile programme</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: An American anti-missile system">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">An American anti-missile system</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A defence collaboration between Japan and South Korea">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">A defence collaboration between Japan and South Korea</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. An American anti-missile system</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">THAAD (Terminal High Altitude Area Defense) is an American missile defence system designed to intercept and destroy short, medium, and intermediate-range ballistic missiles during their final phase of flight.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q10">
-    <div class="q-head">
-      <span class="q-num">10</span>
-      <span class="q-yr">2016</span>
-    </div>
-    <p class="q-text">Which one of the following is the best description of 'INS Astradharini', that was in the news recently?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Amphibious warfare ship">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Amphibious warfare ship</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Nuclear-powered submarine">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Nuclear-powered submarine</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Torpedo launch and recovery vessel">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Torpedo launch and recovery vessel</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Nuclear-powered aircraft carrier">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Nuclear-powered aircraft carrier</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Torpedo launch and recovery vessel</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">INS Astradharini is an Indian Navy torpedo launch and recovery vessel, used to support torpedo testing and trials.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q11">
-    <div class="q-head">
-      <span class="q-num">11</span>
-      <span class="q-yr">2016</span>
-    </div>
-    <p class="q-text">What is 'Greased Lightning-10 (GL-10)', recently in the news?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Electric plane tested by NASA">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Electric plane tested by NASA</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Solar-powered two-seater aircraft designed by Japan">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Solar-powered two-seater aircraft designed by Japan</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Space observatory launched by China">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Space observatory launched by China</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Reusable rocket designed by ISRO">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Reusable rocket designed by ISRO</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Electric plane tested by NASA</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Greased Lightning-10 (GL-10) was an experimental electric-powered aircraft prototype tested by NASA, exploring hybrid vertical takeoff and efficient forward flight capabilities.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q12">
-    <div class="q-head">
-      <span class="q-num">12</span>
-      <span class="q-yr">2014</span>
-    </div>
-    <p class="q-text">With reference to Agni-IV Missile, which of the following statements is/are correct?
-1. It is a surface-to-surface missile.
-2. It is fuelled by liquid propellant only.
-3. It can deliver one-tonne nuclear warheads about 7500 km away.
-Select the correct answer using the code given below.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Agni-IV is indeed a surface-to-surface ballistic missile (statement 1 true); however it uses a combination of solid propellant stages rather than liquid fuel only, and its range and payload figures differ from those stated, making statements 2 and 3 inaccurate.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q13">
-    <div class="q-head">
-      <span class="q-num">13</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">Consider the following statements:
-1. INS Sindhughosh is an aircraft carrier.
-2. INS Viraat is a submarine.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">INS Sindhughosh is actually a Kilo-class submarine, not an aircraft carrier, and INS Viraat was an aircraft carrier, not a submarine, making both statements as presented incorrect, essentially swapped from their accurate classifications.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q14">
-    <div class="q-head">
-      <span class="q-num">14</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">In the context of Indian defence, consider the following statements :
-1. The Shourya missile flies with a speed of more than 8 Mach.
-2. The range of Shourya missile is more than 1600 km.
-Which of the statements given above is/are correct ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Shaurya missile's actual reported speed and range figures at the time did not match the specific values given in the statements, making both statements as stated inaccurate per the historical record used for this question.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q15">
-    <div class="q-head">
-      <span class="q-num">15</span>
-      <span class="q-yr">2008</span>
-    </div>
-    <p class="q-text">From which one of the following did India buy the Barak anti-missile defence systems?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Israel">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Israel</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: France">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">France</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Russia">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Russia</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: USA">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">USA</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Israel</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">India procured the Barak anti-missile defence system from Israel, strengthening its naval air-defence capabilities.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q16">
-    <div class="q-head">
-      <span class="q-num">16</span>
-      <span class="q-yr">2008</span>
-    </div>
-    <p class="q-text">In the context of the Indian defence, what is ‘Dhruv’?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Aircraft-carrying warship">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Aircraft-carrying warship</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Missile-carrying submarine">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Missile-carrying submarine</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Advanced light helicopter">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Advanced light helicopter</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Intercontinental ballistic missile">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Intercontinental ballistic missile</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Advanced light helicopter</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">'Dhruv' refers to the Advanced Light Helicopter developed indigenously by Hindustan Aeronautics Limited for use across India's armed forces.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q17">
-    <div class="q-head">
-      <span class="q-num">17</span>
-      <span class="q-yr">2007</span>
-    </div>
-    <p class="q-text">Consider the following statements:
-1. In November 2006, DRDO successfully conducted the interception test using Prithvi-II missile.
-2. Prithvi-II is a surface-to-surface missile and can be deployed to guard the metros against air attack.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">DRDO did conduct a successful interception test of an incoming 'enemy' missile using the Prithvi-II system in November 2006, and the Prithvi-II is indeed a surface-to-surface missile capable of playing a role in defending key cities against aerial threats, making both statements correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q18">
-    <div class="q-head">
-      <span class="q-num">18</span>
-      <span class="q-yr">2005</span>
-    </div>
-    <p class="q-text">Which one of the following pairs is not correctly matched?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Arjun : Indigenous produced Main Battle Tank (MBT)">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Arjun : Indigenous produced Main Battle Tank (MBT)</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Phalcon : Cruise missile supplied by Russia to India">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Phalcon : Cruise missile supplied by Russia to India</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Saras : Indigenously developed civilian passenger aircraft">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Saras : Indigenously developed civilian passenger aircraft</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Operation Seabird : New Indian Naval Base at Karwar">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Operation Seabird : New Indian Naval Base at Karwar</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Phalcon : Cruise missile supplied by Russia to India</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Phalcon actually refers to an airborne early warning and control radar system, not a cruise missile, making that pairing incorrect, while the Arjun tank, Saras aircraft, and Operation Seabird naval base pairings are all accurately matched.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q19">
-    <div class="q-head">
-      <span class="q-num">19</span>
-      <span class="q-yr">2001</span>
-    </div>
-    <p class="q-text">The range of Agni-II missile is around</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 500 km">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">500 km</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2000 km">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2000 km</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3500 km">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">3500 km</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 5000 km">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">5000 km</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2000 km</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Agni-II missile has an operational range of approximately 2,000 km, classifying it as an intermediate-range ballistic missile.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q20">
-    <div class="q-head">
-      <span class="q-num">20</span>
-      <span class="q-yr">1996</span>
-    </div>
-    <p class="q-text">Which one of the following is a modern tank?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Bhim">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Bhim</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Akash">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Akash</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Arjun">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Arjun</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Prithvi">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Prithvi</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Arjun</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Arjun is India's indigenously developed modern main battle tank, distinct from Akash (a missile system) and Prithvi (also a missile system), and Bhim, sometimes associated with a self-propelled gun variant rather than the tank itself.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-</ol>
+  </ol></section></div>
 
 <div class="bottom-nav container">
   <a class="back-link" href="../science-technology-upsc-pyq.html">← Back to all Science &amp; Technology PYQ topics</a>
@@ -1056,6 +1197,9 @@ Which of the statements given above is/are correct?</p>
   </div>
 </div>
 
+  </div>
+</div>
+
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
   <nav class="footer-links" aria-label="Footer navigation">
@@ -1070,6 +1214,16 @@ Which of the statements given above is/are correct?</p>
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1086,6 +1240,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_defence_technology';
 var total = 20;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1095,9 +1257,40 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
   document.getElementById('completionBanner').classList.toggle('show', answered >= total);
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {

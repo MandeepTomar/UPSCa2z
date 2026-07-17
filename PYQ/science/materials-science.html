@@ -55,7 +55,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
 
 <style>
 :root {
@@ -71,7 +71,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -117,6 +117,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 .test-cta-wrap { margin-top: 20px; }
 .test-cta { display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 20px; min-height: 44px; background: var(--blue); color: #fff; border-radius: var(--r-md); box-shadow: var(--sh-sm); transition: background 0.15s var(--ease), transform 0.1s var(--ease); }
@@ -131,7 +154,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .test-cta-light:hover { color: var(--blue2); text-decoration: underline; }
 
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,14 +224,53 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "xm5qz0y2p6");
-</script>
 </head>
 <body>
 
@@ -242,6 +304,63 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+<nav class="sidebar-mobile-bar" aria-label="Science and Technology topics">
+  <a class="sidebar-mobile-link" href="../science-technology-upsc-pyq.html">All Topics</a>
+  <a class="sidebar-mobile-link" href="./physics.html">Physics</a>
+  <a class="sidebar-mobile-link" href="./chemistry.html">Chemistry</a>
+  <a class="sidebar-mobile-link" href="./biology.html">Biology</a>
+  <a class="sidebar-mobile-link" href="./computer-technology.html">Computer, IT &amp; AI</a>
+  <a class="sidebar-mobile-link" href="./space-technology.html">Space Technology</a>
+  <a class="sidebar-mobile-link is-active" href="./materials-science.html">Materials Science</a>
+</nav>
+
+<div class="layout">
+<aside class="sidebar" aria-label="Sidebar navigation">
+  <div class="sidebar-section">
+    <p class="sidebar-label">Science &amp; Technology PYQ</p>
+    <ul class="sidebar-nav">
+      <li><a class="sidebar-link" href="./physics.html">Physics</a></li>
+      <li><a class="sidebar-link" href="./chemistry.html">Chemistry</a></li>
+      <li><a class="sidebar-link" href="./biology.html">Biology</a></li>
+      <li><a class="sidebar-link" href="./computer-technology.html">Computer, IT &amp; Artificial Intelligence</a></li>
+      <li><a class="sidebar-link" href="./space-technology.html">Space Technology &amp; Astronomy</a></li>
+      <li><a class="sidebar-link" href="./energy-technologies.html">Energy &amp; Nuclear Technologies</a></li>
+      <li><a class="sidebar-link" href="./biotechnology-genetics.html">Biotechnology &amp; Genetics</a></li>
+      <li><a class="sidebar-link is-active" href="./materials-science.html">Materials Science &amp; Nanotechnology</a></li>
+    </ul>
+    <a class="sidebar-link" href="../science-technology-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Sci &amp; Tech topics</a>
+  </div>
+  <div class="sidebar-section">
+    <p class="sidebar-label">Jump to Topic</p>
+    <ul class="sidebar-nav" id="topicSidebarNav">
+      <li><a class="sidebar-link topic-jump-link" data-topic="metals-alloys" href="#topic-metals-alloys">Metals &amp; Alloys<span class="sidebar-link-check" id="sideCount-metals-alloys">7</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="everyday-materials" href="#topic-everyday-materials">Everyday Materials<span class="sidebar-link-check" id="sideCount-everyday-materials">6</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="carbon-materials" href="#topic-carbon-materials">Carbon Materials<span class="sidebar-link-check" id="sideCount-carbon-materials">3</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="polymers-plastics" href="#topic-polymers-plastics">Polymers &amp; Plastics<span class="sidebar-link-check" id="sideCount-polymers-plastics">3</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="nanotechnology" href="#topic-nanotechnology">Nanotechnology<span class="sidebar-link-check" id="sideCount-nanotechnology">2</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="rare-earths" href="#topic-rare-earths">Rare Earths<span class="sidebar-link-check" id="sideCount-rare-earths">2</span></a></li>
+    </ul>
+  </div>
+  <div class="sidebar-section">
+    <p class="sidebar-label">Your Progress</p>
+    <div class="sidebar-progress-card">
+      <div class="sidebar-progress-num" id="sidebarProgressNum">23</div>
+      <div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+      <div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+    </div>
+    <a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=science/materials-science">Take as Timed Test</a>
+  </div>
+  <div class="sidebar-section">
+    <p class="sidebar-label">UPSC A2Z</p>
+    <nav class="sidebar-footer-links" aria-label="Site links">
+      <a href="../../index.html">Home</a>
+      <a href="../../tracker.html">Topic Tracker</a>
+      <a href="../science-technology-upsc-pyq.html">PYQ Bank</a>
+      <a href="../../topics/science-technology-upsc.html">Sci &amp; Tech Topics</a>
+    </nav>
+  </div>
+</aside>
+<div class="main-col">
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Science &amp; Technology PYQ</p>
   <h1>Materials Science & Nanotechnology UPSC PYQ — New Materials & Applications</h1>
@@ -252,14 +371,14 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1995–2023</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">Nanotechnology</span>
-            <span class="includes-chip">Carbon Materials</span>
-            <span class="includes-chip">Metals &amp; Alloys</span>
-            <span class="includes-chip">Polymers &amp; Plastics</span>
-            <span class="includes-chip">Rare Earths</span>
-            <span class="includes-chip">Everyday Materials</span>
+    <p class="includes-label">Jump to a topic</p>
+    <div class="includes-chips" id="topicQuickNav">
+      <a class="includes-chip topic-chip" data-topic="metals-alloys" href="#topic-metals-alloys"><span>Metals &amp; Alloys</span><span class="chip-count" id="chipCount-metals-alloys">7</span></a>
+      <a class="includes-chip topic-chip" data-topic="everyday-materials" href="#topic-everyday-materials"><span>Everyday Materials</span><span class="chip-count" id="chipCount-everyday-materials">6</span></a>
+      <a class="includes-chip topic-chip" data-topic="carbon-materials" href="#topic-carbon-materials"><span>Carbon Materials</span><span class="chip-count" id="chipCount-carbon-materials">3</span></a>
+      <a class="includes-chip topic-chip" data-topic="polymers-plastics" href="#topic-polymers-plastics"><span>Polymers &amp; Plastics</span><span class="chip-count" id="chipCount-polymers-plastics">3</span></a>
+      <a class="includes-chip topic-chip" data-topic="nanotechnology" href="#topic-nanotechnology"><span>Nanotechnology</span><span class="chip-count" id="chipCount-nanotechnology">2</span></a>
+      <a class="includes-chip topic-chip" data-topic="rare-earths" href="#topic-rare-earths"><span>Rare Earths</span><span class="chip-count" id="chipCount-rare-earths">2</span></a>
     </div>
   </div>
   <div class="test-cta-wrap">
@@ -281,212 +400,263 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="q-sections" id="qSections">
+<section class="topic-section" data-topic="metals-alloys" id="topic-metals-alloys"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Metals & Alloys</h2><p class="topic-desc">Metals, alloys, steel-making, and their industrial and everyday properties.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-metals-alloys">7 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-metals-alloys"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="metals-alloys" id="q14">
     <div class="q-head">
       <span class="q-num">1</span>
-      <span class="q-yr">2023</span>
+      <span class="q-yr">2006</span>
     </div>
-    <p class="q-text">Consider the following statements :
-1. Carbon fibres are used in the manufacture of components used in automobiles and aircrafts.
-2. Carbon fibres once used cannot be recycled.
-Which of the statements given above is/are correct?</p>
+    <p class="q-text">Which are the materials generally employed as solder in soldering operation in electronics?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Iron and tin">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
+          <span class="q-opt-text">Iron and tin</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Lead and tin">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
+          <span class="q-opt-text">Lead and tin</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Aluminum and lead">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
+          <span class="q-opt-text">Aluminum and lead</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Aluminum and iron">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
+          <span class="q-opt-text">Aluminum and iron</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Lead and tin</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Carbon fibres, being lightweight and strong, are indeed widely used in automotive and aircraft component manufacturing (statement 1 true); however carbon fibre composites are notoriously difficult but not impossible to recycle, making the blanket claim that they 'cannot' be recycled at all inaccurate, so only statement 1 is correct.</p>
+          <p class="q-exp">Electronic soldering conventionally uses an alloy of lead and tin as the solder material to join components.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q2">
+<li class="q-card" data-topic="metals-alloys" id="q15">
     <div class="q-head">
       <span class="q-num">2</span>
-      <span class="q-yr">2022</span>
+      <span class="q-yr">2005</span>
     </div>
-    <p class="q-text">With reference to India, consider the following statements:
-1. Monazite is a source of rare earths.
-2. Monazite contains thorium.
-3. Monazite occurs naturally in the entire Indian coastal sands in India.
-4. In India, Government bodies only can process or export monazite.
-Which of the statements given above are correct?</p>
+    <p class="q-text">Which one of the following is
+the correct sequence of the given substances in the decreasing order of their densities?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Steel &gt; Mercury &gt; Gold">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1, 2 and 3 only</span>
+          <span class="q-opt-text">Steel &gt; Mercury &gt; Gold</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1, 2 and 4 only">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Gold &gt; Mercury &gt; Steel">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1, 2 and 4 only</span>
+          <span class="q-opt-text">Gold &gt; Mercury &gt; Steel</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 and 4 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Steel &gt; Gold &gt; Mercury">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">3 and 4 only</span>
+          <span class="q-opt-text">Steel &gt; Gold &gt; Mercury</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Gold &gt; Steel &gt; Mercury">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
+          <span class="q-opt-text">Gold &gt; Steel &gt; Mercury</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1, 2 and 4 only</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Gold &gt; Mercury &gt; Steel</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Monazite is a genuine source of rare-earth elements (statement 1 true) and does contain thorium (statement 2 true); however it does not occur naturally along the entirety of India's coastal sands, being concentrated in specific beach placer deposits (making statement 3 false), while its processing and export in India are indeed restricted to government-designated bodies due to its thorium content (statement 4 true).</p>
+          <p class="q-exp">Arranged by decreasing density, gold (about 19.3 g/cm³) is denser than mercury (about 13.6 g/cm³), which in turn is denser than steel (about 7.8 g/cm³), giving the order gold, mercury, steel.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q3">
+<li class="q-card" data-topic="metals-alloys" id="q16">
     <div class="q-head">
       <span class="q-num">3</span>
-      <span class="q-yr">2022</span>
+      <span class="q-yr">2004</span>
     </div>
-    <p class="q-text">With reference to polyethylene terephthalate, the use of which is so widespread in our daily lives, consider the following statements:
-1. Its fibres can be blended with wool and cotton fibres to reinforce their properties.
-2. Containers made of it can be used to store any alcoholic beverage.
-3. Bottles made of it can be recycled into other products.
-4. Articles made of it can be easily disposed of by incineration without causing greenhouse gas emissions.
-Which of the statements given above are correct?</p>
+    <p class="q-text">Standard 18-carat gold sold in the market contains</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 and 3">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 82 parts gold and 18 parts other metals">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 3</span>
+          <span class="q-opt-text">82 parts gold and 18 parts other metals</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 4">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 15 parts gold and 82 parts other metals">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 4</span>
+          <span class="q-opt-text">15 parts gold and 82 parts other metals</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 4">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 18 parts gold and 6 parts other metals">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 4</span>
+          <span class="q-opt-text">18 parts gold and 6 parts other metals</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2 and 3">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 9 parts gold and 15 parts other metals">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">2 and 3</span>
+          <span class="q-opt-text">9 parts gold and 15 parts other metals</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 and 3</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 18 parts gold and 6 parts other metals</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">PET fibres can be blended with natural fibres like wool and cotton to enhance fabric properties (statement 1 true), and PET bottles are widely recyclable into other products (statement 3 true); however PET is not generally suitable for storing all alcoholic beverages due to chemical interaction concerns, and incinerating PET does release greenhouse gases, making statements 2 and 4 false.</p>
+          <p class="q-exp">18-carat gold is defined as containing 18 parts pure gold out of 24 total parts by weight, meaning the remaining 6 parts consist of other alloying metals.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q4">
+<li class="q-card" data-topic="metals-alloys" id="q17">
     <div class="q-head">
       <span class="q-num">4</span>
-      <span class="q-yr">2022</span>
+      <span class="q-yr">2000</span>
     </div>
-    <p class="q-text">Consider the following statements:
-1. Other than those made by humans, nanoparticles do not exist in nature.
-2. Nanoparticles of some metallic oxides are used in the manufacture of some cosmetics.
-3. Nanoparticles of some commercial products which enter the environment are unsafe for humans.
-Which of the statements given above is/are correct?</p>
+    <p class="q-text">Which one of the following materials is very hard and very ductile?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Carborundum">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
+          <span class="q-opt-text">Carborundum</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Tungsten">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">3 only</span>
+          <span class="q-opt-text">Tungsten</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 2">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Cast iron">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 2</span>
+          <span class="q-opt-text">Cast iron</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 2 and 3">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Nichrome">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">2 and 3</span>
+          <span class="q-opt-text">Nichrome</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 2 and 3</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Nichrome</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Nanoparticles do occur naturally, such as in volcanic ash and sea spray, making statement 1 false; however metallic oxide nanoparticles are indeed used in some cosmetic formulations (statement 2 true), and nanoparticles from commercial products that escape into the environment have raised genuine safety concerns for humans (statement 3 true).</p>
+          <p class="q-exp">Nichrome, an alloy of nickel and chromium, is notable for being both very hard and ductile, in addition to its high resistance to heat and oxidation.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q5">
+<li class="q-card" data-topic="metals-alloys" id="q18">
     <div class="q-head">
       <span class="q-num">5</span>
-      <span class="q-yr">2020</span>
+      <span class="q-yr">2000</span>
     </div>
-    <p class="q-text">With reference to carbon nanotubes, consider the following statements :
-1. They can be used as carriers of drugs and antigens in the human body.
-2. They can be made into artificial blood capillaries for an injured part of human body.
-3. They can be used in biochemical sensors.
-4. Carbon nanotubes are biodegradable.
-Which of the statements given above are correct ?</p>
+    <p class="q-text">Aluminium surfaces are often “anodized”. This means the deposition of a layer of</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: chromium oxide">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
+          <span class="q-opt-text">chromium oxide</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2, 3 and 4 only">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: aluminium oxide">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2, 3 and 4 only</span>
+          <span class="q-opt-text">aluminium oxide</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 3 and 4 only">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: nickel oxide">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 3 and 4 only</span>
+          <span class="q-opt-text">nickel oxide</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: zinc oxide">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
+          <span class="q-opt-text">zinc oxide</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 3 and 4 only</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. aluminium oxide</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Carbon nanotubes have shown promise as drug and antigen carriers in medicine, as scaffolding for artificial blood capillaries, and in biochemical sensors (statements 1, 2, and 3 true); however they are not biodegradable, making statement 4 false.</p>
+          <p class="q-exp">Anodizing aluminium involves electrochemically thickening the natural aluminium oxide layer on its surface, improving corrosion resistance and durability.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q6">
+<li class="q-card" data-topic="metals-alloys" id="q21">
     <div class="q-head">
       <span class="q-num">6</span>
+      <span class="q-yr">1998</span>
+    </div>
+    <p class="q-text">Consider the following statements: Coke is one of the materials of the charge added to blast furnace for the production of steel/iron. Its function is to
+I. Act as a reducing agent.
+II. Remove silica associated with the iron ore.
+III. Function as fuel, to supply heat.
+IV. Act as an oxidizing agent. Of these statements:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I and II are correct">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I and II are correct</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: II and IV are correct">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">II and IV are correct</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: I and III are correct">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">I and III are correct</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: III and IV are correct">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">III and IV are correct</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. I and III are correct</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Coke serves in a blast furnace primarily as a reducing agent, chemically stripping oxygen from iron ore, and as a fuel, providing the heat needed to drive the smelting reactions, matching statements I and III.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="metals-alloys" id="q22">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">1996</span>
+    </div>
+    <p class="q-text">Which one of the following elements is alloyed with iron to produce steel which can resist high temperatures and also have high hardness and abrasion resistance?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Aluminium">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Aluminium</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Chromium">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Chromium</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Nickel">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Nickel</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Tungsten">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Tungsten</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Tungsten</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Tungsten is alloyed with iron to produce specialised steel that can withstand high temperatures while retaining excellent hardness and resistance to abrasion, commonly used in high-speed cutting tools.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="everyday-materials" id="topic-everyday-materials"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Everyday Materials</h2><p class="topic-desc">Glass, gemstones, paper, and other common materials in daily use.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-everyday-materials">6 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-everyday-materials"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="everyday-materials" id="q6">
+    <div class="q-head">
+      <span class="q-num">1</span>
       <span class="q-yr">2018</span>
     </div>
     <p class="q-text">'3D printing' has applications in which of the following?
@@ -525,131 +695,9 @@ Select the correct answer using the code given below:</p>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q7">
+<li class="q-card" data-topic="everyday-materials" id="q10">
     <div class="q-head">
-      <span class="q-num">7</span>
-      <span class="q-yr">2014</span>
-    </div>
-    <p class="q-text">There is some concern regarding the nanoparticles of some chemical elements that are used by the industry in the manufacture of various products. Why?
-1. They can accumulate in the environment, and contaminate water and soil.
-2. They can enter the food chains.
-3. They can trigger the production of free radicals.
-Select the correct answer using the code given below.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Industrial nanoparticles can accumulate in soil and water, entering food chains and potentially the human body, and their small size and high reactivity can trigger the generation of harmful free radicals in biological systems, making all three concerns valid.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q8">
-    <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">Graphene is frequently in news recently. What is its importance?
-1. It is a two-dimensional material and has good electrical conductivity.
-2. It is one of the thinnest but strongest materials tested so far.
-3. It is entirely made of silicon and has high optical transparency.
-4. It can be used as conducting electrodes required for touch screens, LCDs and organic LEDs.
-Which of the statements given above are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 and 4 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">3 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 2 and 4 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 2 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 2 and 4 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Graphene is indeed a two-dimensional material with excellent electrical conductivity (statement 1 true), and it is among the thinnest yet strongest materials ever tested (statement 2 true), making it well suited as a transparent conducting electrode material for touch screens, LCDs, and organic LEDs (statement 4 true); however graphene is made entirely of carbon, not silicon, making statement 3 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">Recently, there has been a concern over the short supply of a group of elements called ‘rare earth metals’. Why?
-1. China, which is the largest producer of these elements, has imposed some restrictions on their export.
-2. Other than China, Australia, Canada and Chile, these elements are not found in any country.
-3. Rare earth metals are essential for the manufacture of various kinds of electronic items and there is a growing demand for these elements.
-Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">China's dominant global production combined with export restrictions did create supply concerns (statement 1 true), and the growing demand for rare earth metals in electronics manufacturing further strained supply (statement 3 true); however rare earth elements are found in various other countries beyond just China, Australia, Canada, and Chile, making the exclusivity in statement 2 false.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q10">
-    <div class="q-head">
-      <span class="q-num">10</span>
+      <span class="q-num">2</span>
       <span class="q-yr">2008</span>
     </div>
     <p class="q-text">What are Rubies and Sapphires chemically known as?</p>
@@ -682,10 +730,9 @@ Which of the statements given above is/are correct?</p>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q11">
+<li class="q-card" data-topic="everyday-materials" id="q11">
     <div class="q-head">
-      <span class="q-num">11</span>
+      <span class="q-num">3</span>
       <span class="q-yr">2007</span>
     </div>
     <p class="q-text">Consider the following statements:
@@ -721,10 +768,9 @@ Which of the statements given above is/are correct?</p>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q12">
+<li class="q-card" data-topic="everyday-materials" id="q12">
     <div class="q-head">
-      <span class="q-num">12</span>
+      <span class="q-num">4</span>
       <span class="q-yr">2007</span>
     </div>
     <p class="q-text">Which one of the following types of glass can cut off ultraviolet rays?</p>
@@ -757,228 +803,9 @@ Which of the statements given above is/are correct?</p>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q13">
+<li class="q-card" data-topic="everyday-materials" id="q19">
     <div class="q-head">
-      <span class="q-num">13</span>
-      <span class="q-yr">2006</span>
-    </div>
-    <p class="q-text">Assertion (A): Cellulose is used in making shatter-proof glass.
-Reason (R): Polysaccharides are not soluble in water.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Both A and R are true and R is the correct explanation of A">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Both A and R are true and R is the correct explanation of A</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are true but R is not a correct explanation of A">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Both A and R are true but R is not a correct explanation of A</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: A is true but R is false">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">A is true but R is false</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A is false but R is true">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">A is false but R is true</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Both A and R are true and R is the correct explanation of A</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Cellulose derivatives are indeed used in manufacturing shatter-proof (laminated safety) glass, and polysaccharides like cellulose are generally insoluble in water due to their large, hydrogen-bonded molecular structure, correctly explaining why cellulose-based materials can form a stable, water-resistant interlayer in such applications.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q14">
-    <div class="q-head">
-      <span class="q-num">14</span>
-      <span class="q-yr">2006</span>
-    </div>
-    <p class="q-text">Which are the materials generally employed as solder in soldering operation in electronics?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Iron and tin">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Iron and tin</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Lead and tin">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Lead and tin</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Aluminum and lead">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Aluminum and lead</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Aluminum and iron">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Aluminum and iron</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Lead and tin</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Electronic soldering conventionally uses an alloy of lead and tin as the solder material to join components.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q15">
-    <div class="q-head">
-      <span class="q-num">15</span>
-      <span class="q-yr">2005</span>
-    </div>
-    <p class="q-text">Which one of the following is
-the correct sequence of the given substances in the decreasing order of their densities?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Steel &gt; Mercury &gt; Gold">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Steel &gt; Mercury &gt; Gold</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Gold &gt; Mercury &gt; Steel">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Gold &gt; Mercury &gt; Steel</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Steel &gt; Gold &gt; Mercury">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Steel &gt; Gold &gt; Mercury</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Gold &gt; Steel &gt; Mercury">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Gold &gt; Steel &gt; Mercury</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Gold &gt; Mercury &gt; Steel</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Arranged by decreasing density, gold (about 19.3 g/cm³) is denser than mercury (about 13.6 g/cm³), which in turn is denser than steel (about 7.8 g/cm³), giving the order gold, mercury, steel.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q16">
-    <div class="q-head">
-      <span class="q-num">16</span>
-      <span class="q-yr">2004</span>
-    </div>
-    <p class="q-text">Standard 18-carat gold sold in the market contains</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 82 parts gold and 18 parts other metals">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">82 parts gold and 18 parts other metals</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 15 parts gold and 82 parts other metals">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">15 parts gold and 82 parts other metals</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 18 parts gold and 6 parts other metals">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">18 parts gold and 6 parts other metals</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 9 parts gold and 15 parts other metals">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">9 parts gold and 15 parts other metals</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 18 parts gold and 6 parts other metals</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">18-carat gold is defined as containing 18 parts pure gold out of 24 total parts by weight, meaning the remaining 6 parts consist of other alloying metals.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q17">
-    <div class="q-head">
-      <span class="q-num">17</span>
-      <span class="q-yr">2000</span>
-    </div>
-    <p class="q-text">Which one of the following materials is very hard and very ductile?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Carborundum">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Carborundum</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Tungsten">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Tungsten</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Cast iron">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Cast iron</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Nichrome">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Nichrome</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Nichrome</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Nichrome, an alloy of nickel and chromium, is notable for being both very hard and ductile, in addition to its high resistance to heat and oxidation.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q18">
-    <div class="q-head">
-      <span class="q-num">18</span>
-      <span class="q-yr">2000</span>
-    </div>
-    <p class="q-text">Aluminium surfaces are often “anodized”. This means the deposition of a layer of</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: chromium oxide">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">chromium oxide</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: aluminium oxide">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">aluminium oxide</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: nickel oxide">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">nickel oxide</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: zinc oxide">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">zinc oxide</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. aluminium oxide</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Anodizing aluminium involves electrochemically thickening the natural aluminium oxide layer on its surface, improving corrosion resistance and durability.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q19">
-    <div class="q-head">
-      <span class="q-num">19</span>
+      <span class="q-num">5</span>
       <span class="q-yr">1999</span>
     </div>
     <p class="q-text">Match List I (Naturally occurring substances) with List II (Elements) and select the correct answer using the codes given below the Lists:
@@ -1022,10 +849,9 @@ Codes:</p>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q20">
+<li class="q-card" data-topic="everyday-materials" id="q20">
     <div class="q-head">
-      <span class="q-num">20</span>
+      <span class="q-num">6</span>
       <span class="q-yr">1999</span>
     </div>
     <p class="q-text">Consider the following statements:
@@ -1063,86 +889,207 @@ Which of these statements are correct?</p>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q21">
+</ol></section>
+<section class="topic-section" data-topic="carbon-materials" id="topic-carbon-materials"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Carbon Materials</h2><p class="topic-desc">Carbon fibres, nanotubes, graphene, and other advanced carbon-based materials.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-carbon-materials">3 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-carbon-materials"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="carbon-materials" id="q1">
     <div class="q-head">
-      <span class="q-num">21</span>
-      <span class="q-yr">1998</span>
+      <span class="q-num">1</span>
+      <span class="q-yr">2023</span>
     </div>
-    <p class="q-text">Consider the following statements: Coke is one of the materials of the charge added to blast furnace for the production of steel/iron. Its function is to
-I. Act as a reducing agent.
-II. Remove silica associated with the iron ore.
-III. Function as fuel, to supply heat.
-IV. Act as an oxidizing agent. Of these statements:</p>
+    <p class="q-text">Consider the following statements :
+1. Carbon fibres are used in the manufacture of components used in automobiles and aircrafts.
+2. Carbon fibres once used cannot be recycled.
+Which of the statements given above is/are correct?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I and II are correct">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I and II are correct</span>
+          <span class="q-opt-text">1 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: II and IV are correct">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">II and IV are correct</span>
+          <span class="q-opt-text">2 only</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: I and III are correct">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">I and III are correct</span>
+          <span class="q-opt-text">Both 1 and 2</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: III and IV are correct">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">III and IV are correct</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. I and III are correct</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Coke serves in a blast furnace primarily as a reducing agent, chemically stripping oxygen from iron ore, and as a fuel, providing the heat needed to drive the smelting reactions, matching statements I and III.</p>
+          <p class="q-exp">Carbon fibres, being lightweight and strong, are indeed widely used in automotive and aircraft component manufacturing (statement 1 true); however carbon fibre composites are notoriously difficult but not impossible to recycle, making the blanket claim that they 'cannot' be recycled at all inaccurate, so only statement 1 is correct.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q22">
+<li class="q-card" data-topic="carbon-materials" id="q5">
     <div class="q-head">
-      <span class="q-num">22</span>
-      <span class="q-yr">1996</span>
+      <span class="q-num">2</span>
+      <span class="q-yr">2020</span>
     </div>
-    <p class="q-text">Which one of the following elements is alloyed with iron to produce steel which can resist high temperatures and also have high hardness and abrasion resistance?</p>
+    <p class="q-text">With reference to carbon nanotubes, consider the following statements :
+1. They can be used as carriers of drugs and antigens in the human body.
+2. They can be made into artificial blood capillaries for an injured part of human body.
+3. They can be used in biochemical sensors.
+4. Carbon nanotubes are biodegradable.
+Which of the statements given above are correct ?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Aluminium">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Aluminium</span>
+          <span class="q-opt-text">1 and 2 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Chromium">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2, 3 and 4 only">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Chromium</span>
+          <span class="q-opt-text">2, 3 and 4 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Nickel">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 3 and 4 only">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Nickel</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Tungsten">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Tungsten</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Tungsten</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 3 and 4 only</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Tungsten is alloyed with iron to produce specialised steel that can withstand high temperatures while retaining excellent hardness and resistance to abrasion, commonly used in high-speed cutting tools.</p>
+          <p class="q-exp">Carbon nanotubes have shown promise as drug and antigen carriers in medicine, as scaffolding for artificial blood capillaries, and in biochemical sensors (statements 1, 2, and 3 true); however they are not biodegradable, making statement 4 false.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q23">
+<li class="q-card" data-topic="carbon-materials" id="q8">
     <div class="q-head">
-      <span class="q-num">23</span>
+      <span class="q-num">3</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">Graphene is frequently in news recently. What is its importance?
+1. It is a two-dimensional material and has good electrical conductivity.
+2. It is one of the thinnest but strongest materials tested so far.
+3. It is entirely made of silicon and has high optical transparency.
+4. It can be used as conducting electrodes required for touch screens, LCDs and organic LEDs.
+Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 2 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 2 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Graphene is indeed a two-dimensional material with excellent electrical conductivity (statement 1 true), and it is among the thinnest yet strongest materials ever tested (statement 2 true), making it well suited as a transparent conducting electrode material for touch screens, LCDs, and organic LEDs (statement 4 true); however graphene is made entirely of carbon, not silicon, making statement 3 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="polymers-plastics" id="topic-polymers-plastics"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Polymers & Plastics</h2><p class="topic-desc">Synthetic and natural polymers and their everyday and industrial uses.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-polymers-plastics">3 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-polymers-plastics"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="polymers-plastics" id="q3">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">With reference to polyethylene terephthalate, the use of which is so widespread in our daily lives, consider the following statements:
+1. Its fibres can be blended with wool and cotton fibres to reinforce their properties.
+2. Containers made of it can be used to store any alcoholic beverage.
+3. Bottles made of it can be recycled into other products.
+4. Articles made of it can be easily disposed of by incineration without causing greenhouse gas emissions.
+Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 and 3">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 4">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 4">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">PET fibres can be blended with natural fibres like wool and cotton to enhance fabric properties (statement 1 true), and PET bottles are widely recyclable into other products (statement 3 true); however PET is not generally suitable for storing all alcoholic beverages due to chemical interaction concerns, and incinerating PET does release greenhouse gases, making statements 2 and 4 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="polymers-plastics" id="q13">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2006</span>
+    </div>
+    <p class="q-text">Assertion (A): Cellulose is used in making shatter-proof glass.
+Reason (R): Polysaccharides are not soluble in water.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Both A and R are true and R is the correct explanation of A">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Both A and R are true and R is the correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are true but R is not a correct explanation of A">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Both A and R are true but R is not a correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: A is true but R is false">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">A is true but R is false</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A is false but R is true">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A is false but R is true</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Both A and R are true and R is the correct explanation of A</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Cellulose derivatives are indeed used in manufacturing shatter-proof (laminated safety) glass, and polysaccharides like cellulose are generally insoluble in water due to their large, hydrogen-bonded molecular structure, correctly explaining why cellulose-based materials can form a stable, water-resistant interlayer in such applications.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="polymers-plastics" id="q23">
+    <div class="q-head">
+      <span class="q-num">3</span>
       <span class="q-yr">1995</span>
     </div>
     <p class="q-text">Which one of the following polymers is widely used for making bullet-proof material?</p>
@@ -1175,7 +1122,170 @@ IV. Act as an oxidizing agent. Of these statements:</p>
       </div>
     </details>
   </li>
-</ol>
+</ol></section>
+<section class="topic-section" data-topic="nanotechnology" id="topic-nanotechnology"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Nanotechnology</h2><p class="topic-desc">Nanoparticles, their properties, and applications and concerns in industry.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-nanotechnology">2 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-nanotechnology"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="nanotechnology" id="q4">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">Consider the following statements:
+1. Other than those made by humans, nanoparticles do not exist in nature.
+2. Nanoparticles of some metallic oxides are used in the manufacture of some cosmetics.
+3. Nanoparticles of some commercial products which enter the environment are unsafe for humans.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Nanoparticles do occur naturally, such as in volcanic ash and sea spray, making statement 1 false; however metallic oxide nanoparticles are indeed used in some cosmetic formulations (statement 2 true), and nanoparticles from commercial products that escape into the environment have raised genuine safety concerns for humans (statement 3 true).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="nanotechnology" id="q7">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">There is some concern regarding the nanoparticles of some chemical elements that are used by the industry in the manufacture of various products. Why?
+1. They can accumulate in the environment, and contaminate water and soil.
+2. They can enter the food chains.
+3. They can trigger the production of free radicals.
+Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Industrial nanoparticles can accumulate in soil and water, entering food chains and potentially the human body, and their small size and high reactivity can trigger the generation of harmful free radicals in biological systems, making all three concerns valid.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="rare-earths" id="topic-rare-earths"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Rare Earths</h2><p class="topic-desc">Rare earth elements, their sources, and strategic importance.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-rare-earths">2 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-rare-earths"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="rare-earths" id="q2">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">With reference to India, consider the following statements:
+1. Monazite is a source of rare earths.
+2. Monazite contains thorium.
+3. Monazite occurs naturally in the entire Indian coastal sands in India.
+4. In India, Government bodies only can process or export monazite.
+Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1, 2 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1, 2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1, 2 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Monazite is a genuine source of rare-earth elements (statement 1 true) and does contain thorium (statement 2 true); however it does not occur naturally along the entirety of India's coastal sands, being concentrated in specific beach placer deposits (making statement 3 false), while its processing and export in India are indeed restricted to government-designated bodies due to its thorium content (statement 4 true).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="rare-earths" id="q9">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">Recently, there has been a concern over the short supply of a group of elements called ‘rare earth metals’. Why?
+1. China, which is the largest producer of these elements, has imposed some restrictions on their export.
+2. Other than China, Australia, Canada and Chile, these elements are not found in any country.
+3. Rare earth metals are essential for the manufacture of various kinds of electronic items and there is a growing demand for these elements.
+Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">China's dominant global production combined with export restrictions did create supply concerns (statement 1 true), and the growing demand for rare earth metals in electronics manufacturing further strained supply (statement 3 true); however rare earth elements are found in various other countries beyond just China, Australia, Canada, and Chile, making the exclusivity in statement 2 false.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+</div>
+
 
 <div class="bottom-nav container">
   <a class="back-link" href="../science-technology-upsc-pyq.html">← Back to all Science &amp; Technology PYQ topics</a>
@@ -1193,6 +1303,8 @@ IV. Act as an oxidizing agent. Of these statements:</p>
     <a href="./science-in-news.html" class="continue-link">Science & Tech in the News&nbsp;<span class="arrow">→</span></a>
   </div>
 </div>
+</div>
+</div>
 
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
@@ -1208,6 +1320,16 @@ IV. Act as an oxidizing agent. Of these statements:</p>
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1224,6 +1346,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_materials_science';
 var total = 23;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1233,9 +1363,40 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
   document.getElementById('completionBanner').classList.toggle('show', answered >= total);
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {
