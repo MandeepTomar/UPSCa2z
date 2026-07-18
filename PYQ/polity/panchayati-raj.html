@@ -53,7 +53,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
 
 <style>
 :root {
@@ -69,7 +69,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,6 +119,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 /* ── Take as Test CTA ── */
 .test-cta-wrap { margin-top: 20px; }
@@ -136,7 +159,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
 /* ── Question cards ── */
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,6 +224,51 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -242,6 +310,66 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+<nav aria-label="Indian Polity topics" class="sidebar-mobile-bar">
+<a class="sidebar-mobile-link" href="../indian-polity-upsc-pyq.html">All Topics</a>
+<a class="sidebar-mobile-link" href="./parliament.html">Parliament</a>
+<a class="sidebar-mobile-link" href="./constitutional-framework.html">Indian Constitution</a>
+<a class="sidebar-mobile-link" href="./judiciary.html">Judiciary</a>
+<a class="sidebar-mobile-link" href="./executive.html">Union &amp; State Executive</a>
+<a class="sidebar-mobile-link" href="./constitutional-bodies.html">Constitutional Bodies</a>
+<a class="sidebar-mobile-link" href="./elections.html">Elections</a>
+<a class="sidebar-mobile-link" href="./social-justice.html">Social Justice</a>
+<a class="sidebar-mobile-link is-active" href="./panchayati-raj.html">Panchayati Raj</a>
+<a class="sidebar-mobile-link" href="./federalism.html">Centre-State Relations</a>
+<a class="sidebar-mobile-link" href="./fundamental-rights.html">Fundamental Rights</a>
+<a class="sidebar-mobile-link" href="./dpsp.html">DPSP</a>
+<a class="sidebar-mobile-link" href="./political-theory.html">Political Theory</a>
+<a class="sidebar-mobile-link" href="./finance-emergency-duties.html">Public Finance, Emergency & Duties</a>
+</nav>
+<div class="layout">
+<aside aria-label="Sidebar navigation" class="sidebar">
+<div class="sidebar-section">
+<p class="sidebar-label">Indian Polity PYQ</p>
+<ul class="sidebar-nav">
+<li><a class="sidebar-link is-active" href="./panchayati-raj.html">Panchayati Raj</a></li>
+<li><a class="sidebar-link" href="./federalism.html">Centre-State Relations</a></li>
+<li><a class="sidebar-link" href="./social-justice.html">Social Justice</a></li>
+<li><a class="sidebar-link" href="./constitutional-framework.html">Indian Constitution</a></li>
+<li><a class="sidebar-link" href="./dpsp.html">DPSP</a></li>
+</ul>
+<a class="sidebar-link" href="../indian-polity-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Indian Polity topics</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Jump to Topic</p>
+<ul class="sidebar-nav" id="topicSidebarNav">
+<li><a class="sidebar-link topic-jump-link" data-topic="73rd-amendment" href="#topic-73rd-amendment">73rd Amendment<span class="sidebar-link-check" id="sideCount-73rd-amendment">14</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="municipal-bodies" href="#topic-municipal-bodies">Municipal Bodies<span class="sidebar-link-check" id="sideCount-municipal-bodies">4</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="74th-amendment" href="#topic-74th-amendment">74th Amendment<span class="sidebar-link-check" id="sideCount-74th-amendment">1</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="gram-sabha" href="#topic-gram-sabha">Gram Sabha<span class="sidebar-link-check" id="sideCount-gram-sabha">1</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="pesa" href="#topic-pesa">PESA<span class="sidebar-link-check" id="sideCount-pesa">1</span></a></li>
+</ul>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Your Progress</p>
+<div class="sidebar-progress-card">
+<div class="sidebar-progress-num" id="sidebarProgressNum">21</div>
+<div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+<div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+</div>
+<a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/panchayati-raj">Take as Timed Test</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">UPSC A2Z</p>
+<nav aria-label="Site links" class="sidebar-footer-links">
+<a href="../../index.html">Home</a>
+<a href="../../tracker.html">Topic Tracker</a>
+<a href="../indian-polity-upsc-pyq.html">PYQ Bank</a>
+<a href="../../topics/indian-polity-upsc.html">Indian Polity Topics</a>
+</nav>
+</div>
+</aside>
+<div class="main-col">
+
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Indian Polity PYQ</p>
   <h1>Panchayati Raj UPSC PYQ — 73rd &amp; 74th Amendments</h1>
@@ -252,15 +380,15 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1995–2016</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">73rd Amendment</span>
-            <span class="includes-chip">74th Amendment</span>
-            <span class="includes-chip">Gram Sabha</span>
-            <span class="includes-chip">PESA</span>
-            <span class="includes-chip">Municipal Bodies</span>
-    </div>
-  </div>
+<p class="includes-label">Jump to a topic</p>
+<div class="includes-chips" id="topicQuickNav">
+<a class="includes-chip topic-chip" data-topic="73rd-amendment" href="#topic-73rd-amendment"><span>73rd Amendment</span><span class="chip-count" id="chipCount-73rd-amendment">14</span></a>
+<a class="includes-chip topic-chip" data-topic="municipal-bodies" href="#topic-municipal-bodies"><span>Municipal Bodies</span><span class="chip-count" id="chipCount-municipal-bodies">4</span></a>
+<a class="includes-chip topic-chip" data-topic="74th-amendment" href="#topic-74th-amendment"><span>74th Amendment</span><span class="chip-count" id="chipCount-74th-amendment">1</span></a>
+<a class="includes-chip topic-chip" data-topic="gram-sabha" href="#topic-gram-sabha"><span>Gram Sabha</span><span class="chip-count" id="chipCount-gram-sabha">1</span></a>
+<a class="includes-chip topic-chip" data-topic="pesa" href="#topic-pesa"><span>PESA</span><span class="chip-count" id="chipCount-pesa">1</span></a>
+</div>
+</div>
   <div class="test-cta-wrap">
   <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/panchayati-raj">
     <span class="test-cta-text">Take as Test</span>
@@ -269,8 +397,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </section>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="q-sections" id="qSections">
+<section class="topic-section" data-topic="73rd-amendment" id="topic-73rd-amendment"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">73rd Amendment</h2><p class="topic-desc">Provisions of the 73rd Constitutional Amendment Act, 1992 on Panchayati Raj Institutions.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-73rd-amendment">14 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-73rd-amendment"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="73rd-amendment" id="q1">
     <div class="q-head">
       <span class="q-num">1</span>
       <span class="q-yr">2016</span>
@@ -305,8 +434,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q2">
+<li class="q-card" data-topic="73rd-amendment" id="q2">
     <div class="q-head">
       <span class="q-num">2</span>
       <span class="q-yr">2015</span>
@@ -341,46 +469,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q3">
+<li class="q-card" data-topic="73rd-amendment" id="q4">
     <div class="q-head">
       <span class="q-num">3</span>
-      <span class="q-yr">2013</span>
-    </div>
-    <p class="q-text">The Government enacted the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Which one of the following is NOT identified as its objective?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: To provide self-governance">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">To provide self-governance</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: To recognize traditional rights">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">To recognize traditional rights</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: To create autonomous regions in tribal areas">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">To create autonomous regions in tribal areas</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: To free tribal people from exploitation">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">To free tribal people from exploitation</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. To create autonomous regions in tribal areas</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">PESA, 1996 aims to extend self-governance to Scheduled Areas, recognise tribal communities' traditional rights over resources, and protect them from exploitation — but it does not seek to create separate autonomous regions in tribal areas (that function is instead served by the Sixth Schedule's autonomous district councils in specific northeastern States).</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q4">
-    <div class="q-head">
-      <span class="q-num">4</span>
       <span class="q-yr">2013</span>
     </div>
     <p class="q-text">Consider the following statements:<br/>1. National Development Council is an organ of the Planning Commission.<br/>2. The Economic and Social Planning is kept in the Concurrent List in the Constitution of India.<br/>3. The Constitution of India prescribes that Panchayats should be assigned the task of preparation of plans for economic development and social justice.<br/>Which of the statements given above is/are correct?</p>
@@ -413,46 +504,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q5">
+<li class="q-card" data-topic="73rd-amendment" id="q6">
     <div class="q-head">
-      <span class="q-num">5</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">In the areas covered under the Panchayat (Extension to the Scheduled Areas) Act, 1996, what is the role/power of Gram Sabha?<br/>1. Gram Sabha has the power to prevent alienation of land in the Scheduled Areas.<br/>2. Gram Sabha has the ownership of minor forest produce.<br/>3. Recommendation of Gram Sabha is required for granting prospecting licence or mining lease for any mineral in the Scheduled Areas.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under PESA, the Gram Sabha has the power to prevent alienation of land in Scheduled Areas and to take action to restore unlawfully alienated land — Statement 1 is correct. Ownership of minor forest produce vests with the Gram Sabha/Panchayats at the appropriate level, not with individuals directly by this provision in the manner claimed as an absolute Gram Sabha 'ownership' right — the key here treats only Statement 1 as strictly correct. Prior Gram Sabha consultation (not binding 'recommendation' as an absolute requirement in the form asked) is mandated before granting mining leases or prospecting licences, but the specific framing in Statement 3 is not treated as correct by the given answer.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q6">
-    <div class="q-head">
-      <span class="q-num">6</span>
+      <span class="q-num">4</span>
       <span class="q-yr">2012</span>
     </div>
     <p class="q-text">Which of the following can be said to be essentially the parts of Inclusive Governance?<br/>1. Permitting the Non-Banking Financial Companies to do banking<br/>2. Establishing effective District Planning Committees in all the districts<br/>3. Increasing the government spending on public health<br/>4. Strengthening the Mid-day Meal Scheme</p>
@@ -485,10 +539,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q7">
+<li class="q-card" data-topic="73rd-amendment" id="q7">
     <div class="q-head">
-      <span class="q-num">7</span>
+      <span class="q-num">5</span>
       <span class="q-yr">2011</span>
     </div>
     <p class="q-text">The Constitution (Seventy-Third Amendment) Act, 1992, which aims at promoting the Panchayati Raj Institutions in the country, provides for which of the following?<br/>1. Constitution of District Planning Committees.<br/>2. State Election Commissions to conduct all panchayat elections.<br/>3. Establishment of State Finance Commissions.<br/>Select the correct answer using the codes given below:</p>
@@ -521,46 +574,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q8">
+<li class="q-card" data-topic="73rd-amendment" id="q9">
     <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2011</span>
-    </div>
-    <p class="q-text">Consider the following statements: In India, a Metropolitan Planning Committee<br/>1. Is constituted under the provisions of the Constitution of India.<br/>2. Prepares the draft development plans for metropolitan area.<br/>3. Has the sole responsibility for implementing Government-sponsored schemes in the metropolitan area.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 and 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Metropolitan Planning Committee is indeed a constitutional body, provided for under Article 243ZE for areas with a population of one million or more — Statement 1 is correct. It is tasked with preparing a draft development plan for the metropolitan area as a whole — Statement 2 is correct. However, it does not itself implement government-sponsored schemes; implementation remains with the concerned municipalities, Panchayats, and other agencies — Statement 3 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
+      <span class="q-num">6</span>
       <span class="q-yr">2010</span>
     </div>
     <p class="q-text">Which one of the following authorities makes recommendation to the Governor of a State as to the principles for determining the taxes and duties which may be appropriated by the Panchayats in that particular State ?</p>
@@ -593,10 +609,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q10">
+<li class="q-card" data-topic="73rd-amendment" id="q10">
     <div class="q-head">
-      <span class="q-num">10</span>
+      <span class="q-num">7</span>
       <span class="q-yr">2009</span>
     </div>
     <p class="q-text">If a Panchayat is dissolved, elections are to be held within</p>
@@ -629,46 +644,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q11">
+<li class="q-card" data-topic="73rd-amendment" id="q12">
     <div class="q-head">
-      <span class="q-num">11</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">In India, the first Municipal Corporation was set up in which one among the following ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Calcutta">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Calcutta</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Madras">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Madras</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Bombay">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Bombay</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Delhi">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Delhi</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Madras</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">India's first Municipal Corporation was established in Madras (Chennai) in 1688, making it the oldest such civic body in the country.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q12">
-    <div class="q-head">
-      <span class="q-num">12</span>
+      <span class="q-num">8</span>
       <span class="q-yr">2005</span>
     </div>
     <p class="q-text">Consider the following statements:<br/>1. Part IX of the Constitution of India contains provisions for Panchayats and was inserted by the Constitution (73rd Amendment) Act, 1992.<br/>2. Part IX A of the Constitution of India contains provisions for municipalities and Article 243Q envisages two types of municipalities – a Municipal Council and a Municipal Corporation – for every state.<br/>Which of the statements given above is/are correct?</p>
@@ -701,82 +679,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q13">
+<li class="q-card" data-topic="73rd-amendment" id="q15">
     <div class="q-head">
-      <span class="q-num">13</span>
-      <span class="q-yr">2001</span>
-    </div>
-    <p class="q-text">In which one of the following areas does the State Government NOT have control over its local bodies?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Citizen’s grievances">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Citizen’s grievances</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Financial matters">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Financial matters</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Legislation">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Legislation</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Personnel matters">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Personnel matters</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Citizen’s grievances</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Redressal of citizens' grievances is generally handled directly at the local body level itself or through independent mechanisms like ombudsmen, rather than through direct State Government control, unlike financial matters, legislative framework, and personnel matters, over which the State retains significant oversight and control.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q14">
-    <div class="q-head">
-      <span class="q-num">14</span>
-      <span class="q-yr">2000</span>
-    </div>
-    <p class="q-text">A college student desires to get elected to the Municipal Council of his city. The validity of his nomination would depend on the important condition, among others, that</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: he obtains permission from the principal of his college">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">he obtains permission from the principal of his college</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: he is a member of a political party">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">he is a member of a political party</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: his name figures in the Voters’ List">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">his name figures in the Voters’ List</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: he files a declaration owing allegiance to the Constitution of India">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">he files a declaration owing allegiance to the Constitution of India</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. his name figures in the Voters’ List</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">For a person's nomination to a Municipal Council to be valid, their name must appear on the electoral roll (Voters' List) of that municipal area, establishing their eligibility as a registered elector/candidate there.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q15">
-    <div class="q-head">
-      <span class="q-num">15</span>
+      <span class="q-num">9</span>
       <span class="q-yr">2000</span>
     </div>
     <p class="q-text">Match List I with List II and select the correct answer using the codes given below the Lists:<br/>List I (Local bodies) (States as in 1999)<br/>I. Zila Parishads at the sub-divisional level<br/>II. Mandal Praja Parishad<br/>III. Tribal Councils<br/>IV. Absence of Village Panchayats<br/>List II<br/>A) Andhra Pradesh<br/>B) Assam<br/>C) Mizoram<br/>D) Meghalaya<br/>Codes:</p>
@@ -809,10 +714,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q16">
+<li class="q-card" data-topic="73rd-amendment" id="q16">
     <div class="q-head">
-      <span class="q-num">16</span>
+      <span class="q-num">10</span>
       <span class="q-yr">2000</span>
     </div>
     <p class="q-text">The 73rd Constitution Amendment Act, 1992 refers to the</p>
@@ -845,10 +749,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q17">
+<li class="q-card" data-topic="73rd-amendment" id="q17">
     <div class="q-head">
-      <span class="q-num">17</span>
+      <span class="q-num">11</span>
       <span class="q-yr">1999</span>
     </div>
     <p class="q-text">In the new Panchayati Raj Bill enacted in 1993, there are several fresh provisions deviating from the past. Which one of the following is not one such provision?</p>
@@ -881,10 +784,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q18">
+<li class="q-card" data-topic="73rd-amendment" id="q18">
     <div class="q-head">
-      <span class="q-num">18</span>
+      <span class="q-num">12</span>
       <span class="q-yr">1998</span>
     </div>
     <p class="q-text">Panchayati Raj was first introduced in India in October 1959 in</p>
@@ -917,10 +819,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q19">
+<li class="q-card" data-topic="73rd-amendment" id="q19">
     <div class="q-head">
-      <span class="q-num">19</span>
+      <span class="q-num">13</span>
       <span class="q-yr">1997</span>
     </div>
     <p class="q-text">Which one of the following was NOT proposed by the 73rd Constitutional Amendment in the area of Panchayati Raj?</p>
@@ -953,10 +854,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q20">
+<li class="q-card" data-topic="73rd-amendment" id="q20">
     <div class="q-head">
-      <span class="q-num">20</span>
+      <span class="q-num">14</span>
       <span class="q-yr">1996</span>
     </div>
     <p class="q-text">What is the system of governance in the Panchayati Raj setup?</p>
@@ -989,10 +889,116 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q21">
+</ol></section>
+<section class="topic-section" data-topic="municipal-bodies" id="topic-municipal-bodies"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Municipal Bodies</h2><p class="topic-desc">Urban local government and municipal bodies in India.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-municipal-bodies">4 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-municipal-bodies"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="municipal-bodies" id="q11">
     <div class="q-head">
-      <span class="q-num">21</span>
+      <span class="q-num">1</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">In India, the first Municipal Corporation was set up in which one among the following ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Calcutta">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Calcutta</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Madras">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Madras</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Bombay">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Bombay</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Delhi">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Delhi</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Madras</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">India's first Municipal Corporation was established in Madras (Chennai) in 1688, making it the oldest such civic body in the country.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="municipal-bodies" id="q13">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2001</span>
+    </div>
+    <p class="q-text">In which one of the following areas does the State Government NOT have control over its local bodies?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Citizen’s grievances">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Citizen’s grievances</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Financial matters">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Financial matters</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Legislation">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Legislation</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Personnel matters">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Personnel matters</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Citizen’s grievances</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Redressal of citizens' grievances is generally handled directly at the local body level itself or through independent mechanisms like ombudsmen, rather than through direct State Government control, unlike financial matters, legislative framework, and personnel matters, over which the State retains significant oversight and control.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="municipal-bodies" id="q14">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2000</span>
+    </div>
+    <p class="q-text">A college student desires to get elected to the Municipal Council of his city. The validity of his nomination would depend on the important condition, among others, that</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: he obtains permission from the principal of his college">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">he obtains permission from the principal of his college</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: he is a member of a political party">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">he is a member of a political party</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: his name figures in the Voters’ List">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">his name figures in the Voters’ List</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: he files a declaration owing allegiance to the Constitution of India">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">he files a declaration owing allegiance to the Constitution of India</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. his name figures in the Voters’ List</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">For a person's nomination to a Municipal Council to be valid, their name must appear on the electoral roll (Voters' List) of that municipal area, establishing their eligibility as a registered elector/candidate there.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="municipal-bodies" id="q21">
+    <div class="q-head">
+      <span class="q-num">4</span>
       <span class="q-yr">1995</span>
     </div>
     <p class="q-text">89. Which one of the following is incorrect in respect of Local Government in India?</p>
@@ -1025,7 +1031,121 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-</ol>
+</ol></section>
+<section class="topic-section" data-topic="74th-amendment" id="topic-74th-amendment"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">74th Amendment</h2><p class="topic-desc">Provisions of the 74th Constitutional Amendment Act, 1992 on municipalities.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-74th-amendment">1 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-74th-amendment"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="74th-amendment" id="q8">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">Consider the following statements: In India, a Metropolitan Planning Committee<br/>1. Is constituted under the provisions of the Constitution of India.<br/>2. Prepares the draft development plans for metropolitan area.<br/>3. Has the sole responsibility for implementing Government-sponsored schemes in the metropolitan area.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 and 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Metropolitan Planning Committee is indeed a constitutional body, provided for under Article 243ZE for areas with a population of one million or more — Statement 1 is correct. It is tasked with preparing a draft development plan for the metropolitan area as a whole — Statement 2 is correct. However, it does not itself implement government-sponsored schemes; implementation remains with the concerned municipalities, Panchayats, and other agencies — Statement 3 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="gram-sabha" id="topic-gram-sabha"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Gram Sabha</h2><p class="topic-desc">Role and powers of the Gram Sabha.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-gram-sabha">1 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-gram-sabha"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="gram-sabha" id="q5">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">In the areas covered under the Panchayat (Extension to the Scheduled Areas) Act, 1996, what is the role/power of Gram Sabha?<br/>1. Gram Sabha has the power to prevent alienation of land in the Scheduled Areas.<br/>2. Gram Sabha has the ownership of minor forest produce.<br/>3. Recommendation of Gram Sabha is required for granting prospecting licence or mining lease for any mineral in the Scheduled Areas.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under PESA, the Gram Sabha has the power to prevent alienation of land in Scheduled Areas and to take action to restore unlawfully alienated land — Statement 1 is correct. Ownership of minor forest produce vests with the Gram Sabha/Panchayats at the appropriate level, not with individuals directly by this provision in the manner claimed as an absolute Gram Sabha 'ownership' right — the key here treats only Statement 1 as strictly correct. Prior Gram Sabha consultation (not binding 'recommendation' as an absolute requirement in the form asked) is mandated before granting mining leases or prospecting licences, but the specific framing in Statement 3 is not treated as correct by the given answer.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="pesa" id="topic-pesa"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">PESA</h2><p class="topic-desc">The Panchayat (Extension to the Scheduled Areas) Act, 1996.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-pesa">1 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-pesa"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="pesa" id="q3">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2013</span>
+    </div>
+    <p class="q-text">The Government enacted the Panchayat Extension to Scheduled Areas (PESA) Act in 1996. Which one of the following is NOT identified as its objective?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: To provide self-governance">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">To provide self-governance</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: To recognize traditional rights">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">To recognize traditional rights</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: To create autonomous regions in tribal areas">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">To create autonomous regions in tribal areas</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: To free tribal people from exploitation">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">To free tribal people from exploitation</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. To create autonomous regions in tribal areas</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">PESA, 1996 aims to extend self-governance to Scheduled Areas, recognise tribal communities' traditional rights over resources, and protect them from exploitation — but it does not seek to create separate autonomous regions in tribal areas (that function is instead served by the Sixth Schedule's autonomous district councils in specific northeastern States).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+</div>
+
+
 
 <div class="bottom-nav container">
   <a class="back-link" href="../indian-polity-upsc-pyq.html">← Back to all Indian Polity PYQ topics</a>
@@ -1045,6 +1165,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+</div>
+</div>
+
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
   <nav class="footer-links" aria-label="Footer navigation">
@@ -1059,6 +1182,16 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1077,6 +1210,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_panchayati-raj';
 var total = 21;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1086,8 +1227,39 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {

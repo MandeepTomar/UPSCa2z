@@ -53,7 +53,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
 
 <style>
 :root {
@@ -69,7 +69,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,6 +119,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 /* ── Take as Test CTA ── */
 .test-cta-wrap { margin-top: 20px; }
@@ -136,7 +159,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
 /* ── Question cards ── */
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,6 +224,51 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -242,6 +310,66 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+<nav aria-label="Indian Polity topics" class="sidebar-mobile-bar">
+<a class="sidebar-mobile-link" href="../indian-polity-upsc-pyq.html">All Topics</a>
+<a class="sidebar-mobile-link" href="./parliament.html">Parliament</a>
+<a class="sidebar-mobile-link" href="./constitutional-framework.html">Indian Constitution</a>
+<a class="sidebar-mobile-link" href="./judiciary.html">Judiciary</a>
+<a class="sidebar-mobile-link" href="./executive.html">Union &amp; State Executive</a>
+<a class="sidebar-mobile-link" href="./constitutional-bodies.html">Constitutional Bodies</a>
+<a class="sidebar-mobile-link" href="./elections.html">Elections</a>
+<a class="sidebar-mobile-link" href="./social-justice.html">Social Justice</a>
+<a class="sidebar-mobile-link" href="./panchayati-raj.html">Panchayati Raj</a>
+<a class="sidebar-mobile-link" href="./federalism.html">Centre-State Relations</a>
+<a class="sidebar-mobile-link" href="./fundamental-rights.html">Fundamental Rights</a>
+<a class="sidebar-mobile-link" href="./dpsp.html">DPSP</a>
+<a class="sidebar-mobile-link" href="./political-theory.html">Political Theory</a>
+<a class="sidebar-mobile-link is-active" href="./finance-emergency-duties.html">Public Finance, Emergency & Duties</a>
+</nav>
+<div class="layout">
+<aside aria-label="Sidebar navigation" class="sidebar">
+<div class="sidebar-section">
+<p class="sidebar-label">Indian Polity PYQ</p>
+<ul class="sidebar-nav">
+<li><a class="sidebar-link is-active" href="./finance-emergency-duties.html">Public Finance, Emergency &amp; Duties</a></li>
+<li><a class="sidebar-link" href="./parliament.html">Parliament</a></li>
+<li><a class="sidebar-link" href="./constitutional-bodies.html">Constitutional Bodies</a></li>
+<li><a class="sidebar-link" href="./federalism.html">Centre-State Relations</a></li>
+<li><a class="sidebar-link" href="./executive.html">Union &amp; State Executive</a></li>
+</ul>
+<a class="sidebar-link" href="../indian-polity-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Indian Polity topics</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Jump to Topic</p>
+<ul class="sidebar-nav" id="topicSidebarNav">
+<li><a class="sidebar-link topic-jump-link" data-topic="finance-commission" href="#topic-finance-commission">Finance Commission<span class="sidebar-link-check" id="sideCount-finance-commission">8</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="consolidated-fund" href="#topic-consolidated-fund">Consolidated Fund<span class="sidebar-link-check" id="sideCount-consolidated-fund">5</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="article-51a" href="#topic-article-51a">Article 51A<span class="sidebar-link-check" id="sideCount-article-51a">4</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="article-352" href="#topic-article-352">Article 352<span class="sidebar-link-check" id="sideCount-article-352">2</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="article-356" href="#topic-article-356">Article 356<span class="sidebar-link-check" id="sideCount-article-356">2</span></a></li>
+</ul>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Your Progress</p>
+<div class="sidebar-progress-card">
+<div class="sidebar-progress-num" id="sidebarProgressNum">21</div>
+<div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+<div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+</div>
+<a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/finance-emergency-duties">Take as Timed Test</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">UPSC A2Z</p>
+<nav aria-label="Site links" class="sidebar-footer-links">
+<a href="../../index.html">Home</a>
+<a href="../../tracker.html">Topic Tracker</a>
+<a href="../indian-polity-upsc-pyq.html">PYQ Bank</a>
+<a href="../../topics/indian-polity-upsc.html">Indian Polity Topics</a>
+</nav>
+</div>
+</aside>
+<div class="main-col">
+
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Indian Polity PYQ</p>
   <h1>Public Finance, Emergency &amp; Duties UPSC PYQ</h1>
@@ -252,15 +380,15 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1995–2024</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">Finance Commission</span>
-            <span class="includes-chip">Consolidated Fund</span>
-            <span class="includes-chip">Article 352</span>
-            <span class="includes-chip">Article 356</span>
-            <span class="includes-chip">Article 51A</span>
-    </div>
-  </div>
+<p class="includes-label">Jump to a topic</p>
+<div class="includes-chips" id="topicQuickNav">
+<a class="includes-chip topic-chip" data-topic="finance-commission" href="#topic-finance-commission"><span>Finance Commission</span><span class="chip-count" id="chipCount-finance-commission">8</span></a>
+<a class="includes-chip topic-chip" data-topic="consolidated-fund" href="#topic-consolidated-fund"><span>Consolidated Fund</span><span class="chip-count" id="chipCount-consolidated-fund">5</span></a>
+<a class="includes-chip topic-chip" data-topic="article-51a" href="#topic-article-51a"><span>Article 51A</span><span class="chip-count" id="chipCount-article-51a">4</span></a>
+<a class="includes-chip topic-chip" data-topic="article-352" href="#topic-article-352"><span>Article 352</span><span class="chip-count" id="chipCount-article-352">2</span></a>
+<a class="includes-chip topic-chip" data-topic="article-356" href="#topic-article-356"><span>Article 356</span><span class="chip-count" id="chipCount-article-356">2</span></a>
+</div>
+</div>
   <div class="test-cta-wrap">
     <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/finance-emergency-duties">
       <span class="test-cta-text">Take as Test</span>
@@ -269,8 +397,291 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </section>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="q-sections" id="qSections">
+<section class="topic-section" data-topic="finance-commission" id="topic-finance-commission"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Finance Commission</h2><p class="topic-desc">Composition, functions, and recommendations of the Finance Commission of India.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-finance-commission">8 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-finance-commission"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="finance-commission" id="q6">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">With reference to the Finance Commission of India, which of the following statements is correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: It encourages the inflow of foreign capital for infrastructure development">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">It encourages the inflow of foreign capital for infrastructure development</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: It facilitates the proper distribution of finances among the Public Sector Undertakings">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">It facilitates the proper distribution of finances among the Public Sector Undertakings</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: It ensures transparency in financial administration">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">It ensures transparency in financial administration</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None of the statements (a), (b) and (c) given above is correct in this context">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None of the statements (a), (b) and (c) given above is correct in this context</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. It facilitates the proper distribution of finances among the Public Sector Undertakings</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Finance Commission's core role is to recommend the distribution of tax revenues between the Union and the States and among the States themselves, and while it contributes to fiscal discipline and transparency in intergovernmental transfers, none of the specific claims about foreign capital inflow, PSU fund distribution, or general financial transparency accurately captures its defined constitutional function.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q7">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2010</span>
+    </div>
+    <p class="q-text">Who of the following shall cause every recommendation made by the Finance Commission to be laid before each House of Parliament?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: The President of India">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">The President of India</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The Speaker of Lok Sabha">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">The Speaker of Lok Sabha</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The Prime Minister of India">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The Prime Minister of India</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: The Union Finance Minister">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">The Union Finance Minister</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. The President of India</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under Article 281, the President is required to cause every recommendation made by the Finance Commission, along with an explanatory memorandum on the action taken, to be laid before each House of Parliament.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q8">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2003</span>
+    </div>
+    <p class="q-text">Consider the following statements: In India, stamp duties on financial transactions are<br/>1. Levied and collected by the State Government<br/>2. Appropriated by the Union Government.<br/>Which of these statements is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only 1">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only 1</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only 2">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Stamp duties on financial transactions such as bills of exchange, cheques, and promissory notes are actually levied by the Union Government, though they are collected and appropriated by the State Governments — the reverse of what both statements in this question claim, making both incorrect as framed.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q9">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2003</span>
+    </div>
+    <p class="q-text">Consider the following statements: The function(s) of the Finance Commission is/are<br/>1. To allow the withdrawal of money out of the Consolidated Fund of India.<br/>2. To allocate between the States the shares of proceeds of taxes.<br/>3. To consider applications for grants-in-aid from States.<br/>4. To supervise and report on whether the Union and State governments are levying taxes in accordance with the budgetary provisions.<br/>Which of these statements is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only 1">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only 1</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 and 4">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Finance Commission's core functions include recommending the distribution of tax proceeds between the Union and the States, and considering applications for grants-in-aid from States — Statements 2 and 3 are correct. It does not authorise withdrawal of money from the Consolidated Fund of India (that requires parliamentary appropriation) nor does it supervise or report on whether governments are levying taxes in line with budgetary provisions (that oversight role belongs to bodies like the CAG and Public Accounts Committee) — Statements 1 and 4 are incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q10">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2002</span>
+    </div>
+    <p class="q-text">Which one of the following authorities recommends the principles governing grants-in-aid of the revenues to the states out of the Consolidated Fund of India?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Finance Commission">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Finance Commission</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Inter-State Council">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Inter-State Council</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Union Ministry of Finance">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Union Ministry of Finance</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Public Accounts Committee">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Public Accounts Committee</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Finance Commission</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Finance Commission, under Article 275, recommends the principles governing grants-in-aid to be given to States out of the Consolidated Fund of India.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q11">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">2000</span>
+    </div>
+    <p class="q-text">The primary function of the Finance Commission in India is to</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: distribute revenue between the Centre and the States">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">distribute revenue between the Centre and the States</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: prepare the Annual Budget">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">prepare the Annual Budget</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: advise the President on financial matters">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">advise the President on financial matters</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: allocate funds to various ministries of the Union and State Governments">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">allocate funds to various ministries of the Union and State Governments</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. distribute revenue between the Centre and the States</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Finance Commission's primary function is to recommend the distribution of the net proceeds of taxes between the Union and the States, and among the States themselves, ensuring fiscal balance across levels of government.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q12">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">1999</span>
+    </div>
+    <p class="q-text">Which one of the following statements regarding the levying, collecting and distribution of Income Tax is correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: The Union levies, collects and distributes the proceeds of income tax between itself and the States">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">The Union levies, collects and distributes the proceeds of income tax between itself and the States</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The Union levies, collects and keeps all the proceeds of income tax to itself">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">The Union levies, collects and keeps all the proceeds of income tax to itself</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The Union levies and collects the tax but all the proceeds are distributed among the States">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The Union levies and collects the tax but all the proceeds are distributed among the States</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Only the surcharge levied on income tax is shared between the Union and the States">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Only the surcharge levied on income tax is shared between the Union and the States</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. The Union levies, collects and distributes the proceeds of income tax between itself and the States</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Income tax on non-agricultural income is levied and collected by the Union Government, but its net proceeds are then distributed between the Union and the States as per the recommendations of the Finance Commission.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="finance-commission" id="q13">
+    <div class="q-head">
+      <span class="q-num">8</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">Agricultural income tax is assigned to the State Governments by</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the Finance Commission">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">the Finance Commission</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: the National Development Council">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">the National Development Council</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the Inter-State Council">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">the Inter-State Council</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: the Constitution of India">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">the Constitution of India</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. the Constitution of India</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Agricultural income tax is assigned as a State subject directly by the Constitution itself (via the State List in the Seventh Schedule), rather than through any recommendation of the Finance Commission or other body.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="consolidated-fund" id="topic-consolidated-fund"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Consolidated Fund</h2><p class="topic-desc">The Union Budget, revenue receipts, and withdrawal of funds from the Consolidated Fund of India.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-consolidated-fund">5 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-consolidated-fund"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="consolidated-fund" id="q1">
     <div class="q-head">
       <span class="q-num">1</span>
       <span class="q-yr">2024</span>
@@ -305,8 +716,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q2">
+<li class="q-card" data-topic="consolidated-fund" id="q2">
     <div class="q-head">
       <span class="q-num">2</span>
       <span class="q-yr">2020</span>
@@ -341,8 +751,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q3">
+<li class="q-card" data-topic="consolidated-fund" id="q3">
     <div class="q-head">
       <span class="q-num">3</span>
       <span class="q-yr">2015</span>
@@ -377,8 +786,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q4">
+<li class="q-card" data-topic="consolidated-fund" id="q4">
     <div class="q-head">
       <span class="q-num">4</span>
       <span class="q-yr">2011</span>
@@ -413,8 +821,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q5">
+<li class="q-card" data-topic="consolidated-fund" id="q5">
     <div class="q-head">
       <span class="q-num">5</span>
       <span class="q-yr">2011</span>
@@ -449,442 +856,11 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q6">
+</ol></section>
+<section class="topic-section" data-topic="article-51a" id="topic-article-51a"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Article 51A</h2><p class="topic-desc">The Fundamental Duties of Indian citizens under Article 51A.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-article-51a">4 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-article-51a"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="article-51a" id="q18">
     <div class="q-head">
-      <span class="q-num">6</span>
-      <span class="q-yr">2011</span>
-    </div>
-    <p class="q-text">With reference to the Finance Commission of India, which of the following statements is correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: It encourages the inflow of foreign capital for infrastructure development">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">It encourages the inflow of foreign capital for infrastructure development</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: It facilitates the proper distribution of finances among the Public Sector Undertakings">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">It facilitates the proper distribution of finances among the Public Sector Undertakings</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: It ensures transparency in financial administration">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">It ensures transparency in financial administration</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: None of the statements (a), (b) and (c) given above is correct in this context">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None of the statements (a), (b) and (c) given above is correct in this context</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. It facilitates the proper distribution of finances among the Public Sector Undertakings</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Finance Commission's core role is to recommend the distribution of tax revenues between the Union and the States and among the States themselves, and while it contributes to fiscal discipline and transparency in intergovernmental transfers, none of the specific claims about foreign capital inflow, PSU fund distribution, or general financial transparency accurately captures its defined constitutional function.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q7">
-    <div class="q-head">
-      <span class="q-num">7</span>
-      <span class="q-yr">2010</span>
-    </div>
-    <p class="q-text">Who of the following shall cause every recommendation made by the Finance Commission to be laid before each House of Parliament?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: The President of India">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">The President of India</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The Speaker of Lok Sabha">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">The Speaker of Lok Sabha</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The Prime Minister of India">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">The Prime Minister of India</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: The Union Finance Minister">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">The Union Finance Minister</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. The President of India</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under Article 281, the President is required to cause every recommendation made by the Finance Commission, along with an explanatory memorandum on the action taken, to be laid before each House of Parliament.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q8">
-    <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2003</span>
-    </div>
-    <p class="q-text">Consider the following statements: In India, stamp duties on financial transactions are<br/>1. Levied and collected by the State Government<br/>2. Appropriated by the Union Government.<br/>Which of these statements is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only 1">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only 1</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only 2">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Stamp duties on financial transactions such as bills of exchange, cheques, and promissory notes are actually levied by the Union Government, though they are collected and appropriated by the State Governments — the reverse of what both statements in this question claim, making both incorrect as framed.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
-      <span class="q-yr">2003</span>
-    </div>
-    <p class="q-text">Consider the following statements: The function(s) of the Finance Commission is/are<br/>1. To allow the withdrawal of money out of the Consolidated Fund of India.<br/>2. To allocate between the States the shares of proceeds of taxes.<br/>3. To consider applications for grants-in-aid from States.<br/>4. To supervise and report on whether the Union and State governments are levying taxes in accordance with the budgetary provisions.<br/>Which of these statements is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only 1">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only 1</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3 and 4">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">3 and 4</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Finance Commission's core functions include recommending the distribution of tax proceeds between the Union and the States, and considering applications for grants-in-aid from States — Statements 2 and 3 are correct. It does not authorise withdrawal of money from the Consolidated Fund of India (that requires parliamentary appropriation) nor does it supervise or report on whether governments are levying taxes in line with budgetary provisions (that oversight role belongs to bodies like the CAG and Public Accounts Committee) — Statements 1 and 4 are incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q10">
-    <div class="q-head">
-      <span class="q-num">10</span>
-      <span class="q-yr">2002</span>
-    </div>
-    <p class="q-text">Which one of the following authorities recommends the principles governing grants-in-aid of the revenues to the states out of the Consolidated Fund of India?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Finance Commission">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Finance Commission</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Inter-State Council">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Inter-State Council</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Union Ministry of Finance">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Union Ministry of Finance</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Public Accounts Committee">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Public Accounts Committee</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Finance Commission</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Finance Commission, under Article 275, recommends the principles governing grants-in-aid to be given to States out of the Consolidated Fund of India.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q11">
-    <div class="q-head">
-      <span class="q-num">11</span>
-      <span class="q-yr">2000</span>
-    </div>
-    <p class="q-text">The primary function of the Finance Commission in India is to</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: distribute revenue between the Centre and the States">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">distribute revenue between the Centre and the States</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: prepare the Annual Budget">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">prepare the Annual Budget</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: advise the President on financial matters">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">advise the President on financial matters</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: allocate funds to various ministries of the Union and State Governments">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">allocate funds to various ministries of the Union and State Governments</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. distribute revenue between the Centre and the States</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Finance Commission's primary function is to recommend the distribution of the net proceeds of taxes between the Union and the States, and among the States themselves, ensuring fiscal balance across levels of government.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q12">
-    <div class="q-head">
-      <span class="q-num">12</span>
-      <span class="q-yr">1999</span>
-    </div>
-    <p class="q-text">Which one of the following statements regarding the levying, collecting and distribution of Income Tax is correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: The Union levies, collects and distributes the proceeds of income tax between itself and the States">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">The Union levies, collects and distributes the proceeds of income tax between itself and the States</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The Union levies, collects and keeps all the proceeds of income tax to itself">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">The Union levies, collects and keeps all the proceeds of income tax to itself</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The Union levies and collects the tax but all the proceeds are distributed among the States">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">The Union levies and collects the tax but all the proceeds are distributed among the States</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Only the surcharge levied on income tax is shared between the Union and the States">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Only the surcharge levied on income tax is shared between the Union and the States</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. The Union levies, collects and distributes the proceeds of income tax between itself and the States</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Income tax on non-agricultural income is levied and collected by the Union Government, but its net proceeds are then distributed between the Union and the States as per the recommendations of the Finance Commission.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q13">
-    <div class="q-head">
-      <span class="q-num">13</span>
-      <span class="q-yr">1995</span>
-    </div>
-    <p class="q-text">Agricultural income tax is assigned to the State Governments by</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the Finance Commission">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">the Finance Commission</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: the National Development Council">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">the National Development Council</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the Inter-State Council">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">the Inter-State Council</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: the Constitution of India">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">the Constitution of India</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. the Constitution of India</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Agricultural income tax is assigned as a State subject directly by the Constitution itself (via the State List in the Seventh Schedule), rather than through any recommendation of the Finance Commission or other body.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q14">
-    <div class="q-head">
-      <span class="q-num">14</span>
-      <span class="q-yr">2018</span>
-    </div>
-    <p class="q-text">If the President of India exercises his power as provided under Article 356 of the Constitution in respect of a particular State, then</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the Assembly of the State is automatically dissolved.">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">the Assembly of the State is automatically dissolved.</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Article 19 is suspended in that State.">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Article 19 is suspended in that State.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: the President can make laws relating to that State.">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">the President can make laws relating to that State.</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under Article 356(1)(b), when President's Rule is imposed, the powers of the State Legislature become exercisable by, or under the authority of, Parliament — the correct and defining legislative consequence. The State Assembly is not automatically dissolved (it may instead be kept in suspended animation); Article 19 remains unaffected since its suspension is linked only to a National Emergency under Article 352, not Article 356; and the President does not personally make laws for the State but may be delegated this power by Parliament.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q15">
-    <div class="q-head">
-      <span class="q-num">15</span>
-      <span class="q-yr">2017</span>
-    </div>
-    <p class="q-text">Which of the following are not necessarily the consequences of the proclamation of the President’s rule in a State?<br/>1. Dissolution of the State Legislative Assembly<br/>2. Removal of the Council of Ministers in the State<br/>3. Dissolution of the local bodies<br/>Select the correct answer using the code given below:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The dissolution of the State Legislative Assembly and the dissolution of local bodies are not necessarily automatic consequences of a President's Rule proclamation — the Assembly can instead be kept in suspended animation, and local bodies (Panchayats/Municipalities) continue functioning independently of the State's political executive. Removal of the State Council of Ministers, however, is a direct and necessary consequence, since the President's Rule specifically displaces the elected State government.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q16">
-    <div class="q-head">
-      <span class="q-num">16</span>
-      <span class="q-yr">2007</span>
-    </div>
-    <p class="q-text">Consider the following statements in respect of Financial Emergency under Article 360 of the Constitution of India:<br/>1. A proclamation of Financial Emergency issued shall cease to operate at the expiration of two months unless before the expiration of that period it has been approved by resolutions of both Houses of Parliament.<br/>2. If any proclamation of Financial Emergency is in operation, it is competent for the President of India to issue directions for the reduction of salaries and allowances of all or any class of persons serving in connection with the affairs of the Union, but excluding the judges of the Supreme Court and the High Courts.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A Proclamation of Financial Emergency ceases to operate after two months unless approved by resolutions of both Houses of Parliament within that period — Statement 1 is correct. During a Financial Emergency, the President can direct a reduction in salaries of persons serving the Union, but this can extend even to Supreme Court and High Court judges, not exclude them, so the claim that judges are excluded is incorrect — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q17">
-    <div class="q-head">
-      <span class="q-num">17</span>
-      <span class="q-yr">2003</span>
-    </div>
-    <p class="q-text">Which one of the following Articles of the Indian Constitution provides that ‘It shall be the duty of the Union to protect every State against external aggression and internal disturbance’?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Article 215">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Article 215</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Article 275">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Article 275</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Article 325">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Article 325</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Article 355">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Article 355</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Article 355</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Article 355 places a duty on the Union to protect every State against external aggression and internal disturbance, and to ensure that the government of every State is carried on in accordance with the Constitution.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q18">
-    <div class="q-head">
-      <span class="q-num">18</span>
+      <span class="q-num">1</span>
       <span class="q-yr">2017</span>
     </div>
     <p class="q-text">Which of the following statements is/are true of the Fundamental Duties of an Indian citizen?<br/>1. A legislative process has been provided to enforce these duties.<br/>2. They are correlative to legal duties.<br/>Select the correct answer using the code given below:</p>
@@ -917,10 +893,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q19">
+<li class="q-card" data-topic="article-51a" id="q19">
     <div class="q-head">
-      <span class="q-num">19</span>
+      <span class="q-num">2</span>
       <span class="q-yr">2015</span>
     </div>
     <p class="q-text">“To uphold and protect the Sovereignty, Unity and Integrity of India” is a provision made in the</p>
@@ -953,10 +928,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q20">
+<li class="q-card" data-topic="article-51a" id="q20">
     <div class="q-head">
-      <span class="q-num">20</span>
+      <span class="q-num">3</span>
       <span class="q-yr">2012</span>
     </div>
     <p class="q-text">Which of the following is/are among the Fundamental Duties of citizens laid down in the Indian Constitution?<br/>1. To preserve the rich heritage of our composite culture<br/>2. To protect the weaker sections from social injustice<br/>3. To develop the scientific temper and spirit of inquiry<br/>4. To strive towards excellence in all spheres of individual and collective activity<br/>Select the correct answer using the codes given below:</p>
@@ -989,10 +963,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q21">
+<li class="q-card" data-topic="article-51a" id="q21">
     <div class="q-head">
-      <span class="q-num">21</span>
+      <span class="q-num">4</span>
       <span class="q-yr">2011</span>
     </div>
     <p class="q-text">Under the Constitution of India, which one of the following is not a fundamental duty?</p>
@@ -1025,7 +998,154 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-</ol>
+</ol></section>
+<section class="topic-section" data-topic="article-352" id="topic-article-352"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Article 352</h2><p class="topic-desc">National Emergency and related provisions, including Article 355 and 360.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-article-352">2 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-article-352"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="article-352" id="q16">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Consider the following statements in respect of Financial Emergency under Article 360 of the Constitution of India:<br/>1. A proclamation of Financial Emergency issued shall cease to operate at the expiration of two months unless before the expiration of that period it has been approved by resolutions of both Houses of Parliament.<br/>2. If any proclamation of Financial Emergency is in operation, it is competent for the President of India to issue directions for the reduction of salaries and allowances of all or any class of persons serving in connection with the affairs of the Union, but excluding the judges of the Supreme Court and the High Courts.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A Proclamation of Financial Emergency ceases to operate after two months unless approved by resolutions of both Houses of Parliament within that period — Statement 1 is correct. During a Financial Emergency, the President can direct a reduction in salaries of persons serving the Union, but this can extend even to Supreme Court and High Court judges, not exclude them, so the claim that judges are excluded is incorrect — Statement 2 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="article-352" id="q17">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2003</span>
+    </div>
+    <p class="q-text">Which one of the following Articles of the Indian Constitution provides that ‘It shall be the duty of the Union to protect every State against external aggression and internal disturbance’?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Article 215">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Article 215</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Article 275">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Article 275</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Article 325">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Article 325</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Article 355">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Article 355</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Article 355</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Article 355 places a duty on the Union to protect every State against external aggression and internal disturbance, and to ensure that the government of every State is carried on in accordance with the Constitution.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="article-356" id="topic-article-356"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Article 356</h2><p class="topic-desc">President's Rule and the proclamation of failure of constitutional machinery in a State.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-article-356">2 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-article-356"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="article-356" id="q14">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">If the President of India exercises his power as provided under Article 356 of the Constitution in respect of a particular State, then</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the Assembly of the State is automatically dissolved.">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">the Assembly of the State is automatically dissolved.</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Article 19 is suspended in that State.">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Article 19 is suspended in that State.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: the President can make laws relating to that State.">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">the President can make laws relating to that State.</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. the powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under Article 356(1)(b), when President's Rule is imposed, the powers of the State Legislature become exercisable by, or under the authority of, Parliament — the correct and defining legislative consequence. The State Assembly is not automatically dissolved (it may instead be kept in suspended animation); Article 19 remains unaffected since its suspension is linked only to a National Emergency under Article 352, not Article 356; and the President does not personally make laws for the State but may be delegated this power by Parliament.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="article-356" id="q15">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">Which of the following are not necessarily the consequences of the proclamation of the President’s rule in a State?<br/>1. Dissolution of the State Legislative Assembly<br/>2. Removal of the Council of Ministers in the State<br/>3. Dissolution of the local bodies<br/>Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The dissolution of the State Legislative Assembly and the dissolution of local bodies are not necessarily automatic consequences of a President's Rule proclamation — the Assembly can instead be kept in suspended animation, and local bodies (Panchayats/Municipalities) continue functioning independently of the State's political executive. Removal of the State Council of Ministers, however, is a direct and necessary consequence, since the President's Rule specifically displaces the elected State government.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+</div>
+
+
 
 <div class="bottom-nav container">
   <a class="back-link" href="../indian-polity-upsc-pyq.html">← Back to all Indian Polity PYQ topics</a>
@@ -1044,6 +1164,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+</div>
+</div>
+
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
   <nav class="footer-links" aria-label="Footer navigation">
@@ -1058,6 +1181,16 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1076,6 +1209,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_finance-emergency-duties';
 var total = 21;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1085,8 +1226,39 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {

@@ -69,7 +69,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,6 +119,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) - 6px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 /* ── Take as Test CTA ── */
 .test-cta-wrap { margin-top: 20px; }
@@ -136,7 +159,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
 /* ── Question cards ── */
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,6 +224,51 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -242,6 +310,62 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+<nav aria-label="Indian Polity topics" class="sidebar-mobile-bar">
+<a class="sidebar-mobile-link" href="../indian-polity-upsc-pyq.html">All Topics</a>
+<a class="sidebar-mobile-link" href="./parliament.html">Parliament</a>
+<a class="sidebar-mobile-link" href="./constitutional-framework.html">Indian Constitution</a>
+<a class="sidebar-mobile-link" href="./judiciary.html">Judiciary</a>
+<a class="sidebar-mobile-link is-active" href="./executive.html">Union &amp; State Executive</a>
+<a class="sidebar-mobile-link" href="./constitutional-bodies.html">Constitutional Bodies</a>
+<a class="sidebar-mobile-link" href="./elections.html">Elections</a>
+<a class="sidebar-mobile-link" href="./social-justice.html">Social Justice</a>
+<a class="sidebar-mobile-link" href="./panchayati-raj.html">Panchayati Raj</a>
+<a class="sidebar-mobile-link" href="./federalism.html">Centre-State Relations</a>
+<a class="sidebar-mobile-link" href="./fundamental-rights.html">Fundamental Rights</a>
+<a class="sidebar-mobile-link" href="./dpsp.html">DPSP</a>
+<a class="sidebar-mobile-link" href="./political-theory.html">Political Theory</a>
+<a class="sidebar-mobile-link" href="./finance-emergency-duties.html">Public Finance, Emergency &amp; Duties</a>
+</nav>
+<div class="layout">
+<aside aria-label="Sidebar navigation" class="sidebar">
+<div class="sidebar-section">
+<p class="sidebar-label">Indian Polity PYQ</p>
+<ul class="sidebar-nav">
+<li><a class="sidebar-link is-active" href="./executive.html">Union &amp; State Executive</a></li>
+<li><a class="sidebar-link" href="./parliament.html">Parliament</a></li>
+<li><a class="sidebar-link" href="./judiciary.html">Judiciary</a></li>
+<li><a class="sidebar-link" href="./constitutional-framework.html">Indian Constitution</a></li>
+<li><a class="sidebar-link" href="./constitutional-bodies.html">Constitutional Bodies</a></li>
+</ul>
+<a class="sidebar-link" href="../indian-polity-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Indian Polity topics</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Jump to Topic</p>
+<ul class="sidebar-nav" id="topicSidebarNav">
+<li><a class="sidebar-link topic-jump-link" data-topic="council-of-ministers" href="#topic-council-of-ministers">Council of Ministers<span class="sidebar-link-check" id="sideCount-council-of-ministers">18</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="president" href="#topic-president">President<span class="sidebar-link-check" id="sideCount-president">11</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="governor" href="#topic-governor">Governor<span class="sidebar-link-check" id="sideCount-governor">8</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="prime-minister" href="#topic-prime-minister">Prime Minister<span class="sidebar-link-check" id="sideCount-prime-minister">6</span></a></li><li><a class="sidebar-link topic-jump-link" data-topic="vice-president" href="#topic-vice-president">Vice-President<span class="sidebar-link-check" id="sideCount-vice-president">1</span></a></li>
+</ul>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Your Progress</p>
+<div class="sidebar-progress-card">
+<div class="sidebar-progress-num" id="sidebarProgressNum">44</div>
+<div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+<div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+</div>
+<a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/executive">Take as Timed Test</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">UPSC A2Z</p>
+<nav aria-label="Site links" class="sidebar-footer-links">
+<a href="../../index.html">Home</a>
+<a href="../../tracker.html">Topic Tracker</a>
+<a href="../indian-polity-upsc-pyq.html">PYQ Bank</a>
+<a href="../../topics/indian-polity-upsc.html">Indian Polity Topics</a>
+</nav>
+</div>
+</aside>
+<div class="main-col">
+
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Indian Polity PYQ</p>
   <h1>Union &amp; State Executive UPSC PYQ — President, PM &amp; Governor</h1>
@@ -252,15 +376,11 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1995–2025</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">President</span>
-            <span class="includes-chip">Vice-President</span>
-            <span class="includes-chip">Prime Minister</span>
-            <span class="includes-chip">Governor</span>
-            <span class="includes-chip">Council of Ministers</span>
-    </div>
-  </div>
+<p class="includes-label">Jump to a topic</p>
+<div class="includes-chips" id="topicQuickNav">
+<a class="includes-chip topic-chip" data-topic="council-of-ministers" href="#topic-council-of-ministers"><span>Council of Ministers</span><span class="chip-count" id="chipCount-council-of-ministers">18</span></a><a class="includes-chip topic-chip" data-topic="president" href="#topic-president"><span>President</span><span class="chip-count" id="chipCount-president">11</span></a><a class="includes-chip topic-chip" data-topic="governor" href="#topic-governor"><span>Governor</span><span class="chip-count" id="chipCount-governor">8</span></a><a class="includes-chip topic-chip" data-topic="prime-minister" href="#topic-prime-minister"><span>Prime Minister</span><span class="chip-count" id="chipCount-prime-minister">6</span></a><a class="includes-chip topic-chip" data-topic="vice-president" href="#topic-vice-president"><span>Vice-President</span><span class="chip-count" id="chipCount-vice-president">1</span></a>
+</div>
+</div>
   <div class="test-cta-wrap">
   <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/executive">
     <span class="test-cta-text">Take as Test</span>
@@ -269,8 +389,1049 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </section>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+  <section class="topic-section" data-topic="council-of-ministers" id="topic-council-of-ministers"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Council of Ministers</h2><p class="topic-desc">The Cabinet, its collective responsibility, Attorney General, and machinery of the Union Government.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-council-of-ministers">18 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-council-of-ministers"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="council-of-ministers" id="q3">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2022</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India.<br/>2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Besides the Attorney General and Solicitor General, other officers such as Ministers who are not members of a House can also be permitted to participate in its proceedings under Article 88, so the claim of exclusivity is incorrect — Statement 1 is incorrect. The Attorney General's tenure is not tied to the government's term; there is no constitutional requirement that they resign automatically when the government that appointed them resigns, though in practice they usually do so out of convention — Statement 2 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q4">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2020</span>
+    </div>
+    <p class="q-text">In the context of India, which one of the following is the characteristic appropriate for bureaucracy ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: An agency for widening the scope of parliamentary democracy">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">An agency for widening the scope of parliamentary democracy</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: An agency for strengthening the structure of federalism">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">An agency for strengthening the structure of federalism</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: An agency for facilitating political stability and economic growth">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">An agency for facilitating political stability and economic growth</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: An agency for the implementation of public policy">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">An agency for the implementation of public policy</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. An agency for the implementation of public policy</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">In the Indian context, the bureaucracy is chiefly characterised as the permanent machinery responsible for implementing public policies and government decisions, providing continuity and administrative expertise regardless of which political party is in power.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q8">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">Out of the following statements, choose the one that brings out the principle underlying the Cabinet form of Government:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: An arrangement for minimizing the criticism against the Government whose responsibilities are complex and hard to carry out to the satisfaction of all.">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">An arrangement for minimizing the criticism against the Government whose responsibilities are complex and hard to carry out to the satisfaction of all.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: A mechanism for speeding up the activities of the Government whose responsibilities are increasing day by day.">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">A mechanism for speeding up the activities of the Government whose responsibilities are increasing day by day.</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people.">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A device for strengthening the hands of the head of the Government whose hold over the people is in a state of decline.">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A device for strengthening the hands of the head of the Government whose hold over the people is in a state of decline.</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people.</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Cabinet form of government is fundamentally built on the principle of collective responsibility, whereby the entire Council of Ministers is jointly accountable to the legislature (and through it, to the people) for its decisions and conduct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q11">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2015</span>
+    </div>
+    <p class="q-text">There is a Parliamentary System of Government in India because the</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Lok Sabha is elected directly by the people">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Lok Sabha is elected directly by the people</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Parliament can amend the Constitution">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Parliament can amend the Constitution</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Rajya Sabha cannot be dissolved">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Rajya Sabha cannot be dissolved</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Council of Ministers is responsible to the Lok Sabha">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Council of Ministers is responsible to the Lok Sabha</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Council of Ministers is responsible to the Lok Sabha</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">India has a parliamentary system precisely because the Council of Ministers is collectively responsible to, and can be removed by, the directly elected Lok Sabha — the defining feature that distinguishes it from a presidential system.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q12">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">Which of the following is/are the function/functions of the Cabinet Secretariat?<br/>1. Preparation of agenda for Cabinet Meetings<br/>2. Secretarial assistance to Cabinet Committees<br/>3. Allocation of financial resources to the Ministries<br/>Select the correct answer using the code given below.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 2 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Cabinet Secretariat prepares the agenda for Cabinet meetings and provides secretarial assistance to Cabinet Committees — Statements 1 and 2 are correct. Allocation of financial resources to ministries is handled through the Budget process by the Ministry of Finance, not the Cabinet Secretariat — Statement 3 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q16">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">2013</span>
+    </div>
+    <p class="q-text">Consider the following statements. The Attorney-General of India can:<br/>1. Take part in the proceedings of the Lok Sabha<br/>2. Be a member of a committee of the Lok Sabha<br/>3. Speak in the Lok Sabha<br/>4. Vote in the Lok Sabha<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under Article 88, the Attorney General has the right to take part in and speak in the proceedings of either House and any joint sitting, and can be named to a parliamentary committee of which they are made a member — Statements 1, 2, and 3 are correct in this respect, though the officially recorded answer here credits 1 and 3 as the operative correct combination. Not being an elected member, the Attorney General cannot vote in the House — Statement 4 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q17">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">2013</span>
+    </div>
+    <p class="q-text">Consider the following statements :<br/>1. The Council of Ministers in the Centre shall be collectively responsible to the Parliament.<br/>2. The Union Ministers shall hold the office during the pleasure of the President of India.<br/>3. The Prime Minister shall communicate to the President about the proposals for legislation.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Council of Ministers at the Centre is collectively responsible to the Lok Sabha (the House of the People), as provided in Article 75(3) — Statement 1 is correct, though it is often loosely described as responsible to 'Parliament.' Union Ministers hold office during the pleasure of the President — Statement 2 is correct. There is no specific constitutional requirement that the Prime Minister communicate proposals for legislation to the President in the manner described (that duty, under Article 78, instead concerns communicating Cabinet decisions and information relating to administration) — Statement 3 is incorrect in this precise framing.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q23">
+    <div class="q-head">
+      <span class="q-num">8</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">With reference to Union Government, consider the following statements :<br/>1. The Constitution of India provides that all Cabinet Ministers shall be compulsorily the sitting members of Lok Sabha only.<br/>2. The Union Cabinet Secretariat operates under the direction of the Ministry of Parliamentary Affairs.<br/>Which of the statements given above is/are correct ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">There is no constitutional requirement that all Cabinet Ministers be sitting members of the Lok Sabha only; Ministers can be drawn from either House, provided they become a member of one within six months — Statement 1 is incorrect. The Cabinet Secretariat operates directly under the Prime Minister, under the overall charge of the Cabinet Secretary, and not under the Ministry of Parliamentary Affairs — Statement 2 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q24">
+    <div class="q-head">
+      <span class="q-num">9</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">Which one of the following Constitutional Amendments states that the total number of Ministers, including the Prime Minister, in the Council of Ministers shall not exceed fifteen percent of the total number of members of the House of the People ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 90th">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">90th</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 91st">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">91st</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 92nd">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">92nd</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 93rd">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">93rd</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 91st</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The 91st Constitutional Amendment Act, 2003 capped the total strength of the Council of Ministers, including the Prime Minister, at 15% of the total membership of the Lok Sabha (with a similar cap for State Assemblies).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q25">
+    <div class="q-head">
+      <span class="q-num">10</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">With reference to Union Government, consider the following statements :<br/>1. The number of Ministries at the Centre on 15th August 1947 was 18.<br/>2. The number of Ministries at the Centre at present is 36.<br/>Which of the statements given above is/are correct ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">At Independence on 15 August 1947, the Union Government had 18 Ministries — Statement 1 is correct (based on the historical record used for this question). The actual number of ministries at any given time fluctuates with restructuring, and the specific figure of 36 cited for 'present' was not accurate at the time of this question, making Statement 2 incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q28">
+    <div class="q-head">
+      <span class="q-num">11</span>
+      <span class="q-yr">2008</span>
+    </div>
+    <p class="q-text">Department of Border Management is a Department of which one of the following Union Ministries?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Ministry of Defence">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Ministry of Defence</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Ministry of Home Affairs">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Ministry of Home Affairs</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Ministry of Shipping, Road Transport and Highways">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Ministry of Shipping, Road Transport and Highways</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Ministry of Environment and Forests">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Ministry of Environment and Forests</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Ministry of Home Affairs</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Department of Border Management functions under the Ministry of Home Affairs, dealing with the management and security of India's international borders.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q29">
+    <div class="q-head">
+      <span class="q-num">12</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Who among the following have been the Union Finance Minister of India?<br/>1. V. P. Singh<br/>2. R. Venkataraman<br/>3. Y. B. Chavan<br/>4. Pranab Mukherjee<br/>Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1, 3 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2, 3 and 4</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">V. P. Singh, R. Venkataraman, Y. B. Chavan, and Pranab Mukherjee have all served as the Union Finance Minister of India at different points in time.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q30">
+    <div class="q-head">
+      <span class="q-num">13</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Assertion (A): The Council of Ministers in the Union of India is collectively responsible both to the Lok Sabha and the Rajya Sabha.<br/>Reason (R): The members of both the Lok Sabha and the Rajya Sabha are eligible to be the Ministers of the Union.</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both A and R are true and R is the correct explanation of A">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Both A and R are true and R is the correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are true but R is not the correct explanation of A">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Both A and R are true but R is not the correct explanation of A</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: A is true but R is false">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">A is true but R is false</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: A is false but R is true">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">A is false but R is true</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. A is false but R is true</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Council of Ministers is collectively responsible only to the Lok Sabha, not to the Rajya Sabha, since only the Lok Sabha can remove the government through a no-confidence motion — the Assertion is false. Members of both Houses are indeed eligible to be appointed as Union Ministers — making the Reason true on its own, even though it cannot support a false Assertion.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q32">
+    <div class="q-head">
+      <span class="q-num">14</span>
+      <span class="q-yr">2004</span>
+    </div>
+    <p class="q-text">Which of the following pairs is correctly matched? Departments : Ministry of the Government of India<br/>1. Department of Women and Child Development : Ministry of Health and Family Welfare<br/>2. Department of Official Languages : Ministry of Human Resource Development<br/>3. Department of Drinking Water Supply : Ministry of Water Resources<br/>Select the correct answer using the codes given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">3</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. None</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Department of Women and Child Development functioned under the Ministry of Human Resource Development (not Health and Family Welfare); the Department of Official Languages comes under the Ministry of Home Affairs (not HRD); and the Department of Drinking Water Supply falls under the Ministry of Rural Development (not Water Resources) — none of the three pairings given is correctly matched.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q35">
+    <div class="q-head">
+      <span class="q-num">15</span>
+      <span class="q-yr">2002</span>
+    </div>
+    <p class="q-text">With reference to Indian Polity, which one of the following statements is correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Planning Commission is accountable to Parliament">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Planning Commission is accountable to Parliament</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: President can make ordinance only when either of the two Houses of Parliament is not in session">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">President can make ordinance only when either of the two Houses of Parliament is not in session</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The minimum age prescribed for appointment as a Judge of the Supreme Court is 40 years">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The minimum age prescribed for appointment as a Judge of the Supreme Court is 40 years</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: National Development Council is constituted of Union Finance Minister and the Chief Ministers of all the States">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">National Development Council is constituted of Union Finance Minister and the Chief Ministers of all the States</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. President can make ordinance only when either of the two Houses of Parliament is not in session</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The President can promulgate an ordinance under Article 123 only when neither House of Parliament is in session (or, per later judicial interpretation, when a session is not readily convenable), correctly identifying when ordinance-making power arises. The Planning Commission (a non-constitutional, non-statutory advisory body) was not directly accountable to Parliament in the manner of a ministry; the minimum age for a Supreme Court judge is not fixed at 40 (there is, in fact, no minimum age prescribed); and the National Development Council includes Union Ministers and State Chief Ministers together, not the Finance Minister and Chief Ministers alone.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q37">
+    <div class="q-head">
+      <span class="q-num">16</span>
+      <span class="q-yr">2001</span>
+    </div>
+    <p class="q-text">Match List I with List II and select the correct answer using the codes given below the Lists:<br/>List I (Article of the Constitution)<br/>I. Article 54<br/>II. Article 75<br/>III. Article 155<br/>IV. Article 164<br/>List II (Content)<br/>A) Election of the President of India<br/>B) Appointment of the Prime Minister and Council of Ministers<br/>C) Appointment of the Governor of a State<br/>D) Appointment of the Chief Minister and Council of Ministers of a State<br/>E) Composition of Legislative Assemblies</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: I-A, II-B, III-C, IV-D">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I-A, II-B, III-C, IV-D</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I-A, II-B, III-D, IV-E">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">I-A, II-B, III-D, IV-E</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I-B, II-A, III-C, IV-E">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">I-B, II-A, III-C, IV-E</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: I-B, II-A, III-D, IV-C">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">I-B, II-A, III-D, IV-C</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. I-A, II-B, III-C, IV-D</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Article 54 deals with the election of the President; Article 75 deals with the appointment of the Prime Minister and Council of Ministers; Article 155 deals with the appointment of a State's Governor; and Article 164 deals with the appointment of a State's Chief Minister and Council of Ministers.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q38">
+    <div class="q-head">
+      <span class="q-num">17</span>
+      <span class="q-yr">2000</span>
+    </div>
+    <p class="q-text">Consider the following statements about the Attorney General of India:<br/>I. He is appointed by the President of India.<br/>II. He must have the same qualifications as are required for a Judge of the Supreme Court.<br/>III. He must be a member of either House of Parliament.<br/>IV. He can be removed by impeachment by Parliament.<br/>Which of these statements are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: I and II">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I and II</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I and III">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">I and III</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: II, III and IV">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">II, III and IV</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: III and IV">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">III and IV</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. I and II</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Attorney General of India is appointed by the President (Statement I) and must possess the same qualifications required to be a Judge of the Supreme Court (Statement II) — both correct. The Attorney General need not be a member of either House of Parliament, and holds office during the pleasure of the President rather than being removable through an impeachment process — Statements III and IV are incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="council-of-ministers" id="q44">
+    <div class="q-head">
+      <span class="q-num">18</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">Which one of the following is not explicitly stated in the Constitution of India but followed as a convention?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: The Finance Minister is to be a member of the Lower House">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">The Finance Minister is to be a member of the Lower House</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The Prime Minister has to resign if he loses majority in the Lower House">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">The Prime Minister has to resign if he loses majority in the Lower House</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All the parts of India are to be represented in the Council of Ministers">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All the parts of India are to be represented in the Council of Ministers</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: In the event of both the President and the Vice-President demitting office simultaneously before the end of their tenure, the Speaker of the Lower House of Parliament will officiate as the President">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">In the event of both the President and the Vice-President demitting office simultaneously before the end of their tenure, the Speaker of the Lower House of Parliament will officiate as the President</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All the parts of India are to be represented in the Council of Ministers</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">There is no explicit constitutional provision requiring that all parts/regions of India be represented in the Council of Ministers; this practice is followed only as a political and administrative convention, unlike the other listed items which have clearer explicit or inferred constitutional backing.</p>
+        </div>
+      </div>
+    </details>
+  </li></ol></section><section class="topic-section" data-topic="president" id="topic-president"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">President</h2><p class="topic-desc">Election, powers, and constitutional role of the President of India.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-president">11 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-president"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="president" id="q2">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2023</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. If the election of the President of India is declared void by the Supreme Court of India, all acts done by him/her in the performance of duties of his/her office of President before the date of decision become invalid.<br/>2. Election for the post of the President of India can be postponed on the ground that some Legislative Assemblies have been dissolved and elections are yet to take place.<br/>3. When a Bill is presented to the President of India, the Constitution prescribes time limits within which he/she has to declare his/her assent.<br/>How many of the above statements are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Only one</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only two</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">All three</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: None">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">None</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. None</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Article 71(2) expressly protects all acts done by a President before an election is declared void, so they do not become invalid — Statement 1 is incorrect. The Presidential election cannot be postponed merely because some Assemblies stand dissolved, since Article 62 requires the election to be completed before the term expires, and the electoral college is reckoned from Assemblies existing at that time — Statement 2 is incorrect. The Constitution does not prescribe any time limit within which the President must decide on assenting to a Bill — Statement 3 is incorrect. None of the statements are correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q6">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">With reference to the election of the President of India, consider the following statements:<br/>1. The value of the vote of each MLA varies from State to State.<br/>2. The value of the vote of MPs of the Lok Sabha is more than the value of the vote of MPs of the Rajya Sabha.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The value of an MLA's vote varies from State to State, since it is calculated based on that State's population divided by the number of elected MLAs (further divided by 1000) — Statement 1 is correct. However, the value of every MP's vote (Lok Sabha or Rajya Sabha) is the same, calculated by dividing the total value of all MLA votes by the total number of elected MPs — Statement 2 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q14">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2014</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. The President shall make rules for the more convenient transaction of the business of the Government of India, and for the allocation among Ministers of the said business.<br/>2. All executive actions of the Government of India shall be expressed to be taken in the name of the Prime Minister.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under Article 77, the President makes rules for the more convenient transaction of Government of India business and for allocating that business among Ministers — Statement 1 is correct. However, executive actions of the Government of India are expressed to be taken in the name of the President, not the Prime Minister — Statement 2 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q19">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">According to the Constitution of India, it is the duty of the President of India to cause to be laid before the Parliament which of the following?<br/>1. The Recommendations of the Union Finance Commission<br/>2. The Report of the Public Accounts Committee<br/>3. The Report of the Comptroller and Auditor General<br/>4. The Report of the National Commission for Scheduled Castes</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 3 and 4 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 3 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 3 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The President is constitutionally required to have laid before Parliament the recommendations of the Finance Commission (along with an explanatory memorandum), and the report of the Comptroller and Auditor General relating to the accounts of the Union — Statements 1 and 3 are correct. The report of the National Commission for Scheduled Castes is also required to be laid before Parliament — Statement 4 is correct. The Public Accounts Committee's report is a parliamentary committee document tabled within Parliament's own procedure, not something laid before it by the President in this constitutional sense — Statement 2 is not part of this specific presidential duty.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q20">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">Among the following Presidents of India, who was also the Secretary General of Non-Aligned Movement for some period?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Dr. Sarvepalli Radhakrishnan">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Dr. Sarvepalli Radhakrishnan</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Varahagiri Venkata Giri">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Varahagiri Venkata Giri</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Giani Zail Singh">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Giani Zail Singh</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Dr. Shankar Dayal Sharma">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Dr. Shankar Dayal Sharma</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Giani Zail Singh</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Giani Zail Singh served as India's President from 1982 to 1987; before that, he had also served as a Secretary General associated with Non-Aligned Movement summit arrangements during India's chairmanship period.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q33">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">2003</span>
+    </div>
+    <p class="q-text">Under which Article of the Indian Constitution did the President give his assent to the ordinance on electoral reforms when it was sent back to him by the Union Cabinet without making any changes (in the year 2002)?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Article 121">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Article 121</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Article 122">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Article 122</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Article 123">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Article 123</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Article 124">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Article 124</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Article 123</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under Article 123, the President promulgates ordinances when Parliament is not in session, and in 2002 gave assent to the electoral reforms ordinance after it was returned to him unchanged by the Union Cabinet.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q34">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">2003</span>
+    </div>
+    <p class="q-text">Consider the following statements: In the electoral college for Presidential Election in India.<br/>1. The value of the vote of an elected Member of Legislative Assembly equals<br/>2. The value of the vote of an elected Member of Parliament equals<br/>3. There were more than 5000 members in the latest election<br/>Which of these statements is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Only 2">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Only 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Only 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Only 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Only 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">In the electoral college for the Presidential election, the value of each MP's vote is uniform, calculated by dividing the total value of all MLA votes across India by the total number of elected MPs — matching Statement 2. The value of an MLA's vote, by contrast, varies by State depending on population and Assembly strength, so Statement 1 (claiming a single common value) does not hold; the number of electors involved (well over 4,000 MLAs plus MPs) is also close to, but was not confirmed as exceeding, 5,000 at that time, making Statement 3 unreliable — leaving only Statement 2 as correct on its own.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q36">
+    <div class="q-head">
+      <span class="q-num">8</span>
+      <span class="q-yr">2002</span>
+    </div>
+    <p class="q-text">Which one of the following amendments to the Indian Constitution empowers the President to send back any matter for reconsideration by the Council of Ministers?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 39th">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">39th</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 40th">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">40th</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 42nd">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">42nd</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 44th">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">44th</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 44th</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The 44th Constitutional Amendment Act, 1978 empowered the President to return advice for reconsideration by the Council of Ministers once (though bound to act according to the reconsidered advice), replacing the earlier absolute obligation to act on the first advice tendered.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q39">
+    <div class="q-head">
+      <span class="q-num">9</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">In the Presidential election in India, every elected member of the Legislative Assembly of a State shall have as many votes as there are multiples of one thousand in the quotient obtained by dividing the population of the State by the total number of the elected members of the Assembly. As at present (1997) the expression &quot;population&quot; here means the population as ascertained by the</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1991 Census">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1991 Census</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1981 Census">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1981 Census</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1971 Census">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1971 Census</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1961 Census">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1961 Census</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1971 Census</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">As of 1997, the 'population' used for calculating the value of an MLA's vote in the Presidential election was that ascertained by the 1971 Census, since a later constitutional amendment had frozen the use of 1971 Census figures for such demographic calculations until subsequent adjustments.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q40">
+    <div class="q-head">
+      <span class="q-num">10</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">Which one of the following are/is stated in the Constitution of India?<br/>I. The President shall not be a member of either House of Parliament.<br/>II. The Parliament shall consist of the President and two Houses.<br/>Choose the correct answer from the codes given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Neither I nor II">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Neither I nor II</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Both I and II">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Both I and II</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I alone">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">I alone</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: II alone">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">II alone</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Both I and II</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under Article 79, Parliament consists of the President and two Houses — Statement II is correct. Article 59(1) also expressly states that the President shall not be a member of either House of Parliament — Statement I is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="president" id="q41">
+    <div class="q-head">
+      <span class="q-num">11</span>
+      <span class="q-yr">1996</span>
+    </div>
+    <p class="q-text">Which one of the following is part of the electoral college for the election of the President of India but does not form part of the forum for his impeachment?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Lok Sabha">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Lok Sabha</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Rajya Sabha">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Rajya Sabha</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: State Legislative Councils">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">State Legislative Councils</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: State Legislative Assemblies">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">State Legislative Assemblies</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. State Legislative Assemblies</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">State Legislative Assemblies are part of the electoral college that elects the President, but the impeachment process for removing the President under Article 61 involves only Parliament (the Lok Sabha and Rajya Sabha), not the State Assemblies.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  </ol></section><section class="topic-section" data-topic="governor" id="topic-governor"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Governor</h2><p class="topic-desc">Appointment, discretionary powers, and constitutional position of the State Governor.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-governor">8 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-governor"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="governor" id="q1">
     <div class="q-head">
       <span class="q-num">1</span>
       <span class="q-yr">2025</span>
@@ -306,117 +1467,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q2">
+  <li class="q-card" data-topic="governor" id="q5">
     <div class="q-head">
       <span class="q-num">2</span>
-      <span class="q-yr">2023</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. If the election of the President of India is declared void by the Supreme Court of India, all acts done by him/her in the performance of duties of his/her office of President before the date of decision become invalid.<br/>2. Election for the post of the President of India can be postponed on the ground that some Legislative Assemblies have been dissolved and elections are yet to take place.<br/>3. When a Bill is presented to the President of India, the Constitution prescribes time limits within which he/she has to declare his/her assent.<br/>How many of the above statements are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Only one">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Only one</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Only two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only two</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: All three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All three</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. None</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Article 71(2) expressly protects all acts done by a President before an election is declared void, so they do not become invalid — Statement 1 is incorrect. The Presidential election cannot be postponed merely because some Assemblies stand dissolved, since Article 62 requires the election to be completed before the term expires, and the electoral college is reckoned from Assemblies existing at that time — Statement 2 is incorrect. The Constitution does not prescribe any time limit within which the President must decide on assenting to a Bill — Statement 3 is incorrect. None of the statements are correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q3">
-    <div class="q-head">
-      <span class="q-num">3</span>
-      <span class="q-yr">2022</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India.<br/>2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Besides the Attorney General and Solicitor General, other officers such as Ministers who are not members of a House can also be permitted to participate in its proceedings under Article 88, so the claim of exclusivity is incorrect — Statement 1 is incorrect. The Attorney General's tenure is not tied to the government's term; there is no constitutional requirement that they resign automatically when the government that appointed them resigns, though in practice they usually do so out of convention — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q4">
-    <div class="q-head">
-      <span class="q-num">4</span>
-      <span class="q-yr">2020</span>
-    </div>
-    <p class="q-text">In the context of India, which one of the following is the characteristic appropriate for bureaucracy ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: An agency for widening the scope of parliamentary democracy">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">An agency for widening the scope of parliamentary democracy</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: An agency for strengthening the structure of federalism">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">An agency for strengthening the structure of federalism</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: An agency for facilitating political stability and economic growth">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">An agency for facilitating political stability and economic growth</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: An agency for the implementation of public policy">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">An agency for the implementation of public policy</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. An agency for the implementation of public policy</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">In the Indian context, the bureaucracy is chiefly characterised as the permanent machinery responsible for implementing public policies and government decisions, providing continuity and administrative expertise regardless of which political party is in power.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q5">
-    <div class="q-head">
-      <span class="q-num">5</span>
       <span class="q-yr">2019</span>
     </div>
     <p class="q-text">Which one of the following suggested that the Governor should be an eminent person from outside the State and should be a detached figure without intense political links or should not have taken part in politics in the recent past?</p>
@@ -450,45 +1503,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q6">
+  <li class="q-card" data-topic="governor" id="q7">
     <div class="q-head">
-      <span class="q-num">6</span>
-      <span class="q-yr">2018</span>
-    </div>
-    <p class="q-text">With reference to the election of the President of India, consider the following statements:<br/>1. The value of the vote of each MLA varies from State to State.<br/>2. The value of the vote of MPs of the Lok Sabha is more than the value of the vote of MPs of the Rajya Sabha.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The value of an MLA's vote varies from State to State, since it is calculated based on that State's population divided by the number of elected MLAs (further divided by 1000) — Statement 1 is correct. However, the value of every MP's vote (Lok Sabha or Rajya Sabha) is the same, calculated by dividing the total value of all MLA votes by the total number of elected MPs — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q7">
-    <div class="q-head">
-      <span class="q-num">7</span>
+      <span class="q-num">3</span>
       <span class="q-yr">2018</span>
     </div>
     <p class="q-text">Consider the following statements:<br/>1. No criminal proceedings shall be instituted against the Governor of a State in any court during his term of office.<br/>2. The emoluments and allowances of the Governor of a State shall not be diminished during his term of office.<br/>Which of the statements given above is/are correct?</p>
@@ -522,45 +1539,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q8">
+  <li class="q-card" data-topic="governor" id="q9">
     <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2017</span>
-    </div>
-    <p class="q-text">Out of the following statements, choose the one that brings out the principle underlying the Cabinet form of Government:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: An arrangement for minimizing the criticism against the Government whose responsibilities are complex and hard to carry out to the satisfaction of all.">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">An arrangement for minimizing the criticism against the Government whose responsibilities are complex and hard to carry out to the satisfaction of all.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: A mechanism for speeding up the activities of the Government whose responsibilities are increasing day by day.">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">A mechanism for speeding up the activities of the Government whose responsibilities are increasing day by day.</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people.">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: A device for strengthening the hands of the head of the Government whose hold over the people is in a state of decline.">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">A device for strengthening the hands of the head of the Government whose hold over the people is in a state of decline.</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people.</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Cabinet form of government is fundamentally built on the principle of collective responsibility, whereby the entire Council of Ministers is jointly accountable to the legislature (and through it, to the people) for its decisions and conduct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
+      <span class="q-num">4</span>
       <span class="q-yr">2016</span>
     </div>
     <p class="q-text">Consider the following statements:<br/>1. The Chief Secretary in a State is appointed by the Governor of that State.<br/>2. The Chief Secretary in a State has a fixed tenure.<br/>Which of the statements given above is/are correct?</p>
@@ -594,117 +1575,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q10">
+  <li class="q-card" data-topic="governor" id="q13">
     <div class="q-head">
-      <span class="q-num">10</span>
-      <span class="q-yr">2015</span>
-    </div>
-    <p class="q-text">Consider the following statements :<br/>1. The Executive Power of the Union of India is vested in the Prime Minister.<br/>2. The Prime Minister is the ex officio Chairman of the Civil Services Board.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Executive Power of the Union is constitutionally vested in the President, not the Prime Minister (Article 53), though it is exercised in practice on the aid and advice of the Council of Ministers headed by the PM — Statement 1 is incorrect. The Cabinet Secretary, not the Prime Minister, is the ex officio Chairman of the Civil Services Board — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q11">
-    <div class="q-head">
-      <span class="q-num">11</span>
-      <span class="q-yr">2015</span>
-    </div>
-    <p class="q-text">There is a Parliamentary System of Government in India because the</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Lok Sabha is elected directly by the people">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Lok Sabha is elected directly by the people</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Parliament can amend the Constitution">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Parliament can amend the Constitution</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Rajya Sabha cannot be dissolved">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Rajya Sabha cannot be dissolved</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Council of Ministers is responsible to the Lok Sabha">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Council of Ministers is responsible to the Lok Sabha</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Council of Ministers is responsible to the Lok Sabha</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">India has a parliamentary system precisely because the Council of Ministers is collectively responsible to, and can be removed by, the directly elected Lok Sabha — the defining feature that distinguishes it from a presidential system.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q12">
-    <div class="q-head">
-      <span class="q-num">12</span>
-      <span class="q-yr">2014</span>
-    </div>
-    <p class="q-text">Which of the following is/are the function/functions of the Cabinet Secretariat?<br/>1. Preparation of agenda for Cabinet Meetings<br/>2. Secretarial assistance to Cabinet Committees<br/>3. Allocation of financial resources to the Ministries<br/>Select the correct answer using the code given below.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 2 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Cabinet Secretariat prepares the agenda for Cabinet meetings and provides secretarial assistance to Cabinet Committees — Statements 1 and 2 are correct. Allocation of financial resources to ministries is handled through the Budget process by the Ministry of Finance, not the Cabinet Secretariat — Statement 3 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q13">
-    <div class="q-head">
-      <span class="q-num">13</span>
+      <span class="q-num">5</span>
       <span class="q-yr">2014</span>
     </div>
     <p class="q-text">Which of the following are the discretionary powers given to the Governor of a State?<br/>1. Sending a report to the President of India for imposing the President’s rule<br/>2. Appointing the Ministers<br/>3. Reserving certain bills passed by the State Legislature for consideration of the President of India<br/>4. Making the rules to conduct the business of the State Government<br/>Select the correct answer using the code given below.</p>
@@ -738,45 +1611,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q14">
+  <li class="q-card" data-topic="governor" id="q15">
     <div class="q-head">
-      <span class="q-num">14</span>
-      <span class="q-yr">2014</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. The President shall make rules for the more convenient transaction of the business of the Government of India, and for the allocation among Ministers of the said business.<br/>2. All executive actions of the Government of India shall be expressed to be taken in the name of the Prime Minister.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under Article 77, the President makes rules for the more convenient transaction of Government of India business and for allocating that business among Ministers — Statement 1 is correct. However, executive actions of the Government of India are expressed to be taken in the name of the President, not the Prime Minister — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q15">
-    <div class="q-head">
-      <span class="q-num">15</span>
+      <span class="q-num">6</span>
       <span class="q-yr">2013</span>
     </div>
     <p class="q-text">Which one of the following statements is correct?</p>
@@ -810,225 +1647,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q16">
+  <li class="q-card" data-topic="governor" id="q22">
     <div class="q-head">
-      <span class="q-num">16</span>
-      <span class="q-yr">2013</span>
-    </div>
-    <p class="q-text">Consider the following statements. The Attorney-General of India can:<br/>1. Take part in the proceedings of the Lok Sabha<br/>2. Be a member of a committee of the Lok Sabha<br/>3. Speak in the Lok Sabha<br/>4. Vote in the Lok Sabha<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under Article 88, the Attorney General has the right to take part in and speak in the proceedings of either House and any joint sitting, and can be named to a parliamentary committee of which they are made a member — Statements 1, 2, and 3 are correct in this respect, though the officially recorded answer here credits 1 and 3 as the operative correct combination. Not being an elected member, the Attorney General cannot vote in the House — Statement 4 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q17">
-    <div class="q-head">
-      <span class="q-num">17</span>
-      <span class="q-yr">2013</span>
-    </div>
-    <p class="q-text">Consider the following statements :<br/>1. The Council of Ministers in the Centre shall be collectively responsible to the Parliament.<br/>2. The Union Ministers shall hold the office during the pleasure of the President of India.<br/>3. The Prime Minister shall communicate to the President about the proposals for legislation.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Council of Ministers at the Centre is collectively responsible to the Lok Sabha (the House of the People), as provided in Article 75(3) — Statement 1 is correct, though it is often loosely described as responsible to 'Parliament.' Union Ministers hold office during the pleasure of the President — Statement 2 is correct. There is no specific constitutional requirement that the Prime Minister communicate proposals for legislation to the President in the manner described (that duty, under Article 78, instead concerns communicating Cabinet decisions and information relating to administration) — Statement 3 is incorrect in this precise framing.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q18">
-    <div class="q-head">
-      <span class="q-num">18</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">The Prime Minister of India, at the time of his/her appointment</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: need not necessarily be a member of one of the Houses of the Parliament but must become a member of the Lok Sabha within six months">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">need not necessarily be a member of one of the Houses of the Parliament but must become a member of the Lok Sabha within six months</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: must be a member of one of the Houses of the Parliament">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">must be a member of one of the Houses of the Parliament</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: must be a member of the Lok Sabha">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">must be a member of the Lok Sabha</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A person appointed Prime Minister need not already be a member of either House of Parliament, but must become a member of one of the Houses (Lok Sabha or Rajya Sabha) within six months of taking office, failing which they cease to hold the post.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q19">
-    <div class="q-head">
-      <span class="q-num">19</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">According to the Constitution of India, it is the duty of the President of India to cause to be laid before the Parliament which of the following?<br/>1. The Recommendations of the Union Finance Commission<br/>2. The Report of the Public Accounts Committee<br/>3. The Report of the Comptroller and Auditor General<br/>4. The Report of the National Commission for Scheduled Castes</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 4 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 3 and 4 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 3 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 3 and 4 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The President is constitutionally required to have laid before Parliament the recommendations of the Finance Commission (along with an explanatory memorandum), and the report of the Comptroller and Auditor General relating to the accounts of the Union — Statements 1 and 3 are correct. The report of the National Commission for Scheduled Castes is also required to be laid before Parliament — Statement 4 is correct. The Public Accounts Committee's report is a parliamentary committee document tabled within Parliament's own procedure, not something laid before it by the President in this constitutional sense — Statement 2 is not part of this specific presidential duty.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q20">
-    <div class="q-head">
-      <span class="q-num">20</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">Among the following Presidents of India, who was also the Secretary General of Non-Aligned Movement for some period?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Dr. Sarvepalli Radhakrishnan">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Dr. Sarvepalli Radhakrishnan</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Varahagiri Venkata Giri">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Varahagiri Venkata Giri</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Giani Zail Singh">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Giani Zail Singh</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Dr. Shankar Dayal Sharma">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Dr. Shankar Dayal Sharma</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Giani Zail Singh</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Giani Zail Singh served as India's President from 1982 to 1987; before that, he had also served as a Secretary General associated with Non-Aligned Movement summit arrangements during India's chairmanship period.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q21">
-    <div class="q-head">
-      <span class="q-num">21</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">Under the administration of which one of the following is the Department of Atomic Energy ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Prime Minister's Office">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Prime Minister's Office</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Cabinet Secretariat">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Cabinet Secretariat</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Ministry of Power">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Ministry of Power</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Ministry of Science and Technology">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Ministry of Science and Technology</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Prime Minister's Office</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Department of Atomic Energy functions directly under the Prime Minister's Office, reflecting the strategic sensitivity of nuclear matters.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q22">
-    <div class="q-head">
-      <span class="q-num">22</span>
+      <span class="q-num">7</span>
       <span class="q-yr">2009</span>
     </div>
     <p class="q-text">Consider the following statements :<br/>1. The Governor of Punjab is concurrently the Administrator of Chandigarh.<br/>2. The Governor of Kerala is concurrently the Administrator of Lakshadweep.<br/>Which of the above statements is/are correct ?</p>
@@ -1062,729 +1683,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q23">
+  <li class="q-card" data-topic="governor" id="q43">
     <div class="q-head">
-      <span class="q-num">23</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">With reference to Union Government, consider the following statements :<br/>1. The Constitution of India provides that all Cabinet Ministers shall be compulsorily the sitting members of Lok Sabha only.<br/>2. The Union Cabinet Secretariat operates under the direction of the Ministry of Parliamentary Affairs.<br/>Which of the statements given above is/are correct ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">There is no constitutional requirement that all Cabinet Ministers be sitting members of the Lok Sabha only; Ministers can be drawn from either House, provided they become a member of one within six months — Statement 1 is incorrect. The Cabinet Secretariat operates directly under the Prime Minister, under the overall charge of the Cabinet Secretary, and not under the Ministry of Parliamentary Affairs — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q24">
-    <div class="q-head">
-      <span class="q-num">24</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">Which one of the following Constitutional Amendments states that the total number of Ministers, including the Prime Minister, in the Council of Ministers shall not exceed fifteen percent of the total number of members of the House of the People ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 90th">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">90th</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 91st">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">91st</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 92nd">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">92nd</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 93rd">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">93rd</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 91st</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The 91st Constitutional Amendment Act, 2003 capped the total strength of the Council of Ministers, including the Prime Minister, at 15% of the total membership of the Lok Sabha (with a similar cap for State Assemblies).</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q25">
-    <div class="q-head">
-      <span class="q-num">25</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">With reference to Union Government, consider the following statements :<br/>1. The number of Ministries at the Centre on 15th August 1947 was 18.<br/>2. The number of Ministries at the Centre at present is 36.<br/>Which of the statements given above is/are correct ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. 1 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">At Independence on 15 August 1947, the Union Government had 18 Ministries — Statement 1 is correct (based on the historical record used for this question). The actual number of ministries at any given time fluctuates with restructuring, and the specific figure of 36 cited for 'present' was not accurate at the time of this question, making Statement 2 incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q26">
-    <div class="q-head">
-      <span class="q-num">26</span>
-      <span class="q-yr">2009</span>
-    </div>
-    <p class="q-text">With reference to Union Government, consider the following statements :<br/>1. The Ministries/Departments of the Government of India are created by the Prime Minister on the advice of the Cabinet Secretary.<br/>2. Each of the Ministries is assigned to a Minister by the President of India on the advice of the Prime Minister.<br/>Which of the statements given above is/are correct ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Ministries and Departments of the Government of India are created and reorganised by the President, acting on the advice of the Council of Ministers (in practice, through the Cabinet Secretariat's allocation of business rules), not by the Prime Minister alone on the Cabinet Secretary's advice — Statement 1 is incorrect. Each Ministry is indeed assigned to a Minister by the President, acting on the advice of the Prime Minister — Statement 2 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q27">
-    <div class="q-head">
-      <span class="q-num">27</span>
-      <span class="q-yr">2008</span>
-    </div>
-    <p class="q-text">Who among the following have held the office of the Vice-President of India?<br/>1. Mohammad Hidayatullah<br/>2. Fakhruddin Ali Ahmed<br/>3. Neelam Sanjiva Reddy<br/>4. Shankar Dayal Sharma<br/>Select the correct answer using the code given below:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2, 3 and 4">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 4 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 3 and 4 only">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">3 and 4 only</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 4 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Mohammad Hidayatullah and Shankar Dayal Sharma both served as Vice-President of India (in addition to other high offices they later held) — matching the codes '1 and 4 only.' Fakhruddin Ali Ahmed and Neelam Sanjiva Reddy became President, not Vice-President, of India.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q28">
-    <div class="q-head">
-      <span class="q-num">28</span>
-      <span class="q-yr">2008</span>
-    </div>
-    <p class="q-text">Department of Border Management is a Department of which one of the following Union Ministries?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Ministry of Defence">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Ministry of Defence</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Ministry of Home Affairs">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Ministry of Home Affairs</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Ministry of Shipping, Road Transport and Highways">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Ministry of Shipping, Road Transport and Highways</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Ministry of Environment and Forests">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Ministry of Environment and Forests</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Ministry of Home Affairs</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Department of Border Management functions under the Ministry of Home Affairs, dealing with the management and security of India's international borders.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q29">
-    <div class="q-head">
-      <span class="q-num">29</span>
-      <span class="q-yr">2007</span>
-    </div>
-    <p class="q-text">Who among the following have been the Union Finance Minister of India?<br/>1. V. P. Singh<br/>2. R. Venkataraman<br/>3. Y. B. Chavan<br/>4. Pranab Mukherjee<br/>Select the correct answer using the code given below:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1, 2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1, 3 and 4 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1, 3 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 4 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">2 and 4 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2, 3 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2, 3 and 4</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">V. P. Singh, R. Venkataraman, Y. B. Chavan, and Pranab Mukherjee have all served as the Union Finance Minister of India at different points in time.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q30">
-    <div class="q-head">
-      <span class="q-num">30</span>
-      <span class="q-yr">2007</span>
-    </div>
-    <p class="q-text">Assertion (A): The Council of Ministers in the Union of India is collectively responsible both to the Lok Sabha and the Rajya Sabha.<br/>Reason (R): The members of both the Lok Sabha and the Rajya Sabha are eligible to be the Ministers of the Union.</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both A and R are true and R is the correct explanation of A">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Both A and R are true and R is the correct explanation of A</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both A and R are true but R is not the correct explanation of A">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Both A and R are true but R is not the correct explanation of A</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: A is true but R is false">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">A is true but R is false</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: A is false but R is true">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">A is false but R is true</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. A is false but R is true</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Council of Ministers is collectively responsible only to the Lok Sabha, not to the Rajya Sabha, since only the Lok Sabha can remove the government through a no-confidence motion — the Assertion is false. Members of both Houses are indeed eligible to be appointed as Union Ministers — making the Reason true on its own, even though it cannot support a false Assertion.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q31">
-    <div class="q-head">
-      <span class="q-num">31</span>
-      <span class="q-yr">2007</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. Jawaharlal Nehru was in his fourth term as the Prime Minister of India at the time of his death.<br/>2. Jawaharlal Nehru represented Rae Bareilly constituency as a member of Parliament.<br/>3. The first non-Congress Prime Minister of India assumed office in the year 1977.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1 and 3</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Jawaharlal Nehru was actually only in his third continuous term as Prime Minister at the time of his death in 1964 (he had not been re-elected a fourth time) — Statement 1 is incorrect. He represented the Phulpur constituency in Uttar Pradesh, not Rae Bareli — Statement 2 is incorrect. Morarji Desai became the first non-Congress Prime Minister of India, assuming office in 1977 after the Janata Party's victory — Statement 3 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q32">
-    <div class="q-head">
-      <span class="q-num">32</span>
-      <span class="q-yr">2004</span>
-    </div>
-    <p class="q-text">Which of the following pairs is correctly matched? Departments : Ministry of the Government of India<br/>1. Department of Women and Child Development : Ministry of Health and Family Welfare<br/>2. Department of Official Languages : Ministry of Human Resource Development<br/>3. Department of Drinking Water Supply : Ministry of Water Resources<br/>Select the correct answer using the codes given below:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 3">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">3</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: None">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">None</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. None</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Department of Women and Child Development functioned under the Ministry of Human Resource Development (not Health and Family Welfare); the Department of Official Languages comes under the Ministry of Home Affairs (not HRD); and the Department of Drinking Water Supply falls under the Ministry of Rural Development (not Water Resources) — none of the three pairings given is correctly matched.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q33">
-    <div class="q-head">
-      <span class="q-num">33</span>
-      <span class="q-yr">2003</span>
-    </div>
-    <p class="q-text">Under which Article of the Indian Constitution did the President give his assent to the ordinance on electoral reforms when it was sent back to him by the Union Cabinet without making any changes (in the year 2002)?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Article 121">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Article 121</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Article 122">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Article 122</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Article 123">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Article 123</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Article 124">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Article 124</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Article 123</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under Article 123, the President promulgates ordinances when Parliament is not in session, and in 2002 gave assent to the electoral reforms ordinance after it was returned to him unchanged by the Union Cabinet.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q34">
-    <div class="q-head">
-      <span class="q-num">34</span>
-      <span class="q-yr">2003</span>
-    </div>
-    <p class="q-text">Consider the following statements: In the electoral college for Presidential Election in India.<br/>1. The value of the vote of an elected Member of Legislative Assembly equals<br/>2. The value of the vote of an elected Member of Parliament equals<br/>3. There were more than 5000 members in the latest election<br/>Which of these statements is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Only 2">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Only 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Only 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Only 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Only 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">In the electoral college for the Presidential election, the value of each MP's vote is uniform, calculated by dividing the total value of all MLA votes across India by the total number of elected MPs — matching Statement 2. The value of an MLA's vote, by contrast, varies by State depending on population and Assembly strength, so Statement 1 (claiming a single common value) does not hold; the number of electors involved (well over 4,000 MLAs plus MPs) is also close to, but was not confirmed as exceeding, 5,000 at that time, making Statement 3 unreliable — leaving only Statement 2 as correct on its own.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q35">
-    <div class="q-head">
-      <span class="q-num">35</span>
-      <span class="q-yr">2002</span>
-    </div>
-    <p class="q-text">With reference to Indian Polity, which one of the following statements is correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Planning Commission is accountable to Parliament">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Planning Commission is accountable to Parliament</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: President can make ordinance only when either of the two Houses of Parliament is not in session">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">President can make ordinance only when either of the two Houses of Parliament is not in session</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: The minimum age prescribed for appointment as a Judge of the Supreme Court is 40 years">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">The minimum age prescribed for appointment as a Judge of the Supreme Court is 40 years</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: National Development Council is constituted of Union Finance Minister and the Chief Ministers of all the States">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">National Development Council is constituted of Union Finance Minister and the Chief Ministers of all the States</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. President can make ordinance only when either of the two Houses of Parliament is not in session</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The President can promulgate an ordinance under Article 123 only when neither House of Parliament is in session (or, per later judicial interpretation, when a session is not readily convenable), correctly identifying when ordinance-making power arises. The Planning Commission (a non-constitutional, non-statutory advisory body) was not directly accountable to Parliament in the manner of a ministry; the minimum age for a Supreme Court judge is not fixed at 40 (there is, in fact, no minimum age prescribed); and the National Development Council includes Union Ministers and State Chief Ministers together, not the Finance Minister and Chief Ministers alone.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q36">
-    <div class="q-head">
-      <span class="q-num">36</span>
-      <span class="q-yr">2002</span>
-    </div>
-    <p class="q-text">Which one of the following amendments to the Indian Constitution empowers the President to send back any matter for reconsideration by the Council of Ministers?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 39th">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">39th</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 40th">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">40th</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 42nd">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">42nd</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 44th">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">44th</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 44th</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The 44th Constitutional Amendment Act, 1978 empowered the President to return advice for reconsideration by the Council of Ministers once (though bound to act according to the reconsidered advice), replacing the earlier absolute obligation to act on the first advice tendered.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q37">
-    <div class="q-head">
-      <span class="q-num">37</span>
-      <span class="q-yr">2001</span>
-    </div>
-    <p class="q-text">Match List I with List II and select the correct answer using the codes given below the Lists:<br/>List I (Article of the Constitution)<br/>I. Article 54<br/>II. Article 75<br/>III. Article 155<br/>IV. Article 164<br/>List II (Content)<br/>A) Election of the President of India<br/>B) Appointment of the Prime Minister and Council of Ministers<br/>C) Appointment of the Governor of a State<br/>D) Appointment of the Chief Minister and Council of Ministers of a State<br/>E) Composition of Legislative Assemblies</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: I-A, II-B, III-C, IV-D">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I-A, II-B, III-C, IV-D</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I-A, II-B, III-D, IV-E">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">I-A, II-B, III-D, IV-E</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I-B, II-A, III-C, IV-E">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">I-B, II-A, III-C, IV-E</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: I-B, II-A, III-D, IV-C">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">I-B, II-A, III-D, IV-C</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. I-A, II-B, III-C, IV-D</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Article 54 deals with the election of the President; Article 75 deals with the appointment of the Prime Minister and Council of Ministers; Article 155 deals with the appointment of a State's Governor; and Article 164 deals with the appointment of a State's Chief Minister and Council of Ministers.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q38">
-    <div class="q-head">
-      <span class="q-num">38</span>
-      <span class="q-yr">2000</span>
-    </div>
-    <p class="q-text">Consider the following statements about the Attorney General of India:<br/>I. He is appointed by the President of India.<br/>II. He must have the same qualifications as are required for a Judge of the Supreme Court.<br/>III. He must be a member of either House of Parliament.<br/>IV. He can be removed by impeachment by Parliament.<br/>Which of these statements are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: I and II">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I and II</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: I and III">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">I and III</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: II, III and IV">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">II, III and IV</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: III and IV">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">III and IV</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. I and II</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Attorney General of India is appointed by the President (Statement I) and must possess the same qualifications required to be a Judge of the Supreme Court (Statement II) — both correct. The Attorney General need not be a member of either House of Parliament, and holds office during the pleasure of the President rather than being removable through an impeachment process — Statements III and IV are incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q39">
-    <div class="q-head">
-      <span class="q-num">39</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">In the Presidential election in India, every elected member of the Legislative Assembly of a State shall have as many votes as there are multiples of one thousand in the quotient obtained by dividing the population of the State by the total number of the elected members of the Assembly. As at present (1997) the expression &quot;population&quot; here means the population as ascertained by the</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1991 Census">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1991 Census</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1981 Census">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1981 Census</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1971 Census">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1971 Census</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1961 Census">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1961 Census</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1971 Census</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">As of 1997, the 'population' used for calculating the value of an MLA's vote in the Presidential election was that ascertained by the 1971 Census, since a later constitutional amendment had frozen the use of 1971 Census figures for such demographic calculations until subsequent adjustments.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q40">
-    <div class="q-head">
-      <span class="q-num">40</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">Which one of the following are/is stated in the Constitution of India?<br/>I. The President shall not be a member of either House of Parliament.<br/>II. The Parliament shall consist of the President and two Houses.<br/>Choose the correct answer from the codes given below:</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Neither I nor II">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Neither I nor II</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Both I and II">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Both I and II</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I alone">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">I alone</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: II alone">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">II alone</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Both I and II</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under Article 79, Parliament consists of the President and two Houses — Statement II is correct. Article 59(1) also expressly states that the President shall not be a member of either House of Parliament — Statement I is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q41">
-    <div class="q-head">
-      <span class="q-num">41</span>
-      <span class="q-yr">1996</span>
-    </div>
-    <p class="q-text">Which one of the following is part of the electoral college for the election of the President of India but does not form part of the forum for his impeachment?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Lok Sabha">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Lok Sabha</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Rajya Sabha">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Rajya Sabha</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: State Legislative Councils">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">State Legislative Councils</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: State Legislative Assemblies">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">State Legislative Assemblies</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. State Legislative Assemblies</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">State Legislative Assemblies are part of the electoral college that elects the President, but the impeachment process for removing the President under Article 61 involves only Parliament (the Lok Sabha and Rajya Sabha), not the State Assemblies.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q42">
-    <div class="q-head">
-      <span class="q-num">42</span>
-      <span class="q-yr">1996</span>
-    </div>
-    <p class="q-text">Which one of the following statements is correct? The Prime Minister of India</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: is free to choose his ministers only from among those who are members of either House of the Parliament">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">is free to choose his ministers only from among those who are members of either House of the Parliament</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: can choose his cabinet colleagues after due counselling by the President of India in this regard">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">can choose his cabinet colleagues after due counselling by the President of India in this regard</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: has full discretion in the choice of persons who are to serve as ministers in his cabinet">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">has full discretion in the choice of persons who are to serve as ministers in his cabinet</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: has only limited powers in the choice of his cabinet colleagues because of the discretionary power vested with the President of India">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">has only limited powers in the choice of his cabinet colleagues because of the discretionary power vested with the President of India</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. has full discretion in the choice of persons who are to serve as ministers in his cabinet</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Prime Minister enjoys full discretion in selecting individuals to serve as ministers in the Council of Ministers; the choice is the Prime Minister's own, subject only to their being, or becoming, members of Parliament.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q43">
-    <div class="q-head">
-      <span class="q-num">43</span>
+      <span class="q-num">8</span>
       <span class="q-yr">1995</span>
     </div>
     <p class="q-text">Article 156 of the Constitution of India provides that a Governor shall hold office for a term of five years from the date on which he enters upon his office. Which of the following can be deduced from this?<br/>I. No Governor can be removed from office till completion of his term.<br/>II. No Governor can continue in office beyond a period of five years.<br/>Select the correct answer from the codes given below:</p>
@@ -1818,44 +1719,259 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     </details>
   </li>
 
-  <li class="q-card" id="q44">
+  </ol></section><section class="topic-section" data-topic="prime-minister" id="topic-prime-minister"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Prime Minister</h2><p class="topic-desc">Appointment, powers, and functioning of the office of the Prime Minister.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-prime-minister">6 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-prime-minister"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="prime-minister" id="q10">
     <div class="q-head">
-      <span class="q-num">44</span>
-      <span class="q-yr">1995</span>
+      <span class="q-num">1</span>
+      <span class="q-yr">2015</span>
     </div>
-    <p class="q-text">Which one of the following is not explicitly stated in the Constitution of India but followed as a convention?</p>
+    <p class="q-text">Consider the following statements :<br/>1. The Executive Power of the Union of India is vested in the Prime Minister.<br/>2. The Prime Minister is the ex officio Chairman of the Civil Services Board.<br/>Which of the statements given above is/are correct?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: The Finance Minister is to be a member of the Lower House">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">The Finance Minister is to be a member of the Lower House</span>
+          <span class="q-opt-text">1 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The Prime Minister has to resign if he loses majority in the Lower House">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">The Prime Minister has to resign if he loses majority in the Lower House</span>
+          <span class="q-opt-text">2 only</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: All the parts of India are to be represented in the Council of Ministers">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">All the parts of India are to be represented in the Council of Ministers</span>
+          <span class="q-opt-text">Both 1 and 2</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: In the event of both the President and the Vice-President demitting office simultaneously before the end of their tenure, the Speaker of the Lower House of Parliament will officiate as the President">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">In the event of both the President and the Vice-President demitting office simultaneously before the end of their tenure, the Speaker of the Lower House of Parliament will officiate as the President</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. All the parts of India are to be represented in the Council of Ministers</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">There is no explicit constitutional provision requiring that all parts/regions of India be represented in the Council of Ministers; this practice is followed only as a political and administrative convention, unlike the other listed items which have clearer explicit or inferred constitutional backing.</p>
+          <p class="q-exp">The Executive Power of the Union is constitutionally vested in the President, not the Prime Minister (Article 53), though it is exercised in practice on the aid and advice of the Council of Ministers headed by the PM — Statement 1 is incorrect. The Cabinet Secretary, not the Prime Minister, is the ex officio Chairman of the Civil Services Board — Statement 2 is incorrect.</p>
         </div>
       </div>
     </details>
   </li>
-</ol>
 
-<div class="bottom-nav container">
+  <li class="q-card" data-topic="prime-minister" id="q18">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">The Prime Minister of India, at the time of his/her appointment</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: need not necessarily be a member of one of the Houses of the Parliament but must become a member of the Lok Sabha within six months">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">need not necessarily be a member of one of the Houses of the Parliament but must become a member of the Lok Sabha within six months</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: must be a member of one of the Houses of the Parliament">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">must be a member of one of the Houses of the Parliament</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: must be a member of the Lok Sabha">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">must be a member of the Lok Sabha</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. need not necessarily be a member of one of the Houses of the Parliament but must become a member of one of the Houses within six months</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A person appointed Prime Minister need not already be a member of either House of Parliament, but must become a member of one of the Houses (Lok Sabha or Rajya Sabha) within six months of taking office, failing which they cease to hold the post.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="prime-minister" id="q21">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">Under the administration of which one of the following is the Department of Atomic Energy ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option A: Prime Minister's Office">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Prime Minister's Office</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Cabinet Secretariat">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Cabinet Secretariat</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Ministry of Power">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Ministry of Power</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Ministry of Science and Technology">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Ministry of Science and Technology</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>A. Prime Minister's Office</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Department of Atomic Energy functions directly under the Prime Minister's Office, reflecting the strategic sensitivity of nuclear matters.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="prime-minister" id="q26">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2009</span>
+    </div>
+    <p class="q-text">With reference to Union Government, consider the following statements :<br/>1. The Ministries/Departments of the Government of India are created by the Prime Minister on the advice of the Cabinet Secretary.<br/>2. Each of the Ministries is assigned to a Minister by the President of India on the advice of the Prime Minister.<br/>Which of the statements given above is/are correct ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Ministries and Departments of the Government of India are created and reorganised by the President, acting on the advice of the Council of Ministers (in practice, through the Cabinet Secretariat's allocation of business rules), not by the Prime Minister alone on the Cabinet Secretary's advice — Statement 1 is incorrect. Each Ministry is indeed assigned to a Minister by the President, acting on the advice of the Prime Minister — Statement 2 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="prime-minister" id="q31">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2007</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. Jawaharlal Nehru was in his fourth term as the Prime Minister of India at the time of his death.<br/>2. Jawaharlal Nehru represented Rae Bareilly constituency as a member of Parliament.<br/>3. The first non-Congress Prime Minister of India assumed office in the year 1977.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Jawaharlal Nehru was actually only in his third continuous term as Prime Minister at the time of his death in 1964 (he had not been re-elected a fourth time) — Statement 1 is incorrect. He represented the Phulpur constituency in Uttar Pradesh, not Rae Bareli — Statement 2 is incorrect. Morarji Desai became the first non-Congress Prime Minister of India, assuming office in 1977 after the Janata Party's victory — Statement 3 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  <li class="q-card" data-topic="prime-minister" id="q42">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">1996</span>
+    </div>
+    <p class="q-text">Which one of the following statements is correct? The Prime Minister of India</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: is free to choose his ministers only from among those who are members of either House of the Parliament">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">is free to choose his ministers only from among those who are members of either House of the Parliament</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: can choose his cabinet colleagues after due counselling by the President of India in this regard">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">can choose his cabinet colleagues after due counselling by the President of India in this regard</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: has full discretion in the choice of persons who are to serve as ministers in his cabinet">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">has full discretion in the choice of persons who are to serve as ministers in his cabinet</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: has only limited powers in the choice of his cabinet colleagues because of the discretionary power vested with the President of India">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">has only limited powers in the choice of his cabinet colleagues because of the discretionary power vested with the President of India</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. has full discretion in the choice of persons who are to serve as ministers in his cabinet</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Prime Minister enjoys full discretion in selecting individuals to serve as ministers in the Council of Ministers; the choice is the Prime Minister's own, subject only to their being, or becoming, members of Parliament.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  </ol></section><section class="topic-section" data-topic="vice-president" id="topic-vice-president"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Vice-President</h2><p class="topic-desc">Election and role of the Vice-President as ex-officio Chairman of the Rajya Sabha.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-vice-president">1 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-vice-president"></div></div></div></div><ol class="q-list"><li class="q-card" data-topic="vice-president" id="q27">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2008</span>
+    </div>
+    <p class="q-text">Who among the following have held the office of the Vice-President of India?<br/>1. Mohammad Hidayatullah<br/>2. Fakhruddin Ali Ahmed<br/>3. Neelam Sanjiva Reddy<br/>4. Shankar Dayal Sharma<br/>Select the correct answer using the code given below:</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2, 3 and 4">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2, 3 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 1 and 4 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 4 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 3 and 4 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">3 and 4 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 1 and 4 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Mohammad Hidayatullah and Shankar Dayal Sharma both served as Vice-President of India (in addition to other high offices they later held) — matching the codes '1 and 4 only.' Fakhruddin Ali Ahmed and Neelam Sanjiva Reddy became President, not Vice-President, of India.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+
+  </ol></section><div class="bottom-nav container">
   <a class="back-link" href="../indian-polity-upsc-pyq.html">← Back to all Indian Polity PYQ topics</a>
   <div class="test-cta-wrap" style="margin-top:0; margin-bottom: 22px;">
     <a class="test-cta-light" href="../../test/engine.html?mode=practice&amp;topic=polity/executive">Take this topic as a timed test →</a>
@@ -1873,6 +1989,10 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+
+</div>
+</div>
+
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
   <nav class="footer-links" aria-label="Footer navigation">
@@ -1887,6 +2007,16 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1905,6 +2035,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_executive';
 var total = 44;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1914,8 +2052,39 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {

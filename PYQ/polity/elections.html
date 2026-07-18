@@ -53,7 +53,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
 
 <style>
 :root {
@@ -69,7 +69,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,6 +119,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 /* ── Take as Test CTA ── */
 .test-cta-wrap { margin-top: 20px; }
@@ -136,7 +159,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
 /* ── Question cards ── */
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,14 +224,53 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "xm5qz0y2p6");
-</script>
 </head>
 <body>
 
@@ -242,6 +304,56 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+<nav class="sidebar-mobile-bar" aria-label="Indian Polity topics">
+  <a class="sidebar-mobile-link" href="../indian-polity-upsc-pyq.html">All Topics</a>
+  <a class="sidebar-mobile-link" href="./constitutional-bodies.html">Constitutional Bodies</a>
+  <a class="sidebar-mobile-link" href="./parliament.html">Parliament</a>
+  <a class="sidebar-mobile-link is-active" href="./elections.html">Elections</a>
+  <a class="sidebar-mobile-link" href="./social-justice.html">Social Justice</a>
+</nav>
+
+<div class="layout">
+<aside class="sidebar" aria-label="Sidebar navigation">
+  <div class="sidebar-section">
+    <p class="sidebar-label">Indian Polity PYQ</p>
+    <ul class="sidebar-nav">
+<li><a class="sidebar-link is-active" href="./elections.html">Elections</a></li>
+<li><a class="sidebar-link" href="./constitutional-bodies.html">Constitutional Bodies</a></li>
+<li><a class="sidebar-link" href="./parliament.html">Parliament</a></li>
+<li><a class="sidebar-link" href="./political-theory.html">Political Theory</a></li>
+<li><a class="sidebar-link" href="./federalism.html">Centre-State Relations</a></li>
+</ul>
+    <a class="sidebar-link" href="../indian-polity-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Indian Polity topics</a>
+  </div>
+  <div class="sidebar-section">
+    <p class="sidebar-label">Jump to Topic</p>
+    <ul class="sidebar-nav" id="topicSidebarNav">
+      <li><a class="sidebar-link topic-jump-link" data-topic="eci" href="#topic-eci">Election Commission (ECI)<span class="sidebar-link-check" id="sideCount-eci">10</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="political-parties" href="#topic-political-parties">Political Parties<span class="sidebar-link-check" id="sideCount-political-parties">6</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="rpa-1951" href="#topic-rpa-1951">RPA 1951<span class="sidebar-link-check" id="sideCount-rpa-1951">5</span></a></li>
+      <li><a class="sidebar-link topic-jump-link" data-topic="delimitation" href="#topic-delimitation">Delimitation<span class="sidebar-link-check" id="sideCount-delimitation">2</span></a></li>
+    </ul>
+  </div>
+  <div class="sidebar-section">
+    <p class="sidebar-label">Your Progress</p>
+    <div class="sidebar-progress-card">
+      <div class="sidebar-progress-num" id="sidebarProgressNum">23</div>
+      <div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+      <div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+    </div>
+    <a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/elections">Take as Timed Test</a>
+  </div>
+  <div class="sidebar-section">
+    <p class="sidebar-label">UPSC A2Z</p>
+    <nav class="sidebar-footer-links" aria-label="Site links">
+      <a href="../../index.html">Home</a>
+      <a href="../../tracker.html">Topic Tracker</a>
+      <a href="../indian-polity-upsc-pyq.html">PYQ Bank</a>
+      <a href="../../topics/indian-polity-upsc.html">Indian Polity Topics</a>
+    </nav>
+  </div>
+</aside>
+<div class="main-col">
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Indian Polity PYQ</p>
   <h1>Elections UPSC PYQ — ECI, RPA &amp; Political Parties</h1>
@@ -252,13 +364,12 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1995–2025</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">ECI</span>
-            <span class="includes-chip">RPA 1951</span>
-            <span class="includes-chip">Delimitation</span>
-            <span class="includes-chip">Political Parties</span>
-            <span class="includes-chip">Model Code</span>
+    <p class="includes-label">Jump to a topic</p>
+    <div class="includes-chips" id="topicQuickNav">
+      <a class="includes-chip topic-chip" data-topic="eci" href="#topic-eci"><span>Election Commission (ECI)</span><span class="chip-count" id="chipCount-eci">10</span></a>
+      <a class="includes-chip topic-chip" data-topic="political-parties" href="#topic-political-parties"><span>Political Parties</span><span class="chip-count" id="chipCount-political-parties">6</span></a>
+      <a class="includes-chip topic-chip" data-topic="rpa-1951" href="#topic-rpa-1951"><span>RPA 1951</span><span class="chip-count" id="chipCount-rpa-1951">5</span></a>
+      <a class="includes-chip topic-chip" data-topic="delimitation" href="#topic-delimitation"><span>Delimitation</span><span class="chip-count" id="chipCount-delimitation">2</span></a>
     </div>
   </div>
   <div class="test-cta-wrap">
@@ -269,8 +380,361 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </section>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="q-sections" id="qSections">
+<section class="topic-section" data-topic="eci" id="topic-eci"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Election Commission (ECI)</h2><p class="topic-desc">Composition and powers of the ECI, electoral systems, reform committees, and the conduct of elections.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-eci">10 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-eci"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="eci" id="q6">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. The Election Commission of India is a five-member body.<br/>2. The Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and by-elections.<br/>3. The Election Commission resolves the disputes relating to splits and mergers of recognised political parties.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 3 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Election Commission of India, at present, functions as a three-member body (one Chief Election Commissioner and two Election Commissioners), not a five-member one — Statement 1 is incorrect. Fixing the election schedule for general elections and by-elections is the Election Commission's own function, not that of the Union Home Ministry — Statement 2 is incorrect. The Election Commission does adjudicate disputes relating to splits and mergers within recognised political parties, deciding which faction retains the party's name and symbol — Statement 3 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q9">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2002</span>
+    </div>
+    <p class="q-text">Consider the following statements with reference to India:<br/>1. The Chief Election Commissioner and other Election Commissioners enjoy equal powers but receive unequal salaries.<br/>2. The Chief Election Commissioner is entitled to the same salary as is provided to a judge of the Supreme Court.<br/>3. The Chief Election Commissioner shall not be removed from his office except in like manner and on like grounds as a judge of the Supreme Court.<br/>4. The term of office of an Election Commissioner is five years from the date he assumes office or till he attains the age of 62 years, whichever is earlier.<br/>Which of these statements are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 4">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">2 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Chief Election Commissioner and other Election Commissioners enjoy equal decision-making powers (decisions are typically taken by majority in a multi-member Commission), though the CEC's salary and service conditions were historically not fully identical in every respect to other ECs — Statement 1 is correct as accepted here. An Election Commissioner's term is five years from assumption of office or until the age of 65, not 62 (that age limit of 62 applies to the CEC's protection from removal in a different context, or is simply a different figure than used in this option) — Statement 4 is incorrect. The CEC's salary is indeed equated to that of a Supreme Court judge, but the specific protection from removal 'in like manner and on like grounds as a Supreme Court judge' actually is a true, established constitutional safeguard for the CEC — the given key nonetheless treats only Statements 1 and 4 as jointly correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q15">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">Proportional representation is NOT necessary in a country where</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: there are no reserved constituencies">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">there are no reserved constituencies</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: a two-party system has developed">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">a two-party system has developed</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the first-past-the-post system prevails">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">the first-past-the-post system prevails</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: there is a fusion of Presidential and Parliamentary forms of governments">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">there is a fusion of Presidential and Parliamentary forms of governments</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. a two-party system has developed</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Proportional representation is generally considered unnecessary in a country where a stable two-party system has developed, since the plurality (first-past-the-post) system in such a setting tends to produce reasonably fair and stable outcomes without significant minority-vote wastage concerns.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q16">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">State Funding of elections takes place in</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: USA and Canada">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">USA and Canada</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Britain and Switzerland">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Britain and Switzerland</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: France and Italy">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">France and Italy</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Germany and Austria">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Germany and Austria</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Germany and Austria</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">State funding of elections, where the government provides direct financial or in-kind support to candidates or parties for election expenses, is practised in countries such as Germany and Austria.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q17">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">In which one of the following countries are 75 per cent of seats in both Houses of Parliament filled on the basis of first-past-the-post system and 25 per cent on the basis of Proportional Representation system of elections?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Germany">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Germany</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Italy">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Italy</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: France">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">France</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Russia">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Russia</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Italy</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Germany uses a mixed electoral system in which about half the Bundestag seats are filled through first-past-the-post constituency contests and the rest through proportional representation via party lists, a structure broadly matching the 75:25 split described (based on the historical context of this question).</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q18">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">The Dinesh Goswami Committee recommended</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the constitution of state level election commissions">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">the constitution of state level election commissions</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: List System of election to the Lok Sabha">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">List System of election to the Lok Sabha</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: governmental funding of parliamentary elections">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">governmental funding of parliamentary elections</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: a ban on the candidature of independent candidates in the parliamentary elections">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">a ban on the candidature of independent candidates in the parliamentary elections</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. governmental funding of parliamentary elections</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Dinesh Goswami Committee on Electoral Reforms (1990) recommended, among other things, state funding of elections in kind (rather than direct cash), to reduce the influence of money power in the electoral process.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q19">
+    <div class="q-head">
+      <span class="q-num">7</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">Consider the table given below providing some details of the results of the election to the Karnataka State Legislative Assembly held in December, 1994. In terms of electoral analysis, the voter-seat distortion is to be explained as the result of the adoption of the</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Hare system">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Hare system</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Cumulative vote system">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Cumulative vote system</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: First-past-the-post system">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">First-past-the-post system</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Plural vote system">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Plural vote system</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. First-past-the-post system</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A mismatch between a party's vote share and its seat share — where a party can win a large share of seats without a proportionate share of votes — is a well-known consequence of the first-past-the-post electoral system used in Indian elections.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q20">
+    <div class="q-head">
+      <span class="q-num">8</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">Which one of the following is correct in respect of the commencement of the election process in India?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: The recommendation for election is made by the government and the notification for election is issued by the Election Commission">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">The recommendation for election is made by the government and the notification for election is issued by the Election Commission</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The recommendation for election is made by the Election Commission and the notification for election is issued by the Home Ministry at the Centre and Home Departments in the States">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">The recommendation for election is made by the Election Commission and the notification for election is issued by the Home Ministry at the Centre and Home Departments in the States</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Both the exercises of making a recommendation for election and that of issuing a notification in respect of it are done by the Election Commission">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Both the exercises of making a recommendation for election and that of issuing a notification in respect of it are done by the Election Commission</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Election Commission makes the recommendation for holding elections, while the formal notification calling the election is issued by the President (for Parliament) or the Governor (for State Legislatures) concerned, acting on the Commission's advice.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q21">
+    <div class="q-head">
+      <span class="q-num">9</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">The Dinesh Goswami Committee was concerned with</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: de-nationalisation of banks">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">de-nationalisation of banks</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: electoral reforms">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">electoral reforms</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: steps to put down insurgency in the North-east">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">steps to put down insurgency in the North-east</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: the problem of the Chakmas">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">the problem of the Chakmas</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. electoral reforms</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Dinesh Goswami Committee (1990) was constituted specifically to examine and recommend reforms to India's electoral process and laws.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="eci" id="q23">
+    <div class="q-head">
+      <span class="q-num">10</span>
+      <span class="q-yr">1995</span>
+    </div>
+    <p class="q-text">99. If in an election to a State Legislative Assembly the candidate who is declared elected loses his deposit, it means that</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the polling was very poor">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">the polling was very poor</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: the election was for a multi-member constituency">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">the election was for a multi-member constituency</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the elected candidate’s victory over his nearest rival was very marginal">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">the elected candidate’s victory over his nearest rival was very marginal</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: a very large number of candidates contested the election">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">a very large number of candidates contested the election</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. a very large number of candidates contested the election</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A candidate can win an election while still losing their security deposit (by securing less than one-sixth of valid votes) mainly when a very large number of candidates split the vote so thinly that even the winner's vote share falls below that threshold.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="political-parties" id="topic-political-parties"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Political Parties</h2><p class="topic-desc">Registration and recognition of parties, national vs. state parties, and anti-defection provisions.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-political-parties">6 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-political-parties"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="political-parties" id="q1">
     <div class="q-head">
       <span class="q-num">1</span>
       <span class="q-yr">2025</span>
@@ -305,190 +769,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q2">
+<li class="q-card" data-topic="political-parties" id="q7">
     <div class="q-head">
       <span class="q-num">2</span>
-      <span class="q-yr">2024</span>
-    </div>
-    <p class="q-text">How many Delimitation Commissions have been constituted by the Government of India till December 2023 ?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: One">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">One</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Two">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Two</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Three">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Three</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Four">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Four</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Four</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Four Delimitation Commissions have been constituted in India till December 2023 — in 1952, 1963, 1973, and 2002 — to redraw constituency boundaries based on successive Censuses.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q3">
-    <div class="q-head">
-      <span class="q-num">3</span>
-      <span class="q-yr">2021</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. In India, there is no law restricting the candidates from contesting in one Lok Sabha election from three constituencies.<br/>2. In 1991 Lok Sabha Election, Shri Devi Lal contested from three Lok Sabha constituencies.<br/>3. As per the existing rules, if a candidate contests in one Lok Sabha election from many constituencies, his/her party should bear the cost of bye-elections to the constituencies vacated by him/her in the event of him/her winning in all the constituencies.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">There is no law restricting a candidate from contesting a Lok Sabha election from as many as three constituencies simultaneously (the current legal cap, since 1996, is two constituencies) — Statement 1, in its blanket claim of 'no restriction,' does not fully hold given the two-constituency cap, but historically, before the 1996 amendment, contesting from three was indeed legally permissible — Shri Devi Lal did contest from three Lok Sabha constituencies in the 1991 election — Statement 2 is correct. As per existing rules, if a candidate who contested from multiple constituencies wins in more than one, they must vacate all but one seat, and the resulting bye-election costs are borne by the candidate personally, not their party — Statement 3 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q4">
-    <div class="q-head">
-      <span class="q-num">4</span>
-      <span class="q-yr">2017</span>
-    </div>
-    <p class="q-text">For election to the Lok Sabha, a nomination paper can be filed by</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: anyone residing in India.">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">anyone residing in India.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: a resident of the constituency from which the election is to be contested.">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">a resident of the constituency from which the election is to be contested.</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: any citizen of India whose name appears in the electoral roll of a constituency.">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">any citizen of India whose name appears in the electoral roll of a constituency.</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: any citizen of India.">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">any citizen of India.</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. any citizen of India whose name appears in the electoral roll of a constituency.</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A nomination paper for the Lok Sabha can be filed only by a person whose name appears in the electoral roll of the constituency from which they seek to contest, ensuring they are a registered elector there.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q5">
-    <div class="q-head">
-      <span class="q-num">5</span>
-      <span class="q-yr">2017</span>
-    </div>
-    <p class="q-text">Right to vote and to be elected in India is a</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Fundamental Right">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Fundamental Right</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Natural Right">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Natural Right</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Constitutional Right">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Constitutional Right</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Legal Right">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Legal Right</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Constitutional Right</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The right to vote and to be elected in India is a constitutional/statutory right — expressly provided for under the Constitution and the Representation of the People Act — rather than a Fundamental Right enforceable directly under Part III.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q6">
-    <div class="q-head">
-      <span class="q-num">6</span>
-      <span class="q-yr">2017</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. The Election Commission of India is a five-member body.<br/>2. The Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and by-elections.<br/>3. The Election Commission resolves the disputes relating to splits and mergers of recognised political parties.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 2 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 3 only">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">3 only</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Election Commission of India, at present, functions as a three-member body (one Chief Election Commissioner and two Election Commissioners), not a five-member one — Statement 1 is incorrect. Fixing the election schedule for general elections and by-elections is the Election Commission's own function, not that of the Union Home Ministry — Statement 2 is incorrect. The Election Commission does adjudicate disputes relating to splits and mergers within recognised political parties, deciding which faction retains the party's name and symbol — Statement 3 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q7">
-    <div class="q-head">
-      <span class="q-num">7</span>
       <span class="q-yr">2014</span>
     </div>
     <p class="q-text">Which one of the following Schedules of the Constitution of India contains provisions regarding anti-defection?</p>
@@ -521,118 +804,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q8">
+<li class="q-card" data-topic="political-parties" id="q11">
     <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">With reference to the Delimitation Commission, consider the following statements:<br/>1. The orders of the Delimitation Commission cannot be challenged in a Court of Law.<br/>2. When the orders of the Delimitation Commission are laid before the Lok Sabha or State Legislative Assembly, they cannot effect any modifications in the orders.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Orders of the Delimitation Commission have the force of law and cannot be challenged in any court, ensuring finality in constituency boundaries — Statement 1 is correct. When such orders are laid before the Lok Sabha or a State Legislative Assembly, the House can only discuss them and cannot effect any modifications — Statement 2 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
-      <span class="q-yr">2002</span>
-    </div>
-    <p class="q-text">Consider the following statements with reference to India:<br/>1. The Chief Election Commissioner and other Election Commissioners enjoy equal powers but receive unequal salaries.<br/>2. The Chief Election Commissioner is entitled to the same salary as is provided to a judge of the Supreme Court.<br/>3. The Chief Election Commissioner shall not be removed from his office except in like manner and on like grounds as a judge of the Supreme Court.<br/>4. The term of office of an Election Commissioner is five years from the date he assumes office or till he attains the age of 62 years, whichever is earlier.<br/>Which of these statements are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 and 3">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 4">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 4</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">2 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 and 3</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Chief Election Commissioner and other Election Commissioners enjoy equal decision-making powers (decisions are typically taken by majority in a multi-member Commission), though the CEC's salary and service conditions were historically not fully identical in every respect to other ECs — Statement 1 is correct as accepted here. An Election Commissioner's term is five years from assumption of office or until the age of 65, not 62 (that age limit of 62 applies to the CEC's protection from removal in a different context, or is simply a different figure than used in this option) — Statement 4 is incorrect. The CEC's salary is indeed equated to that of a Supreme Court judge, but the specific protection from removal 'in like manner and on like grounds as a Supreme Court judge' actually is a true, established constitutional safeguard for the CEC — the given key nonetheless treats only Statements 1 and 4 as jointly correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q10">
-    <div class="q-head">
-      <span class="q-num">10</span>
-      <span class="q-yr">2002</span>
-    </div>
-    <p class="q-text">In the case of election to the Lok Sabha, the amount of security deposited for general category candidates and SC/ST category candidates respectively is</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Rs 5,000 and Rs 2,500">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Rs 5,000 and Rs 2,500</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Rs 10,000 and Rs 2,500">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Rs 10,000 and Rs 2,500</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Rs 10,000 and Rs 5,000">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Rs 10,000 and Rs 5,000</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Rs 15,000 and Rs 7,500">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Rs 15,000 and Rs 7,500</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Rs 10,000 and Rs 5,000</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">For Lok Sabha elections, the security deposit is Rs. 10,000 for general category candidates and Rs. 5,000 for SC/ST category candidates, refundable if the candidate secures a minimum specified vote share.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q11">
-    <div class="q-head">
-      <span class="q-num">11</span>
+      <span class="q-num">3</span>
       <span class="q-yr">2001</span>
     </div>
     <p class="q-text">Consider the following statements regarding the political parties in India:<br/>I. The Representation of the People Act, 1951 provides for the registration of political parties.<br/>II. Registration of political parties is carried out by the Election Commission.<br/>III. A national level political party is one which is recognised in four or more States.<br/>IV. During the 1999 general elections, there were six National and 48 State level parties recognised by the Election Commission.<br/>Which of these statements are correct?</p>
@@ -665,46 +839,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q12">
+<li class="q-card" data-topic="political-parties" id="q13">
     <div class="q-head">
-      <span class="q-num">12</span>
-      <span class="q-yr">1999</span>
-    </div>
-    <p class="q-text">Consider the following statements about the recent amendments to the Election Law by the Representation of the People (Amendment) Act, 1996:<br/>I. Any conviction for the offence of insulting the Indian National Flag or the Constitution of India shall entail disqualification for contesting elections to Parliament and State Legislatures for six years from the date of conviction.<br/>II. There is an increase in the security deposit which a candidate has to make to contest the election to the Lok Sabha.<br/>III. A candidate cannot now stand for election from more than one Parliamentary constituency.<br/>IV. No election will now be countermanded on the death of a contesting candidate.<br/>Which of the above statements are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I and III">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">I and III</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: I, II and IV">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">I, II and IV</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I, II and III">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">I, II and III</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: I, II, III and IV">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">I, II, III and IV</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. I, II and IV</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Representation of the People (Amendment) Act, 1996 introduced disqualification for six years upon conviction for insulting the National Flag or the Constitution — Statement I is correct. It also raised the security deposit amount for Lok Sabha candidates — Statement II is correct. It further provided that an election would no longer be countermanded merely because a contesting candidate dies before polling — Statement IV is correct. However, the restriction limiting a candidate to contesting from at most two constituencies (not one) was introduced, not a complete bar on contesting from more than one constituency — Statement III, as an absolute 'cannot contest from more than one' claim, is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q13">
-    <div class="q-head">
-      <span class="q-num">13</span>
+      <span class="q-num">4</span>
       <span class="q-yr">1998</span>
     </div>
     <p class="q-text">Which one of the following Schedules of the Constitution of India contains provisions regarding the Anti-Defection Act?</p>
@@ -737,10 +874,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q14">
+<li class="q-card" data-topic="political-parties" id="q14">
     <div class="q-head">
-      <span class="q-num">14</span>
+      <span class="q-num">5</span>
       <span class="q-yr">1998</span>
     </div>
     <p class="q-text">Which of the following Parties were not a part of the United Front which was in power during 1996-97?<br/>I. Bahujan Samaj Party<br/>II. Samata Party<br/>III. Haryana Vikas Party<br/>IV. Asom Gana Parishad<br/>Select the correct answer using the codes given below:</p>
@@ -773,262 +909,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q15">
+<li class="q-card" data-topic="political-parties" id="q22">
     <div class="q-head">
-      <span class="q-num">15</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">Proportional representation is NOT necessary in a country where</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: there are no reserved constituencies">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">there are no reserved constituencies</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: a two-party system has developed">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">a two-party system has developed</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the first-past-the-post system prevails">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">the first-past-the-post system prevails</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: there is a fusion of Presidential and Parliamentary forms of governments">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">there is a fusion of Presidential and Parliamentary forms of governments</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. a two-party system has developed</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Proportional representation is generally considered unnecessary in a country where a stable two-party system has developed, since the plurality (first-past-the-post) system in such a setting tends to produce reasonably fair and stable outcomes without significant minority-vote wastage concerns.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q16">
-    <div class="q-head">
-      <span class="q-num">16</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">State Funding of elections takes place in</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: USA and Canada">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">USA and Canada</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Britain and Switzerland">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Britain and Switzerland</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: France and Italy">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">France and Italy</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Germany and Austria">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Germany and Austria</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Germany and Austria</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">State funding of elections, where the government provides direct financial or in-kind support to candidates or parties for election expenses, is practised in countries such as Germany and Austria.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q17">
-    <div class="q-head">
-      <span class="q-num">17</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">In which one of the following countries are 75 per cent of seats in both Houses of Parliament filled on the basis of first-past-the-post system and 25 per cent on the basis of Proportional Representation system of elections?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Germany">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Germany</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: Italy">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Italy</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: France">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">France</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Russia">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Russia</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. Italy</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Germany uses a mixed electoral system in which about half the Bundestag seats are filled through first-past-the-post constituency contests and the rest through proportional representation via party lists, a structure broadly matching the 75:25 split described (based on the historical context of this question).</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q18">
-    <div class="q-head">
-      <span class="q-num">18</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">The Dinesh Goswami Committee recommended</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the constitution of state level election commissions">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">the constitution of state level election commissions</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: List System of election to the Lok Sabha">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">List System of election to the Lok Sabha</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: governmental funding of parliamentary elections">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">governmental funding of parliamentary elections</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: a ban on the candidature of independent candidates in the parliamentary elections">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">a ban on the candidature of independent candidates in the parliamentary elections</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. governmental funding of parliamentary elections</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Dinesh Goswami Committee on Electoral Reforms (1990) recommended, among other things, state funding of elections in kind (rather than direct cash), to reduce the influence of money power in the electoral process.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q19">
-    <div class="q-head">
-      <span class="q-num">19</span>
-      <span class="q-yr">1995</span>
-    </div>
-    <p class="q-text">Consider the table given below providing some details of the results of the election to the Karnataka State Legislative Assembly held in December, 1994. In terms of electoral analysis, the voter-seat distortion is to be explained as the result of the adoption of the</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Hare system">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Hare system</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Cumulative vote system">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Cumulative vote system</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: First-past-the-post system">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">First-past-the-post system</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Plural vote system">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Plural vote system</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. First-past-the-post system</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A mismatch between a party's vote share and its seat share — where a party can win a large share of seats without a proportionate share of votes — is a well-known consequence of the first-past-the-post electoral system used in Indian elections.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q20">
-    <div class="q-head">
-      <span class="q-num">20</span>
-      <span class="q-yr">1995</span>
-    </div>
-    <p class="q-text">Which one of the following is correct in respect of the commencement of the election process in India?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: The recommendation for election is made by the government and the notification for election is issued by the Election Commission">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">The recommendation for election is made by the government and the notification for election is issued by the Election Commission</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: The recommendation for election is made by the Election Commission and the notification for election is issued by the Home Ministry at the Centre and Home Departments in the States">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">The recommendation for election is made by the Election Commission and the notification for election is issued by the Home Ministry at the Centre and Home Departments in the States</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Both the exercises of making a recommendation for election and that of issuing a notification in respect of it are done by the Election Commission">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Both the exercises of making a recommendation for election and that of issuing a notification in respect of it are done by the Election Commission</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. The recommendation for election is made by the Election Commission and the notification for election is issued by the President and Governors of the States concerned</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Election Commission makes the recommendation for holding elections, while the formal notification calling the election is issued by the President (for Parliament) or the Governor (for State Legislatures) concerned, acting on the Commission's advice.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q21">
-    <div class="q-head">
-      <span class="q-num">21</span>
-      <span class="q-yr">1995</span>
-    </div>
-    <p class="q-text">The Dinesh Goswami Committee was concerned with</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: de-nationalisation of banks">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">de-nationalisation of banks</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: electoral reforms">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">electoral reforms</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: steps to put down insurgency in the North-east">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">steps to put down insurgency in the North-east</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: the problem of the Chakmas">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">the problem of the Chakmas</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. electoral reforms</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Dinesh Goswami Committee (1990) was constituted specifically to examine and recommend reforms to India's electoral process and laws.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q22">
-    <div class="q-head">
-      <span class="q-num">22</span>
+      <span class="q-num">6</span>
       <span class="q-yr">1995</span>
     </div>
     <p class="q-text">92. Which of the following political parties is/are national political parties?<br/>I. Muslim League<br/>II. Revolutionary Socialist Party<br/>III. All India Forward Block<br/>IV. Peasants and Workers Party of India<br/>Choose the correct answer from the codes given below:</p>
@@ -1061,43 +944,259 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q23">
+</ol></section>
+<section class="topic-section" data-topic="rpa-1951" id="topic-rpa-1951"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">RPA 1951</h2><p class="topic-desc">Key provisions of the Representation of the People Act, 1951 and its amendments.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-rpa-1951">5 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-rpa-1951"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="rpa-1951" id="q3">
     <div class="q-head">
-      <span class="q-num">23</span>
-      <span class="q-yr">1995</span>
+      <span class="q-num">1</span>
+      <span class="q-yr">2021</span>
     </div>
-    <p class="q-text">99. If in an election to a State Legislative Assembly the candidate who is declared elected loses his deposit, it means that</p>
+    <p class="q-text">Consider the following statements:<br/>1. In India, there is no law restricting the candidates from contesting in one Lok Sabha election from three constituencies.<br/>2. In 1991 Lok Sabha Election, Shri Devi Lal contested from three Lok Sabha constituencies.<br/>3. As per the existing rules, if a candidate contests in one Lok Sabha election from many constituencies, his/her party should bear the cost of bye-elections to the constituencies vacated by him/her in the event of him/her winning in all the constituencies.<br/>Which of the statements given above is/are correct?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: the polling was very poor">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">the polling was very poor</span>
+          <span class="q-opt-text">1 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: the election was for a multi-member constituency">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">the election was for a multi-member constituency</span>
+          <span class="q-opt-text">2 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: the elected candidate’s victory over his nearest rival was very marginal">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">the elected candidate’s victory over his nearest rival was very marginal</span>
+          <span class="q-opt-text">1 and 3</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: a very large number of candidates contested the election">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 2 and 3">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">a very large number of candidates contested the election</span>
+          <span class="q-opt-text">2 and 3</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. a very large number of candidates contested the election</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A candidate can win an election while still losing their security deposit (by securing less than one-sixth of valid votes) mainly when a very large number of candidates split the vote so thinly that even the winner's vote share falls below that threshold.</p>
+          <p class="q-exp">There is no law restricting a candidate from contesting a Lok Sabha election from as many as three constituencies simultaneously (the current legal cap, since 1996, is two constituencies) — Statement 1, in its blanket claim of 'no restriction,' does not fully hold given the two-constituency cap, but historically, before the 1996 amendment, contesting from three was indeed legally permissible — Shri Devi Lal did contest from three Lok Sabha constituencies in the 1991 election — Statement 2 is correct. As per existing rules, if a candidate who contested from multiple constituencies wins in more than one, they must vacate all but one seat, and the resulting bye-election costs are borne by the candidate personally, not their party — Statement 3 is incorrect.</p>
         </div>
       </div>
     </details>
   </li>
-</ol>
+<li class="q-card" data-topic="rpa-1951" id="q4">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">For election to the Lok Sabha, a nomination paper can be filed by</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: anyone residing in India.">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">anyone residing in India.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: a resident of the constituency from which the election is to be contested.">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">a resident of the constituency from which the election is to be contested.</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: any citizen of India whose name appears in the electoral roll of a constituency.">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">any citizen of India whose name appears in the electoral roll of a constituency.</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: any citizen of India.">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">any citizen of India.</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. any citizen of India whose name appears in the electoral roll of a constituency.</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A nomination paper for the Lok Sabha can be filed only by a person whose name appears in the electoral roll of the constituency from which they seek to contest, ensuring they are a registered elector there.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="rpa-1951" id="q5">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2017</span>
+    </div>
+    <p class="q-text">Right to vote and to be elected in India is a</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Fundamental Right">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Fundamental Right</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Natural Right">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Natural Right</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Constitutional Right">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Constitutional Right</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Legal Right">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Legal Right</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Constitutional Right</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The right to vote and to be elected in India is a constitutional/statutory right — expressly provided for under the Constitution and the Representation of the People Act — rather than a Fundamental Right enforceable directly under Part III.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="rpa-1951" id="q10">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2002</span>
+    </div>
+    <p class="q-text">In the case of election to the Lok Sabha, the amount of security deposited for general category candidates and SC/ST category candidates respectively is</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Rs 5,000 and Rs 2,500">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Rs 5,000 and Rs 2,500</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Rs 10,000 and Rs 2,500">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Rs 10,000 and Rs 2,500</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Rs 10,000 and Rs 5,000">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Rs 10,000 and Rs 5,000</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Rs 15,000 and Rs 7,500">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Rs 15,000 and Rs 7,500</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Rs 10,000 and Rs 5,000</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">For Lok Sabha elections, the security deposit is Rs. 10,000 for general category candidates and Rs. 5,000 for SC/ST category candidates, refundable if the candidate secures a minimum specified vote share.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="rpa-1951" id="q12">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">1999</span>
+    </div>
+    <p class="q-text">Consider the following statements about the recent amendments to the Election Law by the Representation of the People (Amendment) Act, 1996:<br/>I. Any conviction for the offence of insulting the Indian National Flag or the Constitution of India shall entail disqualification for contesting elections to Parliament and State Legislatures for six years from the date of conviction.<br/>II. There is an increase in the security deposit which a candidate has to make to contest the election to the Lok Sabha.<br/>III. A candidate cannot now stand for election from more than one Parliamentary constituency.<br/>IV. No election will now be countermanded on the death of a contesting candidate.<br/>Which of the above statements are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: I and III">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">I and III</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: I, II and IV">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">I, II and IV</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: I, II and III">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">I, II and III</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: I, II, III and IV">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">I, II, III and IV</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. I, II and IV</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Representation of the People (Amendment) Act, 1996 introduced disqualification for six years upon conviction for insulting the National Flag or the Constitution — Statement I is correct. It also raised the security deposit amount for Lok Sabha candidates — Statement II is correct. It further provided that an election would no longer be countermanded merely because a contesting candidate dies before polling — Statement IV is correct. However, the restriction limiting a candidate to contesting from at most two constituencies (not one) was introduced, not a complete bar on contesting from more than one constituency — Statement III, as an absolute 'cannot contest from more than one' claim, is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="delimitation" id="topic-delimitation"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Delimitation</h2><p class="topic-desc">The Delimitation Commission and the delimitation of constituencies.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-delimitation">2 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-delimitation"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="delimitation" id="q2">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2024</span>
+    </div>
+    <p class="q-text">How many Delimitation Commissions have been constituted by the Government of India till December 2023 ?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: One">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">One</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Two">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Two</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Three">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Three</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Four">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Four</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Four</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Four Delimitation Commissions have been constituted in India till December 2023 — in 1952, 1963, 1973, and 2002 — to redraw constituency boundaries based on successive Censuses.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="delimitation" id="q8">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">With reference to the Delimitation Commission, consider the following statements:<br/>1. The orders of the Delimitation Commission cannot be challenged in a Court of Law.<br/>2. When the orders of the Delimitation Commission are laid before the Lok Sabha or State Legislative Assembly, they cannot effect any modifications in the orders.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Both 1 and 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Orders of the Delimitation Commission have the force of law and cannot be challenged in any court, ensuring finality in constituency boundaries — Statement 1 is correct. When such orders are laid before the Lok Sabha or a State Legislative Assembly, the House can only discuss them and cannot effect any modifications — Statement 2 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+</div>
+
+
 
 <div class="bottom-nav container">
   <a class="back-link" href="../indian-polity-upsc-pyq.html">← Back to all Indian Polity PYQ topics</a>
@@ -1116,6 +1215,8 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
   </div>
 </div>
+</div>
+</div>
 
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
@@ -1131,6 +1232,16 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1149,6 +1260,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_elections';
 var total = 23;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1158,8 +1277,39 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {

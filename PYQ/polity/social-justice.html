@@ -53,7 +53,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
 
 <style>
 :root {
@@ -69,7 +69,7 @@
   --sh-sm: 0 1px 3px rgba(24,21,15,.05), 0 1px 2px rgba(24,21,15,.04);
   --sh-md: 0 8px 24px rgba(24,21,15,.08), 0 2px 6px rgba(24,21,15,.05);
   --sh-lg: 0 16px 40px rgba(24,21,15,.1);
-  --header-h: 54px; --ease: cubic-bezier(0.4,0,0.2,1);
+  --header-h: 54px; --stack-h: 100px; --ease: cubic-bezier(0.4,0,0.2,1);
   --content-w: 860px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,6 +119,29 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 .includes-label { font-family: var(--mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; }
 .includes-chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .includes-chip { font-size: 0.78rem; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 5px 12px; border-radius: 20px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; transition: border-color 0.15s var(--ease), background 0.15s var(--ease), color 0.15s var(--ease); }
+.topic-chip:hover { border-color: var(--blue-mid); background: var(--blue-light); color: var(--blue); }
+.topic-chip.is-complete { border-color: rgba(21,128,61,0.3); background: var(--green-light); }
+.chip-count { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); background: var(--bg2); padding: 2px 7px; border-radius: 20px; }
+.topic-chip.is-complete .chip-count { color: var(--green); background: rgba(21,128,61,0.12); }
+
+/* ---- Topic sections ---- */
+.q-sections { display: flex; flex-direction: column; gap: 6px; padding-bottom: 32px; }
+.topic-section { scroll-margin-top: calc(var(--stack-h) + 8px); padding-top: 18px; }
+.topic-section:first-child { padding-top: 6px; }
+.topic-section-head { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 16px; border-bottom: 2px solid var(--bg3); margin-bottom: 16px; }
+.topic-heading-wrap { display: flex; flex-direction: column; gap: 4px; }
+.topic-title { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); letter-spacing: -0.01em; }
+.topic-desc { font-size: 0.84rem; color: var(--txt3); line-height: 1.5; max-width: 60ch; }
+.topic-progress { display: flex; flex-direction: column; gap: 6px; max-width: 320px; }
+.topic-progress-text { font-family: var(--mono); font-size: 0.68rem; color: var(--txt3); }
+.topic-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+.topic-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+.topic-section .q-list { padding-top: 0; padding-bottom: 6px; }
+@media (min-width: 640px) {
+  .topic-section-head { padding-left: 0; padding-right: 0; }
+  .topic-title { font-size: 1.45rem; }
+}
 
 /* ── Take as Test CTA ── */
 .test-cta-wrap { margin-top: 20px; }
@@ -136,7 +159,7 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 
 /* ── Question cards ── */
 .q-list { list-style: none; padding-top: 6px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
-.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--header-h) + 100px); transition: box-shadow 0.2s var(--ease); }
+.q-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-lg); padding: 22px 22px 20px; box-shadow: var(--sh-sm); scroll-margin-top: calc(var(--stack-h) + 8px); transition: box-shadow 0.2s var(--ease); }
 .q-card:hover { box-shadow: var(--sh-md); }
 .q-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 .q-num { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; padding: 0 6px; font-family: var(--mono); font-weight: 700; font-size: 0.8rem; color: #fff; background: var(--blue); border-radius: 7px; }
@@ -201,6 +224,51 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   h1 { font-size: 2.15rem; }
   .q-text { font-size: 1.02rem; }
 }
+/* ---- Sidebar layout ---- */
+.layout { max-width: 1240px; margin: 0 auto; display: flex; align-items: flex-start; gap: 0; padding: 0 16px; }
+.main-col { flex: 1; min-width: 0; }
+.main-col .container { padding-left: 0; padding-right: 0; }
+
+.sidebar { display: none; }
+.sidebar-mobile-bar { display: flex; overflow-x: auto; gap: 8px; padding: 12px 16px 14px; background: var(--bg); border-bottom: 1px solid var(--bdr); scrollbar-width: none; }
+.sidebar-mobile-bar::-webkit-scrollbar { display: none; }
+.sidebar-mobile-link { flex-shrink: 0; font-size: 0.78rem; font-weight: 600; color: var(--txt2); background: var(--surf); border: 1px solid var(--bdr); padding: 7px 14px; border-radius: 20px; white-space: nowrap; }
+.sidebar-mobile-link.is-active { color: #fff; background: var(--blue); border-color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .sidebar-mobile-bar { display: none; }
+  .layout { padding: 0 32px; gap: 36px; }
+  .sidebar {
+    display: block; width: 232px; flex-shrink: 0;
+    position: sticky; top: calc(var(--stack-h) + 16px);
+    max-height: calc(100vh - var(--stack-h) - 32px);
+    overflow-y: auto; padding: 24px 0 40px;
+  }
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--bdr2); border-radius: 4px; }
+  .sidebar-section + .sidebar-section { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--bdr); }
+  .sidebar-label { font-family: var(--mono); font-size: 0.6rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--txt3); margin-bottom: 10px; padding: 0 4px; }
+  .sidebar-nav { list-style: none; display: flex; flex-direction: column; gap: 1px; }
+  .sidebar-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 0.85rem; font-weight: 500; color: var(--txt2); padding: 8px 10px; border-radius: var(--r-sm); transition: background 0.15s var(--ease), color 0.15s var(--ease); border-left: 2px solid transparent; }
+  .sidebar-link:hover { background: var(--bg2); color: var(--txt); }
+  .sidebar-link.is-active { color: var(--blue); background: var(--blue-light); font-weight: 600; border-left: 2px solid var(--blue); }
+  .sidebar-link-check { font-size: 0.68rem; color: var(--txt3); font-family: var(--mono); }
+  .topic-jump-link.is-complete .sidebar-link-check { color: var(--green); }
+  .topic-jump-link.is-current { background: var(--bg2); color: var(--txt); }
+  .sidebar-progress-card { background: var(--surf); border: 1px solid var(--bdr); border-radius: var(--r-md); padding: 14px; }
+  .sidebar-progress-num { font-family: var(--serif); font-weight: 800; font-size: 1.3rem; color: var(--txt); line-height: 1; }
+  .sidebar-progress-of { font-size: 0.74rem; color: var(--txt3); margin-top: 2px; margin-bottom: 10px; }
+  .sidebar-progress-track { height: 5px; border-radius: 20px; background: var(--bg3); overflow: hidden; }
+  .sidebar-progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 20px; transition: width 0.3s var(--ease); }
+  .sidebar-cta { display: block; text-align: center; font-size: 0.82rem; font-weight: 600; color: #fff; background: var(--blue); padding: 10px 12px; border-radius: var(--r-sm); margin-top: 12px; transition: background 0.15s var(--ease); }
+  .sidebar-cta:hover { background: var(--blue2); }
+  .sidebar-footer-links { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-footer-links a { font-size: 0.8rem; color: var(--txt3); padding: 7px 10px; border-radius: var(--r-sm); transition: color 0.15s var(--ease), background 0.15s var(--ease); }
+  .sidebar-footer-links a:hover { color: var(--blue); background: var(--bg2); }
+}
+@media (min-width: 1180px) {
+  .sidebar { width: 252px; }
+}
 </style>
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -242,6 +310,66 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+<nav aria-label="Indian Polity topics" class="sidebar-mobile-bar">
+<a class="sidebar-mobile-link" href="../indian-polity-upsc-pyq.html">All Topics</a>
+<a class="sidebar-mobile-link" href="./parliament.html">Parliament</a>
+<a class="sidebar-mobile-link" href="./constitutional-framework.html">Indian Constitution</a>
+<a class="sidebar-mobile-link" href="./judiciary.html">Judiciary</a>
+<a class="sidebar-mobile-link" href="./executive.html">Union &amp; State Executive</a>
+<a class="sidebar-mobile-link" href="./constitutional-bodies.html">Constitutional Bodies</a>
+<a class="sidebar-mobile-link" href="./elections.html">Elections</a>
+<a class="sidebar-mobile-link is-active" href="./social-justice.html">Social Justice</a>
+<a class="sidebar-mobile-link" href="./panchayati-raj.html">Panchayati Raj</a>
+<a class="sidebar-mobile-link" href="./federalism.html">Centre-State Relations</a>
+<a class="sidebar-mobile-link" href="./fundamental-rights.html">Fundamental Rights</a>
+<a class="sidebar-mobile-link" href="./dpsp.html">DPSP</a>
+<a class="sidebar-mobile-link" href="./political-theory.html">Political Theory</a>
+<a class="sidebar-mobile-link" href="./finance-emergency-duties.html">Public Finance, Emergency & Duties</a>
+</nav>
+<div class="layout">
+<aside aria-label="Sidebar navigation" class="sidebar">
+<div class="sidebar-section">
+<p class="sidebar-label">Indian Polity PYQ</p>
+<ul class="sidebar-nav">
+<li><a class="sidebar-link is-active" href="./social-justice.html">Social Justice</a></li>
+<li><a class="sidebar-link" href="./fundamental-rights.html">Fundamental Rights</a></li>
+<li><a class="sidebar-link" href="./panchayati-raj.html">Panchayati Raj</a></li>
+<li><a class="sidebar-link" href="./dpsp.html">DPSP</a></li>
+<li><a class="sidebar-link" href="./constitutional-bodies.html">Constitutional Bodies</a></li>
+</ul>
+<a class="sidebar-link" href="../indian-polity-upsc-pyq.html" style="margin-top:6px; color:var(--blue); font-weight:600;">← All Indian Polity topics</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Jump to Topic</p>
+<ul class="sidebar-nav" id="topicSidebarNav">
+<li><a class="sidebar-link topic-jump-link" data-topic="welfare-law" href="#topic-welfare-law">Welfare Law<span class="sidebar-link-check" id="sideCount-welfare-law">6</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="women" href="#topic-women">Women<span class="sidebar-link-check" id="sideCount-women">5</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="sc-st-obc" href="#topic-sc-st-obc">SC/ST/OBC<span class="sidebar-link-check" id="sideCount-sc-st-obc">4</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="reservation" href="#topic-reservation">Reservation<span class="sidebar-link-check" id="sideCount-reservation">3</span></a></li>
+<li><a class="sidebar-link topic-jump-link" data-topic="minorities" href="#topic-minorities">Minorities<span class="sidebar-link-check" id="sideCount-minorities">3</span></a></li>
+</ul>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">Your Progress</p>
+<div class="sidebar-progress-card">
+<div class="sidebar-progress-num" id="sidebarProgressNum">21</div>
+<div class="sidebar-progress-of" id="sidebarProgressOf">questions</div>
+<div class="sidebar-progress-track"><div class="sidebar-progress-fill" id="sidebarProgressFill"></div></div>
+</div>
+<a class="sidebar-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/social-justice">Take as Timed Test</a>
+</div>
+<div class="sidebar-section">
+<p class="sidebar-label">UPSC A2Z</p>
+<nav aria-label="Site links" class="sidebar-footer-links">
+<a href="../../index.html">Home</a>
+<a href="../../tracker.html">Topic Tracker</a>
+<a href="../indian-polity-upsc-pyq.html">PYQ Bank</a>
+<a href="../../topics/indian-polity-upsc.html">Indian Polity Topics</a>
+</nav>
+</div>
+</aside>
+<div class="main-col">
+
 <section class="page-hero container">
   <p class="page-eyebrow">UPSC Prelims · Indian Polity PYQ</p>
   <h1>Social Justice UPSC PYQ — SC/ST/OBC, Women &amp; Minorities</h1>
@@ -252,15 +380,15 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
     <span class="hero-stat"><strong>1995–2024</strong></span>
   </div>
   <div class="includes-block">
-    <p class="includes-label">Includes</p>
-    <div class="includes-chips">
-            <span class="includes-chip">Reservation</span>
-            <span class="includes-chip">SC/ST/OBC</span>
-            <span class="includes-chip">Women</span>
-            <span class="includes-chip">Minorities</span>
-            <span class="includes-chip">Welfare Law</span>
-    </div>
-  </div>
+<p class="includes-label">Jump to a topic</p>
+<div class="includes-chips" id="topicQuickNav">
+<a class="includes-chip topic-chip" data-topic="welfare-law" href="#topic-welfare-law"><span>Welfare Law</span><span class="chip-count" id="chipCount-welfare-law">6</span></a>
+<a class="includes-chip topic-chip" data-topic="women" href="#topic-women"><span>Women</span><span class="chip-count" id="chipCount-women">5</span></a>
+<a class="includes-chip topic-chip" data-topic="sc-st-obc" href="#topic-sc-st-obc"><span>SC/ST/OBC</span><span class="chip-count" id="chipCount-sc-st-obc">4</span></a>
+<a class="includes-chip topic-chip" data-topic="reservation" href="#topic-reservation"><span>Reservation</span><span class="chip-count" id="chipCount-reservation">3</span></a>
+<a class="includes-chip topic-chip" data-topic="minorities" href="#topic-minorities"><span>Minorities</span><span class="chip-count" id="chipCount-minorities">3</span></a>
+</div>
+</div>
   <div class="test-cta-wrap">
   <a class="test-cta" href="../../test/engine.html?mode=practice&amp;topic=polity/social-justice">
     <span class="test-cta-text">Take as Test</span>
@@ -269,8 +397,221 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </section>
 
-<ol class="q-list container" id="qList">
-  <li class="q-card" id="q1">
+<div class="q-sections" id="qSections">
+<section class="topic-section" data-topic="welfare-law" id="topic-welfare-law"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Welfare Law</h2><p class="topic-desc">Welfare legislation covering education, disability, and rehabilitation.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-welfare-law">6 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-welfare-law"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="welfare-law" id="q6">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2018</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. As per the Right to Education (RTE) Act, to be eligible for appointment as a teacher in a State, a person would be required to possess the minimum qualification laid down by the concerned State Council of Teacher Education.<br/>2. As per the RTE Act, for teaching primary classes, a candidate is required to pass a Teacher Eligibility Test conducted in accordance with the National Council of Teacher Education guidelines.<br/>3. In India, more than 90% of teacher education institutions are directly under the State Governments.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 3 only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">3 only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under the RTE Act, minimum teacher qualifications are laid down by the National Council of Teacher Education (NCTE), not the State Council, since it is NCTE that prescribes these standards nationally — Statement 1 is incorrect. The Act does require passing a Teacher Eligibility Test conducted as per NCTE guidelines for teaching primary classes — Statement 2 is correct. Most teacher-education institutions in India are actually run by private, not State Government, bodies — Statement 3 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="welfare-law" id="q8">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2012</span>
+    </div>
+    <p class="q-text">Which of the following provisions of the Constitution of India have a bearing on Education?<br/>1. Directive Principles of State Policy<br/>2. Rural and Urban Local Bodies<br/>3. Fifth Schedule<br/>4. Sixth Schedule<br/>5. Seventh Schedule<br/>Select the correct answer using the codes given below :</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 and 2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3, 4 and 5 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">3, 4 and 5 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 5 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 5 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2, 3, 4 and 5">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2, 3, 4 and 5</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2, 3, 4 and 5</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Directive Principles (Article 45/41), provisions for Rural and Urban Local Bodies (which run schools), the Fifth Schedule (tribal area administration, including education), the Sixth Schedule (autonomous district councils' powers, including education), and the Seventh Schedule (which places education in the Concurrent List) — all of these have a bearing on education in India.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="welfare-law" id="q10">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">India is home to lakhs of persons with disabilities. What are the benefits available to them under the law?<br/>1. Free schooling till the age of 18 years in government-run schools.<br/>2. Preferential allotment of land for setting up business.<br/>3. Ramps in public buildings.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under the Rights of Persons with Disabilities framework then in force, children with disabilities are entitled to free education in an appropriate environment till age 18 — Statement 1 is correct. Persons with disabilities are entitled to preferential allotment of land for setting up businesses or housing — Statement 2 is correct. The law also mandates provision of ramps and other accessibility features in public buildings — Statement 3 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="welfare-law" id="q11">
+    <div class="q-head">
+      <span class="q-num">4</span>
+      <span class="q-yr">2010</span>
+    </div>
+    <p class="q-text">With reference to the National Rehabilitation and Resettlement Policy, 2007, consider the following statements:<br/>1. This policy is applicable only to the persons affected by the acquisition of land for projects and not to the involuntary displacement due to any other reason.<br/>2. This policy has been formulated by the Ministry of Social Justice and Empowerment.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Both 1 and 2</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The National Rehabilitation and Resettlement Policy, 2007 was intended to apply broadly to displacement caused by land acquisition for projects, but its scope was not framed as strictly excluding other displacement contexts in the manner claimed — Statement 1 is incorrect. It was actually formulated by the Department of Land Resources, Ministry of Rural Development, not the Ministry of Social Justice and Empowerment — Statement 2 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="welfare-law" id="q13">
+    <div class="q-head">
+      <span class="q-num">5</span>
+      <span class="q-yr">2006</span>
+    </div>
+    <p class="q-text">Consider the following statements:<br/>1. Free and compulsory education to the children of 6-14 years age group by the State was made a Fundamental Right by the 76th Amendment to the Constitution of India.<br/>2. Sarva Shiksha Abhiyan seeks to provide computer education even in rural areas.<br/>3. Education was included in the Concurrent List by the 42nd Amendment, 1976 to the Constitution of India.<br/>Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1 and 2, only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">1 and 2, only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 2 and 3, only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">2 and 3, only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1 and 3, only">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1 and 3, only</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 2 and 3, only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Free and compulsory education for children aged 6-14 was made a Fundamental Right by the 86th Amendment Act, 2002 (inserting Article 21-A), not the 76th Amendment (which dealt with reservation in Tamil Nadu) — Statement 1 is incorrect. The Sarva Shiksha Abhiyan does include components for computer-aided and computer literacy education, including in rural areas — Statement 2 is correct. Education was indeed transferred from the State List to the Concurrent List by the 42nd Amendment Act, 1976 — Statement 3 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="welfare-law" id="q16">
+    <div class="q-head">
+      <span class="q-num">6</span>
+      <span class="q-yr">1997</span>
+    </div>
+    <p class="q-text">Which one of the following States of India has passed a legislation (in 1996) making the maintenance of one’s parents mandatory?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Kerala">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Kerala</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: West Bengal">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">West Bengal</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Maharashtra">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Maharashtra</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Himachal Pradesh">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Himachal Pradesh</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Himachal Pradesh</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Himachal Pradesh enacted legislation in 1996 making it a legal obligation for children to maintain their aged parents, one of the earliest such State laws in India.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="women" id="topic-women"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Women</h2><p class="topic-desc">Legislation and schemes for women's welfare and representation.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-women">5 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-women"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="women" id="q1">
     <div class="q-head">
       <span class="q-num">1</span>
       <span class="q-yr">2024</span>
@@ -305,118 +646,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q2">
+<li class="q-card" data-topic="women" id="q5">
     <div class="q-head">
       <span class="q-num">2</span>
-      <span class="q-yr">2024</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. It is the Governor of the State who recognizes and declares any community of that State as a Scheduled Tribe.<br/>2. A community declared as a Scheduled Tribe in a State need not be so in another State.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">It is the President of India, not the Governor, who specifies the Scheduled Tribes for each State/Union Territory by public notification, and this list can only be altered by Parliament through law — Statement 1 is incorrect. A community recognised as a Scheduled Tribe in one State need not be so recognised in another State, since the notification is State/UT-specific — Statement 2 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q3">
-    <div class="q-head">
-      <span class="q-num">3</span>
-      <span class="q-yr">2023</span>
-    </div>
-    <p class="q-text">Consider the following statements : Statement-I : The Supreme Court of India has held in some judgements that the reservation policies made under Article 16(4) of the Constitution of India would be limited by Article 335 for maintenance of efficiency of administration. Statement-II : Article 335 of the Constitution of India defines the term 'efficiency of administration'. Which one of the following is correct in respect of the above statements?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Statement-I is correct but Statement-II is incorrect">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Statement-I is correct but Statement-II is incorrect</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Statement-I is incorrect but Statement-II is correct">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Statement-I is incorrect but Statement-II is correct</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Statement-I is correct but Statement-II is incorrect</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Supreme Court has indeed held that reservations under Article 16(4) must be balanced against the requirement of maintaining administrative efficiency under Article 335 — Statement-I is correct. However, Article 335 does not itself define what 'efficiency of administration' means; that has been left to judicial interpretation over time — Statement-II is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q4">
-    <div class="q-head">
-      <span class="q-num">4</span>
-      <span class="q-yr">2019</span>
-    </div>
-    <p class="q-text">Consider the following statements about Particularly Vulnerable Tribal Groups (PVTGs) in India:<br/>1. PVTGs reside in 18 States and one Union Territory.<br/>2. A stagnant or declining population is one of the criteria for determining PVTG status.<br/>3. There are 95 PVTGs officially notified in the country so far.<br/>4. Irular and Konda Reddi tribes are included in the list of PVTGs.<br/>Which of the statements given above are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2, 3 and 4">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2, 3 and 4</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 2 and 4">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 2 and 4</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 3 and 4">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 3 and 4</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 2 and 4</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">PVTGs are found in 18 States and one Union Territory (Andaman and Nicobar Islands) — Statement 1 is correct. A stagnant or declining population is indeed one of the criteria used to identify PVTGs, along with pre-agricultural technology and low literacy — Statement 2 is correct. The Irular and Konda Reddi tribes are among the officially notified PVTGs — Statement 4 is correct. However, the number of officially notified PVTGs is 75, not 95 — Statement 3 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q5">
-    <div class="q-head">
-      <span class="q-num">5</span>
       <span class="q-yr">2019</span>
     </div>
     <p class="q-text">Which of the following statements is/are correct regarding the Maternity Benefit (Amendment) Act, 2017?<br/>1. Pregnant women are entitled for three months pre-delivery and three months post-delivery paid leave.<br/>2. Enterprises with crèches must allow the mother minimum six crèche visits daily.<br/>3. Women with two children get reduced entitlements.<br/>Select the correct answer using the code given below:</p>
@@ -449,226 +681,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q6">
+<li class="q-card" data-topic="women" id="q12">
     <div class="q-head">
-      <span class="q-num">6</span>
-      <span class="q-yr">2018</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. As per the Right to Education (RTE) Act, to be eligible for appointment as a teacher in a State, a person would be required to possess the minimum qualification laid down by the concerned State Council of Teacher Education.<br/>2. As per the RTE Act, for teaching primary classes, a candidate is required to pass a Teacher Eligibility Test conducted in accordance with the National Council of Teacher Education guidelines.<br/>3. In India, more than 90% of teacher education institutions are directly under the State Governments.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 3 only">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">3 only</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under the RTE Act, minimum teacher qualifications are laid down by the National Council of Teacher Education (NCTE), not the State Council, since it is NCTE that prescribes these standards nationally — Statement 1 is incorrect. The Act does require passing a Teacher Eligibility Test conducted as per NCTE guidelines for teaching primary classes — Statement 2 is correct. Most teacher-education institutions in India are actually run by private, not State Government, bodies — Statement 3 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q7">
-    <div class="q-head">
-      <span class="q-num">7</span>
-      <span class="q-yr">2013</span>
-    </div>
-    <p class="q-text">Under the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, who shall be the authority to initiate the process for determining the nature and extent of individual or community forest rights or both?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: State Forest Department">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">State Forest Department</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: District Collector/Deputy Commissioner">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">District Collector/Deputy Commissioner</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Tahsildar/Block Development Officer/Mandal Revenue Officer">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Tahsildar/Block Development Officer/Mandal Revenue Officer</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Gram Sabha">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Gram Sabha</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Gram Sabha</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under the Forest Rights Act, 2006, the Gram Sabha is the authority empowered to initiate the process of determining the nature and extent of individual or community forest rights, since it is best placed to verify local claims.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q8">
-    <div class="q-head">
-      <span class="q-num">8</span>
-      <span class="q-yr">2012</span>
-    </div>
-    <p class="q-text">Which of the following provisions of the Constitution of India have a bearing on Education?<br/>1. Directive Principles of State Policy<br/>2. Rural and Urban Local Bodies<br/>3. Fifth Schedule<br/>4. Sixth Schedule<br/>5. Seventh Schedule<br/>Select the correct answer using the codes given below :</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 and 2 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 and 2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 3, 4 and 5 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">3, 4 and 5 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1, 2 and 5 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1, 2 and 5 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2, 3, 4 and 5">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2, 3, 4 and 5</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2, 3, 4 and 5</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The Directive Principles (Article 45/41), provisions for Rural and Urban Local Bodies (which run schools), the Fifth Schedule (tribal area administration, including education), the Sixth Schedule (autonomous district councils' powers, including education), and the Seventh Schedule (which places education in the Concurrent List) — all of these have a bearing on education in India.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q9">
-    <div class="q-head">
-      <span class="q-num">9</span>
-      <span class="q-yr">2011</span>
-    </div>
-    <p class="q-text">In India, if a religious sect/community is given the status of a national minority, what special advantages is it entitled to?<br/>1. It can establish and administer exclusive educational institutions.<br/>2. The President of India automatically nominates a representative of the community to Lok Sabha.<br/>3. It can derive benefits from the Prime Minister’s 15-Point Programme.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">A community declared a national/religious minority can establish and administer its own educational institutions under Article 30 — Statement 1 is correct. There is no provision for automatic nomination of a minority community representative to the Lok Sabha — Statement 2 is incorrect. Minority communities can also access benefits under the Prime Minister's New 15-Point Programme for their welfare — Statement 3 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q10">
-    <div class="q-head">
-      <span class="q-num">10</span>
-      <span class="q-yr">2011</span>
-    </div>
-    <p class="q-text">India is home to lakhs of persons with disabilities. What are the benefits available to them under the law?<br/>1. Free schooling till the age of 18 years in government-run schools.<br/>2. Preferential allotment of land for setting up business.<br/>3. Ramps in public buildings.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">1 and 3 only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 1, 2 and 3</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Under the Rights of Persons with Disabilities framework then in force, children with disabilities are entitled to free education in an appropriate environment till age 18 — Statement 1 is correct. Persons with disabilities are entitled to preferential allotment of land for setting up businesses or housing — Statement 2 is correct. The law also mandates provision of ramps and other accessibility features in public buildings — Statement 3 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q11">
-    <div class="q-head">
-      <span class="q-num">11</span>
-      <span class="q-yr">2010</span>
-    </div>
-    <p class="q-text">With reference to the National Rehabilitation and Resettlement Policy, 2007, consider the following statements:<br/>1. This policy is applicable only to the persons affected by the acquisition of land for projects and not to the involuntary displacement due to any other reason.<br/>2. This policy has been formulated by the Ministry of Social Justice and Empowerment.<br/>Which of the statements given above is/are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">2 only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Both 1 and 2</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Neither 1 nor 2</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Neither 1 nor 2</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">The National Rehabilitation and Resettlement Policy, 2007 was intended to apply broadly to displacement caused by land acquisition for projects, but its scope was not framed as strictly excluding other displacement contexts in the manner claimed — Statement 1 is incorrect. It was actually formulated by the Department of Land Resources, Ministry of Rural Development, not the Ministry of Social Justice and Empowerment — Statement 2 is incorrect.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q12">
-    <div class="q-head">
-      <span class="q-num">12</span>
+      <span class="q-num">3</span>
       <span class="q-yr">2010</span>
     </div>
     <p class="q-text">Two of the schemes launched by the Government of India for Women’s development are Swadhar and Swayam Siddha. As regards the difference between them, consider the following statements:<br/>1. Swayam Siddha is meant for those in difficult circumstances such as women survivors of natural disasters or terrorism, women prisoners released from jails, mentally challenged women etc., whereas Swadhar is meant for holistic empowerment of women through Self Help Groups.<br/>2. Swayam Siddha is implemented through Local Self Government bodies or reputed Voluntary Organizations whereas Swadhar is implemented through the ICDS units set up in the states.<br/>Which of the statements given above is/are correct?</p>
@@ -701,46 +716,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q13">
+<li class="q-card" data-topic="women" id="q14">
     <div class="q-head">
-      <span class="q-num">13</span>
-      <span class="q-yr">2006</span>
-    </div>
-    <p class="q-text">Consider the following statements:<br/>1. Free and compulsory education to the children of 6-14 years age group by the State was made a Fundamental Right by the 76th Amendment to the Constitution of India.<br/>2. Sarva Shiksha Abhiyan seeks to provide computer education even in rural areas.<br/>3. Education was included in the Concurrent List by the 42nd Amendment, 1976 to the Constitution of India.<br/>Which of the statements given above are correct?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">1, 2 and 3</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 1 and 2, only">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">1 and 2, only</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 2 and 3, only">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">2 and 3, only</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1 and 3, only">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">1 and 3, only</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 2 and 3, only</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Free and compulsory education for children aged 6-14 was made a Fundamental Right by the 86th Amendment Act, 2002 (inserting Article 21-A), not the 76th Amendment (which dealt with reservation in Tamil Nadu) — Statement 1 is incorrect. The Sarva Shiksha Abhiyan does include components for computer-aided and computer literacy education, including in rural areas — Statement 2 is correct. Education was indeed transferred from the State List to the Concurrent List by the 42nd Amendment Act, 1976 — Statement 3 is correct.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q14">
-    <div class="q-head">
-      <span class="q-num">14</span>
+      <span class="q-num">4</span>
       <span class="q-yr">2003</span>
     </div>
     <p class="q-text">Which among the following countries was the earliest to give women the right to vote?</p>
@@ -773,82 +751,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q15">
+<li class="q-card" data-topic="women" id="q17">
     <div class="q-head">
-      <span class="q-num">15</span>
-      <span class="q-yr">2000</span>
-    </div>
-    <p class="q-text">The State which has the largest number of seats reserved for the Scheduled Tribes in Lok Sabha is</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Bihar">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Bihar</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Gujarat">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">Gujarat</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Uttar Pradesh">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Uttar Pradesh</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Madhya Pradesh">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Madhya Pradesh</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Madhya Pradesh</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Madhya Pradesh has traditionally had the largest number of Lok Sabha seats reserved for Scheduled Tribes, owing to its substantial tribal population.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q16">
-    <div class="q-head">
-      <span class="q-num">16</span>
-      <span class="q-yr">1997</span>
-    </div>
-    <p class="q-text">Which one of the following States of India has passed a legislation (in 1996) making the maintenance of one’s parents mandatory?</p>
-    <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Kerala">
-          <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">Kerala</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: West Bengal">
-          <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">West Bengal</span>
-        </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Maharashtra">
-          <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">Maharashtra</span>
-        </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Himachal Pradesh">
-          <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">Himachal Pradesh</span>
-        </li>
-    </ol>
-    <details class="q-answer">
-      <summary>Reveal answer</summary>
-      <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Himachal Pradesh</strong></p>
-        <div class="q-exp-block">
-          <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Himachal Pradesh enacted legislation in 1996 making it a legal obligation for children to maintain their aged parents, one of the earliest such State laws in India.</p>
-        </div>
-      </div>
-    </details>
-  </li>
-
-  <li class="q-card" id="q17">
-    <div class="q-head">
-      <span class="q-num">17</span>
+      <span class="q-num">5</span>
       <span class="q-yr">1997</span>
     </div>
     <p class="q-text">Assertion (A): The reservation of thirty-three per cent of seats for women in Parliament and State Legislatures does not require Constitutional amendment.<br/>Reason (R): Political parties contesting elections can allocate thirty-three per cent of seats they contest to women candidates without any Constitutional amendment.<br/>In the context of the above two statements, which one of the following is correct?</p>
@@ -881,46 +786,116 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q18">
+</ol></section>
+<section class="topic-section" data-topic="sc-st-obc" id="topic-sc-st-obc"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">SC/ST/OBC</h2><p class="topic-desc">Provisions relating to Scheduled Castes, Scheduled Tribes, and forest-dwelling communities.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-sc-st-obc">4 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-sc-st-obc"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="sc-st-obc" id="q2">
     <div class="q-head">
-      <span class="q-num">18</span>
-      <span class="q-yr">1996</span>
+      <span class="q-num">1</span>
+      <span class="q-yr">2024</span>
     </div>
-    <p class="q-text">If the number of seats allocated to a state in the Lok Sabha is 42, then the number of seats reserved for the Scheduled Castes in that state will be</p>
+    <p class="q-text">Consider the following statements:<br/>1. It is the Governor of the State who recognizes and declares any community of that State as a Scheduled Tribe.<br/>2. A community declared as a Scheduled Tribe in a State need not be so in another State.<br/>Which of the statements given above is/are correct?</p>
     <ol class="q-opts">
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 21">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
           <span class="q-opt-letter">A</span>
-          <span class="q-opt-text">21</span>
+          <span class="q-opt-text">1 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 14">
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option B: 2 only">
           <span class="q-opt-letter">B</span>
-          <span class="q-opt-text">14</span>
+          <span class="q-opt-text">2 only</span>
         </li>
-        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 7">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Both 1 and 2">
           <span class="q-opt-letter">C</span>
-          <span class="q-opt-text">7</span>
+          <span class="q-opt-text">Both 1 and 2</span>
         </li>
-        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 6">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Neither 1 nor 2">
           <span class="q-opt-letter">D</span>
-          <span class="q-opt-text">6</span>
+          <span class="q-opt-text">Neither 1 nor 2</span>
         </li>
     </ol>
     <details class="q-answer">
       <summary>Reveal answer</summary>
       <div class="q-answer-body">
-        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 6</strong></p>
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>B. 2 only</strong></p>
         <div class="q-exp-block">
           <p class="q-exp-label">Explanation</p>
-          <p class="q-exp">Reservation of seats for Scheduled Castes in the Lok Sabha is roughly proportional to their population share in a State; for a State with 42 seats, the number of seats reserved for Scheduled Castes works out to 6 based on the applicable proportion at the time.</p>
+          <p class="q-exp">It is the President of India, not the Governor, who specifies the Scheduled Tribes for each State/Union Territory by public notification, and this list can only be altered by Parliament through law — Statement 1 is incorrect. A community recognised as a Scheduled Tribe in one State need not be so recognised in another State, since the notification is State/UT-specific — Statement 2 is correct.</p>
         </div>
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q19">
+<li class="q-card" data-topic="sc-st-obc" id="q4">
     <div class="q-head">
-      <span class="q-num">19</span>
+      <span class="q-num">2</span>
+      <span class="q-yr">2019</span>
+    </div>
+    <p class="q-text">Consider the following statements about Particularly Vulnerable Tribal Groups (PVTGs) in India:<br/>1. PVTGs reside in 18 States and one Union Territory.<br/>2. A stagnant or declining population is one of the criteria for determining PVTG status.<br/>3. There are 95 PVTGs officially notified in the country so far.<br/>4. Irular and Konda Reddi tribes are included in the list of PVTGs.<br/>Which of the statements given above are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1, 2 and 3">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2, 3 and 4">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2, 3 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1, 2 and 4">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1, 2 and 4</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 3 and 4">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 3 and 4</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1, 2 and 4</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">PVTGs are found in 18 States and one Union Territory (Andaman and Nicobar Islands) — Statement 1 is correct. A stagnant or declining population is indeed one of the criteria used to identify PVTGs, along with pre-agricultural technology and low literacy — Statement 2 is correct. The Irular and Konda Reddi tribes are among the officially notified PVTGs — Statement 4 is correct. However, the number of officially notified PVTGs is 75, not 95 — Statement 3 is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="sc-st-obc" id="q7">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">2013</span>
+    </div>
+    <p class="q-text">Under the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, who shall be the authority to initiate the process for determining the nature and extent of individual or community forest rights or both?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: State Forest Department">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">State Forest Department</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: District Collector/Deputy Commissioner">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">District Collector/Deputy Commissioner</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Tahsildar/Block Development Officer/Mandal Revenue Officer">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Tahsildar/Block Development Officer/Mandal Revenue Officer</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Gram Sabha">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Gram Sabha</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Gram Sabha</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Under the Forest Rights Act, 2006, the Gram Sabha is the authority empowered to initiate the process of determining the nature and extent of individual or community forest rights, since it is best placed to verify local claims.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="sc-st-obc" id="q19">
+    <div class="q-head">
+      <span class="q-num">4</span>
       <span class="q-yr">1996</span>
     </div>
     <p class="q-text">In the Indian context the term De-notified tribes refers to</p>
@@ -953,10 +928,153 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q20">
+</ol></section>
+<section class="topic-section" data-topic="reservation" id="topic-reservation"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Reservation</h2><p class="topic-desc">Reservation policy and its application in elections and employment.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-reservation">3 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-reservation"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="reservation" id="q3">
     <div class="q-head">
-      <span class="q-num">20</span>
+      <span class="q-num">1</span>
+      <span class="q-yr">2023</span>
+    </div>
+    <p class="q-text">Consider the following statements : Statement-I : The Supreme Court of India has held in some judgements that the reservation policies made under Article 16(4) of the Constitution of India would be limited by Article 335 for maintenance of efficiency of administration. Statement-II : Article 335 of the Constitution of India defines the term 'efficiency of administration'. Which one of the following is correct in respect of the above statements?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: Statement-I is correct but Statement-II is incorrect">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Statement-I is correct but Statement-II is incorrect</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: Statement-I is incorrect but Statement-II is correct">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Statement-I is incorrect but Statement-II is correct</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. Statement-I is correct but Statement-II is incorrect</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">The Supreme Court has indeed held that reservations under Article 16(4) must be balanced against the requirement of maintaining administrative efficiency under Article 335 — Statement-I is correct. However, Article 335 does not itself define what 'efficiency of administration' means; that has been left to judicial interpretation over time — Statement-II is incorrect.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="reservation" id="q15">
+    <div class="q-head">
+      <span class="q-num">2</span>
+      <span class="q-yr">2000</span>
+    </div>
+    <p class="q-text">The State which has the largest number of seats reserved for the Scheduled Tribes in Lok Sabha is</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: Bihar">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">Bihar</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: Gujarat">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">Gujarat</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: Uttar Pradesh">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">Uttar Pradesh</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: Madhya Pradesh">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">Madhya Pradesh</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. Madhya Pradesh</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Madhya Pradesh has traditionally had the largest number of Lok Sabha seats reserved for Scheduled Tribes, owing to its substantial tribal population.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="reservation" id="q18">
+    <div class="q-head">
+      <span class="q-num">3</span>
+      <span class="q-yr">1996</span>
+    </div>
+    <p class="q-text">If the number of seats allocated to a state in the Lok Sabha is 42, then the number of seats reserved for the Scheduled Castes in that state will be</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 21">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">21</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 14">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">14</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option C: 7">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">7</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option D: 6">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">6</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>D. 6</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">Reservation of seats for Scheduled Castes in the Lok Sabha is roughly proportional to their population share in a State; for a State with 42 seats, the number of seats reserved for Scheduled Castes works out to 6 based on the applicable proportion at the time.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+</ol></section>
+<section class="topic-section" data-topic="minorities" id="topic-minorities"><div class="topic-section-head"><div class="topic-heading-wrap"><h2 class="topic-title">Minorities</h2><p class="topic-desc">Constitutional and legal provisions relating to minorities.</p></div><div class="topic-progress"><span class="topic-progress-text" id="topicText-minorities">3 questions</span><div class="topic-progress-track"><div class="topic-progress-fill" id="topicFill-minorities"></div></div></div></div><ol class="q-list">
+<li class="q-card" data-topic="minorities" id="q9">
+    <div class="q-head">
+      <span class="q-num">1</span>
+      <span class="q-yr">2011</span>
+    </div>
+    <p class="q-text">In India, if a religious sect/community is given the status of a national minority, what special advantages is it entitled to?<br/>1. It can establish and administer exclusive educational institutions.<br/>2. The President of India automatically nominates a representative of the community to Lok Sabha.<br/>3. It can derive benefits from the Prime Minister’s 15-Point Programme.<br/>Which of the statements given above is/are correct?</p>
+    <ol class="q-opts">
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option A: 1 only">
+          <span class="q-opt-letter">A</span>
+          <span class="q-opt-text">1 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option B: 2 and 3 only">
+          <span class="q-opt-letter">B</span>
+          <span class="q-opt-text">2 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="true" tabindex="0" role="button" aria-label="Option C: 1 and 3 only">
+          <span class="q-opt-letter">C</span>
+          <span class="q-opt-text">1 and 3 only</span>
+        </li>
+        <li class="q-opt" data-correct="false" tabindex="0" role="button" aria-label="Option D: 1, 2 and 3">
+          <span class="q-opt-letter">D</span>
+          <span class="q-opt-text">1, 2 and 3</span>
+        </li>
+    </ol>
+    <details class="q-answer">
+      <summary>Reveal answer</summary>
+      <div class="q-answer-body">
+        <p class="q-correct"><span class="q-correct-check" aria-hidden="true">✓</span> Correct answer: <strong>C. 1 and 3 only</strong></p>
+        <div class="q-exp-block">
+          <p class="q-exp-label">Explanation</p>
+          <p class="q-exp">A community declared a national/religious minority can establish and administer its own educational institutions under Article 30 — Statement 1 is correct. There is no provision for automatic nomination of a minority community representative to the Lok Sabha — Statement 2 is incorrect. Minority communities can also access benefits under the Prime Minister's New 15-Point Programme for their welfare — Statement 3 is correct.</p>
+        </div>
+      </div>
+    </details>
+  </li>
+<li class="q-card" data-topic="minorities" id="q20">
+    <div class="q-head">
+      <span class="q-num">2</span>
       <span class="q-yr">1996</span>
     </div>
     <p class="q-text">Assertion (A): The word ‘minority’ is not defined in the Constitution of India.<br/>Reason (R): The Minorities Commission is not a constitutional body.<br/>In the context of the above two statements, which one of the following is correct?</p>
@@ -989,10 +1107,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-
-  <li class="q-card" id="q21">
+<li class="q-card" data-topic="minorities" id="q21">
     <div class="q-head">
-      <span class="q-num">21</span>
+      <span class="q-num">3</span>
       <span class="q-yr">1995</span>
     </div>
     <p class="q-text">In which one of the following States of India is it legal for a Hindu male and illegal for a Muslim male to have more than one living wife?</p>
@@ -1025,7 +1142,10 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
       </div>
     </details>
   </li>
-</ol>
+</ol></section>
+</div>
+
+
 
 <div class="bottom-nav container">
   <a class="back-link" href="../indian-polity-upsc-pyq.html">← Back to all Indian Polity PYQ topics</a>
@@ -1045,6 +1165,9 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
   </div>
 </div>
 
+</div>
+</div>
+
 <footer class="site-footer" role="contentinfo">
   <div class="footer-logo">UPSC <span>A2Z</span></div>
   <nav class="footer-links" aria-label="Footer navigation">
@@ -1059,6 +1182,16 @@ h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(1.5rem, 4.2vw
 <button id="scrollTop" aria-label="Back to top">↑</button>
 
 <script>
+function updateStackHeight() {
+  var header = document.querySelector('.site-header');
+  var shell = document.querySelector('.progress-shell');
+  var h = (header ? header.getBoundingClientRect().height : 0) + (shell ? shell.getBoundingClientRect().height : 0);
+  if (h > 0) document.documentElement.style.setProperty('--stack-h', h + 'px');
+}
+updateStackHeight();
+window.addEventListener('resize', updateStackHeight, { passive: true });
+window.addEventListener('load', updateStackHeight);
+
 var scrollBtn = document.getElementById('scrollTop');
 window.addEventListener('scroll', function () {
   scrollBtn.classList.toggle('show', window.scrollY > 400);
@@ -1077,6 +1210,14 @@ document.querySelectorAll('a[href^="#"]').forEach(function (link) {
 var STORAGE_KEY = 'upsca2z_progress_social-justice';
 var total = 21;
 
+// Map of topic slug -> array of question ids in that topic, built from the DOM
+var TOPIC_QUESTIONS = {};
+document.querySelectorAll('.topic-section').forEach(function (sec) {
+  var slug = sec.getAttribute('data-topic');
+  var ids = Array.prototype.map.call(sec.querySelectorAll('.q-card'), function (c) { return c.id; });
+  TOPIC_QUESTIONS[slug] = ids;
+});
+
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) { return {}; }
 }
@@ -1086,8 +1227,39 @@ function saveProgress(p) {
 function updateProgressUI() {
   var p = loadProgress();
   var answered = Object.keys(p).length;
-  document.getElementById('progressText').textContent = answered + ' of ' + total + ' attempted';
+  document.getElementById('progressText').textContent = answered > 0 ? (answered + ' of ' + total + ' attempted') : (total + ' questions');
   document.getElementById('progressFill').style.width = (total ? (answered / total * 100) : 0) + '%';
+  var sbNum = document.getElementById('sidebarProgressNum');
+  var sbOf = document.getElementById('sidebarProgressOf');
+  var sbFill = document.getElementById('sidebarProgressFill');
+  if (sbNum) sbNum.textContent = answered > 0 ? answered : total;
+  if (sbOf) sbOf.textContent = answered > 0 ? ('of ' + total + ' attempted') : 'questions';
+  if (sbFill) sbFill.style.width = (total ? (answered / total * 100) : 0) + '%';
+
+  // Per-topic progress: header progress bars, "Includes" chips, and sidebar jump list
+  Object.keys(TOPIC_QUESTIONS).forEach(function (slug) {
+    var ids = TOPIC_QUESTIONS[slug];
+    var done = ids.filter(function (id) { return p[id]; }).length;
+    var pct = ids.length ? (done / ids.length * 100) : 0;
+    var isComplete = ids.length > 0 && done >= ids.length;
+
+    var tText = document.getElementById('topicText-' + slug);
+    var tFill = document.getElementById('topicFill-' + slug);
+    if (tText) tText.textContent = done > 0 ? (done + ' of ' + ids.length + ' attempted') : (ids.length + ' questions');
+    if (tFill) tFill.style.width = pct + '%';
+
+    var chipCount = document.getElementById('chipCount-' + slug);
+    if (chipCount) {
+      chipCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      chipCount.closest('.topic-chip').classList.toggle('is-complete', isComplete);
+    }
+
+    var sideCount = document.getElementById('sideCount-' + slug);
+    if (sideCount) {
+      sideCount.textContent = done > 0 ? (done + '/' + ids.length) : ids.length;
+      sideCount.closest('.topic-jump-link').classList.toggle('is-complete', isComplete);
+    }
+  });
 }
 
 function answerQuestion(card, opt, opts, details, qId) {
