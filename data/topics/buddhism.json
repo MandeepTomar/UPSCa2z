@@ -1,0 +1,259 @@
+{
+  "topic": "Buddhism",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Gautama Buddha was generally known by which epithets:\n1. Nayaputta\n2. Shakyamuni\n3. Tathagata",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "None of the above"
+      ],
+      "correct": "B",
+      "explanation": "Nayaputta is associated with Mahavira. The Buddha is referred to as Shakyamuni and Tathagata.",
+      "year": 2024
+    },
+    {
+      "question": "In which region was Dhanyakataka, a prominent Buddhist centre under the Mahasanghikas, located?",
+      "options": [
+        "Andhra",
+        "Gandhara",
+        "Kalinga",
+        "Magadha"
+      ],
+      "correct": "A",
+      "explanation": "Dhanyakataka, also linked with Amaravati, is placed in Andhra Pradesh.",
+      "year": 2023
+    },
+    {
+      "question": "Are these statements about stupas correct:\n1. The concept of stupa is Buddhist in origin.\n2. A stupa is generally a repository of relics.\n3. A stupa is a votive and commemorative structure.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The tradition may predate Buddhism, so statement 1 is not treated as correct here. Stupas are described as relic repositories and commemorative structures.",
+      "year": 2023
+    },
+    {
+      "question": "Which statements are correct:\n1. Sthaviravadins belong to Mahayana Buddhism.\n2. Lokottaravadin sect was an offshoot of Mahasanghika.\n3. Deification of Buddha by Mahasanghikas fostered Mahayana Buddhism.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Sthaviravadins are not placed in Mahayana. Lokottaravadins are described as a Mahasanghika offshoot, and Mahasanghika ideas helped foster Mahayana.",
+      "year": 2020
+    },
+    {
+      "question": "Which option best describes 'paramitas'?",
+      "options": [
+        "Earliest Dharmashastra texts in aphoristic style",
+        "Philosophical schools rejecting the Vedas",
+        "Perfections whose attainment leads to the Bodhisattva path",
+        "Merchant guilds of South India"
+      ],
+      "correct": "C",
+      "explanation": "Paramitas are perfections essential for the Bodhisattva path in Buddhist tradition.",
+      "year": 2020
+    },
+    {
+      "question": "Which of these are features of Mahayana Buddhism:\n1. Definition of the Buddha\n2. Treading the path of Bodhisattvas\n3. Image worship and rituals",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Mahayana emphasizes the divinity of Buddha, Bodhisattva path and idol worship.",
+      "year": 2019
+    },
+    {
+      "question": "In which relief sculpture inscription is 'Ranyo Ashoka' mentioned along with Ashoka's stone portrait?",
+      "options": [
+        "Kanganahalli",
+        "Sanchi",
+        "Shahbazgarhi",
+        "Sohgaura"
+      ],
+      "correct": "A",
+      "explanation": "Kanganahalli in Karnataka is the site with the inscribed portrait of Emperor Ashoka.",
+      "year": 2019
+    },
+    {
+      "question": "Which of the following pairs are correctly matched?\n1. Lothal : Ancient dockyard\n2. Sarnath : First Sermon of Buddha\n3. Rajgir : Lion capital of Asoka\n4. Nalanda : Great seat of Buddhist learning",
+      "options": [
+        "1, 2, 3 and 4",
+        "3 and 4",
+        "1, 2 and 4",
+        "1 and 2"
+      ],
+      "correct": "C",
+      "explanation": "Lothal had a dockyard. Sarnath is where Buddha delivered his First Sermon. Nalanda was a renowned Buddhist monastic university. The Lion capital of Asoka was found at Sarnath, not Rajgir.",
+      "year": 1998
+    },
+    {
+      "question": "The concept of Eight-fold Path forms the theme of",
+      "options": [
+        "Dipavamsa",
+        "Divyavadana",
+        "Mahaparinibban Sutta",
+        "Dharma Chakara Pravartana Sutta"
+      ],
+      "correct": "D",
+      "explanation": "The Dharma Chakra Pravartana Sutta is the first sermon delivered by Gautama Buddha after attaining enlightenment at Sarnath. The Sutta introduces the Four Noble Truths and elaborates the Eight-fold Path.",
+      "year": 1998
+    },
+    {
+      "question": "In Mahayana Buddhism, the Bodhisattva Avalokitesvara was also known as",
+      "options": [
+        "Vajrapani",
+        "Manjusri",
+        "Padmapani",
+        "Maitreya"
+      ],
+      "correct": "C",
+      "explanation": "Avalokitesvara means 'Lord who looks down with compassion'. Also known as Padmapani, meaning 'Lotus Bearer', symbolizing purity and compassion.",
+      "year": 1997
+    },
+    {
+      "question": "Which of the following were common to both Buddhism and Jainism?\n1. Avoidance of extremities of penance and enjoyment\n2. Indifference to the authority of the Vedas\n3. Denial of efficacy of rituals\n4. Non-injury to animal life",
+      "options": [
+        "1, 2, 3 and 4",
+        "2, 3 and 4",
+        "1, 3 and 4",
+        "1 and 2"
+      ],
+      "correct": "B",
+      "explanation": "Both rejected Vedic supremacy, denied efficacy of rituals for attaining liberation, and emphasized non-injury (Ahimsa). Avoidance of extremities of penance is central to Buddhism (Middle Path), but not to Jainism, which embraced severe asceticism.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following is the most fundamental difference between Mahayana Buddhism and Hinayana Buddhism?",
+      "options": [
+        "Emphasis on ahimsa",
+        "Casteless society",
+        "Worship of gods and goddesses",
+        "Worship of stupa"
+      ],
+      "correct": "C",
+      "explanation": "Hinayana focuses on individual salvation through self-discipline and rejects idol worship. Mahayana Buddhism believes in the divine nature of Buddha and encourages idol worship of Buddhas and Bodhisattvas.",
+      "year": 1994
+    },
+    {
+      "question": "In the Gandhara sculptures the preaching Mudra associated with the Buddha's First Sermon at Sarnath is",
+      "options": [
+        "Abhaya",
+        "Dhyana",
+        "Dharmachakra",
+        "Bhumisparsha"
+      ],
+      "correct": "C",
+      "explanation": "Dharmachakra means 'Wheel of Dharma'. It symbolizes the first sermon of the Buddha at Sarnath, where he set the wheel of Dharma in motion. In Gandhara sculptures, this mudra is depicted with the thumb and index finger of both hands touching.",
+      "year": 1994
+    },
+    {
+      "question": "The Buddhist sect Mahayana formally came into existence during the reign of",
+      "options": [
+        "Ajatashatru",
+        "Ashoka",
+        "Dharmapala",
+        "Kanishka"
+      ],
+      "correct": "D",
+      "explanation": "Mahayana Buddhism emerged during the reign of Kanishka, a Kushan emperor. He convened the Fourth Buddhist Council in Kashmir, marking the rise of Mahayana which introduced the Bodhisattva ideal.",
+      "year": 1993
+    },
+    {
+      "question": "Some Buddhist rock-cut caves are called chaityas while the others viharas. What is the difference between the two?",
+      "options": [
+        "Chaityas is a place of worship while vihara is the dwelling place of the monks",
+        "Chaityas is the stupa at the far end of the cave while vihara is the hall axial to it",
+        "There is no material difference between the two",
+        "Vihara is a place of worship while chaityas is the dwelling place of the monks"
+      ],
+      "correct": "A",
+      "explanation": "Chaitya is a place of worship, primarily for prayer and assembly, containing a stupa at the apsidal end. Vihara is a monastic dwelling, used as a residence for monks, typically consisting of cells arranged around a central hall.",
+      "year": 1992
+    },
+    {
+      "question": "Which of the following kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha",
+      "options": [
+        "1, 2 and 3",
+        "2 and 3 only",
+        "1, 3 and 4",
+        "3 and 4 only"
+      ],
+      "correct": "D",
+      "explanation": "The Buddha's life was centred on Kosala and Magadha, where he preached, was ordained, and passed away. Avanti and Gandhara lie outside the core geographical area of his life events.",
+      "year": 2015
+    },
+    {
+      "question": "Which of the following kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha",
+      "options": [
+        "1, 2 and 3",
+        "2 and 4",
+        "3 and 4 only",
+        "1, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Kosala and Magadha were the two Mahajanapadas most directly linked to the Buddha's birth, enlightenment, teaching, and death; Avanti and Gandhara were not central to his life.",
+      "year": 2014
+    },
+    {
+      "question": "Why did Buddhism start declining in India in the early medieval times?\n1. Buddha was by that time considered as one of the incarnations of Vishnu and thus became a part of Vaishnavism.\n2. The invading tribes from Central Asia till the time of last Gupta king adopted Hinduism and persecuted Buddhists.\n3. The Kings of Gupta dynasty were strongly opposed to Buddhism.",
+      "options": [
+        "1 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The absorption of Buddha as a Vishnu avatar helped Buddhism merge into the Hindu fold, contributing to its decline. The Gupta kings, however, were largely tolerant of Buddhism rather than opposed to it, and there is no strong evidence of systematic persecution by Central Asian invaders on religious grounds.",
+      "year": 2010
+    },
+    {
+      "question": "Who among the following was not a contemporary of the other three?",
+      "options": [
+        "Bimbisara",
+        "Gautama Buddha",
+        "Milinda",
+        "Prasenjit"
+      ],
+      "correct": "C",
+      "explanation": "Bimbisara, Gautama Buddha, and Prasenjit were contemporaries in the 6th-5th century BCE. Milinda (Menander), the Indo-Greek king, ruled much later, around the 2nd century BCE.",
+      "year": 2005
+    },
+    {
+      "question": "Consider the following statements:\n1. The Chinese pilgrim Fa-Hien attended the fourth Great Buddhist Council held by Kanishka.\n2. The Chinese pilgrim Hiuen-Tsang met Harsha and found him to be antagonistic to Buddhism.\nWhich of these statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Fa-Hien visited India during the Gupta period, well after Kanishka's council, so he could not have attended it. Hiuen-Tsang found Harsha to be a patron of Buddhism, not antagonistic to it.",
+      "year": 2004
+    },
+    {
+      "question": "Who among the following presided over the Buddhist Council held during the reign of Kanishka at Kashmir?",
+      "options": [
+        "Parsva",
+        "Nagarjuna",
+        "Sudraka",
+        "Vasumitra"
+      ],
+      "correct": "D",
+      "explanation": "The Fourth Buddhist Council, held at Kundalavana in Kashmir under Kanishka's patronage, was presided over by Vasumitra, with Ashvaghosha as vice-president.",
+      "year": 2001
+    }
+  ]
+}

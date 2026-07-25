@@ -1,0 +1,55 @@
+{
+  "topic": "Society, Law & Administration",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to the history of ancient India, which of the following statements is/are correct?\n1. Mitakshara was the civil law for upper castes and Dayabhaga was the civil law for lower castes.\n2. In the Mitakshara system, the sons can claim right to the property during the lifetime of the father, whereas in the Dayabhaga system, it is only after the death of the father that the sons can claim right to the property.\n3. The Mitakshara system deals with the matters related to the property held by male members only of a family, whereas the Dayabhaga system deals with the matters related to the property held by both male and female members of a family.",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "1 and 3",
+        "3 only"
+      ],
+      "correct": "B",
+      "explanation": "Mitakshara and Dayabhaga were regional schools of Hindu law applied across castes, not caste-specific codes, so statement 1 is incorrect. Statement 2 correctly captures their differing rules on when sons could claim ancestral property. Statement 3 misstates the scope of property covered by each system.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to the history of India, the terms 'Kuliyavapa' and 'Dronavapa' denote",
+      "options": [
+        "measurement of land",
+        "coins of different monetary values",
+        "classification of urban land for revenue purposes",
+        "religious grants"
+      ],
+      "correct": "A",
+      "explanation": "Kuliyavapa and Dronavapa were ancient units used to measure the area of land, referring to the amount of seed grain (kulya or drona) required to sow a given plot.",
+      "year": 2020
+    },
+    {
+      "question": "One consistent feature found in the history of southern India was the growth of small regional kingdoms rather than large empires because of",
+      "options": [
+        "the absence of minerals like iron",
+        "too many divisions in the social structure",
+        "the absence of vast areas of fertile land",
+        "the scarcity of manpower"
+      ],
+      "correct": "C",
+      "explanation": "The relatively limited stretches of fertile, contiguous agricultural land in the peninsula constrained the resource base needed to sustain very large, unified empires, favouring the emergence of smaller regional kingdoms instead.",
+      "year": 1999
+    },
+    {
+      "question": "Assertion (A): The origin of feudal system in ancient India can be traced to military campaigns.\nReason (R): There was considerable expansion of the feudal system during the Gupta period.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "B",
+      "explanation": "Feudal-like land grants in ancient India are traced to military and administrative needs, and the practice did expand markedly under the Guptas, but the Gupta-era expansion is a separate historical fact rather than the explanation for the system's original military origins.",
+      "year": 2000
+    }
+  ]
+}

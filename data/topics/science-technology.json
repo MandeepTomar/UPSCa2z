@@ -1,0 +1,67 @@
+{
+  "topic": "Science & Technology",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "The irrigation device called 'Araghatta' was",
+      "options": [
+        "a water bag made of leather pulled over a pulley",
+        "a large wheel with earthen pots tied to the outer ends of its spokes",
+        "a larger earthen pot driven by bullocks",
+        "a large water bucket pulled up by rope directly by hand"
+      ],
+      "correct": "B",
+      "explanation": "The Araghatta was a Persian-wheel-like water-lifting device: a large wheel fitted with pots at its rim that scooped water from a well or stream as it rotated, widely used for irrigation in medieval and pre-modern India.",
+      "year": 2025
+    },
+    {
+      "question": "With reference to the scientific progress of ancient India, which of the statements given below are correct?\n1. Different kinds of specialized surgical instruments were in common use by 1st century AD.\n2. Transplant of internal organs in the human body had begun by the beginning of 3rd century AD.\n3. The concept of sine of an angle was known in 5th century AD.\n4. The concept of cyclic quadrilaterals was known in 7th century AD.",
+      "options": [
+        "1 and 2 only",
+        "3 and 4 only",
+        "1, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Ancient Indian medical texts describe specialized surgical instruments and Aryabhata's 5th-century work introduced sine concepts, while Brahmagupta's 7th-century work dealt with cyclic quadrilaterals. However, there is no historical evidence of organ transplantation in ancient India.",
+      "year": 2012
+    },
+    {
+      "question": "What does Baudhayana theorem (Baudhayana Sulva Sutra) relate to?",
+      "options": [
+        "Lengths of sides of a right-angled triangle",
+        "Calculation of the value of pi",
+        "Logarithmic calculations",
+        "Normal distribution curve"
+      ],
+      "correct": "A",
+      "explanation": "The Baudhayana Sulva Sutra states a geometric principle equivalent to the Pythagorean theorem, relating the sides of a right-angled triangle, predating Pythagoras' own formulation.",
+      "year": 2008
+    },
+    {
+      "question": "Match List – I with List – II:\nList – I (Finding/Invention/Calculation): A. Time taken by Earth to orbit Sun B. Calculation of value of 'pi' C. Invention of the digit zero D. The game of snakes and ladders\nList – II (Ancient Indian Scholar): 1. Aryabhatta 2. Bhaskaracharya 3. Budhayana 4. Gyandev",
+      "options": [
+        "A-2, B-4, C-1, D-3",
+        "A-2, B-3, C-1, D-4",
+        "A-1, B-3, C-2, D-4",
+        "A-1, B-4, C-2, D-3"
+      ],
+      "correct": "B",
+      "explanation": "Aryabhata calculated the length of the year and an accurate value of pi is attributed to Bhaskaracharya's tradition of texts, while Budhayana's Sulva Sutra contains early value approximations of pi, and Gyandev is traditionally credited with devising the game of snakes and ladders (Moksha Patam).",
+      "year": 2006
+    },
+    {
+      "question": "Zero was invented by",
+      "options": [
+        "Aryabhata",
+        "Varahamihira",
+        "Bhaskara I",
+        "an unknown Indian"
+      ],
+      "correct": "D",
+      "explanation": "While Aryabhata used a place-value system implying zero, the explicit symbol and concept of zero as a number is credited to unnamed Indian mathematicians whose identity remains unknown, with the earliest surviving symbolic use appearing centuries later.",
+      "year": 1995
+    }
+  ]
+}

@@ -24,10 +24,169 @@
 /topics/governance-social-justice-upsc /topics/governance-social-justice-upsc.html 301
 /topics/csat-interpersonal-decision-making-upsc /topics/csat-interpersonal-decision-making-upsc.html 301
 
-# Fix lowercase /pyq/... URLs (case-mismatch duplicates of /PYQ/...).
-# Google had indexed lowercase variants (e.g. /pyq/economy/financial-markets-
-# capital-markets) as separate pages from the canonical /PYQ/... ones.
-/pyq/* /PYQ/:splat 301
+# Explicit lowercase -> canonical-case redirects for /PYQ/ paths.
+# NOTE: previously used a wildcard `/pyq/* /PYQ/:splat 301` here, which
+# self-matched already-correct-case /PYQ/... URLs on this host's path
+# matching, creating a redirect-to-self infinite loop (flagged by Google
+# Search Console as "Redirect error" on /PYQ/index.html,
+# /PYQ/modern-history-upsc-pyq.html, /PYQ/indian-economy-upsc-pyq.html).
+# Enumerating exact lowercase source paths removes any chance of the rule
+# matching a URL that is already correct-case.
+/pyq/index /PYQ/index.html 301
+/pyq/index.html /PYQ/index.html 301
+/pyq/ancient-history-upsc-pyq /PYQ/ancient-history-upsc-pyq.html 301
+/pyq/ancient-history-upsc-pyq.html /PYQ/ancient-history-upsc-pyq.html 301
+/pyq/art-and-culture-upsc-pyq /PYQ/art-and-culture-upsc-pyq.html 301
+/pyq/art-and-culture-upsc-pyq.html /PYQ/art-and-culture-upsc-pyq.html 301
+/pyq/economy/agriculture-rural-development /PYQ/economy/agriculture-rural-development.html 301
+/pyq/economy/agriculture-rural-development.html /PYQ/economy/agriculture-rural-development.html 301
+/pyq/economy/banking-financial-sector /PYQ/economy/banking-financial-sector.html 301
+/pyq/economy/banking-financial-sector.html /PYQ/economy/banking-financial-sector.html 301
+/pyq/economy/digital-payments-financial-inclusion /PYQ/economy/digital-payments-financial-inclusion.html 301
+/pyq/economy/digital-payments-financial-inclusion.html /PYQ/economy/digital-payments-financial-inclusion.html 301
+/pyq/economy/economic-planning-five-year-plans /PYQ/economy/economic-planning-five-year-plans.html 301
+/pyq/economy/economic-planning-five-year-plans.html /PYQ/economy/economic-planning-five-year-plans.html 301
+/pyq/economy/external-sector-balance-of-payments /PYQ/economy/external-sector-balance-of-payments.html 301
+/pyq/economy/external-sector-balance-of-payments.html /PYQ/economy/external-sector-balance-of-payments.html 301
+/pyq/economy/financial-markets-capital-markets /PYQ/economy/financial-markets-capital-markets.html 301
+/pyq/economy/financial-markets-capital-markets.html /PYQ/economy/financial-markets-capital-markets.html 301
+/pyq/economy/fiscal-policy-budget /PYQ/economy/fiscal-policy-budget.html 301
+/pyq/economy/fiscal-policy-budget.html /PYQ/economy/fiscal-policy-budget.html 301
+/pyq/economy/human-development-poverty-employment /PYQ/economy/human-development-poverty-employment.html 301
+/pyq/economy/human-development-poverty-employment.html /PYQ/economy/human-development-poverty-employment.html 301
+/pyq/economy/inflation-price-indices /PYQ/economy/inflation-price-indices.html 301
+/pyq/economy/inflation-price-indices.html /PYQ/economy/inflation-price-indices.html 301
+/pyq/economy/infrastructure-industry /PYQ/economy/infrastructure-industry.html 301
+/pyq/economy/infrastructure-industry.html /PYQ/economy/infrastructure-industry.html 301
+/pyq/economy/international-institutions-reports /PYQ/economy/international-institutions-reports.html 301
+/pyq/economy/international-institutions-reports.html /PYQ/economy/international-institutions-reports.html 301
+/pyq/economy/international-trade-wto /PYQ/economy/international-trade-wto.html 301
+/pyq/economy/international-trade-wto.html /PYQ/economy/international-trade-wto.html 301
+/pyq/economy/monetary-policy-money-supply /PYQ/economy/monetary-policy-money-supply.html 301
+/pyq/economy/monetary-policy-money-supply.html /PYQ/economy/monetary-policy-money-supply.html 301
+/pyq/economy/national-income-economic-growth /PYQ/economy/national-income-economic-growth.html 301
+/pyq/economy/national-income-economic-growth.html /PYQ/economy/national-income-economic-growth.html 301
+/pyq/economy/taxation /PYQ/economy/taxation.html 301
+/pyq/economy/taxation.html /PYQ/economy/taxation.html 301
+/pyq/environment-upsc-pyq /PYQ/environment-upsc-pyq.html 301
+/pyq/environment-upsc-pyq.html /PYQ/environment-upsc-pyq.html 301
+/pyq/environment/agriculture-forestry /PYQ/environment/agriculture-forestry.html 301
+/pyq/environment/agriculture-forestry.html /PYQ/environment/agriculture-forestry.html 301
+/pyq/environment/biodiversity /PYQ/environment/biodiversity.html 301
+/pyq/environment/biodiversity.html /PYQ/environment/biodiversity.html 301
+/pyq/environment/biogeochemical-cycles /PYQ/environment/biogeochemical-cycles.html 301
+/pyq/environment/biogeochemical-cycles.html /PYQ/environment/biogeochemical-cycles.html 301
+/pyq/environment/climate-change /PYQ/environment/climate-change.html 301
+/pyq/environment/climate-change.html /PYQ/environment/climate-change.html 301
+/pyq/environment/ecosystems /PYQ/environment/ecosystems.html 301
+/pyq/environment/ecosystems.html /PYQ/environment/ecosystems.html 301
+/pyq/environment/governance /PYQ/environment/governance.html 301
+/pyq/environment/governance.html /PYQ/environment/governance.html 301
+/pyq/environment/pollution /PYQ/environment/pollution.html 301
+/pyq/environment/pollution.html /PYQ/environment/pollution.html 301
+/pyq/environment/protected-areas /PYQ/environment/protected-areas.html 301
+/pyq/environment/protected-areas.html /PYQ/environment/protected-areas.html 301
+/pyq/environment/renewable-energy /PYQ/environment/renewable-energy.html 301
+/pyq/environment/renewable-energy.html /PYQ/environment/renewable-energy.html 301
+/pyq/environment/treaties /PYQ/environment/treaties.html 301
+/pyq/environment/treaties.html /PYQ/environment/treaties.html 301
+/pyq/environment/water-wetlands /PYQ/environment/water-wetlands.html 301
+/pyq/environment/water-wetlands.html /PYQ/environment/water-wetlands.html 301
+/pyq/indian-economy-upsc-pyq /PYQ/indian-economy-upsc-pyq.html 301
+/pyq/indian-economy-upsc-pyq.html /PYQ/indian-economy-upsc-pyq.html 301
+/pyq/indian-geography-upsc-pyq /PYQ/indian-geography-upsc-pyq.html 301
+/pyq/indian-geography-upsc-pyq.html /PYQ/indian-geography-upsc-pyq.html 301
+/pyq/indian-polity-upsc-pyq /PYQ/indian-polity-upsc-pyq.html 301
+/pyq/indian-polity-upsc-pyq.html /PYQ/indian-polity-upsc-pyq.html 301
+/pyq/international-relations-upsc-pyq /PYQ/international-relations-upsc-pyq.html 301
+/pyq/international-relations-upsc-pyq.html /PYQ/international-relations-upsc-pyq.html 301
+/pyq/medieval-history-upsc-pyq /PYQ/medieval-history-upsc-pyq.html 301
+/pyq/medieval-history-upsc-pyq.html /PYQ/medieval-history-upsc-pyq.html 301
+/pyq/modern-history-upsc-pyq /PYQ/modern-history-upsc-pyq.html 301
+/pyq/modern-history-upsc-pyq.html /PYQ/modern-history-upsc-pyq.html 301
+/pyq/modern/advent-of-europeans-british-expansion /PYQ/modern/advent-of-europeans-british-expansion.html 301
+/pyq/modern/advent-of-europeans-british-expansion.html /PYQ/modern/advent-of-europeans-british-expansion.html 301
+/pyq/modern/british-administration-economic-policies /PYQ/modern/british-administration-economic-policies.html 301
+/pyq/modern/british-administration-economic-policies.html /PYQ/modern/british-administration-economic-policies.html 301
+/pyq/modern/civil-disobedience-round-table-conferences /PYQ/modern/civil-disobedience-round-table-conferences.html 301
+/pyq/modern/civil-disobedience-round-table-conferences.html /PYQ/modern/civil-disobedience-round-table-conferences.html 301
+/pyq/modern/constitutional-developments-british-plans /PYQ/modern/constitutional-developments-british-plans.html 301
+/pyq/modern/constitutional-developments-british-plans.html /PYQ/modern/constitutional-developments-british-plans.html 301
+/pyq/modern/early-nationalism-indian-national-congress /PYQ/modern/early-nationalism-indian-national-congress.html 301
+/pyq/modern/early-nationalism-indian-national-congress.html /PYQ/modern/early-nationalism-indian-national-congress.html 301
+/pyq/modern/key-personalities-ideologies /PYQ/modern/key-personalities-ideologies.html 301
+/pyq/modern/key-personalities-ideologies.html /PYQ/modern/key-personalities-ideologies.html 301
+/pyq/modern/non-cooperation-khilafat-movement /PYQ/modern/non-cooperation-khilafat-movement.html 301
+/pyq/modern/non-cooperation-khilafat-movement.html /PYQ/modern/non-cooperation-khilafat-movement.html 301
+/pyq/modern/peasant-tribal-labour-movements /PYQ/modern/peasant-tribal-labour-movements.html 301
+/pyq/modern/peasant-tribal-labour-movements.html /PYQ/modern/peasant-tribal-labour-movements.html 301
+/pyq/modern/post-independence-india /PYQ/modern/post-independence-india.html 301
+/pyq/modern/post-independence-india.html /PYQ/modern/post-independence-india.html 301
+/pyq/modern/quit-india-world-war-ii-phase /PYQ/modern/quit-india-world-war-ii-phase.html 301
+/pyq/modern/quit-india-world-war-ii-phase.html /PYQ/modern/quit-india-world-war-ii-phase.html 301
+/pyq/modern/revolutionary-communist-movements /PYQ/modern/revolutionary-communist-movements.html 301
+/pyq/modern/revolutionary-communist-movements.html /PYQ/modern/revolutionary-communist-movements.html 301
+/pyq/modern/social-religious-reform-movements /PYQ/modern/social-religious-reform-movements.html 301
+/pyq/modern/social-religious-reform-movements.html /PYQ/modern/social-religious-reform-movements.html 301
+/pyq/modern/transfer-of-power-partition /PYQ/modern/transfer-of-power-partition.html 301
+/pyq/modern/transfer-of-power-partition.html /PYQ/modern/transfer-of-power-partition.html 301
+/pyq/polity/constitutional-bodies /PYQ/polity/constitutional-bodies.html 301
+/pyq/polity/constitutional-bodies.html /PYQ/polity/constitutional-bodies.html 301
+/pyq/polity/constitutional-framework /PYQ/polity/constitutional-framework.html 301
+/pyq/polity/constitutional-framework.html /PYQ/polity/constitutional-framework.html 301
+/pyq/polity/dpsp /PYQ/polity/dpsp.html 301
+/pyq/polity/dpsp.html /PYQ/polity/dpsp.html 301
+/pyq/polity/elections /PYQ/polity/elections.html 301
+/pyq/polity/elections.html /PYQ/polity/elections.html 301
+/pyq/polity/executive /PYQ/polity/executive.html 301
+/pyq/polity/executive.html /PYQ/polity/executive.html 301
+/pyq/polity/federalism /PYQ/polity/federalism.html 301
+/pyq/polity/federalism.html /PYQ/polity/federalism.html 301
+/pyq/polity/finance-emergency-duties /PYQ/polity/finance-emergency-duties.html 301
+/pyq/polity/finance-emergency-duties.html /PYQ/polity/finance-emergency-duties.html 301
+/pyq/polity/fundamental-rights /PYQ/polity/fundamental-rights.html 301
+/pyq/polity/fundamental-rights.html /PYQ/polity/fundamental-rights.html 301
+/pyq/polity/judiciary /PYQ/polity/judiciary.html 301
+/pyq/polity/judiciary.html /PYQ/polity/judiciary.html 301
+/pyq/polity/panchayati-raj /PYQ/polity/panchayati-raj.html 301
+/pyq/polity/panchayati-raj.html /PYQ/polity/panchayati-raj.html 301
+/pyq/polity/parliament /PYQ/polity/parliament.html 301
+/pyq/polity/parliament.html /PYQ/polity/parliament.html 301
+/pyq/polity/political-theory /PYQ/polity/political-theory.html 301
+/pyq/polity/political-theory.html /PYQ/polity/political-theory.html 301
+/pyq/polity/social-justice /PYQ/polity/social-justice.html 301
+/pyq/polity/social-justice.html /PYQ/polity/social-justice.html 301
+/pyq/science-technology-upsc-pyq /PYQ/science-technology-upsc-pyq.html 301
+/pyq/science-technology-upsc-pyq.html /PYQ/science-technology-upsc-pyq.html 301
+/pyq/science/biology /PYQ/science/biology.html 301
+/pyq/science/biology.html /PYQ/science/biology.html 301
+/pyq/science/biotechnology-genetics /PYQ/science/biotechnology-genetics.html 301
+/pyq/science/biotechnology-genetics.html /PYQ/science/biotechnology-genetics.html 301
+/pyq/science/chemistry /PYQ/science/chemistry.html 301
+/pyq/science/chemistry.html /PYQ/science/chemistry.html 301
+/pyq/science/computer-technology /PYQ/science/computer-technology.html 301
+/pyq/science/computer-technology.html /PYQ/science/computer-technology.html 301
+# Legacy slug (renamed to defence-technology) still indexed/crawled without
+# the -technology suffix; previously fell through with no matching rule and
+# dead-ended (reported by Bing as a server timeout on /pyq/science/defence).
+/pyq/science/defence /PYQ/science/defence-technology.html 301
+/PYQ/science/defence /PYQ/science/defence-technology.html 301
+/pyq/science/defence-technology /PYQ/science/defence-technology.html 301
+/pyq/science/defence-technology.html /PYQ/science/defence-technology.html 301
+/pyq/science/energy-technologies /PYQ/science/energy-technologies.html 301
+/pyq/science/energy-technologies.html /PYQ/science/energy-technologies.html 301
+/pyq/science/health-diseases /PYQ/science/health-diseases.html 301
+/pyq/science/health-diseases.html /PYQ/science/health-diseases.html 301
+/pyq/science/materials-science /PYQ/science/materials-science.html 301
+/pyq/science/materials-science.html /PYQ/science/materials-science.html 301
+/pyq/science/physics /PYQ/science/physics.html 301
+/pyq/science/physics.html /PYQ/science/physics.html 301
+/pyq/science/science-in-news /PYQ/science/science-in-news.html 301
+/pyq/science/science-in-news.html /PYQ/science/science-in-news.html 301
+/pyq/science/space-technology /PYQ/science/space-technology.html 301
+/pyq/science/space-technology.html /PYQ/science/space-technology.html 301
+/pyq/world-geography-upsc-pyq /PYQ/world-geography-upsc-pyq.html 301
+/pyq/world-geography-upsc-pyq.html /PYQ/world-geography-upsc-pyq.html 301
 
 # Force extensionless /PYQ/... URLs to redirect (301) to their canonical .html
 # version, for the same reason as the /topics/ block above — Cloudflare Pages

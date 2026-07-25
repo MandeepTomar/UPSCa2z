@@ -1,0 +1,31 @@
+{
+  "topic": "Sangam Age",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Korkai, Poompuhar and Muchiri were well known as what?",
+      "options": [
+        "Capital cities",
+        "Ports",
+        "Centres of iron-and-steel making",
+        "Shrines of Jain Tirthankaras"
+      ],
+      "correct": "B",
+      "explanation": "They were major ports of the Sangam age used for overseas trade.",
+      "year": 2023
+    },
+    {
+      "question": "Assertion (A): The Aham and Puram poems of the Padinen Kilukanakku group formed a continuation of the Sangam composition.\nReason (R): They were included under the Post Sangam works as against the Sangam works proper.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Sangam literature is broadly classified into Agam and Puram themes. The Padinen Kilukanakku texts are part of the Post-Sangam corpus, yet they continue the thematic tradition. These works reflect continuity in literary style and cultural values, though composed in a later period.",
+      "year": 2000
+    }
+  ]
+}

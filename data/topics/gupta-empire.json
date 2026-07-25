@@ -1,0 +1,223 @@
+{
+  "topic": "Gupta Empire",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "The following persons came to India at one time or another:\n1. Fa-Hien\n2. I-Tsing\n3. Megasthenese\n4. Hieun-Tsang\n\nThe correct chronological sequence of their visits is:",
+      "options": [
+        "3, 1, 2, 4",
+        "3, 1, 4, 2",
+        "1, 3, 2, 4",
+        "1, 3, 4, 2"
+      ],
+      "correct": "B",
+      "explanation": "Megasthenes visited in the 4th century BCE. Fa-Hien came during the reign of Chandragupta II (5th century CE). Hieun-Tsang arrived in the 7th century CE. I-Tsing visited in the 8th century CE.",
+      "year": 1999
+    },
+    {
+      "question": "From the third century AD when the Hun invasion ended the Roman Empire, the Indian merchants relied more and more on the",
+      "options": [
+        "African trade",
+        "West-European trade",
+        "South-East Asian trade",
+        "Middle-Eastern trade"
+      ],
+      "correct": "C",
+      "explanation": "The Hun invasion disrupted trade with the Roman world, leading to economic decline in western trade routes. Indian merchants shifted focus to South-East Asia, where trade flourished via ports like Tamralipta.",
+      "year": 1999
+    },
+    {
+      "question": "Which one of the following ports handled the north Indian trade during the Gupta period?",
+      "options": [
+        "Tamralipti",
+        "Broach",
+        "Kalyan",
+        "Cambray"
+      ],
+      "correct": "A",
+      "explanation": "Tamralipti was the principal port for north Indian trade during the Gupta period. Located in the Ganga delta, it connected India with Southeast Asian regions.",
+      "year": 1999
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the codes given below the lists:\nList I\nA. Varahamihira\nB. Visakhadatta\nC. Sudraka\nD. Bilhana\n\nList II\n1. Prabandha Chintamani\n2. Mrchchhakatikam\n3. Brhat-Samhita\n4. Devi Chandraguptam\n5. Vikramankadevacharita",
+      "options": [
+        "3 4 2 5",
+        "3 1 4 2",
+        "5 3 4 2",
+        "1 3 5 2"
+      ],
+      "correct": "A",
+      "explanation": "Varahamihira authored Brhat-Samhita. Visakhadatta is known for Mudrarakshasa and Devi Chandraguptam. Sudraka wrote Mrchchhakatikam. Bilhana composed Vikramankadevacharita.",
+      "year": 1997
+    },
+    {
+      "question": "The silver coins issued by the Guptas were called",
+      "options": [
+        "Rupaka",
+        "Karshapana",
+        "Dinara",
+        "Pana"
+      ],
+      "correct": "A",
+      "explanation": "Gold coins of the Gupta period were called Dinaras. Silver coins were known as Rupaka, modeled after the Saka coinage of Ujjain.",
+      "year": 1997
+    },
+    {
+      "question": "Match List I with List II and select the correct answer by using the codes given below the lists:\nList I\nA. Visakhadatta\nB. Sushruta\nC. Charaka\nD. Brahmagupta\n\nList II\n1. Medicine\n2. Drama\n3. Astronomy\n4. Mathematics",
+      "options": [
+        "1 3 4 2",
+        "2 1 3 4",
+        "2 4 1 3",
+        "3 1 2 4"
+      ],
+      "correct": "C",
+      "explanation": "Visakhadatta authored Drama (Mudrarakshasa). Charaka and Sushruta are foundational figures in Medicine. Brahmagupta pioneered Mathematics and Astronomy, but in this matching list, Brahmagupta aligns with Mathematics and Varahamihira (not listed) with Astronomy, making the code 2 4 1 3.",
+      "year": 1996
+    },
+    {
+      "question": "Who among the following is known for his work on medicine during the Gupta period?",
+      "options": [
+        "Saumilla",
+        "Sudraka",
+        "Shaunaka",
+        "Susrutha"
+      ],
+      "correct": "D",
+      "explanation": "Susrutha was a legendary physician and surgeon, author of Susruta Samhita, known for pioneering surgical techniques like rhinoplasty and ophthalmic surgery.",
+      "year": 1996
+    },
+    {
+      "question": "In Sanskrit plays written during the Gupta Period, women and sudras speak",
+      "options": [
+        "Sanskrit",
+        "Prakrit",
+        "Pali",
+        "Sauraseni"
+      ],
+      "correct": "B",
+      "explanation": "Language differentiation was a key dramatic device: higher classes spoke Sanskrit, while women and Shudras spoke Prakrit, a vernacular dialect. This reflected social hierarchy.",
+      "year": 1995
+    },
+    {
+      "question": "Toramana belonged to the ethnic horde of the",
+      "options": [
+        "Scythians",
+        "Hunas",
+        "Yue-chis",
+        "Sakas"
+      ],
+      "correct": "B",
+      "explanation": "Toramana was a prominent ruler of the Huna (Hephthalite) Empire. He ruled parts of northwestern and central India during the late 5th to early 6th century CE.",
+      "year": 1994
+    },
+    {
+      "question": "In ancient Indian historical geography the name 'Ratnakara' denoted",
+      "options": [
+        "the Arabian Sea",
+        "the Bay of Bengal",
+        "the Indian Ocean",
+        "the confluence of the Ganga, the Yamuna and the mythical Saraswati at Prayaga"
+      ],
+      "correct": "C",
+      "explanation": "Ratnakara is a Sanskrit term meaning 'creator of jewels'. It refers to the Indian Ocean, symbolizing its vastness and wealth in ancient Indian cosmology.",
+      "year": 1994
+    },
+    {
+      "question": "Who among the following is NOT associated with medicine in India?",
+      "options": [
+        "Dhanvantri",
+        "Bhaskaracharya",
+        "Charaka",
+        "Susruta"
+      ],
+      "correct": "B",
+      "explanation": "Bhaskaracharya was a mathematician and astronomer, authored works like Lilavati. Dhanvantri, Charaka, and Susruta are foundational figures in Ayurvedic medicine.",
+      "year": 1993
+    },
+    {
+      "question": "Among the four works mentioned below, which one is encyclopedic in nature?",
+      "options": [
+        "Amarakosa",
+        "Siddhantasiromani",
+        "Brihat Samhita",
+        "Ashtangahrdaya"
+      ],
+      "correct": "C",
+      "explanation": "Brihat Samhita, written by Varahamihira, is truly encyclopedic, covering astrology, astronomy, weather, architecture, agriculture, gems, rituals, and more.",
+      "year": 1993
+    },
+    {
+      "question": "Burma was known to ancient Indians as",
+      "options": [
+        "Suvarnabhumi",
+        "Suvarnadvipa",
+        "Yavadvipa",
+        "Malayamandalam"
+      ],
+      "correct": "A",
+      "explanation": "The term Suvarnabhumi ('Land of Gold') is commonly thought to refer to the Southeast Asian Peninsula, including lower Burma and the Malay Peninsula.",
+      "year": 1992
+    },
+    {
+      "question": "Fresco paintings in the Ajanta Caves were done, while which of the following dynasties was flourishing?",
+      "options": [
+        "Guptas",
+        "Sungas",
+        "Kanvas",
+        "Mauryas"
+      ],
+      "correct": "A",
+      "explanation": "While the caves date back earlier, the fresco paintings were added during the Gupta period (5th-6th centuries CE), known for its patronage of art and culture.",
+      "year": 1992
+    },
+    {
+      "question": "With reference to the period of Gupta dynasty in ancient India, the towns Ghantasala, Kadura and Chaul were well known as",
+      "options": [
+        "ports handling foreign trade",
+        "capitals of powerful kingdoms",
+        "places of exquisite stone art and architecture",
+        "important Buddhist pilgrimage centres"
+      ],
+      "correct": "A",
+      "explanation": "Ghantasala, Kadura and Chaul were important ports on India's coastline that facilitated the flourishing foreign trade of the Gupta period.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to forced labour (Vishti) in India during the Gupta period, which one of the following statements is correct?",
+      "options": [
+        "It was considered a source of income for the State, a sort of tax paid by the people.",
+        "It was totally absent in the Madhya Pradesh and Kathiawar regions of the Gupta Empire.",
+        "The forced labourer was entitled to weekly wages.",
+        "The eldest son of the labourer was sent as the forced labourer."
+      ],
+      "correct": "A",
+      "explanation": "Vishti was an unpaid, compulsory labour obligation imposed by the state, functioning effectively as a form of taxation extracted in labour rather than in cash or kind.",
+      "year": 2019
+    },
+    {
+      "question": "The Allahabad Pillar inscription is associated with which one of the following?",
+      "options": [
+        "Mahapadma Nanda",
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Samudragupta"
+      ],
+      "correct": "D",
+      "explanation": "The Allahabad Pillar (Prayaga Prashasti), composed by Harishena, eulogises the military conquests and personal accomplishments of the Gupta emperor Samudragupta.",
+      "year": 2006
+    },
+    {
+      "question": "Fa-hien (Faxian), the Chinese pilgrim, travelled to India during the reign of",
+      "options": [
+        "Samudragupta",
+        "Chandragupta II",
+        "Kumaragupta I",
+        "Skandagupta"
+      ],
+      "correct": "B",
+      "explanation": "Fa-hien visited India between 399-414 CE, during the reign of Chandragupta II (Vikramaditya), and left valuable accounts of Gupta-era society and Buddhism.",
+      "year": 2025
+    }
+  ]
+}

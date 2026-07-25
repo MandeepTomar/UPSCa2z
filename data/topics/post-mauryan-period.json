@@ -1,0 +1,127 @@
+{
+  "topic": "Post-Mauryan Period",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Which work is attributed to playwright Bhasa?",
+      "options": [
+        "Kavyalankara",
+        "Natyashastra",
+        "Madhyama-vyayoga",
+        "Mahabhashya"
+      ],
+      "correct": "C",
+      "explanation": "Madhyama-vyayoga is the Sanskrit play by Bhasa based on the Mahabharata.",
+      "year": 2024
+    },
+    {
+      "question": "The Indo-Greek kingdom set up in north Afghanistan in the beginning of the second century BC was",
+      "options": [
+        "Bactria",
+        "Scythia",
+        "Zedrasia",
+        "Aria"
+      ],
+      "correct": "A",
+      "explanation": "The Indo-Greek kingdom was established in Bactria, located in north Afghanistan, around 200 BC. Demetrius I expanded Greek rule, forming a Hellenistic kingdom.",
+      "year": 1999
+    },
+    {
+      "question": "Assertion (A): The Gandhara School of art bears the mark of Hellenistic influence.\nReason (R): Hinayana form was influenced by that art.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Assertion is true as Gandhara art reflects strong Hellenistic influence. Reason is false because the Hinayana tradition avoided anthropomorphic depictions of the Buddha and remained aniconic; Gandhara art aligns with Mahayana Buddhism.",
+      "year": 1998
+    },
+    {
+      "question": "The term Yavanapriya, mentioned in ancient Sanskrit texts, denoted",
+      "options": [
+        "a fine variety of Indian muslin",
+        "ivory",
+        "damsels sent to the Greek court for dance performance",
+        "pepper"
+      ],
+      "correct": "D",
+      "explanation": "Yavanapriya literally means 'beloved of the Yavanas' (Greeks or Central Asians). It refers to pepper, a highly prized Indian spice in foreign markets, especially among Greeks and Romans.",
+      "year": 1995
+    },
+    {
+      "question": "In which one of the following the Gandhara sculptures of the Buddha are typically Indian and not Greek or Roman?",
+      "options": [
+        "In the treatment of the robe",
+        "In the rendering of the physiognomy",
+        "In the iconography",
+        "In the style"
+      ],
+      "correct": "C",
+      "explanation": "While Gandhara art blended Graeco-Roman techniques for realistic drapery and physiognomy, the iconography — the symbolism, gestures (mudras), and spiritual attributes of Buddha — remained purely Indian.",
+      "year": 1992
+    },
+    {
+      "question": "The practice of military governorship was first introduced in India by the",
+      "options": [
+        "Greeks",
+        "Shakas",
+        "Parthians",
+        "Mughals"
+      ],
+      "correct": "A",
+      "explanation": "The Indo-Greeks introduced the system of appointing military governors called 'Strategos' to administer provinces, a practice later adopted by subsequent foreign rulers.",
+      "year": 2000
+    },
+    {
+      "question": "Which one of the following dynasties was ruling over North India at the time of Alexander's invasion?",
+      "options": [
+        "Nanda",
+        "Maurya",
+        "Sunga",
+        "Kanva"
+      ],
+      "correct": "A",
+      "explanation": "Alexander's invasion of India (327-325 BCE) coincided with the reign of the Nanda dynasty, then ruling over the Magadha empire in North India.",
+      "year": 2000
+    },
+    {
+      "question": "Consider the following statements:\n1. The last Mauryan ruler, Brihadratha was assassinated by his commander-in-chief, Pushyamitra Sunga.\n2. The last Sunga king, Devabhuti was assassinated by his Brahmana minister Vasudeva Kanva who usurped the throne.\n3. The last ruler of the Kanva dynasty was deposed by the Andhras.\nWhich of these statements is/are correct?",
+      "options": [
+        "1 and 2",
+        "Only 2",
+        "Only 3",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "All three transitions are historically recorded: Pushyamitra Sunga overthrew Brihadratha to found the Sunga dynasty; Vasudeva Kanva assassinated Devabhuti to found the Kanva dynasty; and the Kanvas were finally displaced by the Satavahanas (Andhras).",
+      "year": 2003
+    },
+    {
+      "question": "The ancient Indian play Mudrarakshasa of Visakhadutt has its subject on",
+      "options": [
+        "a conflict between Gods and Demons of ancient Hindu lore",
+        "a romantic story of an Aryan prince and a tribal woman",
+        "the story of the power struggle between two Aryan tribes",
+        "the court intrigues at the time of Chandragupta Maurya"
+      ],
+      "correct": "D",
+      "explanation": "Mudrarakshasa dramatizes the political intrigue and strategy by which Chanakya helped Chandragupta Maurya overthrow the Nanda dynasty, rather than any mythological or tribal theme.",
+      "year": 2002
+    },
+    {
+      "question": "With reference to the invaders in ancient India, which one of the following is the correct chronological order?",
+      "options": [
+        "Greeks – Sakas – Kushans",
+        "Greeks – Kushans – Sakas",
+        "Sakas – Greeks – Kushans",
+        "Sakas – Kushans – Greeks"
+      ],
+      "correct": "A",
+      "explanation": "The Indo-Greeks were the earliest of these invaders (2nd century BCE), followed by the Sakas (Scythians), and then the Kushans, who established their empire from around the 1st century CE.",
+      "year": 2006
+    }
+  ]
+}

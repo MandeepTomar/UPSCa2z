@@ -1,0 +1,115 @@
+{
+  "topic": "Indus Valley Civilization",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Which rows are correctly matched:\n1. Chandraketugarh – Odisha – trading port town\n2. Inamgaon – Maharashtra – chalcolithic site\n3. Mangadu – Kerala – megalithic site\n4. Salihundam – Andhra Pradesh – rock-cut cave shrines",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Chandraketugarh is described as a trading centre rather than a rock-cut shrine site; Inamgaon and Mangadu are correctly paired; Salihundam is known for Buddhist remains, not rock-cut shrines.",
+      "year": 2024
+    },
+    {
+      "question": "Which ancient town is known for its advanced water harvesting system with dams and connected reservoirs?",
+      "options": [
+        "Dholavira",
+        "Kalibangan",
+        "Rakhigarhi",
+        "Ropar"
+      ],
+      "correct": "A",
+      "explanation": "Dholavira, an Indus Valley city on Khadir Island, is highlighted for its sophisticated water-management system and strategic location.",
+      "year": 2021
+    },
+    {
+      "question": "Which of these is not a Harappan site: Chanhu-daro, Kot Diji, Sohgaura, Desalpur?",
+      "options": [
+        "Chanhu-daro",
+        "Kot Diji",
+        "Sohgaura",
+        "Desalpur"
+      ],
+      "correct": "C",
+      "explanation": "Sohgaura in Uttar Pradesh is noted for an early copper plate inscription rather than as a Harappan site.",
+      "year": 2019
+    },
+    {
+      "question": "Which statements about the Indus people are correct:\n1. They had great palaces and temples.\n2. They worshipped male and female deities.\n3. They used horse-drawn chariots in warfare.",
+      "options": [
+        "1 and 2 only",
+        "2 only",
+        "1, 2 and 3",
+        "None of these"
+      ],
+      "correct": "B",
+      "explanation": "No palaces or temples of the Mesopotamian type are found; worship of male and female deities is supported; there is no conclusive evidence for horse-drawn chariots in Harappan warfare.",
+      "year": 2013
+    },
+    {
+      "question": "Regarding the Indus Valley Civilization, consider the following statements:\n1. It was predominantly a secular civilization and the religious element, though present, did not dominate the scene.\n2. During this period, cotton was used for manufacturing textiles in India.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "C",
+      "explanation": "Statement 1 is correct: The Indus Valley Civilization was largely secular in nature, focusing on urban planning, sanitation, and trade rather than grand religious monuments.Statement 2 is correct: The Indus people were among the earliest in the world to cultivate cotton, and used it for textile production.",
+      "year": 2011
+    },
+    {
+      "question": "Which one of the following animals was NOT represented on the seals and terracotta art of the Harappan culture?",
+      "options": [
+        "Cow",
+        "Elephant",
+        "Rhinoceros",
+        "Tiger"
+      ],
+      "correct": "A",
+      "explanation": "The Harappan civilization is known for its seals and terracotta figurines depicting various animals like the elephant, rhinoceros, tiger, bull, buffalo, and the unicorn-like figure. Despite the economic and cultural importance of the cow in later Indian traditions, it was not depicted in Harappan art.",
+      "year": 2001
+    },
+    {
+      "question": "What is the correct chronological order in which the following appeared in India?\n1. Gold coins\n2. Punch-marked silver coins\n3. Iron plough\n4. Urban culture",
+      "options": [
+        "3, 4, 1, 2",
+        "3, 4, 2, 1",
+        "4, 3, 1, 2",
+        "4, 3, 2, 1"
+      ],
+      "correct": "D",
+      "explanation": "4. Urban culture: Earliest (Indus Valley 2600-1900 BCE).3. Iron Plough: Introduced around 700-600 BCE.2. Punch-marked Silver Coins: First appeared between 7th-6th century BCE.1. Gold Coins: Introduced by Kushanas around 1st century CE.",
+      "year": 1998
+    },
+    {
+      "question": "The earliest evidence of silver in India is found in",
+      "options": [
+        "Harappan culture",
+        "Chalcolithic cultures of Western India",
+        "Vedic texts",
+        "Silver punch-marked coins"
+      ],
+      "correct": "A",
+      "explanation": "Harappan culture (Indus Valley Civilization) provides the earliest archaeological evidence of silver usage in India. Silver was not locally available in the Indus plains and was imported from regions like Afghanistan.",
+      "year": 1994
+    },
+    {
+      "question": "The famous female figurine known as 'Dancing Girl', found at Mohenjo-daro, is made of",
+      "options": [
+        "carnelian",
+        "clay",
+        "bronze",
+        "gold"
+      ],
+      "correct": "C",
+      "explanation": "The 'Dancing Girl' figurine from Mohenjo-daro was cast in bronze using the lost-wax technique, and is one of the earliest known examples of this metalworking method in the subcontinent.",
+      "year": 2025
+    }
+  ]
+}

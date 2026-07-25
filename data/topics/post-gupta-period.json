@@ -1,0 +1,175 @@
+{
+  "topic": "Post-Gupta Period",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Which one of the following was a corporation of merchants in ancient India?",
+      "options": [
+        "Chaturvedimangalam",
+        "Parishad",
+        "Ashtadikgaja",
+        "Manigrama"
+      ],
+      "correct": "D",
+      "explanation": "Manigrama was a prominent merchant guild in South India, active between the 11th and 13th centuries, playing a major role in maritime trade under the Chola Empire.",
+      "year": 1997
+    },
+    {
+      "question": "Match List I with List II and select the correct answer by using the codes given below the lists:\nList I\nA. Gupta\nB. Chandella\nC. Chalukya\nD. Pallava\n\nList II\n1. Badami\n2. Panamalai\n3. Khajuraho\n4. Deogarh",
+      "options": [
+        "4 3 1 2",
+        "4 2 3 1",
+        "2 3 4 1",
+        "3 4 1 2"
+      ],
+      "correct": "A",
+      "explanation": "Gupta is linked to Deogarh (Dashavatara Temple). Chandella corresponds to Khajuraho. Chalukya corresponds to Badami. Pallava corresponds to Panamalai.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following was a Saiva sect in ancient India?",
+      "options": [
+        "Ajivika",
+        "Mattamayura",
+        "Mayamata",
+        "Isanasivagurudevapaddhati"
+      ],
+      "correct": "B",
+      "explanation": "Mattamayura was a Saiva sect that flourished in Central India and later in parts of the Deccan. It blended ritual practice with spiritual discipline and had royal patronage.",
+      "year": 1996
+    },
+    {
+      "question": "The name of the poet Kalidasa is mentioned in the",
+      "options": [
+        "Allahabad pillar inscription",
+        "Aihole inscription",
+        "Alapadu grant",
+        "Hanumakonda inscription"
+      ],
+      "correct": "B",
+      "explanation": "The Aihole inscription was composed by Ravikirti, the court poet of Pulakesin II. Dated to 634 CE, it mentions renowned poets like Kalidasa and Bharavi, highlighting their literary excellence.",
+      "year": 1994
+    },
+    {
+      "question": "A lot of details regarding the village administration under the Cholas is provided by the inscriptions at",
+      "options": [
+        "Thanjavur",
+        "Uraiyur",
+        "Kanchipuram",
+        "Uttaramerur"
+      ],
+      "correct": "D",
+      "explanation": "Uttaramerur is famous for Chola-era inscriptions detailing village administration. Two major inscriptions from the reign of Parantaka I describe the functioning of the sabha (assembly of Brahmin villages).",
+      "year": 1993
+    },
+    {
+      "question": "Who among the following rulers in ancient India had assumed the titles 'Mattavilasa', 'Vichitrachitta' and 'Gunabhara'?",
+      "options": [
+        "Mahendravarman I",
+        "Simhavishnu",
+        "Narasimhavarman I",
+        "Simhavarman"
+      ],
+      "correct": "A",
+      "explanation": "The Pallava king Mahendravarman I, a patron of art and literature and author of the satirical play Mattavilasa Prahasana, assumed these titles reflecting his artistic and eccentric temperament.",
+      "year": 2025
+    },
+    {
+      "question": "Who among the following led a successful military campaign against the kingdom of Srivijaya, the powerful maritime State, which ruled the Malay Peninsula, Sumatra, Java and the neighbouring islands?",
+      "options": [
+        "Amoghavarsha (Rashtrakuta)",
+        "Prataparudra (Kakatiya)",
+        "Rajendra I (Chola)",
+        "Vishnuvardhana (Hoysala)"
+      ],
+      "correct": "C",
+      "explanation": "The Chola king Rajendra I launched a famous naval expedition against Srivijaya in the 11th century CE, showcasing the Chola's maritime power in Southeast Asia.",
+      "year": 2025
+    },
+    {
+      "question": "From the decline of the Gupta Empire until the rise of Harshavardhana, which of the following dynasties ruled over North India?\n1. The Guptas of Magadha\n2. The Paramaras of Malwa\n3. The Pushyabhutis of Thanesar\n4. The Maukharies of Kanauj\n5. The Yadavas of Devagiri\n6. The Gurjara-Pratiharas of Jodhpur",
+      "options": [
+        "1, 2 and 5",
+        "1, 3, 4 and 6",
+        "2, 3 and 4",
+        "5 and 6"
+      ],
+      "correct": "B",
+      "explanation": "After the Gupta decline, regional powers such as the later Guptas of Magadha, the Pushyabhutis of Thanesar, the Maukharis of Kanauj, and the Gurjara-Pratiharas held sway in North India before Harshavardhana's unification. The Paramaras and Yadavas belong to a much later period.",
+      "year": 2021
+    },
+    {
+      "question": "Who among the following laid the foundation of Rashtrakuta Empire?",
+      "options": [
+        "Amoghavarsha I",
+        "Dantidurga",
+        "Dhruva",
+        "Krishna I"
+      ],
+      "correct": "B",
+      "explanation": "Dantidurga founded the Rashtrakuta dynasty in the mid-8th century CE by overthrowing the Chalukyas of Badami.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. The Ikshvaku rulers of southern India were antagonistic towards Buddhism.\n2. The Pala rulers of Eastern India were patrons of Buddhism.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Ikshvakus of the Krishna-Guntur region were, in fact, notable patrons of Buddhism, contrary to the first statement. The Palas of Bengal and Bihar were genuine and prominent patrons of Buddhism, including monastic centres like Nalanda and Vikramashila.",
+      "year": 2006
+    },
+    {
+      "question": "Emperor Harsha's southward march was stopped on the Narmada River by",
+      "options": [
+        "Pulakesin-I",
+        "Pulakesin-II",
+        "Vikramaditya-I",
+        "Vikramaditya-II"
+      ],
+      "correct": "B",
+      "explanation": "The Chalukya king Pulakesin II decisively checked Harshavardhana's southward expansion at the Narmada river around 618-619 CE, as recorded in the Aihole inscription.",
+      "year": 2003
+    },
+    {
+      "question": "Assertion (A): Harshavardhana convened the Prayag Assembly.\nReason (R): He wanted to popularise only the Mahayana form of Buddhism.",
+      "options": [
+        "Both A and R are individually true, and R is the correct explanation of A",
+        "Both A and R are individually true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "Harsha did convene the Prayag Assembly, a grand quinquennial gathering, but his religious patronage was eclectic rather than exclusively focused on popularising Mahayana Buddhism.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the Chola kings conquered Ceylon?",
+      "options": [
+        "Aditya I",
+        "Rajaraja I",
+        "Rajendra",
+        "Vijayalaya"
+      ],
+      "correct": "B",
+      "explanation": "Rajaraja I launched a successful naval invasion of Ceylon (Sri Lanka) around 993 CE, annexing part of the island to the Chola kingdom.",
+      "year": 2001
+    },
+    {
+      "question": "The Badami rock inscription of Pulakesin I is dated in the Saka year 465. If the same were to be dated in Vikrama Samvat, the year would be",
+      "options": [
+        "601",
+        "300",
+        "330",
+        "407"
+      ],
+      "correct": "A",
+      "explanation": "The Vikrama Samvat era begins 135 years before the Saka era. Adding 135 to 465 (some accounts add 136-137 depending on the conversion convention) gives approximately 601 in the Vikrama Samvat calendar.",
+      "year": 1997
+    }
+  ]
+}

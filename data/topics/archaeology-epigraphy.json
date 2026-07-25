@@ -1,0 +1,55 @@
+{
+  "topic": "Archaeology & Epigraphy",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following pairs: (Historical place) : (Well-known for)\n1. Burzahom : Rock-cut shrines\n2. Chandraketugarh : Terracotta art\n3. Ganeshwar : Copper artefacts\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 only",
+        "1 and 2",
+        "3 only",
+        "2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Burzahom in Kashmir is known for its Neolithic pit-dwellings, not rock-cut shrines. Chandraketugarh is indeed noted for its rich terracotta art, and Ganeshwar in Rajasthan is famous for its early copper artefacts.",
+      "year": 2021
+    },
+    {
+      "question": "Match List I (Ancient site) with List II (Archaeological finding):\nList I: A. Lothal B. Kalibangan C. Dholavira D. Site with Banawali inscription\nList II: 1. Ploughed field 2. Dockyard 3. Terracotta replica of a plough 4. An inscription comprising ten large-sized signs of the Banawali Harappan script",
+      "options": [
+        "A-1, B-2, C-3, D-4",
+        "A-2, B-1, C-3, D-4",
+        "A-1, B-3, C-2, D-4",
+        "A-2, B-3, C-1, D-4"
+      ],
+      "correct": "B",
+      "explanation": "Lothal is famed for its dockyard, Kalibangan for evidence of a ploughed field, Dholavira for a terracotta plough replica, and Banawali for its distinctive large-sign inscription.",
+      "year": 2002
+    },
+    {
+      "question": "Match List I (Eras) with List II (Reckoned from):\nList I: I. Vikrama era II. Saka era III. Gupta era IV. Kali era\nList II: A) 3102 B.C. B) 320 A.D. C) 78 A.D. D) 58 B.C. E) 248 A.D.",
+      "options": [
+        "I-B, II-D, III-E, IV-A",
+        "I-A, II-C, III-B, IV-D",
+        "I-D, II-E, III-B, IV-C",
+        "I-D, II-C, III-B, IV-A"
+      ],
+      "correct": "D",
+      "explanation": "The Vikrama era began in 58 B.C., the Saka era in 78 A.D., the Gupta era in 320 A.D., and the Kali era in 3102 B.C. — matching I-D, II-C, III-B, IV-A. Option E (248 A.D., the Kalachuri-Chedi era) serves purely as a distractor not required for the correct match.",
+      "year": 1995
+    },
+    {
+      "question": "The Chinese traveller Yuan Chwang (Hiuen Tsang), who visited India, recorded the general conditions and culture of India at that time. In this context, which of the following statements is/are correct?\n1. The roads and river-routes were completely immune from robbery.\n2. As regards punishment for offences, ordeals by fire, water and poison were the instruments for determining the innocence or guilt of a person.\n3. The tradesmen had to pay duties at ferries and barrier stations.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Yuan Chwang actually reported occasional incidents of robbery on the roads, contradicting the claim of complete immunity, while his accounts do confirm the use of trial by ordeal and the levying of tolls on traders at ferries and checkpoints.",
+      "year": 2013
+    }
+  ]
+}

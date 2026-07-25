@@ -1,0 +1,199 @@
+{
+  "topic": "Mauryan Empire",
+  "subject": "Ancient History",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Pradeshika, Rajuka and Yukta were important officers at which level?",
+      "options": [
+        "Village level",
+        "District level",
+        "Provincial level",
+        "Central level"
+      ],
+      "correct": "B",
+      "explanation": "These officers were listed at the district level; Pradeshika was in charge, Rajuka handled district duties and Yukta assisted in administration.",
+      "year": 2025
+    },
+    {
+      "question": "Which pairs are correctly matched:\n1. Asmaka – Godavari\n2. Kamboja – Vipas\n3. Avanti – Mahanadi\n4. Kosala – Sarayu",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "B",
+      "explanation": "Asmaka–Godavari and Kosala–Sarayu are correct; Kamboja–Vipas and Avanti–Mahanadi are not correct.",
+      "year": 2025
+    },
+    {
+      "question": "According to Kautilya's Arthashastra, which statements are correct:\n1. A person could become a slave as a result of judicial punishment.\n2. A female slave became free if she bore her master a son.\n3. A son born to a female slave and fathered by her master got the status of the master's son.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Enslavement was mainly through self-sale or capture, not judicial punishment. It also says the master's child by a female slave could be legally recognised, and the mother was considered free.",
+      "year": 2022
+    },
+    {
+      "question": "Assertion (A): According to Asoka's edicts social harmony among the people was more important than religious devotion.\nReason (R): He spread ideas of equity instead of promotion of religion.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Asoka's Dhamma emphasized ethical conduct, tolerance, and social harmony over sectarian religious practices. He advocated equity, moral values, and respect across communities rather than promoting Buddhism exclusively. The Reason correctly explains the Assertion.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following ancient Indian records is the earliest royal order to preserve foodgrains to be utilised during the crises in the country?",
+      "options": [
+        "Sohagaura Copper-plate",
+        "Rummindei pillar-edict of Asoka",
+        "Prayaga-Prasasti",
+        "Mehrauli Pillar inscription of Chandra"
+      ],
+      "correct": "A",
+      "explanation": "The Sohagaura copper-plate is considered the earliest known royal directive related to food security in ancient India. It mentions kosthagara (granaries) established at strategic junctions for distribution during crises.",
+      "year": 1998
+    },
+    {
+      "question": "The Asokan major rock edicts which tell us about the Sangam Kingdom include rock edicts",
+      "options": [
+        "I and X",
+        "I and XI",
+        "II and XIII",
+        "II and XIV"
+      ],
+      "correct": "C",
+      "explanation": "Major Rock Edict II mentions southern kingdoms such as Cholas, Pandyas, Satyaputras, and Keralaputras. Major Rock Edict XIII also mentions Dhamma influence reaching southern kingdoms including Cholas and Pandyas.",
+      "year": 1998
+    },
+    {
+      "question": "Which one of the following statements regarding Asokan stone pillars is incorrect?",
+      "options": [
+        "These are highly polished",
+        "These are monolithic",
+        "The shaft of pillars is tapering in shape",
+        "These are parts of architectural structures"
+      ],
+      "correct": "D",
+      "explanation": "Asokan pillars were freestanding commemorative monuments placed at important sites, not structural supports integrated into architectural frameworks. They were monolithic, highly polished, and had tapering shafts.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following edicts mentions the personal name of Asoka?",
+      "options": [
+        "Kalsi",
+        "Rummindei",
+        "Special Kalinga Edict",
+        "Maski"
+      ],
+      "correct": "D",
+      "explanation": "The Maski Edict is the first inscription where Ashoka's personal name is explicitly mentioned as 'Ashoka', resolving earlier scholarly debates over titles like Devanampriya Priyadarsi.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following texts of ancient India allows divorce to a wife deserted by her husband?",
+      "options": [
+        "Kamasutra",
+        "Manavadharmashastra",
+        "Sukra Nitisara",
+        "Arthashastra"
+      ],
+      "correct": "D",
+      "explanation": "Arthashastra, authored by Kautilya, provided legal provisions for divorce, unlike religious law books. It allowed divorce for a wife deserted by her husband, reflecting a pragmatic and legalistic approach.",
+      "year": 1996
+    },
+    {
+      "question": "The name by which Asoka is generally referred to in his inscriptions is",
+      "options": [
+        "Chakravarti",
+        "Dharmadeva",
+        "Dharmakirti",
+        "Priyadarsi"
+      ],
+      "correct": "D",
+      "explanation": "In most of his inscriptions, Emperor Asoka refers to himself as Devanampriya ('Beloved of the Gods') and Priyadarsi ('He who looks with kindness').",
+      "year": 1995
+    },
+    {
+      "question": "Chanakya was also known as",
+      "options": [
+        "Bhattasvamin",
+        "Rajasekhara",
+        "Vishnugupta",
+        "Visakhadatta"
+      ],
+      "correct": "C",
+      "explanation": "Chanakya is traditionally identified with Kautilya and Vishnugupta — both names appear in his work Arthashastra. He played a pivotal role in the establishment of the Maurya Empire.",
+      "year": 1993
+    },
+    {
+      "question": "In ancient India the territorial name Tosali referred to",
+      "options": [
+        "The region between the rivers Jhelum and Chenab",
+        "The basin of the river Son",
+        "The delta of the river Cauvery",
+        "The area of the river Mahanadi"
+      ],
+      "correct": "D",
+      "explanation": "Tosali was a prominent political and cultural region in ancient Odisha (Kalinga). The River Mahanadi served as the dividing line between Uttara Tosali and Dakshina Tosali.",
+      "year": 1992
+    },
+    {
+      "question": "Consider the following pairs:\nSite of Ashoka's major rock edicts : Location in the State of\n1. Dhauli : Odisha\n2. Erragudi : Andhra Pradesh\n3. Jaugada : Madhya Pradesh\n4. Kalsi : Karnataka\nHow many pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": "B",
+      "explanation": "Dhauli (Odisha) and Erragudi (Andhra Pradesh) are correctly matched. Jaugada is also in Odisha, not Madhya Pradesh, and Kalsi is in Uttarakhand, not Karnataka.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following rulers advised his subjects through an inscription thus: \"Whosoever praises his religious sect or blames other sects out of excessive devotion to his own sect, he rather injures his own sect very severely.\"",
+      "options": [
+        "Ashoka",
+        "Samudragupta",
+        "Harshavardhana",
+        "Krishnadeva Raya"
+      ],
+      "correct": "A",
+      "explanation": "This is a paraphrase of Ashoka's Rock Edict XII, which calls for restraint in speech regarding other religious sects and promotes toleration among different faiths.",
+      "year": 2020
+    },
+    {
+      "question": "Who among the following had first deciphered the edicts of Emperor Ashoka?",
+      "options": [
+        "Georg Bühler",
+        "James Prinsep",
+        "Max Müller",
+        "William Jones"
+      ],
+      "correct": "B",
+      "explanation": "James Prinsep, an official of the East India Company, deciphered the Brahmi script in 1837, enabling the reading of Ashokan edicts and identifying the king referred to as 'Devanampiya Piyadasi' as Ashoka.",
+      "year": 2016
+    },
+    {
+      "question": "Assertion (A): Ashoka annexed Kalinga to the Mauryan Empire.\nReason (R): Kalinga controlled the land and sea routes to South India.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "A",
+      "explanation": "Ashoka did annex Kalinga after the famous war of 261 BCE, and Kalinga's control over key land and sea trade routes to the south was a major strategic reason for the conquest.",
+      "year": 2000
+    }
+  ]
+}
