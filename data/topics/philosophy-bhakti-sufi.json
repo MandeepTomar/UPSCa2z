@@ -1,0 +1,475 @@
+{
+  "topic": "Philosophy, Bhakti & Sufi Movements",
+  "subject": "Art & Culture",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to Indian history, consider the following pairs:\nHistorical person : Known as\n1. Aryadeva : Jaina scholar\n2. Dignaga : Buddhist scholar\n3. Nathamuni : Vaishnava scholar\n\nHow many pairs given above are correctly matched?",
+      "options": [
+        "None of the pairs",
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs"
+      ],
+      "correct": "C",
+      "explanation": "Aryadeva was a Buddhist scholar and author of Catuhsataka. Dignaga was a Buddhist scholar and founder of Indian logic. Nathamuni was a Vaishnava theologian who compiled the Nalayira Divya Prabandham. Pairs 2 and 3 are correct.",
+      "year": 2022
+    },
+    {
+      "question": "The world's second tallest statue in sitting pose of Ramanuja was inaugurated by the Prime Minister of India at Hyderabad recently. Which one of the following statements correctly represents the teachings of Ramanuja?",
+      "options": [
+        "The best means of salvation was devotion.",
+        "Vedas are eternal, self-existent and wholly authoritative.",
+        "Logical arguments were essential means for the highest bliss.",
+        "Salvation was to be obtained through meditation."
+      ],
+      "correct": "A",
+      "explanation": "Option (a) is correct: Ramanuja tried to assimilate bhakti to the tradition of Vedas. He argued that in order to attain salvation, the grace of God was more important than knowledge about him.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to the cultural history of India, consider the following pairs:\n1. Parivrajaka : Renunciant and Wanderer\n2. Shramana : Priest with a high status\n3. Upasaka : Lay follower of Buddhism\n\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Parivrajaka means roaming ascetic in multiple Indian traditions. Shramana includes non-Vedic traditions like Buddhism and Jainism, not Brahmanical priests. Upasaka/upasika are lay followers. Thus, only pairs 1 and 3 are correct.",
+      "year": 2020
+    },
+    {
+      "question": "With reference to ancient India, Gautama Buddha was generally known by which of the following epithets?\n1. Nayaputta\n2. Shakyamuni\n3. Tathagata\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "None of the above are epithets of Gautama Buddha"
+      ],
+      "correct": "B",
+      "explanation": "Gautama Buddha was known by epithets like Shakyamuni ('sage of the Shakyas') and Tathagata ('one who has thus gone/come'). 'Nayaputta' (Nataputta) was actually a title of Mahavira, the Jain Tirthankara, not the Buddha.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements:\n1. There are no parables in Upanishads.\n2. Upanishads were composed earlier than the Puranas. Which of the statements given above\nis/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "Upanishads do contain illustrative parables and stories used to convey philosophical ideas, making statement 1 incorrect. Upanishads (composed roughly 800–200 BCE) are indeed generally dated earlier than the Puranas, which took final shape later.",
+      "year": 2024
+    },
+    {
+      "question": "\"Souls are not only the property of animal and plant life, but also of rocks, running water and many other natural objects not looked on as living by other religious sects.\" The above statement reflects one of the core beliefs of which one of the following religious sects of ancient India?",
+      "options": [
+        "Buddhism",
+        "Jainism",
+        "Shaivism",
+        "Vaishnavism"
+      ],
+      "correct": "B",
+      "explanation": "This animistic belief, attributing souls to inanimate natural objects like rocks and water in addition to plants and animals, reflects a core tenet of Jainism, which holds that even elements like earth, water, fire, and air possess souls (jiva).",
+      "year": 2023
+    },
+    {
+      "question": "With reference to Indian history, consider the following texts:\n1. Nettipakarana\n2. Parishishtaparvan\n3. Avadanashataka\n4. Trishashtilakshana Mahapurana\nWhich of the above are Jaina texts?",
+      "options": [
+        "1, 2 and 3",
+        "2 and 4 only",
+        "1, 3 and 4",
+        "2, 3 and 4"
+      ],
+      "correct": "B",
+      "explanation": "Parishishtaparvan (by Hemachandra) and Trishashtilakshana Mahapurana (by Jinasena) are Jaina texts. Nettipakarana and Avadanashataka are Buddhist texts, so only 2 and 4 are correctly matched.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following statements :\n1. St. Francis Xavier was one of the founding members of the Jesuit Order.\n2. St. Francis Xavier died in Goa and a church is dedicated to him there.\n3. The Feast of St. Francis Xavier is celebrated in Goa each year.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1,2 and3"
+      ],
+      "correct": "C",
+      "explanation": "St. Francis Xavier was indeed a founding member of the Society of Jesus (Jesuits) and his feast is celebrated in Goa. However, he died in 1552 on Shangchuan Island off the coast of China, not in Goa, though his relics were later brought to Goa's Basilica of Bom Jesus.",
+      "year": 2021
+    },
+    {
+      "question": "With reference to the cultural history of India, which one of the following is the correct description of the term \"paramitas\"?",
+      "options": [
+        "The earliest Dharmashastra texts written in aphoristic (sutra) style",
+        "Philosophical schools that did not accept the authority of Vedas",
+        "Perfections whose attainment led to the Bodhisattva path",
+        "Powerful merchant guilds of early medieval South India"
+      ],
+      "correct": "C",
+      "explanation": "'Paramitas' refers to the 'perfections' — such as generosity, morality, and wisdom — whose cultivation and attainment mark the path of a Bodhisattva towards enlightenment in Buddhist thought.",
+      "year": 2020
+    },
+    {
+      "question": "Consider the following:\n1. Deification of the Buddha\n2. Treading the path of Bodhisattvas\n3. Image worship and rituals\nWhich of the above is/are the feature/features of Mahayana Buddhism?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Mahayana Buddhism is marked by the deification of the Buddha, the ideal of following the Bodhisattva path to help all beings attain liberation, and the practice of image worship and elaborate rituals — all three features listed are correct.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to the religious practices in India, the “Sthanakvasi” sect belongs to",
+      "options": [
+        "Buddhism",
+        "Jainism",
+        "Vaishnavism",
+        "Shaivism"
+      ],
+      "correct": "B",
+      "explanation": "The Sthanakvasi sect is a reformist branch of Jainism that rejects idol worship and instead emphasises meditation in simple prayer halls (sthanaks).",
+      "year": 2018
+    },
+    {
+      "question": "With reference to Indian history, who among the following is a future Buddha, yet to come to save the world ?",
+      "options": [
+        "Avalokiteshvara",
+        "Lokesvara",
+        "Maitreya",
+        "Padmapani"
+      ],
+      "correct": "C",
+      "explanation": "Maitreya is regarded in Buddhist tradition as the future Buddha who will appear on Earth to teach the pure dharma once the teachings of Gautama Buddha are forgotten.",
+      "year": 2018
+    },
+    {
+      "question": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\n3. Bodhisattva delays achieving his own salvation to help all sentient beings on their path to it.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "2 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "The concept of Bodhisattva — a compassionate being who delays personal salvation to help others attain enlightenment — is central to Mahayana Buddhism, not Hinayana (Theravada), which focuses more on individual liberation (Arhatship).",
+      "year": 2016
+    },
+    {
+      "question": "Which one of the following pairs does not form part of the six systems of Indian Philosophy?",
+      "options": [
+        "Mimamsa and Vedanta",
+        "Nyaya and Vaisheshika",
+        "Lokayata and Kapalika",
+        "Sankhya and Yoga"
+      ],
+      "correct": "C",
+      "explanation": "The six orthodox systems (Shad-darshanas) of Indian philosophy are Nyaya, Vaisheshika, Sankhya, Yoga, Mimamsa, and Vedanta. Lokayata (materialist) and Kapalika (a Shaiva Tantric sect) are not among these six systems.",
+      "year": 2014
+    },
+    {
+      "question": "The national motto of India, ‘Satyameva Jayate’ inscribed below the Emblem of India is taken from",
+      "options": [
+        "Katha Upanishad",
+        "Chandogya Upanishad",
+        "Aitareya Upanishad",
+        "Mundaka Upanishad"
+      ],
+      "correct": "D",
+      "explanation": "The phrase 'Satyameva Jayate' ('Truth alone triumphs'), inscribed on the National Emblem, is taken from the Mundaka Upanishad.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following statements:\n1. ‘Bijak’ is a composition of the teachings of Saint Dadu Dayal.\n2. The Philosophy of Pushti Marg was propounded by Madhvacharya.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "'Bijak' is actually a compilation of the teachings and verses of Kabir, not Dadu Dayal, making statement 1 incorrect. The Pushti Marg philosophy was propounded by Vallabhacharya, not Madhvacharya, making statement 2 also incorrect.",
+      "year": 2014
+    },
+    {
+      "question": "Which one of the following describes best the concept of Nirvana in Buddhism?",
+      "options": [
+        "The extinction of the flame of desire",
+        "The complete annihilation of self",
+        "A state of bliss and rest",
+        "A mental stage beyond all comprehension"
+      ],
+      "correct": "A",
+      "explanation": "In Buddhist philosophy, Nirvana refers to the extinguishing of the 'flame' of desire, craving, and attachment, leading to the cessation of suffering — rather than annihilation of the self or a state of rest.",
+      "year": 2013
+    },
+    {
+      "question": "Which of the following statements is/are applicable to Jain doctrine?\n1. The surest way of annihilating Karma is to practice penance.\n2. Every object, even the smallest particle, has a soul.\n3. Karma is the bane of the soul and must be ended.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "Jain doctrine holds that penance helps annihilate accumulated karma, that even the smallest particles of matter possess a soul (jiva), and that karma binds and burdens the soul, needing to be shed for liberation — all three statements are correct.",
+      "year": 2013
+    },
+    {
+      "question": "With reference to the history of philosophical thought in India, consider the following statements regarding Sankhya school :\n1. Sankhya does not accept the theory of rebirth or transmigration of soul.\n2. Sankhya holds that it is the self-knowledge that leads to liberation and not any exterior\ninfluence or agent. Which of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "B",
+      "explanation": "The Sankhya school does accept the theory of rebirth and transmigration of the soul (making statement 1 incorrect), but it does hold that liberation comes through self-knowledge (viveka) distinguishing purusha from prakriti, without need for an external divine agent.",
+      "year": 2013
+    },
+    {
+      "question": "The Jain philosophy holds that the world is created and maintained by",
+      "options": [
+        "Universal Law",
+        "Universal Truth",
+        "Universal Faith",
+        "Universal Soul"
+      ],
+      "correct": "A",
+      "explanation": "Jain philosophy holds that the universe is governed by an eternal, uncreated cosmic/moral law rather than by a creator God, reflecting its non-theistic worldview.",
+      "year": 2011
+    },
+    {
+      "question": "Among the following, who was not a proponent of bhakti cult ?",
+      "options": [
+        "Nagarjuna",
+        "Tukaram",
+        "Tyagaraja",
+        "Vallabhacharya"
+      ],
+      "correct": "A",
+      "explanation": "Nagarjuna was a Buddhist philosopher associated with the Madhyamaka school, not a proponent of the Bhakti movement, unlike Tukaram, Tyagaraja, and Vallabhacharya who were all Bhakti saints/composers.",
+      "year": 2010
+    },
+    {
+      "question": "Anekāntavāda is a core theory and philosophy of which one of the following?",
+      "options": [
+        "Buddhism",
+        "Jainism",
+        "Sikhism",
+        "Vaishnavism"
+      ],
+      "correct": "B",
+      "explanation": "Anekantavada, the doctrine of the manifold, relative nature of truth and reality, is a foundational epistemological principle of Jain philosophy.",
+      "year": 2009
+    },
+    {
+      "question": "Bhakta Tukaram was a contemporary of which Mughal Emperor?",
+      "options": [
+        "Babar",
+        "Akbar",
+        "Jahangir",
+        "Aurangzeb"
+      ],
+      "correct": "C",
+      "explanation": "Sant Tukaram, the Marathi Bhakti poet-saint, lived during the reign of the Mughal emperor Jahangir (early 17th century).",
+      "year": 2006
+    },
+    {
+      "question": "Which one of the following four Vedas contains an account of magical charms and spells?",
+      "options": [
+        "Rig-veda",
+        "Yajur-veda",
+        "Atharva-veda",
+        "Sama-veda"
+      ],
+      "correct": "C",
+      "explanation": "The Atharva Veda uniquely contains hymns and verses related to magical charms, spells, and folk medicine, distinguishing it from the more ritual/liturgical focus of the other three Vedas.",
+      "year": 2004
+    },
+    {
+      "question": "Which one of the following sequences indicates the correct chronological order?",
+      "options": [
+        "Shankaracharya - Ramanuja - Chaitanya",
+        "Ramanuja - Shankaracharya - Chaitanya",
+        "Ramanuja - Chaitanya - Shankaracharya",
+        "Shankaracharya - Chaitanya - Ramanuja"
+      ],
+      "correct": "A",
+      "explanation": "The generally accepted chronological order of these Bhakti/Vedanta philosophers is Shankaracharya (8th century) followed by Ramanuja (11th–12th century) and then Chaitanya (15th–16th century).",
+      "year": 2004
+    },
+    {
+      "question": "In ancient Indian Buddhist monasteries, a ceremony called Pavarana used to be held. It was the",
+      "options": [
+        "occasion to elect the Sanghaparinyaka and two speakers, one on Dhamma and the other on Vinaya",
+        "confession by monks of their offences committed during their stay in the monasteries during the rainy season",
+        "ceremony of initiation of new person into the Buddhist Sangha in which the head is shaved and when yellow robes are offered",
+        "gathering of Buddhist monks on the next day to the full-moon day of Ashadha when they take up a fixed abode for the next four months or rainy season"
+      ],
+      "correct": "B",
+      "explanation": "Pavarana was a ceremony held at the end of the monsoon retreat (Vassa) in which Buddhist monks confessed and sought forgiveness for any offences committed during their stay in the monastery.",
+      "year": 2002
+    },
+    {
+      "question": "The concept of Eight-fold path forms the theme of",
+      "options": [
+        "Dipavamsa",
+        "Divyavadana",
+        "Mahaparinibbana Sutta",
+        "Dharma Chakkra Pravartana Sutta"
+      ],
+      "correct": "D",
+      "explanation": "The Dharma Chakra Pravartana Sutta ('Setting in Motion the Wheel of Dharma') records the Buddha's first sermon at Sarnath, in which he expounded the Four Noble Truths and the Eightfold Path.",
+      "year": 1998
+    },
+    {
+      "question": "Many of the Greeks, Kushanas and Shakas embraced Buddhism rather than Hinduism because",
+      "options": [
+        "Buddhism was in the ascendant at that time",
+        "They had renounced the policy of war and violence",
+        "Caste-ridden Hinduism did not attract them",
+        "Buddhism provided easier access to Indian society"
+      ],
+      "correct": "D",
+      "explanation": "Buddhism's relatively simple ethical framework, lack of rigid caste distinctions, and accessible teachings gave foreign ruling groups like the Greeks, Kushanas, and Shakas easier entry into and acceptance within Indian religious and social life compared to caste-bound Brahmanical Hinduism.",
+      "year": 1998
+    },
+    {
+      "question": "The famous dialogue between Nachiketa and Yama is mentioned in the",
+      "options": [
+        "Chandogyopanishad",
+        "Mundakopanishad",
+        "Kathopanishad",
+        "Kenopanishad"
+      ],
+      "correct": "C",
+      "explanation": "The philosophical dialogue between the boy Nachiketa and Yama, the god of death, concerning the nature of the self and death, is famously recorded in the Katha Upanishad.",
+      "year": 1997
+    },
+    {
+      "question": "Milindapanho is in the form of a dialogue between the King Menander and the Buddhist monk",
+      "options": [
+        "Nagasena",
+        "Nagarjuna",
+        "Nagabhatta",
+        "Kumarilabhatta"
+      ],
+      "correct": "A",
+      "explanation": "The 'Milinda Panha' ('Questions of Milinda') records a philosophical dialogue between the Indo-Greek king Menander (Milinda) and the Buddhist monk Nagasena.",
+      "year": 1997
+    },
+    {
+      "question": "Prem Vatika, poems on the life of Krishna, was composed by",
+      "options": [
+        "Bihari",
+        "Surdas",
+        "Raskhan",
+        "Kabir"
+      ],
+      "correct": "C",
+      "explanation": "'Prem Vatika', devotional poems on the life of Krishna, was composed by the Bhakti poet Raskhan, known for his devotion to Krishna despite his non-Hindu background.",
+      "year": 1996
+    },
+    {
+      "question": "According to ancient Indian cosmogonic ideas the sequential order of the cycle of four aeons (Yugas) is",
+      "options": [
+        "Dvapara, Krita, Treta and Kali",
+        "Krita, Dvapara, Treta and Kali",
+        "Krita, Treta, Dvapara and Kali",
+        "Treta, Dvapara, Kali and Krita"
+      ],
+      "correct": "C",
+      "explanation": "According to traditional Hindu cosmology, the four Yugas cycle in descending order of virtue: Krita (Satya), Treta, Dvapara, and finally Kali Yuga.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following is not a part of early Jaina literature?",
+      "options": [
+        "Therigatha",
+        "Acarangasutra",
+        "Sutrakritanga",
+        "Brihatkalpasutra"
+      ],
+      "correct": "A",
+      "explanation": "The 'Therigatha', a collection of verses by early Buddhist nuns, is a Buddhist (Pali canon) text, not part of early Jaina literature like the Acarangasutra, Sutrakritanga, and Brihatkalpasutra.",
+      "year": 1996
+    },
+    {
+      "question": "Which of the following were common to both Buddhism and Jainism?\nI. Avoidance of extremities of penance and enjoyment.\nII. Indifference to the authority of the Vedas\nIII. Denial of efficacy of rituals\nIV. Non-injury to animal life\nSelect the correct answer using the codes given below:",
+      "options": [
+        "I, II, III and IV",
+        "II, III and IV",
+        "I, III and IV",
+        "I and II"
+      ],
+      "correct": "B",
+      "explanation": "Both Buddhism and Jainism arose as heterodox (Shramanic) traditions that showed indifference to Vedic authority, denied the efficacy of ritual sacrifice, and emphasised non-violence towards animal life, though their approach to penance/enjoyment differed somewhat, giving statements II, III and IV as correct.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following was a Saiva sect in ancient India?",
+      "options": [
+        "Ajivika",
+        "Mattamayura",
+        "Mayamata",
+        "Isanasivagurudevapaddhati"
+      ],
+      "correct": "B",
+      "explanation": "The Mattamayura was a prominent Shaiva monastic sect in early medieval India, associated with the propagation of Shaivism especially in central India.",
+      "year": 1996
+    },
+    {
+      "question": "Which one of the following pairs is correctly matched?",
+      "options": [
+        "Guru Amar Das … Miri and Piri",
+        "Guru Arjan Dev … Adi Granth",
+        "Guru Ram Das … Dal Khalsa",
+        "Guru Gobind Singh … Manji"
+      ],
+      "correct": "B",
+      "explanation": "Guru Arjan Dev, the fifth Sikh Guru, compiled and completed the Adi Granth (the precursor to the Guru Granth Sahib).",
+      "year": 1996
+    },
+    {
+      "question": "The word ‘Hindu’ as reference to the people of Hind (India) was first used by",
+      "options": [
+        "the Greeks",
+        "the Romans",
+        "the Chinese",
+        "the Arabs"
+      ],
+      "correct": "D",
+      "explanation": "The term 'Hindu', derived from 'Sindhu' (the Indus river), is generally believed to have been first used by the Arabs (via Persian usage) to refer to the people and land beyond the Indus.",
+      "year": 1995
+    },
+    {
+      "question": "According to the Mimamsa system of philosophy, liberation is possible by means of",
+      "options": [
+        "Jnana",
+        "Bhakti",
+        "Yoga",
+        "Karma"
+      ],
+      "correct": "D",
+      "explanation": "The Mimamsa school of philosophy holds that liberation (moksha) is achieved primarily through the correct performance of Vedic rituals and duties (karma), in contrast to schools emphasising knowledge (jnana) or devotion (bhakti).",
+      "year": 1995
+    },
+    {
+      "question": "The concept of Anuvrata was advocated by",
+      "options": [
+        "Mahayana Buddhism",
+        "Hinayana Buddhism",
+        "Jainism",
+        "the Lokayata school"
+      ],
+      "correct": "C",
+      "explanation": "The vow of Anuvrata ('lesser vows'), a scaled-down version of Jainism's Mahavratas meant for lay followers, was advocated by Jainism.",
+      "year": 1995
+    }
+  ]
+}

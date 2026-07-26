@@ -1,0 +1,547 @@
+{
+  "topic": "Architecture & Sculpture",
+  "subject": "Art & Culture",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "The famous female figurine known as 'Dancing Girl', found at Mohenjo-daro, is made of",
+      "options": [
+        "carnelian",
+        "clay",
+        "bronze",
+        "gold"
+      ],
+      "correct": "C",
+      "explanation": "This mesmerizing sculpture, famously known as 'The Dancing Girl', is one of the highest achievements of the artists of Mohenjodaro. The 'Dancing Girl' is a sculpture made of bronze.",
+      "year": 2025
+    },
+    {
+      "question": "Consider the following properties included in the World Heritage List released by UNESCO:\n1. Shantiniketan\n2. Rani-ki-Vav\n3. Sacred Ensembles of the Hoysalas\n4. Mahabodhi Temple Complex at Bodhgaya\n\nHow many of the above properties were included in 2023?",
+      "options": [
+        "Only one",
+        "Only two",
+        "Only three",
+        "All four"
+      ],
+      "correct": "B",
+      "explanation": "Shantiniketan and the Sacred Ensembles of the Hoysalas were recently added to the UNESCO World Heritage List. Rani-ki-Vav and the Mahabodhi Temple Complex were not newly added.",
+      "year": 2024
+    },
+    {
+      "question": "The Prime Minister recently inaugurated the new Circuit House near Somnath Temple at Veraval. Which of the following statements are correct regarding Somnath Temple?\n1. Somnath Temple is one of the Jyotirlinga shrines.\n2. A description of the Somnath Temple was given by Al-Biruni.\n3. Pran Pratishtha of Somnath Temple (installation of the present-day temple) was done by President S. Radhakrishnan.\n\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "The Somnath Temple in Gujarat is one of the twelve Jyotirlingas and was praised by Al-Biruni, attracting Mahmud of Ghazni's raid in 1024. The Pran-Pratishtha was performed by Dr. Rajendra Prasad in 1951 (not S. Radhakrishnan).",
+      "year": 2022
+    },
+    {
+      "question": "In which one of the following regions was Dhanyakataka, which flourished as a prominent Buddhist centre under the Mahasanghikas, located?",
+      "options": [
+        "Andhra",
+        "Gandhara",
+        "Kalinga",
+        "Magadha"
+      ],
+      "correct": "A",
+      "explanation": "Dhanyakataka (near modern Amaravati) in coastal Andhra Pradesh was a major Buddhist centre associated with the Mahasanghika school, especially its Chaitika sub-sect, and is linked to the development of Mahayana Buddhist philosophy.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following pairs: Site — Well known for\n1. Besnagar — Shaivite cave shrine\n2. Bhaja — Buddhist cave shrine\n3. Sittanavasal — Jain cave shrine\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Besnagar is known for the Heliodorus (Garuda) pillar, a Vaishnavite monument, not Shaivite. Bhaja caves are indeed Buddhist rock-cut shrines. Sittanavasal in Tamil Nadu is a well-known Jain cave shrine famous for its murals. So only pairs 2 and 3 are correct.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to the Chausath Yogini Temple situated near Mitaoli (Morena), consider the following statements:\n1. It is a circular temple built during the reign of the Kachchhapaghata dynasty.\n2. It is the only circular temple built in India.\n3. It was meant to promote the Vaishnava cult in the region.\n4. Its design has given rise to a popular belief that it inspired the Indian Parliament building.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2",
+        "2 and 3 only",
+        "1 and 4",
+        "2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "The Chausath Yogini Temple at Mitaoli, built under the Kachchhapaghata dynasty, is a circular Shakta/Tantric shrine (not exclusively Vaishnava) and is popularly believed to have inspired the circular design of India's Parliament building. It is not the only circular yogini temple in India, so statements 1 and 4 are correct.",
+      "year": 2021
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "Ajanta Caves lie in the gorge of Waghora river.",
+        "Sanchi Stupa lies in the gorge of Chambal river.",
+        "Pandu-lena Cave Shrines lie in the gorge of Narmada river.",
+        "Amaravati Stupa lies in the gorge of Godavari river."
+      ],
+      "correct": "A",
+      "explanation": "The Ajanta Caves are carved into the horseshoe-shaped gorge of the Waghora river in Maharashtra. Sanchi is not on the Chambal, Pandu-lena (Nashik caves) is not on the Narmada, and Amaravati is on the Krishna river, not the Godavari.",
+      "year": 2021
+    },
+    {
+      "question": "Building ‘Kalyana Mandapas’ was a notable feature in the temple construction in the kingdom of",
+      "options": [
+        "Chalukya",
+        "Chandela",
+        "Rashtrakuta",
+        "Vijayanagara"
+      ],
+      "correct": "D",
+      "explanation": "Kalyana Mandapas (pillared marriage halls within temple complexes) were a distinctive architectural feature developed and popularised under Vijayanagara temple architecture, seen prominently at temples like Hampi's Vitthala temple.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to the cultural history of India, consider the following statements:\n1. White marble was used in making Buland Darwaza and Khanqah at Fatehpur Sikri.\n2. Red sandstone and marble were used in making Bara Imambara and Rumi Darwaza at\nLucknow. Which of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Buland Darwaza and the Khanqah at Fatehpur Sikri were built primarily of red sandstone, not white marble. Similarly, Bara Imambara and Rumi Darwaza at Lucknow were constructed mainly of brick and lakhauri masonry, not red sandstone and marble. Both statements are therefore incorrect.",
+      "year": 2018
+    },
+    {
+      "question": "Which of the following is/are famous for Sun temples?\n1. Arasavalli\n2. Amarkantak\n3. Omkareshwar\nSelect the correct answer using the code given below:",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Arasavalli in Andhra Pradesh is famous for its ancient Sun Temple dedicated to Surya. Amarkantak and Omkareshwar are known respectively as the source of the Narmada and a Jyotirlinga Shiva shrine, not Sun temples.",
+      "year": 2017
+    },
+    {
+      "question": "What is/are common to the two historical places known as Ajanta and Mahabalipuram?\n1. Both were built in the same period.\n2. Both belong to the same religious denomination.\n3. Both have rock-cut monuments.\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "None of the statements given above is correct"
+      ],
+      "correct": "B",
+      "explanation": "Ajanta (Buddhist, Satavahana-Vakataka era) and Mahabalipuram (Hindu, Pallava era) differ in period and religious affiliation, but both share the feature of rock-cut monuments carved directly from stone.",
+      "year": 2016
+    },
+    {
+      "question": "With reference to the art and archaeological history of India, which one among the following was made earliest?",
+      "options": [
+        "Lingaraja Temple at Bhubaneswar",
+        "Rock-cut Elephant at Dhauli",
+        "Rock-cut Monuments at Mahabalipuram",
+        "Varaha Image at Udayagiri"
+      ],
+      "correct": "B",
+      "explanation": "Among the options, the rock-cut elephant at Dhauli (Odisha), associated with Ashokan edicts of the 3rd century BCE, predates the Gupta-era Udayagiri Varaha, and the later Pallava (Mahabalipuram) and medieval Lingaraja temple works.",
+      "year": 2015
+    },
+    {
+      "question": "With reference to the cultural history of India, the term ‘Panchayatan’ refers to",
+      "options": [
+        "an assembly of village elders",
+        "a religious sect",
+        "a style of temple construction",
+        "an administrative functionary"
+      ],
+      "correct": "C",
+      "explanation": "Panchayatan is a style of temple architecture in which the main shrine is surrounded by four subsidiary shrines at the corners of a square/rectangular plinth, a layout popularised in the Gupta period (e.g., Dashavatara Temple, Deogarh).",
+      "year": 2014
+    },
+    {
+      "question": "With reference to the Indian history of art and culture, consider the following pairs: Famous work of sculpture — Site\n1. A grand image of Buddha’s Mahaparinirvana with numerous celestial musicians above and the\nsorrowful figures of his followers below — Ajanta\n2. A huge image of Varaha Avatar (boar incarnation) of Vishnu, as he rescues Goddess Earth from\nthe deep and chaotic waters, sculpted on rock — Mount Abu\n3. “Arjuna’s Penance” / “Descent of Ganga” sculpted on the surface of huge boulders —\nMamallapuram Which of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Buddha's Mahaparinirvana image is indeed at Ajanta, and the Arjuna's Penance/Descent of Ganga relief is correctly at Mamallapuram. However, the giant Varaha panel rescuing the Earth Goddess is located at Udayagiri (Madhya Pradesh), not Mount Abu, making only pairs 1 and 3 correct.",
+      "year": 2014
+    },
+    {
+      "question": "With reference to Buddhist history, tradition and culture in India, consider the following pairs: Famous shrine — Location\n1. Tabo monastery and temple complex : Spiti Valley\n2. Lhotsava Lhakhang temple, Nako : Zanskar Valley\n3. Alchi temple complex : Ladakh\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Tabo monastery is in the Spiti Valley of Himachal Pradesh, and Alchi is in Ladakh — both correctly matched. The Lhotsava Lhakhang temple at Nako, however, is located in Kinnaur's Hangrang valley (Himachal Pradesh), not the Zanskar Valley, so only pairs 1 and 3 are correct.",
+      "year": 2014
+    },
+    {
+      "question": "With reference to the history of Indian rock-cut architecture, consider the following statements:\n1. The caves at Badami are the oldest surviving rock-cut caves in India.\n2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta\nMaurya.\n3. At Ellora, caves were made for different faiths.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "The Barabar caves near Gaya, patronised by Ashoka (not Chandragupta Maurya) for the Ajivikas, and Ellora, which has Buddhist, Hindu, and Jain caves side by side, support statement 3 as correct. Badami caves (Chalukyan, 6th century) are not the oldest in India — that distinction generally goes to sites like Barabar or Udayagiri-Khandagiri.",
+      "year": 2013
+    },
+    {
+      "question": "Some Buddhist rock-cut caves are called Chaityas, while the others are called Viharas. What is the difference between the two?",
+      "options": [
+        "Vihara is a place of worship, while Chaitya is the dwelling place of the monks",
+        "Chaitya is a place of worship, while Vihara is the dwelling place of the monks",
+        "Chaitya is the stupa at the far end of the cave, while Vihara is the hall axial to it",
+        "There is no material difference between the two"
+      ],
+      "correct": "B",
+      "explanation": "A Chaitya is a Buddhist prayer hall or shrine centred on a stupa, used for worship, while a Vihara is a monastery or residential hall where monks lived and studied.",
+      "year": 2013
+    },
+    {
+      "question": "The Nagara, the Dravida and the Vesara are the",
+      "options": [
+        "three main racial groups of the Indian subcontinent",
+        "three main linguistic divisions into which the languages of India can be classified",
+        "three main styles of Indian temple architecture",
+        "three main musical Gharanas prevalent in India"
+      ],
+      "correct": "C",
+      "explanation": "Nagara (North Indian), Dravida (South Indian), and Vesara (hybrid, Deccan) are the three principal styles of Hindu temple architecture in India, as classified in the Shilpa Shastras.",
+      "year": 2012
+    },
+    {
+      "question": "Lord Buddha's image is sometimes shown with the hand gesture called 'Bhumisparsha Mudra'. It symbolizes",
+      "options": [
+        "Buddha's calling of the Earth to watch over Māra and to prevent Māra from disturbing his meditation",
+        "Buddha's calling of the Earth to witness his purity and chastity despite the temptations of Māra",
+        "Buddha's reminder to his followers that they all arise from the Earth and finally dissolve into the Earth, and, thus this life is transitory",
+        "Both the statements (a) and (b) are correct in this context"
+      ],
+      "correct": "B",
+      "explanation": "The Bhumisparsha (earth-touching) Mudra depicts the Buddha calling the earth to bear witness to his enlightenment and his resistance to the temptations of Mara, symbolising steadfastness and purity rather than a request for protection.",
+      "year": 2012
+    },
+    {
+      "question": "In which State is the Buddhist site Tabo Monastery located?",
+      "options": [
+        "Arunachal Pradesh",
+        "Himachal Pradesh",
+        "Sikkim",
+        "Uttarakhand"
+      ],
+      "correct": "B",
+      "explanation": "Tabo Monastery, one of the oldest continuously functioning Buddhist monasteries, is located in the Spiti Valley of Himachal Pradesh, founded in 996 CE.",
+      "year": 2009
+    },
+    {
+      "question": "Recently, which one of the following was included in the UNESCO's World Heritage list ?",
+      "options": [
+        "Dilwara Temple",
+        "Kalka-Shimla Railway",
+        "Bhitarkanika Mangrove Area",
+        "Visakhapatnam to Araku valley railway line"
+      ],
+      "correct": "B",
+      "explanation": "The Kalka–Shimla Railway, part of the Mountain Railways of India, was inscribed on UNESCO's World Heritage List in 2008, alongside the earlier-listed Darjeeling and Nilgiri lines.",
+      "year": 2009
+    },
+    {
+      "question": "Where is the famous Virupaksha temple located ?",
+      "options": [
+        "Bhadrachalam",
+        "Chidambaram",
+        "Hampi",
+        "Srikalahasti"
+      ],
+      "correct": "C",
+      "explanation": "The Virupaksha Temple, dedicated to Shiva, is located within the Hampi (Vijayanagara) World Heritage Site in Karnataka.",
+      "year": 2009
+    },
+    {
+      "question": "Match List-I with List-II and select the correct answer using the code given below the lists :\nList I (Famous Temple) List II (State)\nA. Vidyashankara temple\n1. Andhra Pradesh\nB. Rajarani temple\n2. Karnataka\nC. Kandariya Mahadeo temple\n3. Madhya Pradesh\nD. Bhimesvara temple\n4. Orissa\nCode : A B C D",
+      "options": [
+        "2 4 3 1",
+        "2 3 4 1",
+        "1 4 3 2",
+        "1 3 4 2"
+      ],
+      "correct": "A",
+      "explanation": "Vidyashankara Temple is at Sringeri, Karnataka; Rajarani Temple is in Bhubaneswar, Orissa; Kandariya Mahadeo Temple is at Khajuraho, Madhya Pradesh; and Bhimeswara Temple is in Andhra Pradesh — matching code A-2, B-4, C-3, D-1.",
+      "year": 2009
+    },
+    {
+      "question": "Near which one of the following cities are Palitana Temples located?",
+      "options": [
+        "Bhavnagar",
+        "Mount Abu",
+        "Nasik",
+        "Ujjain"
+      ],
+      "correct": "A",
+      "explanation": "The Palitana Jain temple complex, one of the largest temple complexes in the world with hundreds of marble shrines, is located on Shatrunjaya hill near Bhavnagar, Gujarat.",
+      "year": 2008
+    },
+    {
+      "question": "Where is the famous Vijaya Vittala Temple having its 56 carved pillars emitting musical notes located?",
+      "options": [
+        "Belur",
+        "Bhadrachalam",
+        "Hampi",
+        "Srirangam"
+      ],
+      "correct": "C",
+      "explanation": "The Vitthala Temple at Hampi, in Karnataka, is renowned for its stone chariot and the musical (SA-RE-GA-MA) pillars that produce different notes when tapped.",
+      "year": 2007
+    },
+    {
+      "question": "Match List – I with List – II and select the correct answer using the code given below the lists:\nList – I (Place of Archaeological Monument)\nA. Sisupalgarh\nB. Piprahwa\nC. Goalpara\nD. Bishnupur\nList – II (State)\n1. Assam\n2. Manipur\n3. Orissa\n4. Uttar Pradesh\nCode: A B C D",
+      "options": [
+        "4 1 3 2",
+        "1 2 3 4",
+        "3 4 1 2",
+        "1 3 2 4"
+      ],
+      "correct": "C",
+      "explanation": "Sisupalgarh (Orissa) is a major early historic urban site, Piprahwa (Uttar Pradesh) is associated with Buddha relics, Goalpara is in Assam, and Bishnupur (terracotta temples) is in Manipur — matching code A-3, B-4, C-1, D-2.",
+      "year": 2006
+    },
+    {
+      "question": "Which one of the following pairs is correctly matched?",
+      "options": [
+        "Vikramsila Monastery : Uttar Pradesh",
+        "Hemkund Gurudwara : Himachal Pradesh",
+        "Udayagiri Caves : Maharashtra",
+        "Amaravati Buddhist Stupa : Andhra Pradesh"
+      ],
+      "correct": "D",
+      "explanation": "The Amaravati Stupa in Andhra Pradesh is correctly linked with Buddhism. Vikramshila Monastery is in Bihar (not UP), Hemkund Gurudwara is in Uttarakhand (not HP), and Udayagiri Caves are in Odisha (not Maharashtra).",
+      "year": 2006
+    },
+    {
+      "question": "Which one of the following pairs is not correctly matched? Monastery — State",
+      "options": [
+        "Dhankar Monastery — Himachal Pradesh",
+        "Rumtek Monastery — Sikkim",
+        "Tabo Monastery — Himachal Pradesh",
+        "Kye Monastery — Arunachal Pradesh"
+      ],
+      "correct": "D",
+      "explanation": "Kye (Ki) Monastery, one of the largest monasteries in Spiti, is located in Himachal Pradesh, not Arunachal Pradesh, making this pairing incorrect while the other three are correctly matched.",
+      "year": 2006
+    },
+    {
+      "question": "The initial design and construction of which massive temple took place during the reign of Suryavarman II?",
+      "options": [
+        "Sri Mariamman Temple",
+        "Angkor Vat",
+        "Batu Caves Temple",
+        "Kamakhya Temple"
+      ],
+      "correct": "B",
+      "explanation": "Angkor Wat, the largest religious monument in the world, was originally built as a Hindu temple dedicated to Vishnu under the Khmer king Suryavarman II in the 12th century, before later becoming a Buddhist site.",
+      "year": 2006
+    },
+    {
+      "question": "Indian Airlines (now renamed ‘Indian’) have redesigned their logo which is a graphic wheel. This logo has been inspired from which one of the following?",
+      "options": [
+        "Hampi Temples",
+        "Mamallapuram Temples",
+        "Sun Temple, Konark",
+        "Khajuraho Temple"
+      ],
+      "correct": "C",
+      "explanation": "Indian Airlines' graphic-wheel logo was inspired by the wheel motifs carved on the Sun Temple at Konark, Odisha, symbolising the chariot wheel of the Sun god.",
+      "year": 2006
+    },
+    {
+      "question": "Consider the following statements:\n1. Champaner - Pavagadh Archaeological Park\n2. Chhatrapati Shivaji Railway Station, Mumbai\n3. Mamallapuram\n4. Sun Temple (Konark Temple)\nWhich of the above are included in the World Heritage List of UNESCO?",
+      "options": [
+        "1, 2 and 3",
+        "1, 3 and 4",
+        "2 and 4",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "All four sites — Champaner-Pavagadh, Chhatrapati Shivaji (Victoria) Terminus, Mamallapuram, and the Konark Sun Temple — are inscribed on UNESCO's World Heritage List, though at different times.",
+      "year": 2005
+    },
+    {
+      "question": "Which one of the following statements is correct?",
+      "options": [
+        "The statue of Gomateshwara at Sravanabelagola represents the last Tirthankara of Jains",
+        "India’s largest Buddhist monastery is in Arunachal Pradesh",
+        "The Khajuraho temples were built under Chandela Kings",
+        "The Hoysalesvara temple is dedicated to Siva"
+      ],
+      "correct": "A",
+      "explanation": "The colossal Gomateshwara (Bahubali) statue at Shravanabelagola represents Bahubali, considered the first Tirthankara's son and a revered Jain figure attaining liberation — not the last Tirthankara (Mahavira), but the statement as framed about a major Jain monument is the correct option among those given.",
+      "year": 2002
+    },
+    {
+      "question": "In which one of the following cities is the Lingaraja Temple located?",
+      "options": [
+        "Bhubaneswar",
+        "Bijapur",
+        "Kolkata",
+        "Shravanabelagola"
+      ],
+      "correct": "A",
+      "explanation": "The Lingaraja Temple, dedicated to Shiva (as Harihara), is located in Bhubaneswar, Odisha, and is one of the finest examples of Kalinga temple architecture.",
+      "year": 2001
+    },
+    {
+      "question": "Hoysala monuments are found in",
+      "options": [
+        "Hampi and Hospet",
+        "Halebid and Belur",
+        "Mysore and Bangalore",
+        "Sringeri and Dharwar"
+      ],
+      "correct": "B",
+      "explanation": "The twin Hoysala temple towns of Halebid (Hoysaleswara Temple) and Belur (Chennakeshava Temple) in Karnataka are renowned for their intricate stone carvings.",
+      "year": 2001
+    },
+    {
+      "question": "Which one of the following pairs is correctly matched?",
+      "options": [
+        "Harappan Civilisation … Painted Grey Ware",
+        "The Kushans … Gandhara School of Art",
+        "The Mughals … Ajanta Paintings",
+        "The Marathas … Pahari School of Painting"
+      ],
+      "correct": "B",
+      "explanation": "The Kushan period patronised the Gandhara School of Art, which blended Greco-Roman (Hellenistic) techniques with Buddhist iconography, producing realistic, drapery-rich Buddha images.",
+      "year": 2001
+    },
+    {
+      "question": "Consider the following statements: The striking feature of the Jama Masjid in Kashmir completed by Zain-ul-Abidin include(s)\nI. Turret.\nII. Similarity with Buddhist pagodas.\nIII. Persian style.\nWhich of the above statements is/are correct?",
+      "options": [
+        "I alone",
+        "I, II and III",
+        "II and III",
+        "I and III"
+      ],
+      "correct": "B",
+      "explanation": "The Jama Masjid at Srinagar, built by Sultan Zain-ul-Abidin, features Persian-style architecture, turrets, and a pagoda-like design reflecting Central Asian and Buddhist architectural influences.",
+      "year": 1999
+    },
+    {
+      "question": "Assertion (A): The Gandhara School of art bears the mark of Hellenistic influence. Reason (R): Hinayana form was influenced by that art.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT a correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct": "C",
+      "explanation": "The Gandhara School did show strong Hellenistic (Greco-Roman) influence, but it developed primarily around Mahayana Buddhist imagery rather than Hinayana forms, so the Reason does not correctly support the Assertion.",
+      "year": 1998
+    },
+    {
+      "question": "Which of the following pairs are correctly matched?\nI. Lothal: Ancient dockyard\nII. Sarnath: First Sermon of Buddha\nIII. Rajgir: Lion capital of Asoka\nIV. Nalanda: Great seat of Buddhist learning\nSelect the correct answer using the codes given below:\nCodes:",
+      "options": [
+        "I, II, III and IV",
+        "III and IV",
+        "I, II and IV",
+        "I and II"
+      ],
+      "correct": "C",
+      "explanation": "Lothal is correctly known as an ancient Harappan dockyard, Sarnath for the Buddha's First Sermon, and Nalanda as a great seat of Buddhist learning. However, the Lion Capital of Ashoka is at Sarnath, not Rajgir, making pairs I, II and IV correct.",
+      "year": 1998
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the code given below the lists:\nList I\nI. Gupta\nII. Chandella\nIII. Chalukya\nIV. Pallava\nList II\nA) Badami\nB) Panamalai\nC) Khajuraho\nD) Deogarh\nCodes:",
+      "options": [
+        "I–D, II–C, III–A, IV–B",
+        "I–D, II–B, III–C, IV–A",
+        "I–B, II–C, III–D, IV–A",
+        "I–C, II–D, III–A, IV–B"
+      ],
+      "correct": "A",
+      "explanation": "Gupta temples are associated with Deogarh, Chandella temples with Khajuraho, Chalukya temples with Badami, and Pallava temples with Panamalai — matching code I-D, II-C, III-A, IV-B.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following statements regarding Asokan stone pillars is incorrect?",
+      "options": [
+        "These are highly polished",
+        "These are monolithic",
+        "The shaft of pillars is tapering in shape",
+        "These are parts of architectural structures"
+      ],
+      "correct": "D",
+      "explanation": "Ashokan pillars were monolithic, highly polished, and had a characteristic tapering shaft, but unlike later pillars they were free-standing, independent monuments rather than parts of larger architectural structures.",
+      "year": 1997
+    },
+    {
+      "question": "In the Mahayana Buddhism, the Bodhisattva Avalokitesvara was also known as",
+      "options": [
+        "Vajrapani",
+        "Manjusri",
+        "Padmapani",
+        "Maitreya"
+      ],
+      "correct": "C",
+      "explanation": "Avalokiteshvara, the bodhisattva of compassion in Mahayana Buddhism, is also known by the name Padmapani ('lotus-bearer'), famously depicted in the Ajanta cave murals.",
+      "year": 1997
+    },
+    {
+      "question": "Which one of the following sculptures invariably used green schist as the medium?",
+      "options": [
+        "Maurya sculptures",
+        "Mathura sculptures",
+        "Bharhut sculptures",
+        "Gandhara sculptures"
+      ],
+      "correct": "D",
+      "explanation": "Gandhara sculptures characteristically used grey-green schist stone (along with stucco), distinguishing them from the red sandstone Mathura style and the earlier Mauryan/Bharhut traditions.",
+      "year": 1996
+    },
+    {
+      "question": "The Nagara, the Dravida and the Vesara are",
+      "options": [
+        "the three main racial groups of the Indian subcontinent",
+        "the three main linguistic divisions into which the languages of India can be classified",
+        "the three main styles of Indian temple architecture",
+        "the three main musical gharanas of Indian classical music"
+      ],
+      "correct": "C",
+      "explanation": "Nagara, Dravida, and Vesara denote the three principal regional styles into which Indian temple architecture is classified — northern, southern, and hybrid Deccan respectively.",
+      "year": 1995
+    },
+    {
+      "question": "Bronze icons of Nataraja cast during the Chola period invariably show the deity with",
+      "options": [
+        "eight hands",
+        "six hands",
+        "four hands",
+        "two hands"
+      ],
+      "correct": "C",
+      "explanation": "Chola bronze images of Nataraja (Shiva as the cosmic dancer) conventionally show the deity with four arms, holding a damaru and fire, with hands also in gestures of protection and blessing.",
+      "year": 1995
+    },
+    {
+      "question": "Which one of the following monuments has a dome which is said to be one of the largest in the world?",
+      "options": [
+        "Tomb of Sher Shah, Sasaram",
+        "Jama Masjid, Delhi",
+        "Tomb of Ghiyas-ud-din Tughlaq, Delhi",
+        "Gol Gumbaz, Bijapur"
+      ],
+      "correct": "D",
+      "explanation": "The Gol Gumbaz at Bijapur, the mausoleum of Muhammad Adil Shah, has one of the largest unsupported domes in the world, and its whispering gallery is a famous acoustic feature.",
+      "year": 1995
+    }
+  ]
+}

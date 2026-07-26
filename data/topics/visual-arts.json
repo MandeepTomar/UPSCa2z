@@ -1,0 +1,139 @@
+{
+  "topic": "Visual Arts — Painting, Ceramics & Drawing",
+  "subject": "Art & Culture",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "The well-known painting \"Bani Thani\" belongs to the",
+      "options": [
+        "Bundi School",
+        "Jaipur School",
+        "Kangra School",
+        "Kishangarh School"
+      ],
+      "correct": "D",
+      "explanation": "The Kishangarh province in Rajasthan is famous for Bani Thani paintings, characterized by exaggerated features like long necks, almond-shaped eyes, and long fingers. These paintings mainly depict Radha and Krishna's divine love.",
+      "year": 2018
+    },
+    {
+      "question": "The painting of Bodhisattva Padmapani is one of the most famous and oft-illustrated paintings at",
+      "options": [
+        "Ajanta",
+        "Badami",
+        "Bagh",
+        "Ellora"
+      ],
+      "correct": "A",
+      "explanation": "Option (a) is correct: The famous painting of the bodhisattva, Padmapani in Ajanta caves, is one of the best paintings remaining from the prehistoric era when Buddhism was at its peak.",
+      "year": 2017
+    },
+    {
+      "question": "Kalamkari painting refers to",
+      "options": [
+        "a hand-painted cotton textile in South India.",
+        "a handmade drawing on bamboo handicrafts in North-East India.",
+        "a block-painted woollen cloth in Western Himalayan region of India.",
+        "a hand-painted decorative silk cloth in North-Western India."
+      ],
+      "correct": "A",
+      "explanation": "Kalamkari is a traditional hand-painted or block-printed cotton textile art from Andhra Pradesh. The name combines Persian words Qalam (pen) and Kari (craftsmanship).",
+      "year": 2015
+    },
+    {
+      "question": "Consider the following historical places :\n1. Ajanta Caves\n2. Lepakshi Temple\n3. Sanchi Stupa\nWhich of the above places is/are also known for mural paintings?",
+      "options": [
+        "1 only",
+        "1 and 2 only",
+        "1, 2 and 3",
+        "None"
+      ],
+      "correct": "B",
+      "explanation": "Ajanta caves and Lepakshi temple are both renowned for their mural paintings, while Sanchi Stupa is known primarily for its sculpted gateways (toranas) rather than murals.",
+      "year": 2013
+    },
+    {
+      "question": "There are only two known examples of cave paintings of the Gupta period in ancient India. One of these is paintings of Ajanta caves. Where is the other surviving example of Gupta paintings?",
+      "options": [
+        "Bagh caves",
+        "Ellora caves",
+        "Lomas Rishi cave",
+        "Nasik caves"
+      ],
+      "correct": "A",
+      "explanation": "Besides the Ajanta caves, the only other surviving example of Gupta-period cave paintings in India is found at the Bagh caves in Madhya Pradesh.",
+      "year": 2010
+    },
+    {
+      "question": "Match List I with List II and select the correct answer using the code given below the lists:\nList I (Famous person)\nA. Amrita Sher-Gil\nB. Bhimsen Joshi\nC. Rukmini Devi Arundale\nD. Suryakant Tripathi Nirala\nList II (Well-known as)\n1. Dancer\n2. Painter\n3. Poet\n4. Singer",
+      "options": [
+        "A-2 B-1 C-4 D-3",
+        "A-2 B-4 C-1 D-3",
+        "A-3 B-1 C-4 D-2",
+        "A-3 B-4 C-1 D-2"
+      ],
+      "correct": "B",
+      "explanation": "Amrita Sher-Gil was a painter, Bhimsen Joshi a singer, Rukmini Devi Arundale a dancer, and Suryakant Tripathi 'Nirala' a poet — matching code A-2, B-4, C-1, D-3.",
+      "year": 2009
+    },
+    {
+      "question": "Consider the following famous names:\n1. Amrita Sher-Gil\n2. Bikash Bhattacharjee\n3. N. S. Bendre\n4. Subodh Gupta\nWho of the above is/are well known as artist(s)?",
+      "options": [
+        "1 only",
+        "1 and 4 only",
+        "2, 3 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "D",
+      "explanation": "All four — Amrita Sher-Gil, Bikash Bhattacharjee, N. S. Bendre, and Subodh Gupta — are well-known Indian painters/visual artists across different generations.",
+      "year": 2009
+    },
+    {
+      "question": "Raghu Rai is well known for which one of the following areas?",
+      "options": [
+        "Environment protection",
+        "Olympic Games",
+        "Journalism",
+        "Civil aviation"
+      ],
+      "correct": "C",
+      "explanation": "Raghu Rai is a celebrated Indian photojournalist, known for his work in journalism and documentary photography.",
+      "year": 2007
+    },
+    {
+      "question": "The paintings of Abanindranath Tagore are classified as",
+      "options": [
+        "realistic",
+        "socialistic",
+        "revivalistic",
+        "impressionistic"
+      ],
+      "correct": "C",
+      "explanation": "Abanindranath Tagore, founder of the Bengal School of Art, is credited with a 'revivalistic' style that consciously drew on traditional Indian and Mughal/Rajput artistic idioms in reaction to Western academic realism.",
+      "year": 1999
+    },
+    {
+      "question": "Mughal painting reached its zenith under",
+      "options": [
+        "Humayun",
+        "Akbar",
+        "Jahangir",
+        "Shahjahan"
+      ],
+      "correct": "C",
+      "explanation": "Mughal painting is generally considered to have reached its artistic peak under Emperor Jahangir, known for his patronage of naturalistic portraiture and studies of flora and fauna.",
+      "year": 1996
+    },
+    {
+      "question": "The Mughal School of Painting formed the spinal column of the various schools of Indian miniature art. Which one of the following painting styles was not affected by Mughal painting?",
+      "options": [
+        "Pahari",
+        "Rajasthani",
+        "Kangra",
+        "Kalighata"
+      ],
+      "correct": "D",
+      "explanation": "The Kalighat style of painting, which developed in 19th-century Bengal around the Kalighat temple, drew on folk and bazaar art traditions rather than being shaped by Mughal painting, unlike the Pahari, Rajasthani, and Kangra schools.",
+      "year": 1995
+    }
+  ]
+}
