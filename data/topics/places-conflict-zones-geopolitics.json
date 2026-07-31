@@ -1,0 +1,271 @@
+{
+  "topic": "Places, Conflict Zones & Current Geopolitics",
+  "subject": "International Relations",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements:\n\nStatement-I: Israel has established diplomatic relations with some Arab States.\nStatement-II: The ‘Arab Peace Initiative’ mediated by Saudi Arabia was signed by Israel and Arab League.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "Statement-I is correct but Statement-II is incorrect",
+        "Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct": "C",
+      "explanation": "Statement-I is correct: Israel has established diplomatic relations with several Arab states, including Egypt (1979), Jordan (1994), and, via the 2020 Abraham Accords, the UAE, Bahrain, Sudan, and Morocco. Statement-II is incorrect: the Arab Peace Initiative, proposed by Saudi Arabia in 2002 and endorsed by the Arab League, was never signed by Israel.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following statements:\n\nStatement-I: There is instability and a worsening security situation in the Sahel region.\nStatement-II: There have been military takeovers/coups d'état in several countries of the Sahel region in the recent past.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect.",
+        "Statement-I is incorrect, but Statement-II is correct."
+      ],
+      "correct": "A",
+      "explanation": "The Sahel region, including Niger, has seen political instability, with Niger's military taking power in 2023. Both statements are correct and Statement-II directly explains Statement-I.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following pairs:\n\nCountry : Reason for being in the news\n1. Argentina : Worst economic crisis\n2. Sudan : War between the country's regular army and paramilitary forces\n3. Turkey : Rescinded its membership of NATO\n\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs"
+      ],
+      "correct": "B",
+      "explanation": "Argentina and Sudan face crises. Turkey has not rescinded NATO membership. Only two pairs (Argentina and Sudan) are correctly matched.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements:\n\nStatement-I: Sumed pipeline is a strategic route for Persian Gulf oil and natural gas shipments to Europe.\nStatement-II: Sumed pipeline connects the Red Sea with the Mediterranean Sea.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect.",
+        "Statement-I is incorrect, but Statement-II is correct."
+      ],
+      "correct": "A",
+      "explanation": "The Sumed pipeline connects the Red Sea to the Mediterranean, bypassing the Suez Canal. Both statements are correct and Statement-II explains Statement-I.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following countries:\n\n1. Italy\n2. Japan\n3. Nigeria\n4. South Korea\n5. South Africa\n\nWhich of the above countries are frequently mentioned in the media for their low birth rates, aging population or declining population?",
+      "options": [
+        "1, 2 and 4",
+        "1, 3 and 5",
+        "2 and 4 only",
+        "3 and 5 only"
+      ],
+      "correct": "A",
+      "explanation": "Italy and Japan's fertility rates are at record lows. Nigeria's growth rate is 2.41%, and South Korea's rate is the world's lowest. Countries 1 (Italy), 2 (Japan), and 4 (South Korea) are frequently mentioned for declining populations.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following pairs:\n\nRegions often mentioned in news : Reason for being in news\n1. North Kivu and Ituri : War between Armenia and Azerbaijan\n2. Nagorno-Karabakh : Insurgency in Mozambique\n3. Kherson and Zaporizhzhia : Dispute between Israel and Lebanon\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "North Kivu & Ituri (DRC), and Nagorno-Karabakh (Armenia and Azerbaijan) face conflicts, while Kherson and Zaporizhzhia are unrelated to Israel-Lebanon disputes. All three pairs are incorrectly matched — Answer is None.",
+      "year": 2023
+    },
+    {
+      "question": "Consider the following pairs:\n\nArea of conflict mentioned in news : Country where it is located\n1. Donbas : Syria\n2. Kachin : Ethiopia\n3. Tigray : North Yemen\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "Donbas (Ukraine), Kachin (Myanmar), and Tigray (Ethiopia) face conflicts, not Syria or Yemen. All pairs are incorrectly matched.",
+      "year": 2023
+    },
+    {
+      "question": "In the recent years Chad, Guinea, Mali and Sudan caught international attention for which one of the following reasons is common to all of them?",
+      "options": [
+        "Discovery of rich deposits of rare earth elements",
+        "Establishment of Chinese military bases",
+        "Southward expansion of Sahara Desert",
+        "Successful coups"
+      ],
+      "correct": "D",
+      "explanation": "Chad, Guinea, Mali, and Sudan all experienced military takeovers (Successful Coups) in recent years.",
+      "year": 2023
+    },
+    {
+      "question": "Which one of the following statements best reflects the issue with Senkaku Islands, sometimes mentioned in the news?",
+      "options": [
+        "It is generally believed that they are artificial islands made by a country around the South China Sea.",
+        "China and Japan engage in maritime disputes over these islands in the East China Sea.",
+        "A permanent American military base has been set up there to help Taiwan to increase its defence capabilities.",
+        "Though the International Court of Justice declared them as no man's land, some South-East Asian countries claim them."
+      ],
+      "correct": "B",
+      "explanation": "The Senkaku Islands in the East China Sea are disputed between Japan, China, and Taiwan.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following statements best describes the 'Polar Code'?",
+      "options": [
+        "It is the international code of safety for ships operating in polar waters.",
+        "It is the agreement of the countries around the North Pole regarding the demarcation of their territories in the polar region.",
+        "It is a set of norms to be followed by the countries whose scientists undertake research studies in the North Pole and South Pole.",
+        "It is a trade and security agreement of the member countries of the Arctic Council."
+      ],
+      "correct": "A",
+      "explanation": "The International Maritime Organization's Polar Code ensures safe operations and environmental protection in polar regions and provides for safe ship operation and environmental protection.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following pairs:\n\nCountry : Important reason for being in the news recently\n1. Chad : Setting up of permanent military base by China\n2. Guinea : Suspension of Constitution and Government by military\n3. Lebanon : Severe and prolonged economic depression\n4. Tunisia : Suspension of Parliament by President\n\nHow many pairs given above are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": "C",
+      "explanation": "China's only overseas military base is in Djibouti, not Equatorial Guinea. Other crises include Guinea's coup, Lebanon's crisis, and Tunisia's suspension of parliament. Pairs 2, 3, and 4 are correctly matched — three pairs.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following pairs:\n\nRegion often in news : Country\n1. Chechnya : Russian Federation\n2. Darfur : Mali\n3. Swat Valley : Iraq\n\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "Chechnya is in Russia, Darfur is in Sudan, and the Swat Valley is in Pakistan. Only Pair 1 is correctly matched.",
+      "year": 2014
+    },
+    {
+      "question": "Consider the following statements:\n\nStatement-I: Recently, Venezuela has achieved a rapid recovery from its economic crisis and succeeded in preventing its people from fleeing/emigrating to other countries.\nStatement-II: Venezuela has the world's largest oil reserves.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+        "Statement-I is correct, but Statement-II is incorrect",
+        "Statement-I is incorrect, but Statement-II is correct"
+      ],
+      "correct": "D",
+      "explanation": "Statement-I is incorrect: Venezuela remains in a prolonged economic crisis with poverty, hyperinflation, and continued mass emigration (over 7.7 million have fled). Statement-II is correct: Venezuela holds the world's largest proven oil reserves (over 300 billion barrels), ahead of Saudi Arabia.",
+      "year": 2024
+    },
+    {
+      "question": "Consider the following statements in respect of the ICC World Test Championship:\n\n1. The finalists were decided by the number of matches they won.\n2. New Zealand was ranked ahead of England because it won more matches than England.\n\nWhich of the above statements is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "D",
+      "explanation": "Both statements are incorrect. Rankings were based on the Points Percentage System (PCT), not simply the number of wins. England won more matches than New Zealand in the WTC cycle, but New Zealand had a higher PCT and secured the final berth on that basis.",
+      "year": 2021
+    },
+    {
+      "question": "Consider the following pairs:\n\nCountry : Region often mentioned in the news\n1. Anatolia : Turkey\n2. Amhara : Ethiopia\n3. Cabo Delgado : Spain\n4. Catalonia : Italy\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs"
+      ],
+      "correct": "B",
+      "explanation": "Pair 1 is correctly matched: Anatolia is a historical region covering most of modern-day Türkiye. Pair 2 is correctly matched: Amhara is a region in Ethiopia in the news due to conflicts involving the Ethiopian government and Tigray forces. Pair 3 is incorrectly matched: Cabo Delgado is in Mozambique, not Spain. Pair 4 is incorrectly matched: Catalonia is in Spain, not Italy. Only two pairs are correctly matched.",
+      "year": 2022
+    },
+    {
+      "question": "The term ‘Levant’, often heard in the news, roughly corresponds to which of the following regions?",
+      "options": [
+        "Region along the eastern Mediterranean shores",
+        "Region along North African shores stretching from Egypt to Morocco",
+        "Region along the Persian Gulf and Horn of Africa",
+        "The entire coastal areas of the Mediterranean Sea"
+      ],
+      "correct": "A",
+      "explanation": "The Levant refers to the eastern Mediterranean region covering Syria, Lebanon, Jordan, Israel, Palestine, and parts of Turkey and Egypt (Sinai Peninsula). The region along North Africa from Egypt to Morocco is called the Maghreb, and the term Levant does not cover the entire Mediterranean coastline.",
+      "year": 2022
+    },
+    {
+      "question": "Which one of the following countries has been suffering from decades of civil strife and food shortages and was in news in the recent past for its very severe famine?",
+      "options": [
+        "Angola",
+        "Costa Rica",
+        "Ecuador",
+        "Somalia"
+      ],
+      "correct": "D",
+      "explanation": "Somalia has endured decades of civil strife and political instability since its central government collapsed in 1991. Recurring droughts, exacerbated by climate change and conflict, caused severe food shortages and famine, most acutely in 2022–23.",
+      "year": 2023
+    },
+    {
+      "question": "The area known as ‘Golan Heights’ sometimes appears in the news in the context of the events related to:",
+      "options": [
+        "Central Asia",
+        "Middle East",
+        "South-East Asia",
+        "Central Africa"
+      ],
+      "correct": "B",
+      "explanation": "Golan Heights is a region in the Middle East, contested between Israel and Syria; Israel has controlled most of the territory since the 1967 Arab-Israeli War.",
+      "year": 2015
+    },
+    {
+      "question": "Among the following, which were frequently mentioned in the news for the outbreak of Ebola virus recently?",
+      "options": [
+        "Syria and Jordan",
+        "Guinea, Sierra Leone and Liberia",
+        "Philippines and Papua New Guinea",
+        "Jamaica, Haiti and Surinam"
+      ],
+      "correct": "B",
+      "explanation": "The 2014–2016 Ebola outbreak devastated West Africa, with Guinea, Sierra Leone, and Liberia at its epicentre — the largest Ebola epidemic ever recorded at the time.",
+      "year": 2015
+    },
+    {
+      "question": "Recently, a series of uprisings of people referred to as ‘Arab Spring’ originally started from:",
+      "options": [
+        "Egypt",
+        "Lebanon",
+        "Syria",
+        "Tunisia"
+      ],
+      "correct": "D",
+      "explanation": "The Arab Spring began in Tunisia in December 2010, triggered by the self-immolation of street vendor Mohamed Bouazizi in Sidi Bouzid, sparking protests that led to the fall of President Ben Ali in January 2011 and inspired similar uprisings across the Arab world.",
+      "year": 2015
+    },
+    {
+      "question": "In which one of the following countries have lakhs of people either suffered from severe famine/acute malnutrition or died due to starvation caused by war/ethnic conflicts (very recently)?",
+      "options": [
+        "Angola and Zambia",
+        "Morocco and Tunisia",
+        "Venezuela and Colombia",
+        "Yemen and South Sudan"
+      ],
+      "correct": "D",
+      "explanation": "Yemen and South Sudan have experienced severe humanitarian crises, with millions suffering famine and acute malnutrition primarily due to ongoing wars and ethnic conflicts — Yemen's civil war since 2015 and South Sudan's civil war since 2013.",
+      "year": 2018
+    },
+    {
+      "question": "Consider the following statements:\n\n1. Bidibidi is a large refugee settlement in north-western Kenya.\n2. Some people who fled from South Sudan civil war live in Bidibidi.\n3. Some people who fled from civil war in Somalia live in Dadaab refugee complex in Kenya.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 and 2",
+        "2 only",
+        "2 and 3",
+        "3 only"
+      ],
+      "correct": "C",
+      "explanation": "Statement 1 is incorrect: Bidibidi is one of the world's largest refugee settlements, located in north-western Uganda, not Kenya. Statement 2 is correct: it shelters people displaced by the South Sudan civil war (2013–2018). Statement 3 is correct: the Dadaab refugee complex in north-eastern Kenya has sheltered Somali refugees since the 1991 outbreak of civil war in Somalia.",
+      "year": 2022
+    }
+  ]
+}

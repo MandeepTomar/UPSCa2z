@@ -1,0 +1,175 @@
+{
+  "topic": "Reports, Indices & Global Organizations",
+  "subject": "International Relations",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "Consider the following statements regarding World Toilet Organization:\n\n1. It is one of the agencies of the United Nations.\n2. World Toilet Summit, World Toilet Day and World Toilet College are the initiatives of this organization, to inspire action to tackle the global sanitation crisis.\n3. The main focus of its function is to grant funds to the least developed countries and developing countries to achieve the end of open defecation.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "2 only",
+        "3 only",
+        "1 and 2",
+        "2 and 3"
+      ],
+      "correct": "A",
+      "explanation": "WTO (World Toilet Organization) is a non-profit, not a UN agency — Statement 1 is incorrect. World Toilet Day is on November 19; Summit held in 2019; focus is on breaking sanitation taboos, not granting funds — Statement 3 is incorrect. Statement 2 is correct: World Toilet Summit, World Toilet Day and World Toilet College are its initiatives.",
+      "year": 2024
+    },
+    {
+      "question": "Which of the following gives ‘Global Gender Gap Index’ ranking to the countries of the world?",
+      "options": [
+        "World Economic Forum",
+        "UN Human Rights Council",
+        "UN Women",
+        "World Health Organization"
+      ],
+      "correct": "A",
+      "explanation": "The Global Gender Gap Index, introduced in 2006, is published annually by the World Economic Forum (WEF). It ranks countries on gender parity across Economic Participation and Opportunity, Educational Attainment, Health and Survival, and Political Empowerment.",
+      "year": 2017
+    },
+    {
+      "question": "Which of the following is/are the indicator/indicators used by IFPRI to compute the Global Hunger Index Report?\n\n1. Undernourishment\n2. Child stunting\n3. Child mortality\n\nSelect the correct answer using the code given below.",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1, 2 and 3",
+        "1 and 3 only"
+      ],
+      "correct": "C",
+      "explanation": "The Global Hunger Index, published by IFPRI until 2018 (now by Concern Worldwide and Welthungerhilfe), uses four key indicators: Undernourishment, Child Stunting, Child Wasting, and Child Mortality. Among the options given, Undernourishment, Child Stunting, and Child Mortality are all indicators.",
+      "year": 2016
+    },
+    {
+      "question": "‘Global Financial Stability Report’ is prepared by the:",
+      "options": [
+        "European Central Bank",
+        "International Monetary Fund",
+        "International Bank for Reconstruction and Development",
+        "Organisation for Economic Cooperation and Development"
+      ],
+      "correct": "B",
+      "explanation": "The Global Financial Stability Report (GFSR) is a biannual publication of the International Monetary Fund (IMF) that assesses global financial stability, systemic risks, and vulnerabilities in the international financial system.",
+      "year": 2016
+    },
+    {
+      "question": "‘Doctors Without Borders (Médecins Sans Frontières)’, often in the news, is:",
+      "options": [
+        "A division of World Health Organization",
+        "A non-governmental international organisation",
+        "An inter-governmental agency sponsored by the European Union",
+        "A specialised agency of the United Nations"
+      ],
+      "correct": "B",
+      "explanation": "Médecins Sans Frontières (MSF), or Doctors Without Borders, is a non-governmental, independent international organisation that provides emergency medical aid in conflict zones, epidemics, and natural disasters. It relies primarily on private donations and is not part of the UN or the EU.",
+      "year": 2016
+    },
+    {
+      "question": "‘Beijing Declaration and Platform for Action’, often seen in the news, is:",
+      "options": [
+        "A strategy to tackle regional terrorism, an outcome of a meeting of the Shanghai Cooperation Organization",
+        "A plan of action for sustainable economic growth in the Asia-Pacific Region, an outcome of the deliberations of the Asia-Pacific Economic Forum",
+        "An agenda for women's empowerment, an outcome of a World Conference convened by the United Nations",
+        "A strategy to combat wildlife trafficking, a declaration of the East Asia Summit"
+      ],
+      "correct": "C",
+      "explanation": "The Beijing Declaration and Platform for Action (BPfA) is a landmark international agenda for gender equality and women's empowerment, adopted at the Fourth World Conference on Women in Beijing in 1995, organised by the United Nations.",
+      "year": 2015
+    },
+    {
+      "question": "Amnesty International is:",
+      "options": [
+        "An agency of the United Nations to help refugees of civil wars",
+        "A global Human Rights Movement",
+        "A non-governmental voluntary organization to help very poor people",
+        "An inter-governmental agency to cater to medical emergencies in war-ravaged regions"
+      ],
+      "correct": "B",
+      "explanation": "Amnesty International is a global human rights movement founded in 1961 by British lawyer Peter Benenson. It is not a UN agency (that role, for refugees, belongs to UNHCR) and is not focused on poverty alleviation or medical emergencies.",
+      "year": 2015
+    },
+    {
+      "question": "The ‘Fortaleza Declaration’, recently in the news, is related to the affairs of:",
+      "options": [
+        "ASEAN",
+        "BRICS",
+        "OECD",
+        "WTO"
+      ],
+      "correct": "B",
+      "explanation": "The Fortaleza Declaration was adopted during the 6th BRICS Summit held in Fortaleza, Brazil, in July 2014, which brought together Brazil, Russia, India, China, and South Africa and led to the establishment of the New Development Bank (NDB) and the BRICS Contingent Reserve Arrangement (CRA).",
+      "year": 2015
+    },
+    {
+      "question": "Which one of the following issues the ‘Global Economic Prospects’ report periodically?",
+      "options": [
+        "The Asian Development Bank",
+        "The European Bank for Reconstruction and Development",
+        "The US Federal Reserve Bank",
+        "The World Bank"
+      ],
+      "correct": "D",
+      "explanation": "The Global Economic Prospects report is a flagship publication of the World Bank, released twice a year (typically January and June), providing comprehensive analyses of the global economic landscape and near-term outlook.",
+      "year": 2015
+    },
+    {
+      "question": "The Global Competitiveness Report is published by the:",
+      "options": [
+        "International Monetary Fund",
+        "United Nations Conference on Trade and Development",
+        "World Economic Forum",
+        "World Bank"
+      ],
+      "correct": "C",
+      "explanation": "The World Economic Forum's annual Global Competitiveness Report ranks economies using the Global Competitiveness Index (GCI), evaluating factors like infrastructure, innovation, and market efficiency.",
+      "year": 2019
+    },
+    {
+      "question": "The term “two-state solution” is sometimes mentioned in the news in the context of the affairs of:",
+      "options": [
+        "China",
+        "Israel",
+        "Iraq",
+        "Yemen"
+      ],
+      "correct": "B",
+      "explanation": "The “two-state solution” refers to the proposal for resolving the Israel-Palestine conflict by creating two independent states: Israel and Palestine (comprising the West Bank and Gaza Strip). It is widely supported by the UN, USA, and European Union.",
+      "year": 2018
+    },
+    {
+      "question": "“Rule of Law Index” is released by which of the following?",
+      "options": [
+        "Amnesty International",
+        "International Court of Justice",
+        "The Office of UN Commissioner for Human Rights",
+        "World Justice Project"
+      ],
+      "correct": "D",
+      "explanation": "The “Rule of Law Index” is an annual report published by the World Justice Project (WJP), evaluating countries on constraints on government powers, absence of corruption, open government, fundamental rights, order and security, regulatory enforcement, and civil and criminal justice.",
+      "year": 2018
+    },
+    {
+      "question": "Recently, there has been a concern over the short supply of a group of elements called ‘rare earth metals’. Why?\n\n1. China, which is the largest producer of these elements, has imposed some restrictions on their export.\n2. Other than China, Australia, Canada and Chile, these elements are not found in any country.\n3. Rare earth metals are essential for the manufacture of various kinds of electronic items and there is a growing demand for these elements.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "C",
+      "explanation": "Statement 1 is correct: China, the dominant global producer of rare earth elements, has imposed export restrictions and quotas. Statement 2 is incorrect: rare earth reserves are also found in Asia, Africa, Europe, and South America, including in the USA, India, Russia, Brazil, Vietnam, and Myanmar. Statement 3 is correct: rare earth metals are essential for electronics, with growing global demand.",
+      "year": 2012
+    },
+    {
+      "question": "Consider the following pairs:\n\nInternational Agreement/Set-up : Subject\n1. Alma-Ata Declaration : Healthcare of the people\n2. Hague Convention : Biological and chemical weapons\n3. Talanoa Dialogue : Global climate change\n4. Under2 Coalition : Child rights\n\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "1 and 2 only",
+        "4 only",
+        "1 and 3 only",
+        "2, 3 and 4 only"
+      ],
+      "correct": "C",
+      "explanation": "Pair 1 is correct: the Alma-Ata Declaration (1978) emphasised “Health for All” and primary healthcare. Pair 2 is incorrect: control of biological and chemical weapons is covered by the BWC and CWC, not the Hague Convention (which deals with laws of war). Pair 3 is correct: the Talanoa Dialogue, launched by Fiji at COP23 (2017), relates to global climate action under the Paris Agreement. Pair 4 is incorrect: the Under2 Coalition is a subnational climate-action initiative, not related to child rights.",
+      "year": 2020
+    }
+  ]
+}

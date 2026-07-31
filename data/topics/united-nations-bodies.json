@@ -1,0 +1,103 @@
+{
+  "topic": "United Nations & Its Bodies",
+  "subject": "International Relations",
+  "duration": 0,
+  "questions": [
+    {
+      "question": "With reference to the United Nations Convention on the Law of the Sea, consider the following statements:\n\n1. A coastal state has the right to establish the breadth of its territorial sea up to a limit not exceeding 12 nautical miles, measured from baseline determined in accordance with the convention.\n2. Ships of all states, whether coastal or land-locked, enjoy the right of innocent passage through the territorial sea.\n3. The Exclusive Economic Zone shall not extend beyond 200 nautical miles from the baseline from which the breadth of the territorial sea is measured.\n\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "All three statements are correct under UNCLOS. Coastal States have sovereignty over territorial sea (up to 12 nautical miles); foreign vessels get 'innocent passage'. Article 17, UNCLOS III grants all ships innocent passage through territorial sea; Article 18 defines passage. Continental shelf beyond 200 nautical miles delineated by straight lines (max 60 nautical miles) connecting lat/long coordinates.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to the 'United Nations Credentials Committee', consider the following statements:\n\n1. It is a committee set up by the UN Security Council and works under its supervision.\n2. It traditionally meets in March, June and September every year.\n3. It assesses the credentials of all UN members before submitting a report to the General Assembly.",
+      "options": [
+        "3 only",
+        "1 and 3",
+        "2 and 3",
+        "1 and 2"
+      ],
+      "correct": "A",
+      "explanation": "UN General Assembly approves credentials via a Credentials Committee that checks documentation. It is set up by the General Assembly, not the Security Council — Statement 1 is incorrect. It traditionally meets once, not three times — Statement 2 is incorrect. Statement 3 is correct: it assesses the credentials of all UN members before submitting a report to the General Assembly.",
+      "year": 2022
+    },
+    {
+      "question": "With reference to the United Nations General Assembly, consider the following statements:\n\n1. The UN General Assembly can grant observer status to the non-member States.\n2. Inter-governmental organisations can seek observer status in the UN General Assembly.\n3. Permanent Observers in the UN General Assembly can maintain missions at the UN headquarters.\n\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "D",
+      "explanation": "All three statements are correct. UN General Assembly grants observer status to non-member states and intergovernmental organizations. Permanent Observers can maintain missions at UN headquarters.",
+      "year": 2022
+    },
+    {
+      "question": "Consider the following statements:\n\n1. The United Nations Convention against Corruption (UNCAC) has a 'Protocol against the Smuggling of Migrants by Land, Sea and Air'.\n2. The UNCAC is the ever-first legally binding global anti-corruption instrument.\n3. A highlight of the United Nations Convention against Transnational Organised Crime (UNTOC) is the inclusion of a specific chapter aimed at returning assets to their rightful owners from whom they had been taken illicitly.\n4. The United Nations Office on Drugs and Crime (UNODC) is mandated by its member States to assist in the implementation of both UNCAC and UNTOC.\n\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 3 only",
+        "2, 3 and 4 only",
+        "2 and 4 only",
+        "1, 2, 3 and 4"
+      ],
+      "correct": "C",
+      "explanation": "Statement 1 is incorrect: UNCAC does not cover migrant smuggling. Statement 2 is correct: UNCAC is the only legally binding universal anti-corruption instrument. Statement 3 is incorrect: UN Convention against Transnational Organized Crime covers trafficking, not asset return. Statement 4 is correct: UNODC fights drugs and crime globally.",
+      "year": 2019
+    },
+    {
+      "question": "With reference to 'Asia Pacific Ministerial Conference on Housing and Urban Development (APMCHUD)', consider the following statements:\n\n1. The first APMCHUD was held in India in 2006 on the theme 'Emerging Urban Forms — Policy Responses and Governance Structure'.\n2. India hosts all the Annual Ministerial Conferences in partnership with ADB, APEC and ASEAN.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct": "A",
+      "explanation": "Statement 1 is incorrect: The first APMCHUD was held in India in 2006, not all APMCHUD's permanent Secretariat is in New Delhi. Statement 2 is incorrect: APMCHUD's permanent Secretariat is in New Delhi. Only Statement 1 is correct based on the question.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following statements:\n\n1. Recently, all the countries of the United Nations have adopted the first-ever compact for international migration, the ‘Global Compact for Safe, Orderly and Regular Migration (GCM)’.\n2. The objectives and commitments stated in the GCM are binding on the UN member countries.\n3. The GCM addresses internal migration or internally displaced people also in its objectives and commitments.\n\nHow many of the above statements are correct?",
+      "options": [
+        "Only one",
+        "Only two",
+        "All three",
+        "None"
+      ],
+      "correct": "D",
+      "explanation": "Statement 1 is incorrect: the GCM was adopted by most, but not all, UN member states in December 2018 (e.g., the US, Hungary, Poland, Israel, and the Czech Republic did not endorse it). Statement 2 is incorrect: the GCM is a non-binding, cooperative framework. Statement 3 is incorrect: it focuses on international migration and does not address internal displacement. None of the statements is correct.",
+      "year": 2023
+    },
+    {
+      "question": "With reference to the role of UN-Habitat in the United Nations programme working towards a better urban future, which of the statements is/are correct?\n\n1. UN-Habitat has been mandated by the United Nations General Assembly to promote socially and environmentally sustainable towns and cities to provide adequate shelter for all.\n2. Its partners are either governments or local urban authorities only.\n3. UN-Habitat contributes to the overall objective of the United Nations system to reduce poverty and to promote access to safe drinking water and basic sanitation.\n\nSelect the correct answer using the code given below:",
+      "options": [
+        "1, 2 and 3",
+        "1 and 3 only",
+        "2 and 3 only",
+        "1 only"
+      ],
+      "correct": "B",
+      "explanation": "Statement 1 is correct: UN-Habitat, established in 1978, is mandated by the UN General Assembly to promote sustainable human settlements and adequate shelter for all. Statement 2 is incorrect: UN-Habitat partners with a wide range of stakeholders including NGOs, civil society, academic institutions, and private entities, not just governments or local authorities. Statement 3 is correct: it contributes to reducing poverty and promoting access to safe drinking water and basic sanitation.",
+      "year": 2017
+    },
+    {
+      "question": "Consider the following statements:\n\n1. The Global Ocean Commission grants licences for seabed exploration and mining in international waters.\n2. India has received licences for seabed mineral exploration in international waters.\n3. ‘Rare earth minerals’ are present on the seafloor in international waters.\n\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect: it is the International Seabed Authority (ISA), established under UNCLOS, that grants licences for seabed exploration and mining, not the Global Ocean Commission. Statement 2 is correct: India has been granted an ISA licence to explore polymetallic sulfides in the Indian Ocean Ridge. Statement 3 is correct: rare earth elements are found in deep-sea sediments, polymetallic nodules, and hydrothermal vents in international waters.",
+      "year": 2021
+    }
+  ]
+}

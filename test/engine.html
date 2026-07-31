@@ -944,6 +944,22 @@ async function init() {
       document.getElementById('results-title').textContent = heading;
       document.title = `${data.topic || topicFileName} Practice Test – UPSC A2Z`;
 
+      // Fix: canonical/OG tags were left at their hardcoded default (the
+      // 2026 question-paper page) for every topic-practice URL, so Google
+      // treated all topic pages as duplicates/alternates of that one page
+      // and dropped them from the index. Each topic is unique content, so
+      // point the canonical at the page's own URL instead.
+      // Match the site's actual link format exactly (topic segments joined
+      // with unencoded "/", as used everywhere topic links are generated),
+      // so this doesn't itself become a mismatched/non-self canonical.
+      const topicCanonicalUrl = `https://upsca2z.com/test/engine.html?mode=practice&topic=${topic.split('/').map(encodeURIComponent).join('/')}`;
+      const topicCanonicalEl = document.getElementById('canonical-link');
+      if (topicCanonicalEl) topicCanonicalEl.setAttribute('href', topicCanonicalUrl);
+      const topicOgUrlEl = document.getElementById('og-url');
+      if (topicOgUrlEl) topicOgUrlEl.setAttribute('content', topicCanonicalUrl);
+      const topicOgTitleEl = document.getElementById('og-title');
+      if (topicOgTitleEl) topicOgTitleEl.setAttribute('content', `${heading} – Free UPSC Topic Practice | UPSC A2Z`);
+
       State.timeRemaining = computedDuration;
     } else {
       State.year = data.year;
