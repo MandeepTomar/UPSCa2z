@@ -470,91 +470,167 @@
     display: none; background: var(--gray-bg); min-height: 100vh;
   }
   .results-header {
-    background: var(--dark); padding: 24px;
+    background: var(--dark);
+    background-image: radial-gradient(circle at 15% 20%, rgba(231,76,60,0.20), transparent 45%),
+                       radial-gradient(circle at 85% 80%, rgba(37,99,235,0.18), transparent 45%);
+    padding: 34px 24px 40px;
     text-align: center;
+    position: relative;
+  }
+  .results-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.14);
+    color: rgba(255,255,255,0.85);
+    font-size: 12px; font-weight: 600;
+    padding: 5px 12px; border-radius: 999px;
+    margin-bottom: 14px;
+    font-family: var(--font-body);
   }
   .results-header h1 {
     font-family: var(--font-heading);
     font-size: 1.6rem; color: white; font-weight: 700;
+    letter-spacing: -0.3px;
   }
-  .results-header p { color: rgba(255,255,255,0.5); font-size: 14px; margin-top: 4px; }
+  .results-header p { color: rgba(255,255,255,0.55); font-size: 14px; margin-top: 6px; }
+
   .results-body {
-    max-width: 900px; margin: 0 auto; padding: 24px 16px;
+    max-width: 900px; margin: 0 auto; padding: 0 16px 32px;
   }
+
   .score-hero {
-    background: white; border-radius: 16px;
+    background: white; border-radius: 18px;
     border: 1px solid var(--gray-border);
-    padding: 32px 24px; text-align: center;
-    margin-bottom: 20px;
+    box-shadow: 0 10px 30px -12px rgba(26,26,46,0.12);
+    padding: 28px 24px;
+    margin: -28px 0 20px;
+    position: relative;
+    z-index: 2;
   }
-  .score-circle {
-    width: 120px; height: 120px; border-radius: 50%;
-    background: linear-gradient(135deg, var(--red), #9B1E1E);
+  .score-hero-grid {
+    display: flex; align-items: center; gap: 28px;
+    flex-wrap: wrap;
+  }
+  .score-ring-wrap {
+    position: relative;
+    width: 148px; height: 148px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+  .score-ring { width: 148px; height: 148px; transform: rotate(-90deg); }
+  .score-ring-bg {
+    fill: none; stroke: var(--gray-bg); stroke-width: 12;
+  }
+  .score-ring-fill {
+    fill: none; stroke: var(--red-light); stroke-width: 12;
+    stroke-linecap: round;
+    stroke-dasharray: 377;
+    stroke-dashoffset: 377;
+    transition: stroke-dashoffset 1s cubic-bezier(0.22, 1, 0.36, 1), stroke 0.4s ease;
+  }
+  .score-ring-center {
+    position: absolute; inset: 0;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-    margin: 0 auto 20px;
   }
-  .score-circle .score-val {
+  .score-ring-center .score-val {
     font-family: var(--font-heading);
-    font-size: 1.8rem; font-weight: 700; color: white;
+    font-size: 2rem; font-weight: 700; color: var(--dark);
     line-height: 1;
   }
-  .score-circle .score-total {
-    font-size: 12px; color: rgba(255,255,255,0.7);
+  .score-ring-center .score-total {
+    font-size: 12px; color: var(--gray-text); margin-top: 2px;
   }
-  .score-hero h2 {
+
+  .score-hero-text { flex: 1; min-width: 220px; }
+  .score-hero-text h2 {
     font-family: var(--font-heading);
-    font-size: 1.3rem; font-weight: 700; color: var(--dark);
-    margin-bottom: 8px;
+    font-size: 1.25rem; font-weight: 700; color: var(--dark);
+    margin-bottom: 6px;
   }
-  .score-hero p { color: var(--gray-text); font-size: 14px; }
+  .score-hero-text p { color: var(--gray-text); font-size: 13.5px; line-height: 1.5; }
+
   .score-breakdown {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 12px; margin-top: 24px;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 10px; margin-top: 22px;
   }
   .breakdown-card {
-    padding: 16px; border-radius: 10px; text-align: center;
+    padding: 14px 8px; border-radius: 12px; text-align: center;
+    border: 1px solid transparent;
   }
   .breakdown-card .b-val {
     font-family: var(--font-heading);
-    font-size: 1.4rem; font-weight: 700; display: block;
+    font-size: 1.3rem; font-weight: 700; display: block;
+    line-height: 1;
   }
   .breakdown-card .b-lbl {
-    font-size: 12px; margin-top: 4px;
+    font-size: 11.5px; margin-top: 6px; font-weight: 500;
+    opacity: 0.85;
   }
   .breakdown-card.correct { background: var(--green-pale); color: var(--green); }
   .breakdown-card.wrong { background: var(--red-pale); color: var(--red); }
   .breakdown-card.skip { background: var(--gray-bg); color: var(--gray-text); }
   .breakdown-card.score-gained { background: var(--blue-pale); color: var(--blue); }
 
+  @media (max-width: 480px) {
+    .score-breakdown { grid-template-columns: repeat(2, 1fr); }
+  }
+
   .subject-analysis {
-    background: white; border-radius: 16px;
+    background: white; border-radius: 18px;
     border: 1px solid var(--gray-border);
-    padding: 24px; margin-bottom: 20px;
+    box-shadow: 0 6px 20px -14px rgba(26,26,46,0.15);
+    padding: 22px 24px 20px; margin-bottom: 20px;
   }
   .subject-analysis h3 {
     font-family: var(--font-heading);
-    font-size: 1rem; font-weight: 700; margin-bottom: 20px;
+    font-size: 0.95rem; font-weight: 700; margin-bottom: 18px;
+    color: var(--dark);
+    display: flex; align-items: center; gap: 8px;
   }
   .subj-row {
-    display: flex; align-items: center; gap: 12px; margin-bottom: 12px;
+    display: flex; align-items: center; gap: 12px; margin-bottom: 14px;
   }
-  .subj-name { width: 140px; font-size: 13px; color: var(--dark); flex-shrink: 0; }
+  .subj-row:last-child { margin-bottom: 0; }
+  .subj-name { width: 150px; font-size: 13px; color: var(--dark); flex-shrink: 0; font-weight: 500; }
   .subj-bar-track { flex: 1; height: 8px; background: var(--gray-bg); border-radius: 4px; overflow: hidden; }
-  .subj-bar-fill { height: 100%; background: var(--blue); border-radius: 4px; transition: width 0.6s ease; }
-  .subj-score { font-size: 12px; color: var(--gray-text); white-space: nowrap; }
-
-  .results-review-btn {
-    display: block; width: 100%;
-    background: var(--dark); color: white; border: none;
-    padding: 16px; border-radius: 12px; cursor: pointer;
-    font-family: var(--font-heading); font-size: 1rem; font-weight: 600;
-    margin-bottom: 12px;
+  .subj-bar-fill {
+    height: 100%; border-radius: 4px;
+    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    background: var(--blue);
   }
+  .subj-bar-fill.tier-low { background: var(--red-light); }
+  .subj-bar-fill.tier-mid { background: var(--orange); }
+  .subj-bar-fill.tier-high { background: var(--green); }
+  .subj-score {
+    font-size: 11.5px; font-weight: 600; white-space: nowrap;
+    min-width: 78px; text-align: right;
+    padding: 3px 9px; border-radius: 999px;
+    background: var(--gray-bg); color: var(--gray-text);
+  }
+  .subj-score.tier-low { background: var(--red-pale); color: var(--red); }
+  .subj-score.tier-mid { background: var(--orange-pale); color: var(--orange); }
+  .subj-score.tier-high { background: var(--green-pale); color: var(--green); }
+
+  .results-actions {
+    display: grid; gap: 10px;
+  }
+  .results-review-btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    width: 100%;
+    background: var(--dark); color: white; border: none;
+    padding: 15px; border-radius: 12px; cursor: pointer;
+    font-family: var(--font-heading); font-size: 0.95rem; font-weight: 600;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    box-shadow: 0 6px 16px -6px rgba(26,26,46,0.35);
+  }
+  .results-review-btn:hover { transform: translateY(-1px); background: #24243f; }
   .results-review-btn.outline {
     background: white; color: var(--dark);
     border: 1.5px solid var(--gray-border);
+    box-shadow: none;
   }
+  .results-review-btn.outline:hover { background: var(--gray-bg); border-color: #C9CFDA; }
 
   /* Review Mode */
   .review-banner {
@@ -807,17 +883,28 @@
 <!-- Results Screen -->
 <div id="results-screen">
   <div class="results-header">
+    <span class="results-badge">✅ Test Submitted</span>
     <h1 id="results-title">UPSC Prelims 2026 — GS Paper I</h1>
     <p id="results-sub">Results & Analysis</p>
   </div>
   <div class="results-body">
     <div class="score-hero">
-      <div class="score-circle">
-        <div class="score-val" id="rs-score">0</div>
-        <div class="score-total" id="rs-score-total">/200</div>
+      <div class="score-hero-grid">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 140 140">
+            <circle class="score-ring-bg" cx="70" cy="70" r="60"></circle>
+            <circle class="score-ring-fill" id="rs-ring" cx="70" cy="70" r="60"></circle>
+          </svg>
+          <div class="score-ring-center">
+            <div class="score-val" id="rs-score">0</div>
+            <div class="score-total" id="rs-score-total">/200</div>
+          </div>
+        </div>
+        <div class="score-hero-text">
+          <h2 id="rs-headline">Your Score</h2>
+          <p id="rs-subtext">Here's your performance breakdown</p>
+        </div>
       </div>
-      <h2 id="rs-headline">Your Score</h2>
-      <p id="rs-subtext">Here's your performance breakdown</p>
       <div class="score-breakdown">
         <div class="breakdown-card correct"><span class="b-val" id="rs-correct">0</span><div class="b-lbl">Correct</div></div>
         <div class="breakdown-card wrong"><span class="b-val" id="rs-wrong">0</span><div class="b-lbl">Wrong</div></div>
@@ -831,9 +918,11 @@
       <div id="subject-rows"></div>
     </div>
 
-    <button class="results-review-btn" onclick="startReview()">📖 Review All Answers</button>
-    <button class="results-review-btn outline" onclick="retakeTest()">🔄 Retake Test</button>
-    <button class="results-review-btn outline" onclick="goHome()">🏠 Back to Home</button>
+    <div class="results-actions">
+      <button class="results-review-btn" onclick="startReview()">📖 Review All Answers</button>
+      <button class="results-review-btn outline" onclick="retakeTest()">🔄 Retake Test</button>
+      <button class="results-review-btn outline" onclick="goHome()">🏠 Back to Home</button>
+    </div>
   </div>
 </div>
 
@@ -1441,6 +1530,20 @@ function showResults(score, correct, wrong, skip, accuracy, subjectMap) {
   document.getElementById('rs-headline').textContent = score >= excellentCut ? '🎉 Excellent Performance!' : score >= goodCut ? '👍 Good Attempt!' : '💪 Keep Practicing!';
   document.getElementById('rs-subtext').textContent = `You scored ${score}/${maxScore} with ${accuracy}% accuracy on attempted questions.`;
 
+  // Animate the score ring and color it by performance tier.
+  const ringEl = document.getElementById('rs-ring');
+  if (ringEl) {
+    const ringPct = Math.max(0, Math.min(100, (score / maxScore) * 100));
+    const circumference = 377; // 2 * PI * 60, matches the SVG circle radius
+    const ringColor = score >= excellentCut ? 'var(--green)' : score >= goodCut ? 'var(--orange)' : 'var(--red-light)';
+    ringEl.style.stroke = ringColor;
+    // Reset then set on next frame so the transition animates from empty.
+    ringEl.style.strokeDashoffset = circumference;
+    requestAnimationFrame(() => {
+      ringEl.style.strokeDashoffset = circumference - (circumference * ringPct) / 100;
+    });
+  }
+
   // Subject-wise breakdown is redundant for a single-topic practice quiz.
   const subjectAnalysisEl = document.querySelector('.subject-analysis');
   if (subjectAnalysisEl) subjectAnalysisEl.style.display = State.mode ? 'none' : '';
@@ -1452,12 +1555,13 @@ function showResults(score, correct, wrong, skip, accuracy, subjectMap) {
     .sort((a, b) => b[1].total - a[1].total)
     .forEach(([subj, data]) => {
       const pct = data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0;
+      const tier = pct >= 60 ? 'tier-high' : pct >= 30 ? 'tier-mid' : 'tier-low';
       const row = document.createElement('div');
       row.className = 'subj-row';
       row.innerHTML = `
         <div class="subj-name">${subj}</div>
-        <div class="subj-bar-track"><div class="subj-bar-fill" style="width:${pct}%"></div></div>
-        <div class="subj-score">${data.correct}/${data.total} (${pct}%)</div>
+        <div class="subj-bar-track"><div class="subj-bar-fill ${tier}" style="width:${pct}%"></div></div>
+        <div class="subj-score ${tier}">${data.correct}/${data.total} (${pct}%)</div>
       `;
       subjectEl.appendChild(row);
     });
